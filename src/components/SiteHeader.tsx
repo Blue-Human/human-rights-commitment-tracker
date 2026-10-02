@@ -1,26 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { AppBar, Box, Button, Container, Stack, Toolbar, Typography } from "@mui/material";
-import PublicIcon from "@mui/icons-material/Public";
+import { AppBar, Box, Button, Container, Divider, Stack, Toolbar, Typography } from "@mui/material";
 
 export function SiteHeader() {
   return (
-    <AppBar position="sticky" color="inherit" elevation={0} sx={{ borderBottom: "1px solid", borderColor: "divider", bgcolor: "rgba(255,255,255,.96)", backdropFilter: "blur(10px)" }}>
+    <AppBar position="sticky" color="inherit" elevation={0} sx={{ bgcolor: "rgba(255,255,255,.98)", borderTop: "4px solid", borderTopColor: "secondary.main", borderBottom: "1px solid", borderBottomColor: "divider" }}>
       <Container maxWidth="lg">
-        <Toolbar disableGutters sx={{ minHeight: 72, justifyContent: "space-between" }}>
-          <Stack component={Link} href="/" direction="row" spacing={1.4} alignItems="center" sx={{ color: "inherit", textDecoration: "none" }}>
-            <Box sx={{ width: 38, height: 38, display: "grid", placeItems: "center", borderRadius: 2.5, bgcolor: "primary.main", color: "white" }}>
-              <PublicIcon fontSize="small" />
+        <Toolbar disableGutters sx={{ minHeight: 76, justifyContent: "space-between", gap: 3 }}>
+          <Stack component={Link} href="/" direction="row" spacing={2} alignItems="center" sx={{ color: "inherit", textDecoration: "none", minWidth: 0 }}>
+            <Box sx={{ pr: 2, borderRight: "1px solid", borderColor: "divider" }}>
+              <Typography sx={{ fontSize: ".76rem", fontWeight: 700, letterSpacing: ".16em", color: "primary.main", whiteSpace: "nowrap" }}>BLUE HUMAN</Typography>
+              <Typography variant="caption" color="text.secondary" sx={{ letterSpacing: ".04em" }}>Human rights & human security</Typography>
             </Box>
-            <Box>
-              <Typography fontWeight={700} lineHeight={1.05}>Blue Human</Typography>
-              <Typography variant="caption" color="text.secondary">Human Rights Commitment Tracker</Typography>
+            <Box sx={{ display: { xs: "none", sm: "block" } }}>
+              <Typography fontWeight={600} color="primary.main" lineHeight={1.15}>Human Rights Commitment Tracker</Typography>
+              <Typography variant="caption" color="text.secondary">Independent public monitoring</Typography>
             </Box>
           </Stack>
-          <Stack direction="row" spacing={1}>
-            <Button component={Link} href="/" color="primary">Explore</Button>
-            <Button component="a" href="https://bluehuman.org" target="_blank" variant="outlined">About Blue Human</Button>
+          <Stack direction="row" spacing={.5} alignItems="center">
+            <Button component={Link} href="/" color="primary">Data</Button>
+            <Divider orientation="vertical" flexItem sx={{ mx: .5 }} />
+            <Button component="a" href="https://bluehuman.org" target="_blank" color="primary">Blue Human</Button>
           </Stack>
         </Toolbar>
       </Container>
