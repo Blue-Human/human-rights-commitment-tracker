@@ -2,9 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
-import MenuBookRoundedIcon from "@mui/icons-material/MenuBookRounded";
-import VerifiedRoundedIcon from "@mui/icons-material/VerifiedRounded";
-import { Box, Button, Card, CardContent, Chip, Container, Divider, Stack, Typography } from "@mui/material";
+import { Box, Button, Container, Divider, Paper, Stack, Typography } from "@mui/material";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { getCommitment, getEvidence } from "@/lib/hrct";
@@ -13,102 +11,108 @@ function humanize(value?: string | null) {
   return value ? value.replaceAll("_", " ").replace(/\b\w/g, (m) => m.toUpperCase()) : "Not specified";
 }
 
+function Meta({ label, value }: { label: string; value: string }) {
+  return <Box><Typography variant="overline" color="text.secondary">{label}</Typography><Typography sx={{ mt: .25 }}>{value}</Typography></Box>;
+}
+
 export default async function CommitmentPage({ params }: { params: Promise<{ publicId: string }> }) {
   const { publicId } = await params;
   const decoded = decodeURIComponent(publicId);
   const [commitment, evidence] = await Promise.all([getCommitment(decoded), getEvidence(decoded)]);
   if (!commitment) notFound();
 
+  const pending = commitment.assessment_status === "not_assessed";
+
   return (
     <>
       <SiteHeader />
       <Box component="main">
-        <Box sx={{ bgcolor: "#f3f7fa", borderBottom: "1px solid", borderColor: "divider" }}>
-          <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
-            <Button component={Link} href="/" startIcon={<ArrowBackRoundedIcon />} sx={{ mb: 3 }}>Back to tracker</Button>
-            <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mb: 2 }}>
-              <Chip label={commitment.country_name} variant="outlined" />
-              <Chip label={commitment.mechanism_name} variant="outlined" />
+        <Box sx={{ bgcolor: "#fff", borderBottom: "1px solid", borderColor: "divider" }}>
+          <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
+            <Button component={Link} href="/" startIcon={<ArrowBackRoundedIcon />} sx={{ mb: 3 }}>Back to public dataset</Button>
+            <Typography variant="overline" color="secondary.main">Spain · Universal Periodic Review · Recommendation {commitment.recommendation_number}</Typography>
+            <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.3rem", md: "3.55rem" }, maxWidth: 980, mt: 1.15 }}>{commitment.title}</Typography>
+            <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 900, fontSize: "1.08rem", lineHeight: 1.75 }}>{commitment.normalized_summary || commitment.original_text}</Typography>
+            <Stack direction="row" spacing={1.25} flexWrap="wrap" useFlexGap sx={{ mt: 3 }}>
               <StatusChip status={commitment.assessment_status} />
+              <Typography variant="caption" sx={{ px: 1, py: .45, border: "1px solid", borderColor: "divider" }}>{humanize(commitment.acceptance_status)}</Typography>
+              <Typography variant="caption" sx={{ px: 1, py: .45, border: "1px solid", borderColor: "divider" }}>{commitment.public_id}</Typography>
             </Stack>
-            <Typography variant="overline" color="secondary.main" fontWeight={700}>{commitment.public_id}</Typography>
-            <Typography variant="h1" sx={{ fontSize: { xs: "2.25rem", md: "3.6rem" }, maxWidth: 950, mt: 1 }}>{commitment.title}</Typography>
-            <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 850, fontSize: "1.08rem", lineHeight: 1.75 }}>{commitment.normalized_summary || commitment.original_text}</Typography>
           </Container>
         </Box>
 
         <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
-          <Stack direction={{ xs: "column", lg: "row" }} spacing={3} alignItems="flex-start">
-            <Stack spacing={3} sx={{ flex: 1, minWidth: 0 }}>
-              <Card>
-                <CardContent sx={{ p: { xs: 3, md: 4 } }}>
-                  <Stack direction="row" spacing={1.5} alignItems="center" sx={{ mb: 2 }}>
-                    <VerifiedRoundedIcon color="secondary" />
-                    <Typography variant="h5" fontWeight={700}>Current assessment</Typography>
-                  </Stack>
+          <Stack direction={{ xs: "column", lg: "row" }} spacing={{ xs: 4, lg: 7 }} alignItems="flex-start">
+            <Stack spacing={5} sx={{ flex: 1, minWidth: 0 }}>
+              <Box component="section">
+                <Box sx={{ borderLeft: "4px solid", borderLeftColor: "secondary.main", pl: 2, mb: 2.5 }}>
+                  <Typography variant="h4" color="primary.main">Implementation assessment</Typography>
+                </Box>
+                <Paper variant="outlined" square sx={{ p: { xs: 2.5, md: 3.5 } }}>
                   <StatusChip status={commitment.assessment_status} />
-                  <Typography sx={{ mt: 2.5, lineHeight: 1.8 }}>{commitment.assessment_rationale || "No public rationale is available."}</Typography>
+                  <Typography sx={{ mt: 2.25, lineHeight: 1.8 }}>
+                    {pending ? "This recommendation is part of the published pilot catalogue. Blue Human has not yet issued an implementation finding for this record." : (commitment.assessment_rationale || "No public rationale is available.")}
+                  </Typography>
                   <Divider sx={{ my: 3 }} />
-                  <Stack direction={{ xs: "column", sm: "row" }} spacing={4}>
-                    <Box><Typography variant="caption" color="text.secondary">Confidence</Typography><Typography fontWeight={600}>{humanize(commitment.assessment_confidence)}</Typography></Box>
-                    <Box><Typography variant="caption" color="text.secondary">Assessment date</Typography><Typography fontWeight={600}>{commitment.assessment_date || "Not specified"}</Typography></Box>
-                    <Box><Typography variant="caption" color="text.secondary">Methodology</Typography><Typography fontWeight={600}>HRCT v{commitment.methodology_version || "1.0"}</Typography></Box>
+                  <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 5 }}>
+                    <Meta label="Confidence" value={pending ? "Not applicable" : humanize(commitment.assessment_confidence)} />
+                    <Meta label="Assessment date" value={pending ? "Pending" : (commitment.assessment_date || "Not specified")} />
+                    <Meta label="Methodology" value={`HRCT v${commitment.methodology_version || "1.0"}`} />
                   </Stack>
-                </CardContent>
-              </Card>
+                </Paper>
+              </Box>
 
-              <Card>
-                <CardContent sx={{ p: { xs: 3, md: 4 } }}>
-                  <Typography variant="h5" fontWeight={700} sx={{ mb: 2 }}>Original commitment</Typography>
-                  <Typography sx={{ fontSize: "1.08rem", lineHeight: 1.85, whiteSpace: "pre-line" }}>{commitment.original_text}</Typography>
-                </CardContent>
-              </Card>
+              <Box component="section">
+                <Box sx={{ borderLeft: "4px solid", borderLeftColor: "secondary.main", pl: 2, mb: 2.5 }}>
+                  <Typography variant="h4" color="primary.main">Authoritative recommendation</Typography>
+                </Box>
+                <Paper variant="outlined" square sx={{ p: { xs: 2.5, md: 3.5 } }}>
+                  <Typography sx={{ fontSize: "1.06rem", lineHeight: 1.9, whiteSpace: "pre-line" }}>{commitment.original_text}</Typography>
+                </Paper>
+              </Box>
 
-              <Box>
-                <Typography variant="h5" fontWeight={700} sx={{ mb: 2 }}>Evidence considered</Typography>
-                <Stack spacing={2}>
+              <Box component="section">
+                <Box sx={{ borderLeft: "4px solid", borderLeftColor: "secondary.main", pl: 2, mb: 2.5 }}>
+                  <Typography variant="h4" color="primary.main">Evidence record</Typography>
+                </Box>
+                <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider", bgcolor: "#fff" }}>
                   {evidence.map((item) => (
-                    <Card key={item.id}>
-                      <CardContent sx={{ p: 3 }}>
-                        <Stack direction="row" justifyContent="space-between" spacing={2} alignItems="flex-start">
-                          <Box>
-                            <Chip size="small" label={humanize(item.evidence_type)} variant="outlined" sx={{ mb: 1.5 }} />
-                            <Typography variant="h6" fontWeight={700}>{item.source_title}</Typography>
-                            {item.source_publisher && <Typography variant="body2" color="text.secondary">{item.source_publisher}</Typography>}
-                          </Box>
-                          {item.source_url && <Button component="a" href={item.source_url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small">Source</Button>}
-                        </Stack>
-                        <Typography sx={{ mt: 2, lineHeight: 1.75 }}>{item.finding}</Typography>
-                        {item.reliability_notes && <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5 }}>Limitations: {item.reliability_notes}</Typography>}
-                      </CardContent>
-                    </Card>
+                    <Box key={item.id} sx={{ py: 3 }}>
+                      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
+                        <Box>
+                          <Typography variant="overline" color="text.secondary">{humanize(item.evidence_type)}</Typography>
+                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.source_title}</Typography>
+                          {item.source_publisher && <Typography variant="body2" color="text.secondary">{item.source_publisher}</Typography>}
+                        </Box>
+                        {item.source_url && <Button component="a" href={item.source_url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small">Open source</Button>}
+                      </Stack>
+                      <Typography sx={{ mt: 2, lineHeight: 1.75 }}>{item.finding}</Typography>
+                      {item.reliability_notes && <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5 }}>Limitations: {item.reliability_notes}</Typography>}
+                    </Box>
                   ))}
-                  {!evidence.length && <Typography color="text.secondary">No public evidence records are attached to this assessment.</Typography>}
+                  {!evidence.length && <Typography color="text.secondary" sx={{ py: 3 }}>No public implementation evidence has yet been attached to this record.</Typography>}
                 </Stack>
               </Box>
             </Stack>
 
-            <Stack spacing={2} sx={{ width: { xs: "100%", lg: 330 }, position: { lg: "sticky" }, top: { lg: 96 } }}>
-              <Card>
-                <CardContent sx={{ p: 3 }}>
-                  <Typography fontWeight={700} sx={{ mb: 2 }}>Record details</Typography>
-                  <Stack spacing={2}>
-                    <Box><Typography variant="caption" color="text.secondary">Recommendation</Typography><Typography>{commitment.recommendation_number || "—"}</Typography></Box>
-                    <Box><Typography variant="caption" color="text.secondary">Acceptance</Typography><Typography>{humanize(commitment.acceptance_status)}</Typography></Box>
-                    <Box><Typography variant="caption" color="text.secondary">Mechanism</Typography><Typography>{commitment.mechanism_name}</Typography></Box>
-                    <Box><Typography variant="caption" color="text.secondary">Published</Typography><Typography>{commitment.published_at ? new Date(commitment.published_at).toLocaleDateString("en-GB") : "—"}</Typography></Box>
-                  </Stack>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent sx={{ p: 3 }}>
-                  <Stack direction="row" spacing={1.2} alignItems="center" sx={{ mb: 1.5 }}><MenuBookRoundedIcon color="secondary" /><Typography fontWeight={700}>Authoritative source</Typography></Stack>
-                  <Typography>{commitment.authoritative_source_title || "Source document"}</Typography>
-                  {commitment.authoritative_source_reference && <Typography variant="body2" color="text.secondary" sx={{ mt: .5 }}>{commitment.authoritative_source_reference}</Typography>}
-                  {commitment.authoritative_source_url && <Button component="a" href={commitment.authoritative_source_url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} sx={{ mt: 2 }}>Open source</Button>}
-                </CardContent>
-              </Card>
-            </Stack>
+            <Box sx={{ width: { xs: "100%", lg: 330 }, position: { lg: "sticky" }, top: { lg: 104 } }}>
+              <Paper variant="outlined" square sx={{ p: 3, borderTop: "4px solid", borderTopColor: "primary.main" }}>
+                <Typography variant="h6" color="primary.main" sx={{ mb: 2.5 }}>Record information</Typography>
+                <Stack spacing={2.25} divider={<Divider flexItem />}>
+                  <Meta label="Recommendation" value={commitment.recommendation_number || "—"} />
+                  <Meta label="State response" value={humanize(commitment.acceptance_status)} />
+                  <Meta label="Mechanism" value={commitment.mechanism_name} />
+                  <Meta label="Publication date" value={commitment.published_at ? new Date(commitment.published_at).toLocaleDateString("en-GB") : "—"} />
+                </Stack>
+              </Paper>
+
+              <Paper variant="outlined" square sx={{ p: 3, mt: 2 }}>
+                <Typography variant="overline" color="text.secondary">Authoritative source</Typography>
+                <Typography color="primary.main" fontWeight={600} sx={{ mt: .5 }}>{commitment.authoritative_source_title || "United Nations source document"}</Typography>
+                {commitment.authoritative_source_reference && <Typography variant="body2" color="text.secondary" sx={{ mt: .6 }}>{commitment.authoritative_source_reference}</Typography>}
+                {commitment.authoritative_source_url && <Button component="a" href={commitment.authoritative_source_url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} sx={{ mt: 2 }}>Open UN source</Button>}
+              </Paper>
+            </Box>
           </Stack>
         </Container>
       </Box>
