@@ -4,7 +4,6 @@ import { createTheme } from "@mui/material/styles";
 
 export const brand = {
   navy: "#0a1e33",
-  cyan: "#00a3e0",
   ink: "#15283b",
   muted: "#64717c",
   border: "#d8dde2",
@@ -15,7 +14,7 @@ export const theme = createTheme({
   palette: {
     mode: "light",
     primary: { main: brand.navy, contrastText: "#ffffff" },
-    secondary: { main: brand.cyan, contrastText: "#ffffff" },
+    secondary: { main: brand.navy, contrastText: "#ffffff" },
     background: { default: "#ffffff", paper: "#ffffff" },
     text: { primary: brand.ink, secondary: brand.muted },
     divider: brand.border,
@@ -36,7 +35,7 @@ export const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: {
         body: { backgroundColor: "#ffffff" },
-        "::selection": { backgroundColor: "rgba(0,163,224,.18)" },
+        "::selection": { backgroundColor: "rgba(10,30,51,.16)" },
       },
     },
     MuiAppBar: { styleOverrides: { root: { boxShadow: "none" } } },
