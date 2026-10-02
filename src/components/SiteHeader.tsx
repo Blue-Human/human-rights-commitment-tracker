@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { AppBar, Button, Container, Stack, Toolbar } from "@mui/material";
+import { AppBar, Box, Button, Container, Stack, Toolbar } from "@mui/material";
 
 export function SiteHeader() {
   return (
@@ -16,21 +15,40 @@ export function SiteHeader() {
       }}
     >
       <Container maxWidth="lg">
-        <Toolbar disableGutters sx={{ minHeight: 68, justifyContent: "space-between", gap: 3 }}>
+        <Toolbar
+          disableGutters
+          sx={{
+            minHeight: 68,
+            justifyContent: "space-between",
+            gap: 3,
+            overflow: "visible",
+          }}
+        >
           <Stack
             component={Link}
             href="/"
             direction="row"
             alignItems="center"
-            sx={{ color: "inherit", textDecoration: "none", minWidth: 0 }}
+            sx={{
+              color: "inherit",
+              textDecoration: "none",
+              minWidth: 0,
+              flexShrink: 0,
+              overflow: "visible",
+            }}
           >
-            <Image
+            <Box
+              component="img"
               src="/images/HRCT.png"
               alt="HRCT — Human Rights Commitment Tracker"
-              width={439}
-              height={203}
-              priority
-              style={{ width: "auto", height: 42, objectFit: "contain" }}
+              sx={{
+                display: "block",
+                height: { xs: 32, sm: 38 },
+                width: "auto",
+                maxWidth: { xs: 190, sm: 240 },
+                objectFit: "contain",
+                flexShrink: 0,
+              }}
             />
           </Stack>
 
