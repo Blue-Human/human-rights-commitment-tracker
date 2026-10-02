@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { AppBar, Box, Button, Container, Stack, Toolbar } from "@mui/material";
+import { AppBar, Box, Button, Container, Stack, Toolbar, Typography } from "@mui/material";
 
 export function SiteHeader() {
   return (
@@ -18,7 +18,7 @@ export function SiteHeader() {
         <Toolbar
           disableGutters
           sx={{
-            minHeight: 68,
+            minHeight: 72,
             justifyContent: "space-between",
             gap: 3,
             overflow: "visible",
@@ -27,8 +27,7 @@ export function SiteHeader() {
           <Stack
             component={Link}
             href="/"
-            direction="row"
-            alignItems="center"
+            spacing={0.35}
             sx={{
               color: "inherit",
               textDecoration: "none",
@@ -40,16 +39,30 @@ export function SiteHeader() {
             <Box
               component="img"
               src="/images/HRCT.png"
-              alt="HRCT — Human Rights Commitment Tracker"
+              alt="HRCT"
               sx={{
                 display: "block",
-                height: { xs: 32, sm: 38 },
+                height: { xs: 24, sm: 28 },
                 width: "auto",
-                maxWidth: { xs: 190, sm: 240 },
+                maxWidth: { xs: 145, sm: 175 },
                 objectFit: "contain",
                 flexShrink: 0,
               }}
             />
+            <Typography
+              variant="caption"
+              sx={{
+                fontFamily: '"IBM Plex Sans", Arial, sans-serif',
+                fontSize: { xs: ".62rem", sm: ".69rem" },
+                fontWeight: 500,
+                lineHeight: 1.15,
+                letterSpacing: ".015em",
+                color: "rgba(255,255,255,.82)",
+                whiteSpace: "nowrap",
+              }}
+            >
+              Human Rights Commitment Tracker
+            </Typography>
           </Stack>
 
           <Stack direction="row" spacing={1.5} alignItems="center">
