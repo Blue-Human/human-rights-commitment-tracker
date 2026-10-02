@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem, Paper, Select, Stack, TextField, Typography } from "@mui/material";
 import type { Commitment } from "@/lib/hrct";
 import { StatusChip } from "./StatusChip";
@@ -19,14 +18,14 @@ export function CommitmentExplorer({ commitments }: { commitments: Commitment[] 
   }), [commitments, query, status, acceptance]);
 
   return (
-    <Stack spacing={2.5}>
-      <Paper variant="outlined" square sx={{ p: { xs: 2, md: 2.5 } }}>
-        <Stack direction={{ xs: "column", md: "row" }} spacing={1.5}>
+    <Stack spacing={2.25}>
+      <Paper variant="outlined" square sx={{ p: { xs: 2, md: 2.25 }, bgcolor: "#fff" }}>
+        <Stack direction={{ xs: "column", md: "row" }} spacing={1.25}>
           <TextField
             fullWidth
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by recommendation number, title or keyword"
+            placeholder="Search recommendation number or keyword"
             InputProps={{ startAdornment: <InputAdornment position="start"><SearchIcon fontSize="small" /></InputAdornment> }}
           />
           <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
@@ -42,7 +41,7 @@ export function CommitmentExplorer({ commitments }: { commitments: Commitment[] 
               <MenuItem value="unable_to_assess">Insufficient evidence</MenuItem>
             </Select>
           </FormControl>
-          <FormControl sx={{ minWidth: { xs: "100%", md: 180 } }}>
+          <FormControl sx={{ minWidth: { xs: "100%", md: 175 } }}>
             <InputLabel id="acceptance-filter">State response</InputLabel>
             <Select labelId="acceptance-filter" label="State response" value={acceptance} onChange={(e) => setAcceptance(e.target.value)}>
               <MenuItem value="all">All responses</MenuItem>
@@ -54,35 +53,37 @@ export function CommitmentExplorer({ commitments }: { commitments: Commitment[] 
         </Stack>
       </Paper>
 
-      <Stack direction="row" justifyContent="space-between" alignItems="center">
+      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={.5}>
         <Typography variant="body2" color="text.secondary">{visible.length} recommendation{visible.length === 1 ? "" : "s"}</Typography>
-        <Typography variant="caption" color="text.secondary">Source: UN Human Rights Council · A/HRC/60/8</Typography>
+        <Typography variant="caption" color="text.secondary">UN Human Rights Council · A/HRC/60/8</Typography>
       </Stack>
 
-      <Paper variant="outlined" square>
+      <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
         {visible.map((c, index) => (
           <Box key={c.id}>
             {index > 0 && <Divider />}
-            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 3 }} sx={{ px: { xs: 2.25, md: 3 }, py: { xs: 2.5, md: 3 } }}>
-              <Box sx={{ width: { md: 112 }, flexShrink: 0 }}>
-                <Typography variant="overline" color="text.secondary">Recommendation</Typography>
-                <Typography variant="h6" color="primary.main" sx={{ mt: .15 }}>{c.recommendation_number || c.public_id}</Typography>
+            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 } }}>
+              <Box sx={{ width: { md: 92 }, flexShrink: 0 }}>
+                <Typography variant="caption" color="text.secondary">Recommendation</Typography>
+                <Typography color="primary.main" sx={{ mt: .25, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
               </Box>
 
               <Box sx={{ flex: 1, minWidth: 0 }}>
-                <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mb: 1.1 }}>
+                <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mb: .9 }}>
                   <StatusChip status={c.assessment_status} />
-                  <Typography variant="caption" sx={{ px: 1, py: .35, border: "1px solid", borderColor: "divider", color: "text.secondary" }}>{c.acceptance_status === "accepted" ? "Accepted by Spain" : c.acceptance_status === "noted" ? "Noted by Spain" : (c.acceptance_status || "State response pending")}</Typography>
+                  <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
+                    {c.acceptance_status === "accepted" ? "Accepted by Spain" : c.acceptance_status === "noted" ? "Noted by Spain" : (c.acceptance_status || "State response pending")}
+                  </Typography>
                 </Stack>
-                <Typography variant="h5" color="primary.main" sx={{ mb: 1 }}>{c.title}</Typography>
-                <Typography color="text.secondary" sx={{ lineHeight: 1.7, maxWidth: 860 }}>
+                <Typography variant="h6" color="primary.main" sx={{ mb: .75 }}>{c.title}</Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.7, maxWidth: 860 }}>
                   {c.normalized_summary || c.original_text}
                 </Typography>
               </Box>
 
-              <Box sx={{ width: { md: 145 }, flexShrink: 0, display: "flex", alignItems: { md: "center" }, justifyContent: { md: "flex-end" } }}>
-                <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} endIcon={<OpenInNewRoundedIcon fontSize="small" />}>
-                  Open record
+              <Box sx={{ width: { md: 115 }, flexShrink: 0, display: "flex", alignItems: { md: "center" }, justifyContent: { md: "flex-end" } }}>
+                <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} color="primary">
+                  View record
                 </Button>
               </Box>
             </Stack>
@@ -90,12 +91,12 @@ export function CommitmentExplorer({ commitments }: { commitments: Commitment[] 
         ))}
 
         {!visible.length && (
-          <Box sx={{ textAlign: "center", py: 8, px: 2 }}>
+          <Box sx={{ textAlign: "center", py: 7, px: 2 }}>
             <Typography variant="h6" color="primary.main">No recommendations match these filters</Typography>
-            <Typography color="text.secondary" sx={{ mt: .75 }}>Try a broader search or clear one of the filters.</Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mt: .75 }}>Try a broader search or clear one of the filters.</Typography>
           </Box>
         )}
-      </Paper>
+      </Box>
     </Stack>
   );
 }
