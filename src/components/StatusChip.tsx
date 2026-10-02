@@ -5,6 +5,7 @@ import { Chip } from "@mui/material";
 type Props = { status?: string | null };
 
 const labels: Record<string, string> = {
+  not_assessed: "Assessment pending",
   implemented: "Implemented",
   substantially_implemented: "Substantial progress",
   in_progress: "In progress",
@@ -15,23 +16,18 @@ const labels: Record<string, string> = {
 };
 
 const tones: Record<string, { bg: string; fg: string; border: string }> = {
-  implemented: { bg: "#e7f7ef", fg: "#176b46", border: "#b7e5cf" },
-  substantially_implemented: { bg: "#e7f6fb", fg: "#056f96", border: "#b8e2ef" },
-  in_progress: { bg: "#eef3ff", fg: "#3559a8", border: "#cfdbfb" },
-  limited_progress: { bg: "#fff6df", fg: "#8a5b00", border: "#f0d79a" },
-  not_implemented: { bg: "#fff0ef", fg: "#a33a32", border: "#f2c6c2" },
-  unable_to_assess: { bg: "#f1f4f6", fg: "#52697a", border: "#d9e1e7" },
-  regressed: { bg: "#fcecf1", fg: "#9b2447", border: "#efc0cf" },
+  not_assessed: { bg: "#f5f7f8", fg: "#536574", border: "#ccd5dc" },
+  implemented: { bg: "#edf7f2", fg: "#176b46", border: "#b9dccb" },
+  substantially_implemented: { bg: "#eef7fb", fg: "#056f96", border: "#beddea" },
+  in_progress: { bg: "#f1f4f9", fg: "#355985", border: "#ccd7e4" },
+  limited_progress: { bg: "#fff8e8", fg: "#7a5600", border: "#e8d6a5" },
+  not_implemented: { bg: "#fff1ef", fg: "#963b34", border: "#e8c8c4" },
+  unable_to_assess: { bg: "#f5f7f8", fg: "#536574", border: "#ccd5dc" },
+  regressed: { bg: "#f9eef2", fg: "#8d2a47", border: "#e2c4ce" },
 };
 
 export function StatusChip({ status }: Props) {
-  const key = status || "unable_to_assess";
-  const tone = tones[key] || tones.unable_to_assess;
-  return (
-    <Chip
-      label={labels[key] || key.replaceAll("_", " ")}
-      size="small"
-      sx={{ bgcolor: tone.bg, color: tone.fg, border: `1px solid ${tone.border}` }}
-    />
-  );
+  const key = status || "not_assessed";
+  const tone = tones[key] || tones.not_assessed;
+  return <Chip label={labels[key] || key.replaceAll("_", " ")} size="small" variant="outlined" sx={{ bgcolor: tone.bg, color: tone.fg, borderColor: tone.border }} />;
 }
