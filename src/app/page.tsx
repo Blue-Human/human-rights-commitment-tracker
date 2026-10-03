@@ -1,10 +1,14 @@
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import { CommitmentExplorer } from "@/components/CommitmentExplorer";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCommitments } from "@/lib/hrct";
+import { getCommitments, getSignals, getFreshness } from "@/lib/hrct";
+
+import { SignalFeed } from "@/components/SignalFeed";
+import { recent, uniqueEvents, monitoringState } from "@/lib/live";
 
 export default async function Home() {
-  const commitments = await getCommitments();
+  const [commitments, signals, freshness] = await Promise.all([getCommitments(),getSignals(),getFreshness()]);
+  const currentSignals=signals.filter(s=>recent(s));
   const assessed = commitments.filter((x) => x.assessment_status && !["not_assessed", "unable_to_assess"].includes(x.assessment_status)).length;
   const accepted = commitments.filter((x) => x.acceptance_status === "accepted").length;
 
@@ -28,6 +32,9 @@ export default async function Home() {
               [commitments.length, "Published recommendations"],
               [accepted, "Accepted by Spain"],
               [assessed, "Implementation assessments completed"],
+              [freshness.filter(f=>f.last_evidence_at && new Date(f.last_evidence_at).getTime()>=Date.now()-90*86400000).length, "Recommendations with evidence dated in the last 90 days"],
+              [new Set(currentSignals.map(s=>s.public_id)).size, "Recommendations with signals (90 days)"],
+              [freshness.filter(f=>monitoringState(f)==="Monitoring active").length, "Recommendations with current monitoring"],
             ].map(([value, label]) => (
               <Box key={String(label)} sx={{ flex: 1, px: { md: 3 }, "&:first-of-type": { pl: 0 }, "&:last-of-type": { pr: 0 } }}>
                 <Typography sx={{ fontSize: "1.85rem", fontWeight: 500, color: "primary.main", lineHeight: 1 }}>{value}</Typography>
@@ -65,6 +72,11 @@ export default async function Home() {
             </Typography>
           </Box>
           <CommitmentExplorer commitments={commitments} />
+          <Box component="section" sx={{mt:6}}>
+            <Typography variant="h2" color="primary.main" sx={{fontSize:"2rem"}}>What changed recently</Typography>
+            <Typography color="text.secondary" sx={{mt:2}}>Recent context signals ({uniqueEvents(currentSignals).length} distinct events). Reporting volume does not establish deterioration or non-compliance.</Typography>
+            <SignalFeed signals={currentSignals} limit={8} showRecommendation />
+          </Box>
         </Container>
       </Box>
 

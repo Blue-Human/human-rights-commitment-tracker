@@ -5,7 +5,10 @@ import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
-import { getCommitment, getEvidence, getHumanSecurityDimensions, getMonitoringItems } from "@/lib/hrct";
+import { getCommitment, getEvidence, getHumanSecurityDimensions, getSignals, getFreshness, getAssessmentHistory } from "@/lib/hrct";
+
+import { SignalFeed } from "@/components/SignalFeed";
+import { monitoringState, recent, uniqueEvents } from "@/lib/live";
 
 function humanize(value?: string | null) {
   return value ? value.replaceAll("_", " ").replace(/\b\w/g, (m) => m.toUpperCase()) : "Not specified";
@@ -18,17 +21,19 @@ function Meta({ label, value }: { label: string; value: string }) {
 export default async function CommitmentPage({ params }: { params: Promise<{ publicId: string }> }) {
   const { publicId } = await params;
   const decoded = decodeURIComponent(publicId);
-  const [commitment, evidence, dimensions, monitoring] = await Promise.all([
+  const [commitment, evidence, dimensions, signals, freshness, history] = await Promise.all([
     getCommitment(decoded),
     getEvidence(decoded),
     getHumanSecurityDimensions(decoded),
-    getMonitoringItems(decoded),
+    getSignals(decoded),
+    getFreshness(decoded),
+    getAssessmentHistory(decoded),
   ]);
   if (!commitment) notFound();
 
   const pending = commitment.assessment_status === "not_assessed";
-  const needContext = monitoring.filter((item) => item.relation === "supports_need" || item.kind === "need_context");
-  const liveImplementation = monitoring.filter((item) => item.relation !== "supports_need" && item.kind !== "need_context");
+  const currentSignals = signals.filter(s => recent(s));
+  const monitoring = freshness[0];
 
   return (
     <>
@@ -79,6 +84,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                       <Stack direction={{ xs: "column", sm: "row" }} spacing={2} alignItems={{ sm: "baseline" }}>
                         <Typography variant="h6" color="primary.main" sx={{ minWidth: 180 }}>{dimension.name}</Typography>
                         <Box>
+                          <Typography variant="caption" color="text.secondary" sx={{display:"block"}}>{dimension.reviewed ? "Reviewed classification" : "Proposed classification"} · {humanize(dimension.classification_method)}{dimension.confidence !== null ? ` · score ${dimension.confidence}` : ""}</Typography>
                           {dimension.is_primary && <Typography variant="overline" color="text.secondary">Primary dimension</Typography>}
                           <Typography variant="body2" sx={{ lineHeight: 1.7 }}>{dimension.rationale || dimension.description}</Typography>
                         </Box>
@@ -95,24 +101,8 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2.2 }}>
                   Automatically discovered reporting, official statements and public information that may indicate the continuing need addressed by this recommendation. These items are monitoring context, not proof of implementation and not a Blue Human finding unless separately reviewed as evidence.
                 </Typography>
-                <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
-                  {needContext.map((item) => (
-                    <Box key={item.id} sx={{ py: 2.6 }}>
-                      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
-                        <Box sx={{ minWidth: 0 }}>
-                          <Typography variant="overline" color="text.secondary">{item.source_type === "official_web" ? "Official monitoring" : "News / public reporting"} · Auto-discovered</Typography>
-                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
-                          <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .45 }}>
-                            {[item.publisher, item.published_at ? new Date(item.published_at).toLocaleDateString("en-GB") : null].filter(Boolean).join(" · ")}
-                          </Typography>
-                        </Box>
-                        <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
-                      </Stack>
-                      {item.summary && <Typography variant="body2" sx={{ mt: 1.3, lineHeight: 1.7 }}>{item.summary}</Typography>}
-                    </Box>
-                  ))}
-                  {!needContext.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>The live tracker has not yet identified public context for this recommendation.</Typography>}
-                </Stack>
+                <Typography variant="caption" color="text.secondary">Last 90 days · clustered reporting</Typography>
+                <SignalFeed signals={currentSignals} />
               </Box>
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
@@ -121,28 +111,16 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography sx={{ fontSize: "1.04rem", lineHeight: 1.9, whiteSpace: "pre-line", maxWidth: 860 }}>{commitment.original_text}</Typography>
               </Box>
 
-              {liveImplementation.length > 0 && (
-                <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                  <Typography variant="overline" color="text.secondary">Automated research queue</Typography>
-                  <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.3 }}>Potential implementation developments</Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
-                    Laws, official actions and reporting automatically matched to this recommendation. They remain candidates until reviewed and promoted into the evidence record.
-                  </Typography>
-                  <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
-                    {liveImplementation.map((item) => (
-                      <Box key={item.id} sx={{ py: 2.5 }}>
-                        <Typography variant="overline" color="text.secondary">{humanize(item.kind)} · {Math.round(Number(item.relevance_score) * 100)}% match</Typography>
-                        <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
-                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
-                          <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
-                        </Stack>
-                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{item.publisher || item.source_domain || "Public source"}</Typography>
-                        {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7 }}>{item.summary}</Typography>}
-                      </Box>
-                    ))}
-                  </Stack>
-                </Box>
-              )}
+
+              <Box component="section" sx={{pt:4,borderTop:"1px solid",borderColor:"divider"}}>
+                <Typography variant="h4" color="primary.main">Assessment history</Typography>
+                <Stack divider={<Divider/>}>{history.map(a=><Box key={a.id} sx={{py:2}}>
+                  <Typography variant="overline">{a.assessment_date} · HRCT v{a.methodology_version}{a.is_current ? " · Current" : ""}</Typography>
+                  <Box sx={{my:1}}><StatusChip status={a.status}/></Box>
+                  <Typography variant="body2">{a.rationale}</Typography>
+                </Box>)}</Stack>
+                {!history.length && <Typography color="text.secondary" sx={{mt:2}}>No published assessment history.</Typography>}
+              </Box>
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
                 <Typography variant="overline" color="text.secondary">Reviewed record</Typography>
@@ -173,7 +151,10 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Meta label="Recommendation" value={commitment.recommendation_number || "—"} />
                 <Meta label="State response" value={humanize(commitment.acceptance_status)} />
                 <Meta label="Mechanism" value={commitment.mechanism_name} />
-                <Meta label="Live context items" value={String(needContext.length)} />
+                <Meta label="Recent signals" value={String(uniqueEvents(currentSignals).length)} />
+                <Meta label="Monitoring" value={monitoringState(monitoring)} />
+                <Meta label="Last scan attempt" value={monitoring?.last_run_at ? new Date(monitoring.last_run_at).toLocaleString("en-GB", {timeZone:"UTC"}) + " UTC" : "Not yet scanned"} />
+                <Meta label="Last successful scan" value={monitoring?.last_success_at ? new Date(monitoring.last_success_at).toLocaleString("en-GB", {timeZone:"UTC"}) + " UTC" : "None recorded"} />
                 <Meta label="Publication date" value={commitment.published_at ? new Date(commitment.published_at).toLocaleDateString("en-GB") : "—"} />
               </Stack>
 

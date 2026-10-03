@@ -1,49 +1,92 @@
-import "jsr:@supabase/functions-js/edge-runtime.d.ts";
+import {canonicalUrl,clusterKey,dimensionsFor,publicationDecision,monitoringQueries,relevance,safeEqual,sourceInfo,type Profile,type Discovery} from './core.ts';
+import {gdelt} from './providers/gdelt.ts';
+import {rss} from './providers/rss.ts';
+import {findOriginal} from './providers/original.ts';
+import {syncJira} from './jira.ts';
 
-const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
-const SERVICE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
-const REST = `${SUPABASE_URL}/rest/v1`;
-const COOLDOWN_MS = 45 * 60 * 1000;
-
-const stop = new Set(["españa","spain","para","contra","sobre","desde","hasta","entre","como","that","with","from","this","their","rights","human","national","continue","strengthen","combat","ensure","adopt","efforts","measures","implementation","effective"]);
-function tokens(s:string){return (s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").match(/[a-z0-9áéíóúñ]{4,}/g)||[]).filter(x=>!stop.has(x));}
-function score(title:string, query:string){const a=new Set(tokens(title)); const b=new Set(tokens(query)); let hit=0; for(const x of b) if(a.has(x)) hit++; return Math.min(.98,.58+(hit/Math.max(2,b.size))*.40);}
-function isoDate(raw:any){if(!raw)return null; const s=String(raw); if(/^\d{14}$/.test(s)) return `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}T${s.slice(8,10)}:${s.slice(10,12)}:${s.slice(12,14)}Z`; const d=new Date(s); return Number.isNaN(d.getTime())?null:d.toISOString();}
-function domain(u:string){try{return new URL(u).hostname.replace(/^www\./,"");}catch{return null;}}
-function xmlDecode(s:string){return s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,"$1").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;/g,"'");}
-function tag(block:string,name:string){const m=block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`,`i`)); return m?xmlDecode(m[1].replace(/<[^>]+>/g,"").trim()):null;}
-
-async function rest(path:string, init:RequestInit={}){
- const r=await fetch(`${REST}/${path}`,{...init,headers:{apikey:SERVICE_KEY,Authorization:`Bearer ${SERVICE_KEY}`,"Content-Type":"application/json",...(init.headers||{})}});
- if(!r.ok) throw new Error(`${r.status} ${await r.text()}`);
- const t=await r.text(); return t?JSON.parse(t):null;
+const env=(n:string)=>Deno.env.get(n);
+async function rest(path:string,init:RequestInit={}){
+ const r=await fetch(`${env('SUPABASE_URL')}/rest/v1/${path}`,{...init,signal:AbortSignal.timeout(12000),headers:{apikey:env('SUPABASE_SERVICE_ROLE_KEY')!,Authorization:`Bearer ${env('SUPABASE_SERVICE_ROLE_KEY')}`,'Content-Type':'application/json',...(init.headers||{})}});
+ if(!r.ok)throw new Error(`Database request failed (${r.status})`);const t=await r.text();return t?JSON.parse(t):null;
 }
-async function upsertItem(item:any){const r=await fetch(`${REST}/monitoring_items?on_conflict=commitment_id,url`,{method:"POST",headers:{apikey:SERVICE_KEY,Authorization:`Bearer ${SERVICE_KEY}`,"Content-Type":"application/json",Prefer:"resolution=merge-duplicates,return=minimal"},body:JSON.stringify(item)}); if(!r.ok) throw new Error(`insert ${r.status} ${await r.text()}`);}
-
-async function gdelt(commitmentId:string, query:string, kind:"need_context"|"implementation_candidate", relation:"supports_need"|"supports_progress", days:number){
- const endpoint=new URL("https://api.gdeltproject.org/api/v2/doc/doc"); endpoint.searchParams.set("query",query); endpoint.searchParams.set("mode","artlist"); endpoint.searchParams.set("maxrecords","12"); endpoint.searchParams.set("format","json"); endpoint.searchParams.set("sort","datedesc"); endpoint.searchParams.set("timespan",`${Math.min(30,Math.max(1,days))}d`);
- const r=await fetch(endpoint,{headers:{"User-Agent":"BlueHuman-HRCT/1.0 (+https://bluehuman.org)"}}); if(!r.ok)return 0; const data=await r.json().catch(()=>({})); const articles=Array.isArray(data?.articles)?data.articles:[]; let n=0;
- for(const a of articles){if(!a?.url||!a?.title)continue; const rel=score(a.title,query); if(rel<.62)continue; const d=domain(a.url); const official=!!d&&["boe.es","interior.gob.es","inclusion.gob.es","igualdad.gob.es","lamoncloa.gob.es","defensordelpueblo.es","congreso.es","senado.es","poderjudicial.es"].some(x=>d===x||d.endsWith(`.${x}`)); const publicThreshold=official?.76:.82;
-  await upsertItem({commitment_id:commitmentId,kind:official&&kind==="need_context"?"statement":kind,relation:official&&kind==="need_context"?"context":relation,title:a.title,url:a.url,publisher:a.domain||d,source_domain:d,source_type:official?"official_web":"news",published_at:isoDate(a.seendate),summary:null,excerpt:null,relevance_score:rel,status:"auto",is_public:rel>=publicThreshold,last_seen_at:new Date().toISOString()}); n++;}
- return n;
-}
-
-async function boe(commitmentId:string, query:string){
- const u=new URL("https://www.boe.es/datosabiertos/api/legislacion-consolidada"); u.searchParams.set("query",query); u.searchParams.set("limit","8");
- const r=await fetch(u,{headers:{Accept:"application/xml","User-Agent":"BlueHuman-HRCT/1.0 (+https://bluehuman.org)"}}); if(!r.ok)return 0; const xml=await r.text(); const blocks=[...xml.matchAll(/<(?:item|norma)\b[^>]*>([\s\S]*?)<\/(?:item|norma)>/gi)].map(m=>m[1]); let n=0;
- for(const b of blocks){const id=tag(b,"id")||tag(b,"identificador"); const title=tag(b,"titulo")||tag(b,"title"); if(!id||!title)continue; const rel=score(title,query); if(rel<.62)continue; await upsertItem({commitment_id:commitmentId,kind:"legal_change",relation:"supports_progress",title,url:`https://www.boe.es/buscar/act.php?id=${encodeURIComponent(id)}`,publisher:"Agencia Estatal Boletín Oficial del Estado",source_domain:"boe.es",source_type:"legislation",published_at:null,summary:"Automatically discovered in BOE consolidated legislation search. Human review is required before treating this as implementation evidence.",excerpt:null,relevance_score:rel,status:"auto",is_public:rel>=.80,last_seen_at:new Date().toISOString()}); n++;}
- return n;
-}
-
-Deno.serve(async(req)=>{
- if(req.method!=="POST"&&req.method!=="GET") return new Response("Method not allowed",{status:405});
- let runId:string|null=null, found=0, processed=0;
+export async function handler(req:Request){
+ if(req.method!=='POST')return Response.json({error:'method_not_allowed'},{status:405});
+ const secret=env('HRCT_MONITORING_SECRET')||env('HRCT_WEBHOOK_SECRET')||'';
+ const supplied=req.headers.get('x-hrct-monitoring-secret')||'';
+ if(!supplied)return Response.json({error:'unauthorized'},{status:401});
+ if(!env('SUPABASE_URL')||!env('SUPABASE_SERVICE_ROLE_KEY'))return Response.json({error:'database_not_configured'},{status:503});
+ let authorized=secret?safeEqual(supplied,secret):false;
+ if(!authorized&&supplied.startsWith('hrct_'))try{
+  authorized=await rest('rpc/hrct_valid_monitoring_token',{method:'POST',body:JSON.stringify({p_token:supplied})});
+ }catch{return Response.json({error:'monitoring_not_configured'},{status:503});}
+ if(!authorized)return Response.json({error:'unauthorized'},{status:401});
+ let body;try{body=await req.json();}catch{return Response.json({error:'invalid_json'},{status:400});}
+ const job=body.job||'discover';if(!['discover','process','watch'].includes(job))return Response.json({error:'invalid_job'},{status:400});
+ let runId:string|null=null,processed=0,found=0,inserted=0,rejected=0;const errors:{stage:string;message:string}[]=[];
+ const start=Date.now();
+ try {
+ runId=await rest('rpc/hrct_start_monitoring',{method:'POST',body:JSON.stringify({p_job:job})});
+ if(!runId)return Response.json({ok:true,skipped:'active_run_or_cooldown'});
+ if(job!=='watch'){
+ await rest('rpc/hrct_prepare_profiles',{method:'POST',body:'{}'});
+ const dimensionRows:{id:string;code:string}[]=await rest('human_security_dimensions?select=id,code');
+ const profiles:Profile[]=await rest('monitoring_profiles?select=id,commitment_id,news_query,implementation_query,keywords,queries_es,queries_en,lookback_days,enabled,commitments(title,original_text)&enabled=eq.true&order=last_run_at.asc.nullsfirst&limit=6');
+ // Cache shared queries so neighbouring recommendations do not duplicate provider calls.
+ const cache=new Map<string,Discovery[]>();const originals=new Map<string,string|null>();let enrichmentBudget=3;let lastGdeltCall=0;
+ let feedItems:Discovery[]=[];
+ for(const feed of (env('HRCT_RSS_FEEDS')||'').split(',').filter(Boolean))try{feedItems.push(...await rss(feed.trim()));}catch{errors.push({stage:'rss',message:'Configured feed failed'});}
+ for(const p of profiles){
+ if(Date.now()-start>100000)break;
+ let failed=false;
+ const dimensionCodes=dimensionsFor(`${p.commitments?.title||''} ${p.commitments?.original_text||''}`);
+ const proposed=dimensionRows.filter(d=>dimensionCodes.includes(d.code as any)).map(d=>({commitment_id:p.commitment_id,dimension_id:d.id,classification_method:'rules_v1',reviewed:false,is_primary:false,confidence:null,rationale:'Proposed from matching themes in the recommendation wording; a human reviewer can refine the affected dimensions.'}));
+ if(proposed.length)await rest('commitment_human_security?on_conflict=commitment_id,dimension_id',{method:'POST',headers:{Prefer:'resolution=ignore-duplicates'},body:JSON.stringify(proposed)});
+ const generated=monitoringQueries(`${p.commitments?.title||''} ${p.commitments?.original_text||''}`,p.news_query);
+ if(!p.queries_es?.length&&!p.queries_en?.length){
+  await rest(`monitoring_profiles?id=eq.${p.id}`,{method:'PATCH',body:JSON.stringify({...generated,query_method:generated.method,method:undefined})});
+ }
+ const contextQueries=p.queries_es?.length||p.queries_en?.length?[...(p.queries_es||[]),...(p.queries_en||[])]:[...generated.queries_es,...generated.queries_en];
+ // Rotate languages/topics with each calendar day; bound provider requests per batch.
+ const contextQuery=contextQueries[Math.floor(Date.now()/86400000)%contextQueries.length]||p.news_query;
+ for(const [query,implementation] of [[contextQuery,false],[p.implementation_query,true]] as const){
+ if(!query)continue;
  try{
-   const recent=await rest("monitoring_runs?select=started_at,status&order=started_at.desc&limit=1");
-   if(recent?.[0]){const age=Date.now()-new Date(recent[0].started_at).getTime(); if(recent[0].status==="running"&&age<20*60*1000) return Response.json({ok:true,skipped:"run_in_progress"}); if(recent[0].status==="success"&&age<COOLDOWN_MS) return Response.json({ok:true,skipped:"cooldown"});}
-   const run=await rest("monitoring_runs",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify({status:"running"})}); runId=run?.[0]?.id;
-   const profiles=await rest("monitoring_profiles?select=id,commitment_id,news_query,implementation_query,boe_query,lookback_days,last_run_at&enabled=eq.true&order=last_run_at.asc.nullsfirst&limit=12");
-   for(const p of profiles||[]){found+=await gdelt(p.commitment_id,p.news_query,"need_context","supports_need",p.lookback_days||7); if(p.implementation_query) found+=await gdelt(p.commitment_id,p.implementation_query,"implementation_candidate","supports_progress",Math.max(14,p.lookback_days||7)); if(p.boe_query) found+=await boe(p.commitment_id,p.boe_query); await rest(`monitoring_profiles?id=eq.${p.id}`,{method:"PATCH",body:JSON.stringify({last_run_at:new Date().toISOString(),updated_at:new Date().toISOString()})}); processed++;}
-   if(runId) await rest(`monitoring_runs?id=eq.${runId}`,{method:"PATCH",body:JSON.stringify({finished_at:new Date().toISOString(),profiles_processed:processed,items_found:found,items_inserted:found,status:"success"})}); return Response.json({ok:true,processed,found});
- }catch(e){if(runId) try{await rest(`monitoring_runs?id=eq.${runId}`,{method:"PATCH",body:JSON.stringify({finished_at:new Date().toISOString(),profiles_processed:processed,items_found:found,status:"error",error:String(e).slice(0,1000)})});}catch{} return Response.json({ok:false,error:String(e)},{status:500});}
-});
+ const cacheKey=`${query}|${p.lookback_days}`;
+ if(!cache.has(cacheKey)){
+ const pause=5100-(Date.now()-lastGdeltCall);if(pause>0)await new Promise(r=>setTimeout(r,pause));lastGdeltCall=Date.now();
+ cache.set(cacheKey,await gdelt.discover(query,p.lookback_days));}
+ const items=[...cache.get(cacheKey)!,...feedItems];
+ for(const item of items){
+ found++;const url=canonicalUrl(item.url);if(!url){rejected++;continue;}
+ const match=relevance(item.title, p.keywords?.length?p.keywords.join(' '):query);
+ if(match.score<.5){rejected++;continue;}
+ const src=sourceInfo(url);const at=item.publishedAt||item.observedAt||new Date().toISOString();
+ const key=await clusterKey(item.title,at);
+ if(!originals.has(url)&&enrichmentBudget>0&&src.source_type==='media'&&match.score>=.8){
+  enrichmentBudget--;try{originals.set(url,await findOriginal(url));}catch{originals.set(url,null);}
+ }
+ const originalUrl=originals.get(url)||null;
+ // Discovery providers do not supply verified document content. Keep their original title;
+ // do not manufacture summaries, excerpts or implementation findings. Original links
+ // are exposed only after bounded extraction and verification.
+ const result=await rest('rpc/hrct_store_signal',{method:'POST',body:JSON.stringify({p_signal:{url,title:item.title,summary:null,source_domain:new URL(url).hostname,...src,published_at:item.publishedAt||null,observed_at:item.observedAt||null,provider:item.provider,language:item.language||null,event_key:key,original_source_url:originalUrl},p_link:{commitment_id:p.commitment_id,score:match.score,rationale:match.rationale,kind:implementation?'implementation_candidate':'context',publication_status:publicationDecision(item,p,match.score,implementation)?'published':'candidate'},p_dimensions:dimensionsFor(item.title)})});
+ if(result?.inserted)inserted++;
+ }
+ }catch{failed=true;errors.push({stage:'discovery',message:`Provider or persistence failed for profile ${p.id}`});}
+ }
+ const now=new Date().toISOString();await rest(`monitoring_profiles?id=eq.${p.id}`,{method:'PATCH',body:JSON.stringify({last_run_at:now,...(!failed?{last_success_at:now}:{}),last_error:failed?'Discovery failed; see private run log':null,updated_at:now})});processed++;
+ }
+ }
+ let reviews=0,jira:{configured:boolean;sent:number}={configured:false,sent:0};
+ if(job==='watch'){
+ reviews=await rest('rpc/hrct_assessment_watch',{method:'POST',body:'{}'});
+ try{jira=await syncJira(rest,env);}catch{errors.push({stage:'jira',message:'Jira sync failed; candidates retained for retry'});}
+ }
+ await rest(`monitoring_runs?id=eq.${runId}`,{method:'PATCH',body:JSON.stringify({finished_at:new Date().toISOString(),profiles_processed:processed,items_found:found,items_inserted:inserted,records_rejected:rejected,status:errors.length?'partial':'success',errors})});
+ return Response.json({ok:errors.length===0,processed,found,inserted,rejected,reviews,jira,errors:errors.length},{status:errors.length?207:200});
+ }catch{
+ if(runId)try{await rest(`monitoring_runs?id=eq.${runId}`,{method:'PATCH',body:JSON.stringify({finished_at:new Date().toISOString(),status:'error',error:'Monitoring job failed',errors})});}catch{}
+ return Response.json({error:'monitoring_failed'},{status:500});
+ }
+}
+if(import.meta.main)Deno.serve(handler);

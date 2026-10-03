@@ -1,0 +1,5 @@
+project_id = "human-rights-commitment-tracker"
+
+[functions.live-tracker]
+# The handler verifies its own scheduler token. No anonymous invocation is accepted.
+verify_jwt = false
