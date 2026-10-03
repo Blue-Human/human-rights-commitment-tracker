@@ -5,8 +5,8 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
 
 export const metadata: Metadata = {
-  title: "Methodology and use of AI | Human Rights Commitment Tracker",
-  description: "How HRCT records recommendations, weighs evidence, uses automated monitoring and AI, and preserves assessment history.",
+  title: "Methodology | Human Rights Commitment Tracker",
+  description: "How HRCT records recommendations, weighs evidence, monitors public sources and preserves assessment history.",
 };
 
 // Definitions are those of HRCT Methodology v1.0.
@@ -44,9 +44,9 @@ export default function MethodologyPage() {
       <Box component="main">
         <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
           <Typography variant="overline" color="primary.main">HRCT Methodology v1.0</Typography>
-          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Methodology and use of AI</Typography>
+          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Methodology</Typography>
           <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 860, lineHeight: 1.75 }}>
-            The Human Rights Commitment Tracker converts human-rights recommendations and commitments into structured, evidence-based and traceable public records. This page summarises how records are built, what the status labels are based on and where automation is used.
+            The Human Rights Commitment Tracker converts human-rights recommendations and commitments into structured, evidence-based and traceable public records. This page summarises how records are built, what the status labels are based on and how public sources are monitored.
           </Typography>
         </Container>
 
@@ -97,21 +97,15 @@ export default function MethodologyPage() {
               </Stack>
             </Section>
 
-            <Section overline="Live monitoring" title="Automated discovery is kept apart from evidence">
+            <Section overline="Live monitoring" title="Monitoring is kept apart from evidence">
               <Typography>
-                HRCT continuously scans public sources for each recommendation, including news reporting, the Boletín Oficial del Estado and official institutional websites. What it finds is published in clearly separated channels: context showing that the underlying problem continues, and potential implementation or contrary developments awaiting review.
+                HRCT regularly scans public sources for each recommendation, including national media, institutional and civil-society publications and the Boletín Oficial del Estado. What it finds is published in clearly separated channels: context showing that the underlying problem continues, and potential implementation or contrary developments awaiting review.
               </Typography>
               <Typography>
-                Automated search is noisy. A news article can show that an incident occurred or that a measure was announced; it does not by itself prove effective implementation, national coverage or impact. For that reason automated items never change an assessment. They become evidence only after review, and each item is labelled as auto-discovered, AI-triaged or reviewed by Blue Human. Where an AI triage step has sorted an item, its one-sentence reason is shown next to the item.
-              </Typography>
-            </Section>
-
-            <Section overline="Artificial intelligence" title="How AI is used">
-              <Typography>
-                AI assists with source discovery, with sorting automatically discovered items into the monitoring channels above, and with drafting research. AI inference is never treated as a source: every finding must rest on a cited public document.
+                A news article can show that an incident occurred or that a measure was announced; it does not by itself prove effective implementation, national coverage or impact. For that reason monitoring items never change an assessment. They become evidence only after review, and each item is marked as either reviewed by Blue Human or pending final confirmation.
               </Typography>
               <Typography>
-                During the current pilot some assessments were prepared with AI assistance from public sources. These say so in their rationale and remain subject to human validation before the tracker&apos;s external launch.
+                Every finding must rest on a cited public document. During the current pilot some assessments are provisional: they are based on public sources and remain subject to final confirmation by Blue Human before the tracker&apos;s external launch. These are marked on the recommendation page.
               </Typography>
             </Section>
 

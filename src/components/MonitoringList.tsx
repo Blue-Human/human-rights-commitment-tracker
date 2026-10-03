@@ -33,9 +33,9 @@ export function MonitoringList({ items, numbers, empty }: Props) {
               <Box component="span" sx={{ fontWeight: 600 }}>From the source:</Box> “{item.excerpt}”
             </Typography>
           )}
-          {item.ai_note && item.status !== "reviewed" && (
+          {item.note && item.status !== "reviewed" && (
             <Typography variant="body2" color="text.secondary" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>
-              <Box component="span" sx={{ fontWeight: 600 }}>AI triage note:</Box> {item.ai_note}
+              <Box component="span" sx={{ fontWeight: 600 }}>Why it is listed:</Box> {item.note}
             </Typography>
           )}
           {item.public_ids.length > 0 && <Stack direction="row" spacing={1.5} flexWrap="wrap" useFlexGap alignItems="baseline" sx={{ mt: 1.2 }}>
