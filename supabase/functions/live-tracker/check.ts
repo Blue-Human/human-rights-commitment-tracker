@@ -30,8 +30,8 @@ for (const c of news.candidates.slice(0, 8)) console.log(`  ${c.relevance_score.
 const found: Candidate[] = [...search.candidates, ...news.candidates].slice(0, 20);
 if (process.env.GEMINI_API_KEY && found.length) {
   const title = process.argv[3] || query;
-  const verdicts = await classify({ apiKey: process.env.GEMINI_API_KEY, model: process.env.HRCT_CLASSIFIER_MODEL || DEFAULT_MODEL }, { public_id: "CHECK", title, original_text: process.argv[4] || title }, found);
-  console.log(`\nClassifier: ${verdicts ? `${verdicts.size}/${found.length} verdicts` : "failed"}`);
+  const { verdicts, error } = await classify({ apiKey: process.env.GEMINI_API_KEY, model: process.env.HRCT_CLASSIFIER_MODEL || DEFAULT_MODEL }, { public_id: "CHECK", title, original_text: process.argv[4] || title }, found);
+  console.log(`\nClassifier: ${verdicts ? `${verdicts.size}/${found.length} verdicts` : `failed: ${error}`}`);
   found.forEach((c, i) => {
     const v = verdicts?.get(i);
     if (v) console.log(`  ${v.category.padEnd(24)} ${v.relevance.toFixed(2)} ${c.title.slice(0, 70)}\n      ${v.note}`);
