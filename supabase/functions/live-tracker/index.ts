@@ -1,6 +1,6 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {
-  boeDailySummary, boeSearch, gdelt, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
+  boeDailySummary, boeSearch, gdelt, googleNews, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
   GDELT_MIN_INTERVAL_MS, type Candidate, type ConnectorResult,
 } from "./lib.ts";
 import { classify, DEFAULT_MODEL, type ClassifierConfig, type Verdict } from "./classifier.ts";
@@ -99,6 +99,13 @@ Deno.serve(async (req) => {
     return r.candidates;
   };
 
+  const news = async (...args: Parameters<typeof googleNews>) => {
+    await sleep(800);
+    const r = await googleNews(...args);
+    record("google_news", r, r.candidates.length);
+    return r.candidates;
+  };
+
   // Items a person has reviewed or rejected are never reset: rediscovery only refreshes last_seen_at.
   const store = async (rec: Recommendation, candidates: Candidate[]) => {
     const unique = [...new Map(candidates.map((c) => [c.url, c])).values()];
@@ -162,8 +169,11 @@ Deno.serve(async (req) => {
       const rec = recById.get(p.commitment_id);
       if (!rec) continue;
       const days = p.lookback_days || 7;
-      const candidates = await throttledGdelt(p.news_query, "need_context", "supports_need", days);
-      if (p.implementation_query) candidates.push(...await throttledGdelt(p.implementation_query, "implementation_candidate", "supports_progress", Math.max(14, days)));
+      const candidates: Candidate[] = [];
+      for (const search of [news, throttledGdelt]) {
+        candidates.push(...await search(p.news_query, "need_context", "supports_need", days));
+        if (p.implementation_query) candidates.push(...await search(p.implementation_query, "implementation_candidate", "supports_progress", Math.max(14, days)));
+      }
       if (p.boe_query) {
         const r = await boeSearch(p.boe_query);
         record("boe_search", r, r.candidates.length);

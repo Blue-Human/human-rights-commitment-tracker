@@ -30,7 +30,7 @@ export const OFFICIAL_DOMAINS = [
 
 export type Kind = "need_context" | "implementation_candidate" | "legal_change" | "statement" | "news";
 export type Relation = "supports_need" | "supports_progress" | "contradicts_progress" | "context";
-export type Connector = "gdelt" | "boe_search" | "boe_summary";
+export type Connector = "gdelt" | "google_news" | "boe_search" | "boe_summary";
 
 export type Candidate = {
   connector: Connector;
@@ -44,6 +44,8 @@ export type Candidate = {
   published_at: string | null;
   summary: string | null;
   relevance_score: number;
+  // How many profile keywords the title shares.
+  hits: number;
   official: boolean;
 };
 
@@ -187,6 +189,78 @@ export async function gdelt(
       published_at: isoDate(a.seendate),
       summary: null,
       relevance_score: m.score,
+      hits: m.hits,
+      official,
+    });
+  }
+  return { candidates, outcome: "ok" };
+}
+
+function xmlText(block: string, tag: string): string | null {
+  const m = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
+  if (!m) return null;
+  return m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").trim();
+}
+
+// Google News search feed for Spain, in Spanish. Used alongside GDELT, which rate-limits
+// shared IPs heavily. Links are Google News article links that redirect to the publisher.
+export function googleNewsUrl(text: string, days: number): string | null {
+  const phrases = [...text.matchAll(/"([^"]+)"/g)].map((m) => m[1].trim()).filter((p) => p.length >= 8);
+  const words = [...new Set((stripOperators(text.replace(/"[^"]*"/g, " ")).toLowerCase().match(/[\p{L}\p{N}]{4,}/gu) || []).filter((w) => !STOP.has(fold(w))))];
+  const terms = [...phrases.map((p) => `"${p}"`), ...words].slice(0, 8);
+  if (!terms.length) return null;
+  const u = new URL("https://news.google.com/rss/search");
+  u.searchParams.set("q", `${terms.length > 1 ? `(${terms.join(" OR ")})` : terms[0]} España when:${Math.min(30, Math.max(1, days))}d`);
+  u.searchParams.set("hl", "es");
+  u.searchParams.set("gl", "ES");
+  u.searchParams.set("ceid", "ES:es");
+  return u.toString();
+}
+
+export async function googleNews(
+  query: string,
+  kind: "need_context" | "implementation_candidate",
+  relation: "supports_need" | "supports_progress",
+  days: number,
+): Promise<ConnectorResult> {
+  const url = googleNewsUrl(query, days);
+  if (!url) return { candidates: [], outcome: "ok" };
+  let xml: string;
+  try {
+    const r = await get(url, "application/rss+xml");
+    if (r.status === 429) return { candidates: [], outcome: "rate_limited" };
+    if (!r.ok) return { candidates: [], outcome: "error", detail: `HTTP ${r.status}` };
+    xml = await r.text();
+  } catch (e) {
+    return { candidates: [], outcome: "error", detail: String(e).slice(0, 200) };
+  }
+  const candidates: Candidate[] = [];
+  for (const [, block] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+    const rawTitle = xmlText(block, "title");
+    const link = xmlText(block, "link");
+    if (!rawTitle || !link) continue;
+    const publisher = xmlText(block, "source");
+    // Feed titles are "Headline - Publisher".
+    const title = publisher && rawTitle.endsWith(` - ${publisher}`) ? rawTitle.slice(0, -publisher.length - 3) : rawTitle;
+    const m = match(title, query);
+    if (!isPlausible(m)) continue;
+    const d = domainOf(block.match(/<source[^>]*url="([^"]+)"/i)?.[1] || "");
+    const official = isOfficial(d);
+    const asStatement = official && kind === "need_context";
+    candidates.push({
+      connector: "google_news",
+      kind: asStatement ? "statement" : kind,
+      relation: asStatement ? "context" : relation,
+      title,
+      url: link,
+      publisher: publisher || d,
+      source_domain: d,
+      source_type: official ? "official_web" : "news",
+      published_at: isoDate(xmlText(block, "pubDate")),
+      summary: null,
+      relevance_score: m.score,
+      hits: m.hits,
       official,
     });
   }
@@ -239,6 +313,7 @@ export async function boeSearch(query: string): Promise<ConnectorResult> {
       published_at: isoDate(n.fecha_publicacion),
       summary: `Automatically discovered in BOE consolidated legislation search. ${BOE_CAVEAT}`,
       relevance_score: m.score,
+      hits: m.hits,
       official: true,
     });
   }
@@ -290,20 +365,20 @@ export function matchBoeEntry(entry: BoeEntry, query: string): Candidate | null 
     published_at: entry.date,
     summary: `Published in the Boletín Oficial del Estado and automatically matched to this recommendation. ${BOE_CAVEAT}`,
     relevance_score: m.score,
+    hits: m.hits,
     official: true,
   };
 }
 
-// Without a semantic classifier, only strong keyword matches are shown publicly.
-// A norm published before the recommendation was made cannot be a development in response to it.
-// Candidates with no known date are kept out as well.
-export function isAfter(c: Candidate, since: string | null) {
-  return !!since && !!c.published_at && c.published_at.slice(0, 10) >= since.slice(0, 10);
-}
-
+// Without a semantic classifier, only strong keyword matches are shown publicly. News titles
+// must share three keywords with the profile: two is enough to file a candidate for review,
+// but in practice still lets unrelated stories through.
 export function heuristicIsPublic(c: Candidate) {
-  if (c.connector !== "gdelt") return c.relevance_score >= 0.8;
-  return c.relevance_score >= (c.official ? 0.76 : 0.82);
+  if (c.connector === "boe_search" || c.connector === "boe_summary") return c.relevance_score >= 0.8;
+  // Keywords cannot tell a step forward from a setback ("Congress rejects..."), so news about
+  // implementation waits in the research queue; only continuing-need context is shown.
+  if (c.kind === "implementation_candidate") return false;
+  return c.hits >= 3 && c.relevance_score >= (c.official ? 0.76 : 0.82);
 }
 
 export function lastDays(n: number, now = new Date()): string[] {
