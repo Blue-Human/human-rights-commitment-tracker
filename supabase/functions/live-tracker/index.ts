@@ -31,7 +31,7 @@ type Recommendation = {
 };
 // The date from which a legal change can count as following the recommendation.
 const since = (r: Recommendation) => r.commitment_date || r.sources?.publication_date || null;
-type SourceStat = { requests: number; rate_limited: number; errors: number; candidates: number; last_error?: string };
+type SourceStat = { requests: number; rate_limited: number; errors: number; candidates: number; skipped?: number; last_error?: string };
 
 async function rest(path: string, init: RequestInit = {}) {
   const r = await fetch(`${REST}/${path}`, {
@@ -82,17 +82,19 @@ Deno.serve(async (req) => {
   };
 
   let runId: string | null = null, found = 0, inserted = 0, processed = 0;
-  let lastGdelt = 0;
+  let lastGdelt = 0, gdeltRefusals = 0;
   const throttledGdelt = async (...args: Parameters<typeof gdelt>) => {
+    // GDELT rate-limits by IP and Edge Functions share theirs. Once it has refused twice
+    // in a row, stop asking for the rest of this run instead of burning the time budget.
+    if (gdeltRefusals >= 2) {
+      (stats.gdelt ??= { requests: 0, rate_limited: 0, errors: 0, candidates: 0 }).skipped = (stats.gdelt.skipped ?? 0) + 1;
+      return [];
+    }
     const wait = lastGdelt + GDELT_MIN_INTERVAL_MS - Date.now();
     if (wait > 0) await sleep(wait);
-    let r = await gdelt(...args);
-    if (r.outcome === "rate_limited") {
-      record("gdelt", r, 0);
-      await sleep(GDELT_MIN_INTERVAL_MS * 2);
-      r = await gdelt(...args);
-    }
+    const r = await gdelt(...args);
     lastGdelt = Date.now();
+    gdeltRefusals = r.outcome === "rate_limited" ? gdeltRefusals + 1 : 0;
     record("gdelt", r, r.candidates.length);
     return r.candidates;
   };
