@@ -1,17 +1,19 @@
-// Review queue for monitoring candidates. Used by a reviewer or an external assistant; it never
-// writes evidence or assessments.
-//   GET  /review-queue                  candidates collected by the tracker that nobody has classified
-//   POST /review-queue                  a verdict per candidate
-//   GET  /review-queue/recommendations  the recommendations to research, with what is already on file
-//   POST /review-queue/findings         new sources found for a recommendation
+// Review service for the Human Rights Commitment Tracker. Used by a reviewer or an external
+// assistant acting for one.
+//   GET  /review-queue/batch           the next recommendations due for a research review
+//   POST /review-queue/reviews         a review per recommendation (may update its assessment)
+//   GET  /review-queue/confirmations   "implemented" proposals waiting for a person's decision
+//   POST /review-queue/confirmations   confirm or reject one (needs the reviewer's confirmation code)
+//   GET  /review-queue                 monitoring candidates collected by the tracker, not yet classified
+//   POST /review-queue                 a verdict per candidate
+//   POST /review-queue/findings        new context sources found for a recommendation
 // Auth: "Authorization: Bearer <REVIEW_QUEUE_API_KEY>".
 
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
+import { opens, rest, reviewerOf } from "./db.ts";
+import { getBatch, listConfirmations, resolveConfirmation, submitReviews } from "./research.ts";
 
-const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
-const SERVICE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
 const API_KEY = Deno.env.get("REVIEW_QUEUE_API_KEY");
-const REST = `${SUPABASE_URL}/rest/v1`;
 // Same threshold the tracker uses for classified items.
 const PUBLIC_RELEVANCE = 0.8;
 const CATEGORIES = ["need_context", "implementation_candidate", "contradiction", "noise"] as const;
@@ -22,16 +24,6 @@ type Item = {
   source_domain: string | null; source_type: string; published_at: string | null; excerpt: string | null;
 };
 type Verdict = { id: string; category: Category; relevance: number; note: string };
-
-async function rest(path: string, init: RequestInit = {}) {
-  const r = await fetch(`${REST}/${path}`, {
-    ...init,
-    headers: { apikey: SERVICE_KEY, Authorization: `Bearer ${SERVICE_KEY}`, "Content-Type": "application/json", ...(init.headers || {}) },
-  });
-  if (!r.ok) throw new Error(`${r.status} ${await r.text()}`);
-  const t = await r.text();
-  return t ? JSON.parse(t) : null;
-}
 
 const PENDING = "status=eq.auto&classification=is.null";
 
@@ -81,32 +73,6 @@ function patchFor(item: Item, v: Verdict, reviewer: string) {
   };
 }
 
-async function listRecommendations(from: number, count: number) {
-  const all: Array<{ id: string; public_id: string; recommendation_number: string | null; title: string; original_text: string; acceptance_status: string | null; assessment_status: string | null }> =
-    await rest("hrct_public_commitments?select=id,public_id,recommendation_number,title,original_text,acceptance_status,assessment_status") || [];
-  const order = (n: string | null) => Number((n || "").split(".").pop()) || 0;
-  all.sort((a, b) => order(a.recommendation_number) - order(b.recommendation_number));
-  const page = all.slice(from - 1, from - 1 + count);
-  const items: Array<{ commitment_id: string; title: string; url: string; published_at: string | null; is_public: boolean }> = page.length
-    ? await rest(`monitoring_items?select=commitment_id,title,url,published_at,is_public&status=neq.rejected&or=(classification.is.null,classification.neq.noise)&commitment_id=in.(${page.map((r) => r.id).join(",")})&order=published_at.desc.nullslast&limit=2000`) || []
-    : [];
-  return {
-    total: all.length,
-    from,
-    returned: page.length,
-    recommendations: page.map((r) => ({
-      public_id: r.public_id,
-      number: r.recommendation_number,
-      title: r.title,
-      text: r.original_text,
-      state_response: r.acceptance_status,
-      assessment_status: r.assessment_status,
-      // So the same story is not submitted twice.
-      already_on_file: items.filter((i) => i.commitment_id === r.id).slice(0, 15).map((i) => ({ title: i.title, url: i.url, date: i.published_at?.slice(0, 10) ?? null })),
-    })),
-  };
-}
-
 const SOURCE_KINDS = ["news", "official", "legislation", "un_body", "civil_society"] as const;
 type Finding = {
   public_id: string; url: string; title: string; publisher: string | null; date: string | null;
@@ -137,17 +103,6 @@ function parseFindings(body: unknown): Finding[] | string {
     });
   }
   return out;
-}
-
-// A source that cannot be opened is never shown publicly: it may be mistyped or made up.
-async function opens(url: string): Promise<boolean> {
-  try {
-    const r = await fetch(url, { headers: { "User-Agent": "BlueHuman-HRCT/1.0 (+https://bluehuman.org)" }, redirect: "follow", signal: AbortSignal.timeout(12000) });
-    await r.body?.cancel();
-    return r.status >= 200 && r.status < 400;
-  } catch {
-    return false;
-  }
 }
 
 async function addFindings(findings: Finding[], reviewer: string) {
@@ -214,11 +169,18 @@ Deno.serve(async (req) => {
   if (!API_KEY) return Response.json({ error: "review queue is not configured" }, { status: 503 });
   if (req.headers.get("authorization") !== `Bearer ${API_KEY}`) return Response.json({ error: "unauthorized" }, { status: 401 });
   const path = new URL(req.url).pathname.replace(/\/+$/, "");
-  const reviewerOf = (body: unknown) => `external:${String((body as { reviewer?: unknown })?.reviewer || "assistant").replace(/[^\w .-]/g, "").slice(0, 40)}`;
   try {
-    if (req.method === "GET" && path.endsWith("/recommendations")) {
-      const q = new URL(req.url).searchParams;
-      return Response.json(await listRecommendations(Math.max(1, Number(q.get("from")) || 1), Math.min(40, Math.max(1, Number(q.get("count")) || 10))));
+    if (req.method === "GET" && path.endsWith("/batch")) {
+      return Response.json(await getBatch(Math.min(40, Math.max(1, Number(new URL(req.url).searchParams.get("count")) || 10))));
+    }
+    if (req.method === "POST" && path.endsWith("/reviews")) {
+      const r = await submitReviews(await req.json().catch(() => null));
+      return Response.json(r.body, { status: r.status });
+    }
+    if (req.method === "GET" && path.endsWith("/confirmations")) return Response.json(await listConfirmations());
+    if (req.method === "POST" && path.endsWith("/confirmations")) {
+      const r = await resolveConfirmation(await req.json().catch(() => null));
+      return Response.json(r.body, { status: r.status });
     }
     if (req.method === "POST" && path.endsWith("/findings")) {
       const body = await req.json().catch(() => null);

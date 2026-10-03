@@ -45,6 +45,15 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 - Cadence: weekly (`.github/workflows/live-tracker.yml`, Mondays 05:00 UTC). The job calls the function until no recommendation is pending. A profile or feed sweep done in the last six days counts as up to date, so extra calls do nothing.
 - Retention: hidden, unreviewed candidates are deleted after 45 days, and unreviewed public items leave the public lists after 90 days. Reviewed items stay.
 - Review: candidates nobody has classified wait in the review queue (`supabase/functions/review-queue`, see `docs/review-agent.md`).
+
+## Periodic research reviews
+
+`supabase/functions/review-queue` also serves the periodic review of assessments (`docs/review-agent.md`): a reviewer or an assistant takes the next batch of recommendations, least recently reviewed first, and files a review for each.
+
+- A review may update the assessment. It is written in one transaction (`hrct_record_research_review`): new assessment, evidence, change record and a row in `research_reviews`. History is never overwritten.
+- An update needs at least one source whose URL opens. Updated assessments are public and marked provisional ("pending final confirmation").
+- "Implemented" is never applied by a review. It is stored as a proposal, the Jira issue moves to Peer Review with the label `needs-confirmation`, and a person confirms or rejects it with `REVIEW_CONFIRMATION_CODE`.
+- Jira is updated from the function (proposed assessment, comment, status up to Peer Review). It never moves an issue to Approved. Function secrets: `JIRA_BASE_URL`, `JIRA_EMAIL`, `JIRA_API_TOKEN`.
 - RSS/Atom feeds are rows in the `monitoring_feeds` table (name, url, source_type, spain_focused, enabled). Add or disable a feed there; no deploy is needed. Each run records `last_status` and `last_item_count` per feed.
 - Other sources: Google News search feed for Spain and GDELT (news; GDELT rate-limits shared IPs heavily, so it is skipped for the rest of a run once it refuses twice), BOE consolidated legislation search, and the BOE daily gazette summary.
 - Without semantic triage, only continuing-need news sharing three keywords with the profile is shown publicly; news about implementation waits in the research queue because keywords cannot tell progress from a setback.

@@ -100,6 +100,9 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
                   <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
                     {c.acceptance_status === "accepted" ? "Accepted by Spain" : c.acceptance_status === "noted" ? "Noted by Spain" : (c.acceptance_status || "State response pending")}
                   </Typography>
+                  {c.assessment_provisional && c.assessment_status !== "not_assessed" && (
+                    <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>Pending final confirmation</Typography>
+                  )}
                   {monitoringCounts[c.public_id] > 0 && (
                     <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
                       {monitoringCounts[c.public_id]} live monitoring item{monitoringCounts[c.public_id] === 1 ? "" : "s"}
