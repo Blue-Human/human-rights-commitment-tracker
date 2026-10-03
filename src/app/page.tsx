@@ -78,7 +78,7 @@ export default async function Home() {
               <Typography variant="overline" color="text.secondary">Live monitoring</Typography>
               <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Latest developments</Typography>
               <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
-                Public sources are scanned continuously for each recommendation. Items below are monitoring context or candidates for review. They are not Blue Human findings and do not change an assessment.
+                Public sources are scanned regularly for each recommendation. Items below are monitoring context or candidates for review. They are not Blue Human findings and do not change an assessment.
               </Typography>
             </Box>
             <Typography variant="caption" color="text.secondary" sx={{ flexShrink: 0 }}>

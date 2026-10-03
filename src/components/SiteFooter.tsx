@@ -8,7 +8,7 @@ export function SiteFooter() {
         <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" spacing={1}>
           <Typography variant="body2" color="text.secondary">Blue Human · Human Rights Commitment Tracker</Typography>
           <Stack direction="row" spacing={3}>
-            <Typography component={Link} href="/methodology" variant="body2" color="text.secondary">Methodology and use of AI</Typography>
+            <Typography component={Link} href="/methodology" variant="body2" color="text.secondary">Methodology</Typography>
             <Typography variant="body2" color="text.secondary">Independent civil-society monitoring</Typography>
           </Stack>
         </Stack>

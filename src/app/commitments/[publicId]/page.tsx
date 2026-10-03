@@ -7,7 +7,7 @@ import { MonitoringList } from "@/components/MonitoringList";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
-import { formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getLastScannedAt, getMonitoringItems, monitoringChannel } from "@/lib/hrct";
+import { formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getLastScannedAt, getMonitoringItems, monitoringChannel, splitRationale } from "@/lib/hrct";
 
 function humanize(value?: string | null) {
   return value ? value.replaceAll("_", " ").replace(/\b\w/g, (m) => m.toUpperCase()) : "Not specified";
@@ -31,6 +31,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
   if (!commitment) notFound();
 
   const pending = commitment.assessment_status === "not_assessed";
+  const rationale = splitRationale(commitment.assessment_rationale);
   const items = monitoring.map((item) => ({ ...item, public_ids: [] as string[] }));
   const needContext = items.filter((item) => monitoringChannel(item) === "need");
   const liveImplementation = items.filter((item) => monitoringChannel(item) === "implementation");
@@ -64,8 +65,13 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.8 }}>Implementation assessment</Typography>
                 <StatusChip status={commitment.assessment_status} />
                 <Typography sx={{ mt: 1.8, lineHeight: 1.8, maxWidth: 850 }}>
-                  {pending ? "This recommendation is included in the public pilot dataset. Blue Human has not yet issued an implementation finding for this record." : (commitment.assessment_rationale || "No public rationale is available.")}
+                  {pending ? "This recommendation is included in the public pilot dataset. Blue Human has not yet issued an implementation finding for this record." : (rationale.text || "No public rationale is available.")}
                 </Typography>
+                {!pending && (commitment.assessment_provisional || rationale.provisional) && (
+                  <Typography variant="body2" color="text.secondary" sx={{ mt: 1.4, lineHeight: 1.7, maxWidth: 850 }}>
+                    Provisional assessment based on public sources, pending final confirmation by Blue Human.
+                  </Typography>
+                )}
                 <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 5 }} sx={{ mt: 2.5, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>
                   <Meta label="Confidence" value={pending ? "Not applicable" : humanize(commitment.assessment_confidence)} />
                   <Meta label="Assessment date" value={pending ? "Pending" : (commitment.assessment_date || "Not specified")} />
@@ -99,7 +105,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography variant="overline" color="text.secondary">Live context monitoring</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.2 }}>Why this recommendation remains relevant</Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2.2 }}>
-                  Reporting, official statements and public information that may indicate the continuing need addressed by this recommendation. Items are discovered automatically and sorted by an AI triage step; each is labelled as reviewed or not. They are monitoring context, not proof of implementation and not a Blue Human finding unless separately reviewed as evidence.
+                  Reporting, official statements and public information that may indicate the continuing need addressed by this recommendation. Each item is marked as reviewed or pending final confirmation. They are monitoring context, not proof of implementation and not a Blue Human finding unless separately reviewed as evidence.
                 </Typography>
                 <MonitoringList items={needContext} numbers={{}} empty="The live tracker has not yet identified public context for this recommendation." />
               </Box>
@@ -112,10 +118,10 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
 
               {liveImplementation.length > 0 && (
                 <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                  <Typography variant="overline" color="text.secondary">Automated research queue</Typography>
+                  <Typography variant="overline" color="text.secondary">Research queue</Typography>
                   <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.3 }}>Potential implementation developments</Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
-                    Laws, official actions and reporting automatically matched to this recommendation. They remain candidates until reviewed and promoted into the evidence record.
+                    Laws, official actions and reporting matched to this recommendation. They remain candidates until reviewed and promoted into the evidence record.
                   </Typography>
                   <MonitoringList items={liveImplementation} numbers={{}} empty="" />
                 </Box>
@@ -123,24 +129,24 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
 
               {liveContrary.length > 0 && (
                 <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                  <Typography variant="overline" color="text.secondary">Automated research queue</Typography>
+                  <Typography variant="overline" color="text.secondary">Research queue</Typography>
                   <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.3 }}>Potential contrary developments</Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
-                    Automatically matched developments that may run against this recommendation. They are candidates for review and do not change the assessment above.
+                    Developments that may run against this recommendation. They are candidates for review and do not change the assessment above.
                   </Typography>
                   <MonitoringList items={liveContrary} numbers={{}} empty="" />
                 </Box>
               )}
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                <Typography variant="overline" color="text.secondary">Reviewed record</Typography>
+                <Typography variant="overline" color="text.secondary">Evidence record</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.5 }}>Evidence considered</Typography>
                 <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
                   {evidence.map((item) => (
                     <Box key={item.id} sx={{ py: 2.75 }}>
                       <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
                         <Box>
-                          <Typography variant="overline" color="text.secondary">{humanize(item.evidence_type)}</Typography>
+                          <Typography variant="overline" color="text.secondary">{humanize(item.evidence_type)} · {item.reviewed_at ? "Reviewed by Blue Human" : "Pending final confirmation"}</Typography>
                           <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.source_title}</Typography>
                           {item.source_publisher && <Typography variant="body2" color="text.secondary">{item.source_publisher}</Typography>}
                         </Box>
@@ -150,7 +156,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                       {item.reliability_notes && <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 1.2 }}>Limitations: {item.reliability_notes}</Typography>}
                     </Box>
                   ))}
-                  {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No reviewed implementation evidence has yet been attached to this record.</Typography>}
+                  {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No implementation evidence has yet been attached to this record.</Typography>}
                 </Stack>
               </Box>
 
@@ -166,7 +172,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                       <Stack component="li" key={entry.id} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .75, sm: 3 }} sx={{ py: 2.2 }}>
                         <Box sx={{ width: { sm: 150 }, flexShrink: 0 }}>
                           <Typography variant="body2" color="primary.main">{formatDate(entry.published_at) || entry.assessment_date || "Undated"}</Typography>
-                          <Typography variant="caption" color="text.secondary">{entry.is_current ? "Current assessment" : "Superseded"}</Typography>
+                          <Typography variant="caption" color="text.secondary">{entry.is_current ? (entry.provisional ? "Current · pending final confirmation" : "Current assessment") : "Superseded"}</Typography>
                         </Box>
                         <Box sx={{ minWidth: 0 }}>
                           <StatusChip status={entry.status} />
@@ -175,7 +181,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                               {humanize(entry.confidence)} confidence · HRCT v{entry.methodology_version || "1.0"}
                             </Typography>
                           )}
-                          {!entry.is_current && entry.rationale && <Typography variant="body2" color="text.secondary" sx={{ mt: .8, lineHeight: 1.7 }}>{entry.rationale}</Typography>}
+                          {!entry.is_current && entry.rationale && <Typography variant="body2" color="text.secondary" sx={{ mt: .8, lineHeight: 1.7 }}>{splitRationale(entry.rationale).text}</Typography>}
                         </Box>
                       </Stack>
                     ))}

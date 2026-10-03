@@ -24,6 +24,8 @@ export type Commitment = {
   methodology_version: string | null;
   methodology_title: string | null;
   methodology_url: string | null;
+  // True while the current assessment awaits final confirmation by Blue Human.
+  assessment_provisional?: boolean | null;
 };
 
 export type Evidence = {
@@ -39,6 +41,7 @@ export type Evidence = {
   source_type: string;
   document_reference: string | null;
   source_url: string | null;
+  reviewed_at?: string | null;
 };
 
 export type HumanSecurityDimension = {
@@ -66,9 +69,8 @@ export type MonitoringItem = {
   relevance_score: number;
   status: "auto" | "reviewed" | "rejected";
   discovered_at: string;
-  ai_classified?: boolean;
-  // One-sentence reason given by the automated triage for the channel it chose.
-  ai_note?: string | null;
+  // One-sentence reason the item is listed under this recommendation.
+  note?: string | null;
 };
 
 export type AssessmentHistoryEntry = {
@@ -81,6 +83,7 @@ export type AssessmentHistoryEntry = {
   is_current: boolean;
   published_at: string | null;
   methodology_version: string | null;
+  provisional?: boolean | null;
 };
 
 export type MonitoringStatus = {
@@ -101,9 +104,17 @@ export function monitoringChannel(item: Pick<MonitoringItem, "kind" | "relation"
   return "need";
 }
 
-export function reviewLabel(item: Pick<MonitoringItem, "status" | "ai_classified">) {
-  if (item.status === "reviewed") return "Reviewed by Blue Human";
-  return item.ai_classified ? "AI-triaged, not yet reviewed" : "Auto-discovered, not reviewed";
+export function reviewLabel(item: Pick<MonitoringItem, "status">) {
+  return item.status === "reviewed" ? "Reviewed by Blue Human" : "Pending final confirmation";
+}
+
+// Some pilot rationales end with a stored validation caveat. The record is left as published;
+// the page shows that caveat as a status line instead of as part of the reasoning.
+const PILOT_CAVEAT = /\s*AI-assisted pilot assessment based on public sources; human validation remains required before external launch\.?\s*$/;
+
+export function splitRationale(text: string | null | undefined) {
+  const value = text || "";
+  return { text: value.replace(PILOT_CAVEAT, ""), provisional: PILOT_CAVEAT.test(value) };
 }
 
 export const channelLabels: Record<MonitoringChannel, string> = {
@@ -160,7 +171,7 @@ export async function getMonitoringItems(publicId: string): Promise<MonitoringIt
 }
 
 export async function getAssessmentHistory(publicId: string): Promise<AssessmentHistoryEntry[]> {
-  return rest<AssessmentHistoryEntry[]>(`hrct_public_assessment_history?select=id,public_id,status,confidence,rationale,assessment_date,is_current,published_at,methodology_version&public_id=eq.${encodeURIComponent(publicId)}&order=published_at.desc`);
+  return rest<AssessmentHistoryEntry[]>(`hrct_public_assessment_history?select=*&public_id=eq.${encodeURIComponent(publicId)}&order=published_at.desc`);
 }
 
 export async function getAllHumanSecurityDimensions(): Promise<Pick<HumanSecurityDimension, "public_id" | "code" | "name" | "is_primary">[]> {

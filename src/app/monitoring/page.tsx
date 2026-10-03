@@ -20,16 +20,16 @@ const sections: { channel: MonitoringChannel; overline: string; title: string; i
   },
   {
     channel: "implementation",
-    overline: "Automated research queue",
+    overline: "Research queue",
     title: "Potential implementation developments",
     intro: "Laws, official gazette publications, plans and official actions matched to a recommendation. They remain candidates until a researcher reviews them and promotes them into the evidence record.",
     empty: "No potential implementation developments are currently public.",
   },
   {
     channel: "contradiction",
-    overline: "Automated research queue",
+    overline: "Research queue",
     title: "Potential contrary developments",
-    intro: "Developments that may run against a recommendation. Like all automated items, they do not change an assessment until reviewed.",
+    intro: "Developments that may run against a recommendation. Like every item pending confirmation, they do not change an assessment until reviewed.",
     empty: "No potential contrary developments are currently public.",
   },
 ];
@@ -48,7 +48,7 @@ export default async function MonitoringPage() {
           <Typography variant="overline" color="primary.main">Spain · UPR fourth cycle · Live monitoring</Typography>
           <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Live monitoring</Typography>
           <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 860, lineHeight: 1.75 }}>
-            HRCT scans public sources for material related to each recommendation: national media, institutional and civil-society feeds, news search and the Boletín Oficial del Estado. Automated discovery keeps the record current; it never changes a Blue Human assessment on its own.
+            HRCT scans public sources for material related to each recommendation: national media, institutional and civil-society feeds, news search and the Boletín Oficial del Estado. Monitoring keeps the record current; it never changes a Blue Human assessment on its own. Each item is marked as reviewed or pending final confirmation.
           </Typography>
           <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 5 }} sx={{ mt: 3, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>
             <Box><Typography variant="overline" color="text.secondary">Recommendations monitored</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status?.recommendations_monitored ?? commitments.length}</Typography></Box>
