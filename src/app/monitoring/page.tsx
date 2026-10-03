@@ -48,11 +48,12 @@ export default async function MonitoringPage() {
           <Typography variant="overline" color="primary.main">Spain · UPR fourth cycle · Live monitoring</Typography>
           <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Live monitoring</Typography>
           <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 860, lineHeight: 1.75 }}>
-            HRCT scans public sources for material related to each recommendation: news reporting, the Boletín Oficial del Estado and official institutional websites. Automated discovery keeps the record current; it never changes a Blue Human assessment on its own.
+            HRCT scans public sources for material related to each recommendation: national media, institutional and civil-society feeds, news search and the Boletín Oficial del Estado. Automated discovery keeps the record current; it never changes a Blue Human assessment on its own.
           </Typography>
           <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 5 }} sx={{ mt: 3, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>
             <Box><Typography variant="overline" color="text.secondary">Recommendations monitored</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status?.recommendations_monitored ?? commitments.length}</Typography></Box>
             <Box><Typography variant="overline" color="text.secondary">Public monitoring items</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{developments.length}</Typography></Box>
+            {!!status?.feeds_monitored && <Box><Typography variant="overline" color="text.secondary">Sources scanned</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status.feeds_monitored} news, institutional and civil-society feeds, Google News and the BOE</Typography></Box>}
             {lastScan && <Box><Typography variant="overline" color="text.secondary">Last source scan</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{lastScan}</Typography></Box>}
           </Stack>
         </Container>

@@ -42,7 +42,8 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 
 `supabase/functions/live-tracker` scans public sources for each recommendation and writes monitoring items. It never writes evidence or assessments.
 
-- Sources: Google News search feed for Spain and GDELT (news; GDELT rate-limits shared IPs heavily, so it is skipped for the rest of a run once it refuses twice), BOE consolidated legislation search, and the BOE daily gazette summary.
+- RSS/Atom feeds are rows in the `monitoring_feeds` table (name, url, source_type, spain_focused, enabled). Add or disable a feed there; no deploy is needed. Each run records `last_status` and `last_item_count` per feed.
+- Other sources: Google News search feed for Spain and GDELT (news; GDELT rate-limits shared IPs heavily, so it is skipped for the rest of a run once it refuses twice), BOE consolidated legislation search, and the BOE daily gazette summary.
 - Without semantic triage, only continuing-need news sharing three keywords with the profile is shown publicly; news about implementation waits in the research queue because keywords cannot tell progress from a setback.
 - Profile keyword lists are sent to GDELT as alternatives restricted to Spanish media; a title must then share at least two keywords with the profile, or contain one of its quoted phrases.
 - Legal candidates must be published after the recommendation was made.

@@ -30,7 +30,7 @@ export const OFFICIAL_DOMAINS = [
 
 export type Kind = "need_context" | "implementation_candidate" | "legal_change" | "statement" | "news";
 export type Relation = "supports_need" | "supports_progress" | "contradicts_progress" | "context";
-export type Connector = "gdelt" | "google_news" | "boe_search" | "boe_summary";
+export type Connector = "gdelt" | "google_news" | "rss" | "boe_search" | "boe_summary";
 
 export type Candidate = {
   connector: Connector;
@@ -43,6 +43,8 @@ export type Candidate = {
   source_type: string;
   published_at: string | null;
   summary: string | null;
+  // Short text taken verbatim from the source (feed description), when available.
+  excerpt?: string | null;
   relevance_score: number;
   // How many profile keywords the title shares.
   hits: number;
@@ -265,6 +267,92 @@ export async function googleNews(
     });
   }
   return { candidates, outcome: "ok" };
+}
+
+export type Feed = { id: string; name: string; url: string; source_type: string; spain_focused: boolean };
+export type FeedItem = { title: string; url: string; description: string | null; published_at: string | null };
+
+function plainText(html: string | null): string | null {
+  if (!html) return null;
+  const text = html.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/\s+/g, " ").trim();
+  return text || null;
+}
+
+// Parses RSS 2.0 (<item>) and Atom (<entry>) feeds.
+export function parseFeed(xml: string): FeedItem[] {
+  const items: FeedItem[] = [];
+  for (const [, block] of xml.matchAll(/<(?:item|entry)[\s>]([\s\S]*?)<\/(?:item|entry)>/g)) {
+    const title = plainText(xmlText(block, "title"));
+    const url = xmlText(block, "link") || block.match(/<link[^>]*href="([^"]+)"/i)?.[1] || null;
+    if (!title || !url || !/^https?:\/\//.test(url)) continue;
+    items.push({
+      title,
+      url: url.replace(/&amp;/g, "&"),
+      description: plainText(xmlText(block, "description") || xmlText(block, "summary")),
+      published_at: isoDate(xmlText(block, "pubDate") || xmlText(block, "published") || xmlText(block, "updated") || xmlText(block, "dc:date")),
+    });
+  }
+  return items;
+}
+
+export async function fetchFeed(feed: Feed): Promise<{ items: FeedItem[]; outcome: ConnectorResult["outcome"]; detail?: string }> {
+  try {
+    const r = await get(feed.url, "application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.1");
+    if (r.status === 429) return { items: [], outcome: "rate_limited" };
+    if (!r.ok) return { items: [], outcome: "error", detail: `HTTP ${r.status}` };
+    return { items: parseFeed(await r.text()), outcome: "ok" };
+  } catch (e) {
+    return { items: [], outcome: "error", detail: String(e).slice(0, 200) };
+  }
+}
+
+const MENTIONS_SPAIN = /espa[ñn]|spain|spanish/i;
+const FEED_MAX_AGE_MS = 14 * 86400000;
+
+// A feed item is tied to a recommendation by its headline: two shared profile keywords, or
+// one in the headline plus two more in the lead (some feeds put the whole article in the
+// description, so only its first sentences count). Only headline keywords count toward
+// showing an item without review. Feeds that are not about Spain must also mention Spain,
+// and stale items are ignored.
+export function matchFeedItem(
+  feed: Feed,
+  item: FeedItem,
+  query: string,
+  kind: "need_context" | "implementation_candidate",
+  relation: "supports_need" | "supports_progress",
+): Candidate | null {
+  if (item.published_at && Date.now() - new Date(item.published_at).getTime() > FEED_MAX_AGE_MS) return null;
+  const lead = (item.description || "").slice(0, 300);
+  if (!feed.spain_focused && !MENTIONS_SPAIN.test(`${item.title} ${lead}`)) return null;
+  const m = match(item.title, query);
+  if (!isPlausible(m)) {
+    if (m.hits < 1 || match(`${item.title} ${lead}`, query).hits < 3) return null;
+  }
+  const d = domainOf(item.url);
+  const official = feed.source_type === "official_web" || isOfficial(d);
+  const asStatement = official && kind === "need_context";
+  return {
+    connector: "rss",
+    kind: asStatement ? "statement" : kind,
+    relation: asStatement ? "context" : relation,
+    title: item.title,
+    url: item.url,
+    publisher: feed.name,
+    source_domain: d,
+    source_type: official ? "official_web" : feed.source_type,
+    published_at: item.published_at,
+    summary: null,
+    excerpt: item.description ? item.description.slice(0, 280) : null,
+    relevance_score: m.score,
+    hits: m.hits,
+    official,
+  };
+}
+
+// The same story reaches us through several connectors under different URLs.
+export function titleKey(title: string) {
+  return fold(title).replace(/[^a-z0-9]+/g, " ").trim();
 }
 
 type BoeNorm = { identificador?: string; titulo?: string; fecha_publicacion?: string; url_html_consolidada?: string; url_eli?: string };

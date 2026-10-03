@@ -28,6 +28,11 @@ export function MonitoringList({ items, numbers, empty }: Props) {
             <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
           </Stack>
           {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>{item.summary}</Typography>}
+          {!item.summary && item.excerpt && (
+            <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>
+              <Box component="span" sx={{ fontWeight: 600 }}>From the source:</Box> “{item.excerpt}”
+            </Typography>
+          )}
           {item.ai_note && item.status !== "reviewed" && (
             <Typography variant="body2" color="text.secondary" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>
               <Box component="span" sx={{ fontWeight: 600 }}>AI triage note:</Box> {item.ai_note}

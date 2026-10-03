@@ -1,7 +1,7 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {
-  boeDailySummary, boeSearch, gdelt, googleNews, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
-  GDELT_MIN_INTERVAL_MS, type Candidate, type ConnectorResult,
+  boeDailySummary, boeSearch, fetchFeed, gdelt, googleNews, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
+  matchFeedItem, titleKey, GDELT_MIN_INTERVAL_MS, type Candidate, type ConnectorResult, type Feed, type FeedItem,
 } from "./lib.ts";
 import { classify, DEFAULT_MODEL, type ClassifierConfig, type Verdict } from "./classifier.ts";
 
@@ -51,7 +51,7 @@ function toRow(commitmentId: string, c: Candidate, verdict: Verdict | undefined,
   const now = new Date().toISOString();
   const base = {
     commitment_id: commitmentId, title: c.title, url: c.url, publisher: c.publisher, source_domain: c.source_domain,
-    source_type: c.source_type, published_at: c.published_at, summary: c.summary, excerpt: null,
+    source_type: c.source_type, published_at: c.published_at, summary: c.summary, excerpt: c.excerpt ?? null,
     status: "auto", connector: c.connector, last_seen_at: now,
   };
   if (!verdict) {
@@ -115,13 +115,19 @@ Deno.serve(async (req) => {
     const unique = [...new Map(candidates.map((c) => [c.url, c])).values()];
     found += unique.length;
     if (!unique.length) return;
-    const existing: Array<{ id: string; url: string }> = await rest(`monitoring_items?select=id,url&commitment_id=eq.${rec.id}&limit=5000`) || [];
+    const existing: Array<{ id: string; url: string; title: string }> = await rest(`monitoring_items?select=id,url,title&commitment_id=eq.${rec.id}&limit=5000`) || [];
     const known = new Map(existing.map((x) => [x.url, x.id]));
+    const knownTitles = new Set(existing.map((x) => titleKey(x.title)));
     const seenIds = unique.map((c) => known.get(c.url)).filter(Boolean);
     if (seenIds.length) {
       await rest(`monitoring_items?id=in.(${seenIds.join(",")})`, { method: "PATCH", body: JSON.stringify({ last_seen_at: new Date().toISOString() }) });
     }
-    const fresh = unique.filter((c) => !known.has(c.url));
+    const fresh = unique.filter((c) => {
+      const key = titleKey(c.title);
+      if (known.has(c.url) || knownTitles.has(key)) return false;
+      knownTitles.add(key);
+      return true;
+    });
     if (!fresh.length) return;
     const triage = CLASSIFIER ? await classify(CLASSIFIER, rec, fresh) : null;
     const verdicts = triage?.verdicts ?? null;
@@ -160,11 +166,31 @@ Deno.serve(async (req) => {
       record("boe_summary", r, r.entries.length);
       gazette.push(...r.entries);
     }
+
+    // Configured RSS/Atom feeds, fetched once per run and checked against every profile.
+    const feeds: Feed[] = await rest("monitoring_feeds?select=id,name,url,source_type,spain_focused&enabled=eq.true") || [];
+    const feedItems: Array<{ feed: Feed; item: FeedItem }> = [];
+    await Promise.all(feeds.map(async (feed) => {
+      const r = await fetchFeed(feed);
+      record("rss", r, r.items.length);
+      for (const item of r.items) feedItems.push({ feed, item });
+      await rest(`monitoring_feeds?id=eq.${feed.id}`, {
+        method: "PATCH",
+        body: JSON.stringify({ last_fetched_at: new Date().toISOString(), last_status: r.outcome === "ok" ? "ok" : (r.detail || r.outcome), last_item_count: r.items.length }),
+      });
+    }));
+
     for (const p of profiles) {
       const rec = recById.get(p.commitment_id);
+      if (!rec) continue;
+      const matches: Candidate[] = [];
+      for (const { feed, item } of feedItems) {
+        const c = matchFeedItem(feed, item, p.news_query, "need_context", "supports_need")
+          || (p.implementation_query ? matchFeedItem(feed, item, p.implementation_query, "implementation_candidate", "supports_progress") : null);
+        if (c) matches.push(c);
+      }
       const query = p.boe_query || p.implementation_query;
-      if (!rec || !query) continue;
-      const matches = gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec)));
+      if (query) matches.push(...gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec))));
       await store(rec, matches);
     }
 
