@@ -93,7 +93,7 @@ export const TOOLS: Tool[] = [
       confirmation_code: { type: "string", description: "Given by the Blue Human reviewer in the conversation." },
       confirmed_by: { type: "string", description: "Name of the reviewer who decided." },
     }, ["public_id", "decision", "confirmation_code"]),
-    outputSchema: result({ public_id: { type: "string" }, result: { type: "string" }, jira: { type: ["string", "null"] } }),
+    outputSchema: result({ public_id: { type: "string" }, result: { type: "string" } }),
     // Confirming is not reversible through this plugin, so ask the user before running it.
     annotations: { readOnlyHint: false, destructiveHint: true, openWorldHint: true },
     request: (a) => ({ method: "POST", path: "/confirmations", body: a }),

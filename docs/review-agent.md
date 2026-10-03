@@ -9,12 +9,11 @@ Blue Human cannot review every recommendation by hand. An assistant (a ChatGPT p
 | Take the next recommendations due for review, 40 per run by default, those reviewed longest ago first | Mark a recommendation as **implemented**: it can only propose it; Blue Human confirms or rejects |
 | Update the assessment status, confidence and rationale, with evidence | Publish a change without at least one source whose URL actually opens |
 | Record the evidence and the assessment history in Supabase | Overwrite history: every change is a new assessment, the previous one stays |
-| Update the Jira issue: proposed assessment, a comment with the reasoning and sources, and the workflow status | Move a Jira issue to Approved or Published |
 | Record "no change" when nothing relevant happened | Touch anything a person has reviewed or rejected |
 
-An assessment the assistant updates is public immediately and marked "pending final confirmation". A proposal of "implemented" is not public: the Jira issue moves to Peer Review with the label `needs-confirmation`, and the record changes only when a person confirms it with the confirmation code.
+An assessment the assistant updates is public immediately and marked "pending final confirmation". A proposal of "implemented" is not public: it appears in the admin panel (`/admin`), and the record changes only when a person confirms it there, or through the assistant with the confirmation code.
 
-Every review is logged in `research_reviews` (who, when, previous and proposed status, outcome, what happened in Jira).
+Every review is logged in `research_reviews` (who, when, previous and proposed status, outcome) and shown in the admin panel.
 
 ## The service
 
@@ -182,7 +181,6 @@ paths:
                         evidence_urls_that_did_not_open:
                           type: array
                           items: { type: string }
-                        jira: { type: string }
   /review-queue/confirmations:
     get:
       operationId: getPendingConfirmations
@@ -204,7 +202,6 @@ paths:
                         public_id: { type: string }
                         number: { type: string }
                         title: { type: string }
-                        jira_issue: { type: string }
                         proposed_on: { type: string }
                         current_public_status: { type: string }
                         confidence: { type: string }
@@ -235,7 +232,6 @@ paths:
                 properties:
                   public_id: { type: string }
                   result: { type: string }
-                  jira: { type: string }
   /review-queue:
     get:
       operationId: getPendingCandidates

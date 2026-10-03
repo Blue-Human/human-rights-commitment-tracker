@@ -26,7 +26,17 @@ The frontend only consumes published data exposed through these Supabase views:
 - `hrct_public_monitoring`
 - `hrct_public_monitoring_status` and `hrct_public_monitoring_coverage` (optional; the UI omits "last source scan" until they exist)
 
-Jira remains the research and peer-review workspace; it is never queried by the public UI.
+Recommendations are managed from the in-app admin panel (see below). Jira is no longer part of the workflow.
+
+## Admin panel
+
+`/admin` is where the tracker is managed. It is protected by a single account set in the environment and talks to Supabase from the server with the service-role key, which is never sent to the browser.
+
+- Overview: "implemented" proposals awaiting a decision, all recommendations with their status, and the log of periodic reviews.
+- A recommendation: set its assessment (a new assessment is created, history is kept), confirm a provisional one, confirm or hide evidence, and approve, annotate or reject monitoring items.
+- Monitoring items awaiting review, and the RSS sources.
+
+Environment (see `.env.example`): `ADMIN_USER`, `ADMIN_PASSWORD`, `ADMIN_SESSION_SECRET`, `SUPABASE_SERVICE_ROLE_KEY`. Every admin page and server action checks the session; the database operations are `hrct_admin_set_assessment` and `hrct_admin_confirm_assessment`, callable by the service role only.
 
 ## Local development
 
@@ -54,8 +64,7 @@ The assistant reaches this service through the MCP server in `supabase/functions
 
 - A review may update the assessment. It is written in one transaction (`hrct_record_research_review`): new assessment, evidence, change record and a row in `research_reviews`. History is never overwritten.
 - An update needs at least one source whose URL opens. Updated assessments are public and marked provisional ("pending final confirmation").
-- "Implemented" is never applied by a review. It is stored as a proposal, the Jira issue moves to Peer Review with the label `needs-confirmation`, and a person confirms or rejects it with `REVIEW_CONFIRMATION_CODE`.
-- Jira is updated from the function (proposed assessment, comment, status up to Peer Review). It never moves an issue to Approved. Function secrets: `JIRA_BASE_URL`, `JIRA_EMAIL`, `JIRA_API_TOKEN`.
+- "Implemented" is never applied by a review. It is stored as a proposal and listed in the admin panel, where a person confirms or rejects it (or does so through the assistant with `REVIEW_CONFIRMATION_CODE`).
 - RSS/Atom feeds are rows in the `monitoring_feeds` table (name, url, source_type, spain_focused, enabled). Add or disable a feed there; no deploy is needed. Each run records `last_status` and `last_item_count` per feed.
 - Other sources: Google News search feed for Spain and GDELT (news; GDELT rate-limits shared IPs heavily, so it is skipped for the rest of a run once it refuses twice), BOE consolidated legislation search, and the BOE daily gazette summary.
 - Without semantic triage, only continuing-need news sharing three keywords with the profile is shown publicly; news about implementation waits in the research queue because keywords cannot tell progress from a setback.
