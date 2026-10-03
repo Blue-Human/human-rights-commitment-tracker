@@ -89,6 +89,7 @@ export type MonitoringStatus = {
   recommendations_monitored: number;
   public_items: number;
   last_item_discovered_at: string | null;
+  feeds_monitored?: number;
 };
 
 export type MonitoringChannel = "need" | "implementation" | "contradiction";

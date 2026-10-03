@@ -13,7 +13,7 @@ export const DEFAULT_MODEL = "gemini-flash-latest";
 
 const SYSTEM = `You triage automatically discovered documents for the Human Rights Commitment Tracker (HRCT), an evidence-first public record of human-rights recommendations addressed to Spain.
 
-For each candidate decide how it relates to ONE recommendation. You only see the candidate's title, publisher and date, so judge only what the title itself supports.
+For each candidate decide how it relates to ONE recommendation. You only see the candidate's title, publisher, date and sometimes a short excerpt from the source, so judge only what that text itself supports.
 
 Categories:
 - need_context: reporting, data or statements showing that the problem addressed by the recommendation persists in Spain (incidents, statistics, monitoring reports). Says nothing about implementation.
@@ -24,7 +24,7 @@ Categories:
 Rules:
 - When unsure, choose noise. A false positive on a public human-rights record is worse than a missed item.
 - relevance is 0 to 1: how directly the title concerns this specific recommendation, not the general topic.
-- note is one short neutral sentence in English explaining the choice. Do not add facts that are not in the title.
+- note is one short neutral sentence in English explaining the choice. Do not add facts that are not in the title or excerpt.
 - Return exactly one result per candidate, using the candidate's index.`;
 
 const SCHEMA = {
@@ -60,7 +60,7 @@ export async function classify(
 ): Promise<Triage> {
   if (!candidates.length) return { verdicts: null };
   const list = candidates
-    .map((c, i) => `${i}. [${c.source_type}] ${c.title} — ${c.publisher || c.source_domain || "unknown publisher"}${c.published_at ? `, ${c.published_at.slice(0, 10)}` : ""}`)
+    .map((c, i) => `${i}. [${c.source_type}] ${c.title} — ${c.publisher || c.source_domain || "unknown publisher"}${c.published_at ? `, ${c.published_at.slice(0, 10)}` : ""}${c.excerpt ? `\n   Excerpt: ${c.excerpt}` : ""}`)
     .join("\n");
   try {
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${config.model}:generateContent`, {
