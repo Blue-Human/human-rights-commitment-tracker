@@ -5,7 +5,7 @@ import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
-import { getCommitment, getEvidence } from "@/lib/hrct";
+import { getCommitment, getEvidence, getHumanSecurityDimensions, getMonitoringItems } from "@/lib/hrct";
 
 function humanize(value?: string | null) {
   return value ? value.replaceAll("_", " ").replace(/\b\w/g, (m) => m.toUpperCase()) : "Not specified";
@@ -18,10 +18,17 @@ function Meta({ label, value }: { label: string; value: string }) {
 export default async function CommitmentPage({ params }: { params: Promise<{ publicId: string }> }) {
   const { publicId } = await params;
   const decoded = decodeURIComponent(publicId);
-  const [commitment, evidence] = await Promise.all([getCommitment(decoded), getEvidence(decoded)]);
+  const [commitment, evidence, dimensions, monitoring] = await Promise.all([
+    getCommitment(decoded),
+    getEvidence(decoded),
+    getHumanSecurityDimensions(decoded),
+    getMonitoringItems(decoded),
+  ]);
   if (!commitment) notFound();
 
   const pending = commitment.assessment_status === "not_assessed";
+  const needContext = monitoring.filter((item) => item.relation === "supports_need" || item.kind === "need_context");
+  const liveImplementation = monitoring.filter((item) => item.relation !== "supports_need" && item.kind !== "need_context");
 
   return (
     <>
@@ -29,7 +36,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
       <Box component="main">
         <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
           <Button component={Link} href="/" startIcon={<ArrowBackRoundedIcon />} sx={{ mb: 3, px: 0 }}>Back to recommendations</Button>
-          <Typography variant="overline" color="secondary.main">Spain · UPR fourth cycle · Recommendation {commitment.recommendation_number}</Typography>
+          <Typography variant="overline" color="primary.main">Spain · UPR fourth cycle · Recommendation {commitment.recommendation_number}</Typography>
           <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>
             {commitment.title}
           </Typography>
@@ -61,13 +68,84 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
               </Box>
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
+                <Typography variant="overline" color="text.secondary">Human security lens</Typography>
+                <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.6 }}>Affected human security dimensions</Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 820, lineHeight: 1.75, mb: 2.2 }}>
+                  HRCT maps each recommendation to the seven human-security dimensions used by UNDP. More than one dimension may apply because threats to human security are interconnected.
+                </Typography>
+                <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
+                  {dimensions.map((dimension) => (
+                    <Box key={dimension.code} sx={{ py: 2.2 }}>
+                      <Stack direction={{ xs: "column", sm: "row" }} spacing={2} alignItems={{ sm: "baseline" }}>
+                        <Typography variant="h6" color="primary.main" sx={{ minWidth: 180 }}>{dimension.name}</Typography>
+                        <Box>
+                          {dimension.is_primary && <Typography variant="overline" color="text.secondary">Primary dimension</Typography>}
+                          <Typography variant="body2" sx={{ lineHeight: 1.7 }}>{dimension.rationale || dimension.description}</Typography>
+                        </Box>
+                      </Stack>
+                    </Box>
+                  ))}
+                  {!dimensions.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>Human-security classification pending.</Typography>}
+                </Stack>
+              </Box>
+
+              <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
+                <Typography variant="overline" color="text.secondary">Live context monitoring</Typography>
+                <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.2 }}>Why this recommendation remains relevant</Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2.2 }}>
+                  Automatically discovered reporting, official statements and public information that may indicate the continuing need addressed by this recommendation. These items are monitoring context, not proof of implementation and not a Blue Human finding unless separately reviewed as evidence.
+                </Typography>
+                <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
+                  {needContext.map((item) => (
+                    <Box key={item.id} sx={{ py: 2.6 }}>
+                      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
+                        <Box sx={{ minWidth: 0 }}>
+                          <Typography variant="overline" color="text.secondary">{item.source_type === "official_web" ? "Official monitoring" : "News / public reporting"} · Auto-discovered</Typography>
+                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
+                          <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .45 }}>
+                            {[item.publisher, item.published_at ? new Date(item.published_at).toLocaleDateString("en-GB") : null].filter(Boolean).join(" · ")}
+                          </Typography>
+                        </Box>
+                        <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
+                      </Stack>
+                      {item.summary && <Typography variant="body2" sx={{ mt: 1.3, lineHeight: 1.7 }}>{item.summary}</Typography>}
+                    </Box>
+                  ))}
+                  {!needContext.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>The live tracker has not yet identified public context for this recommendation.</Typography>}
+                </Stack>
+              </Box>
+
+              <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
                 <Typography variant="overline" color="text.secondary">Authoritative text</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.8 }}>United Nations recommendation</Typography>
                 <Typography sx={{ fontSize: "1.04rem", lineHeight: 1.9, whiteSpace: "pre-line", maxWidth: 860 }}>{commitment.original_text}</Typography>
               </Box>
 
+              {liveImplementation.length > 0 && (
+                <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
+                  <Typography variant="overline" color="text.secondary">Automated research queue</Typography>
+                  <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.3 }}>Potential implementation developments</Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
+                    Laws, official actions and reporting automatically matched to this recommendation. They remain candidates until reviewed and promoted into the evidence record.
+                  </Typography>
+                  <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
+                    {liveImplementation.map((item) => (
+                      <Box key={item.id} sx={{ py: 2.5 }}>
+                        <Typography variant="overline" color="text.secondary">{humanize(item.kind)} · {Math.round(Number(item.relevance_score) * 100)}% match</Typography>
+                        <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
+                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
+                          <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
+                        </Stack>
+                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{item.publisher || item.source_domain || "Public source"}</Typography>
+                        {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7 }}>{item.summary}</Typography>}
+                      </Box>
+                    ))}
+                  </Stack>
+                </Box>
+              )}
+
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                <Typography variant="overline" color="text.secondary">Supporting record</Typography>
+                <Typography variant="overline" color="text.secondary">Reviewed record</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.5 }}>Evidence considered</Typography>
                 <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
                   {evidence.map((item) => (
@@ -84,7 +162,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                       {item.reliability_notes && <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 1.2 }}>Limitations: {item.reliability_notes}</Typography>}
                     </Box>
                   ))}
-                  {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No public implementation evidence has yet been attached to this record.</Typography>}
+                  {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No reviewed implementation evidence has yet been attached to this record.</Typography>}
                 </Stack>
               </Box>
             </Stack>
@@ -95,6 +173,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Meta label="Recommendation" value={commitment.recommendation_number || "—"} />
                 <Meta label="State response" value={humanize(commitment.acceptance_status)} />
                 <Meta label="Mechanism" value={commitment.mechanism_name} />
+                <Meta label="Live context items" value={String(needContext.length)} />
                 <Meta label="Publication date" value={commitment.published_at ? new Date(commitment.published_at).toLocaleDateString("en-GB") : "—"} />
               </Stack>
 

@@ -41,6 +41,33 @@ export type Evidence = {
   source_url: string | null;
 };
 
+export type HumanSecurityDimension = {
+  public_id: string;
+  code: "economic" | "food" | "health" | "environmental" | "personal" | "community" | "political";
+  name: string;
+  description: string | null;
+  is_primary: boolean;
+  rationale: string | null;
+};
+
+export type MonitoringItem = {
+  public_id: string;
+  id: string;
+  kind: "need_context" | "implementation_candidate" | "legal_change" | "statement" | "news";
+  relation: "supports_need" | "supports_progress" | "contradicts_progress" | "context";
+  title: string;
+  url: string;
+  publisher: string | null;
+  source_domain: string | null;
+  source_type: string;
+  published_at: string | null;
+  summary: string | null;
+  excerpt: string | null;
+  relevance_score: number;
+  status: "auto" | "reviewed" | "rejected";
+  discovered_at: string;
+};
+
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
@@ -65,4 +92,12 @@ export async function getCommitment(publicId: string): Promise<Commitment | null
 
 export async function getEvidence(publicId: string): Promise<Evidence[]> {
   return rest<Evidence[]>(`hrct_public_evidence?select=*&public_id=eq.${encodeURIComponent(publicId)}&order=evidence_date.desc.nullslast`);
+}
+
+export async function getHumanSecurityDimensions(publicId: string): Promise<HumanSecurityDimension[]> {
+  return rest<HumanSecurityDimension[]>(`hrct_public_human_security?select=*&public_id=eq.${encodeURIComponent(publicId)}&order=is_primary.desc,name.asc`);
+}
+
+export async function getMonitoringItems(publicId: string): Promise<MonitoringItem[]> {
+  return rest<MonitoringItem[]>(`hrct_public_monitoring?select=*&public_id=eq.${encodeURIComponent(publicId)}&order=published_at.desc.nullslast,discovered_at.desc&limit=30`);
 }
