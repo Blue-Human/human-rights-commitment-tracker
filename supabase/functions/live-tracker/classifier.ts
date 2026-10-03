@@ -1,14 +1,15 @@
-// Optional semantic triage of monitoring candidates with Claude.
-// Enabled only when the ANTHROPIC_API_KEY function secret is set. The classifier
+// Optional semantic triage of monitoring candidates with Gemini.
+// Enabled only when the GEMINI_API_KEY function secret is set. The classifier
 // sorts candidates into monitoring channels; it never writes evidence or assessments.
+// No Deno-specific code, so it can be exercised locally (see check.ts).
 
-import Anthropic from "npm:@anthropic-ai/sdk";
 import type { Candidate } from "./lib.ts";
 
 export type Category = "need_context" | "implementation_candidate" | "contradiction" | "noise";
 export type Verdict = { category: Category; relevance: number; note: string };
+export type ClassifierConfig = { apiKey: string; model: string };
 
-const MODEL = Deno.env.get("HRCT_CLASSIFIER_MODEL") || "claude-opus-5-5";
+export const DEFAULT_MODEL = "gemini-flash-latest";
 
 const SYSTEM = `You triage automatically discovered documents for the Human Rights Commitment Tracker (HRCT), an evidence-first public record of human-rights recommendations addressed to Spain.
 
@@ -23,69 +24,73 @@ Categories:
 Rules:
 - When unsure, choose noise. A false positive on a public human-rights record is worse than a missed item.
 - relevance is 0 to 1: how directly the title concerns this specific recommendation, not the general topic.
-- note is one short neutral sentence explaining the choice. Do not add facts that are not in the title.
+- note is one short neutral sentence in English explaining the choice. Do not add facts that are not in the title.
 - Return exactly one result per candidate, using the candidate's index.`;
 
 const SCHEMA = {
-  type: "object",
+  type: "OBJECT",
   properties: {
     results: {
-      type: "array",
+      type: "ARRAY",
       items: {
-        type: "object",
+        type: "OBJECT",
         properties: {
-          index: { type: "integer" },
-          category: { type: "string", enum: ["need_context", "implementation_candidate", "contradiction", "noise"] },
-          relevance: { type: "number" },
-          note: { type: "string" },
+          index: { type: "INTEGER" },
+          category: { type: "STRING", enum: ["need_context", "implementation_candidate", "contradiction", "noise"] },
+          relevance: { type: "NUMBER" },
+          note: { type: "STRING" },
         },
         required: ["index", "category", "relevance", "note"],
-        additionalProperties: false,
       },
     },
   },
   required: ["results"],
-  additionalProperties: false,
 };
 
-export const classifierName = () => (Deno.env.get("ANTHROPIC_API_KEY") ? MODEL : null);
+const CATEGORIES = new Set(["need_context", "implementation_candidate", "contradiction", "noise"]);
 
-// Returns a verdict per candidate index, or null when the classifier is unavailable
-// or fails; callers then fall back to keyword heuristics.
+// Returns a verdict per candidate index, or null when the classifier fails;
+// callers then fall back to keyword heuristics.
 export async function classify(
+  config: ClassifierConfig,
   recommendation: { public_id: string; title: string; original_text: string },
   candidates: Candidate[],
 ): Promise<Map<number, Verdict> | null> {
-  if (!Deno.env.get("ANTHROPIC_API_KEY") || !candidates.length) return null;
-  const client = new Anthropic();
+  if (!candidates.length) return null;
   const list = candidates
     .map((c, i) => `${i}. [${c.source_type}] ${c.title} — ${c.publisher || c.source_domain || "unknown publisher"}${c.published_at ? `, ${c.published_at.slice(0, 10)}` : ""}`)
     .join("\n");
   try {
-    const response = await client.messages.create({
-      model: MODEL,
-      max_tokens: 16000,
-      system: SYSTEM,
-      output_config: { effort: "low", format: { type: "json_schema", schema: SCHEMA } },
-      messages: [{
-        role: "user",
-        content: `Recommendation ${recommendation.public_id}: ${recommendation.title}\n\nAuthoritative text:\n${recommendation.original_text}\n\nCandidates:\n${list}`,
-      }],
+    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${config.model}:generateContent`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-goog-api-key": config.apiKey },
+      signal: AbortSignal.timeout(45000),
+      body: JSON.stringify({
+        systemInstruction: { parts: [{ text: SYSTEM }] },
+        contents: [{
+          role: "user",
+          parts: [{ text: `Recommendation ${recommendation.public_id}: ${recommendation.title}\n\nAuthoritative text:\n${recommendation.original_text}\n\nCandidates:\n${list}` }],
+        }],
+        generationConfig: { responseMimeType: "application/json", responseSchema: SCHEMA, temperature: 0 },
+      }),
     });
-    if (response.stop_reason !== "end_turn") return null;
-    const text = response.content.find((b) => b.type === "text");
-    if (!text || text.type !== "text") return null;
-    const parsed = JSON.parse(text.text) as { results: Array<Verdict & { index: number }> };
+    if (!r.ok) {
+      console.warn(`classifier HTTP ${r.status}`);
+      return null;
+    }
+    const data = await r.json();
+    const candidate = data?.candidates?.[0];
+    if (candidate?.finishReason !== "STOP") return null;
+    const text = (candidate.content?.parts || []).map((p: { text?: string }) => p.text || "").join("");
+    const parsed = JSON.parse(text) as { results: Array<Verdict & { index: number }> };
     const verdicts = new Map<number, Verdict>();
-    for (const r of parsed.results) {
-      if (r.index < 0 || r.index >= candidates.length) continue;
-      verdicts.set(r.index, { category: r.category, relevance: Math.max(0, Math.min(1, r.relevance)), note: r.note.slice(0, 500) });
+    for (const v of parsed.results) {
+      if (!Number.isInteger(v.index) || v.index < 0 || v.index >= candidates.length || !CATEGORIES.has(v.category)) continue;
+      verdicts.set(v.index, { category: v.category, relevance: Math.max(0, Math.min(1, Number(v.relevance) || 0)), note: String(v.note).slice(0, 500) });
     }
     return verdicts;
   } catch (e) {
-    if (e instanceof Anthropic.RateLimitError) console.warn("classifier rate limited");
-    else if (e instanceof Anthropic.APIError) console.warn(`classifier API error ${e.status}`);
-    else console.warn(`classifier error ${String(e).slice(0, 200)}`);
+    console.warn(`classifier error ${String(e).slice(0, 200)}`);
     return null;
   }
 }

@@ -74,19 +74,29 @@ export function tokens(s: string): string[] {
   return (fold(stripOperators(s)).match(/[a-z0-9]{4,}/g) || []).filter((x) => !STOP.has(x));
 }
 
-export type Match = { score: number; hits: number; size: number };
+export type Match = { score: number; hits: number; size: number; specific: boolean };
+
+// Crude stemming so that "racismo"/"racista" or "delito"/"delitos" count as the same keyword.
+const stem = (t: string) => t.slice(0, 5);
 
 export function match(title: string, query: string): Match {
-  const a = new Set(tokens(title));
-  const b = new Set(tokens(query));
+  const queryTokens = tokens(query);
+  const a = new Set(tokens(title).map(stem));
+  const b = new Set(queryTokens.map(stem));
   let hits = 0;
   for (const x of b) if (a.has(x)) hits++;
-  return { score: Math.min(0.98, 0.58 + (hits / Math.max(2, b.size)) * 0.4), hits, size: b.size };
+  // A quoted phrase in the profile that appears verbatim in the title is a strong match on its own.
+  const foldedTitle = fold(title);
+  const phrase = [...query.matchAll(/"([^"]+)"/g)].some((m) => m[1].trim().length >= 8 && foldedTitle.includes(fold(m[1].trim())));
+  const score = phrase ? 0.95 : Math.min(0.98, 0.58 + (hits / Math.max(2, b.size)) * 0.4);
+  return { score, hits: phrase ? Math.max(2, hits) : hits, size: b.size, specific: b.size === 1 && queryTokens[0].length >= 10 };
 }
 
-// A single shared keyword is not enough to tie a document to a recommendation.
+// One shared generic keyword is not enough to tie a document to a recommendation. A profile
+// made of a single long, specific term ("antisemitismo", "desinformación") may match on it alone.
 export function isPlausible(m: Match) {
-  return m.score >= 0.62 && m.hits >= Math.min(2, m.size);
+  if (m.hits >= 2) return m.score >= 0.62;
+  return m.specific && m.hits === 1;
 }
 
 export function domainOf(u: string): string | null {
@@ -115,16 +125,29 @@ async function get(url: URL | string, accept: string): Promise<Response> {
   return fetch(url, { headers: { Accept: accept, "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(20000) });
 }
 
+// Profiles hold plain keyword lists. GDELT treats those as "all of these words" and rejects
+// short words outright, so the keywords are sent as alternatives restricted to Spanish media;
+// the title must then share at least two of them (see isPlausible).
+export function gdeltQuery(text: string): string | null {
+  const phrases = [...text.matchAll(/"([^"]+)"/g)].map((m) => m[1].trim()).filter((p) => p.length >= 8);
+  const words = [...new Set((stripOperators(text.replace(/"/g, " ")).toLowerCase().match(/[\p{L}\p{N}]{5,}/gu) || []).filter((w) => !STOP.has(fold(w))))];
+  const terms = [...phrases.map((p) => `"${p}"`), ...words].slice(0, 10);
+  if (!terms.length) return null;
+  return `${terms.length > 1 ? `(${terms.join(" OR ")})` : terms[0]} sourcecountry:spain`;
+}
+
 export async function gdelt(
   query: string,
   kind: "need_context" | "implementation_candidate",
   relation: "supports_need" | "supports_progress",
   days: number,
 ): Promise<ConnectorResult> {
+  const q = gdeltQuery(query);
+  if (!q) return { candidates: [], outcome: "ok" };
   const endpoint = new URL("https://api.gdeltproject.org/api/v2/doc/doc");
-  endpoint.searchParams.set("query", query);
+  endpoint.searchParams.set("query", q);
   endpoint.searchParams.set("mode", "artlist");
-  endpoint.searchParams.set("maxrecords", "12");
+  endpoint.searchParams.set("maxrecords", "40");
   endpoint.searchParams.set("format", "json");
   endpoint.searchParams.set("sort", "datedesc");
   endpoint.searchParams.set("timespan", `${Math.min(30, Math.max(1, days))}d`);
@@ -272,6 +295,12 @@ export function matchBoeEntry(entry: BoeEntry, query: string): Candidate | null 
 }
 
 // Without a semantic classifier, only strong keyword matches are shown publicly.
+// A norm published before the recommendation was made cannot be a development in response to it.
+// Candidates with no known date are kept out as well.
+export function isAfter(c: Candidate, since: string | null) {
+  return !!since && !!c.published_at && c.published_at.slice(0, 10) >= since.slice(0, 10);
+}
+
 export function heuristicIsPublic(c: Candidate) {
   if (c.connector !== "gdelt") return c.relevance_score >= 0.8;
   return c.relevance_score >= (c.official ? 0.76 : 0.82);

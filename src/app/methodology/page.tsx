@@ -9,7 +9,16 @@ export const metadata: Metadata = {
   description: "How HRCT records recommendations, weighs evidence, uses automated monitoring and AI, and preserves assessment history.",
 };
 
-const vocabulary = ["not_assessed", "unable_to_assess", "not_implemented", "limited_progress", "substantially_implemented", "implemented", "regressed"];
+// Definitions are those of HRCT Methodology v1.0.
+const vocabulary: [string, string][] = [
+  ["not_assessed", "No substantive assessment has yet been completed."],
+  ["unable_to_assess", "Available evidence is not sufficient for a defensible implementation judgement."],
+  ["not_implemented", "Evidence supports the conclusion that meaningful implementation has not occurred."],
+  ["limited_progress", "Some relevant action is documented, but implementation remains materially incomplete."],
+  ["substantially_implemented", "Significant implementation is documented, although relevant elements remain outstanding."],
+  ["implemented", "Available evidence supports that the monitored commitment has been implemented according to the defined scope and indicators."],
+  ["regressed", "Evidence indicates deterioration after previous progress or implementation."],
+];
 
 const sourceTiers: [string, string][] = [
   ["Primary evidence", "Legislation, official gazettes, government administrative records, official statistics, budget allocation and execution, judicial decisions and formal implementation documents."],
@@ -58,11 +67,19 @@ export default function MethodologyPage() {
               <Typography>
                 Each recommendation carries one of the following implementation statuses, together with a confidence level, a written rationale and the methodology version applied.
               </Typography>
-              <Stack spacing={1} sx={{ py: .5 }}>
-                {vocabulary.map((status) => <Box key={status}><StatusChip status={status} /></Box>)}
+              <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
+                {vocabulary.map(([status, meaning]) => (
+                  <Stack key={status} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .5, sm: 2 }} sx={{ py: 1.6 }}>
+                    <Box sx={{ minWidth: 250 }}><StatusChip status={status} /></Box>
+                    <Typography variant="body2">{meaning}</Typography>
+                  </Stack>
+                ))}
               </Stack>
               <Typography>
-                No implementation finding is presented without evidence. A government statement is not treated as implementation, and the adoption of a plan is not treated as proof of an outcome: assessments distinguish outputs from outcomes wherever the evidence allows. Where the available evidence cannot support a responsible conclusion, the record says &ldquo;Insufficient evidence&rdquo; instead of forcing a finding. Evidence that contradicts progress is kept on the record, not removed.
+                These labels are the initial operational vocabulary. Thresholds and examples are being validated through the pilot before the methodology is treated as mature.
+              </Typography>
+              <Typography>
+                No implementation finding is presented without evidence. A government statement is not treated as implementation, and the adoption of a plan is not treated as proof of an outcome: assessments distinguish outputs from outcomes wherever the evidence allows. Where the available evidence cannot support a responsible conclusion, the record says &ldquo;Insufficient evidence&rdquo; instead of forcing a finding. Absence of evidence is not treated as evidence of non-compliance, and evidence that contradicts progress is kept on the record, not removed.
               </Typography>
             </Section>
 
@@ -100,7 +117,10 @@ export default function MethodologyPage() {
 
             <Section overline="Integrity of the record" title="History and corrections">
               <Typography>
-                Published assessments are not overwritten. When an assessment changes, the earlier assessment stays on the record, the new one becomes current, and the change is logged. Each recommendation page shows this history.
+                Published assessments are not overwritten. When an assessment changes, the earlier assessment stays on the record, the new one becomes current, and the change is logged. Each recommendation page shows this history. Each assessment also records the methodology version under which it was made.
+              </Typography>
+              <Typography>
+                Corrections, new evidence and rights of reply are handled as submissions for review. An accepted submission may lead to new evidence and, where justified, a new assessment; it never changes an existing public assessment directly.
               </Typography>
             </Section>
           </Stack>

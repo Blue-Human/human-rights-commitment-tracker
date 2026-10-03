@@ -1,7 +1,8 @@
 // Read-only check of the live-tracker connectors against the real sources.
 // Writes nothing. Run with: node supabase/functions/live-tracker/check.ts "<query>"
 
-import { boeDailySummary, boeSearch, boeSearchQuery, gdelt, isoDate, lastDays, match, matchBoeEntry } from "./lib.ts";
+import { boeDailySummary, boeSearch, boeSearchQuery, gdelt, gdeltQuery, isoDate, lastDays, match, matchBoeEntry, type Candidate } from "./lib.ts";
+import { classify, DEFAULT_MODEL } from "./classifier.ts";
 
 const query = process.argv[2] || "igualdad de trato no discriminación racial";
 
@@ -20,6 +21,19 @@ for (const day of lastDays(4)) {
   for (const c of hits.slice(0, 5)) console.log(`  ${c!.relevance_score.toFixed(2)} ${c!.title.slice(0, 110)}`);
 }
 
-const news = await gdelt(`${query} sourcecountry:spain`, "need_context", "supports_need", 14);
+console.log("\nGDELT query:", gdeltQuery(query));
+const news = await gdelt(query, "need_context", "supports_need", 14);
 console.log(`\nGDELT: ${news.outcome} ${news.detail ?? ""} — ${news.candidates.length} candidates`);
 for (const c of news.candidates.slice(0, 8)) console.log(`  ${c.relevance_score.toFixed(2)} ${c.published_at?.slice(0, 10)} ${c.source_domain} ${c.title.slice(0, 90)}`);
+
+// With GEMINI_API_KEY set, show how the classifier would triage what was found.
+const found: Candidate[] = [...search.candidates, ...news.candidates].slice(0, 20);
+if (process.env.GEMINI_API_KEY && found.length) {
+  const title = process.argv[3] || query;
+  const verdicts = await classify({ apiKey: process.env.GEMINI_API_KEY, model: process.env.HRCT_CLASSIFIER_MODEL || DEFAULT_MODEL }, { public_id: "CHECK", title, original_text: process.argv[4] || title }, found);
+  console.log(`\nClassifier: ${verdicts ? `${verdicts.size}/${found.length} verdicts` : "failed"}`);
+  found.forEach((c, i) => {
+    const v = verdicts?.get(i);
+    if (v) console.log(`  ${v.category.padEnd(24)} ${v.relevance.toFixed(2)} ${c.title.slice(0, 70)}\n      ${v.note}`);
+  });
+}

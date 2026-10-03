@@ -1,14 +1,19 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {
-  boeDailySummary, boeSearch, gdelt, heuristicIsPublic, lastDays, matchBoeEntry,
+  boeDailySummary, boeSearch, gdelt, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
   GDELT_MIN_INTERVAL_MS, type Candidate, type ConnectorResult,
 } from "./lib.ts";
-import { classifierName, classify, type Verdict } from "./classifier.ts";
+import { classify, DEFAULT_MODEL, type ClassifierConfig, type Verdict } from "./classifier.ts";
 
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 const SERVICE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
 // Optional. When set, callers must send it in the x-hrct-tracker-secret header.
 const TRACKER_SECRET = Deno.env.get("LIVE_TRACKER_SECRET");
+// Optional. Without it, candidates are triaged by keyword heuristics only.
+const GEMINI_API_KEY = Deno.env.get("GEMINI_API_KEY");
+const CLASSIFIER: ClassifierConfig | null = GEMINI_API_KEY
+  ? { apiKey: GEMINI_API_KEY, model: Deno.env.get("HRCT_CLASSIFIER_MODEL") || DEFAULT_MODEL }
+  : null;
 const REST = `${SUPABASE_URL}/rest/v1`;
 const COOLDOWN_MS = 45 * 60 * 1000;
 const PROFILE_BATCH = 6;
@@ -20,7 +25,12 @@ type Profile = {
   id: string; commitment_id: string; news_query: string; implementation_query: string | null;
   boe_query: string | null; lookback_days: number | null;
 };
-type Recommendation = { id: string; public_id: string; title: string; original_text: string };
+type Recommendation = {
+  id: string; public_id: string; title: string; original_text: string;
+  commitment_date: string | null; sources: { publication_date: string | null } | null;
+};
+// The date from which a legal change can count as following the recommendation.
+const since = (r: Recommendation) => r.commitment_date || r.sources?.publication_date || null;
 type SourceStat = { requests: number; rate_limited: number; errors: number; candidates: number; last_error?: string };
 
 async function rest(path: string, init: RequestInit = {}) {
@@ -88,7 +98,7 @@ Deno.serve(async (req) => {
   };
 
   // Items a person has reviewed or rejected are never reset: rediscovery only refreshes last_seen_at.
-  const store = async (rec: Recommendation, candidates: Candidate[], classifier: string | null) => {
+  const store = async (rec: Recommendation, candidates: Candidate[]) => {
     const unique = [...new Map(candidates.map((c) => [c.url, c])).values()];
     found += unique.length;
     if (!unique.length) return;
@@ -100,13 +110,13 @@ Deno.serve(async (req) => {
     }
     const fresh = unique.filter((c) => !known.has(c.url));
     if (!fresh.length) return;
-    const verdicts = classifier ? await classify(rec, fresh) : null;
-    if (classifier) {
+    const verdicts = CLASSIFIER ? await classify(CLASSIFIER, rec, fresh) : null;
+    if (CLASSIFIER) {
       const s = stats.classifier ??= { requests: 0, rate_limited: 0, errors: 0, candidates: 0 };
       s.requests++;
       if (verdicts) s.candidates += verdicts.size; else s.errors++;
     }
-    const rows = fresh.map((c, i) => toRow(rec.id, c, verdicts?.get(i), classifier));
+    const rows = fresh.map((c, i) => toRow(rec.id, c, verdicts?.get(i), CLASSIFIER?.model ?? null));
     await rest("monitoring_items?on_conflict=commitment_id,url", {
       method: "POST", headers: { Prefer: "resolution=ignore-duplicates,return=minimal" }, body: JSON.stringify(rows),
     });
@@ -123,10 +133,9 @@ Deno.serve(async (req) => {
     const run = await rest("monitoring_runs", { method: "POST", headers: { Prefer: "return=representation" }, body: JSON.stringify({ status: "running" }) });
     runId = run?.[0]?.id;
 
-    const classifier = classifierName();
     const profiles: Profile[] = await rest("monitoring_profiles?select=id,commitment_id,news_query,implementation_query,boe_query,lookback_days&enabled=eq.true&order=last_run_at.asc.nullsfirst") || [];
     const recs: Recommendation[] = profiles.length
-      ? await rest(`commitments?select=id,public_id,title,original_text&id=in.(${profiles.map((p) => p.commitment_id).join(",")})`) || []
+      ? await rest(`commitments?select=id,public_id,title,original_text,commitment_date,sources(publication_date)&id=in.(${profiles.map((p) => p.commitment_id).join(",")})`) || []
       : [];
     const recById = new Map(recs.map((r) => [r.id, r]));
 
@@ -141,8 +150,8 @@ Deno.serve(async (req) => {
       const rec = recById.get(p.commitment_id);
       const query = p.boe_query || p.implementation_query;
       if (!rec || !query) continue;
-      const matches = gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c);
-      await store(rec, matches, classifier);
+      const matches = gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec)));
+      await store(rec, matches);
     }
 
     // News and legislation search rotate through the profiles that have waited longest.
@@ -156,9 +165,9 @@ Deno.serve(async (req) => {
       if (p.boe_query) {
         const r = await boeSearch(p.boe_query);
         record("boe_search", r, r.candidates.length);
-        candidates.push(...r.candidates);
+        candidates.push(...r.candidates.filter((c) => isAfter(c, since(rec))));
       }
-      await store(rec, candidates, classifier);
+      await store(rec, candidates);
       const now = new Date().toISOString();
       await rest(`monitoring_profiles?id=eq.${p.id}`, { method: "PATCH", body: JSON.stringify({ last_run_at: now, updated_at: now }) });
       processed++;
@@ -170,7 +179,7 @@ Deno.serve(async (req) => {
         body: JSON.stringify({ finished_at: new Date().toISOString(), profiles_processed: processed, items_found: found, items_inserted: inserted, status: "success", source_stats: stats }),
       });
     }
-    return Response.json({ ok: true, processed, found, inserted, classifier, sources: stats });
+    return Response.json({ ok: true, processed, found, inserted, classifier: CLASSIFIER?.model ?? null, sources: stats });
   } catch (e) {
     if (runId) {
       try {

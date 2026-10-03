@@ -43,13 +43,15 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 `supabase/functions/live-tracker` scans public sources for each recommendation and writes monitoring items. It never writes evidence or assessments.
 
 - Sources: GDELT (news, throttled to its one-request-per-five-seconds limit), BOE consolidated legislation search, and the BOE daily gazette summary.
+- Profile keyword lists are sent to GDELT as alternatives restricted to Spanish media; a title must then share at least two keywords with the profile, or contain one of its quoted phrases.
+- Legal candidates must be published after the recommendation was made.
 - Items a person has reviewed or rejected are never reset by rediscovery.
 - Each run records per-source request, rate-limit and error counts in `monitoring_runs.source_stats`.
-- Optional function secrets: `ANTHROPIC_API_KEY` enables semantic triage of new candidates (model set by `HRCT_CLASSIFIER_MODEL`, default `claude-opus-5-5`); `LIVE_TRACKER_SECRET` requires callers to send it as `x-hrct-tracker-secret`.
+- Optional function secrets: `GEMINI_API_KEY` enables semantic triage of new candidates (model set by `HRCT_CLASSIFIER_MODEL`, default `gemini-flash-latest`); `LIVE_TRACKER_SECRET` requires callers to send it as `x-hrct-tracker-secret`.
 
-Deploy order: apply `supabase/migrations/20261004_live_tracker_v3.sql`, then deploy the function.
+Deployed state: `20261004_live_tracker_v3.sql` is applied and the function is deployed as v3 with `verify_jwt = false`.
 
-Check the connectors against the real sources without writing anything:
+Check the connectors against the real sources without writing anything (set `GEMINI_API_KEY` to also see the triage):
 
 ```bash
 node supabase/functions/live-tracker/check.ts "igualdad de trato no discriminación"
