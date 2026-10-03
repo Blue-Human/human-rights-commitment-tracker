@@ -66,9 +66,8 @@ export type MonitoringItem = {
   relevance_score: number;
   status: "auto" | "reviewed" | "rejected";
   discovered_at: string;
-  ai_classified?: boolean;
-  // One-sentence reason given by the automated triage for the channel it chose.
-  ai_note?: string | null;
+  // One-sentence reason the item is listed under this recommendation.
+  note?: string | null;
 };
 
 export type AssessmentHistoryEntry = {
@@ -101,9 +100,17 @@ export function monitoringChannel(item: Pick<MonitoringItem, "kind" | "relation"
   return "need";
 }
 
-export function reviewLabel(item: Pick<MonitoringItem, "status" | "ai_classified">) {
-  if (item.status === "reviewed") return "Reviewed by Blue Human";
-  return item.ai_classified ? "AI-triaged, not yet reviewed" : "Auto-discovered, not reviewed";
+export function reviewLabel(item: Pick<MonitoringItem, "status">) {
+  return item.status === "reviewed" ? "Reviewed by Blue Human" : "Pending final confirmation";
+}
+
+// Some pilot rationales end with a stored validation caveat. The record is left as published;
+// the page shows that caveat as a status line instead of as part of the reasoning.
+const PILOT_CAVEAT = /\s*AI-assisted pilot assessment based on public sources; human validation remains required before external launch\.?\s*$/;
+
+export function splitRationale(text: string | null | undefined) {
+  const value = text || "";
+  return { text: value.replace(PILOT_CAVEAT, ""), provisional: PILOT_CAVEAT.test(value) };
 }
 
 export const channelLabels: Record<MonitoringChannel, string> = {

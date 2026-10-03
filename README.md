@@ -42,6 +42,9 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 
 `supabase/functions/live-tracker` scans public sources for each recommendation and writes monitoring items. It never writes evidence or assessments.
 
+- Cadence: weekly (`.github/workflows/live-tracker.yml`, Mondays 05:00 UTC). The job calls the function until no recommendation is pending. A profile or feed sweep done in the last six days counts as up to date, so extra calls do nothing.
+- Retention: hidden, unreviewed candidates are deleted after 45 days, and unreviewed public items leave the public lists after 90 days. Reviewed items stay.
+- Review: candidates nobody has classified wait in the review queue (`supabase/functions/review-queue`, see `docs/review-agent.md`).
 - RSS/Atom feeds are rows in the `monitoring_feeds` table (name, url, source_type, spain_focused, enabled). Add or disable a feed there; no deploy is needed. Each run records `last_status` and `last_item_count` per feed.
 - Other sources: Google News search feed for Spain and GDELT (news; GDELT rate-limits shared IPs heavily, so it is skipped for the rest of a run once it refuses twice), BOE consolidated legislation search, and the BOE daily gazette summary.
 - Without semantic triage, only continuing-need news sharing three keywords with the profile is shown publicly; news about implementation waits in the research queue because keywords cannot tell progress from a setback.
@@ -50,10 +53,10 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 - Items a person has reviewed or rejected are never reset by rediscovery.
 - Each run records per-source request, rate-limit and error counts in `monitoring_runs.source_stats`.
 - Optional function secrets: `GEMINI_API_KEY` enables semantic triage of new candidates (model set by `HRCT_CLASSIFIER_MODEL`, default `gemini-flash-latest`); `LIVE_TRACKER_SECRET` requires callers to send it as `x-hrct-tracker-secret`; `LIVE_TRACKER_ADMIN_SECRET` lets a caller sending it as `x-hrct-admin-secret` add `?force=1` to skip the cooldown (backfills).
-- Public items show whether they were reviewed, AI-triaged or only auto-discovered, with the triage's one-sentence reason.
+- Public items are shown as reviewed or pending final confirmation, with a one-sentence reason for listing them.
 - Before deploying, type-check and boot the function with Deno (`deno check index.ts`): a missing export stops the function from starting.
 
-Deployed state: all `20261004_*` migrations are applied and the function is deployed with `verify_jwt = false`.
+Deployed state: all migrations in `supabase/migrations` are applied and the function is deployed with `verify_jwt = false`.
 
 Check the connectors against the real sources without writing anything (set `GEMINI_API_KEY` to also see the triage):
 

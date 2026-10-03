@@ -1,8 +1,10 @@
 name: HRCT Live Tracker
 
+# Weekly refresh. Each call to the function scans a batch of recommendations; the job
+# repeats until none are pending.
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "0 5 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -11,13 +13,18 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - name: Run HRCT live tracker
         env:
           LIVE_TRACKER_SECRET: ${{ secrets.LIVE_TRACKER_SECRET }}
         run: |
-          curl --fail --show-error --silent --retry 3 --retry-delay 10 \
-            -X POST \
-            -H "x-hrct-tracker-secret: ${LIVE_TRACKER_SECRET}" \
-            https://gostbdmrzchccnydftgd.supabase.co/functions/v1/live-tracker
+          for i in $(seq 1 12); do
+            out=$(curl --fail --show-error --silent --retry 2 --retry-delay 20 --max-time 200 \
+              -X POST \
+              -H "x-hrct-tracker-secret: ${LIVE_TRACKER_SECRET}" \
+              https://gostbdmrzchccnydftgd.supabase.co/functions/v1/live-tracker)
+            echo "$out"
+            if [ "$(echo "$out" | jq -r '.remaining // 0')" = "0" ]; then break; fi
+            sleep 10
+          done
