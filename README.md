@@ -48,6 +48,8 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 
 ## Periodic research reviews
 
+The assistant reaches this service through the MCP server in `supabase/functions/hrct-mcp` (six tools, one per operation); the ChatGPT plugin and its skill are described in `plugin/README.md`. Function secret: `HRCT_MCP_TOKEN`, which is part of the server URL.
+
 `supabase/functions/review-queue` also serves the periodic review of assessments (`docs/review-agent.md`): a reviewer or an assistant takes the next batch of recommendations, least recently reviewed first, and files a review for each.
 
 - A review may update the assessment. It is written in one transaction (`hrct_record_research_review`): new assessment, evidence, change record and a row in `research_reviews`. History is never overwritten.
