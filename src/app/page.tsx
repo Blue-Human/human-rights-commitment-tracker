@@ -1,12 +1,27 @@
-import { Box, Container, Divider, Stack, Typography } from "@mui/material";
+import Link from "next/link";
+import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { CommitmentExplorer } from "@/components/CommitmentExplorer";
+import { MonitoringList } from "@/components/MonitoringList";
+import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCommitments } from "@/lib/hrct";
+import { formatDate, getAllHumanSecurityDimensions, getCommitments, getMonitoringStatus, getRecentMonitoringItems, groupByUrl } from "@/lib/hrct";
 
 export default async function Home() {
-  const commitments = await getCommitments();
+  const [commitments, monitoring, dimensions, trackerStatus] = await Promise.all([
+    getCommitments(),
+    getRecentMonitoringItems(),
+    getAllHumanSecurityDimensions(),
+    getMonitoringStatus(),
+  ]);
   const assessed = commitments.filter((x) => x.assessment_status && !["not_assessed", "unable_to_assess"].includes(x.assessment_status)).length;
   const accepted = commitments.filter((x) => x.acceptance_status === "accepted").length;
+  const numbers = Object.fromEntries(commitments.map((c) => [c.public_id, c.recommendation_number || c.public_id]));
+  const developments = groupByUrl(monitoring);
+  const lastScan = formatDate(trackerStatus?.last_successful_run_at);
+  const monitoringCounts: Record<string, number> = {};
+  for (const item of monitoring) monitoringCounts[item.public_id] = (monitoringCounts[item.public_id] || 0) + 1;
+  const dimensionsById: Record<string, string[]> = {};
+  for (const d of dimensions) (dimensionsById[d.public_id] ??= []).push(d.code);
 
   return (
     <>
@@ -28,6 +43,7 @@ export default async function Home() {
               [commitments.length, "Published recommendations"],
               [accepted, "Accepted by Spain"],
               [assessed, "Implementation assessments completed"],
+              [developments.length, "Live monitoring items"],
             ].map(([value, label]) => (
               <Box key={String(label)} sx={{ flex: 1, px: { md: 3 }, "&:first-of-type": { pl: 0 }, "&:last-of-type": { pr: 0 } }}>
                 <Typography sx={{ fontSize: "1.85rem", fontWeight: 500, color: "primary.main", lineHeight: 1 }}>{value}</Typography>
@@ -56,6 +72,23 @@ export default async function Home() {
           </Container>
         </Box>
 
+        <Container maxWidth="lg" sx={{ pt: { xs: 5, md: 7 } }}>
+          <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" alignItems={{ md: "flex-end" }} spacing={2} sx={{ mb: 3 }}>
+            <Box>
+              <Typography variant="overline" color="text.secondary">Live monitoring</Typography>
+              <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Latest developments</Typography>
+              <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
+                Public sources are scanned continuously for each recommendation. Items below are monitoring context or candidates for review. They are not Blue Human findings and do not change an assessment.
+              </Typography>
+            </Box>
+            <Typography variant="caption" color="text.secondary" sx={{ flexShrink: 0 }}>
+              {lastScan ? `Last source scan ${lastScan}` : `${commitments.length} recommendations monitored`}
+            </Typography>
+          </Stack>
+          <MonitoringList items={developments.slice(0, 4)} numbers={numbers} empty="The live tracker has not yet published any items." />
+          <Button component={Link} href="/monitoring" sx={{ mt: 1.5, px: 0 }}>View all live monitoring</Button>
+        </Container>
+
         <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
           <Box sx={{ mb: 3.5 }}>
             <Typography variant="overline" color="text.secondary">Public register</Typography>
@@ -64,18 +97,11 @@ export default async function Home() {
               Recommendations marked “Assessment pending” are included in the pilot dataset but do not yet carry an implementation finding.
             </Typography>
           </Box>
-          <CommitmentExplorer commitments={commitments} />
+          <CommitmentExplorer commitments={commitments} dimensionsById={dimensionsById} monitoringCounts={monitoringCounts} />
         </Container>
       </Box>
 
-      <Box component="footer" sx={{ borderTop: "1px solid", borderColor: "divider", bgcolor: "#fff" }}>
-        <Container maxWidth="lg" sx={{ py: 3.5 }}>
-          <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" spacing={1}>
-            <Typography variant="body2" color="text.secondary">Blue Human · Human Rights Commitment Tracker</Typography>
-            <Typography variant="body2" color="text.secondary">Independent civil-society monitoring</Typography>
-          </Stack>
-        </Container>
-      </Box>
+      <SiteFooter />
     </>
   );
 }

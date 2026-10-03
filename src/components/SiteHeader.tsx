@@ -20,7 +20,9 @@ export function SiteHeader() {
           sx={{
             minHeight: 72,
             justifyContent: "space-between",
-            gap: 3,
+            gap: { xs: .5, md: 3 },
+            flexWrap: { xs: "wrap", md: "nowrap" },
+            py: { xs: 1, md: 0 },
             overflow: "visible",
           }}
         >
@@ -65,17 +67,24 @@ export function SiteHeader() {
             </Typography>
           </Stack>
 
-          <Stack direction="row" spacing={1.5} alignItems="center">
-            <Button
-              component={Link}
-              href="/"
-              sx={{
-                color: "#ffffff",
-                "&:hover": { bgcolor: "rgba(255,255,255,.06)" },
-              }}
-            >
-              Recommendations
-            </Button>
+          <Stack direction="row" spacing={{ xs: 0, sm: 1 }} alignItems="center" flexWrap="wrap" useFlexGap>
+            {[
+              ["Recommendations", "/"],
+              ["Live monitoring", "/monitoring"],
+              ["Methodology", "/methodology"],
+            ].map(([label, href]) => (
+              <Button
+                key={href}
+                component={Link}
+                href={href}
+                sx={{
+                  color: "#ffffff",
+                  "&:hover": { bgcolor: "rgba(255,255,255,.06)" },
+                }}
+              >
+                {label}
+              </Button>
+            ))}
             <Button
               component="a"
               href="https://bluehuman.org"
