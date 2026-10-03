@@ -63,7 +63,7 @@ Principles:
 
 ## Implemented is never yours to decide
 
-If the evidence supports "implemented", submit it as `proposed_status` "implemented". The service will not apply it: it records a proposal and notifies Blue Human in Jira. List these in your final report.
+If the evidence supports "implemented", submit it as `proposed_status` "implemented". The service will not apply it: it records a proposal that Blue Human confirms or rejects. List these in your final report.
 
 Never call `resolve_confirmation` on your own initiative. Call it only when the user, in this conversation, explicitly tells you to confirm or reject a specific recommendation and gives you the confirmation code; pass the code exactly as given. Use `get_pending_confirmations` when the user asks what is waiting for their decision.
 
@@ -83,4 +83,4 @@ Candidates are news and publications collected automatically. For each, decide h
 2. Estados actualizados: recomendación, estado anterior → nuevo, y la razón en una frase.
 3. PROPUESTAS DE "IMPLEMENTADA" PENDIENTES DE VUESTRA CONFIRMACIÓN: recomendación, razón y fuentes principales.
 4. Sin cambios: lista breve.
-5. Incidencias: fuentes rechazadas, errores de Jira, recomendaciones que no pudiste investigar bien.
+5. Incidencias: fuentes rechazadas, errores del servicio, recomendaciones que no pudiste investigar bien.

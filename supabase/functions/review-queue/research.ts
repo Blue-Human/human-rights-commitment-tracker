@@ -2,10 +2,10 @@
 // A reviewer (or an assistant acting for one) takes a batch of recommendations, checks what has
 // happened at official and institutional level since the last review, and files a review for
 // each. A review can update the assessment, with evidence; proposing "implemented" is recorded
-// but only takes effect when a person at Blue Human confirms it.
+// but only takes effect when a person at Blue Human confirms it, in the admin panel or with the
+// confirmation code.
 
 import { opens, rest, reviewerOf, rpc } from "./db.ts";
-import { recordInJira, type JiraResult } from "./jira.ts";
 
 const CONFIRMATION_CODE = Deno.env.get("REVIEW_CONFIRMATION_CODE");
 
@@ -131,34 +131,11 @@ export async function submitReviews(body: unknown) {
   const reviews = parseReviews(body);
   if (typeof reviews === "string") return { status: 400, body: { error: reviews } };
   const reviewer = reviewerOf(body);
-  const issues: Array<{ public_id: string; jira_issue_key: string | null }> =
-    await rest(`commitments?select=public_id,jira_issue_key&public_id=in.(${reviews.map((r) => `"${r.public_id}"`).join(",")})`) || [];
-  const issueOf = new Map(issues.map((i) => [i.public_id, i.jira_issue_key]));
-
   const results = await Promise.all(reviews.map(async (r) => {
     const evidence = await Promise.all(r.evidence.map(async (e) => ({ ...e, verified: await opens(e.url) })));
     const unverified = evidence.filter((e) => !e.verified).map((e) => e.url);
     const saved: { result: string; review_id?: string; previous_status?: string; status?: string; evidence_recorded?: number } =
       await rpc("hrct_record_research_review", { p: { ...r, reviewer, evidence } });
-
-    let jira: JiraResult | null = null;
-    const links = evidence.filter((e) => e.verified).map((e) => ({ title: e.title, url: e.url }));
-    const from = STATUS_LABEL[saved.previous_status || "not_assessed"] || saved.previous_status;
-    const to = STATUS_LABEL[r.proposed_status || ""] || r.proposed_status;
-    if (saved.result === "updated") {
-      jira = await recordInJira(issueOf.get(r.public_id) ?? null, {
-        status: r.proposed_status, confidence: r.confidence, addLabels: ["research-updated"],
-        comment: [`Assessment updated by periodic research review: ${from} → ${to} (confidence: ${r.confidence}). Published as provisional, pending final confirmation by Blue Human.`, r.change_summary, r.rationale || "", "Evidence:"],
-        links, transitions: ["Start Research"],
-      });
-    } else if (saved.result === "needs_confirmation") {
-      jira = await recordInJira(issueOf.get(r.public_id) ?? null, {
-        status: "implemented", confidence: r.confidence, addLabels: ["needs-confirmation"],
-        comment: [`CONFIRMATION NEEDED — the periodic research review proposes "Implemented" (confidence: ${r.confidence}). This has NOT been applied: the public record still shows "${from}" until Blue Human confirms or rejects it.`, r.change_summary, r.rationale || "", "Evidence:"],
-        links, transitions: ["Start Research", "Submit for Peer Review"],
-      });
-    }
-    if (jira && saved.review_id) await rest(`research_reviews?id=eq.${saved.review_id}`, { method: "PATCH", body: JSON.stringify({ jira }) });
 
     return {
       public_id: r.public_id,
@@ -166,7 +143,6 @@ export async function submitReviews(body: unknown) {
       public_status: saved.status ?? null,
       evidence_recorded: saved.evidence_recorded ?? 0,
       evidence_urls_that_did_not_open: unverified,
-      jira: jira ? (jira.ok ? `updated ${jira.issue}` : `not updated: ${jira.detail}`) : "no change recorded in Jira",
     };
   }));
   const count = (x: string) => results.filter((r) => r.result === x).length;
@@ -184,8 +160,8 @@ export async function listConfirmations() {
   const rows: Array<{ commitment_id: string; reviewed_at: string; reviewer: string; previous_status: string | null; confidence: string | null; change_summary: string | null; assessment_id: string | null }> =
     await rest("research_reviews?select=commitment_id,reviewed_at,reviewer,previous_status,confidence,change_summary,assessment_id&outcome=eq.needs_confirmation&resolution=is.null&order=reviewed_at.desc") || [];
   if (!rows.length) return { pending: 0, proposals: [] };
-  const recs: Array<{ id: string; public_id: string; recommendation_number: string | null; title: string; jira_issue_key: string | null }> =
-    await rest(`commitments?select=id,public_id,recommendation_number,title,jira_issue_key&id=in.(${[...new Set(rows.map((r) => r.commitment_id))].join(",")})`) || [];
+  const recs: Array<{ id: string; public_id: string; recommendation_number: string | null; title: string }> =
+    await rest(`commitments?select=id,public_id,recommendation_number,title&id=in.(${[...new Set(rows.map((r) => r.commitment_id))].join(",")})`) || [];
   const assessments: Array<{ id: string; rationale: string }> = await rest(`assessments?select=id,rationale&id=in.(${rows.map((r) => r.assessment_id).filter(Boolean).join(",")})`) || [];
   const seen = new Set<string>();
   const proposals = [];
@@ -194,7 +170,7 @@ export async function listConfirmations() {
     seen.add(r.commitment_id);
     const rec = recs.find((x) => x.id === r.commitment_id);
     proposals.push({
-      public_id: rec?.public_id, number: rec?.recommendation_number, title: rec?.title, jira_issue: rec?.jira_issue_key,
+      public_id: rec?.public_id, number: rec?.recommendation_number, title: rec?.title,
       proposed_on: r.reviewed_at.slice(0, 10), current_public_status: r.previous_status, proposed_status: "implemented", confidence: r.confidence,
       change_summary: r.change_summary, rationale: assessments.find((a) => a.id === r.assessment_id)?.rationale ?? null,
     });
@@ -210,15 +186,5 @@ export async function resolveConfirmation(body: unknown) {
   if (typeof b.public_id !== "string" || (b.decision !== "confirm" && b.decision !== "reject")) return { status: 400, body: { error: "public_id and decision (confirm or reject) are required" } };
   const by = typeof b.confirmed_by === "string" && b.confirmed_by.trim() ? b.confirmed_by.trim().slice(0, 80) : "Blue Human reviewer";
   const saved: { result: string } = await rpc("hrct_resolve_research_review", { p_public_id: b.public_id, p_decision: b.decision, p_resolved_by: by });
-  let jira: JiraResult | null = null;
-  if (saved.result !== "nothing_pending") {
-    const rec: Array<{ jira_issue_key: string | null }> = await rest(`commitments?select=jira_issue_key&public_id=eq.${encodeURIComponent(b.public_id)}`) || [];
-    jira = await recordInJira(rec[0]?.jira_issue_key ?? null, {
-      addLabels: [b.decision === "confirm" ? "implementation-confirmed" : "implementation-not-confirmed"], removeLabels: ["needs-confirmation"],
-      comment: [b.decision === "confirm"
-        ? `"Implemented" confirmed by ${by}. The public record now shows the recommendation as implemented.`
-        : `"Implemented" proposal rejected by ${by}. The public record is unchanged.`],
-    });
-  }
-  return { status: 200, body: { public_id: b.public_id, result: saved.result, jira: jira ? (jira.ok ? `updated ${jira.issue}` : `not updated: ${jira.detail}`) : null } };
+  return { status: 200, body: { public_id: b.public_id, result: saved.result } };
 }

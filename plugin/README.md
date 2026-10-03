@@ -6,7 +6,7 @@ A ChatGPT plugin that runs HRCT's periodic research review. It has two parts:
 - **Skill** (`plugin/skills/hrct-periodic-review/SKILL.md`): the analyst's instructions.
 
 ```text
-ChatGPT plugin → Skill → MCP server (hrct-mcp) → review-queue → Supabase / Jira
+ChatGPT plugin → Skill → MCP server (hrct-mcp) → review-queue → Supabase
 ```
 
 The MCP server is only an adapter. Every rule (evidence must open, "implemented" needs confirmation, the confirmation code, history is never overwritten) is enforced by `review-queue`; see `docs/review-agent.md`.
