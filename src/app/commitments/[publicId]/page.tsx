@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
+import { MonitoringList } from "@/components/MonitoringList";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
@@ -30,9 +31,10 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
   if (!commitment) notFound();
 
   const pending = commitment.assessment_status === "not_assessed";
-  const needContext = monitoring.filter((item) => monitoringChannel(item) === "need");
-  const liveImplementation = monitoring.filter((item) => monitoringChannel(item) === "implementation");
-  const liveContrary = monitoring.filter((item) => monitoringChannel(item) === "contradiction");
+  const items = monitoring.map((item) => ({ ...item, public_ids: [] as string[] }));
+  const needContext = items.filter((item) => monitoringChannel(item) === "need");
+  const liveImplementation = items.filter((item) => monitoringChannel(item) === "implementation");
+  const liveContrary = items.filter((item) => monitoringChannel(item) === "contradiction");
 
   return (
     <>
@@ -97,26 +99,9 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography variant="overline" color="text.secondary">Live context monitoring</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.2 }}>Why this recommendation remains relevant</Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2.2 }}>
-                  Automatically discovered reporting, official statements and public information that may indicate the continuing need addressed by this recommendation. These items are monitoring context, not proof of implementation and not a Blue Human finding unless separately reviewed as evidence.
+                  Reporting, official statements and public information that may indicate the continuing need addressed by this recommendation. Items are discovered automatically and sorted by an AI triage step; each is labelled as reviewed or not. They are monitoring context, not proof of implementation and not a Blue Human finding unless separately reviewed as evidence.
                 </Typography>
-                <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
-                  {needContext.map((item) => (
-                    <Box key={item.id} sx={{ py: 2.6 }}>
-                      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
-                        <Box sx={{ minWidth: 0 }}>
-                          <Typography variant="overline" color="text.secondary">{item.source_type === "official_web" ? "Official monitoring" : "News / public reporting"} · {item.status === "reviewed" ? "Reviewed by Blue Human" : "Auto-discovered, not reviewed"}</Typography>
-                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
-                          <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .45 }}>
-                            {[item.publisher, formatDate(item.published_at)].filter(Boolean).join(" · ")}
-                          </Typography>
-                        </Box>
-                        <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
-                      </Stack>
-                      {item.summary && <Typography variant="body2" sx={{ mt: 1.3, lineHeight: 1.7 }}>{item.summary}</Typography>}
-                    </Box>
-                  ))}
-                  {!needContext.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>The live tracker has not yet identified public context for this recommendation.</Typography>}
-                </Stack>
+                <MonitoringList items={needContext} numbers={{}} empty="The live tracker has not yet identified public context for this recommendation." />
               </Box>
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
@@ -132,19 +117,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                   <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
                     Laws, official actions and reporting automatically matched to this recommendation. They remain candidates until reviewed and promoted into the evidence record.
                   </Typography>
-                  <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
-                    {liveImplementation.map((item) => (
-                      <Box key={item.id} sx={{ py: 2.5 }}>
-                        <Typography variant="overline" color="text.secondary">{humanize(item.kind)} · {Math.round(Number(item.relevance_score) * 100)}% match</Typography>
-                        <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
-                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
-                          <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
-                        </Stack>
-                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{[item.publisher || item.source_domain || "Public source", formatDate(item.published_at)].filter(Boolean).join(" · ")}</Typography>
-                        {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7 }}>{item.summary}</Typography>}
-                      </Box>
-                    ))}
-                  </Stack>
+                  <MonitoringList items={liveImplementation} numbers={{}} empty="" />
                 </Box>
               )}
 
@@ -155,19 +128,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                   <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
                     Automatically matched developments that may run against this recommendation. They are candidates for review and do not change the assessment above.
                   </Typography>
-                  <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
-                    {liveContrary.map((item) => (
-                      <Box key={item.id} sx={{ py: 2.5 }}>
-                        <Typography variant="overline" color="text.secondary">{humanize(item.kind)} · {item.status === "reviewed" ? "Reviewed by Blue Human" : "Auto-discovered, not reviewed"}</Typography>
-                        <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
-                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
-                          <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
-                        </Stack>
-                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{[item.publisher || item.source_domain || "Public source", formatDate(item.published_at)].filter(Boolean).join(" · ")}</Typography>
-                        {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7 }}>{item.summary}</Typography>}
-                      </Box>
-                    ))}
-                  </Stack>
+                  <MonitoringList items={liveContrary} numbers={{}} empty="" />
                 </Box>
               )}
 

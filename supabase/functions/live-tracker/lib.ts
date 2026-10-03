@@ -370,6 +370,12 @@ export function matchBoeEntry(entry: BoeEntry, query: string): Candidate | null 
   };
 }
 
+// A norm published before the recommendation was made cannot be a development in response to it.
+// Candidates with no known date are kept out as well.
+export function isAfter(c: Candidate, since: string | null) {
+  return !!since && !!c.published_at && c.published_at.slice(0, 10) >= since.slice(0, 10);
+}
+
 // Without a semantic classifier, only strong keyword matches are shown publicly. News titles
 // must share three keywords with the profile: two is enough to file a candidate for review,
 // but in practice still lets unrelated stories through.

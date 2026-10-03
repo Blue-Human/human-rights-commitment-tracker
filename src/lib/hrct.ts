@@ -67,6 +67,8 @@ export type MonitoringItem = {
   status: "auto" | "reviewed" | "rejected";
   discovered_at: string;
   ai_classified?: boolean;
+  // One-sentence reason given by the automated triage for the channel it chose.
+  ai_note?: string | null;
 };
 
 export type AssessmentHistoryEntry = {
@@ -94,8 +96,13 @@ export type MonitoringChannel = "need" | "implementation" | "contradiction";
 // The three monitoring channels must stay distinct: continuing need is not implementation evidence.
 export function monitoringChannel(item: Pick<MonitoringItem, "kind" | "relation">): MonitoringChannel {
   if (item.relation === "contradicts_progress") return "contradiction";
-  if (item.relation === "supports_need" || item.kind === "need_context") return "need";
-  return "implementation";
+  if (item.relation === "supports_progress") return "implementation";
+  return "need";
+}
+
+export function reviewLabel(item: Pick<MonitoringItem, "status" | "ai_classified">) {
+  if (item.status === "reviewed") return "Reviewed by Blue Human";
+  return item.ai_classified ? "AI-triaged, not yet reviewed" : "Auto-discovered, not reviewed";
 }
 
 export const channelLabels: Record<MonitoringChannel, string> = {

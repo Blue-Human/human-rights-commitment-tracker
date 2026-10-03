@@ -102,7 +102,7 @@ export default function MethodologyPage() {
                 HRCT continuously scans public sources for each recommendation, including news reporting, the Boletín Oficial del Estado and official institutional websites. What it finds is published in clearly separated channels: context showing that the underlying problem continues, and potential implementation or contrary developments awaiting review.
               </Typography>
               <Typography>
-                Automated search is noisy. A news article can show that an incident occurred or that a measure was announced; it does not by itself prove effective implementation, national coverage or impact. For that reason automated items never change an assessment. They become evidence only after review, and each item is labelled as either auto-discovered or reviewed by Blue Human.
+                Automated search is noisy. A news article can show that an incident occurred or that a measure was announced; it does not by itself prove effective implementation, national coverage or impact. For that reason automated items never change an assessment. They become evidence only after review, and each item is labelled as auto-discovered, AI-triaged or reviewed by Blue Human. Where an AI triage step has sorted an item, its one-sentence reason is shown next to the item.
               </Typography>
             </Section>
 

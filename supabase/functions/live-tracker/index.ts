@@ -14,6 +14,8 @@ const GEMINI_API_KEY = Deno.env.get("GEMINI_API_KEY");
 const CLASSIFIER: ClassifierConfig | null = GEMINI_API_KEY
   ? { apiKey: GEMINI_API_KEY, model: Deno.env.get("HRCT_CLASSIFIER_MODEL") || DEFAULT_MODEL }
   : null;
+// Optional. A caller presenting it may pass ?force=1 to skip the cooldown (used for backfills).
+const ADMIN_SECRET = Deno.env.get("LIVE_TRACKER_ADMIN_SECRET");
 const REST = `${SUPABASE_URL}/rest/v1`;
 const COOLDOWN_MS = 45 * 60 * 1000;
 const PROFILE_BATCH = 6;
@@ -71,6 +73,8 @@ Deno.serve(async (req) => {
   if (req.method !== "POST" && req.method !== "GET") return new Response("Method not allowed", { status: 405 });
   if (TRACKER_SECRET && req.headers.get("x-hrct-tracker-secret") !== TRACKER_SECRET) return new Response("Unauthorized", { status: 401 });
 
+  const force = !!ADMIN_SECRET && req.headers.get("x-hrct-admin-secret") === ADMIN_SECRET && new URL(req.url).searchParams.get("force") === "1";
+
   const started = Date.now();
   const stats: Record<string, SourceStat> = {};
   const record = (source: string, r: { outcome: ConnectorResult["outcome"]; detail?: string }, candidates: number) => {
@@ -119,11 +123,12 @@ Deno.serve(async (req) => {
     }
     const fresh = unique.filter((c) => !known.has(c.url));
     if (!fresh.length) return;
-    const verdicts = CLASSIFIER ? await classify(CLASSIFIER, rec, fresh) : null;
+    const triage = CLASSIFIER ? await classify(CLASSIFIER, rec, fresh) : null;
+    const verdicts = triage?.verdicts ?? null;
     if (CLASSIFIER) {
       const s = stats.classifier ??= { requests: 0, rate_limited: 0, errors: 0, candidates: 0 };
       s.requests++;
-      if (verdicts) s.candidates += verdicts.size; else s.errors++;
+      if (verdicts) s.candidates += verdicts.size; else { s.errors++; s.last_error = triage?.error; }
     }
     const rows = fresh.map((c, i) => toRow(rec.id, c, verdicts?.get(i), CLASSIFIER?.model ?? null));
     await rest("monitoring_items?on_conflict=commitment_id,url", {
@@ -137,7 +142,7 @@ Deno.serve(async (req) => {
     if (recent?.[0]) {
       const age = Date.now() - new Date(recent[0].started_at).getTime();
       if (recent[0].status === "running" && age < 20 * 60 * 1000) return Response.json({ ok: true, skipped: "run_in_progress" });
-      if (recent[0].status === "success" && age < COOLDOWN_MS) return Response.json({ ok: true, skipped: "cooldown" });
+      if (!force && recent[0].status === "success" && age < COOLDOWN_MS) return Response.json({ ok: true, skipped: "cooldown" });
     }
     const run = await rest("monitoring_runs", { method: "POST", headers: { Prefer: "return=representation" }, body: JSON.stringify({ status: "running" }) });
     runId = run?.[0]?.id;

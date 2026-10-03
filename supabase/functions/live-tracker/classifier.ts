@@ -49,14 +49,16 @@ const SCHEMA = {
 
 const CATEGORIES = new Set(["need_context", "implementation_candidate", "contradiction", "noise"]);
 
-// Returns a verdict per candidate index, or null when the classifier fails;
-// callers then fall back to keyword heuristics.
+export type Triage = { verdicts: Map<number, Verdict> | null; error?: string };
+
+// Returns a verdict per candidate index. When the classifier fails, verdicts is null and
+// error says why; callers then fall back to keyword heuristics.
 export async function classify(
   config: ClassifierConfig,
   recommendation: { public_id: string; title: string; original_text: string },
   candidates: Candidate[],
-): Promise<Map<number, Verdict> | null> {
-  if (!candidates.length) return null;
+): Promise<Triage> {
+  if (!candidates.length) return { verdicts: null };
   const list = candidates
     .map((c, i) => `${i}. [${c.source_type}] ${c.title} — ${c.publisher || c.source_domain || "unknown publisher"}${c.published_at ? `, ${c.published_at.slice(0, 10)}` : ""}`)
     .join("\n");
@@ -75,12 +77,12 @@ export async function classify(
       }),
     });
     if (!r.ok) {
-      console.warn(`classifier HTTP ${r.status}`);
-      return null;
+      const body = await r.json().catch(() => null);
+      return { verdicts: null, error: `HTTP ${r.status} ${String(body?.error?.message || "").slice(0, 160)}` };
     }
     const data = await r.json();
     const candidate = data?.candidates?.[0];
-    if (candidate?.finishReason !== "STOP") return null;
+    if (candidate?.finishReason !== "STOP") return { verdicts: null, error: `finishReason ${candidate?.finishReason ?? "none"}` };
     const text = (candidate.content?.parts || []).map((p: { text?: string }) => p.text || "").join("");
     const parsed = JSON.parse(text) as { results: Array<Verdict & { index: number }> };
     const verdicts = new Map<number, Verdict>();
@@ -88,9 +90,8 @@ export async function classify(
       if (!Number.isInteger(v.index) || v.index < 0 || v.index >= candidates.length || !CATEGORIES.has(v.category)) continue;
       verdicts.set(v.index, { category: v.category, relevance: Math.max(0, Math.min(1, Number(v.relevance) || 0)), note: String(v.note).slice(0, 500) });
     }
-    return verdicts;
+    return { verdicts };
   } catch (e) {
-    console.warn(`classifier error ${String(e).slice(0, 200)}`);
-    return null;
+    return { verdicts: null, error: String(e).slice(0, 200) };
   }
 }
