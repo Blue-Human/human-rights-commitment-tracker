@@ -24,6 +24,8 @@ export type Commitment = {
   methodology_version: string | null;
   methodology_title: string | null;
   methodology_url: string | null;
+  // True while the current assessment awaits final confirmation by Blue Human.
+  assessment_provisional?: boolean | null;
 };
 
 export type Evidence = {
@@ -39,6 +41,7 @@ export type Evidence = {
   source_type: string;
   document_reference: string | null;
   source_url: string | null;
+  reviewed_at?: string | null;
 };
 
 export type HumanSecurityDimension = {
@@ -80,6 +83,7 @@ export type AssessmentHistoryEntry = {
   is_current: boolean;
   published_at: string | null;
   methodology_version: string | null;
+  provisional?: boolean | null;
 };
 
 export type MonitoringStatus = {
@@ -167,7 +171,7 @@ export async function getMonitoringItems(publicId: string): Promise<MonitoringIt
 }
 
 export async function getAssessmentHistory(publicId: string): Promise<AssessmentHistoryEntry[]> {
-  return rest<AssessmentHistoryEntry[]>(`hrct_public_assessment_history?select=id,public_id,status,confidence,rationale,assessment_date,is_current,published_at,methodology_version&public_id=eq.${encodeURIComponent(publicId)}&order=published_at.desc`);
+  return rest<AssessmentHistoryEntry[]>(`hrct_public_assessment_history?select=*&public_id=eq.${encodeURIComponent(publicId)}&order=published_at.desc`);
 }
 
 export async function getAllHumanSecurityDimensions(): Promise<Pick<HumanSecurityDimension, "public_id" | "code" | "name" | "is_primary">[]> {

@@ -67,7 +67,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography sx={{ mt: 1.8, lineHeight: 1.8, maxWidth: 850 }}>
                   {pending ? "This recommendation is included in the public pilot dataset. Blue Human has not yet issued an implementation finding for this record." : (rationale.text || "No public rationale is available.")}
                 </Typography>
-                {!pending && rationale.provisional && (
+                {!pending && (commitment.assessment_provisional || rationale.provisional) && (
                   <Typography variant="body2" color="text.secondary" sx={{ mt: 1.4, lineHeight: 1.7, maxWidth: 850 }}>
                     Provisional assessment based on public sources, pending final confirmation by Blue Human.
                   </Typography>
@@ -139,14 +139,14 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
               )}
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                <Typography variant="overline" color="text.secondary">Reviewed record</Typography>
+                <Typography variant="overline" color="text.secondary">Evidence record</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.5 }}>Evidence considered</Typography>
                 <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
                   {evidence.map((item) => (
                     <Box key={item.id} sx={{ py: 2.75 }}>
                       <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
                         <Box>
-                          <Typography variant="overline" color="text.secondary">{humanize(item.evidence_type)}</Typography>
+                          <Typography variant="overline" color="text.secondary">{humanize(item.evidence_type)} · {item.reviewed_at ? "Reviewed by Blue Human" : "Pending final confirmation"}</Typography>
                           <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.source_title}</Typography>
                           {item.source_publisher && <Typography variant="body2" color="text.secondary">{item.source_publisher}</Typography>}
                         </Box>
@@ -156,7 +156,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                       {item.reliability_notes && <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 1.2 }}>Limitations: {item.reliability_notes}</Typography>}
                     </Box>
                   ))}
-                  {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No reviewed implementation evidence has yet been attached to this record.</Typography>}
+                  {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No implementation evidence has yet been attached to this record.</Typography>}
                 </Stack>
               </Box>
 
@@ -172,7 +172,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                       <Stack component="li" key={entry.id} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .75, sm: 3 }} sx={{ py: 2.2 }}>
                         <Box sx={{ width: { sm: 150 }, flexShrink: 0 }}>
                           <Typography variant="body2" color="primary.main">{formatDate(entry.published_at) || entry.assessment_date || "Undated"}</Typography>
-                          <Typography variant="caption" color="text.secondary">{entry.is_current ? "Current assessment" : "Superseded"}</Typography>
+                          <Typography variant="caption" color="text.secondary">{entry.is_current ? (entry.provisional ? "Current · pending final confirmation" : "Current assessment") : "Superseded"}</Typography>
                         </Box>
                         <Box sx={{ minWidth: 0 }}>
                           <StatusChip status={entry.status} />

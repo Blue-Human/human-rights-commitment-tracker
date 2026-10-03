@@ -105,7 +105,7 @@ export default function MethodologyPage() {
                 A news article can show that an incident occurred or that a measure was announced; it does not by itself prove effective implementation, national coverage or impact. For that reason monitoring items never change an assessment. They become evidence only after review, and each item is marked as either reviewed by Blue Human or pending final confirmation.
               </Typography>
               <Typography>
-                Every finding must rest on a cited public document. During the current pilot some assessments are provisional: they are based on public sources and remain subject to final confirmation by Blue Human before the tracker&apos;s external launch. These are marked on the recommendation page.
+                Every finding must rest on a cited public document. Assessments are refreshed through periodic research reviews of official and institutional sources. An assessment updated in a periodic review is published as provisional and marked &ldquo;pending final confirmation&rdquo; until Blue Human confirms it. A recommendation is only shown as implemented once Blue Human has confirmed it.
               </Typography>
             </Section>
 
