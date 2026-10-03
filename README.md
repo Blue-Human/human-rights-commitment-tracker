@@ -50,7 +50,7 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 - Each run records per-source request, rate-limit and error counts in `monitoring_runs.source_stats`.
 - Optional function secrets: `GEMINI_API_KEY` enables semantic triage of new candidates (model set by `HRCT_CLASSIFIER_MODEL`, default `gemini-flash-latest`); `LIVE_TRACKER_SECRET` requires callers to send it as `x-hrct-tracker-secret`.
 
-Deployed state: `20261004_live_tracker_v3.sql` is applied and the function is deployed as v3 with `verify_jwt = false`.
+Deployed state: both `20261004_*` migrations are applied and the function is deployed with `verify_jwt = false`.
 
 Check the connectors against the real sources without writing anything (set `GEMINI_API_KEY` to also see the triage):
 
