@@ -34,3 +34,9 @@ npm run dev
 ```
 
 Set the public Supabase URL and anon/publishable key in `.env.local`.
+
+## Live monitoring
+
+See [live-monitoring.md](docs/live-monitoring.md) for the signal/evidence boundary, Human Security taxonomy, providers, private review queue, schedules, configuration and exact deployment order. New routes: `/human-security`, `/human-security/[dimension]`, `/signals`.
+
+Run `npm ci`, `npm run test`, `npm run typecheck` and `npm run build`. Monitoring changes are checked with the pinned Deno command in CI.

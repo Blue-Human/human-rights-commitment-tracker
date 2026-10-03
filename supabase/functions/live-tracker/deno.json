@@ -1,0 +1,5 @@
+{
+  "nodeModulesDir": "auto",
+  "compilerOptions": {"lib": ["deno.window"]},
+  "tasks": {"check": "deno check index.ts", "test": "deno test --allow-env tests"}
+}

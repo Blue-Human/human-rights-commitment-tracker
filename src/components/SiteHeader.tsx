@@ -20,7 +20,9 @@ export function SiteHeader() {
           sx={{
             minHeight: 72,
             justifyContent: "space-between",
-            gap: 3,
+            gap: 2,
+            flexWrap: {xs:"wrap",sm:"nowrap"},
+            py: 1,
             overflow: "visible",
           }}
         >
@@ -32,7 +34,7 @@ export function SiteHeader() {
               color: "inherit",
               textDecoration: "none",
               minWidth: 0,
-              flexShrink: 0,
+              flexShrink: {xs:1,sm:0},
               overflow: "visible",
             }}
           >
@@ -65,7 +67,9 @@ export function SiteHeader() {
             </Typography>
           </Stack>
 
-          <Stack direction="row" spacing={1.5} alignItems="center">
+          <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap>
+            <Button component={Link} href="/human-security" sx={{color:"#fff"}}>Human security</Button>
+            <Button component={Link} href="/signals" sx={{color:"#fff"}}>Signals</Button>
             <Button
               component={Link}
               href="/"

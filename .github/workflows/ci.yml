@@ -1,10 +1,10 @@
-name: Frontend CI
-
+name: HRCT CI
 on:
   pull_request:
   push:
     branches: [main]
-
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,5 +13,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
+          cache: npm
+      - run: npm ci
+      - run: npm run test
+      - run: npm run typecheck
+      - run: npx --yes deno@2.9.6 check --node-modules-dir=manual --config supabase/functions/live-tracker/deno.json supabase/functions/live-tracker/index.ts
+      - run: npx --yes deno@2.9.6 test --node-modules-dir=manual --config supabase/functions/live-tracker/deno.json --allow-env supabase/functions/live-tracker/tests
       - run: npm run build
