@@ -3,9 +3,10 @@ import { notFound } from "next/navigation";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
+import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
-import { getCommitment, getEvidence, getHumanSecurityDimensions, getMonitoringItems } from "@/lib/hrct";
+import { formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getLastScannedAt, getMonitoringItems, monitoringChannel } from "@/lib/hrct";
 
 function humanize(value?: string | null) {
   return value ? value.replaceAll("_", " ").replace(/\b\w/g, (m) => m.toUpperCase()) : "Not specified";
@@ -18,17 +19,20 @@ function Meta({ label, value }: { label: string; value: string }) {
 export default async function CommitmentPage({ params }: { params: Promise<{ publicId: string }> }) {
   const { publicId } = await params;
   const decoded = decodeURIComponent(publicId);
-  const [commitment, evidence, dimensions, monitoring] = await Promise.all([
+  const [commitment, evidence, dimensions, monitoring, history, lastScannedAt] = await Promise.all([
     getCommitment(decoded),
     getEvidence(decoded),
     getHumanSecurityDimensions(decoded),
     getMonitoringItems(decoded),
+    getAssessmentHistory(decoded),
+    getLastScannedAt(decoded),
   ]);
   if (!commitment) notFound();
 
   const pending = commitment.assessment_status === "not_assessed";
-  const needContext = monitoring.filter((item) => item.relation === "supports_need" || item.kind === "need_context");
-  const liveImplementation = monitoring.filter((item) => item.relation !== "supports_need" && item.kind !== "need_context");
+  const needContext = monitoring.filter((item) => monitoringChannel(item) === "need");
+  const liveImplementation = monitoring.filter((item) => monitoringChannel(item) === "implementation");
+  const liveContrary = monitoring.filter((item) => monitoringChannel(item) === "contradiction");
 
   return (
     <>
@@ -100,10 +104,10 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                     <Box key={item.id} sx={{ py: 2.6 }}>
                       <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
                         <Box sx={{ minWidth: 0 }}>
-                          <Typography variant="overline" color="text.secondary">{item.source_type === "official_web" ? "Official monitoring" : "News / public reporting"} · Auto-discovered</Typography>
+                          <Typography variant="overline" color="text.secondary">{item.source_type === "official_web" ? "Official monitoring" : "News / public reporting"} · {item.status === "reviewed" ? "Reviewed by Blue Human" : "Auto-discovered, not reviewed"}</Typography>
                           <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
                           <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .45 }}>
-                            {[item.publisher, item.published_at ? new Date(item.published_at).toLocaleDateString("en-GB") : null].filter(Boolean).join(" · ")}
+                            {[item.publisher, formatDate(item.published_at)].filter(Boolean).join(" · ")}
                           </Typography>
                         </Box>
                         <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
@@ -136,7 +140,30 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                           <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
                           <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
                         </Stack>
-                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{item.publisher || item.source_domain || "Public source"}</Typography>
+                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{[item.publisher || item.source_domain || "Public source", formatDate(item.published_at)].filter(Boolean).join(" · ")}</Typography>
+                        {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7 }}>{item.summary}</Typography>}
+                      </Box>
+                    ))}
+                  </Stack>
+                </Box>
+              )}
+
+              {liveContrary.length > 0 && (
+                <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
+                  <Typography variant="overline" color="text.secondary">Automated research queue</Typography>
+                  <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.3 }}>Potential contrary developments</Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2 }}>
+                    Automatically matched developments that may run against this recommendation. They are candidates for review and do not change the assessment above.
+                  </Typography>
+                  <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
+                    {liveContrary.map((item) => (
+                      <Box key={item.id} sx={{ py: 2.5 }}>
+                        <Typography variant="overline" color="text.secondary">{humanize(item.kind)} · {item.status === "reviewed" ? "Reviewed by Blue Human" : "Auto-discovered, not reviewed"}</Typography>
+                        <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={2} alignItems="flex-start">
+                          <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
+                          <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
+                        </Stack>
+                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{[item.publisher || item.source_domain || "Public source", formatDate(item.published_at)].filter(Boolean).join(" · ")}</Typography>
                         {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7 }}>{item.summary}</Typography>}
                       </Box>
                     ))}
@@ -165,6 +192,35 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                   {!evidence.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>No reviewed implementation evidence has yet been attached to this record.</Typography>}
                 </Stack>
               </Box>
+
+              {history.length > 1 && (
+                <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
+                  <Typography variant="overline" color="text.secondary">Record history</Typography>
+                  <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.2 }}>Assessment history</Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2.2 }}>
+                    Published assessments are never overwritten. When an assessment changes, the earlier one stays on the record.
+                  </Typography>
+                  <Stack component="ol" divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider", listStyle: "none", m: 0, p: 0 }}>
+                    {history.map((entry) => (
+                      <Stack component="li" key={entry.id} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .75, sm: 3 }} sx={{ py: 2.2 }}>
+                        <Box sx={{ width: { sm: 150 }, flexShrink: 0 }}>
+                          <Typography variant="body2" color="primary.main">{formatDate(entry.published_at) || entry.assessment_date || "Undated"}</Typography>
+                          <Typography variant="caption" color="text.secondary">{entry.is_current ? "Current assessment" : "Superseded"}</Typography>
+                        </Box>
+                        <Box sx={{ minWidth: 0 }}>
+                          <StatusChip status={entry.status} />
+                          {entry.status !== "not_assessed" && (
+                            <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .4 }}>
+                              {humanize(entry.confidence)} confidence · HRCT v{entry.methodology_version || "1.0"}
+                            </Typography>
+                          )}
+                          {!entry.is_current && entry.rationale && <Typography variant="body2" color="text.secondary" sx={{ mt: .8, lineHeight: 1.7 }}>{entry.rationale}</Typography>}
+                        </Box>
+                      </Stack>
+                    ))}
+                  </Stack>
+                </Box>
+              )}
             </Stack>
 
             <Box sx={{ width: { xs: "100%", lg: 300 }, position: { lg: "sticky" }, top: { lg: 92 }, borderLeft: { lg: "1px solid" }, borderColor: "divider", pl: { lg: 4 } }}>
@@ -174,7 +230,8 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Meta label="State response" value={humanize(commitment.acceptance_status)} />
                 <Meta label="Mechanism" value={commitment.mechanism_name} />
                 <Meta label="Live context items" value={String(needContext.length)} />
-                <Meta label="Publication date" value={commitment.published_at ? new Date(commitment.published_at).toLocaleDateString("en-GB") : "—"} />
+                {lastScannedAt && <Meta label="Last source scan" value={formatDate(lastScannedAt)!} />}
+                <Meta label="Publication date" value={formatDate(commitment.published_at) || "—"} />
               </Stack>
 
               <Divider sx={{ my: 3 }} />
@@ -187,6 +244,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
           </Stack>
         </Container>
       </Box>
+      <SiteFooter />
     </>
   );
 }

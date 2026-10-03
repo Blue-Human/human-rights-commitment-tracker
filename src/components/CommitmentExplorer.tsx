@@ -7,15 +7,34 @@ import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem
 import type { Commitment } from "@/lib/hrct";
 import { StatusChip } from "./StatusChip";
 
-export function CommitmentExplorer({ commitments }: { commitments: Commitment[] }) {
+type Props = {
+  commitments: Commitment[];
+  // public_id → human-security dimension codes
+  dimensionsById?: Record<string, string[]>;
+  // public_id → number of public live-monitoring items
+  monitoringCounts?: Record<string, number>;
+};
+
+const dimensionNames: Record<string, string> = {
+  economic: "Economic security",
+  food: "Food security",
+  health: "Health security",
+  environmental: "Environmental security",
+  personal: "Personal security",
+  community: "Community security",
+  political: "Political security",
+};
+
+export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
   const [acceptance, setAcceptance] = useState("all");
+  const [dimension, setDimension] = useState("all");
 
   const visible = useMemo(() => commitments.filter((c) => {
     const text = `${c.public_id} ${c.recommendation_number ?? ""} ${c.title} ${c.original_text} ${c.country_name}`.toLowerCase();
-    return text.includes(query.toLowerCase()) && (status === "all" || c.assessment_status === status) && (acceptance === "all" || c.acceptance_status === acceptance);
-  }), [commitments, query, status, acceptance]);
+    return text.includes(query.toLowerCase()) && (status === "all" || c.assessment_status === status) && (acceptance === "all" || c.acceptance_status === acceptance) && (dimension === "all" || (dimensionsById[c.public_id] || []).includes(dimension));
+  }), [commitments, query, status, acceptance, dimension, dimensionsById]);
 
   return (
     <Stack spacing={2.25}>
@@ -50,6 +69,13 @@ export function CommitmentExplorer({ commitments }: { commitments: Commitment[] 
               <MenuItem value="noted">Noted</MenuItem>
             </Select>
           </FormControl>
+          <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
+            <InputLabel id="dimension-filter">Human security</InputLabel>
+            <Select labelId="dimension-filter" label="Human security" value={dimension} onChange={(e) => setDimension(e.target.value)}>
+              <MenuItem value="all">All dimensions</MenuItem>
+              {Object.entries(dimensionNames).map(([code, name]) => <MenuItem key={code} value={code}>{name}</MenuItem>)}
+            </Select>
+          </FormControl>
         </Stack>
       </Paper>
 
@@ -74,6 +100,11 @@ export function CommitmentExplorer({ commitments }: { commitments: Commitment[] 
                   <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
                     {c.acceptance_status === "accepted" ? "Accepted by Spain" : c.acceptance_status === "noted" ? "Noted by Spain" : (c.acceptance_status || "State response pending")}
                   </Typography>
+                  {monitoringCounts[c.public_id] > 0 && (
+                    <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
+                      {monitoringCounts[c.public_id]} live monitoring item{monitoringCounts[c.public_id] === 1 ? "" : "s"}
+                    </Typography>
+                  )}
                 </Stack>
                 <Typography variant="h6" color="primary.main" sx={{ mb: .75 }}>{c.title}</Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.7, maxWidth: 860 }}>
