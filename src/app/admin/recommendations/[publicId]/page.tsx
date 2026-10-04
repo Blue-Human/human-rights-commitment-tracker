@@ -38,6 +38,7 @@ export default async function ManageRecommendation({ params }: { params: Promise
           <Button type="submit" variant="outlined" size="small">{rec.is_priority ? "Quitar prioridad" : "Marcar como prioritaria"}</Button>
         </form>
         <Button component={Link} href={`/commitments/${encodeURIComponent(rec.public_id)}`} size="small">Ver página pública</Button>
+        <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(rec.public_id)}/indicators`} size="small">Gestionar indicadores</Button>
       </Stack>
       <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5, maxWidth: 860, lineHeight: 1.7 }}>{rec.original_text}</Typography>
 

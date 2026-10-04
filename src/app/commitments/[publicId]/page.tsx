@@ -1,3 +1,6 @@
+import { Suspense } from "react";
+import { RecommendationIndicators } from "@/components/RecommendationIndicators";
+import { IndicatorSkeleton } from "@/components/IndicatorSection";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
@@ -77,6 +80,8 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 </Stack>
               </Box>
 
+              <Suspense fallback={<IndicatorSkeleton />}><RecommendationIndicators publicId={decoded} /></Suspense>
+
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
                 <Typography variant="overline" color="text.secondary">Enfoque de seguridad humana</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.6 }}>Dimensiones de la seguridad humana afectadas</Typography>
@@ -137,7 +142,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
               )}
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
-                <Typography variant="overline" color="text.secondary">Registro de evidencias</Typography>
+                <Typography id="evidencias" variant="overline" color="text.secondary">Registro de evidencias</Typography>
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.5 }}>Evidencias consideradas</Typography>
                 <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
                   {evidence.map((item) => (
