@@ -30,16 +30,16 @@ export default async function Home() {
     <>
       <SiteHeader />
       <Box component="main">
-        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
+        <Container maxWidth="lg" sx={{ py: { xs: 3, md: 4 } }}>
           <Typography variant="overline" color="secondary.main">España · Examen Periódico Universal · Cuarto ciclo</Typography>
-          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.35rem", md: "3.45rem" }, mt: 1.2, maxWidth: 900 }}>
+          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "1.95rem", md: "2.7rem" }, mt: 1.2, maxWidth: 940 }}>
             Seguimiento de los compromisos de derechos humanos
           </Typography>
           <Typography sx={{ mt: 2.25, maxWidth: 820, fontSize: { xs: "1rem", md: "1.08rem" }, lineHeight: 1.75, color: "text.secondary" }}>
-            Seguimiento público de las recomendaciones internacionales de derechos humanos y de su cumplimiento en España. Cada ficha mantiene el texto oficial de la recomendación de las Naciones Unidas separado de la valoración independiente de Blue Human.
+            Datos oficiales, series históricas y seguimiento de las recomendaciones de derechos humanos a España.
           </Typography>
 
-          <Divider sx={{ my: { xs: 4, md: 5 } }} />
+          <Divider sx={{ my: 3 }} />
 
           <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 3, md: 0 }} divider={<Divider orientation="vertical" flexItem sx={{ display: { xs: "none", md: "block" } }} />}>
             {[

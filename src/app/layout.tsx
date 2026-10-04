@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
 import { Providers } from "./providers";
+import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 
 const ibm = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], display: "swap" });
 
@@ -13,7 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="es">
       <body className={ibm.className}>
-        <Providers>{children}</Providers>
+        <AppRouterCacheProvider><Providers>{children}</Providers></AppRouterCacheProvider>
       </body>
     </html>
   );
