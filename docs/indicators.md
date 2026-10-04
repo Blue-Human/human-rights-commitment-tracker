@@ -38,11 +38,19 @@ Normalizaciones conservadas en `import_metadata.original.normalizations`:
 
 Las reglas baseline ≤2025 y target son instrucciones originales del análisis. No se ejecutan como mediciones ni se aplican a otros ciclos. Una meta exige componente, scope exacto, operador, tipo, plazo y cita verificable; la baseline exige una observación aprobada de esa misma serie y una razón documentada. Las metas relativas desde cero no son calculables.
 
-## Aplicación pendiente en el entorno elegido
+## Aplicación en producción
 
-La implementación se validó en PostgreSQL aislado con fixtures sintéticas y se inspeccionó el esquema remoto mediante consultas de solo lectura. No se aplicaron migraciones, no se importó el anexo y no se cargaron mediciones en producción.
+El 4 de octubre de 2026 se fusionó la implementación en `main` y Vercel completó el despliegue de producción. Se aplicaron ambas migraciones al proyecto `gostbdmrzchccnydftgd` y se importó el anexo tras validar sus referencias contra la base real. Se incorporaron 98 indicadores, 428 vínculos y 324 decisiones de aplicabilidad como propuestas. Los tres indicadores y vínculos heredados se conservaron; el total es 101 indicadores, 431 vínculos y 149 componentes. No se cargaron mediciones.
 
-Aplicar, en este orden, sobre el esquema HRCT existente:
+La segunda importación añadió cero indicadores y mantuvo los conteos. Los snapshots del texto oficial/estado de publicación y de las evaluaciones coincidieron antes y después. El RPC con acceso anónimo y el endpoint de producción respondieron HTTP 200 con `pending_review`, sin exponer propuestas. La UI pública muestra el estado pendiente hasta que se revisen y publiquen las asignaciones; los gráficos requieren observaciones documentadas y publicadas.
+
+Las migraciones quedaron registradas por el servicio de Supabase con sus nombres y versiones de aplicación: `visual_indicators` (`20261004104048`) e `indicator_import_review` (`20261004104255`). Estas versiones remotas difieren de los timestamps de los archivos locales. No volver a aplicarlas ni ejecutar un `db push` general sin reconciliar el historial.
+
+Frontend CI pasó en `main`. La sección pública se comprobó en producción en Chromium a ancho móvil y de escritorio. La gestión está disponible en `/admin/indicators` con la autenticación administrativa existente.
+
+### Repetir la validación o instalar en otro entorno
+
+En un entorno donde todavía no estén aplicadas, instalar en este orden sobre el esquema HRCT existente:
 
 1. `supabase/migrations/20261004093520_visual_indicators.sql`.
 2. `supabase/migrations/20261004093818_indicator_import_review.sql`.
@@ -67,7 +75,7 @@ Importar explícitamente las propuestas, solo cuando corresponda al entorno auto
 node --env-file=.env.local scripts/import-indicators.mjs --write --project=gostbdmrzchccnydftgd
 ```
 
-Desplegar después el frontend por su procedimiento habitual. Revisar primero catálogo/componentes, luego aplicabilidad y vínculos, y finalmente mediciones documentadas. No publicar todo el seed en bloque: sus filas son propuestas. Mientras no se hayan aplicado las migraciones, la ficha presenta un error recuperable de consulta, nunca una falsa ausencia de datos; la gestión presenta el paso pendiente.
+Desplegar después el frontend por su procedimiento habitual. Revisar primero catálogo/componentes, luego aplicabilidad y vínculos, y finalmente mediciones documentadas. No publicar todo el seed en bloque: sus filas son propuestas. En entornos sin las migraciones, la ficha presenta un error recuperable de consulta, nunca una falsa ausencia de datos; la gestión presenta el paso pendiente.
 
 ## Contrato de importación de mediciones
 
