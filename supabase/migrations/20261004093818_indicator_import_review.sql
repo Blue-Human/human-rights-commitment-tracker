@@ -81,6 +81,7 @@ begin
   if new.target_type='relative' and new.target_value is not null and (new.baseline_value_id is null or b.numeric_value=0) then raise exception 'Relative target requires a documented baseline'; end if;
   if new.target_value is not null and not exists(select 1 from public.indicator_components where id=new.component_id and value_type='numeric') then raise exception 'Numeric target requires numeric component'; end if;
   if new.editorial_status='published' and (new.reviewed_at is null or coalesce(length(trim(new.reviewed_by)),0)=0 or not exists(select 1 from public.indicators where id=new.indicator_id and editorial_status='published' and active)) then raise exception 'Review and publish the catalogue before publishing a link'; end if;
+  if new.editorial_status='published' and new.component_id is not null and not exists(select 1 from public.indicator_components where id=new.component_id and editorial_status='published') then raise exception 'Review and publish the scoped component before its link'; end if;
   new.updated_at=now(); return new;
 end $$;
 create trigger validate_indicator_link before insert or update on public.recommendation_indicators for each row execute function public.hrct_validate_indicator_link();

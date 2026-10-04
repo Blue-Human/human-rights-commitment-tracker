@@ -101,6 +101,14 @@ alter table public.recommendation_indicators add foreign key(baseline_value_id) 
 create unique index indicator_values_current_period on public.indicator_values(component_id,country_iso2,scope,period_start,period_end) where is_current;
 create index indicator_values_lookup on public.indicator_values(indicator_id,component_id,country_iso2,scope,period_end,editorial_status);
 create index recommendation_indicators_lookup on public.recommendation_indicators(commitment_id,editorial_status);
+-- Foreign-key checks and component definition/revision lookups include historical rows.
+create index indicator_values_component on public.indicator_values(component_id,indicator_id);
+create index indicator_values_country on public.indicator_values(country_iso2);
+create index indicator_values_evidence on public.indicator_values(evidence_id) where evidence_id is not null;
+create index indicator_values_supersedes on public.indicator_values(supersedes_id) where supersedes_id is not null;
+create index recommendation_indicators_indicator on public.recommendation_indicators(indicator_id);
+create index recommendation_indicators_component on public.recommendation_indicators(component_id,indicator_id) where component_id is not null;
+create index recommendation_indicators_baseline on public.recommendation_indicators(baseline_value_id) where baseline_value_id is not null;
 
 -- Audit snapshots are private, including deletion/unlinking and corrections.
 create table public.indicator_audit (
