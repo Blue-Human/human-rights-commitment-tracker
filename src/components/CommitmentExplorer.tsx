@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem, Paper, Select, Stack, TextField, Typography } from "@mui/material";
-import { acceptanceLabels, statusLabels, type Commitment } from "@/lib/hrct";
+import { acceptanceLabels, dimensionNames, statusLabels, type Commitment } from "@/lib/hrct";
+import { useDimensionFilter } from "./DimensionFilter";
 import { PriorityTag } from "./PriorityTag";
 import { StatusChip } from "./StatusChip";
 
@@ -14,16 +15,6 @@ type Props = {
   dimensionsById?: Record<string, string[]>;
   // public_id → number of public live-monitoring items
   monitoringCounts?: Record<string, number>;
-};
-
-const dimensionNames: Record<string, string> = {
-  economic: "Seguridad económica",
-  food: "Seguridad alimentaria",
-  health: "Seguridad sanitaria",
-  environmental: "Seguridad ambiental",
-  personal: "Seguridad personal",
-  community: "Seguridad comunitaria",
-  political: "Seguridad política",
 };
 
 // The full catalogue is long: the list grows on request instead of rendering every record at once.
@@ -36,7 +27,7 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
   const [acceptance, setAcceptance] = useState("all");
-  const [dimension, setDimension] = useState("all");
+  const { dimension, setDimension } = useDimensionFilter();
   const [priorityOnly, setPriorityOnly] = useState(false);
   const filterKey = `${query}|${status}|${acceptance}|${dimension}|${priorityOnly}`;
   const [expanded, setExpanded] = useState({ key: filterKey, count: PAGE_SIZE });

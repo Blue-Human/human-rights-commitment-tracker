@@ -46,9 +46,24 @@ export type Evidence = {
   reviewed_at?: string | null;
 };
 
+// The seven dimensions of the UNDP framework, followed by the one Blue Human adds to it.
+export const dimensionCodes = ["economic", "food", "health", "environmental", "personal", "community", "political", "technological"] as const;
+export type DimensionCode = (typeof dimensionCodes)[number];
+
+export const dimensionNames: Record<DimensionCode, string> = {
+  economic: "Seguridad económica",
+  food: "Seguridad alimentaria",
+  health: "Seguridad sanitaria",
+  environmental: "Seguridad ambiental",
+  personal: "Seguridad personal",
+  community: "Seguridad comunitaria",
+  political: "Seguridad política",
+  technological: "Seguridad tecnológica",
+};
+
 export type HumanSecurityDimension = {
   public_id: string;
-  code: "economic" | "food" | "health" | "environmental" | "personal" | "community" | "political";
+  code: DimensionCode;
   name: string;
   description: string | null;
   is_primary: boolean;
@@ -157,6 +172,11 @@ export function labelOf(labels: Record<string, string>, value?: string | null, f
   return value ? labels[value] || value.replaceAll("_", " ") : fallback;
 }
 
+// Share of a total as a Spanish percentage with at most one decimal: "93,5 %".
+export function formatShare(value: number, total: number) {
+  return total ? `${((100 * value) / total).toLocaleString("es-ES", { maximumFractionDigits: 1 })}\u00a0%` : "—";
+}
+
 export function formatDate(value?: string | null) {
   return value ? new Date(value).toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }) : null;
 }
@@ -211,8 +231,22 @@ export async function getAssessmentHistory(publicId: string): Promise<Assessment
   return rest<AssessmentHistoryEntry[]>(`hrct_public_assessment_history?select=*&public_id=eq.${encodeURIComponent(publicId)}&order=published_at.desc`);
 }
 
-export async function getAllHumanSecurityDimensions(): Promise<Pick<HumanSecurityDimension, "public_id" | "code" | "name" | "is_primary">[]> {
-  return rest(`hrct_public_human_security?select=public_id,code,name,is_primary`);
+export type DimensionLink = Pick<HumanSecurityDimension, "public_id" | "code" | "name" | "is_primary">;
+
+// The API returns at most 1,000 rows per request and the catalogue is close to that, so it is read in pages.
+export async function getAllHumanSecurityDimensions(): Promise<DimensionLink[]> {
+  const pageSize = 1000;
+  const rows: DimensionLink[] = [];
+  for (let offset = 0; ; offset += pageSize) {
+    const page = await rest<DimensionLink[]>(`hrct_public_human_security?select=public_id,code,name,is_primary&order=public_id.asc,code.asc&limit=${pageSize}&offset=${offset}`);
+    rows.push(...page);
+    if (page.length < pageSize) return rows;
+  }
+}
+
+export async function getDimensionDescriptions(): Promise<Partial<Record<DimensionCode, string>>> {
+  const rows = await optional<{ code: DimensionCode; description: string | null }[]>("human_security_dimensions?select=code,description", []);
+  return Object.fromEntries(rows.filter((row) => row.description).map((row) => [row.code, row.description]));
 }
 
 export async function getRecentMonitoringItems(limit = 200): Promise<MonitoringItem[]> {
@@ -243,4 +277,64 @@ export function groupByUrl(items: MonitoringItem[]): Development[] {
   const order = (id: string) => Number(id.split("-").pop()?.split(".").pop()) || 0;
   for (const d of byUrl.values()) d.public_ids.sort((a, b) => order(a) - order(b));
   return [...byUrl.values()];
+}
+
+// A recommendation counts as assessed once it has a conclusion on compliance.
+export function isAssessed(c: Pick<Commitment, "assessment_status">) {
+  return !!c.assessment_status && !["not_assessed", "unable_to_assess"].includes(c.assessment_status);
+}
+
+export type DimensionSummary = {
+  code: DimensionCode;
+  name: string;
+  description: string | null;
+  total: number;
+  // Recommendations for which this is the primary dimension.
+  primary: number;
+  accepted: number;
+  partiallyAccepted: number;
+  noted: number;
+  priority: number;
+  assessed: number;
+  // Recommendations with at least one public monitoring item.
+  monitored: number;
+  // Recommendations shared with each of the other dimensions, most frequent first.
+  overlaps: { code: DimensionCode; count: number }[];
+};
+
+// Counts per human-security dimension. A recommendation can belong to several dimensions,
+// so the totals of the dimensions add up to more than the catalogue.
+export function summarizeDimensions(
+  commitments: Commitment[],
+  links: DimensionLink[],
+  descriptions: Partial<Record<DimensionCode, string>> = {},
+  monitoringCounts: Record<string, number> = {},
+): DimensionSummary[] {
+  const byId = new Map(commitments.map((c) => [c.public_id, c]));
+  const codesById = new Map<string, DimensionCode[]>();
+  for (const link of links) {
+    if (!byId.has(link.public_id) || !dimensionCodes.includes(link.code)) continue;
+    codesById.set(link.public_id, [...(codesById.get(link.public_id) || []), link.code]);
+  }
+  return dimensionCodes.map((code) => {
+    const own = links.filter((link) => link.code === code && byId.has(link.public_id));
+    const records = own.map((link) => byId.get(link.public_id)!);
+    const count = (test: (c: Commitment) => boolean) => records.filter(test).length;
+    const shared = new Map<DimensionCode, number>();
+    for (const link of own) for (const other of codesById.get(link.public_id) || []) if (other !== code) shared.set(other, (shared.get(other) || 0) + 1);
+    return {
+      code,
+      name: own[0]?.name || dimensionNames[code],
+      description: descriptions[code] || null,
+      total: own.length,
+      primary: own.filter((link) => link.is_primary).length,
+      accepted: count((c) => c.acceptance_status === "accepted"),
+      partiallyAccepted: count((c) => c.acceptance_status === "partially_accepted"),
+      noted: count((c) => c.acceptance_status === "noted"),
+      priority: count((c) => !!c.is_priority),
+      assessed: count(isAssessed),
+      monitored: count((c) => monitoringCounts[c.public_id] > 0),
+      overlaps: [...shared.entries()].map(([other, n]) => ({ code: other, count: n })).sort((a, b) => b.count - a.count),
+    };
+  });
 }
