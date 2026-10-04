@@ -14,6 +14,8 @@ let indicator,component,value,legacy;
 test('migrations, seed, RLS, shared observations, revisions and scoped targets',async()=>{
   await db.exec(`
     create role anon; create role authenticated; create role service_role bypassrls;
+    alter default privileges grant all on tables to anon,authenticated;
+    alter default privileges grant all on sequences to anon,authenticated;
     create table countries(id uuid primary key default gen_random_uuid(),iso2 text unique);
     create table mechanisms(id uuid primary key default gen_random_uuid(),code text);
     create table sources(id uuid primary key default gen_random_uuid(),document_reference text);
@@ -55,6 +57,7 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
   assert.equal((await publicBundle()).requirement,'required');
   await assert.rejects(q('select import_metadata from indicators'),/permission denied/);
   await assert.rejects(q('select * from indicator_audit'),/permission denied/);
+  await assert.rejects(q("select nextval('indicator_audit_id_seq')"),/permission denied/);
   await assert.rejects(q('delete from indicator_values'),/permission denied/);
   await assert.rejects(rpc(true),/permission denied/);
   await db.exec('reset role;set role authenticated');

@@ -161,6 +161,7 @@ do $$ declare t text; begin
     execute format('create trigger indicator_audit after insert or update or delete on public.%I for each row execute function public.hrct_indicator_audit()',t);
   end loop;
 end $$;
+revoke all on sequence public.indicator_audit_id_seq from anon,authenticated;
 grant usage,select on sequence public.indicator_audit_id_seq to service_role;
 grant all on public.indicators to service_role;
 create policy components_public_read on public.indicator_components for select to anon,authenticated using (editorial_status='published' and exists(select 1 from public.indicators i where i.id=indicator_id));
