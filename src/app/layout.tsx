@@ -6,12 +6,12 @@ const ibm = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "7
 
 export const metadata: Metadata = {
   title: "Human Rights Commitment Tracker | Blue Human",
-  description: "Evidence-led public tracking of human-rights commitments.",
+  description: "Seguimiento público y basado en evidencias de los compromisos de derechos humanos de España.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={ibm.className}>
         <Providers>{children}</Providers>
       </body>

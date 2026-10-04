@@ -11,12 +11,12 @@ export function AdminFrame({ title, intro, children }: { title: string; intro?: 
       <Box sx={{ bgcolor: "#f7f8f9", borderBottom: "1px solid", borderColor: "divider" }}>
         <Container maxWidth="lg">
           <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap sx={{ py: 1 }}>
-            <Typography variant="overline" color="text.secondary" sx={{ mr: 1.5 }}>Administration</Typography>
-            <Button component={Link} href="/admin" size="small">Overview</Button>
-            <Button component={Link} href="/admin/monitoring" size="small">Monitoring items</Button>
-            <Button component={Link} href="/admin/feeds" size="small">Sources</Button>
+            <Typography variant="overline" color="text.secondary" sx={{ mr: 1.5 }}>Administración</Typography>
+            <Button component={Link} href="/admin" size="small">Resumen</Button>
+            <Button component={Link} href="/admin/monitoring" size="small">Novedades de seguimiento</Button>
+            <Button component={Link} href="/admin/feeds" size="small">Fuentes</Button>
             <Box sx={{ flex: 1 }} />
-            <form action={logout}><Button type="submit" size="small">Log out</Button></form>
+            <form action={logout}><Button type="submit" size="small">Cerrar sesión</Button></form>
           </Stack>
         </Container>
       </Box>

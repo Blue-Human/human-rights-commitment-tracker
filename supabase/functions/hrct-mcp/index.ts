@@ -18,7 +18,7 @@ const REVIEW_QUEUE_URL = `${Deno.env.get("SUPABASE_URL")}/functions/v1/review-qu
 const PROTOCOL_VERSIONS = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 const SERVER_INFO = { name: "hrct-review", title: "HRCT periodic review", version: "1.0.0" };
 const INSTRUCTIONS =
-  "Tools for the periodic research review of the Human Rights Commitment Tracker. Get a batch with get_research_batch, research each recommendation in official and institutional sources, then file one review per recommendation with submit_reviews. \"implemented\" can only be proposed; resolve_confirmation is used only on a reviewer's explicit instruction and code.";
+  "Tools for the periodic research review of the Human Rights Commitment Tracker. Get a batch with get_research_batch, research each recommendation in official and institutional sources, then file one review per recommendation with submit_reviews. \"implemented\" can only be proposed; resolve_confirmation is used only on a reviewer's explicit instruction and code. The site is published in Spanish: write every rationale, change_summary, finding and note in Spanish (Spain).";
 
 type RpcRequest = { jsonrpc: "2.0"; id?: string | number | null; method: string; params?: Record<string, unknown> };
 

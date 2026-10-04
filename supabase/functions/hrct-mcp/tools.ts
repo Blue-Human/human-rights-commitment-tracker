@@ -48,10 +48,10 @@ export const TOOLS: Tool[] = [
         items: object({
           public_id: { type: "string", description: "Recommendation id exactly as received, e.g. ESP-UPR4-050.19." },
           outcome: { type: "string", enum: ["no_change", "update"] },
-          change_summary: { type: "string", description: "One or two sentences: what was checked and what changed since the last review." },
+          change_summary: { type: "string", description: "One or two sentences in Spanish: what was checked and what changed since the last review." },
           proposed_status: { type: "string", enum: STATUSES, description: "Required for an update." },
           confidence: { type: "string", enum: ["high", "medium", "low"], description: "Required for an update." },
-          rationale: { type: "string", description: "Required for an update. 120 to 250 words, in English, neutral and factual." },
+          rationale: { type: "string", description: "Required for an update. 120 to 250 words, in Spanish (Spain), neutral and factual. It is published on the site." },
           evidence: {
             type: "array", maxItems: 10, description: "Required for an update.",
             items: object({
@@ -62,7 +62,7 @@ export const TOOLS: Tool[] = [
               language: { type: "string" },
               source_type: { type: "string", enum: SOURCE_TYPES },
               evidence_type: { type: "string", enum: ["supports_progress", "contradicts_progress", "context", "mixed"] },
-              finding: { type: "string", description: "One or two sentences on what this source establishes." },
+              finding: { type: "string", description: "One or two sentences in Spanish on what this source establishes." },
             }, ["url", "title", "source_type", "evidence_type", "finding"]),
           },
         }, ["public_id", "outcome", "change_summary"]),
@@ -121,7 +121,7 @@ export const TOOLS: Tool[] = [
           id: { type: "string" },
           category: { type: "string", enum: ["need_context", "implementation_candidate", "contradiction", "noise"] },
           relevance: { type: "number", minimum: 0, maximum: 1 },
-          note: { type: "string", description: "One short neutral sentence in English." },
+          note: { type: "string", description: "One short neutral sentence in Spanish (Spain)." },
         }, ["id", "category", "relevance", "note"]),
       },
     }, ["verdicts"]),

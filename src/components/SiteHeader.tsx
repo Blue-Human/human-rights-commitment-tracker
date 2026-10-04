@@ -69,9 +69,9 @@ export function SiteHeader() {
 
           <Stack direction="row" spacing={{ xs: 0, sm: 1 }} alignItems="center" flexWrap="wrap" useFlexGap>
             {[
-              ["Recommendations", "/"],
-              ["Live monitoring", "/monitoring"],
-              ["Methodology", "/methodology"],
+              ["Recomendaciones", "/"],
+              ["Actualidad", "/monitoring"],
+              ["Metodología", "/methodology"],
             ].map(([label, href]) => (
               <Button
                 key={href}
@@ -95,7 +95,7 @@ export function SiteHeader() {
                 "&:hover": { bgcolor: "rgba(255,255,255,.06)" },
               }}
             >
-              About
+              Quiénes somos
             </Button>
           </Stack>
         </Toolbar>

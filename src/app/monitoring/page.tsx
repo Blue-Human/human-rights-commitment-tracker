@@ -6,31 +6,31 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { formatDate, getCommitments, getMonitoringStatus, getRecentMonitoringItems, groupByUrl, monitoringChannel, type MonitoringChannel } from "@/lib/hrct";
 
 export const metadata: Metadata = {
-  title: "Live monitoring | Human Rights Commitment Tracker",
-  description: "Recent public reporting, official publications and legal changes matched to Spain's UPR recommendations.",
+  title: "Actualidad | Human Rights Commitment Tracker",
+  description: "Noticias, publicaciones oficiales y cambios normativos recientes relacionados con las recomendaciones del EPU a España.",
 };
 
 const sections: { channel: MonitoringChannel; overline: string; title: string; intro: string; empty: string }[] = [
   {
     channel: "need",
-    overline: "Live context monitoring",
-    title: "Why these recommendations remain relevant",
-    intro: "Reporting, official statistics and public statements indicating that the problem addressed by a recommendation persists. These items are context. They are not proof of implementation or non-implementation.",
-    empty: "No public context items have been recorded yet.",
+    overline: "Seguimiento del contexto",
+    title: "Por qué estas recomendaciones siguen siendo pertinentes",
+    intro: "Noticias, estadísticas oficiales y declaraciones públicas que indican que el problema al que responde una recomendación persiste. Son contexto: no prueban que la recomendación se haya cumplido ni que se haya incumplido.",
+    empty: "Todavía no se ha registrado ninguna novedad de contexto.",
   },
   {
     channel: "implementation",
-    overline: "Research queue",
-    title: "Potential implementation developments",
-    intro: "Laws, official gazette publications, plans and official actions matched to a recommendation. They remain candidates until a researcher reviews them and promotes them into the evidence record.",
-    empty: "No potential implementation developments are currently public.",
+    overline: "En estudio",
+    title: "Posibles avances en el cumplimiento",
+    intro: "Leyes, publicaciones en boletines oficiales, planes y actuaciones oficiales relacionados con una recomendación. Siguen siendo material en estudio hasta que una persona del equipo de investigación los revisa y los incorpora al registro de evidencias.",
+    empty: "Ahora mismo no hay publicado ningún posible avance en el cumplimiento.",
   },
   {
     channel: "contradiction",
-    overline: "Research queue",
-    title: "Potential contrary developments",
-    intro: "Developments that may run against a recommendation. Like every item pending confirmation, they do not change an assessment until reviewed.",
-    empty: "No potential contrary developments are currently public.",
+    overline: "En estudio",
+    title: "Posibles novedades en sentido contrario",
+    intro: "Novedades que pueden ir en contra de una recomendación. Como todo lo que está pendiente de confirmación, no modifican ninguna valoración hasta que se revisan.",
+    empty: "Ahora mismo no hay publicada ninguna novedad en sentido contrario.",
   },
 ];
 
@@ -45,16 +45,16 @@ export default async function MonitoringPage() {
       <SiteHeader />
       <Box component="main">
         <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
-          <Typography variant="overline" color="primary.main">Spain · UPR fourth cycle · Live monitoring</Typography>
-          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Live monitoring</Typography>
+          <Typography variant="overline" color="primary.main">España · EPU, cuarto ciclo · Actualidad</Typography>
+          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Seguimiento de la actualidad</Typography>
           <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 860, lineHeight: 1.75 }}>
-            HRCT scans public sources for material related to each recommendation: national media, institutional and civil-society feeds, news search and the Boletín Oficial del Estado. Monitoring keeps the record current; it never changes a Blue Human assessment on its own. Each item is marked as reviewed or pending final confirmation.
+            HRCT consulta fuentes públicas en busca de material relacionado con cada recomendación: medios de comunicación nacionales, canales de instituciones y de la sociedad civil, búsquedas de noticias y el Boletín Oficial del Estado. El seguimiento mantiene las fichas al día, pero nunca modifica por sí solo una valoración de Blue Human. Cada novedad se marca como revisada o pendiente de confirmación final.
           </Typography>
           <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 5 }} sx={{ mt: 3, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>
-            <Box><Typography variant="overline" color="text.secondary">Recommendations monitored</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status?.recommendations_monitored ?? commitments.length}</Typography></Box>
-            <Box><Typography variant="overline" color="text.secondary">Public monitoring items</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{developments.length}</Typography></Box>
-            {!!status?.feeds_monitored && <Box><Typography variant="overline" color="text.secondary">Sources scanned</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status.feeds_monitored} news, institutional and civil-society feeds, Google News and the BOE</Typography></Box>}
-            {lastScan && <Box><Typography variant="overline" color="text.secondary">Last source scan</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{lastScan}</Typography></Box>}
+            <Box><Typography variant="overline" color="text.secondary">Recomendaciones en seguimiento</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status?.recommendations_monitored ?? commitments.length}</Typography></Box>
+            <Box><Typography variant="overline" color="text.secondary">Novedades publicadas</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{developments.length}</Typography></Box>
+            {!!status?.feeds_monitored && <Box><Typography variant="overline" color="text.secondary">Fuentes consultadas</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status.feeds_monitored} canales de medios, instituciones y sociedad civil, además de Google News y el BOE</Typography></Box>}
+            {lastScan && <Box><Typography variant="overline" color="text.secondary">Última consulta de fuentes</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{lastScan}</Typography></Box>}
           </Stack>
         </Container>
 

@@ -5,7 +5,7 @@ import { AdminItemRow } from "@/components/AdminItemRow";
 import { listItemsPending } from "@/lib/admin/db";
 import { requireAdmin } from "@/lib/admin/session";
 
-export const metadata: Metadata = { title: "Monitoring items | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Novedades de seguimiento | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
 
 export default async function AdminMonitoring() {
   await requireAdmin();
@@ -20,12 +20,12 @@ export default async function AdminMonitoring() {
   );
 
   return (
-    <AdminFrame title="Monitoring items" intro="News and publications collected for the recommendations that you have not reviewed yet. Items discarded as unrelated are not listed.">
-      <AdminSection title="Public, pending final confirmation" note="Already visible on the site. Approve to mark them as reviewed, or reject to remove them.">
-        {list(shown, "Nothing public is waiting for confirmation.")}
+    <AdminFrame title="Novedades de seguimiento" intro="Noticias y publicaciones recopiladas para las recomendaciones que todavía no has revisado. No se muestran las descartadas por no guardar relación.">
+      <AdminSection title="Públicas, pendientes de confirmación final" note="Ya son visibles en la web. Apruébalas para marcarlas como revisadas o recházalas para retirarlas.">
+        {list(shown, "No hay nada público pendiente de confirmación.")}
       </AdminSection>
-      <AdminSection title="Kept for research" note="Related but not shown on the site. Approve to publish one.">
-        {list(held, "Nothing is being held.")}
+      <AdminSection title="Guardadas para investigación" note="Guardan relación, pero no se muestran en la web. Aprueba una para publicarla.">
+        {list(held, "No hay nada guardado.")}
       </AdminSection>
     </AdminFrame>
   );

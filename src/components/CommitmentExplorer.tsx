@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem, Paper, Select, Stack, TextField, Typography } from "@mui/material";
-import type { Commitment } from "@/lib/hrct";
+import { acceptanceLabels, statusLabels, type Commitment } from "@/lib/hrct";
 import { StatusChip } from "./StatusChip";
 
 type Props = {
@@ -16,13 +16,13 @@ type Props = {
 };
 
 const dimensionNames: Record<string, string> = {
-  economic: "Economic security",
-  food: "Food security",
-  health: "Health security",
-  environmental: "Environmental security",
-  personal: "Personal security",
-  community: "Community security",
-  political: "Political security",
+  economic: "Seguridad económica",
+  food: "Seguridad alimentaria",
+  health: "Seguridad sanitaria",
+  environmental: "Seguridad ambiental",
+  personal: "Seguridad personal",
+  community: "Seguridad comunitaria",
+  political: "Seguridad política",
 };
 
 export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
@@ -44,35 +44,27 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
             fullWidth
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search recommendation number or keyword"
+            placeholder="Buscar por número de recomendación o palabra clave"
             InputProps={{ startAdornment: <InputAdornment position="start"><SearchIcon fontSize="small" /></InputAdornment> }}
           />
           <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
-            <InputLabel id="status-filter">Implementation</InputLabel>
-            <Select labelId="status-filter" label="Implementation" value={status} onChange={(e) => setStatus(e.target.value)}>
-              <MenuItem value="all">All statuses</MenuItem>
-              <MenuItem value="not_assessed">Assessment pending</MenuItem>
-              <MenuItem value="implemented">Implemented</MenuItem>
-              <MenuItem value="substantially_implemented">Substantial progress</MenuItem>
-              <MenuItem value="limited_progress">Limited progress</MenuItem>
-              <MenuItem value="not_implemented">No implementation</MenuItem>
-              <MenuItem value="regressed">Regressed</MenuItem>
-              <MenuItem value="unable_to_assess">Insufficient evidence</MenuItem>
+            <InputLabel id="status-filter">Cumplimiento</InputLabel>
+            <Select labelId="status-filter" label="Cumplimiento" value={status} onChange={(e) => setStatus(e.target.value)}>
+              <MenuItem value="all">Todos los estados</MenuItem>
+              {["not_assessed", "implemented", "substantially_implemented", "limited_progress", "not_implemented", "regressed", "unable_to_assess"].map((code) => <MenuItem key={code} value={code}>{statusLabels[code]}</MenuItem>)}
             </Select>
           </FormControl>
           <FormControl sx={{ minWidth: { xs: "100%", md: 175 } }}>
-            <InputLabel id="acceptance-filter">State response</InputLabel>
-            <Select labelId="acceptance-filter" label="State response" value={acceptance} onChange={(e) => setAcceptance(e.target.value)}>
-              <MenuItem value="all">All responses</MenuItem>
-              <MenuItem value="accepted">Accepted</MenuItem>
-              <MenuItem value="partially_accepted">Partially accepted</MenuItem>
-              <MenuItem value="noted">Noted</MenuItem>
+            <InputLabel id="acceptance-filter">Respuesta del Estado</InputLabel>
+            <Select labelId="acceptance-filter" label="Respuesta del Estado" value={acceptance} onChange={(e) => setAcceptance(e.target.value)}>
+              <MenuItem value="all">Todas las respuestas</MenuItem>
+              {Object.entries(acceptanceLabels).map(([code, name]) => <MenuItem key={code} value={code}>{name}</MenuItem>)}
             </Select>
           </FormControl>
           <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
-            <InputLabel id="dimension-filter">Human security</InputLabel>
-            <Select labelId="dimension-filter" label="Human security" value={dimension} onChange={(e) => setDimension(e.target.value)}>
-              <MenuItem value="all">All dimensions</MenuItem>
+            <InputLabel id="dimension-filter">Seguridad humana</InputLabel>
+            <Select labelId="dimension-filter" label="Seguridad humana" value={dimension} onChange={(e) => setDimension(e.target.value)}>
+              <MenuItem value="all">Todas las dimensiones</MenuItem>
               {Object.entries(dimensionNames).map(([code, name]) => <MenuItem key={code} value={code}>{name}</MenuItem>)}
             </Select>
           </FormControl>
@@ -80,8 +72,8 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
       </Paper>
 
       <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={.5}>
-        <Typography variant="body2" color="text.secondary">{visible.length} recommendation{visible.length === 1 ? "" : "s"}</Typography>
-        <Typography variant="caption" color="text.secondary">UN Human Rights Council · A/HRC/60/8</Typography>
+        <Typography variant="body2" color="text.secondary">{visible.length} {visible.length === 1 ? "recomendación" : "recomendaciones"}</Typography>
+        <Typography variant="caption" color="text.secondary">Consejo de Derechos Humanos de la ONU · A/HRC/60/8</Typography>
       </Stack>
 
       <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
@@ -90,7 +82,7 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
             {index > 0 && <Divider />}
             <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 } }}>
               <Box sx={{ width: { md: 92 }, flexShrink: 0 }}>
-                <Typography variant="caption" color="text.secondary">Recommendation</Typography>
+                <Typography variant="caption" color="text.secondary">Recomendación</Typography>
                 <Typography color="primary.main" sx={{ mt: .25, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
               </Box>
 
@@ -98,14 +90,14 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
                 <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mb: .9 }}>
                   <StatusChip status={c.assessment_status} />
                   <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
-                    {c.acceptance_status === "accepted" ? "Accepted by Spain" : c.acceptance_status === "noted" ? "Noted by Spain" : (c.acceptance_status || "State response pending")}
+                    {c.acceptance_status ? `${acceptanceLabels[c.acceptance_status] || c.acceptance_status} por España` : "Respuesta del Estado pendiente"}
                   </Typography>
                   {c.assessment_provisional && c.assessment_status !== "not_assessed" && (
-                    <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>Pending final confirmation</Typography>
+                    <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>Pendiente de confirmación final</Typography>
                   )}
                   {monitoringCounts[c.public_id] > 0 && (
                     <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
-                      {monitoringCounts[c.public_id]} live monitoring item{monitoringCounts[c.public_id] === 1 ? "" : "s"}
+                      {monitoringCounts[c.public_id]} {monitoringCounts[c.public_id] === 1 ? "novedad" : "novedades"} en seguimiento
                     </Typography>
                   )}
                 </Stack>
@@ -117,7 +109,7 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
 
               <Box sx={{ width: { md: 115 }, flexShrink: 0, display: "flex", alignItems: { md: "center" }, justifyContent: { md: "flex-end" } }}>
                 <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} color="primary">
-                  View record
+                  Ver ficha
                 </Button>
               </Box>
             </Stack>
@@ -126,8 +118,8 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
 
         {!visible.length && (
           <Box sx={{ textAlign: "center", py: 7, px: 2 }}>
-            <Typography variant="h6" color="primary.main">No recommendations match these filters</Typography>
-            <Typography variant="body2" color="text.secondary" sx={{ mt: .75 }}>Try a broader search or clear one of the filters.</Typography>
+            <Typography variant="h6" color="primary.main">Ninguna recomendación coincide con estos filtros</Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mt: .75 }}>Prueba con una búsqueda más amplia o quita alguno de los filtros.</Typography>
           </Box>
         )}
       </Box>
