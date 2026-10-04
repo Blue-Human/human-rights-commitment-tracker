@@ -16,7 +16,11 @@ Tablas añadidas:
 - `indicator_values`: observaciones tipadas con país, componente, scope JSONB canónico, periodo, fuente, publicación, recuperación, versión comparable y revisión. Cada periodo/scope tiene una observación vigente elegida mediante revisión explícita. Las fuentes alternativas y correcciones se conservan.
 - `indicator_audit`: snapshots privados de cambios, incluidos vínculos archivados. Nunca se exponen al público.
 
-`hrct_public_indicators` funciona con derechos del invocante y RLS; las columnas internas se excluyen de los grants y de la respuesta. Solo devuelve catálogo, componentes, vínculos y observaciones publicados, activos y vigentes; filtra el país de la recomendación. Último valor y baseline se consultan separadamente del histórico visible. Las funciones de importación/publicación admiten exclusivamente `service_role`.
+`hrct_public_indicators` funciona con derechos del invocante y RLS; las columnas internas se excluyen de los grants y de la respuesta. El catálogo, componentes, vínculos y observaciones validados siguen limitados a contenido publicado, activo y vigente; se filtra el país de la recomendación. Último valor y baseline se consultan separadamente del histórico visible. Las funciones de importación/publicación admiten exclusivamente `service_role`.
+
+La respuesta también incluye `annex`, una previsualización de las propuestas originales del anexo para esa recomendación. Sus tarjetas muestran código, nombre, definición, rol, unidades, fuentes candidatas y la justificación general, con la etiqueta «Propuesto · Sin validar». No se cambian estados editoriales ni se muestran mediciones, baseline o metas propuestas como hechos. Para las 41 recomendaciones sin indicadores en el anexo se explica la propuesta de verificación documental, pendiente de revisión. El selector de histórico aparece cuando hay asignaciones publicadas.
+
+Esta proyección se genera mediante `hrct_indicator_private.annex_preview`, una función de solo lectura con derechos de propietario y `search_path` vacío, en un esquema fuera de la Data API. Su ejecución se concede explícitamente a los roles de lectura y se revoca a `PUBLIC`. Devuelve exclusivamente una lista de campos permitidos del snapshot original `spain-upr4-v1`, para una recomendación publicada de España/EPU/A/HRC/60/8; excluye TEST, vínculos archivados, catálogo inactivo, borradores creados manualmente y cambios privados de investigación. No devuelve `import_metadata` completo, notas de revisión, metas ni observaciones. Los grants y RLS de las tablas no se amplían. Una decisión revisada de no necesitar indicadores prevalece sobre el anexo; una asignación publicada deja de figurar como propuesta.
 
 Toda página y acción de gestión comprueba la sesión administrativa existente. La clave de servicio se usa exclusivamente desde módulos `server-only`. `/admin/indicators` busca por código, nombre y definición, y gestiona catálogo, componentes, mediciones e importación JSON. `/admin/recommendations/[publicId]/indicators` gestiona aplicabilidad y relaciones. La referencia de la revisión de Jira se registra en metodología, rationale y citas; Jira sigue siendo el expediente humano. No se ha creado otra cuenta o sistema de autenticación.
 
@@ -26,7 +30,7 @@ Al publicar una observación se bloquea su serie durante la transacción, se ret
 
 `data/indicators/spain-upr4.v1.json` conserva los bloques originales completos, columnas, defaults y reglas derivadas. El importador reconstruye los objetos y los campos derivados; el RPC conserva origen, versión, reglas y fuentes metodológicas como metadatos privados. No importa títulos normalizados, aceptación, observaciones, baseline ni metas a las recomendaciones.
 
-Validación obligatoria: 324 números únicos 50.1–50.324, 98 códigos, 428 pares; aplicabilidad 253 required, 30 recommended, 41 not_required; roles 283 primary y 145 supporting. Resolución exacta por España + UPR + fuente A/HRC/60/8, excluyendo TEST. Cero coincidencias o varias coincidencias abortan antes de escribir. Una segunda importación no actualiza decisiones humanas ni duplica datos.
+Validación obligatoria: 324 números únicos 50.1–50.324, 98 códigos, 428 pares; aplicabilidad 253 required, 30 recommended, 41 not_required; roles 283 primary y 145 supporting. Resolución exacta por España + UPR + fuente A/HRC/60/8, excluyendo TEST. Cero coincidencias o varias coincidencias abortan antes de escribir. Una segunda importación no actualiza decisiones humanas ni duplica datos, incluso si un revisor cambió el scope o archivó la relación original.
 
 Normalizaciones conservadas en `import_metadata.original.normalizations`:
 
@@ -42,9 +46,11 @@ Las reglas baseline ≤2025 y target son instrucciones originales del análisis.
 
 El 4 de octubre de 2026 se fusionó la implementación en `main` y Vercel completó el despliegue de producción. Se aplicaron ambas migraciones al proyecto `gostbdmrzchccnydftgd` y se importó el anexo tras validar sus referencias contra la base real. Se incorporaron 98 indicadores, 428 vínculos y 324 decisiones de aplicabilidad como propuestas. Los tres indicadores y vínculos heredados se conservaron; el total es 101 indicadores, 431 vínculos y 149 componentes. No se cargaron mediciones.
 
-La segunda importación añadió cero indicadores y mantuvo los conteos. Los snapshots del texto oficial/estado de publicación y de las evaluaciones coincidieron antes y después. El RPC con acceso anónimo y el endpoint de producción respondieron HTTP 200 con `pending_review`, sin exponer propuestas. La UI pública muestra el estado pendiente hasta que se revisen y publiquen las asignaciones; los gráficos requieren observaciones documentadas y publicadas.
+La segunda importación añadió cero indicadores y mantuvo los conteos. Los snapshots del texto oficial/estado de publicación y de las evaluaciones coincidieron antes y después. En el despliegue inicial, el RPC y el endpoint respondían con `pending_review` y ocultaban todas las propuestas; por eso ninguna ficha mostraba sus indicadores importados. La actualización `public_indicator_proposals` añade la previsualización explícita del anexo descrita arriba. Los gráficos siguen requiriendo observaciones documentadas y publicadas.
 
-Las migraciones quedaron registradas por el servicio de Supabase con sus nombres y versiones de aplicación: `visual_indicators` (`20261004104048`) e `indicator_import_review` (`20261004104255`). Estas versiones remotas difieren de los timestamps de los archivos locales. No volver a aplicarlas ni ejecutar un `db push` general sin reconciliar el historial.
+Las migraciones quedaron registradas por el servicio de Supabase con sus nombres y versiones de aplicación: `visual_indicators` (`20261004104048`), `indicator_import_review` (`20261004104255`) y `public_indicator_proposals` (`20261004110111`). Estas versiones remotas difieren de los timestamps de los archivos locales. No volver a aplicarlas ni ejecutar un `db push` general sin reconciliar el historial.
+
+Tras la tercera migración, el RPC anónimo devuelve las propuestas correspondientes: 50.10 → `INST-001` (Recursos del Defensor del Pueblo), 50.62 → `MIG-010` (Incidentes de devolución colectiva/no devolución) y 50.1 → propuesta de verificación documental, sin indicadores. Los conteos y snapshots oficiales se conservaron; no se publicaron decisiones editoriales ni mediciones.
 
 Frontend CI pasó en `main`. La sección pública se comprobó en producción en Chromium a ancho móvil y de escritorio. La gestión está disponible en `/admin/indicators` con la autenticación administrativa existente.
 
@@ -54,8 +60,9 @@ En un entorno donde todavía no estén aplicadas, instalar en este orden sobre e
 
 1. `supabase/migrations/20261004093520_visual_indicators.sql`.
 2. `supabase/migrations/20261004093818_indicator_import_review.sql`.
+3. `supabase/migrations/20261004105020_public_indicator_proposals.sql`.
 
-El historial del repositorio contiene migraciones anteriores con nombres de ocho dígitos y versiones repetidas por fecha. Estas dos se generaron con Supabase CLI; no ejecutar un `db push` general sin reconciliar primero ese historial. Se pueden aplicar los dos SQL concretos mediante el proceso habitual de migración del entorno, dejando registrados sus nombres/versiones. Requieren PostgreSQL ≥15 (`UNIQUE NULLS NOT DISTINCT`).
+El historial del repositorio contiene migraciones anteriores con nombres de ocho dígitos y versiones repetidas por fecha. Estas migraciones se generaron con Supabase CLI; no ejecutar un `db push` general sin reconciliar primero ese historial. Se pueden aplicar los SQL concretos pendientes mediante el proceso habitual de migración del entorno, dejando registrados sus nombres/versiones. Requieren PostgreSQL ≥15 (`UNIQUE NULLS NOT DISTINCT`).
 
 Validación local del anexo, sin credenciales ni escritura:
 
@@ -95,7 +102,7 @@ npx playwright install --with-deps chromium
 npm run test:indicators:ui
 ```
 
-Los tests ejecutan ambas migraciones en PGlite/PostgreSQL aislado: validación e idempotencia del anexo, conservación de revisiones humanas, exclusión de TEST, publicación, permisos públicos, unidades/tipos, reutilización entre recomendaciones, ventanas históricas, fuentes alternativas, correcciones, baseline y metas por scope. También verifican puntos porcentuales, cero, desconocidos, huecos, rupturas, desagregaciones y obsolescencia.
+Los tests ejecutan las tres migraciones en PGlite/PostgreSQL aislado: validación e idempotencia del anexo, conservación de revisiones humanas y archivos tras cambios de scope, previsualización del anexo sin filtración de borradores privados, exclusión de TEST, publicación, permisos públicos, unidades/tipos, reutilización entre recomendaciones, ventanas históricas, fuentes alternativas, correcciones, baseline y metas por scope. También verifican puntos porcentuales, cero, desconocidos, huecos, rupturas, desagregaciones y obsolescencia.
 
 `tests/indicator-preview-fixtures.mjs` contiene exclusivamente datos sintéticos identificados como TEST para una previsualización aislada; no se importa desde `src`, las migraciones ni el seed. La navegación y el gráfico se verificaron en Chromium a ancho móvil y de escritorio, incluida la tabla, el histórico, el selector de población, el foco de puntos y la recuperación de errores.
 

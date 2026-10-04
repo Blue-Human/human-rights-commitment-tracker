@@ -1,7 +1,7 @@
 'use client';
 import { useId, useState } from 'react';
 import { Alert, Box, Button, Card, CardContent, Chip, FormControl, InputLabel, NativeSelect, Skeleton, Stack, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material';
-import type { Component, Indicator, IndicatorBundle, IndicatorLink, Observation } from '@/lib/indicators/types';
+import type { AnnexIndicator, Component, Indicator, IndicatorBundle, IndicatorLink, Observation } from '@/lib/indicators/types';
 import { change, connects, isStale, number, orderPoints, periodLabel, scopeKey, scopeLabel, seriesId, tableRows, target, valueLabel } from '@/lib/indicators/series';
 import { formatDate } from '@/lib/hrct';
 
@@ -113,26 +113,63 @@ function IndicatorCard({indicator,link,bundle,allHistory}:{indicator:Indicator;l
   </CardContent></Card>;
 }
 
+function AnnexIndicatorCard({indicator,reason}:{indicator:AnnexIndicator;reason:string}) {
+  return <Card component="article" aria-label={`${indicator.code} · Propuesta sin validar`}><CardContent>
+    <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
+      <Chip label="Propuesto · Sin validar" size="small" variant="outlined"/>
+      <Chip label={roles[indicator.role]} size="small" variant="outlined"/>
+      <Chip label={types[indicator.indicator_type]||'Tipo pendiente de revisión'} size="small" variant="outlined"/>
+    </Stack>
+    <Typography variant="overline" color="text.secondary" sx={{display:'block',mt:1.5}}>{indicator.code}</Typography>
+    <Typography variant="h6" color="primary.main">{indicator.name}</Typography>
+    <Typography variant="body2" color="text.secondary" sx={{mt:1}}>{indicator.description}</Typography>
+    <Typography variant="body2" sx={{mt:1}}>Justificación general propuesta para esta recomendación: {reason}</Typography>
+    <Box sx={{mt:2,p:2,bgcolor:'background.default'}}>
+      <Typography variant="body2">Sin mediciones publicadas para esta asignación.</Typography>
+      <Typography variant="body2" color="text.secondary" sx={{mt:1}}>La evolución se mostrará cuando la asignación esté revisada y existan observaciones publicadas.</Typography>
+    </Box>
+    <Box component="details" sx={{mt:2,'& summary':{cursor:'pointer',color:'primary.main',fontSize:'.9rem',py:1}}}>
+      <summary>Ver definición propuesta y fuentes</summary>
+      <Typography variant="body2" sx={{mt:1}}>Unidades propuestas: {indicator.unit} · Frecuencia propuesta: {indicator.frequency.split('/').map(f=>frequencies[f]||f).join(' / ')}.</Typography>
+      {indicator.unit.includes(' / ') && <Typography variant="body2" color="text.secondary" sx={{mt:1}}>Cada unidad requiere un componente de medición separado; la definición está pendiente de revisión.</Typography>}
+      <Typography variant="body2" sx={{mt:1}}>Fuente preferente candidata (no respalda una medición): {indicator.preferred_sources}</Typography>
+      <Typography variant="body2" color="text.secondary" sx={{mt:1}}>Desagregaciones propuestas: {indicator.recommended_disaggregation}</Typography>
+      <Typography variant="body2" color="text.secondary" sx={{mt:1}}>Sin baseline ni meta cuantitativa documentadas.</Typography>
+    </Box>
+  </CardContent></Card>;
+}
+
 export function IndicatorSkeleton() { return <Box sx={{minHeight:300}}><Skeleton animation={false} width="60%" height={50}/><Skeleton animation={false} variant="rectangular" height={220}/></Box>; }
 export function IndicatorSection({publicId,initial,initialError=false}:{publicId:string;initial:IndicatorBundle|null;initialError?:boolean}) {
   const [bundle,setBundle]=useState(initial),[error,setError]=useState(initialError),[loading,setLoading]=useState(false),[all,setAll]=useState(false),[expanded,setExpanded]=useState(false);
+  const [expandedProposals,setExpandedProposals]=useState(false);
   const selectorId=useId();
   async function reload(history:boolean) {
     setAll(history);setLoading(true);setError(false);
     try { const response=await fetch(`/api/commitments/${encodeURIComponent(publicId)}/indicators?history=${history?'all':'recent'}`);if(!response.ok) throw new Error();setBundle(await response.json());setAll(history); } catch {setError(true);} finally {setLoading(false);}
   }
   const visible=expanded ? bundle?.links : bundle?.links.slice(0,4);
+  const proposals=bundle?.annex?.indicators||[];
+  const visibleProposals=expandedProposals?proposals:proposals.slice(0,4);
+  const annexNotRequired=bundle?.requirement==='pending_review'&&bundle.annex?.requirement==='not_required';
+  const counts=bundle ? proposals.length ? `${bundle.links.length?` · ${bundle.links.length} publicado${bundle.links.length===1?'':'s'}`:''} · ${proposals.length} propuesto${proposals.length===1?'':'s'}` : ` · ${bundle.links.length}` : '';
   return <Box component="section" aria-labelledby="indicators-heading" sx={{pt:4,borderTop:'1px solid',borderColor:'divider'}}>
     <Stack direction={{xs:'column',sm:'row'}} spacing={2} justifyContent="space-between" alignItems={{sm:'center'}}>
-      <Typography id="indicators-heading" variant="h4" color="primary.main">Indicadores y evolución{bundle ? ` · ${bundle.links.length}` : ''}</Typography>
-      <FormControl size="small" sx={{minWidth:170}}><InputLabel htmlFor={selectorId}>Histórico</InputLabel><NativeSelect id={selectorId} value={all?'all':'recent'} disabled={loading} onChange={event=>void reload(event.target.value==='all')}><option value="recent">Últimos 5 años</option><option value="all">Todo el histórico</option></NativeSelect></FormControl>
+      <Typography id="indicators-heading" variant="h4" color="primary.main">Indicadores y evolución{counts}</Typography>
+      {!!bundle?.links.length && <FormControl size="small" sx={{minWidth:170}}><InputLabel htmlFor={selectorId}>Histórico</InputLabel><NativeSelect id={selectorId} value={all?'all':'recent'} disabled={loading} onChange={event=>void reload(event.target.value==='all')}><option value="recent">Últimos 5 años</option><option value="all">Todo el histórico</option></NativeSelect></FormControl>}
     </Stack>
     <Typography variant="body2" color="text.secondary" sx={{mt:1.5,mb:2,lineHeight:1.75}}>Los indicadores aportan evidencia para la evaluación. Alcanzar una meta no determina por sí solo el cumplimiento de la recomendación.</Typography>
     {error ? <Alert severity="warning" action={<Button onClick={()=>void reload(all)}>Reintentar</Button>}>No se pudieron cargar los indicadores. La consulta fallida no indica ausencia de mediciones.</Alert> : loading ? <IndicatorSkeleton/> : bundle && <>
       {bundle.has_older&&!all&&<Alert severity="info" sx={{mb:2}}>Hay datos anteriores a la ventana de cinco años calendario. <Button onClick={()=>void reload(true)}>Todo el histórico</Button></Alert>}
-      {!bundle.links.length && <Box sx={{py:3}}><Typography variant="body2" color="text.secondary">{bundle.requirement==='not_required'?'Esta recomendación se verifica mediante acciones y evidencia documental':bundle.requirement==='pending_review'?'La necesidad de indicadores está pendiente de revisión':'Indicadores pendientes de definición o revisión'}</Typography>{bundle.reason && <Typography variant="body2" color="text.secondary" sx={{mt:1}}>{bundle.reason}</Typography>}{bundle.requirement==='not_required'&&<Button component="a" href="#evidencias">Ver evidencias</Button>}</Box>}
+      {!bundle.links.length&&!proposals.length && <Box sx={{py:3}}><Typography variant="body2" color="text.secondary">{bundle.requirement==='not_required'?'Esta recomendación se verifica mediante acciones y evidencia documental':annexNotRequired?'El anexo no propone indicadores para esta recomendación; propone verificarla mediante acciones y evidencia documental. Esta decisión está pendiente de revisión.':bundle.annex?'Sin indicadores publicados ni propuestas activas para esta recomendación.':bundle.requirement==='pending_review'?'La necesidad de indicadores está pendiente de revisión':'Indicadores pendientes de definición o revisión'}</Typography>{(bundle.reason||annexNotRequired&&bundle.annex?.reason) && <Typography variant="body2" color="text.secondary" sx={{mt:1}}>{bundle.reason||bundle.annex?.reason}</Typography>}{(bundle.requirement==='not_required'||annexNotRequired)&&<Button component="a" href="#evidencias">Ver evidencias</Button>}</Box>}
       <Box sx={{display:'grid',gridTemplateColumns:{xs:'1fr',md:(visible?.length||0)>1?'repeat(2,minmax(0,1fr))':'1fr'},gap:2}}>{visible?.map(link=>{const indicator=bundle.indicators.find(i=>i.id===link.indicator_id);return indicator?<IndicatorCard key={link.id} indicator={indicator} link={link} bundle={bundle} allHistory={all}/>:null;})}</Box>
       {bundle.links.length>4 && <Button onClick={()=>setExpanded(!expanded)} sx={{mt:2}}>{expanded?'Mostrar menos':`Ver los ${bundle.links.length-4} indicadores restantes`}</Button>}
+      {!!proposals.length && <Box sx={{mt:bundle.links.length?3:0}}>
+        <Alert severity="info" sx={{mb:2}}>Estas asignaciones proceden del anexo metodológico y todavía no están validadas. No son evidencia de cumplimiento.{bundle.requirement==='pending_review' && ` El anexo propone que los indicadores sean ${bundle.annex?.requirement==='required'?'necesarios':'recomendados'} para esta recomendación.`}</Alert>
+        <Box sx={{display:'grid',gridTemplateColumns:{xs:'1fr',md:visibleProposals.length>1?'repeat(2,minmax(0,1fr))':'1fr'},gap:2}}>{visibleProposals.map(indicator=><AnnexIndicatorCard key={indicator.code} indicator={indicator} reason={bundle.annex!.reason}/>)}</Box>
+        {proposals.length>4&&<Button onClick={()=>setExpandedProposals(!expandedProposals)} sx={{mt:2}}>{expandedProposals?'Mostrar menos propuestas':`Ver ${proposals.length-4} propuesta${proposals.length===5?'':'s'} restante${proposals.length===5?'':'s'}`}</Button>}
+        <Typography variant="caption" color="text.secondary" sx={{display:'block',mt:2,overflowWrap:'anywhere'}}>Propuesta metodológica: {bundle.annex!.origin} · versión {bundle.annex!.version}.</Typography>
+      </Box>}
     </>}
   </Box>;
 }

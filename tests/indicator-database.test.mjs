@@ -37,7 +37,7 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
       select 'TEST-50.10',co.id,m.id,s.id,'50.10','published' from countries co,mechanisms m,sources s where co.iso2='ES' and s.document_reference='A/HRC/60/8';
     insert into indicators(commitment_id,name,description,target_value) values('${id}','Legacy fixture','Pending legacy review','100');
   `);
-  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql']) await db.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
+  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql','20261004105020_public_indicator_proposals.sql']) await db.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
   await db.exec('set role service_role');
   const rpc=async(write)=> (await q('select hrct_import_indicators($1::jsonb,$2) as result',[JSON.stringify(seed),write])).rows[0].result;
   assert.equal((await rpc(false)).validated,true);
@@ -55,6 +55,12 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
   const publicBundle=async(publicId='FIXTURE-ES-UPR4-50.10',all=false)=>(await q('select hrct_public_indicators($1,$2) as result',[publicId,all])).rows[0].result;
   assert.equal((await publicBundle()).links.length,0);
   assert.equal((await publicBundle()).requirement,'required');
+  assert.deepEqual((await publicBundle()).annex.indicators.map(i=>i.code),['INST-001']);
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex.indicators[0].code,'MIG-010');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.1')).annex.requirement,'not_required');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.1')).annex.indicators.length,0);
+  assert.equal((await publicBundle('TEST-50.10')).annex,null);
+  assert.equal((await publicBundle('NONEXISTENT')).annex,null);
   await assert.rejects(q('select import_metadata from indicators'),/permission denied/);
   await assert.rejects(q('select * from indicator_audit'),/permission denied/);
   await assert.rejects(q("select nextval('indicator_audit_id_seq')"),/permission denied/);
@@ -64,6 +70,31 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
   assert.equal((await publicBundle()).links.length,0);
   await assert.rejects(q('insert into indicator_components(indicator_id,code,label,unit,value_type,definition) values(gen_random_uuid(),\'TEST\',\'TEST\',\'%\',\'numeric\',\'TEST\')'),/permission denied/);
   await assert.rejects(q('select reviewed_by from recommendation_indicators'),/permission denied/);
+  await db.exec('reset role;set role service_role');
+  // Public preview is the original annex, never a private draft's current fields.
+  await q("update indicators set name='PRIVATE draft',description='SECRET notes' where code='MIG-010'");
+  await q("update recommendation_indicator_requirements set reason='PRIVATE rationale' where commitment_id=(select id from commitments where public_id='FIXTURE-ES-UPR4-50.62')");
+  await q("update recommendation_indicators set rationale='PRIVATE link rationale' where indicator_id=(select id from indicators where code='MIG-010')");
+  await db.exec('reset role;set role anon');
+  const preview=await publicBundle('FIXTURE-ES-UPR4-50.62');
+  assert.doesNotMatch(JSON.stringify(preview),/PRIVATE|SECRET|import_metadata|reviewed_by|baseline_rule|target_rule/);
+  assert.equal(preview.links.length,0);assert.equal(preview.values.length,0);
+  assert.equal(preview.annex.indicators[0].name,seed.indicators.find(i=>i.indicator_code==='MIG-010').indicator_name);
+  await db.exec('reset role;set role service_role');
+  await q("update commitments set publication_status='draft' where public_id='FIXTURE-ES-UPR4-50.62'");
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex,null);
+  await db.exec('reset role;set role service_role');
+  await q("update commitments set publication_status='published' where public_id='FIXTURE-ES-UPR4-50.62'");
+  await q("update indicators set active=false where code='MIG-010'");
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex.indicators.length,0);
+  await db.exec('reset role;set role service_role');
+  await q("update indicators set active=true where code='MIG-010'");
+  // A published decision that indicators are not needed overrides the annex.
+  await q("update recommendation_indicator_requirements set indicator_requirement='not_required',editorial_status='published',reviewed_by='Reviewer',reviewed_at=now() where commitment_id=(select id from commitments where public_id='FIXTURE-ES-UPR4-50.62')");
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex,null);
   await db.exec('reset role;set role service_role');
   assert.equal((await q("select hrct_import_indicators('{}',true) as result")).rows[0].result.written,false);
   indicator=(await q("select id from indicators where code='INST-001'")).rows[0].id;
@@ -87,6 +118,7 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
   await q('select hrct_publish_indicator_value($1,$2,$3)',[old,'Reviewer','Old fixture']);await q('select hrct_publish_indicator_value($1,$2,$3)',[foreign,'Reviewer','Foreign fixture']);
   await db.exec('reset role;set role anon');
   let bundle=await publicBundle();assert.equal(bundle.values.length,1);assert.equal(bundle.values[0].numeric_value,0);assert.equal(bundle.has_older,true);
+  assert.equal(bundle.annex.indicators.length,0); // Reviewed assignments are not duplicated as proposals.
   assert.equal((await publicBundle(undefined,true)).values.length,2);
   assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.11')).values[0].id,value);
   assert.equal((await publicBundle('TEST-50.10')).values.length,0);
@@ -106,6 +138,9 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
   assert.ok((await q('select count(*)::int n from indicator_audit')).rows[0].n>500);
   await q("update recommendation_indicators set editorial_status='archived' where commitment_id=$1",[id]);await rpc(true);
   assert.equal((await q("select count(*)::int n from recommendation_indicators where commitment_id=$1 and editorial_status='published'",[id])).rows[0].n,0);
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle()).annex.indicators.length,0); // Archive stays effective after reimport.
+  await db.exec('reset role;set role service_role');
   // Missing recommendation aborts BEFORE writes.
   const broken=structuredClone(seed);broken.recommendations[0].recommendation_number='50.999';
   const report=(await q('select hrct_import_indicators($1,true) as result',[JSON.stringify(broken)])).rows[0].result;assert.equal(report.written,false);assert.ok(report.errors.length);

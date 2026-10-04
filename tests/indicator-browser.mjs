@@ -17,6 +17,7 @@ const api=createServer(async(req,res)=>{
     const args=JSON.parse(body),id=args.p_public_id,b=previewBundle();
     if(id==='FIXTURE-NOT-REQUIRED')result={...b,requirement:'not_required',links:[],values:[],latest:[]};
     else if(id==='FIXTURE-PENDING')result={...b,requirement:'pending_review',links:[],values:[],latest:[]};
+    else if(id.startsWith('FIXTURE-PROPOSAL'))result={...b,requirement:'pending_review',links:[],indicators:[],components:[],values:[],latest:[],baselines:[],has_older:false,annex:{origin:'TEST-synthetic-annex.xlsx',version:'TEST-v1',requirement:id==='FIXTURE-PROPOSAL-NONE'?'not_required':'required',reason:'Justificación sintética del anexo, nunca producción.',indicators:id==='FIXTURE-PROPOSAL-NONE'?[]:Array.from({length:id==='FIXTURE-PROPOSAL-MANY'?5:1},(_,i)=>({code:`TEST-PROP-${i}`,name:`Propuesta sintética ${i}`,description:'Definición sintética propuesta.',indicator_type:'process',role:'primary',unit:'EUR / FTE',frequency:'annual',preferred_sources:'Fuente candidata TEST',recommended_disaggregation:'Población sintética'}))}};
     else if(id==='FIXTURE-NODATA')result={...b,values:[],latest:[],has_older:false};
     else if(id==='FIXTURE-MANY'){result=manyPreviewBundle();if(!args.p_all_history)result.values=result.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);}
     else if(id==='FIXTURE-UNDEFINED')result={...b,requirement:'required',links:[],values:[],latest:[],has_older:false};
@@ -74,6 +75,21 @@ try {
   }
   const many=await scenario('FIXTURE-MANY');await many.section.getByRole('button',{name:'Ver los 1 indicadores restantes'}).click();await many.section.getByText('Indicador sintético 4',{exact:true}).waitFor();assert.equal(await many.section.locator('figure svg').count(),5);await many.view.close();
   const boolean=await scenario('FIXTURE-BOOLEAN');await boolean.section.getByText(/Dato no disponible: Desconocido/).first().waitFor();assert.equal(await boolean.section.locator('figure svg').count(),0);await boolean.view.close();
+  const proposal=await scenario('FIXTURE-PROPOSAL');
+  await proposal.section.getByText('Propuesta sintética 0',{exact:true}).waitFor();
+  assert.equal(await proposal.section.getByText('Propuesto · Sin validar',{exact:true}).count(),1);
+  assert.match(await proposal.section.textContent(),/1 propuesto/);
+  assert.doesNotMatch(await proposal.section.textContent(),/La necesidad de indicadores está pendiente|Revisado por Blue Human/);
+  assert.equal(await proposal.section.locator('figure svg').count(),0);
+  assert.equal(await proposal.section.getByLabel('Histórico',{exact:true}).count(),0);
+  await proposal.section.getByText('Ver definición propuesta y fuentes',{exact:true}).click();
+  await proposal.section.getByText(/Cada unidad requiere un componente/).waitFor();
+  assert.equal(await proposal.view.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await proposal.section.scrollIntoViewIfNeeded();await proposal.view.screenshot({path:'/tmp/hrct-indicator-proposals-mobile.png'});
+  await proposal.view.setViewportSize({width:1280,height:900});await proposal.view.screenshot({path:'/tmp/hrct-indicator-proposals-desktop.png'});
+  await proposal.view.close();
+  const noProposal=await scenario('FIXTURE-PROPOSAL-NONE');await noProposal.section.getByText(/El anexo no propone indicadores/).waitFor();await noProposal.section.getByRole('link',{name:'Ver evidencias'}).waitFor();await noProposal.view.close();
+  const manyProposals=await scenario('FIXTURE-PROPOSAL-MANY');await manyProposals.section.getByRole('button',{name:'Ver 1 propuesta restante'}).click();await manyProposals.section.getByText('Propuesta sintética 4',{exact:true}).waitFor();assert.equal(await manyProposals.section.getByRole('article').count(),5);await manyProposals.view.close();
   const admin=await browser.newPage();await admin.goto(`${base}/admin/indicators`,{waitUntil:'commit'});await admin.waitForURL('**/admin/login');assert.match(admin.url(),/\/admin\/login$/);await admin.close();
   assert.deepEqual(pageErrors,[]);
   console.log('Chromium: desktop/mobile, keyboard points, data table, scopes, history, empty states, errors and protected admin verified.');

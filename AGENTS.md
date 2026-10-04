@@ -4,4 +4,4 @@ Work directly on `main`, as requested by the repository owner. Do not create bra
 
 Preserve unrelated local changes. Run the checks appropriate to each change before pushing to `main`, and verify the production deployment when updating the public UI.
 
-Follow the existing HRCT architecture and design. Preserve official recommendation text, assessment history, editorial review and the separation between public data and research drafts. Never publish proposed indicators or invent measurements to populate charts.
+Follow the existing HRCT architecture and design. Preserve official recommendation text, assessment history, editorial review and the separation between public data and research drafts. Never mark proposed indicators as editorially published or invent measurements to populate charts. The original methodological annex may be shown publicly as an explicitly unvalidated proposal, using only the whitelisted snapshot fields; private draft edits and review metadata remain private.
