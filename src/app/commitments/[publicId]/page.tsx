@@ -59,6 +59,9 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
         <Divider />
 
         <Container maxWidth="lg" sx={{ py: { xs: 5, md: 6 } }}>
+          <Box sx={{ mb: { xs: 5, md: 6 } }}>
+            <Suspense fallback={<IndicatorSkeleton />}><RecommendationIndicators publicId={decoded} /></Suspense>
+          </Box>
           <Stack direction={{ xs: "column", lg: "row" }} spacing={{ xs: 4, lg: 7 }} alignItems="flex-start">
             <Stack spacing={5} sx={{ flex: 1, minWidth: 0 }}>
               <Box component="section">
@@ -79,8 +82,6 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                   <Meta label="Metodología" value={`HRCT v${commitment.methodology_version || "1.0"}`} />
                 </Stack>
               </Box>
-
-              <Suspense fallback={<IndicatorSkeleton />}><RecommendationIndicators publicId={decoded} /></Suspense>
 
               <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
                 <Typography variant="overline" color="text.secondary">Enfoque de seguridad humana</Typography>

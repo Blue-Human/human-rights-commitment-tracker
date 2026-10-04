@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { change,comparable,connects,isStale,scopeKey,seriesId,tableRows,target,valueLabel } from '../src/lib/indicators/series.ts';
+import { change,comparable,connects,interpretation,isStale,scopeKey,seriesId,tableRows,target,valueLabel } from '../src/lib/indicators/series.ts';
 import { normalizeSeed } from '../scripts/import-indicators.mjs';
 // Synthetic data for calculations only. No production seed contains observations.
 const component={id:'component',indicator_id:'indicator',frequency:'annual',unit:'%',value_type:'numeric',visualization:'line'};
@@ -27,6 +27,15 @@ test('percentage points, relative change and initial zero',()=>{
   assert.equal(change([point(2023,10),point(2024,12)],component).percentage,true);
   assert.equal(change([point(2023,0),point(2024,12)],{...component,unit:'nº'}).relative,null);
   assert.equal(change([point(2024,12)],component),null);
+});
+test('visible interpretations use comparable values, units and statistical scope',()=>{
+  const indicator={code:'POV-001'};
+  assert.match(interpretation([point(2023,12),point(2024,10)],component,indicator),/baja 2 puntos porcentuales.*reducción en riesgo de pobreza/);
+  assert.doesNotMatch(interpretation([point(2022,12),point(2024,10)],component,indicator),/baja|sube|reducción/);
+  assert.match(interpretation([point(2023,0),point(2024,0)],component,indicator),/se mantiene/);
+  assert.match(interpretation([point(2023,10),point(2024,12)],component,{code:'RAC-001'}),/mayor denuncia o detección/);
+  assert.match(interpretation([point(2020,290000,{unit:'nº'})],{...component,unit:'nº'},{code:'HOU-001'}),/aproximadamente 290.000 viviendas.*no permite/);
+  assert.match(interpretation([point(2023,8847,{unit:'nº'}),point(2024,14371,{unit:'nº'})],{...component,unit:'nº'},{code:'HOU-005'}),/8847 en 2023 a 14.371 en 2024 \(\+5524 viviendas\).*no equivale a nuevas viviendas públicas/);
 });
 test('gaps and incompatible methodology never connect or produce a change',()=>{
   assert.equal(connects(point(2022,10),point(2024,12),'annual'),false);

@@ -6,6 +6,21 @@ import { tmpdir } from 'node:os';
 import { join,resolve } from 'node:path';
 import { chromium } from 'playwright';
 import { previewBundle,manyPreviewBundle } from './indicator-preview-fixtures.mjs';
+import { loadHistory } from '../scripts/historical-indicators.mjs';
+
+// Published source values, isolated identities and mocked API; never writes production.
+const housing=await loadHistory(new URL('../data/indicators/history-housing-2026-10-04/',import.meta.url));
+function housingBundle(allHistory) {
+  const b=previewBundle(),base=b.values[0];
+  b.indicators=housing.manifest.components.map(c=>({...b.indicators[0],id:c.indicator_code,code:c.indicator_code,name:c.indicator_code==='HOU-001'?'Parque de vivienda social/pública':'Producción/entrega de vivienda asequible'}));
+  b.links=b.indicators.map((i,n)=>({...b.links[0],id:`test-housing-link-${n}`,indicator_id:i.id,role:n===0?'primary':'supporting'}));
+  b.components=housing.manifest.components.map(c=>({...b.components[0],...c,id:`${c.indicator_code}-${c.component_code}`,code:c.component_code,indicator_id:c.indicator_code}));
+  b.components.push({...b.components[0],id:'test-stock-percentage',code:'component-1',unit:'% stock',label:'Parque público · porcentaje del parque residencial'});
+  b.values=housing.values.map((v,n)=>({...base,...v,id:`test-housing-point-${n}`,indicator_id:v.indicator_code,component_id:`${v.indicator_code}-${v.component_code}`}));
+  b.latest=b.components.flatMap(c=>b.values.filter(v=>v.component_id===c.id).slice(-1));
+  if(!allHistory)b.values=b.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);
+  return b;
+}
 
 // A copied application, mock public API and fresh build cache. No .env or production keys.
 const project=resolve('.'),sandbox=await mkdtemp(join(tmpdir(),'hrct-browser-'));
@@ -23,6 +38,7 @@ const api=createServer(async(req,res)=>{
     if(id==='FIXTURE-NOT-REQUIRED')result={...b,requirement:'not_required',links:[],values:[],latest:[]};
     else if(id==='FIXTURE-PENDING')result={...b,requirement:'pending_review',links:[],values:[],latest:[]};
     else if(id.startsWith('FIXTURE-PROPOSAL'))result={...b,requirement:'pending_review',links:[],indicators:[],components:[],values:[],latest:[],baselines:[],has_older:false,annex:{origin:'TEST-synthetic-annex.xlsx',version:'TEST-v1',requirement:id==='FIXTURE-PROPOSAL-NONE'?'not_required':'required',reason:'Justificación sintética del anexo, nunca producción.',indicators:id==='FIXTURE-PROPOSAL-NONE'?[]:Array.from({length:id==='FIXTURE-PROPOSAL-MANY'?5:1},(_,i)=>({code:`TEST-PROP-${i}`,name:`Propuesta sintética ${i}`,description:'Definición sintética propuesta.',indicator_type:'process',role:'primary',unit:'EUR / FTE',frequency:'annual',preferred_sources:'Fuente candidata TEST',recommended_disaggregation:'Población sintética'}))}};
+    else if(id==='FIXTURE-HOUSING')result=housingBundle(args.p_all_history);
     else if(id==='FIXTURE-NODATA')result={...b,values:[],latest:[],has_older:false};
     else if(id==='FIXTURE-MANY'){result=manyPreviewBundle();if(!args.p_all_history)result.values=result.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);}
     else if(id==='FIXTURE-UNDEFINED')result={...b,requirement:'required',links:[],values:[],latest:[],has_older:false};
@@ -49,6 +65,13 @@ try {
   await page.goto(`${base}/commitments/FIXTURE-MULTI`);
   const section=page.locator('section[aria-labelledby="indicators-heading"]');
   await section.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
+  await section.getByText('Lectura de los datos',{exact:true}).waitFor();
+  assert.equal(await section.getByText('Lectura de los datos',{exact:true}).isVisible(),true);
+  assert.equal(await page.evaluate(()=>{
+    const indicators=document.querySelector('section[aria-labelledby="indicators-heading"]');
+    const assessment=[...document.querySelectorAll('h4')].find(h=>h.textContent==='Valoración del cumplimiento');
+    return !!(indicators.compareDocumentPosition(assessment)&Node.DOCUMENT_POSITION_FOLLOWING);
+  }),true);
   assert.equal(await section.locator('svg circle').count(),3);
   const circle=section.locator('svg circle').first();await circle.focus();
   await section.locator('figcaption').filter({hasText:'Fuente sintética aislada'}).waitFor();
@@ -79,6 +102,19 @@ try {
     await view.close();
   }
   const many=await scenario('FIXTURE-MANY');await many.section.getByRole('button',{name:'Ver los 1 indicadores restantes'}).click();await many.section.getByText('Indicador sintético 4',{exact:true}).waitFor();assert.equal(await many.section.locator('figure svg').count(),5);await many.view.close();
+  const housingView=await scenario('FIXTURE-HOUSING');
+  await housingView.section.getByText('Parque de vivienda social/pública',{exact:true}).waitFor();
+  assert.equal(await housingView.section.getByLabel('Histórico',{exact:true}).inputValue(),'all');
+  assert.equal(await housingView.section.locator('figure svg').count(),2);
+  assert.equal(await housingView.section.locator('figure svg circle').count(),11);
+  assert.equal(await housingView.section.getByText('Lectura de los datos',{exact:true}).count(),2);
+  assert.match(await housingView.section.innerText(),/290.000 viviendas/);
+  assert.match(await housingView.section.innerText(),/no equivale a nuevas viviendas públicas/);
+  assert.doesNotMatch(await housingView.section.innerText(),/Sin mediciones publicadas\./);
+  assert.equal(await housingView.view.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await housingView.section.scrollIntoViewIfNeeded();await housingView.view.screenshot({path:'/tmp/hrct-housing-preview-mobile.png'});
+  await housingView.view.setViewportSize({width:1280,height:900});await housingView.section.scrollIntoViewIfNeeded();await housingView.view.screenshot({path:'/tmp/hrct-housing-preview-desktop.png'});
+  await housingView.view.close();
   const boolean=await scenario('FIXTURE-BOOLEAN');await boolean.section.getByText(/Dato no disponible: Desconocido/).first().waitFor();assert.equal(await boolean.section.locator('figure svg').count(),0);await boolean.view.close();
   const approved=await scenario('FIXTURE-NODATA');
   await approved.section.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
@@ -104,9 +140,9 @@ try {
   await overview.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
   assert.equal(await overview.locator('figure svg circle').count(),4);
   assert.equal(await overview.getByRole('link',{name:/Ver recomendación/}).count(),1);
-  await overview.goto(base);await overview.getByRole('heading',{name:'España en datos'}).waitFor();
-  await overview.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
-  assert.equal(await overview.locator('figure svg circle').count(),3);
+  await overview.goto(base);await overview.getByRole('heading',{name:'Seguimiento de los compromisos de derechos humanos'}).waitFor();
+  assert.equal(await overview.getByRole('heading',{name:'España en datos'}).count(),0);
+  assert.equal(await overview.locator('figure svg circle').count(),0);
   await overview.close();
   const admin=await browser.newPage();await admin.goto(`${base}/admin/indicators`,{waitUntil:'commit'});await admin.waitForURL('**/admin/login');assert.match(admin.url(),/\/admin\/login$/);await admin.close();
   assert.deepEqual(pageErrors,[]);

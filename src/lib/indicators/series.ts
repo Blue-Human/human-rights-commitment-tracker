@@ -1,4 +1,4 @@
-import type { Component, IndicatorLink, Observation, Scope } from './types';
+import type { Component, Indicator, IndicatorLink, Observation, Scope } from './types';
 export const number = (value: number) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 3 }).format(value);
 export const scopeKey = (scope: Scope) => JSON.stringify(Object.entries(scope).sort(([a], [b]) => a.localeCompare(b)));
 export const scopeLabel = (scope: Scope) => Object.entries(scope).sort(([a], [b]) => a.localeCompare(b)).map(([key, value]) => `${({ territory: 'Territorio', population: 'Población', age: 'Edad', sex: 'Sexo', comparison: 'Comparación', institution: 'Institución', reason: 'Motivo', coverage: 'Cobertura', sector: 'Sector' } as Record<string,string>)[key] || key}: ${({ national: 'Nacional', all: 'Toda la población', women: 'Mujeres', men: 'Hombres', children: 'Infancia', youth: 'Jóvenes' } as Record<string,string>)[value] || value}`).join(' · ');
@@ -37,6 +37,35 @@ export function change(values: Observation[], component: Component) {
   if (first === last || first.numeric_value === null) return null;
   const absolute = last.numeric_value-first.numeric_value;
   return { first,last,absolute,relative:first.numeric_value === 0 ? null : absolute/Math.abs(first.numeric_value)*100, percentage: component.unit.startsWith('%') };
+}
+// Interpret only the comparable segment on screen; never infer compliance or fill gaps.
+export function interpretation(values: Observation[], component: Component, indicator: Indicator): string {
+  const numeric=values.filter(value=>value.numeric_value!==null),latest=orderPoints(numeric).at(-1);
+  if(!latest)return 'No hay valores numéricos disponibles para interpretar esta serie.';
+  if(indicator.code==='HOU-001' && component.unit==='nº' && numeric.length===1)return `La estimación publicada en ${periodLabel(latest,component.frequency)} sitúa el parque social de titularidad pública en aproximadamente ${number(latest.numeric_value!)} viviendas. Una sola observación no permite conocer su evolución posterior.`;
+  const delta=change(values,component);
+  let trend=delta
+    ? `Entre ${periodLabel(delta.first,component.frequency)} y ${periodLabel(delta.last,component.frequency)}, ${delta.absolute===0?'el valor se mantiene':`el valor ${delta.absolute>0?'sube':'baja'} ${number(Math.abs(delta.absolute))} ${delta.percentage?'puntos porcentuales':component.unit}`} (${number(delta.first.numeric_value!)} → ${number(delta.last.numeric_value!)} ${component.unit}).`
+    : numeric.length===1 ? `Dato de ${periodLabel(latest,component.frequency)}: ${valueLabel(latest)}. Una observación no permite calcular una tendencia.`
+    : 'Los puntos disponibles no forman un tramo consecutivo comparable; no se calcula una tendencia.';
+  if(indicator.code==='HOU-005') {
+    if(delta)trend=`Las viviendas protegidas terminadas pasan de ${number(delta.first.numeric_value!)} en ${periodLabel(delta.first,component.frequency)} a ${number(delta.last.numeric_value!)} en ${periodLabel(delta.last,component.frequency)} (${delta.absolute===0?'sin variación':`${delta.absolute>0?'+':'−'}${number(Math.abs(delta.absolute))} viviendas`}).`;
+    return `${trend} Incluye venta y alquiler; no equivale a nuevas viviendas públicas de alquiler.`;
+  }
+  if(/^(RAC-001|GBV-|DIG-00[12])/.test(indicator.code||''))return `${trend} Más registros pueden reflejar mayor denuncia o detección; no prueban por sí solos mayor incidencia.`;
+  if(!delta || delta.absolute===0)return trend;
+  const meanings:Record<string,string>={
+    'EDU-001':'abandono educativo temprano', 'EDU-002':'brecha de abandono educativo por país de nacimiento',
+    'LAB-001':'desempleo juvenil', 'LAB-002':component.code==='component-1'?'brecha de empleo entre hombres y mujeres':'brecha salarial sin ajustar',
+    'POV-001':'riesgo de pobreza o exclusión social', 'POV-002':'riesgo de pobreza o exclusión social infantil',
+    'INEQ-001':'desigualdad de renta', 'HEA-001':'necesidades médicas no atendidas', 'CLIM-001':'emisiones de gases de efecto invernadero',
+    'DEV-001':'ayuda oficial al desarrollo respecto a la renta nacional', 'GEN-001':'representación de mujeres',
+    'DIS-001':'brecha de empleo por discapacidad', 'DIG-003':'competencias digitales básicas',
+    'RAC-005':'percepción de discriminación', 'INST-001':'recursos presupuestarios reconocidos al Defensor del Pueblo',
+  };
+  const meaning=meanings[indicator.code||''];
+  if(meaning)trend+=` El tramo muestra ${delta.absolute>0?'un aumento':'una reducción'} en ${meaning}.`;
+  return trend;
 }
 export function target(link: IndicatorLink, baseline: Observation | undefined, latest: Observation | undefined) {
   if (link.target_value === null) return null;

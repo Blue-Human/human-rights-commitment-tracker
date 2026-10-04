@@ -66,6 +66,18 @@ test('official history import is atomic, idempotent and publicly scoped',async()
     assert.doesNotMatch(JSON.stringify(overview),/authored_by|reviewed_by|import_metadata|TEST-50/);
     const data=(await database.query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.10',true) result")).rows[0].result;
     assert.equal(data.values.length,5);assert.equal(data.latest[0].numeric_value,21082664.49);
+    await database.exec('reset role;set role service_role');
+    const housing=await loadHistory(new URL('../data/indicators/history-housing-2026-10-04/',import.meta.url));
+    await database.exec(historySql(housing));await database.exec(historySql(housing));
+    assert.equal(await count(),250);
+    await database.exec('reset role;set role anon');
+    const housingData=(await database.query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.132',true) result")).rows[0].result;
+    assert.equal(housingData.values.length,11);
+    assert.equal(housingData.latest.find(v=>v.period_start==='2020-01-01').numeric_value,290000);
+    assert.equal(housingData.latest.find(v=>v.period_start==='2024-01-01').numeric_value,14371);
+    const updated=(await database.query('select hrct_public_indicator_overview(true) result')).rows[0].result;
+    assert.equal(updated.indicator_count,18);assert.equal(updated.recommendation_count,91);
+    assert.doesNotMatch(JSON.stringify(housingData),/authored_by|reviewed_by|import_metadata/);
     await assert.rejects(database.query('delete from indicator_values'),/permission denied/);
   } finally {await database.close();}
 });

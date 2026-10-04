@@ -93,7 +93,8 @@ export function historySql({manifest,values}) {
 end $history$; commit;`;
 }
 if(import.meta.url===pathToFileURL(process.argv[1]||'').href) {
-  const history=await loadHistory();
+  const capture=process.argv.find(arg=>arg.startsWith('--capture='))?.slice('--capture='.length);
+  const history=await loadHistory(capture?new URL(`${capture.replace(/\/$/,'')}/`,pathToFileURL(`${process.cwd()}/`)):undefined);
   if(process.argv.includes('--sql'))process.stdout.write(historySql(history));
   else console.log(JSON.stringify({observations:history.values.length,indicators:new Set(history.values.map(v=>v.indicator_code)).size,series:history.manifest.series.length,first:history.values.map(v=>v.period_start).sort()[0],last:history.values.map(v=>v.period_end).sort().at(-1)},null,2));
 }

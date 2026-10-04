@@ -24,3 +24,14 @@ test('JSON-stat decoding refuses omitted dimensions and retains missing cells as
   assert.throws(()=>extractJsonStat(fixture,{geo:'ES'}),/dimension unit/);
   assert.throws(()=>extractJsonStat(fixture,{geo:'FR',unit:'PC'}),/dimension geo/);
 });
+test('housing capture distinguishes estimated public stock from annual protected completions',async()=>{
+  const {values}=await loadHistory(new URL('../data/indicators/history-housing-2026-10-04/',import.meta.url));
+  assert.equal(values.length,11);
+  const stock=values.filter(v=>v.indicator_code==='HOU-001'),flow=values.filter(v=>v.indicator_code==='HOU-005');
+  assert.equal(stock.length,1);assert.equal(stock[0].numeric_value,290000);
+  assert.equal(stock[0].period_start,'2020-01-01');assert.match(stock[0].quality_notes,/Estimación/);
+  assert.equal(flow.at(-1).numeric_value,14371);assert.equal(flow.at(-2).numeric_value,8847);
+  assert.match(flow[0].comparability_notes,/venta y alquiler/);
+  assert.ok(values.every(v=>v.unit==='nº' && !Object.hasOwn(v,'target_value')));
+  assert.equal(values.some(v=>v.unit==='% stock'),false);
+});

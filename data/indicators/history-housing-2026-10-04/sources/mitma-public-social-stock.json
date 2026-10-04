@@ -1,0 +1,15 @@
+{
+  "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/paginas/2020/281020-vivienda.aspx",
+  "title": "MITMA · Estudio sobre Vivienda Social en España (2020)",
+  "publication_date": "2020-10-28",
+  "table": "Sección Estudio sobre Vivienda Social; estimación publicada en octubre de 2020: aproximadamente 290.000 viviendas sociales de titularidad pública (180.000 autonómicas y 110.000 municipales). No es un censo a 31 de diciembre.",
+  "observations": [
+    {
+      "year": 2020,
+      "value": 290000,
+      "flags": "e"
+    }
+  ],
+  "retrieved_at": "2026-10-04T14:35:39.859Z",
+  "transcription": "Transcripción de datos estadísticos de una fuente oficial; contrastada con la tabla o sección citada."
+}
