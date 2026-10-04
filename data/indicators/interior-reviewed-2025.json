@@ -1,0 +1,11 @@
+{
+  "url": "https://www.interior.gob.es/opencms/export/sites/default/.galleries/galeria-de-prensa/documentos-y-multimedia/balances-e-informes/2025/Informe-sobre-la-evolucion-de-los-delitos-e-incidentes-de-odio-en-Espana-2025.pdf",
+  "publication_date": "2026-06-03",
+  "publication_source": "https://www.interior.gob.es/opencms/eu/detalle/articulo/Los-delitos-e-incidentes-de-odio-aumentaron-un-236-por-ciento-en-2025-y-registraron-la-mayor-cifra-de-la-serie-historica/",
+  "retrieved_at": "2026-10-04T11:43:00Z",
+  "extraction": "Transcripción manual de tablas del PDF oficial contrastada con texto y captura de la página 9. Tasa nacional contrastada con la tabla de la página 11. No se dispone de captura binaria del PDF; el servidor bloquea su descarga directa.",
+  "tables": [
+    {"component_code":"known-count","printed_page":9,"observations":[{"year":2023,"value":2268,"flags":""},{"year":2024,"value":1955,"flags":""},{"year":2025,"value":2417,"flags":""}]},
+    {"component_code":"default","printed_page":11,"observations":[{"year":2025,"value":4.92,"flags":""}]}
+  ]
+}

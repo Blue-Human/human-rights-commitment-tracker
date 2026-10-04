@@ -13,7 +13,12 @@ let next,browser;
 const api=createServer(async(req,res)=>{
   let body='';for await(const chunk of req)body+=chunk;
   const url=new URL(req.url,'http://127.0.0.1');let result=[];
-  if(url.pathname.includes('rpc/hrct_public_indicators')) {
+  if(url.pathname.includes('rpc/hrct_public_indicator_overview')) {
+    const b=previewBundle(),args=JSON.parse(body);
+    b.indicators=b.indicators.map(i=>({...i,code:'POV-001'}));
+    if(!args.p_all_history)b.values=b.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);
+    result={observation_count:5,indicator_count:1,recommendation_count:1,first_period:'2015-01-01',last_period:'2025-12-31',cards:[{indicator_id:b.indicators[0].id,public_id:'FIXTURE-DATA',bundle:b}]};
+  } else if(url.pathname.includes('rpc/hrct_public_indicators')) {
     const args=JSON.parse(body),id=args.p_public_id,b=previewBundle();
     if(id==='FIXTURE-NOT-REQUIRED')result={...b,requirement:'not_required',links:[],values:[],latest:[]};
     else if(id==='FIXTURE-PENDING')result={...b,requirement:'pending_review',links:[],values:[],latest:[]};
@@ -88,6 +93,21 @@ try {
   await approved.view.close();
   // Unpublished annex data is no longer rendered by the public UI.
   const draft=await scenario('FIXTURE-PROPOSAL');await draft.section.getByText('No hay indicadores publicados para esta recomendación.',{exact:true}).waitFor();assert.equal(await draft.section.getByText('Propuesta sintética 0',{exact:true}).count(),0);await draft.view.close();
+  const overview=await browser.newPage({viewport:{width:390,height:844}});
+  overview.on('pageerror',error=>pageErrors.push(error.message));
+  await overview.goto(`${base}/indicators`);await overview.getByRole('heading',{name:'Datos e históricos'}).waitFor();
+  await overview.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
+  assert.equal(await overview.locator('figure svg circle').count(),3);
+  assert.equal(await overview.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await overview.getByRole('link',{name:'Todo el histórico',exact:true}).click();
+  await overview.waitForURL('**/indicators?history=all');
+  await overview.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
+  assert.equal(await overview.locator('figure svg circle').count(),4);
+  assert.equal(await overview.getByRole('link',{name:/Ver recomendación/}).count(),1);
+  await overview.goto(base);await overview.getByRole('heading',{name:'España en datos'}).waitFor();
+  await overview.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
+  assert.equal(await overview.locator('figure svg circle').count(),3);
+  await overview.close();
   const admin=await browser.newPage();await admin.goto(`${base}/admin/indicators`,{waitUntil:'commit'});await admin.waitForURL('**/admin/login');assert.match(admin.url(),/\/admin\/login$/);await admin.close();
   assert.deepEqual(pageErrors,[]);
   console.log('Chromium: desktop/mobile, keyboard points, data table, scopes, history, empty states, errors and protected admin verified.');

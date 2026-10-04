@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { PGlite } from '@electric-sql/pglite';
 import { normalizeSeed } from '../scripts/import-indicators.mjs';
+import {loadHistory,historySql} from '../scripts/historical-indicators.mjs';
 
 // Isolated synthetic schema fixture reflecting inspected production column types. Never deployed.
 const db = new PGlite();
@@ -37,8 +38,37 @@ async function setup(database) {
       select 'TEST-50.10',co.id,m.id,s.id,'50.10','published' from countries co,mechanisms m,sources s where co.iso2='ES' and s.document_reference='A/HRC/60/8';
     insert into indicators(commitment_id,name,description,target_value) values('${id}','Legacy fixture','Pending legacy review','100');
   `);
-  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql','20261004105020_public_indicator_proposals.sql']) await database.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
+  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql','20261004105020_public_indicator_proposals.sql','20261004114405_public_indicator_overview.sql']) await database.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
 }
+test('official history import is atomic, idempotent and publicly scoped',async()=>{
+  const database=new PGlite();
+  try {
+    await setup(database);
+    await database.exec('set role service_role');
+    await database.query('select hrct_import_indicators($1::jsonb,true)',[JSON.stringify(seed)]);
+    await database.exec(await readFile(new URL('../scripts/approve-indicator-annex.sql',import.meta.url),'utf8'));
+    const history=await loadHistory(),sql=historySql(history);
+    await database.exec(sql);
+    const count=async()=>Number((await database.query('select count(*) n from indicator_values')).rows[0].n);
+    assert.equal(await count(),239);
+    const audit=Number((await database.query('select count(*) n from indicator_audit')).rows[0].n);
+    await database.exec(sql);
+    assert.equal(await count(),239);
+    assert.equal(Number((await database.query('select count(*) n from indicator_audit')).rows[0].n),audit);
+    const conflicting={...history,values:history.values.map((v,i)=>i===10?{...v,numeric_value:999}:v)};
+    await assert.rejects(database.exec(historySql(conflicting)),/Published observation conflict/);
+    await database.exec('rollback');
+    assert.equal(await count(),239);
+    await database.exec('reset role;set role anon');
+    const overview=(await database.query('select hrct_public_indicator_overview(true) result')).rows[0].result;
+    assert.equal(overview.observation_count,239);assert.equal(overview.indicator_count,16);assert.equal(overview.recommendation_count,86);
+    assert.equal(overview.cards.length,16);
+    assert.doesNotMatch(JSON.stringify(overview),/authored_by|reviewed_by|import_metadata|TEST-50/);
+    const data=(await database.query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.10',true) result")).rows[0].result;
+    assert.equal(data.values.length,5);assert.equal(data.latest[0].numeric_value,21082664.49);
+    await assert.rejects(database.query('delete from indicator_values'),/permission denied/);
+  } finally {await database.close();}
+});
 test('migrations, seed, RLS, shared observations, revisions and scoped targets',async()=>{
   await setup(db);
   await db.exec('set role service_role');

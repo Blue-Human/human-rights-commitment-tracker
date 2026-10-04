@@ -1,7 +1,7 @@
 import type { Component, IndicatorLink, Observation, Scope } from './types';
 export const number = (value: number) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 3 }).format(value);
 export const scopeKey = (scope: Scope) => JSON.stringify(Object.entries(scope).sort(([a], [b]) => a.localeCompare(b)));
-export const scopeLabel = (scope: Scope) => Object.entries(scope).sort(([a], [b]) => a.localeCompare(b)).map(([key, value]) => `${({ territory: 'Territorio', population: 'Población' } as Record<string,string>)[key] || key}: ${({ national: 'Nacional', all: 'Toda la población', women: 'Mujeres', men: 'Hombres', children: 'Infancia', youth: 'Jóvenes' } as Record<string,string>)[value] || value}`).join(' · ');
+export const scopeLabel = (scope: Scope) => Object.entries(scope).sort(([a], [b]) => a.localeCompare(b)).map(([key, value]) => `${({ territory: 'Territorio', population: 'Población', age: 'Edad', sex: 'Sexo', comparison: 'Comparación', institution: 'Institución', reason: 'Motivo', coverage: 'Cobertura', sector: 'Sector' } as Record<string,string>)[key] || key}: ${({ national: 'Nacional', all: 'Toda la población', women: 'Mujeres', men: 'Hombres', children: 'Infancia', youth: 'Jóvenes' } as Record<string,string>)[value] || value}`).join(' · ');
 export const seriesId = (v: Pick<Observation, 'component_id' | 'country_iso2' | 'scope'>) => `${v.component_id}|${v.country_iso2}|${scopeKey(v.scope)}`;
 export const orderPoints = (values: Observation[]) => [...values].sort((a,b) => a.period_start.localeCompare(b.period_start) || a.period_end.localeCompare(b.period_end) || a.id.localeCompare(b.id));
 export function periodLabel(v: Pick<Observation,'period_start'|'period_end'>, frequency: Component['frequency']) {

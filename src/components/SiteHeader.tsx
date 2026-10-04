@@ -71,6 +71,7 @@ export function SiteHeader() {
           <Stack direction="row" spacing={{ xs: 0, sm: 1 }} alignItems="center" flexWrap="wrap" useFlexGap>
             {[
               ["Recomendaciones", "/"],
+              ["Datos", "/indicators"],
               ["Actualidad", "/monitoring"],
               ["Metodología", "/methodology"],
             ].map(([label, href]) => (

@@ -1,4 +1,7 @@
 import Link from "next/link";
+import {Suspense} from 'react';
+import {IndicatorOverview} from '@/components/IndicatorOverview';
+import {IndicatorSkeleton} from '@/components/IndicatorSection';
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { CommitmentExplorer } from "@/components/CommitmentExplorer";
 import { MonitoringList } from "@/components/MonitoringList";
@@ -53,6 +56,10 @@ export default async function Home() {
           </Stack>
         </Container>
 
+        <Container maxWidth="lg" sx={{pb:{xs:5,md:7}}}>
+          <Typography variant="h2" color="primary.main" sx={{fontSize:{xs:'1.8rem',md:'2.25rem'},mb:3}}>España en datos</Typography>
+          <Suspense fallback={<IndicatorSkeleton/>}><IndicatorOverview featured/></Suspense>
+        </Container>
         <Box sx={{ bgcolor: "#f7f8f9", borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           <Container maxWidth="lg" sx={{ py: 3 }}>
             <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 6 }}>
