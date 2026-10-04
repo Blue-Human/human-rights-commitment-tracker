@@ -1,7 +1,7 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {
   boeDailySummary, boeSearch, fetchFeed, gdelt, googleNews, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
-  matchFeedItem, titleKey, GDELT_MIN_INTERVAL_MS, type Candidate, type ConnectorResult, type Feed, type FeedItem,
+  matchFeedItem, titleKey, GDELT_MIN_INTERVAL_MS, type BoeEntry, type Candidate, type ConnectorResult, type Feed, type FeedItem,
 } from "./lib.ts";
 import { classify, DEFAULT_MODEL, type ClassifierConfig, type Verdict } from "./classifier.ts";
 
@@ -23,6 +23,7 @@ const REFRESH_MS = 6 * 24 * 60 * 60 * 1000;
 // Hidden, unreviewed candidates older than this are deleted so the queue does not pile up.
 const RETENTION_DAYS = 45;
 const PROFILE_BATCH = 6;
+const SWEEP_PARALLEL = 6;
 // Stop starting new profiles well before the Edge Function wall-clock limit.
 const DEADLINE_MS = 110 * 1000;
 const AI_PUBLIC_RELEVANCE = 0.8;
@@ -172,7 +173,7 @@ Deno.serve(async (req) => {
       await rest(`monitoring_items?status=eq.auto&is_public=eq.false&connector=in.(rss,google_news,gdelt,boe_summary)&discovered_at=lt.${new Date(Date.now() - RETENTION_DAYS * 86400000).toISOString()}`, { method: "DELETE" });
 
       // Official gazette: every profile is checked against the past week's dispositions.
-      const gazette = [];
+      const gazette: BoeEntry[] = [];
       for (const day of lastDays(8)) {
         const r = await boeDailySummary(day);
         record("boe_summary", r, r.entries.length);
@@ -192,18 +193,21 @@ Deno.serve(async (req) => {
         });
       }));
 
-      for (const p of profiles) {
-        const rec = recById.get(p.commitment_id);
-        if (!rec) continue;
-        const matches: Candidate[] = [];
-        for (const { feed, item } of feedItems) {
-          const c = matchFeedItem(feed, item, p.news_query, "need_context", "supports_need")
-            || (p.implementation_query ? matchFeedItem(feed, item, p.implementation_query, "implementation_candidate", "supports_progress") : null);
-          if (c) matches.push(c);
-        }
-        const query = p.boe_query || p.implementation_query;
-        if (query) matches.push(...gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec))));
-        await store(rec, matches);
+      // Stored a few profiles at a time: one by one, the full catalogue does not fit in one call.
+      for (let i = 0; i < profiles.length; i += SWEEP_PARALLEL) {
+        await Promise.all(profiles.slice(i, i + SWEEP_PARALLEL).map(async (p) => {
+          const rec = recById.get(p.commitment_id);
+          if (!rec) return;
+          const matches: Candidate[] = [];
+          for (const { feed, item } of feedItems) {
+            const c = matchFeedItem(feed, item, p.news_query, "need_context", "supports_need")
+              || (p.implementation_query ? matchFeedItem(feed, item, p.implementation_query, "implementation_candidate", "supports_progress") : null);
+            if (c) matches.push(c);
+          }
+          const query = p.boe_query || p.implementation_query;
+          if (query) matches.push(...gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec))));
+          await store(rec, matches);
+        }));
       }
     }
 

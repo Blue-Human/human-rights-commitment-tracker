@@ -181,8 +181,11 @@ async function optional<T>(path: string, fallback: T): Promise<T> {
   }
 }
 
+const byNumber = (c: Commitment) => Number((c.recommendation_number || "").split(".").pop()) || 0;
+
 export async function getCommitments(): Promise<Commitment[]> {
-  return rest<Commitment[]>("hrct_public_commitments?select=*&order=published_at.desc");
+  const rows = await rest<Commitment[]>("hrct_public_commitments?select=*&order=published_at.desc");
+  return rows.sort((a, b) => byNumber(a) - byNumber(b));
 }
 
 export async function getCommitment(publicId: string): Promise<Commitment | null> {

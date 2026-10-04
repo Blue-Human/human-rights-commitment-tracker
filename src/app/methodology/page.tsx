@@ -59,7 +59,7 @@ export default function MethodologyPage() {
                 HRCT distingue entre las obligaciones jurídicas derivadas de instrumentos vinculantes, los compromisos formales que un Estado ha aceptado o anunciado expresamente, las recomendaciones formuladas por órganos externos y los objetivos de política pública recogidos en estrategias o planes. Una recomendación no es automáticamente una obligación jurídica, y cada ficha indica si España la aceptó o se limitó a tomar nota de ella («anotada»).
               </Typography>
               <Typography>
-                El piloto actual abarca las recomendaciones 50.1 a 50.40 dirigidas a España en el cuarto ciclo del Examen Periódico Universal (documento A/HRC/60/8 de las Naciones Unidas); la respuesta de España procede del documento A/HRC/60/8/Add.1. El texto oficial de las Naciones Unidas se muestra siempre separado de la valoración de Blue Human.
+                HRCT abarca las 324 recomendaciones (50.1 a 50.324) dirigidas a España en el cuarto ciclo del Examen Periódico Universal (documento A/HRC/60/8 de las Naciones Unidas); la respuesta de España a cada una procede del documento A/HRC/60/8/Add.1. El texto oficial de las Naciones Unidas se muestra siempre separado de la valoración de Blue Human.
               </Typography>
             </Section>
 
