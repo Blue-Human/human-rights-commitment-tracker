@@ -105,7 +105,7 @@ export function monitoringChannel(item: Pick<MonitoringItem, "kind" | "relation"
 }
 
 export function reviewLabel(item: Pick<MonitoringItem, "status">) {
-  return item.status === "reviewed" ? "Reviewed by Blue Human" : "Pending final confirmation";
+  return item.status === "reviewed" ? "Revisado por Blue Human" : "Pendiente de confirmación final";
 }
 
 // Some pilot rationales end with a stored validation caveat. The record is left as published;
@@ -118,13 +118,45 @@ export function splitRationale(text: string | null | undefined) {
 }
 
 export const channelLabels: Record<MonitoringChannel, string> = {
-  need: "Context · continuing need",
-  implementation: "Potential implementation development",
-  contradiction: "Potential contrary development",
+  need: "Contexto · necesidad vigente",
+  implementation: "Posible avance en el cumplimiento",
+  contradiction: "Posible novedad en sentido contrario",
 };
 
+export const statusLabels: Record<string, string> = {
+  not_assessed: "Valoración pendiente",
+  implemented: "Cumplida",
+  substantially_implemented: "Avance sustancial",
+  in_progress: "En curso",
+  limited_progress: "Avance limitado",
+  not_implemented: "Sin cumplir",
+  unable_to_assess: "Evidencia insuficiente",
+  regressed: "Retroceso",
+};
+
+export const acceptanceLabels: Record<string, string> = {
+  accepted: "Aceptada",
+  partially_accepted: "Aceptada parcialmente",
+  noted: "Anotada",
+};
+
+export const confidenceLabels: Record<string, string> = { high: "Alta", medium: "Media", low: "Baja" };
+
+export const evidenceTypeLabels: Record<string, string> = {
+  supports_progress: "Respalda el avance",
+  contradicts_progress: "Contradice el avance",
+  context: "Contexto",
+  mixed: "Mixta",
+};
+
+// Stored codes (status, confidence, State response...) are shown through these tables;
+// a code without an entry is shown as stored.
+export function labelOf(labels: Record<string, string>, value?: string | null, fallback = "Sin especificar") {
+  return value ? labels[value] || value.replaceAll("_", " ") : fallback;
+}
+
 export function formatDate(value?: string | null) {
-  return value ? new Date(value).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }) : null;
+  return value ? new Date(value).toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }) : null;
 }
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;

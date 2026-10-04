@@ -25,24 +25,24 @@ export function MonitoringList({ items, numbers, empty }: Props) {
                 {[item.publisher || item.source_domain, formatDate(item.published_at)].filter(Boolean).join(" · ")}
               </Typography>
             </Box>
-            <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Open source</Button>
+            <Button component="a" href={item.url} target="_blank" rel="noreferrer" endIcon={<OpenInNewRoundedIcon />} size="small" sx={{ px: 0, flexShrink: 0 }}>Abrir fuente</Button>
           </Stack>
           {item.summary && <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>{item.summary}</Typography>}
           {!item.summary && item.excerpt && (
             <Typography variant="body2" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>
-              <Box component="span" sx={{ fontWeight: 600 }}>From the source:</Box> “{item.excerpt}”
+              <Box component="span" sx={{ fontWeight: 600 }}>De la fuente:</Box> «{item.excerpt}»
             </Typography>
           )}
           {item.note && item.status !== "reviewed" && (
             <Typography variant="body2" color="text.secondary" sx={{ mt: 1.2, lineHeight: 1.7, maxWidth: 860 }}>
-              <Box component="span" sx={{ fontWeight: 600 }}>Why it is listed:</Box> {item.note}
+              <Box component="span" sx={{ fontWeight: 600 }}>Por qué aparece aquí:</Box> {item.note}
             </Typography>
           )}
           {item.public_ids.length > 0 && <Stack direction="row" spacing={1.5} flexWrap="wrap" useFlexGap alignItems="baseline" sx={{ mt: 1.2 }}>
-            <Typography variant="caption" color="text.secondary">Relates to</Typography>
+            <Typography variant="caption" color="text.secondary">Relacionada con</Typography>
             {item.public_ids.map((id) => (
               <Typography key={id} component={Link} href={`/commitments/${encodeURIComponent(id)}`} variant="caption" color="primary.main" sx={{ fontWeight: 600 }}>
-                Recommendation {numbers[id] || id}
+                Recomendación {numbers[id] || id}
               </Typography>
             ))}
           </Stack>}

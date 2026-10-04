@@ -358,7 +358,7 @@ export function titleKey(title: string) {
 type BoeNorm = { identificador?: string; titulo?: string; fecha_publicacion?: string; url_html_consolidada?: string; url_eli?: string };
 
 const BOE_PUBLISHER = "Agencia Estatal Boletín Oficial del Estado";
-const BOE_CAVEAT = "Human review is required before treating this as implementation evidence.";
+const BOE_CAVEAT = "Debe revisarse antes de considerarla evidencia de cumplimiento.";
 
 // The BOE open-data API takes an Elasticsearch-style JSON query; a plain-text query returns HTTP 500.
 export function boeSearchQuery(text: string): string | null {
@@ -399,7 +399,7 @@ export async function boeSearch(query: string): Promise<ConnectorResult> {
       source_domain: "boe.es",
       source_type: "legislation",
       published_at: isoDate(n.fecha_publicacion),
-      summary: `Automatically discovered in BOE consolidated legislation search. ${BOE_CAVEAT}`,
+      summary: `Norma localizada en la legislación consolidada del BOE. ${BOE_CAVEAT}`,
       relevance_score: m.score,
       hits: m.hits,
       official: true,
@@ -451,7 +451,7 @@ export function matchBoeEntry(entry: BoeEntry, query: string): Candidate | null 
     source_domain: "boe.es",
     source_type: "official_gazette",
     published_at: entry.date,
-    summary: `Published in the Boletín Oficial del Estado and automatically matched to this recommendation. ${BOE_CAVEAT}`,
+    summary: `Norma publicada en el Boletín Oficial del Estado y relacionada con esta recomendación. ${BOE_CAVEAT}`,
     relevance_score: m.score,
     hits: m.hits,
     official: true,

@@ -5,17 +5,18 @@ import { AdminFrame, AdminSection } from "@/components/AdminFrame";
 import { StatusChip } from "@/components/StatusChip";
 import { listItemsPending, listProposals, listRecommendations, listReviewLog } from "@/lib/admin/db";
 import { requireAdmin } from "@/lib/admin/session";
-import { formatDate } from "@/lib/hrct";
+import { confidenceLabels, formatDate, labelOf } from "@/lib/hrct";
 import { resolveProposal } from "./actions";
 
-export const metadata: Metadata = { title: "Administration | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Administración | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
 
 const outcomeLabels: Record<string, string> = {
-  no_change: "No change",
-  updated: "Assessment updated",
-  needs_confirmation: "Proposed as implemented",
-  rejected_no_verified_evidence: "Rejected: sources did not open",
+  no_change: "Sin cambios",
+  updated: "Valoración actualizada",
+  needs_confirmation: "Propuesta como cumplida",
+  rejected_no_verified_evidence: "Rechazada: las fuentes no se pudieron abrir",
 };
+const resolutionLabels: Record<string, string> = { confirmed: "confirmada", rejected: "rechazada" };
 
 export default async function AdminHome() {
   await requireAdmin();
@@ -23,13 +24,13 @@ export default async function AdminHome() {
   const provisional = recommendations.filter((r) => r.assessment_provisional && r.assessment_status !== "not_assessed");
 
   return (
-    <AdminFrame title="Overview" intro="Decide on proposals, confirm provisional assessments and manage each recommendation. Changes are published immediately.">
+    <AdminFrame title="Resumen" intro="Decide sobre las propuestas, confirma las valoraciones provisionales y gestiona cada recomendación. Los cambios se publican al instante.">
       <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 6 }}>
         {[
-          [proposals.length, "Proposed as implemented, awaiting your decision"],
-          [provisional.length, "Assessments pending final confirmation"],
-          [pendingItems.length, "Monitoring items awaiting review"],
-          [recommendations.length, "Recommendations"],
+          [proposals.length, "Propuestas como cumplidas, a la espera de tu decisión"],
+          [provisional.length, "Valoraciones pendientes de confirmación final"],
+          [pendingItems.length, "Novedades de seguimiento por revisar"],
+          [recommendations.length, "Recomendaciones"],
         ].map(([value, label]) => (
           <Box key={String(label)}>
             <Typography sx={{ fontSize: "1.7rem", fontWeight: 500, color: "primary.main", lineHeight: 1 }}>{value}</Typography>
@@ -38,12 +39,12 @@ export default async function AdminHome() {
         ))}
       </Stack>
 
-      <AdminSection title="Proposed as implemented" note="A periodic review found evidence that these recommendations have been implemented. Nothing is published until you decide.">
+      <AdminSection title="Propuestas como cumplidas" note="Una revisión periódica ha encontrado evidencia de que estas recomendaciones se han cumplido. No se publica nada hasta que decidas.">
         <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {proposals.map((p) => (
             <Box key={p.id} sx={{ py: 2.2 }}>
               <Typography variant="overline" color="text.secondary">
-                Recommendation {p.commitments?.recommendation_number} · proposed {formatDate(p.reviewed_at)} · confidence {p.confidence}
+                Recomendación {p.commitments?.recommendation_number} · propuesta el {formatDate(p.reviewed_at)} · confianza {labelOf(confidenceLabels, p.confidence).toLowerCase()}
               </Typography>
               <Typography variant="h6" color="primary.main">{p.commitments?.title}</Typography>
               {p.change_summary && <Typography variant="body2" sx={{ mt: .8, lineHeight: 1.7, maxWidth: 860 }}>{p.change_summary}</Typography>}
@@ -52,22 +53,22 @@ export default async function AdminHome() {
                 <form action={resolveProposal}>
                   <input type="hidden" name="public_id" value={p.commitments?.public_id} />
                   <input type="hidden" name="decision" value="confirm" />
-                  <Button type="submit" variant="contained" size="small">Confirm as implemented</Button>
+                  <Button type="submit" variant="contained" size="small">Confirmar como cumplida</Button>
                 </form>
                 <form action={resolveProposal}>
                   <input type="hidden" name="public_id" value={p.commitments?.public_id} />
                   <input type="hidden" name="decision" value="reject" />
-                  <Button type="submit" variant="outlined" size="small">Reject</Button>
+                  <Button type="submit" variant="outlined" size="small">Rechazar</Button>
                 </form>
-                <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(p.commitments?.public_id || "")}`} size="small">Open record</Button>
+                <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(p.commitments?.public_id || "")}`} size="small">Abrir ficha</Button>
               </Stack>
             </Box>
           ))}
-          {!proposals.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>Nothing is waiting for your decision.</Typography>}
+          {!proposals.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>No hay nada a la espera de tu decisión.</Typography>}
         </Stack>
       </AdminSection>
 
-      <AdminSection title="Recommendations">
+      <AdminSection title="Recomendaciones">
         <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {recommendations.map((r, index) => (
             <Stack key={r.public_id} direction={{ xs: "column", md: "row" }} spacing={{ xs: .6, md: 2.5 }} alignItems={{ md: "center" }}
@@ -76,26 +77,26 @@ export default async function AdminHome() {
               <Typography variant="body2" sx={{ flex: 1, minWidth: 0 }}>{r.title}</Typography>
               <Box sx={{ width: { md: 190 }, flexShrink: 0 }}><StatusChip status={r.assessment_status} /></Box>
               <Typography variant="caption" color="text.secondary" sx={{ width: { md: 170 }, flexShrink: 0 }}>
-                {r.assessment_status === "not_assessed" ? "" : r.assessment_provisional ? "Pending final confirmation" : "Confirmed"}
+                {r.assessment_status === "not_assessed" ? "" : r.assessment_provisional ? "Pendiente de confirmación final" : "Confirmada"}
               </Typography>
-              <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(r.public_id)}`} size="small" sx={{ flexShrink: 0 }}>Manage</Button>
+              <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(r.public_id)}`} size="small" sx={{ flexShrink: 0 }}>Gestionar</Button>
             </Stack>
           ))}
         </Box>
       </AdminSection>
 
-      <AdminSection title="Review log" note="The most recent periodic reviews and what each one did.">
+      <AdminSection title="Registro de revisiones" note="Las revisiones periódicas más recientes y lo que hizo cada una.">
         <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {log.map((entry) => (
             <Box key={entry.id} sx={{ py: 1.5 }}>
               <Typography variant="body2" color="primary.main">
-                {formatDate(entry.reviewed_at)} · Recommendation {entry.commitments?.recommendation_number} · {outcomeLabels[entry.outcome] || entry.outcome}
-                {entry.resolution ? ` · ${entry.resolution}` : ""}
+                {formatDate(entry.reviewed_at)} · Recomendación {entry.commitments?.recommendation_number} · {outcomeLabels[entry.outcome] || entry.outcome}
+                {entry.resolution ? ` · ${resolutionLabels[entry.resolution] || entry.resolution}` : ""}
               </Typography>
               {entry.change_summary && <Typography variant="body2" color="text.secondary" sx={{ mt: .3, lineHeight: 1.6, maxWidth: 860 }}>{entry.change_summary}</Typography>}
             </Box>
           ))}
-          {!log.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>No periodic review has been recorded yet.</Typography>}
+          {!log.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>Todavía no se ha registrado ninguna revisión periódica.</Typography>}
         </Stack>
       </AdminSection>
     </AdminFrame>

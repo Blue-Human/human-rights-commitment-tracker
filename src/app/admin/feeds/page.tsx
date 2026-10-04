@@ -6,9 +6,9 @@ import { requireAdmin } from "@/lib/admin/session";
 import { formatDate } from "@/lib/hrct";
 import { addFeed, toggleFeed } from "../actions";
 
-export const metadata: Metadata = { title: "Sources | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Fuentes | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
 
-const types: [string, string][] = [["news", "News media"], ["official_web", "Official institution"], ["un_body", "UN body"], ["civil_society", "Civil society"]];
+const types: [string, string][] = [["news", "Medio de comunicación"], ["official_web", "Institución oficial"], ["un_body", "Órgano de la ONU"], ["civil_society", "Sociedad civil"]];
 const typeLabel = Object.fromEntries(types);
 
 export default async function AdminFeeds({ searchParams }: { searchParams: Promise<{ error?: string }> }) {
@@ -16,8 +16,8 @@ export default async function AdminFeeds({ searchParams }: { searchParams: Promi
   const [feeds, { error }] = await Promise.all([listFeeds(), searchParams]);
 
   return (
-    <AdminFrame title="Sources" intro="RSS and Atom feeds read on each weekly scan. A disabled feed is skipped.">
-      <AdminSection title={`Feeds (${feeds.filter((f) => f.enabled).length} of ${feeds.length} enabled)`}>
+    <AdminFrame title="Fuentes" intro="Canales RSS y Atom que se leen en cada consulta semanal. Un canal desactivado se omite.">
+      <AdminSection title={`Canales (${feeds.filter((f) => f.enabled).length} de ${feeds.length} activos)`}>
         <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {feeds.map((f, index) => (
             <Stack key={f.id} direction={{ xs: "column", md: "row" }} spacing={{ xs: .6, md: 2.5 }} alignItems={{ md: "center" }}
@@ -28,31 +28,31 @@ export default async function AdminFeeds({ searchParams }: { searchParams: Promi
               </Box>
               <Typography variant="caption" color="text.secondary" sx={{ width: { md: 130 }, flexShrink: 0 }}>{typeLabel[f.source_type] || f.source_type}</Typography>
               <Typography variant="caption" color={f.last_status && f.last_status !== "ok" ? "error" : "text.secondary"} sx={{ width: { md: 210 }, flexShrink: 0 }}>
-                {f.last_fetched_at ? `${f.last_status === "ok" ? `${f.last_item_count} items` : f.last_status} · ${formatDate(f.last_fetched_at)}` : "Not read yet"}
+                {f.last_fetched_at ? `${f.last_status === "ok" ? `${f.last_item_count} entradas` : f.last_status} · ${formatDate(f.last_fetched_at)}` : "Todavía sin leer"}
               </Typography>
               <form action={toggleFeed}>
                 <input type="hidden" name="id" value={f.id} />
                 <input type="hidden" name="enabled" value={String(!f.enabled)} />
-                <Button type="submit" size="small" variant="outlined" sx={{ width: 92 }}>{f.enabled ? "Disable" : "Enable"}</Button>
+                <Button type="submit" size="small" variant="outlined" sx={{ width: 104 }}>{f.enabled ? "Desactivar" : "Activar"}</Button>
               </form>
             </Stack>
           ))}
         </Box>
       </AdminSection>
 
-      <AdminSection title="Add a feed" note="Tick “About Spain” for feeds that only cover Spain; for others, only items that mention Spain are considered.">
+      <AdminSection title="Añadir un canal" note="Marca «Sobre España» en los canales que solo tratan de España; en los demás solo se tienen en cuenta las entradas que mencionan a España.">
         <form action={addFeed}>
           <Stack spacing={2} sx={{ maxWidth: 720 }}>
-            <TextField name="name" label="Name" required fullWidth />
-            <TextField name="url" label="Feed URL" type="url" required fullWidth />
+            <TextField name="name" label="Nombre" required fullWidth />
+            <TextField name="url" label="URL del canal" type="url" required fullWidth />
             <Stack direction={{ xs: "column", sm: "row" }} spacing={2} alignItems={{ sm: "center" }}>
-              <TextField name="source_type" label="Type" select SelectProps={{ native: true }} defaultValue="news" sx={{ minWidth: 220 }}>
+              <TextField name="source_type" label="Tipo" select SelectProps={{ native: true }} defaultValue="news" sx={{ minWidth: 220 }}>
                 {types.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
               </TextField>
-              <FormControlLabel control={<Checkbox name="spain_focused" defaultChecked />} label="About Spain" />
+              <FormControlLabel control={<Checkbox name="spain_focused" defaultChecked />} label="Sobre España" />
             </Stack>
-            {error && <Typography variant="body2" color="error">A name and a valid http(s) URL are required.</Typography>}
-            <Box><Button type="submit" variant="contained">Add feed</Button></Box>
+            {error && <Typography variant="body2" color="error">Hacen falta un nombre y una URL http(s) válida.</Typography>}
+            <Box><Button type="submit" variant="contained">Añadir canal</Button></Box>
           </Stack>
         </form>
       </AdminSection>

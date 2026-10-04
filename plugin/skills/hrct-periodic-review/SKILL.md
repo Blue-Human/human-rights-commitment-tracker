@@ -54,11 +54,13 @@ Principles:
 
 ## What to submit
 
+The site is published in Spanish for readers in Spain. Everything you file that is free text (`rationale`, `change_summary`, `finding`, `note`) must be written in Spanish (Spain). Keep each source's own `title` as published.
+
 - `outcome` "no_change": nothing relevant has happened since the last review, or what you found does not alter the assessment. Give a `change_summary` saying what you checked.
 - `outcome` "update": the evidence supports a different status, or a first assessment, or materially strengthens the reasoning. Provide `proposed_status`, `confidence`, `rationale`, `change_summary` and `evidence`.
-  - `rationale`: 120 to 250 words, in English, neutral and factual. State what the recommendation asks, what official action is documented (with dates), what remains outstanding, and why this status and not the adjacent one. No opinions about the government. Do not mention how the assessment was produced.
-  - `change_summary`: one or two sentences on what changed since the last review.
-  - `evidence`: 1 to 10 sources. For each: `url`, the source's own `title`, `publisher`, `date` (YYYY-MM-DD), `source_type`, `evidence_type`, and `finding` (one or two sentences on what this source establishes). Prefer primary sources.
+  - `rationale`: 120 to 250 words, in Spanish (Spain), neutral and factual. State what the recommendation asks, what official action is documented (with dates), what remains outstanding, and why this status and not the adjacent one. No opinions about the government. Do not mention how the assessment was produced.
+  - `change_summary`: one or two sentences, in Spanish, on what changed since the last review.
+  - `evidence`: 1 to 10 sources. For each: `url`, the source's own `title`, `publisher`, `date` (YYYY-MM-DD), `source_type`, `evidence_type`, and `finding` (one or two sentences, in Spanish, on what this source establishes). Prefer primary sources.
   - `confidence`: high only when primary official sources directly establish the point.
 
 ## Implemented is never yours to decide
@@ -69,7 +71,7 @@ Never call `resolve_confirmation` on your own initiative. Call it only when the 
 
 ## Monitoring queue
 
-Candidates are news and publications collected automatically. For each, decide how it relates to the recommendation it is listed under, judging only its title and excerpt: `need_context` (shows the problem persists), `implementation_candidate` (an official step, dated after the recommendation), `contradiction` (a step against it), or `noise`. When unsure, noise. `relevance` 0 to 1; 0.8 or more only when it clearly concerns that recommendation. `note`: one neutral sentence in English.
+Candidates are news and publications collected automatically. For each, decide how it relates to the recommendation it is listed under, judging only its title and excerpt: `need_context` (shows the problem persists), `implementation_candidate` (an official step, dated after the recommendation), `contradiction` (a step against it), or `noise`. When unsure, noise. `relevance` 0 to 1; 0.8 or more only when it clearly concerns that recommendation. `note`: one neutral sentence in Spanish (Spain).
 
 ## Rules that always apply
 
