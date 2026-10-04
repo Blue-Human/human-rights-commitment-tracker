@@ -68,28 +68,26 @@ try {
     await view.goto(`${base}/commitments/${id}`);
     return {view,section:view.locator('section[aria-labelledby="indicators-heading"]')};
   }
-  for(const [id,message] of [['FIXTURE-NOT-REQUIRED','Esta recomendación se verifica mediante acciones y evidencia documental'],['FIXTURE-UNDEFINED','Indicadores pendientes de definición o revisión'],['FIXTURE-PENDING','La necesidad de indicadores está pendiente de revisión'],['FIXTURE-NODATA','Sin mediciones publicadas'],['FIXTURE-ERROR','No se pudieron cargar los indicadores.']]) {
+  for(const [id,message] of [['FIXTURE-NOT-REQUIRED','Esta recomendación se verifica mediante acciones y evidencia documental'],['FIXTURE-UNDEFINED','No hay indicadores publicados para esta recomendación.'],['FIXTURE-PENDING','No hay indicadores publicados para esta recomendación.'],['FIXTURE-NODATA','Sin mediciones publicadas'],['FIXTURE-ERROR','No se pudieron cargar los indicadores.']]) {
     const {view,section:state}=await scenario(id);await state.getByText(message,{exact:false}).first().waitFor();
     if(id==='FIXTURE-ERROR'){await state.getByRole('button',{name:'Reintentar'}).click();await state.getByText(message,{exact:false}).waitFor();}
     await view.close();
   }
   const many=await scenario('FIXTURE-MANY');await many.section.getByRole('button',{name:'Ver los 1 indicadores restantes'}).click();await many.section.getByText('Indicador sintético 4',{exact:true}).waitFor();assert.equal(await many.section.locator('figure svg').count(),5);await many.view.close();
   const boolean=await scenario('FIXTURE-BOOLEAN');await boolean.section.getByText(/Dato no disponible: Desconocido/).first().waitFor();assert.equal(await boolean.section.locator('figure svg').count(),0);await boolean.view.close();
-  const proposal=await scenario('FIXTURE-PROPOSAL');
-  await proposal.section.getByText('Propuesta sintética 0',{exact:true}).waitFor();
-  assert.equal(await proposal.section.getByText('Propuesto · Sin validar',{exact:true}).count(),1);
-  assert.match(await proposal.section.textContent(),/1 propuesto/);
-  assert.doesNotMatch(await proposal.section.textContent(),/La necesidad de indicadores está pendiente|Revisado por Blue Human/);
-  assert.equal(await proposal.section.locator('figure svg').count(),0);
-  assert.equal(await proposal.section.getByLabel('Histórico',{exact:true}).count(),0);
-  await proposal.section.getByText('Ver definición propuesta y fuentes',{exact:true}).click();
-  await proposal.section.getByText(/Cada unidad requiere un componente/).waitFor();
-  assert.equal(await proposal.view.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-  await proposal.section.scrollIntoViewIfNeeded();await proposal.view.screenshot({path:'/tmp/hrct-indicator-proposals-mobile.png'});
-  await proposal.view.setViewportSize({width:1280,height:900});await proposal.view.screenshot({path:'/tmp/hrct-indicator-proposals-desktop.png'});
-  await proposal.view.close();
-  const noProposal=await scenario('FIXTURE-PROPOSAL-NONE');await noProposal.section.getByText(/El anexo no propone indicadores/).waitFor();await noProposal.section.getByRole('link',{name:'Ver evidencias'}).waitFor();await noProposal.view.close();
-  const manyProposals=await scenario('FIXTURE-PROPOSAL-MANY');await manyProposals.section.getByRole('button',{name:'Ver 1 propuesta restante'}).click();await manyProposals.section.getByText('Propuesta sintética 4',{exact:true}).waitFor();assert.equal(await manyProposals.section.getByRole('article').count(),5);await manyProposals.view.close();
+  const approved=await scenario('FIXTURE-NODATA');
+  await approved.section.getByText('Indicador sintético de prueba',{exact:true}).waitFor();
+  assert.doesNotMatch(await approved.section.innerText(),/pendiente|sin validar|propuest[oa]/i);
+  assert.equal(await approved.section.getByLabel('Histórico',{exact:true}).count(),0);
+  await approved.section.locator('summary').filter({hasText:'Ver datos y metodología'}).click();
+  assert.doesNotMatch(await approved.section.innerText(),/pendiente|sin validar|propuest[oa]/i);
+  assert.equal(await approved.section.locator('figure svg').count(),0);
+  assert.equal(await approved.view.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await approved.section.scrollIntoViewIfNeeded();await approved.view.screenshot({path:'/tmp/hrct-approved-indicator-mobile.png'});
+  await approved.view.setViewportSize({width:1280,height:900});await approved.view.screenshot({path:'/tmp/hrct-approved-indicator-desktop.png'});
+  await approved.view.close();
+  // Unpublished annex data is no longer rendered by the public UI.
+  const draft=await scenario('FIXTURE-PROPOSAL');await draft.section.getByText('No hay indicadores publicados para esta recomendación.',{exact:true}).waitFor();assert.equal(await draft.section.getByText('Propuesta sintética 0',{exact:true}).count(),0);await draft.view.close();
   const admin=await browser.newPage();await admin.goto(`${base}/admin/indicators`,{waitUntil:'commit'});await admin.waitForURL('**/admin/login');assert.match(admin.url(),/\/admin\/login$/);await admin.close();
   assert.deepEqual(pageErrors,[]);
   console.log('Chromium: desktop/mobile, keyboard points, data table, scopes, history, empty states, errors and protected admin verified.');

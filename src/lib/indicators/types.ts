@@ -1,4 +1,5 @@
 export type Requirement = 'not_required' | 'recommended' | 'required' | 'pending_review';
+export const editorialLabels: Record<string,string> = {draft:'Borrador',proposed:'Borrador',published:'Aprobado y publicado',archived:'Archivado'};
 export type Scope = Record<string, string>;
 export type Indicator = {
   id: string; code: string | null; name: string; description: string | null; indicator_type: string | null;
@@ -29,13 +30,4 @@ export type IndicatorLink = {
 export type IndicatorBundle = {
   requirement: Requirement; reason: string | null; links: IndicatorLink[]; indicators: Indicator[];
   components: Component[]; values: Observation[]; latest: Observation[]; baselines: Observation[]; has_older: boolean;
-  annex?: {
-    origin: string; version: string; requirement: Requirement; reason: string;
-    indicators: AnnexIndicator[];
-  } | null;
-};
-export type AnnexIndicator = {
-  code: string; name: string; description: string; indicator_type: string;
-  role: IndicatorLink['role']; unit: string; frequency: string;
-  preferred_sources: string; recommended_disaggregation: string;
 };

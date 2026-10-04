@@ -6,6 +6,7 @@ import { Choice,Field,IndicatorFields } from '@/components/IndicatorAdminFields'
 import { getIndicator,listComponents,listValues } from '@/lib/admin/indicators';
 import { requireAdmin } from '@/lib/admin/session';
 import { valueLabel,scopeLabel,periodLabel } from '@/lib/indicators/series';
+import { editorialLabels } from '@/lib/indicators/types';
 import type { Component } from '@/lib/indicators/types';
 import { addObservations,editIndicator,publishObservation,saveComponent } from '../actions';
 const componentFields=(c?:Component)=><Stack spacing={2}>
@@ -14,18 +15,18 @@ const componentFields=(c?:Component)=><Stack spacing={2}>
   <Choice name="value_type" label="Tipo de valor" value={c?.value_type} options={{numeric:'Número',boolean:'Sí / No / Desconocido',category:'Categoría',text:'Texto'}}/>
   <Choice name="frequency" label="Frecuencia esperada" value={c?.frequency} options={{annual:'Anual',biennial:'Bienal',quarterly:'Trimestral',monthly:'Mensual',irregular:'Irregular'}}/>
   <Choice name="visualization" label="Visualización" value={c?.visualization} options={{line:'Línea temporal',bar:'Barras con origen cero',timeline:'Hitos o cronología'}}/>
-  <Choice name="editorial_status" label="Revisión de la definición" value={c?.editorial_status} options={{proposed:'Propuesta pendiente',published:'Revisada y publicada'}}/>
+  <Choice name="editorial_status" label="Revisión de la definición" value={c?.editorial_status} options={{proposed:'Borrador',published:'Aprobada y publicada'}}/>
 </Stack>;
 export const metadata={title:'Gestionar indicador | HRCT',robots:{index:false,follow:false}};
 export default async function ManageIndicator({params}:{params:Promise<{id:string}>}) {
   await requireAdmin();const {id}=await params;const indicator=await getIndicator(id);if(!indicator)notFound();
   const [components,values]=await Promise.all([listComponents(id),listValues(id)]);
   return <AdminFrame title={`${indicator.code||'Indicador heredado'} · ${indicator.name}`} intro="Las mediciones se comparten entre recomendaciones. Publicar un dato exige revisar su fuente y seleccionar explícitamente la observación vigente para ese periodo. Una corrección se añade como borrador nuevo.">
-    <AdminSection title="Definición y publicación del catálogo"><IndicatorAdminForm action={editIndicator} label="Guardar catálogo"><input type="hidden" name="id" value={id}/><Stack spacing={2} sx={{maxWidth:850}}><IndicatorFields values={indicator}/><Choice name="active" label="Actividad" value={String(indicator.active)} options={{true:'Activo',false:'Archivado'}}/><Choice name="editorial_status" label="Estado editorial" value={indicator.editorial_status} options={{draft:'Borrador',proposed:'Propuesto',published:'Revisado y publicado',archived:'Archivado'}}/></Stack></IndicatorAdminForm>
+    <AdminSection title="Definición y publicación del catálogo"><IndicatorAdminForm action={editIndicator} label="Guardar catálogo"><input type="hidden" name="id" value={id}/><Stack spacing={2} sx={{maxWidth:850}}><IndicatorFields values={indicator}/><Choice name="active" label="Actividad" value={String(indicator.active)} options={{true:'Activo',false:'Archivado'}}/><Choice name="editorial_status" label="Estado editorial" value={indicator.editorial_status} options={{draft:'Borrador',proposed:'Borrador',published:'Aprobado y publicado',archived:'Archivado'}}/></Stack></IndicatorAdminForm>
       <Box component="details"><summary>Metadatos originales de importación</summary><Box component="pre" sx={{whiteSpace:'pre-wrap',overflowWrap:'anywhere',fontSize:12}}>{JSON.stringify(indicator.import_metadata,null,2)}</Box></Box>
     </AdminSection>
-    <AdminSection title="Componentes de medición" note="Revisa las unidades y definiciones ambiguas del anexo. No mezcles presupuesto, plantilla, tasas o recuentos. Para cambiar una definición con datos publicados, crea un componente nuevo.">
-      {components.map(c=><Box component="details" key={c.id} sx={{my:2}}><summary>{c.code} · {c.label} · {c.editorial_status}</summary><IndicatorAdminForm action={saveComponent} label="Guardar componente"><input type="hidden" name="id" value={c.id}/><input type="hidden" name="indicator_id" value={id}/>{componentFields(c)}</IndicatorAdminForm></Box>)}
+    <AdminSection title="Componentes de medición" note="Cada componente conserva su unidad y definición. Presupuesto, plantilla, tasas y recuentos se consultan por separado. Para cambiar una definición con datos publicados, crea un componente nuevo.">
+      {components.map(c=><Box component="details" key={c.id} sx={{my:2}}><summary>{c.code} · {c.label} · {editorialLabels[c.editorial_status]||c.editorial_status}</summary><IndicatorAdminForm action={saveComponent} label="Guardar componente"><input type="hidden" name="id" value={c.id}/><input type="hidden" name="indicator_id" value={id}/>{componentFields(c)}</IndicatorAdminForm></Box>)}
       <Box component="details"><summary>Añadir componente</summary><IndicatorAdminForm action={saveComponent} label="Crear componente"><input type="hidden" name="indicator_id" value={id}/>{componentFields()}</IndicatorAdminForm></Box>
     </AdminSection>
     <AdminSection title="Añadir medición" note="Introduce un solo tipo de valor. Para un dato desconocido usa motivo de ausencia; cero es una medición real. No se publica hasta revisar."><IndicatorAdminForm action={addObservations} label="Guardar observación en borrador"><input type="hidden" name="indicator_id" value={id}/><Stack spacing={2} sx={{maxWidth:850}}>

@@ -11,8 +11,8 @@ const seed = normalizeSeed(JSON.parse(await readFile(new URL('../data/indicators
 const q=(sql,params=[])=>db.query(sql,params);
 const id = '10000000-0000-0000-0000-000000000001';
 let indicator,component,value,legacy;
-test('migrations, seed, RLS, shared observations, revisions and scoped targets',async()=>{
-  await db.exec(`
+async function setup(database) {
+  await database.exec(`
     create role anon; create role authenticated; create role service_role bypassrls;
     alter default privileges grant all on tables to anon,authenticated;
     alter default privileges grant all on sequences to anon,authenticated;
@@ -37,7 +37,10 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
       select 'TEST-50.10',co.id,m.id,s.id,'50.10','published' from countries co,mechanisms m,sources s where co.iso2='ES' and s.document_reference='A/HRC/60/8';
     insert into indicators(commitment_id,name,description,target_value) values('${id}','Legacy fixture','Pending legacy review','100');
   `);
-  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql','20261004105020_public_indicator_proposals.sql']) await db.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
+  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql','20261004105020_public_indicator_proposals.sql']) await database.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
+}
+test('migrations, seed, RLS, shared observations, revisions and scoped targets',async()=>{
+  await setup(db);
   await db.exec('set role service_role');
   const rpc=async(write)=> (await q('select hrct_import_indicators($1::jsonb,$2) as result',[JSON.stringify(seed),write])).rows[0].result;
   assert.equal((await rpc(false)).validated,true);
@@ -144,4 +147,42 @@ test('migrations, seed, RLS, shared observations, revisions and scoped targets',
   // Missing recommendation aborts BEFORE writes.
   const broken=structuredClone(seed);broken.recommendations[0].recommendation_number='50.999';
   const report=(await q('select hrct_import_indicators($1,true) as result',[JSON.stringify(broken)])).rows[0].result;assert.equal(report.written,false);assert.ok(report.errors.length);
+});
+
+
+test('explicit owner approval publishes the exact annex once and preserves observations and legacy drafts',async()=>{
+  const approvedDb=new PGlite();
+  const query=(sql,params=[])=>approvedDb.query(sql,params);
+  try {
+    await setup(approvedDb);
+    await approvedDb.exec('set role service_role');
+    await query('select hrct_import_indicators($1,true)',[JSON.stringify(seed)]);
+    const before=(await query("select md5(string_agg(public_id||publication_status,',' order by public_id)) as snapshot from commitments")).rows[0].snapshot;
+    const approval=await readFile(new URL('../scripts/approve-indicator-annex.sql',import.meta.url),'utf8');
+    await approvedDb.exec(approval);
+    assert.equal((await query("select count(*)::int n from indicators where editorial_status='published'")).rows[0].n,98);
+    assert.equal((await query("select count(*)::int n from indicator_components where editorial_status='published'")).rows[0].n,149);
+    assert.equal((await query("select count(*)::int n from recommendation_indicators where editorial_status='published'")).rows[0].n,428);
+    assert.equal((await query("select count(*)::int n from recommendation_indicator_requirements where editorial_status='published'")).rows[0].n,324);
+    assert.equal((await query("select count(*)::int n from indicator_values")).rows[0].n,0);
+    assert.equal((await query("select count(*)::int n from indicators where code is null and editorial_status='draft'")).rows[0].n,1);
+    assert.equal((await query("select count(*)::int n from indicator_components where definition ilike '%pendiente de revisión%' or definition ilike '%pendiente de validación%' or definition ilike '%propuesta de componente%'")).rows[0].n,0);
+    assert.equal((await query("select md5(string_agg(public_id||publication_status,',' order by public_id)) as snapshot from commitments")).rows[0].snapshot,before);
+    const rows=(await query("select reviewed_at,reviewed_by,import_metadata->'approval' as approval from indicators where code='INST-001'")).rows;
+    assert.match(rows[0].reviewed_by,/aprobación explícita/);assert.ok(rows[0].reviewed_at);assert.match(rows[0].approval.basis,/responsable de HRCT/);
+    const audits=(await query('select count(*)::int n from indicator_audit')).rows[0].n;
+    await approvedDb.exec(approval);
+    await query('select hrct_import_indicators($1,true)',[JSON.stringify(seed)]);
+    assert.equal((await query('select count(*)::int n from indicator_audit')).rows[0].n,audits);
+    await approvedDb.exec('reset role;set role anon');
+    const bundle=(await query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.10') as bundle")).rows[0].bundle;
+    assert.equal(bundle.requirement,'required');assert.equal(bundle.links.length,1);assert.equal(bundle.components.length,2);assert.equal(bundle.values.length,0);
+    assert.equal(bundle.indicators[0].code,'INST-001');assert.equal(bundle.annex.indicators.length,0);
+    assert.doesNotMatch(JSON.stringify(bundle),/pending_review|pendiente|Propuesta de componente|reviewed_by|import_metadata/);
+    const documentary=(await query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.1') as bundle")).rows[0].bundle;
+    assert.equal(documentary.requirement,'not_required');assert.equal(documentary.links.length,0);
+    await assert.rejects(query('select import_metadata from indicators'),/permission denied/);
+    assert.equal((await query('select count(*)::int n from recommendation_indicators')).rows[0].n,428);
+    await assert.rejects(approvedDb.exec(approval),/permission denied/);
+  } finally {await approvedDb.close();}
 });
