@@ -25,11 +25,17 @@ const dimensionNames: Record<string, string> = {
   political: "Seguridad política",
 };
 
+// The full catalogue is long: the list grows on request instead of rendering every record at once.
+const PAGE_SIZE = 40;
+
 export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
   const [acceptance, setAcceptance] = useState("all");
   const [dimension, setDimension] = useState("all");
+  const filterKey = `${query}|${status}|${acceptance}|${dimension}`;
+  const [expanded, setExpanded] = useState({ key: filterKey, count: PAGE_SIZE });
+  const shown = expanded.key === filterKey ? expanded.count : PAGE_SIZE;
 
   const visible = useMemo(() => commitments.filter((c) => {
     const text = `${c.public_id} ${c.recommendation_number ?? ""} ${c.title} ${c.original_text} ${c.country_name}`.toLowerCase();
@@ -77,7 +83,7 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
       </Stack>
 
       <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
-        {visible.map((c, index) => (
+        {visible.slice(0, shown).map((c, index) => (
           <Box key={c.id}>
             {index > 0 && <Divider />}
             <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 } }}>
@@ -123,6 +129,15 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
           </Box>
         )}
       </Box>
+
+      {visible.length > shown && (
+        <Stack direction={{ xs: "column", sm: "row" }} alignItems={{ sm: "center" }} spacing={1.5}>
+          <Button variant="outlined" color="primary" onClick={() => setExpanded({ key: filterKey, count: shown + PAGE_SIZE })}>
+            Mostrar más recomendaciones
+          </Button>
+          <Typography variant="caption" color="text.secondary">Se muestran {shown} de {visible.length}</Typography>
+        </Stack>
+      )}
     </Stack>
   );
 }

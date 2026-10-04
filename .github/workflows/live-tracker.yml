@@ -1,7 +1,7 @@
 name: HRCT Live Tracker
 
-# Weekly refresh. Each call to the function scans a batch of recommendations; the job
-# repeats until none are pending.
+# Weekly refresh. Each call to the function scans a batch of six recommendations; the job
+# repeats until none are pending (324 recommendations take about 55 calls).
 on:
   schedule:
     - cron: "0 5 * * 1"
@@ -13,13 +13,13 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 180
     steps:
       - name: Run HRCT live tracker
         env:
           LIVE_TRACKER_SECRET: ${{ secrets.LIVE_TRACKER_SECRET }}
         run: |
-          for i in $(seq 1 12); do
+          for i in $(seq 1 90); do
             out=$(curl --fail --show-error --silent --retry 2 --retry-delay 20 --max-time 200 \
               -X POST \
               -H "x-hrct-tracker-secret: ${LIVE_TRACKER_SECRET}" \

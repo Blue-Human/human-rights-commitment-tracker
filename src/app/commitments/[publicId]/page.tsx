@@ -61,7 +61,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                 <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.8 }}>Valoración del cumplimiento</Typography>
                 <StatusChip status={commitment.assessment_status} />
                 <Typography sx={{ mt: 1.8, lineHeight: 1.8, maxWidth: 850 }}>
-                  {pending ? "Esta recomendación forma parte del conjunto de datos piloto público. Blue Human todavía no ha emitido una conclusión sobre su cumplimiento." : (rationale.text || "No hay una justificación pública disponible.")}
+                  {pending ? "Esta recomendación forma parte del catálogo público. Blue Human todavía no ha emitido una conclusión sobre su cumplimiento." : (rationale.text || "No hay una justificación pública disponible.")}
                 </Typography>
                 {!pending && (commitment.assessment_provisional || rationale.provisional) && (
                   <Typography variant="body2" color="text.secondary" sx={{ mt: 1.4, lineHeight: 1.7, maxWidth: 850 }}>

@@ -83,17 +83,46 @@ export type Match = { score: number; hits: number; size: number; specific: boole
 // Crude stemming so that "racismo"/"racista" or "delito"/"delitos" count as the same keyword.
 const stem = (t: string) => t.slice(0, 5);
 
+// A sweep compares every feed item and gazette entry with every profile, so the keywords of
+// each title and each profile query are worked out once and reused.
+const titleStems = new Map<string, Set<string>>();
+const parsedQueries = new Map<string, { stems: Set<string>; phrases: string[]; specific: boolean }>();
+const CACHE_LIMIT = 20000;
+
+function stemsOf(title: string) {
+  let v = titleStems.get(title);
+  if (!v) {
+    if (titleStems.size >= CACHE_LIMIT) titleStems.clear();
+    titleStems.set(title, v = new Set(tokens(title).map(stem)));
+  }
+  return v;
+}
+
+function parseQuery(query: string) {
+  let v = parsedQueries.get(query);
+  if (!v) {
+    const queryTokens = tokens(query);
+    const stems = new Set(queryTokens.map(stem));
+    v = {
+      stems,
+      phrases: [...query.matchAll(/"([^"]+)"/g)].map((m) => m[1].trim()).filter((x) => x.length >= 8).map(fold),
+      specific: stems.size === 1 && queryTokens[0].length >= 10,
+    };
+    if (parsedQueries.size >= CACHE_LIMIT) parsedQueries.clear();
+    parsedQueries.set(query, v);
+  }
+  return v;
+}
+
 export function match(title: string, query: string): Match {
-  const queryTokens = tokens(query);
-  const a = new Set(tokens(title).map(stem));
-  const b = new Set(queryTokens.map(stem));
+  const q = parseQuery(query);
+  const a = stemsOf(title);
   let hits = 0;
-  for (const x of b) if (a.has(x)) hits++;
+  for (const x of q.stems) if (a.has(x)) hits++;
   // A quoted phrase in the profile that appears verbatim in the title is a strong match on its own.
-  const foldedTitle = fold(title);
-  const phrase = [...query.matchAll(/"([^"]+)"/g)].some((m) => m[1].trim().length >= 8 && foldedTitle.includes(fold(m[1].trim())));
-  const score = phrase ? 0.95 : Math.min(0.98, 0.58 + (hits / Math.max(2, b.size)) * 0.4);
-  return { score, hits: phrase ? Math.max(2, hits) : hits, size: b.size, specific: b.size === 1 && queryTokens[0].length >= 10 };
+  const phrase = q.phrases.length > 0 && q.phrases.some((x) => fold(title).includes(x));
+  const score = phrase ? 0.95 : Math.min(0.98, 0.58 + (hits / Math.max(2, q.stems.size)) * 0.4);
+  return { score, hits: phrase ? Math.max(2, hits) : hits, size: q.stems.size, specific: q.specific };
 }
 
 // One shared generic keyword is not enough to tie a document to a recommendation. A profile
