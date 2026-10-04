@@ -3,7 +3,7 @@ import { Box, Container, Stack, Typography } from "@mui/material";
 
 export function SiteFooter() {
   return (
-    <Box component="footer" sx={{ borderTop: "1px solid", borderColor: "divider", bgcolor: "#fff" }}>
+    <Box component="footer" sx={{ borderTop: "1px solid", borderColor: "divider", bgcolor: "#fff", '& a': { textDecorationColor: 'secondary.main', textUnderlineOffset: '4px' }, '& a:hover': { color: 'secondary.dark' } }}>
       <Container maxWidth="lg" sx={{ py: 3.5 }}>
         <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" spacing={1}>
           <Typography variant="body2" color="text.secondary">Blue Human · Human Rights Commitment Tracker</Typography>

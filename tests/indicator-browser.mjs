@@ -46,6 +46,12 @@ const api=createServer(async(req,res)=>{
     else if(id==='FIXTURE-ERROR'){res.writeHead(503);return res.end('{}');}
     else {result=b;if(!args.p_all_history)result.values=result.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);}
   } else if(url.pathname.includes('hrct_public_commitments')) result=[{id:'fixture-rec',public_id:url.searchParams.get('public_id')?.slice(3)||'FIXTURE-MULTI',title:'PRUEBA AISLADA · Datos sintéticos',original_text:'Fixture sintética, nunca producción.',country_iso2:'ES',country_name:'España',country_slug:'spain',mechanism_code:'UPR',mechanism_name:'EPU, cuarto ciclo',recommendation_number:'TEST',assessment_status:'not_assessed',acceptance_status:'accepted',published_at:'2026-01-01'}];
+  else if(url.searchParams.get('public_id')==='eq.FIXTURE-MULTI') {
+    if(url.pathname.includes('hrct_public_evidence'))result=[{id:'test-evidence',evidence_type:'official_report',source_title:'Fuente documental sintética',source_url:'https://example.test/evidence',finding:'Conclusión documental de prueba.',reviewed_at:'2026-01-01'}];
+    else if(url.pathname.includes('hrct_public_human_security'))result=[{code:'economic',name:'Seguridad económica',is_primary:true,rationale:'Justificación de seguridad humana sintética.'}];
+    else if(url.pathname.includes('hrct_public_assessment_history'))result=[{id:'test-assessment-old',status:'limited_progress',is_current:false,rationale:'Valoración anterior sintética.',published_at:'2024-01-01'}, {id:'test-assessment-current',status:'not_assessed',is_current:true,published_at:'2026-01-01'}];
+    else if(url.pathname.includes('hrct_public_monitoring'))result=['supports_need','supports_progress','contradicts_progress'].map((relation,n)=>({id:`test-monitoring-${n}`,public_id:'FIXTURE-MULTI',title:`Seguimiento sintético ${n}`,kind:'news',relation,url:'https://example.test/news',summary:'Resumen sintético.',status:'reviewed',published_at:'2026-01-01'}));
+  }
   res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify(result));
 });
 try {
@@ -55,7 +61,12 @@ try {
   const apiPort=api.address().port;
   const socket=createServer();await new Promise(r=>socket.listen(0,'127.0.0.1',r));const webPort=socket.address().port;await new Promise(r=>socket.close(r));
   let logs='';
-  next=spawn(process.execPath,[join(project,'node_modules/next/dist/bin/next'),'dev','--hostname','127.0.0.1','--port',String(webPort)],{cwd:sandbox,env:{PATH:process.env.PATH,HOME:process.env.HOME,NODE_ENV:'development',NEXT_TELEMETRY_DISABLED:'1',NEXT_PUBLIC_SUPABASE_URL:`http://127.0.0.1:${apiPort}`,NEXT_PUBLIC_SUPABASE_ANON_KEY:'TEST-synthetic-key',ADMIN_USER:'',ADMIN_PASSWORD:'',SUPABASE_SERVICE_ROLE_KEY:''},stdio:['ignore','pipe','pipe']});
+  const environment={PATH:process.env.PATH,HOME:process.env.HOME,NODE_ENV:'production',NEXT_TELEMETRY_DISABLED:'1',NEXT_PUBLIC_SUPABASE_URL:`http://127.0.0.1:${apiPort}`,NEXT_PUBLIC_SUPABASE_ANON_KEY:'TEST-synthetic-key',ADMIN_USER:'',ADMIN_PASSWORD:'',SUPABASE_SERVICE_ROLE_KEY:''};
+  // Compile once, then test the deployed rendering mode without keeping a dev compiler in memory.
+  const build=spawn(process.execPath,[join(project,'node_modules/next/dist/bin/next'),'build'],{cwd:sandbox,env:environment,stdio:['ignore','pipe','pipe']});
+  build.stdout.on('data',chunk=>logs+=chunk);build.stderr.on('data',chunk=>logs+=chunk);
+  assert.equal(await new Promise(r=>build.on('exit',r)),0,logs);
+  next=spawn(process.execPath,[join(project,'node_modules/next/dist/bin/next'),'start','--hostname','127.0.0.1','--port',String(webPort)],{cwd:sandbox,env:environment,stdio:['ignore','pipe','pipe']});
   next.stdout.on('data',chunk=>logs+=chunk);next.stderr.on('data',chunk=>logs+=chunk);
   const base=`http://127.0.0.1:${webPort}`;
   for(let n=0;n<100;n++){try{await fetch(base);break;}catch{await new Promise(r=>setTimeout(r,300));}if(n===99)throw new Error(logs);}
@@ -70,9 +81,30 @@ try {
   assert.equal(await page.evaluate(()=>{
     const indicators=document.querySelector('section[aria-labelledby="indicators-heading"]');
     const assessment=[...document.querySelectorAll('h4')].find(h=>h.textContent==='Valoración del cumplimiento');
-    return !!(indicators.compareDocumentPosition(assessment)&Node.DOCUMENT_POSITION_FOLLOWING);
+    return !!(assessment.compareDocumentPosition(indicators)&Node.DOCUMENT_POSITION_FOLLOWING);
   }),true);
+  const recordNavigation=page.getByRole('navigation',{name:'Secciones de la recomendación'});
+  assert.equal(await recordNavigation.getByRole('link').count(),3);
+  assert.equal(await recordNavigation.getByRole('link',{name:'Indicadores',exact:true}).getAttribute('href'),'#indicadores');
+  const official=page.locator('summary').filter({hasText:'Texto oficial de Naciones Unidas'});
+  await official.focus();await page.keyboard.press('Enter');
+  assert.equal(await official.locator('..').getByText('Fixture sintética, nunca producción.',{exact:true}).isVisible(),true);
+  await page.keyboard.press('Enter');
+  assert.equal(await official.locator('..').getByText('Fixture sintética, nunca producción.',{exact:true}).isVisible(),false);
+  assert.equal(await page.locator('#valoracion').isVisible(),true);
+  assert.equal(await page.getByText('Fuente documental sintética',{exact:true}).isVisible(),true);
+  const dimensions=page.locator('summary').filter({hasText:'Dimensiones de seguridad humana'});
+  await dimensions.click();assert.equal(await page.getByText('Justificación de seguridad humana sintética.',{exact:true}).isVisible(),true);
+  const followup=page.locator('summary').filter({hasText:'Actualidad y contexto'});
+  await followup.click();
+  for(const title of ['Por qué sigue siendo pertinente','Posibles avances en el cumplimiento','Novedades en sentido contrario'])assert.equal(await page.getByRole('heading',{name:title,exact:true}).isVisible(),true);
+  const history=page.locator('summary').filter({hasText:'Historial de valoraciones'});
+  await history.click();assert.equal(await page.getByText('Valoración anterior sintética.',{exact:true}).isVisible(),true);
+  const header=page.locator('header');
+  assert.equal(await header.evaluate(node=>getComputedStyle(node).borderBottomColor),'rgb(0, 163, 224)');
+  assert.equal(await header.getByRole('link',{name:'Recomendaciones',exact:true}).getAttribute('aria-current'),'location');
   assert.equal(await section.locator('svg circle').count(),3);
+  assert.equal(await section.locator('svg circle').first().evaluate(node=>getComputedStyle(node).fill),'rgb(0, 163, 224)');
   const circle=section.locator('svg circle').first();await circle.focus();
   await section.locator('figcaption').filter({hasText:'Fuente sintética aislada'}).waitFor();
   assert.match(await section.locator('figcaption').textContent(),/Fuente sintética aislada/);

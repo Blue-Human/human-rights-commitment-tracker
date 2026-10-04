@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { AppBar, Box, Button, Container, Stack, Toolbar, Typography } from "@mui/material";
 
 export function SiteHeader() {
+  const pathname = usePathname();
   return (
     <AppBar
       position="sticky"
@@ -11,7 +13,8 @@ export function SiteHeader() {
       sx={{
         bgcolor: "#0a1e33",
         color: "#ffffff",
-        borderBottom: "1px solid rgba(255,255,255,.08)",
+        borderBottom: "2px solid",
+        borderColor: "secondary.main",
       }}
     >
       <Container maxWidth="lg">
@@ -79,9 +82,13 @@ export function SiteHeader() {
                 key={href}
                 component={Link}
                 href={href}
+                aria-current={(href === '/' ? pathname === '/' || pathname.startsWith('/commitments/') : pathname.startsWith(href)) ? (pathname===href?'page':'location') : undefined}
                 sx={{
                   color: "#ffffff",
-                  "&:hover": { bgcolor: "rgba(255,255,255,.06)" },
+                  borderBottom: '2px solid transparent',
+                  '&[aria-current]': { borderBottomColor: 'secondary.main' },
+                  '&.Mui-focusVisible': { outlineColor: 'secondary.main' },
+                  "&:hover": { bgcolor: "rgba(0,163,224,.12)" },
                 }}
               >
                 {label}
@@ -94,7 +101,8 @@ export function SiteHeader() {
               rel="noreferrer"
               sx={{
                 color: "#ffffff",
-                "&:hover": { bgcolor: "rgba(255,255,255,.06)" },
+                '&.Mui-focusVisible': { outlineColor: 'secondary.main' },
+                "&:hover": { bgcolor: "rgba(0,163,224,.12)" },
               }}
             >
               Quiénes somos

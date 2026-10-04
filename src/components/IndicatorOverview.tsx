@@ -23,7 +23,7 @@ export async function IndicatorOverview({featured=false,allHistory=false}:{featu
         if(!indicator||!link)return null;
         const components=card.bundle.components.filter(c=>c.indicator_id===indicator.id&&card.bundle.latest.some(v=>v.component_id===c.id));
         const displayed=featured?components.filter(c=>indicator.code==='RAC-001'?c.code==='known-count':c.code==='default'):components;
-        return <Box key={card.indicator_id} sx={{minWidth:0}}><IndicatorCard indicator={indicator} link={link} bundle={{...card.bundle,components:displayed}} allHistory={allHistory}/><Button component={Link} href={`/commitments/${encodeURIComponent(card.public_id)}#indicators-heading`} sx={{mt:1}}>Ver recomendación {card.public_id.split('-').at(-1)}</Button></Box>;
+        return <Box key={card.indicator_id} sx={{minWidth:0}}><IndicatorCard indicator={indicator} link={link} bundle={{...card.bundle,components:displayed}} allHistory={allHistory}/><Button component={Link} href={`/commitments/${encodeURIComponent(card.public_id)}#indicadores`} sx={{mt:1}}>Ver recomendación {card.public_id.split('-').at(-1)}</Button></Box>;
       })}
     </Box>
     {featured&&<Button component={Link} href="/indicators" variant="outlined" sx={{mt:3}}>Ver todos los datos e históricos</Button>}

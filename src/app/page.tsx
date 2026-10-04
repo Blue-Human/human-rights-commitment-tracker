@@ -28,7 +28,7 @@ export default async function Home() {
       <SiteHeader />
       <Box component="main">
         <Container maxWidth="lg" sx={{ py: { xs: 3, md: 4 } }}>
-          <Typography variant="overline" color="secondary.main">España · Examen Periódico Universal · Cuarto ciclo</Typography>
+          <Typography variant="overline" color="primary.main" sx={{ borderLeft: '3px solid', borderColor: 'secondary.main', pl: 1.5 }}>España · Examen Periódico Universal · Cuarto ciclo</Typography>
           <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "1.95rem", md: "2.7rem" }, mt: 1.2, maxWidth: 940 }}>
             Seguimiento de los compromisos de derechos humanos
           </Typography>
@@ -72,7 +72,18 @@ export default async function Home() {
           </Container>
         </Box>
 
-        <Container maxWidth="lg" sx={{ pt: { xs: 5, md: 7 } }}>
+        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
+          <Box sx={{ mb: 3.5 }}>
+            <Typography variant="overline" color="text.secondary">Registro público</Typography>
+            <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Recomendaciones y valoraciones</Typography>
+            <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
+              Las recomendaciones marcadas como «Valoración pendiente» forman parte del catálogo público, pero todavía no cuentan con una conclusión sobre su cumplimiento. Las que Blue Human sigue como prioritarias aparecen destacadas al principio de la lista.
+            </Typography>
+          </Box>
+          <CommitmentExplorer commitments={commitments} dimensionsById={dimensionsById} monitoringCounts={monitoringCounts} />
+        </Container>
+
+        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, borderTop: '1px solid', borderColor: 'divider' }}>
           <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" alignItems={{ md: "flex-end" }} spacing={2} sx={{ mb: 3 }}>
             <Box>
               <Typography variant="overline" color="text.secondary">Seguimiento de la actualidad</Typography>
@@ -87,17 +98,6 @@ export default async function Home() {
           </Stack>
           <MonitoringList items={developments.slice(0, 4)} numbers={numbers} empty="Todavía no se ha publicado ninguna novedad." />
           <Button component={Link} href="/monitoring" sx={{ mt: 1.5, px: 0 }}>Ver todas las novedades</Button>
-        </Container>
-
-        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
-          <Box sx={{ mb: 3.5 }}>
-            <Typography variant="overline" color="text.secondary">Registro público</Typography>
-            <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Recomendaciones y valoraciones</Typography>
-            <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
-              Las recomendaciones marcadas como «Valoración pendiente» forman parte del catálogo público, pero todavía no cuentan con una conclusión sobre su cumplimiento. Las que Blue Human sigue como prioritarias aparecen destacadas al principio de la lista.
-            </Typography>
-          </Box>
-          <CommitmentExplorer commitments={commitments} dimensionsById={dimensionsById} monitoringCounts={monitoringCounts} />
         </Container>
       </Box>
 

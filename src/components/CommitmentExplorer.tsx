@@ -29,8 +29,8 @@ const dimensionNames: Record<string, string> = {
 // The full catalogue is long: the list grows on request instead of rendering every record at once.
 const PAGE_SIZE = 40;
 
-// A priority row is a tinted band with a navy edge; it extends into the page gutter so its columns stay aligned with the rest.
-const priorityRow = { mx: -2, px: 2, bgcolor: "#f7f8f9", boxShadow: "inset 3px 0 0 #0a1e33" };
+// A priority row keeps its text aligned, with a restrained brand accent in the gutter.
+const priorityRow = { mx: -2, px: 2, bgcolor: "rgba(0,163,224,.04)", boxShadow: "inset 3px 0 0 #00a3e0" };
 
 export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
   const [query, setQuery] = useState("");
