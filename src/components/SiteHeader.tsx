@@ -30,6 +30,7 @@ export function SiteHeader() {
             component={Link}
             href="/"
             spacing={0.35}
+            alignItems="flex-start"
             sx={{
               color: "inherit",
               textDecoration: "none",

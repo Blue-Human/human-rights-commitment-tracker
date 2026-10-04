@@ -4,6 +4,7 @@ import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { MonitoringList } from "@/components/MonitoringList";
+import { PriorityTag } from "@/components/PriorityTag";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
@@ -39,12 +40,13 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
       <Box component="main">
         <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
           <Button component={Link} href="/" startIcon={<ArrowBackRoundedIcon />} sx={{ mb: 3, px: 0 }}>Volver a las recomendaciones</Button>
-          <Typography variant="overline" color="primary.main">España · EPU, cuarto ciclo · Recomendación {commitment.recommendation_number}</Typography>
+          <Typography variant="overline" color="primary.main" sx={{ display: "block" }}>España · EPU, cuarto ciclo · Recomendación {commitment.recommendation_number}</Typography>
           <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>
             {commitment.title}
           </Typography>
           <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 900, lineHeight: 1.75 }}>{commitment.normalized_summary || commitment.original_text}</Typography>
-          <Stack direction="row" spacing={2.25} flexWrap="wrap" useFlexGap sx={{ mt: 2.5 }}>
+          <Stack direction="row" spacing={2.25} alignItems="center" flexWrap="wrap" useFlexGap sx={{ mt: 2.5 }}>
+            {commitment.is_priority && <PriorityTag />}
             <StatusChip status={commitment.assessment_status} />
             <Typography variant="caption" color="text.secondary">{labelOf(acceptanceLabels, commitment.acceptance_status)}</Typography>
             <Typography variant="caption" color="text.secondary">{commitment.public_id}</Typography>

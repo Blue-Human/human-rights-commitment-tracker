@@ -26,6 +26,8 @@ export type Commitment = {
   methodology_url: string | null;
   // True while the current assessment awaits final confirmation by Blue Human.
   assessment_provisional?: boolean | null;
+  // Marked by Blue Human as a priority: highlighted and listed first.
+  is_priority?: boolean | null;
 };
 
 export type Evidence = {

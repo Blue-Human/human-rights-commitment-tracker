@@ -43,6 +43,13 @@ export async function confirmAssessment(form: FormData) {
   refresh(publicId);
 }
 
+// Priorities are highlighted and listed first on the public site.
+export async function setPriority(form: FormData) {
+  await requireAdmin();
+  await adminPatch("commitments", text(form, "id"), { is_priority: text(form, "priority") === "true" });
+  refresh(text(form, "public_id"));
+}
+
 export async function resolveProposal(form: FormData) {
   await requireAdmin();
   const publicId = text(form, "public_id");
