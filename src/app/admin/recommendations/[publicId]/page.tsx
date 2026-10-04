@@ -5,11 +5,12 @@ import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Divider, Stack, TextField, Typography } from "@mui/material";
 import { AdminFrame, AdminSection } from "@/components/AdminFrame";
 import { AdminItemRow } from "@/components/AdminItemRow";
+import { PriorityTag } from "@/components/PriorityTag";
 import { StatusChip } from "@/components/StatusChip";
 import { getRecommendation, listEvidence, listItemsFor, listProposals } from "@/lib/admin/db";
 import { requireAdmin } from "@/lib/admin/session";
 import { confidenceLabels, evidenceTypeLabels, formatDate, labelOf, splitRationale, statusLabels } from "@/lib/hrct";
-import { confirmAssessment, resolveProposal, reviewEvidence, setAssessment } from "../../actions";
+import { confirmAssessment, resolveProposal, reviewEvidence, setAssessment, setPriority } from "../../actions";
 
 export const metadata: Metadata = { title: "Gestionar recomendación | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
 
@@ -27,8 +28,15 @@ export default async function ManageRecommendation({ params }: { params: Promise
   return (
     <AdminFrame title={`Recomendación ${rec.recommendation_number}`} intro={rec.title}>
       <Stack direction="row" spacing={2} alignItems="center" flexWrap="wrap" useFlexGap>
+        {rec.is_priority && <PriorityTag />}
         <StatusChip status={rec.assessment_status} />
         {assessed && <Typography variant="caption" color="text.secondary">{rec.assessment_provisional ? "Pendiente de confirmación final" : "Confirmada"} · {formatDate(rec.assessment_date)}</Typography>}
+        <form action={setPriority}>
+          <input type="hidden" name="id" value={rec.id} />
+          <input type="hidden" name="public_id" value={rec.public_id} />
+          <input type="hidden" name="priority" value={String(!rec.is_priority)} />
+          <Button type="submit" variant="outlined" size="small">{rec.is_priority ? "Quitar prioridad" : "Marcar como prioritaria"}</Button>
+        </form>
         <Button component={Link} href={`/commitments/${encodeURIComponent(rec.public_id)}`} size="small">Ver página pública</Button>
       </Stack>
       <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5, maxWidth: 860, lineHeight: 1.7 }}>{rec.original_text}</Typography>

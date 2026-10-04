@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Box, Button, Divider, Stack, Typography } from "@mui/material";
 import { AdminFrame, AdminSection } from "@/components/AdminFrame";
+import { PriorityTag } from "@/components/PriorityTag";
 import { StatusChip } from "@/components/StatusChip";
 import { listItemsPending, listProposals, listRecommendations, listReviewLog } from "@/lib/admin/db";
 import { requireAdmin } from "@/lib/admin/session";
 import { confidenceLabels, formatDate, labelOf } from "@/lib/hrct";
-import { resolveProposal } from "./actions";
+import { resolveProposal, setPriority } from "./actions";
 
 export const metadata: Metadata = { title: "Administración | Human Rights Commitment Tracker", robots: { index: false, follow: false } };
 
@@ -30,6 +31,7 @@ export default async function AdminHome() {
           [proposals.length, "Propuestas como cumplidas, a la espera de tu decisión"],
           [provisional.length, "Valoraciones pendientes de confirmación final"],
           [pendingItems.length, "Novedades de seguimiento por revisar"],
+          [recommendations.filter((r) => r.is_priority).length, "Recomendaciones prioritarias"],
           [recommendations.length, "Recomendaciones"],
         ].map(([value, label]) => (
           <Box key={String(label)}>
@@ -68,17 +70,26 @@ export default async function AdminHome() {
         </Stack>
       </AdminSection>
 
-      <AdminSection title="Recomendaciones">
+      <AdminSection title="Recomendaciones" note="Las recomendaciones que marcas como prioritarias aparecen destacadas y al principio de la lista pública.">
         <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {recommendations.map((r, index) => (
             <Stack key={r.public_id} direction={{ xs: "column", md: "row" }} spacing={{ xs: .6, md: 2.5 }} alignItems={{ md: "center" }}
               sx={{ py: 1.3, borderTop: index ? "1px solid" : "none", borderColor: "divider" }}>
               <Typography color="primary.main" sx={{ width: { md: 56 }, fontWeight: 500, flexShrink: 0 }}>{r.recommendation_number}</Typography>
-              <Typography variant="body2" sx={{ flex: 1, minWidth: 0 }}>{r.title}</Typography>
+              <Stack direction="row" spacing={1.25} alignItems="center" sx={{ flex: 1, minWidth: 0 }}>
+                <Typography variant="body2" sx={{ minWidth: 0 }}>{r.title}</Typography>
+                {r.is_priority && <PriorityTag />}
+              </Stack>
               <Box sx={{ width: { md: 190 }, flexShrink: 0 }}><StatusChip status={r.assessment_status} /></Box>
               <Typography variant="caption" color="text.secondary" sx={{ width: { md: 170 }, flexShrink: 0 }}>
                 {r.assessment_status === "not_assessed" ? "" : r.assessment_provisional ? "Pendiente de confirmación final" : "Confirmada"}
               </Typography>
+              <Box component="form" action={setPriority} sx={{ width: { md: 170 }, flexShrink: 0 }}>
+                <input type="hidden" name="id" value={r.id} />
+                <input type="hidden" name="public_id" value={r.public_id} />
+                <input type="hidden" name="priority" value={String(!r.is_priority)} />
+                <Button type="submit" size="small" sx={{ px: 0 }}>{r.is_priority ? "Quitar prioridad" : "Marcar como prioritaria"}</Button>
+              </Box>
               <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(r.public_id)}`} size="small" sx={{ flexShrink: 0 }}>Gestionar</Button>
             </Stack>
           ))}

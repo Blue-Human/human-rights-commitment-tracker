@@ -29,6 +29,7 @@ export type AdminRecommendation = {
   id: string; public_id: string; recommendation_number: string | null; title: string; original_text: string;
   acceptance_status: string | null; assessment_status: string | null; assessment_confidence: string | null;
   assessment_rationale: string | null; assessment_date: string | null; assessment_provisional: boolean | null;
+  is_priority: boolean;
 };
 
 export type Proposal = {
@@ -63,12 +64,12 @@ export type Feed = {
 const byNumber = (n: string | null) => Number((n || "").split(".").pop()) || 0;
 
 export async function listRecommendations() {
-  const rows = await adminRest<AdminRecommendation[]>("hrct_public_commitments?select=id,public_id,recommendation_number,title,original_text,acceptance_status,assessment_status,assessment_confidence,assessment_rationale,assessment_date,assessment_provisional");
+  const rows = await adminRest<AdminRecommendation[]>("hrct_public_commitments?select=id,public_id,recommendation_number,title,original_text,acceptance_status,assessment_status,assessment_confidence,assessment_rationale,assessment_date,assessment_provisional,is_priority");
   return rows.sort((a, b) => byNumber(a.recommendation_number) - byNumber(b.recommendation_number));
 }
 
 export async function getRecommendation(publicId: string) {
-  const rows = await adminRest<AdminRecommendation[]>(`hrct_public_commitments?select=id,public_id,recommendation_number,title,original_text,acceptance_status,assessment_status,assessment_confidence,assessment_rationale,assessment_date,assessment_provisional&public_id=eq.${encodeURIComponent(publicId)}&limit=1`);
+  const rows = await adminRest<AdminRecommendation[]>(`hrct_public_commitments?select=id,public_id,recommendation_number,title,original_text,acceptance_status,assessment_status,assessment_confidence,assessment_rationale,assessment_date,assessment_provisional,is_priority&public_id=eq.${encodeURIComponent(publicId)}&limit=1`);
   return rows[0] ?? null;
 }
 

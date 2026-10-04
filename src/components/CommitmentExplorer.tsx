@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem, Paper, Select, Stack, TextField, Typography } from "@mui/material";
 import { acceptanceLabels, statusLabels, type Commitment } from "@/lib/hrct";
+import { PriorityTag } from "./PriorityTag";
 import { StatusChip } from "./StatusChip";
 
 type Props = {
@@ -28,19 +29,26 @@ const dimensionNames: Record<string, string> = {
 // The full catalogue is long: the list grows on request instead of rendering every record at once.
 const PAGE_SIZE = 40;
 
+// A priority row is a tinted band with a navy edge; it extends into the page gutter so its columns stay aligned with the rest.
+const priorityRow = { mx: -2, px: 2, bgcolor: "#f7f8f9", boxShadow: "inset 3px 0 0 #0a1e33" };
+
 export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
   const [acceptance, setAcceptance] = useState("all");
   const [dimension, setDimension] = useState("all");
-  const filterKey = `${query}|${status}|${acceptance}|${dimension}`;
+  const [priorityOnly, setPriorityOnly] = useState(false);
+  const filterKey = `${query}|${status}|${acceptance}|${dimension}|${priorityOnly}`;
   const [expanded, setExpanded] = useState({ key: filterKey, count: PAGE_SIZE });
   const shown = expanded.key === filterKey ? expanded.count : PAGE_SIZE;
 
+  const priorityCount = useMemo(() => commitments.filter((c) => c.is_priority).length, [commitments]);
+
+  // Priorities come first; within each group the catalogue order is kept.
   const visible = useMemo(() => commitments.filter((c) => {
     const text = `${c.public_id} ${c.recommendation_number ?? ""} ${c.title} ${c.original_text} ${c.country_name}`.toLowerCase();
-    return text.includes(query.toLowerCase()) && (status === "all" || c.assessment_status === status) && (acceptance === "all" || c.acceptance_status === acceptance) && (dimension === "all" || (dimensionsById[c.public_id] || []).includes(dimension));
-  }), [commitments, query, status, acceptance, dimension, dimensionsById]);
+    return text.includes(query.toLowerCase()) && (status === "all" || c.assessment_status === status) && (acceptance === "all" || c.acceptance_status === acceptance) && (dimension === "all" || (dimensionsById[c.public_id] || []).includes(dimension)) && (!priorityOnly || !!c.is_priority);
+  }).sort((a, b) => Number(!!b.is_priority) - Number(!!a.is_priority)), [commitments, query, status, acceptance, dimension, priorityOnly, dimensionsById]);
 
   return (
     <Stack spacing={2.25}>
@@ -77,8 +85,15 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
         </Stack>
       </Paper>
 
-      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={.5}>
-        <Typography variant="body2" color="text.secondary">{visible.length} {visible.length === 1 ? "recomendación" : "recomendaciones"}</Typography>
+      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" alignItems={{ sm: "center" }} spacing={1}>
+        <Stack direction="row" spacing={2} alignItems="center" flexWrap="wrap" useFlexGap>
+          <Typography variant="body2" color="text.secondary">{visible.length} {visible.length === 1 ? "recomendación" : "recomendaciones"}</Typography>
+          {priorityCount > 0 && (
+            <Button size="small" variant={priorityOnly ? "contained" : "outlined"} aria-pressed={priorityOnly} onClick={() => setPriorityOnly(!priorityOnly)}>
+              Solo prioritarias ({priorityCount})
+            </Button>
+          )}
+        </Stack>
         <Typography variant="caption" color="text.secondary">Consejo de Derechos Humanos de la ONU · A/HRC/60/8</Typography>
       </Stack>
 
@@ -86,14 +101,15 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
         {visible.slice(0, shown).map((c, index) => (
           <Box key={c.id}>
             {index > 0 && <Divider />}
-            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 } }}>
+            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 }, ...(c.is_priority && priorityRow) }}>
               <Box sx={{ width: { md: 92 }, flexShrink: 0 }}>
                 <Typography variant="caption" color="text.secondary">Recomendación</Typography>
                 <Typography color="primary.main" sx={{ mt: .25, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
               </Box>
 
               <Box sx={{ flex: 1, minWidth: 0 }}>
-                <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mb: .9 }}>
+                <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap sx={{ mb: .9 }}>
+                  {c.is_priority && <PriorityTag />}
                   <StatusChip status={c.assessment_status} />
                   <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
                     {c.acceptance_status ? `${acceptanceLabels[c.acceptance_status] || c.acceptance_status} por España` : "Respuesta del Estado pendiente"}
