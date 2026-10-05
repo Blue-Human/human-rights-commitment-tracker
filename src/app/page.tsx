@@ -37,7 +37,7 @@ export default async function Home() {
           <EpuResults total={commitments.length} accepted={accepted} partiallyAccepted={partiallyAccepted} noted={noted} assessed={assessed} priority={priority} developments={developments.length} />
 
           {dimensions.length > 0 && (
-            <Container id="seguridad-humana" component="section" aria-labelledby="human-security-heading" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, scrollMarginTop: { xs: 120, md: 72 } }}>
+            <Container id="seguridad-humana" component="section" aria-labelledby="human-security-heading" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, scrollMarginTop: { xs: 58, md: 72 } }}>
               <Box sx={{ mb: 2 }}>
                 <Typography variant="overline" color="text.secondary">Seguridad humana</Typography>
                 <Typography id="human-security-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>A qué seguridad afectan las recomendaciones</Typography>
@@ -46,7 +46,7 @@ export default async function Home() {
             </Container>
           )}
 
-          <Container id="recomendaciones" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, borderTop: "1px solid", borderColor: "divider", scrollMarginTop: { xs: 120, md: 72 } }}>
+          <Container id="recomendaciones" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, borderTop: "1px solid", borderColor: "divider", scrollMarginTop: { xs: 58, md: 72 } }}>
             <Box sx={{ mb: 3.5 }}>
               <Typography variant="overline" color="text.secondary">Registro público</Typography>
               <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Recomendaciones y valoraciones</Typography>

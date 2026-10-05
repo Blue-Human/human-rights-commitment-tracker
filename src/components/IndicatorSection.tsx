@@ -1,6 +1,7 @@
 'use client';
-import { useId, useState } from 'react';
+import { useCallback, useId, useState } from 'react';
 import { Alert, Box, Button, Card, CardContent, Chip, FormControl, InputLabel, NativeSelect, Skeleton, Stack, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material';
+import type { Theme } from '@mui/material/styles';
 import type { Component, Indicator, IndicatorBundle, IndicatorLink, Observation } from '@/lib/indicators/types';
 import { connects, interpretation, isStale, number, orderPoints, periodLabel, scopeKey, scopeLabel, seriesId, tableRows, target, valueLabel } from '@/lib/indicators/series';
 import { formatDate } from '@/lib/hrct';
@@ -10,12 +11,38 @@ const types: Record<string,string> = { structural:'Estructural',process:'Proceso
 const frequencies: Record<string,string> = { annual:'Anual',biennial:'Bienal',quarterly:'Trimestral',monthly:'Mensual',irregular:'Irregular' };
 const hint = (v: Observation,c: Component) => `${periodLabel(v,c.frequency)} · ${valueLabel(v)} · ${scopeLabel(v.scope)} · ${v.source_title} · Revisado por Blue Human`;
 
+const columns=['Periodo','Valor','Fuente y publicación','Revisión y comparabilidad'];
+// Four columns do not fit a phone: there each observation becomes a block and each cell carries the name of its column.
+// The roles on the table keep it a table for screen readers once its rows stop being laid out as one.
+const stackedTable=(theme:Theme)=>({mt:1,[theme.breakpoints.down('sm')]:{
+  overflowX:'visible','& table, & caption, & tbody, & tr, & th, & td':{display:'block'},
+  '& thead':{position:'absolute',width:'1px',height:'1px',overflow:'hidden',clipPath:'inset(50%)',whiteSpace:'nowrap'},
+  '& table caption':{px:0,pt:0},
+  '& tbody tr':{py:1.5,borderTop:'1px solid',borderColor:'divider'},
+  '& tbody th, & td':{p:0,border:0,overflowWrap:'anywhere'},
+  '& tbody th':{fontSize:'1rem',fontWeight:600,color:'primary.main'},
+  '& td':{mt:1},
+  '& td[data-label]::before':{content:'attr(data-label)',display:'block',mb:.25,color:'text.secondary',fontSize:'.7rem',fontWeight:600,letterSpacing:'.09em',textTransform:'uppercase'},
+}});
+
+// Widest drawing of a chart, in SVG units; narrower containers get a narrower drawing of the same height.
+const WIDE=440,NARROW=260,CHART_HEIGHT=220;
+
 function Chart({ values,component,marker,allHistory }: { values:Observation[];component:Component;marker:{value:number;upper:number|null;date:string}|null;allHistory:boolean }) {
   const captionId = useId();
   const [active,setActive] = useState<Observation|null>(null);
+  // The drawing takes the width it is given, so its text keeps its size on a phone instead of shrinking with the chart.
+  const [available,setAvailable] = useState(WIDE);
+  const frame = useCallback((node:HTMLDivElement|null)=>{
+    if(!node)return;
+    const observer=new ResizeObserver(([entry])=>setAvailable(entry.contentRect.width));
+    observer.observe(node);
+    return ()=>observer.disconnect();
+  },[]);
   const points = orderPoints(values), numeric = points.filter(v=>v.numeric_value!==null);
   if (!numeric.length) return <Box sx={{bgcolor:'background.default',p:1.5}}><Typography color="text.secondary" variant="body2">{values.length ? 'Sin valores numéricos disponibles en este periodo.' : 'Sin mediciones publicadas en este periodo.'}</Typography></Box>;
-  const width=440,height=220,left=65,right=25,top=25,bottom=50;
+  const width=Math.max(NARROW,Math.min(WIDE,Math.round(available))),compact=width<400;
+  const height=CHART_HEIGHT,left=compact?54:65,right=compact?14:25,top=25,bottom=50;
   const time = (date:string) => new Date(`${date}T00:00:00Z`).getTime();
   const times = points.map(v=>time(v.period_start));
   const currentYear=Number(new Intl.DateTimeFormat('en',{year:'numeric',timeZone:'Europe/Madrid'}).format(new Date()));
@@ -31,8 +58,13 @@ function Chart({ values,component,marker,allHistory }: { values:Observation[];co
   const magnitude=Math.max(...numbers.map(Math.abs)),scale=magnitude>=1e9?1e9:magnitude>=1e6?1e6:magnitude>=1e4?1e3:1;
   const scaleLabel=scale===1e9?' (miles de millones)':scale===1e6?' (millones)':scale===1e3?' (miles)':'';
   const ticks = numeric.filter((_,i)=>i===0 || i===numeric.length-1 || numeric.length<=4);
+  // In a narrow drawing a period label on the lower row can land on a year of the range: that year then gives way.
+  const crowded=(year:number)=>ticks.some((v,index)=>index%2===1 && Math.abs(x(v.period_start)-(x(`${year}-01-01`)+(year===currentYear?-12:12)))<28);
+  // A finger cannot hit a 5-unit point: each one answers to a band of the plot around it, as wide as its neighbours allow.
+  const positions=[...new Set(numeric.map(v=>x(v.period_start)))].sort((a,b)=>a-b);
+  const reach=Math.min(22,...positions.slice(1).map((position,i)=>(position-positions[i])/2));
   return <Box component="figure" sx={{m:0,my:2}}>
-    <Box sx={theme=>({overflowX:'auto',color:'primary.main','& svg':{width:'100%',minWidth:300,height:'auto'},'& .point':{fill:theme.palette.secondary.main,stroke:theme.palette.primary.main,strokeWidth:1.5},'& .point:focus':{outline:'none',strokeWidth:4,stroke:'currentColor'}})}>
+    <Box ref={frame} sx={theme=>({containerType:'inline-size',color:'primary.main','& svg':{display:'block',width:'100%',height:'auto'},[`@container (max-width:${WIDE-.02}px)`]:{'& svg':{height:CHART_HEIGHT}},'& .point':{fill:theme.palette.secondary.main,stroke:theme.palette.primary.main,strokeWidth:1.5},'& .point:focus, & .point.active':{outline:'none',strokeWidth:4,stroke:'currentColor'},'& .reach':{fill:'transparent',cursor:'pointer'}})}>
       <svg viewBox={`0 0 ${width} ${height}`} role="group" aria-label={`Evolución de ${component.label}, unidad ${component.unit}. Cada punto permite consultar sus datos con el teclado.`} aria-describedby={captionId}>
         <text x={left} y={14} fill="currentColor" fontSize="11">{component.unit}{scaleLabel}</text>
         {[min,(min+max)/2,max].map((tick,index)=><g key={index}><line x1={left} x2={width-right} y1={y(tick)} y2={y(tick)} stroke="currentColor" opacity=".15"/><text x={left-8} y={y(tick)+4} textAnchor="end" fill="currentColor" fontSize="11">{number(tick/scale)}</text></g>)}
@@ -41,16 +73,18 @@ function Chart({ values,component,marker,allHistory }: { values:Observation[];co
         {component.visualization === 'bar' && <line x1={left} x2={width-right} y1={y(0)} y2={y(0)} stroke="currentColor"/>}
         {markerVisible && <g>{marker.upper!==null&&<line x1={left} x2={width-right} y1={y(marker.upper)} y2={y(marker.upper)} stroke="currentColor" strokeDasharray="4 4"/>}<line x1={left} x2={width-right} y1={y(marker.value)} y2={y(marker.value)} stroke="currentColor" strokeDasharray="4 4"/><text x={x(marker.date)} y={Math.max(12,y(marker.value)-6)} textAnchor="end" fontSize="11" fill="currentColor">Meta · {marker.date}</text></g>}
         {component.visualization!=='bar' && points.map((v,i)=>i>0 && connects(points[i-1],v,component.frequency) ? <line key={`line-${v.id}`} x1={x(points[i-1].period_start)} x2={x(v.period_start)} y1={y(points[i-1].numeric_value!)} y2={y(v.numeric_value!)} stroke="currentColor" strokeWidth="2"/> : null)}
+        {active && active.numeric_value!==null && <line x1={x(active.period_start)} x2={x(active.period_start)} y1={top} y2={height-bottom} stroke="currentColor" opacity=".35" strokeDasharray="2 3"/>}
+        {numeric.map(v=><rect key={`reach-${v.id}`} className="reach" aria-hidden x={x(v.period_start)-reach} y={top} width={2*reach} height={height-top-bottom} onClick={()=>setActive(v)} onMouseEnter={()=>setActive(v)}/>)}
         {numeric.map(v=><g key={v.id}>
           {component.visualization==='bar' && <rect x={x(v.period_start)-Math.min(14,120/numeric.length)} y={Math.min(y(v.numeric_value!),y(0))} width={Math.min(28,240/numeric.length)} height={Math.max(1,Math.abs(y(0)-y(v.numeric_value!)))} fill="currentColor" opacity=".55"/>}
-          <circle className="point" cx={x(v.period_start)} cy={y(v.numeric_value!)} r="5" fill="currentColor" tabIndex={0} role="button" aria-label={hint(v,component)} onFocus={()=>setActive(v)} onMouseEnter={()=>setActive(v)} onClick={()=>setActive(v)} onKeyDown={event=>{if(event.key==='Enter'||event.key===' ') {event.preventDefault();setActive(v);}}}><title>{hint(v,component)}</title></circle>
+          <circle className={active?.id===v.id?'point active':'point'} cx={x(v.period_start)} cy={y(v.numeric_value!)} r="5" fill="currentColor" tabIndex={0} role="button" aria-label={hint(v,component)} onFocus={()=>setActive(v)} onMouseEnter={()=>setActive(v)} onClick={()=>setActive(v)} onKeyDown={event=>{if(event.key==='Enter'||event.key===' ') {event.preventDefault();setActive(v);}}}><title>{hint(v,component)}</title></circle>
         </g>)}
         {ticks.map((v,index)=><text key={v.id} x={x(v.period_start)} y={height-bottom+20+(index%2)*13} textAnchor="middle" fontSize="10" fill="currentColor">{periodLabel(v,component.frequency)}</text>)}
-        {!allHistory && [currentYear-4,currentYear].map(year=><text key={year} x={x(`${year}-01-01`)} y={height-15} textAnchor={year===currentYear-4?'start':'end'} fontSize="10" fill="currentColor">{year}</text>)}
+        {!allHistory && [currentYear-4,currentYear].filter(year=>!crowded(year)).map(year=><text key={year} x={x(`${year}-01-01`)} y={height-15} textAnchor={year===currentYear-4?'start':'end'} fontSize="10" fill="currentColor">{year}</text>)}
         <text x={width-right} y={height-2} textAnchor="end" fontSize="11" fill="currentColor">Periodo de referencia</text>
       </svg>
     </Box>
-    <Typography component="figcaption" id={captionId} aria-live="polite" variant="caption" color="text.secondary" sx={{display:'block',minHeight:36}}>{active ? hint(active,component) : 'Selecciona un punto con el teclado o el cursor para consultar periodo, valor y fuente.'}</Typography>
+    <Typography component="figcaption" id={captionId} aria-live="polite" variant="caption" color="text.secondary" sx={{display:'block',minHeight:36}}>{active ? hint(active,component) : 'Toca o selecciona un punto para consultar periodo, valor y fuente.'}</Typography>
     {numeric.length===1 && <Typography variant="body2" color="text.secondary">Una observación disponible; no se puede calcular tendencia.</Typography>}
   </Box>;
 }
@@ -81,17 +115,17 @@ function Measurement({ component,indicator,link,bundle,allHistory }: {component:
     {scopedTarget && link.target_value!==null ? <Box sx={{mt:1.5}}><Typography variant="body2">Meta: {link.target_operator==='range' ? `${number(link.target_value)}–${number(link.target_upper!)}` : `${link.target_operator} ${number(link.target_value)}`} {link.target_type==='relative' ? '% respecto a la baseline documentada' : component.unit} · plazo {formatDate(link.target_date)}.</Typography><Button component="a" href={link.target_source_url!} target="_blank" rel="noreferrer" size="small">Fuente de la meta</Button><Typography variant="caption" sx={{display:'block'}}>{link.target_citation}</Typography>{goal?.achieved && <Typography variant="body2">✓ Meta cuantitativa alcanzada · periodo {latest && periodLabel(latest,component.frequency)} · {selected && scopeLabel(selected.scope)}</Typography>}</Box> : null}
     {warnings.some(v=>v.break_before) && <Typography variant="caption" color="text.secondary" sx={{display:'block',mt:1}}>Los tramos separados indican rupturas metodológicas. Consulta las notas en la tabla.</Typography>}
     {latest && <Box sx={{mt:1.5}}><Button component="a" href={latest.source_url} target="_blank" rel="noreferrer" sx={{px:0}} size="small">{latest.source_title}</Button><Typography variant="caption" color="text.secondary" sx={{display:'block'}}>Versión de fuente: {formatDate(latest.publication_date)}</Typography></Box>}
-    <Box component="details" sx={{mt:2,'& summary':{cursor:'pointer',color:'primary.main',fontSize:'.9rem',py:1}}}>
+    <Box component="details" sx={{mt:2,'& summary':{cursor:'pointer',color:'primary.main',fontSize:'.9rem',py:1.4}}}>
       <summary>Ver datos y metodología · {component.label}</summary>
       <Typography variant="body2" sx={{my:1}}>{component.definition}</Typography>
       <Typography variant="body2" color="text.secondary">Fórmula: {component.formula||'No especificada'} · Unidad: {component.unit} · Frecuencia: {frequencies[component.frequency]}</Typography>
-      <TableContainer sx={{mt:1}}><Table size="small" aria-label={`Observaciones de ${component.label}`}>
+      <TableContainer sx={stackedTable}><Table size="small" role="table" aria-label={`Observaciones de ${component.label}`}>
         <caption>Datos publicados para {selected?scopeLabel(selected.scope):'la serie seleccionada'}. Las ausencias no son ceros. Las correcciones y fuentes alternativas se conservan en el registro de revisión.</caption>
-        <TableHead><TableRow>{['Periodo','Valor','Fuente y publicación','Revisión y comparabilidad'].map(label=><TableCell key={label} component="th" scope="col">{label}</TableCell>)}</TableRow></TableHead>
-        <TableBody>{tableRows(values,component).map(row=>'gap' in row ? <TableRow key={`gap-${row.gap}`}><TableCell component="th" scope="row">{row.gap}</TableCell><TableCell colSpan={3}>Sin observación para este periodo esperado</TableCell></TableRow> : <TableRow key={row.id}>
-          <TableCell component="th" scope="row">{periodLabel(row,component.frequency)}<Typography variant="caption" sx={{display:'block'}}>{row.period_start} – {row.period_end}</Typography></TableCell>
-          <TableCell>{valueLabel(row)}</TableCell><TableCell><a href={row.source_url} target="_blank" rel="noreferrer">{row.source_title}</a><Typography variant="caption" sx={{display:'block'}}>{row.citation} · Versión de fuente {formatDate(row.publication_date)} · Recuperación {formatDate(row.retrieved_at)}</Typography></TableCell>
-          <TableCell>Revisado {formatDate(row.reviewed_at)} · {row.series_key} · metodología {row.methodology_version}<Typography variant="caption" sx={{display:'block'}}>{row.break_before?'Ruptura metodológica. ':''}{row.comparability_notes} {row.quality_notes} {row.supersedes_id?'Observación corregida. ':''}{row.selection_reason}</Typography></TableCell>
+        <TableHead role="rowgroup"><TableRow role="row">{columns.map(label=><TableCell key={label} component="th" scope="col" role="columnheader">{label}</TableCell>)}</TableRow></TableHead>
+        <TableBody role="rowgroup">{tableRows(values,component).map(row=>'gap' in row ? <TableRow role="row" key={`gap-${row.gap}`}><TableCell component="th" scope="row" role="rowheader">{row.gap}</TableCell><TableCell role="cell" colSpan={3}>Sin observación para este periodo esperado</TableCell></TableRow> : <TableRow role="row" key={row.id}>
+          <TableCell component="th" scope="row" role="rowheader">{periodLabel(row,component.frequency)}<Typography variant="caption" sx={{display:'block'}}>{row.period_start} – {row.period_end}</Typography></TableCell>
+          <TableCell role="cell" data-label={columns[1]}>{valueLabel(row)}</TableCell><TableCell role="cell" data-label={columns[2]}><a href={row.source_url} target="_blank" rel="noreferrer">{row.source_title}</a><Typography variant="caption" sx={{display:'block'}}>{row.citation} · Versión de fuente {formatDate(row.publication_date)} · Recuperación {formatDate(row.retrieved_at)}</Typography></TableCell>
+          <TableCell role="cell" data-label={columns[3]}>Revisado {formatDate(row.reviewed_at)} · {row.series_key} · metodología {row.methodology_version}<Typography variant="caption" sx={{display:'block'}}>{row.break_before?'Ruptura metodológica. ':''}{row.comparability_notes} {row.quality_notes} {row.supersedes_id?'Observación corregida. ':''}{row.selection_reason}</Typography></TableCell>
         </TableRow>)}</TableBody>
       </Table></TableContainer>
     </Box>
@@ -127,7 +161,7 @@ export function IndicatorSection({publicId,initial,initialError=false,initialAll
   const featured=measuredCount?ordered.filter(measured):ordered;
   const withoutData=measuredCount?ordered.filter(link=>!measured(link)):[];
   const visible=expanded ? featured : featured.slice(0,4);
-  return <Box component="section" id="indicadores" aria-labelledby="indicators-heading" sx={{scrollMarginTop:{xs:150,sm:100}}}>
+  return <Box component="section" id="indicadores" aria-labelledby="indicators-heading" sx={{scrollMarginTop:{xs:76,md:100}}}>
     <Stack direction={{xs:'column',sm:'row'}} spacing={2} justifyContent="space-between" alignItems={{sm:'center'}}>
       <Typography id="indicators-heading" variant="h4" color="primary.main">Indicadores y evolución{bundle ? ` · ${bundle.links.length}` : ''}</Typography>
       {!!bundle && (bundle.values.length>0||bundle.latest.length>0||bundle.has_older) && <FormControl size="small" sx={{minWidth:170}}><InputLabel htmlFor={selectorId}>Histórico</InputLabel><NativeSelect id={selectorId} value={all?'all':'recent'} disabled={loading} onChange={event=>void reload(event.target.value==='all')}><option value="recent">Últimos 5 años</option><option value="all">Todo el histórico</option></NativeSelect></FormControl>}
@@ -137,7 +171,7 @@ export function IndicatorSection({publicId,initial,initialError=false,initialAll
     {error ? <Alert severity="warning" action={<Button onClick={()=>void reload(all)}>Reintentar</Button>}>No se pudieron cargar los indicadores. La consulta fallida no indica ausencia de mediciones.</Alert> : loading ? <IndicatorSkeleton/> : bundle && <>
       {bundle.has_older&&!all&&<Typography variant="body2" color="text.secondary" sx={{mb:2}}>También hay datos anteriores. <Button onClick={()=>void reload(true)} size="small">Ver todo el histórico</Button></Typography>}
       {!bundle.links.length && <Box sx={{py:3}}><Typography variant="body2" color="text.secondary">{bundle.requirement==='not_required'?'Esta recomendación se verifica mediante acciones y evidencia documental':'No hay indicadores publicados para esta recomendación.'}</Typography>{bundle.reason && <Typography variant="body2" color="text.secondary" sx={{mt:1}}>{bundle.reason}</Typography>}{bundle.requirement==='not_required'&&<Button component="a" href="#evidencias">Ver evidencias</Button>}</Box>}
-      <Box sx={{display:'grid',gridTemplateColumns:{xs:'1fr',md:(visible?.length||0)>1?'repeat(2,minmax(0,1fr))':'1fr'},gap:2}}>{visible?.map(link=>{const indicator=bundle.indicators.find(i=>i.id===link.indicator_id);return indicator?<IndicatorCard key={link.id} indicator={indicator} link={link} bundle={bundle} allHistory={all}/>:null;})}</Box>
+      <Box sx={{display:'grid',gridTemplateColumns:{xs:'minmax(0,1fr)',md:(visible?.length||0)>1?'repeat(2,minmax(0,1fr))':'minmax(0,1fr)'},gap:2}}>{visible?.map(link=>{const indicator=bundle.indicators.find(i=>i.id===link.indicator_id);return indicator?<IndicatorCard key={link.id} indicator={indicator} link={link} bundle={bundle} allHistory={all}/>:null;})}</Box>
       {featured.length>4 && <Button onClick={()=>setExpanded(!expanded)} sx={{mt:2}}>{expanded?'Mostrar menos':`Ver los ${featured.length-4} indicadores restantes`}</Button>}
       {!!withoutData.length && <Box component="details" sx={{mt:3,'& summary':{cursor:'pointer',color:'primary.main'}}}><summary>Otros indicadores asignados · {withoutData.length} sin mediciones publicadas</summary><Stack spacing={2} sx={{mt:2}}>{withoutData.map(link=>{const indicator=bundle.indicators.find(i=>i.id===link.indicator_id);return indicator?<IndicatorCard key={link.id} indicator={indicator} link={link} bundle={bundle} allHistory={all}/>:null;})}</Stack></Box>}
 

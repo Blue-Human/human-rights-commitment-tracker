@@ -133,6 +133,28 @@ try {
   await page.setViewportSize({width:390,height:844});
   await section.scrollIntoViewIfNeeded();await page.screenshot({path:'/tmp/hrct-indicators-mobile.png'});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true);
+  // On a phone the bar stays one row high and the sections live in a side menu.
+  assert.equal(await header.getByRole('link',{name:'Recomendaciones',exact:true}).count(),0);
+  assert.ok((await header.boundingBox()).height<=64);
+  await header.getByRole('button',{name:'Abrir el menú'}).click();
+  const menu=page.getByRole('dialog',{name:'Menú'});
+  assert.equal(await menu.getByRole('link').count(),6);
+  assert.equal(await menu.getByRole('link',{name:'Recomendaciones',exact:true}).getAttribute('aria-current'),'location');
+  await page.keyboard.press('Escape');await menu.waitFor({state:'detached'});
+  // The chart is drawn at the width of the phone, so its text keeps its size, and a point answers to the band around it.
+  const drawing=section.locator('figure svg').first();
+  await page.waitForFunction(()=>Number(document.querySelector('section[aria-labelledby="indicators-heading"] figure svg').getAttribute('viewBox').split(' ')[2])<=390);
+  const scale=await drawing.evaluate(node=>node.getBoundingClientRect().width/Number(node.getAttribute('viewBox').split(' ')[2]));
+  assert.ok(scale>.94&&scale<1.06,String(scale));
+  await drawing.locator('rect.reach').last().click();
+  assert.match(await section.locator('figcaption').first().textContent(),/Fuente sintética aislada/);
+  assert.equal(await drawing.locator('circle.active').count(),1);
+  // The observations table becomes one block per observation, each cell under the name of its column.
+  await section.locator('summary').filter({hasText:'Ver datos y metodología'}).first().click();
+  const table=section.getByRole('table').first();
+  assert.equal(await table.getByRole('row').nth(1).evaluate(node=>getComputedStyle(node).display),'block');
+  assert.equal(await table.locator('td[data-label]').first().evaluate(node=>getComputedStyle(node,'::before').content),'"Valor"');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true);
   await page.close();
   async function scenario(id) {
     const view=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});

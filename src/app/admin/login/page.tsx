@@ -24,7 +24,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
           )}
           <form action={login}>
             <Stack spacing={2} sx={{ mt: 3 }}>
-              <TextField name="user" label="Usuario" autoComplete="username" required fullWidth />
+              <TextField name="user" label="Usuario" autoComplete="username" required fullWidth slotProps={{ htmlInput: { autoCapitalize: "none", autoCorrect: "off", spellCheck: false } }} />
               <TextField name="password" label="Contraseña" type="password" autoComplete="current-password" required fullWidth />
               {error && <Typography variant="body2" color="error">Usuario o contraseña incorrectos.</Typography>}
               <Button type="submit" variant="contained">Entrar</Button>

@@ -142,18 +142,19 @@ export default async function SdgPage() {
             <Heading id="sdg-matrix-heading" overline="Cruce de marcos" title="Objetivos y seguridad humana">
               Recomendaciones que comparten cada objetivo y cada dimensión de la seguridad humana. Cuanto más oscura la celda, más recomendaciones.
             </Heading>
-            <Box sx={{ position: "relative", overflowX: "auto" }}>
-              <Box component="table" sx={{ width: "100%", minWidth: 820, borderCollapse: "separate", borderSpacing: 2, tableLayout: "fixed", "& th": { fontWeight: 500 } }}>
+            <Typography variant="caption" color="text.secondary" sx={{ display: { xs: "block", md: "none" }, mb: 1.5 }}>Desliza la tabla hacia los lados para ver las ocho dimensiones.</Typography>
+            <Box sx={{ position: "relative", overflowX: "auto", mr: { xs: -2, sm: 0 } }}>
+              <Box component="table" sx={{ width: "100%", minWidth: { xs: 740, sm: 820 }, borderCollapse: "separate", borderSpacing: 2, tableLayout: "fixed", "& th": { fontWeight: 500 } }}>
                 <Box component="thead">
                   <Box component="tr">
-                    <Box component="th" scope="col" sx={{ ...sticky, width: { xs: 168, sm: 250 }, textAlign: "left", verticalAlign: "bottom", pb: 1 }}>
+                    <Box component="th" scope="col" sx={{ ...sticky, width: { xs: 148, sm: 250 }, textAlign: "left", verticalAlign: "bottom", pb: 1 }}>
                       <Typography variant="overline" color="text.secondary">Objetivo</Typography>
                     </Box>
                     {dimensionCodes.map((code) => (
                       <Box component="th" scope="col" key={code} sx={{ verticalAlign: "bottom", pb: 1, color: "primary.main" }}>
                         <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: .75 }}>
                           <DimensionIcon code={code} size={24} />
-                          <Typography component="span" variant="caption" color="text.secondary" sx={{ lineHeight: 1.2 }}><Box component="span" sx={visuallyHidden}>Seguridad </Box>{shortName(code)}</Typography>
+                          <Typography component="span" variant="caption" color="text.secondary" sx={{ fontSize: { xs: ".7rem", sm: ".75rem" }, lineHeight: 1.2 }}><Box component="span" sx={visuallyHidden}>Seguridad </Box>{shortName(code)}</Typography>
                         </Box>
                       </Box>
                     ))}
@@ -168,7 +169,7 @@ export default async function SdgPage() {
                       <Box component="th" scope="row" sx={{ ...sticky, textAlign: "left", p: 0 }}>
                         <Box component={Link} href={`/ods/${goal.number}`} sx={{ display: "grid", gridTemplateColumns: { xs: "40px minmax(0,1fr)", sm: "48px minmax(0,1fr)" }, alignItems: "center", columnGap: { xs: 1, sm: 1.5 }, pr: 1.5, color: "primary.main", textDecoration: "none", "&:hover .sdg-name": { color: brand.accentInk }, "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 2 } }}>
                           <SdgIcon goal={goal} sizes="48px" />
-                          <Typography className="sdg-name" component="span" variant="body2" sx={{ fontWeight: 500, lineHeight: 1.3, transition: "color .15s" }}>{goal.name}</Typography>
+                          <Typography className="sdg-name" component="span" variant="body2" sx={{ fontSize: { xs: ".8rem", sm: ".875rem" }, fontWeight: 500, lineHeight: 1.3, transition: "color .15s" }}>{goal.name}</Typography>
                         </Box>
                       </Box>
                       {dimensionCodes.map((code) => {
@@ -227,9 +228,9 @@ export default async function SdgPage() {
                     {transversal.map(([id, numbers]) => {
                       const c = byId.get(id)!;
                       return (
-                        <Box component="li" key={id} sx={{ py: 1.75, borderBottom: "1px solid", borderColor: "divider" }}>
+                        <Box component="li" key={id} sx={{ py: 1.75, borderBottom: "1px solid", borderColor: "divider", position: "relative", "&:has(a:active)": { bgcolor: { xs: "rgba(0,163,224,.09)", md: "transparent" } } }}>
                           <Typography variant="caption" color="text.secondary">Recomendación {c.recommendation_number} · {numbers.length} objetivos</Typography>
-                          <Typography component={Link} href={`/commitments/${encodeURIComponent(id)}#ods`} color="primary.main" sx={{ display: "block", mt: .25, fontWeight: 500, lineHeight: 1.4, textDecoration: "none", "&:hover": { color: "secondary.dark" } }}>{c.title}</Typography>
+                          <Typography component={Link} href={`/commitments/${encodeURIComponent(id)}#ods`} color="primary.main" sx={{ display: "block", mt: .25, fontWeight: 500, lineHeight: 1.4, textDecoration: "none", "&:hover": { color: "secondary.dark" }, "&::after": { content: '""', position: "absolute", inset: 0, display: { md: "none" } } }}>{c.title}</Typography>
                           {/* Icons in a single row, in their official order. */}
                           <Box sx={{ display: "flex", gap: .75, mt: 1.25 }}>
                             {numbers.map((number) => <Box key={number} sx={{ width: 52 }}><SdgIcon goal={sdgGoal(number)!} sizes="52px" /></Box>)}

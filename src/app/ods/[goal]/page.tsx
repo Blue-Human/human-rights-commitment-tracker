@@ -40,10 +40,10 @@ function Recommendations({ records }: { records: Commitment[] }) {
   return (
     <Stack component="ul" divider={<Divider component="li" flexItem />} sx={{ listStyle: "none", m: 0, p: 0, borderTop: "1px solid", borderColor: "divider" }}>
       {records.map((c) => (
-        <Stack component="li" key={c.public_id} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .5, sm: 2.5 }} sx={{ py: 1.6 }}>
+        <Stack component="li" key={c.public_id} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .5, sm: 2.5 }} sx={{ py: 1.6, position: "relative", "&:has(a:active)": { bgcolor: { xs: "rgba(0,163,224,.09)", md: "transparent" } } }}>
           <Typography variant="body2" color="text.secondary" sx={{ width: { sm: 64 }, flexShrink: 0 }}>{c.recommendation_number || c.public_id}</Typography>
           <Box sx={{ flex: 1, minWidth: 0 }}>
-            <Typography component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}#ods`} color="primary.main" sx={{ fontWeight: 500, textDecoration: "none", transition: "color .15s", "&:hover": { color: "secondary.dark" } }}>
+            <Typography component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}#ods`} color="primary.main" sx={{ fontWeight: 500, textDecoration: "none", transition: "color .15s", "&:hover": { color: "secondary.dark" }, "&::after": { content: '""', position: "absolute", inset: 0, display: { md: "none" } } }}>
               {c.title}
             </Typography>
             <Stack direction="row" spacing={1.5} alignItems="center" flexWrap="wrap" useFlexGap sx={{ mt: .5 }}>
@@ -60,7 +60,7 @@ function Recommendations({ records }: { records: Commitment[] }) {
 
 function Target({ code, text, share, children }: { code: string; text: string; share?: number; children?: React.ReactNode }) {
   return (
-    <Box id={`meta-${code}`} sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "96px minmax(0,1fr)" }, columnGap: 3, rowGap: .5, py: 2.5, scrollMarginTop: { xs: 150, sm: 100 } }}>
+    <Box id={`meta-${code}`} sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "96px minmax(0,1fr)" }, columnGap: 3, rowGap: .5, py: 2.5, scrollMarginTop: { xs: 76, md: 100 } }}>
       <Box>
         <Typography color="primary.main" sx={{ fontSize: "1.35rem", fontWeight: 500, lineHeight: 1.2 }}>{code}</Typography>
         {isMeansOfImplementation(code) && <Typography variant="caption" color="text.secondary" sx={{ display: "block", lineHeight: 1.3, mt: .25 }}>Medio de implementación</Typography>}

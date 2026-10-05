@@ -1,6 +1,6 @@
-import Link from "next/link";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Divider, Stack, Typography } from "@mui/material";
+import { RelatedRecommendations } from "./RelatedRecommendations";
 import { channelLabels, formatDate, monitoringChannel, reviewLabel, type Development } from "@/lib/hrct";
 
 type Props = {
@@ -38,14 +38,7 @@ export function MonitoringList({ items, numbers, empty }: Props) {
               <Box component="span" sx={{ fontWeight: 600 }}>Por qué aparece aquí:</Box> {item.note}
             </Typography>
           )}
-          {item.public_ids.length > 0 && <Stack direction="row" spacing={1.5} flexWrap="wrap" useFlexGap alignItems="baseline" sx={{ mt: 1.2 }}>
-            <Typography variant="caption" color="text.secondary">Relacionada con</Typography>
-            {item.public_ids.map((id) => (
-              <Typography key={id} component={Link} href={`/commitments/${encodeURIComponent(id)}`} variant="caption" color="primary.main" sx={{ fontWeight: 600 }}>
-                Recomendación {numbers[id] || id}
-              </Typography>
-            ))}
-          </Stack>}
+          {item.public_ids.length > 0 && <RelatedRecommendations related={item.public_ids.map((id) => ({ id, number: numbers[id] || id }))} />}
         </Box>
       ))}
       {!items.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75 }}>{empty}</Typography>}

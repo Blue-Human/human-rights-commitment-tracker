@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useId, useMemo, useState } from "react";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import SearchIcon from "@mui/icons-material/Search";
 import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem, Paper, Select, Stack, TextField, Typography } from "@mui/material";
 import { acceptanceLabels, dimensionNames, statusLabels, type Commitment } from "@/lib/hrct";
@@ -23,12 +25,22 @@ const PAGE_SIZE = 40;
 // A priority row keeps its text aligned, with a restrained brand accent in the gutter.
 const priorityRow = { mx: -2, px: 2, bgcolor: "rgba(0,163,224,.04)", boxShadow: "inset 3px 0 0 #00a3e0" };
 
+// On a phone the whole row opens the record: the link stretches over it and the row answers to the touch.
+const tappableRow = { position: "relative", "&:has(a:active)": { bgcolor: { xs: "rgba(0,163,224,.09)", md: "transparent" } } };
+const stretchedLink = { position: { xs: "static", md: "relative" }, px: { xs: 0, md: 1.25 }, "& .MuiButton-endIcon": { display: { md: "none" } }, "&::after": { content: '""', position: "absolute", inset: 0, display: { md: "none" } } };
+
 export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
   const [acceptance, setAcceptance] = useState("all");
   const { dimension, setDimension } = useDimensionFilter();
   const [priorityOnly, setPriorityOnly] = useState(false);
+  // On a phone the three selects fold away. Until the reader decides, they show whenever one is in use,
+  // for instance when the human-security panel sets the dimension.
+  const [filtersOpen, setFiltersOpen] = useState<boolean | null>(null);
+  const filtersId = useId();
+  const activeFilters = [status, acceptance, dimension].filter((value) => value !== "all").length;
+  const filtersShown = filtersOpen ?? activeFilters > 0;
   const filterKey = `${query}|${status}|${acceptance}|${dimension}|${priorityOnly}`;
   const [expanded, setExpanded] = useState({ key: filterKey, count: PAGE_SIZE });
   const shown = expanded.key === filterKey ? expanded.count : PAGE_SIZE;
@@ -44,14 +56,31 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
   return (
     <Stack spacing={2.25}>
       <Paper variant="outlined" square sx={{ p: { xs: 2, md: 2.25 }, bgcolor: "#fff" }}>
-        <Stack direction={{ xs: "column", md: "row" }} spacing={1.25}>
+        <Stack direction={{ xs: "column", md: "row" }} spacing={1.25} useFlexGap>
           <TextField
             fullWidth
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            // "Go" on a phone keyboard puts the keyboard away: the list filters as the reader types.
+            onKeyDown={(e) => { if (e.key === "Enter") (e.target as HTMLElement).blur(); }}
             placeholder="Buscar por número de recomendación o palabra clave"
-            InputProps={{ startAdornment: <InputAdornment position="start"><SearchIcon fontSize="small" /></InputAdornment> }}
+            slotProps={{
+              input: { startAdornment: <InputAdornment position="start"><SearchIcon fontSize="small" /></InputAdornment> },
+              htmlInput: { "aria-label": "Buscar por número de recomendación o palabra clave", inputMode: "search", enterKeyHint: "search", autoCapitalize: "none", autoCorrect: "off", sx: { textOverflow: "ellipsis" } },
+            }}
           />
+          <Button
+            variant="outlined"
+            color="primary"
+            aria-expanded={filtersShown}
+            aria-controls={filtersId}
+            onClick={() => setFiltersOpen(!filtersShown)}
+            endIcon={<ExpandMoreRoundedIcon sx={{ transform: filtersShown ? "rotate(180deg)" : "none" }} />}
+            sx={{ display: { md: "none" }, justifyContent: "space-between" }}
+          >
+            {activeFilters ? `Filtros · ${activeFilters} ${activeFilters === 1 ? "activo" : "activos"}` : "Filtros"}
+          </Button>
+          <Box id={filtersId} sx={{ display: { xs: filtersShown ? "contents" : "none", md: "contents" } }}>
           <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
             <InputLabel id="status-filter">Cumplimiento</InputLabel>
             <Select labelId="status-filter" label="Cumplimiento" value={status} onChange={(e) => setStatus(e.target.value)}>
@@ -73,6 +102,7 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
               {Object.entries(dimensionNames).map(([code, name]) => <MenuItem key={code} value={code}>{name}</MenuItem>)}
             </Select>
           </FormControl>
+          </Box>
         </Stack>
       </Paper>
 
@@ -92,10 +122,10 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
         {visible.slice(0, shown).map((c, index) => (
           <Box key={c.id}>
             {index > 0 && <Divider />}
-            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 }, ...(c.is_priority && priorityRow) }}>
-              <Box sx={{ width: { md: 92 }, flexShrink: 0 }}>
+            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1, md: 3 }} sx={{ py: { xs: 2, md: 2.75 }, ...tappableRow, ...(c.is_priority && priorityRow) }}>
+              <Box sx={{ width: { md: 92 }, flexShrink: 0, display: { xs: "flex", md: "block" }, alignItems: "baseline", gap: .75 }}>
                 <Typography variant="caption" color="text.secondary">Recomendación</Typography>
-                <Typography color="primary.main" sx={{ mt: .25, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
+                <Typography color="primary.main" sx={{ mt: { md: .25 }, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
               </Box>
 
               <Box sx={{ flex: 1, minWidth: 0 }}>
@@ -121,7 +151,7 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
               </Box>
 
               <Box sx={{ width: { md: 115 }, flexShrink: 0, display: "flex", alignItems: { md: "center" }, justifyContent: { md: "flex-end" } }}>
-                <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} color="primary">
+                <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} color="primary" endIcon={<ArrowForwardRoundedIcon />} sx={stretchedLink}>
                   Ver ficha
                 </Button>
               </Box>

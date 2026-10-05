@@ -65,7 +65,7 @@ export function RecommendationSdgs({ publicId, links }: { publicId: string; link
                             <Box>
                               <Typography variant="body2" sx={{ lineHeight: 1.7, maxWidth: 720 }}>{targetText(code) || "Meta no disponible."}</Typography>
                               {peersOfTarget > 0 && (
-                                <Typography component={Link} href={`/ods/${goal.number}#meta-${code}`} variant="caption" sx={{ display: "inline-block", mt: .5, color: "secondary.dark", fontWeight: 500, textDecoration: "none", "&:hover": { color: "primary.main" } }}>
+                                <Typography component={Link} href={`/ods/${goal.number}#meta-${code}`} variant="caption" sx={{ display: "inline-block", mt: { xs: 0, md: .5 }, py: { xs: 1.25, md: 0 }, color: "secondary.dark", fontWeight: 500, textDecoration: "none", "&:hover": { color: "primary.main" } }}>
                                   {others(peersOfTarget)} {peersOfTarget === 1 ? "contribuye" : "contribuyen"} a esta meta
                                 </Typography>
                               )}

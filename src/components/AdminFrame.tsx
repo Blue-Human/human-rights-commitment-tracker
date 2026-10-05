@@ -10,13 +10,14 @@ export function AdminFrame({ title, intro, children }: { title: string; intro?: 
       <SiteHeader />
       <Box sx={{ bgcolor: "#f7f8f9", borderBottom: "1px solid", borderColor: "divider" }}>
         <Container maxWidth="lg">
-          <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap sx={{ py: 1 }}>
-            <Typography variant="overline" color="text.secondary" sx={{ mr: 1.5 }}>Administración</Typography>
+          {/* On a phone the admin sections stay on one line, which scrolls sideways. */}
+          <Stack component="nav" aria-label="Administración" direction="row" spacing={1} alignItems="center" flexWrap={{ xs: "nowrap", md: "wrap" }} useFlexGap sx={{ py: 1, mx: { xs: -2, md: 0 }, px: { xs: 2, md: 0 }, overflowX: { xs: "auto", md: "visible" }, scrollbarWidth: "none", "&::-webkit-scrollbar": { display: "none" }, "& > *": { flexShrink: 0 }, "& .MuiButton-root": { whiteSpace: "nowrap" } }}>
+            <Typography variant="overline" color="text.secondary" sx={{ mr: 1.5, display: { xs: "none", md: "block" } }}>Administración</Typography>
             <Button component={Link} href="/admin" size="small">Resumen</Button>
             <Button component={Link} href="/admin/monitoring" size="small">Novedades de seguimiento</Button>
             <Button component={Link} href="/admin/feeds" size="small">Fuentes</Button>
             <Button component={Link} href="/admin/indicators" size="small">Indicadores</Button>
-            <Box sx={{ flex: 1 }} />
+            <Box sx={{ flex: 1, minWidth: { xs: 8, md: 0 } }} />
             <form action={logout}><Button type="submit" size="small">Cerrar sesión</Button></form>
           </Stack>
         </Container>
@@ -35,7 +36,7 @@ export function AdminFrame({ title, intro, children }: { title: string; intro?: 
 export function AdminSection({ title, note, children }: { title: string; note?: string; children: React.ReactNode }) {
   return (
     <Box component="section" sx={{ pt: 3.5, mt: 4, borderTop: "1px solid", borderColor: "divider", "&:first-of-type": { mt: 0 } }}>
-      <Typography variant="h4" color="primary.main" sx={{ fontSize: "1.35rem" }}>{title}</Typography>
+      <Typography variant="h4" color="primary.main" sx={{ fontSize: { xs: "1.35rem" } }}>{title}</Typography>
       {note && <Typography variant="body2" color="text.secondary" sx={{ mt: .6, maxWidth: 820, lineHeight: 1.7 }}>{note}</Typography>}
       <Box sx={{ mt: 2 }}>{children}</Box>
     </Box>

@@ -26,7 +26,7 @@ export default async function AdminHome() {
 
   return (
     <AdminFrame title="Resumen" intro="Decide sobre las propuestas, confirma las valoraciones provisionales y gestiona cada recomendación. Los cambios se publican al instante.">
-      <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 6 }}>
+      <Stack direction="row" flexWrap={{ xs: "wrap", sm: "nowrap" }} useFlexGap spacing={{ xs: 2, sm: 6 }} sx={{ "& > *": { width: { xs: "calc(50% - 8px)", sm: "auto" } } }}>
         {[
           [proposals.length, "Propuestas como cumplidas, a la espera de tu decisión"],
           [provisional.length, "Valoraciones pendientes de confirmación final"],
@@ -51,7 +51,7 @@ export default async function AdminHome() {
               <Typography variant="h6" color="primary.main">{p.commitments?.title}</Typography>
               {p.change_summary && <Typography variant="body2" sx={{ mt: .8, lineHeight: 1.7, maxWidth: 860 }}>{p.change_summary}</Typography>}
               {p.assessments?.rationale && <Typography variant="body2" color="text.secondary" sx={{ mt: .8, lineHeight: 1.7, maxWidth: 860 }}>{p.assessments.rationale}</Typography>}
-              <Stack direction="row" spacing={1.5} sx={{ mt: 1.5 }}>
+              <Stack direction="row" spacing={1.5} flexWrap="wrap" useFlexGap sx={{ mt: 1.5 }}>
                 <form action={resolveProposal}>
                   <input type="hidden" name="public_id" value={p.commitments?.public_id} />
                   <input type="hidden" name="decision" value="confirm" />
@@ -73,25 +73,26 @@ export default async function AdminHome() {
       <AdminSection title="Recomendaciones" note="Las recomendaciones que marcas como prioritarias aparecen destacadas y al principio de la lista pública.">
         <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {recommendations.map((r, index) => (
-            <Stack key={r.public_id} direction={{ xs: "column", md: "row" }} spacing={{ xs: .6, md: 2.5 }} alignItems={{ md: "center" }}
-              sx={{ py: 1.3, borderTop: index ? "1px solid" : "none", borderColor: "divider" }}>
-              <Typography color="primary.main" sx={{ width: { md: 56 }, fontWeight: 500, flexShrink: 0 }}>{r.recommendation_number}</Typography>
-              <Stack direction="row" spacing={1.25} alignItems="center" sx={{ flex: 1, minWidth: 0 }}>
+            // A line per recommendation on a wide screen; on a phone, a compact block with both actions on its last line.
+            <Box key={r.public_id}
+              sx={{ display: { xs: "grid", md: "flex" }, gridTemplateColumns: "auto minmax(0,1fr) auto", gridTemplateAreas: '"number status status" "title title title" "state state state" "priority priority manage"', alignItems: "center", columnGap: { xs: 1.5, md: 2.5 }, rowGap: .4, py: 1.3, borderTop: index ? "1px solid" : "none", borderColor: "divider" }}>
+              <Typography color="primary.main" sx={{ gridArea: "number", width: { md: 56 }, fontWeight: 500, flexShrink: 0 }}>{r.recommendation_number}</Typography>
+              <Stack direction="row" spacing={1.25} alignItems="center" sx={{ gridArea: "title", flex: 1, minWidth: 0 }}>
                 <Typography variant="body2" sx={{ minWidth: 0 }}>{r.title}</Typography>
                 {r.is_priority && <PriorityTag />}
               </Stack>
-              <Box sx={{ width: { md: 190 }, flexShrink: 0 }}><StatusChip status={r.assessment_status} /></Box>
-              <Typography variant="caption" color="text.secondary" sx={{ width: { md: 170 }, flexShrink: 0 }}>
+              <Box sx={{ gridArea: "status", width: { md: 190 }, flexShrink: 0 }}><StatusChip status={r.assessment_status} /></Box>
+              <Typography variant="caption" color="text.secondary" sx={{ gridArea: "state", display: { xs: r.assessment_status === "not_assessed" ? "none" : "block", md: "block" }, width: { md: 170 }, flexShrink: 0 }}>
                 {r.assessment_status === "not_assessed" ? "" : r.assessment_provisional ? "Pendiente de confirmación final" : "Confirmada"}
               </Typography>
-              <Box component="form" action={setPriority} sx={{ width: { md: 170 }, flexShrink: 0 }}>
+              <Box component="form" action={setPriority} sx={{ gridArea: "priority", width: { md: 170 }, flexShrink: 0 }}>
                 <input type="hidden" name="id" value={r.id} />
                 <input type="hidden" name="public_id" value={r.public_id} />
                 <input type="hidden" name="priority" value={String(!r.is_priority)} />
                 <Button type="submit" size="small" sx={{ px: 0 }}>{r.is_priority ? "Quitar prioridad" : "Marcar como prioritaria"}</Button>
               </Box>
-              <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(r.public_id)}`} size="small" sx={{ flexShrink: 0 }}>Gestionar</Button>
-            </Stack>
+              <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(r.public_id)}`} size="small" sx={{ gridArea: "manage", flexShrink: 0 }}>Gestionar</Button>
+            </Box>
           ))}
         </Box>
       </AdminSection>

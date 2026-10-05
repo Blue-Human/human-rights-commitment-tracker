@@ -61,9 +61,10 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
 
         <Divider />
 
-        <Container maxWidth="lg" sx={{ py: { xs: 4, md: 5 }, '& section[id]': { scrollMarginTop: { xs: 150, sm: 100 } } }}>
-          <Stack component="nav" aria-label="Secciones de la recomendación" direction="row" spacing={{ xs: 1, sm: 3 }} useFlexGap flexWrap="wrap" sx={{ mb: { xs: 4, md: 5 }, pb: 1.5, borderBottom: "2px solid", borderColor: "secondary.main" }}>
-            {[['Valoración', '#valoracion'], ['Indicadores', '#indicadores'], ['ODS y metas', '#ods'], ['Fuentes y seguimiento', '#fuentes']].map(([label, href]) => <Button key={href} component="a" href={href} sx={{ px: 0 }}>{label}</Button>)}
+        <Container maxWidth="lg" sx={{ py: { xs: 4, md: 5 }, '& section[id]': { scrollMarginTop: { xs: 76, md: 100 } } }}>
+          {/* On a phone the sections stay on one line, which scrolls sideways up to the edges of the screen. */}
+          <Stack component="nav" aria-label="Secciones de la recomendación" direction="row" spacing={{ xs: 2.5, sm: 3 }} useFlexGap flexWrap={{ xs: "nowrap", sm: "wrap" }} sx={{ mb: { xs: 4, md: 5 }, pb: { xs: .5, sm: 1.5 }, borderBottom: "2px solid", borderColor: "secondary.main", mx: { xs: -2, sm: 0 }, px: { xs: 2, sm: 0 }, overflowX: { xs: "auto", sm: "visible" }, scrollbarWidth: "none", "&::-webkit-scrollbar": { display: "none" } }}>
+            {[['Valoración', '#valoracion'], ['Indicadores', '#indicadores'], ['ODS y metas', '#ods'], ['Fuentes y seguimiento', '#fuentes']].map(([label, href]) => <Button key={href} component="a" href={href} sx={{ px: 0, flexShrink: 0, whiteSpace: "nowrap" }}>{label}</Button>)}
           </Stack>
           <Stack spacing={{ xs: 5, md: 6 }}>
             <Stack direction={{ xs: "column", lg: "row" }} spacing={{ xs: 4, lg: 7 }} alignItems="flex-start">
@@ -142,7 +143,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
               <Typography variant="overline" color="text.secondary">Documentación de la ficha</Typography>
               <Typography id="sources-heading" variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.5 }}>Fuentes y seguimiento</Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mb: 3, maxWidth: 840, lineHeight: 1.7 }}>Evidencias utilizadas en la valoración, actualidad relacionada e historial de cambios.</Typography>
-              <Box id="evidencias" sx={{ scrollMarginTop: { xs: 150, sm: 100 } }}>
+              <Box id="evidencias" sx={{ scrollMarginTop: { xs: 76, md: 100 } }}>
                 <RecordDisclosure title="Evidencias consideradas" count={evidence.length} open={evidence.length > 0}>
                   <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
                     {evidence.map((item) => (
