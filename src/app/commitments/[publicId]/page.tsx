@@ -13,7 +13,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { RecordDisclosure } from "@/components/RecordDisclosure";
-import { acceptanceLabels, confidenceLabels, evidenceTypeLabels, formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getLastScannedAt, getMonitoringItems, getSdgLinks, labelOf, monitoringChannel, splitRationale } from "@/lib/hrct";
+import { acceptanceLabels, confidenceLabels, evidenceTypeLabels, formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getAllSdgLinks, getLastScannedAt, getMonitoringItems, labelOf, monitoringChannel, splitRationale } from "@/lib/hrct";
 
 function Meta({ label, value }: { label: string; value: string }) {
   return <Box><Typography variant="overline" color="text.secondary">{label}</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{value}</Typography></Box>;
@@ -29,7 +29,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
     getMonitoringItems(decoded),
     getAssessmentHistory(decoded),
     getLastScannedAt(decoded),
-    getSdgLinks(decoded),
+    getAllSdgLinks(),
   ]);
   if (!commitment) notFound();
 
@@ -135,7 +135,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
             </Box>
 
             <Box sx={{ pt: { xs: 4, md: 5 }, borderTop: "1px solid", borderColor: "divider" }}>
-              <RecommendationSdgs links={sdgLinks} />
+              <RecommendationSdgs publicId={decoded} links={sdgLinks} />
             </Box>
 
             <Box component="section" id="fuentes" aria-labelledby="sources-heading" sx={{ pt: { xs: 4, md: 5 }, borderTop: "1px solid", borderColor: "divider" }}>

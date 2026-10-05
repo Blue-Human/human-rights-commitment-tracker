@@ -21,10 +21,15 @@ HRCT publishes the UHRI tagging as it is. It does not add, remove or reinterpret
 
 ## Use of the UN logo and icons
 
-The 17 icons, the SDG logo and the colour wheel are UN materials. The files in `public/images/ods/` are the official Spanish web versions, unmodified. Their use here is informational, which the UN guidelines allow without prior permission. The guidelines (linked from `/ods`) set rules the UI follows:
+The 17 icons and the SDG logo are UN materials. The files in `public/images/ods/` are the official Spanish web versions, unmodified: the inverse colour version of the icons (`S_SDG_Icons_Inverted_Transparent_WEB-NN.png`, the goal's colour on a transparent background) and the logo without the UN emblem. They are served as they are, without recompression (`unoptimized`), so that they stay sharp. Their use here is informational, which the UN guidelines allow without prior permission. The guidelines (linked from `/ods`) set rules the UI follows:
 
-- Each icon is shown whole (number, name and pictogram), square, in its own colours, with nothing drawn over it, no shadow and no cropping. Use `SdgIcon`; do not rebuild an icon from its parts or recolour it.
-- Icons are shown in a row or grid aligned to the left, in their official order.
+- Each icon is shown whole (number, name and pictogram), square, in its own colours, with nothing drawn over it, no shadow and no cropping. Use `SdgIcon`; do not rebuild an icon from its parts, recolour it or dim it.
+- The inverse version may only be used over white. On a tinted panel the icon sits in a white box.
+- Icons are shown in a row or grid aligned to the left.
 - The logo is the version without the UN emblem, for entities outside the UN system. Its colour version goes on a white or light grey background only.
 - The logo and the colour wheel are not placed side by side with the HRCT or Blue Human logo. Doing so would require the text "[entity] supports the Sustainable Development Goals".
 - `/ods` states that the content has not been approved by the United Nations, and links to the guidelines and to the UN SDG site.
+
+## Relations shown on `/ods`
+
+All of them are counts over the published links: recommendations per goal and per target, Spain's response to the recommendations of a goal, recommendations shared by two goals, and recommendations shared by a goal and a human-security dimension (HRCT's own classification). No figure is estimated.

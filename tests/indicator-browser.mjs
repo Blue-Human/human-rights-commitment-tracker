@@ -190,10 +190,16 @@ try {
   const admin=await browser.newPage();await admin.goto(`${base}/admin/indicators`,{waitUntil:'commit'});await admin.waitForURL('**/admin/login');assert.match(admin.url(),/\/admin\/login$/);await admin.close();
   const goals=await browser.newPage();goals.on('pageerror',error=>pageErrors.push(error.message));
   await goals.goto(`${base}/ods`);
-  assert.equal(await goals.getByRole('img',{name:/^ODS \d+: /}).count(),17);
-  assert.equal(await goals.getByRole('link',{name:/ODS 16: /}).getByText('1 recomendación',{exact:true}).count(),1);
-  assert.equal(await goals.getByRole('link',{name:/ODS 2: /}).getByText('Sin recomendaciones',{exact:true}).count(),1);
-  await goals.getByRole('link',{name:/ODS 16: /}).click();await goals.waitForURL('**/ods/16');
+  // The 17 official icons select a goal; the panel shows how the recommendations relate to it.
+  assert.equal(await goals.getByRole('button',{name:/^ODS \d+: /}).count(),17);
+  const relations=goals.getByRole('region',{name:/^ODS \d+: /});
+  await goals.getByRole('button',{name:/^ODS 2: /}).click();
+  assert.equal(await goals.getByRole('button',{name:/^ODS 2: /}).getAttribute('aria-pressed'),'true');
+  await relations.getByText('Ninguna recomendación del examen se relaciona con este objetivo',{exact:true}).waitFor();
+  await goals.getByRole('button',{name:/^ODS 16: /}).click();
+  assert.equal(await relations.getByRole('link',{name:/^16\.3/}).getAttribute('href'),'/ods/16#meta-16.3');
+  assert.equal(await relations.getByRole('img',{name:'ODS 16: Paz, justicia e instituciones sólidas'}).evaluate(async img=>{await img.decode();return img.naturalWidth===1536&&img.naturalHeight===1536;}),true);
+  await relations.getByRole('link',{name:'Ver objetivo y recomendaciones'}).click();await goals.waitForURL('**/ods/16');
   assert.equal(await goals.getByRole('heading',{level:1}).textContent(),'Paz, justicia e instituciones sólidas');
   assert.equal(await goals.locator('[id="meta-16.3"]').getByRole('link',{name:'PRUEBA AISLADA · Datos sintéticos'}).getAttribute('href'),'/commitments/FIXTURE-MULTI#ods');
   assert.equal(await goals.locator('[id^="meta-16."]').count(),12);

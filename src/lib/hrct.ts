@@ -251,12 +251,8 @@ export async function getDimensionDescriptions(): Promise<Partial<Record<Dimensi
   return Object.fromEntries(rows.filter((row) => row.description).map((row) => [row.code, row.description]));
 }
 
-// Goals and targets of the 2030 Agenda linked to a recommendation. Null when they could not be
-// read, so that a page never presents a failed request as "no goals linked".
-export async function getSdgLinks(publicId: string): Promise<SdgLink[] | null> {
-  return optional<SdgLink[] | null>(`hrct_public_sdgs?select=public_id,goal,targets,source_published_at&public_id=eq.${encodeURIComponent(publicId)}&order=goal.asc`, null);
-}
-
+// Goals and targets of the 2030 Agenda linked to the recommendations. Null when they could not
+// be read, so that a page never presents a failed request as "no goals linked".
 export async function getAllSdgLinks(): Promise<SdgLink[] | null> {
   const pageSize = 1000;
   const rows: SdgLink[] = [];

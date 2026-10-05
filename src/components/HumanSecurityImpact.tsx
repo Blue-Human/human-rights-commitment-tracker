@@ -6,6 +6,7 @@ import { Box, Button, Typography } from "@mui/material";
 import { formatShare, type DimensionCode, type DimensionSummary } from "@/lib/hrct";
 import { brand } from "@/theme";
 import { useDimensionFilter } from "./DimensionFilter";
+import { DimensionIcon } from "./DimensionIcon";
 
 type Props = {
   dimensions: DimensionSummary[];
@@ -13,23 +14,6 @@ type Props = {
   total: number;
   noted: number;
 };
-
-const iconFiles: Record<DimensionCode, string> = {
-  economic: "sec_economica",
-  food: "sec_alimentaria",
-  health: "sec_sanitaria",
-  environmental: "sec_ambiental",
-  personal: "sec_personal",
-  community: "sec_comunitaria",
-  political: "sec_politica",
-  technological: "sec_tecnológica",
-};
-
-// The pictograms are single-colour shapes: used as a mask, they take the colour of the text around them.
-function DimensionIcon({ code, size }: { code: DimensionCode; size: number }) {
-  const mask = `url("/images/${encodeURIComponent(iconFiles[code])}.svg") center / contain no-repeat`;
-  return <Box aria-hidden sx={{ width: size, height: size, flexShrink: 0, bgcolor: "currentColor", mask, WebkitMask: mask }} />;
-}
 
 // "Seguridad comunitaria" → "Comunitaria": the tiles share the word "Seguridad" as a label.
 const shortName = (name: string) => name.replace(/^Seguridad\s+/i, "").replace(/^./, (letter) => letter.toUpperCase());

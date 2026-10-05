@@ -28,8 +28,6 @@ export const UN_SDG_URL = "https://www.un.org/sustainabledevelopment/es/";
 export const UN_SDG_GUIDELINES_URL = "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf";
 export const UHRI_URL = "https://uhri.ohchr.org/es/";
 
-// The official icon, published by the United Nations. It is always shown whole and unaltered.
-export const sdgIcon = (goal: number) => `/images/ods/S-WEB-Goal-${String(goal).padStart(2, "0")}.png`;
 export const sdgGoalUrl = (goal: SdgGoal) => `${UN_SDG_URL}${goal.slug}/`;
 
 export const sdgGoals: SdgGoal[] = [
@@ -391,6 +389,8 @@ export type SdgSummary = {
   byTarget: Record<string, string[]>;
   // Recommendations linked to the goal as a whole.
   withoutTarget: string[];
+  // Recommendations shared with each of the other goals, most frequent first.
+  shared: { goal: number; count: number }[];
 };
 
 // Recommendations per goal and per target, given the published recommendations in catalogue order.
@@ -400,8 +400,12 @@ export function summarizeSdgs(publicIds: string[], links: SdgLink[]): { goals: S
   const order = new Map(publicIds.map((id, index) => [id, index]));
   const sorted = (ids: string[]) => ids.sort((a, b) => order.get(a)! - order.get(b)!);
   const published = links.filter((link) => order.has(link.public_id));
+  const goalsById = new Map<string, number[]>();
+  for (const link of published) goalsById.set(link.public_id, [...(goalsById.get(link.public_id) || []), link.goal]);
   const goals = sdgGoals.map((goal) => {
     const own = published.filter((link) => link.goal === goal.number);
+    const shared = new Map<number, number>();
+    for (const link of own) for (const other of goalsById.get(link.public_id)!) if (other !== goal.number) shared.set(other, (shared.get(other) || 0) + 1);
     const byTarget: Record<string, string[]> = {};
     for (const [code] of goal.targets) {
       const ids = own.filter((link) => link.targets.includes(code)).map((link) => link.public_id);
@@ -412,7 +416,16 @@ export function summarizeSdgs(publicIds: string[], links: SdgLink[]): { goals: S
       public_ids: sorted(own.map((link) => link.public_id)),
       byTarget,
       withoutTarget: sorted(own.filter((link) => !link.targets.length).map((link) => link.public_id)),
+      shared: [...shared.entries()].map(([other, count]) => ({ goal: other, count })).sort((a, b) => b.count - a.count || a.goal - b.goal),
     };
   });
   return { goals, linked: new Set(published.map((link) => link.public_id)).size };
+}
+
+// How many of the given recommendations fall under each key (a human-security dimension, for
+// example), most frequent first.
+export function countBy<K extends string>(publicIds: string[], keysById: Record<string, K[] | undefined>): { key: K; count: number }[] {
+  const counts = new Map<K, number>();
+  for (const id of publicIds) for (const key of keysById[id] || []) counts.set(key, (counts.get(key) || 0) + 1);
+  return [...counts.entries()].map(([key, count]) => ({ key, count })).sort((a, b) => b.count - a.count);
 }

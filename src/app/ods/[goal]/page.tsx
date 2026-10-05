@@ -5,14 +5,15 @@ import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
+import { DimensionIcon } from "@/components/DimensionIcon";
 import { PriorityTag } from "@/components/PriorityTag";
 import { RecordDisclosure } from "@/components/RecordDisclosure";
 import { SdgIcon } from "@/components/SdgIcon";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
-import { acceptanceLabels, formatShare, getAllSdgLinks, getCommitments, isAssessed, labelOf, type Commitment } from "@/lib/hrct";
-import { isMeansOfImplementation, sdgGoal, sdgGoals, sdgGoalUrl, summarizeSdgs, UHRI_URL } from "@/lib/sdg";
+import { acceptanceLabels, dimensionNames, formatShare, getAllHumanSecurityDimensions, getAllSdgLinks, getCommitments, isAssessed, labelOf, type Commitment, type DimensionCode } from "@/lib/hrct";
+import { countBy, isMeansOfImplementation, sdgGoal, sdgGoals, sdgGoalUrl, summarizeSdgs, UHRI_URL } from "@/lib/sdg";
 import { brand } from "@/brand";
 
 type Params = { params: Promise<{ goal: string }> };
@@ -33,6 +34,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 }
 
 const plural = (n: number) => `${n} ${n === 1 ? "recomendación" : "recomendaciones"}`;
+const track = "rgba(0,163,224,.16)";
 
 function Recommendations({ records }: { records: Commitment[] }) {
   return (
@@ -41,7 +43,7 @@ function Recommendations({ records }: { records: Commitment[] }) {
         <Stack component="li" key={c.public_id} direction={{ xs: "column", sm: "row" }} spacing={{ xs: .5, sm: 2.5 }} sx={{ py: 1.6 }}>
           <Typography variant="body2" color="text.secondary" sx={{ width: { sm: 64 }, flexShrink: 0 }}>{c.recommendation_number || c.public_id}</Typography>
           <Box sx={{ flex: 1, minWidth: 0 }}>
-            <Typography component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}#ods`} color="primary.main" sx={{ fontWeight: 500, textDecorationColor: brand.accent, textUnderlineOffset: "4px", "&:hover": { color: "secondary.dark" } }}>
+            <Typography component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}#ods`} color="primary.main" sx={{ fontWeight: 500, textDecoration: "none", transition: "color .15s", "&:hover": { color: "secondary.dark" } }}>
               {c.title}
             </Typography>
             <Stack direction="row" spacing={1.5} alignItems="center" flexWrap="wrap" useFlexGap sx={{ mt: .5 }}>
@@ -56,7 +58,7 @@ function Recommendations({ records }: { records: Commitment[] }) {
   );
 }
 
-function Target({ code, text, children }: { code: string; text: string; children?: React.ReactNode }) {
+function Target({ code, text, share, children }: { code: string; text: string; share?: number; children?: React.ReactNode }) {
   return (
     <Box id={`meta-${code}`} sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "96px minmax(0,1fr)" }, columnGap: 3, rowGap: .5, py: 2.5, scrollMarginTop: { xs: 150, sm: 100 } }}>
       <Box>
@@ -65,6 +67,11 @@ function Target({ code, text, children }: { code: string; text: string; children
       </Box>
       <Box sx={{ minWidth: 0 }}>
         <Typography sx={{ lineHeight: 1.75, maxWidth: 820 }}>{text}</Typography>
+        {share !== undefined && (
+          <Box aria-hidden sx={{ height: 4, mt: 1.5, maxWidth: 820, bgcolor: track }}>
+            <Box sx={{ height: 1, width: `${100 * share}%`, bgcolor: brand.accentInk }} />
+          </Box>
+        )}
         {children}
       </Box>
     </Box>
@@ -75,7 +82,7 @@ export default async function SdgGoalPage({ params }: Params) {
   const goal = goalOf((await params).goal);
   if (!goal) notFound();
 
-  const [commitments, links] = await Promise.all([getCommitments(), getAllSdgLinks()]);
+  const [commitments, links, dimensionLinks] = await Promise.all([getCommitments(), getAllSdgLinks(), getAllHumanSecurityDimensions().catch(() => [])]);
   const byId = new Map(commitments.map((c) => [c.public_id, c]));
   const summary = summarizeSdgs(commitments.map((c) => c.public_id), links || []).goals.find((g) => g.goal.number === goal.number)!;
   const records = (ids: string[]) => ids.map((id) => byId.get(id)!);
@@ -90,10 +97,14 @@ export default async function SdgGoalPage({ params }: Params) {
   const linkedTargets = goal.targets.filter(([code]) => summary.byTarget[code]);
   const otherTargets = goal.targets.filter(([code]) => !summary.byTarget[code]);
   const facts: [string, string][] = [
-    [`${linkedTargets.length} de ${goal.targets.length}`, "metas del objetivo con recomendaciones"],
-    [String(count((c) => !!c.is_priority)), "recomendaciones prioritarias para Blue Human"],
-    [String(count(isAssessed)), "con valoración de cumplimiento"],
+    [String(count((c) => !!c.is_priority)), count((c) => !!c.is_priority) === 1 ? "prioritaria" : "prioritarias"],
+    [String(count(isAssessed)), "con valoración"],
+    [`${linkedTargets.length}/${goal.targets.length}`, "metas relacionadas"],
   ];
+  const dimensionsById: Record<string, DimensionCode[]> = {};
+  for (const d of dimensionLinks) (dimensionsById[d.public_id] ??= []).push(d.code);
+  const dimensions = countBy(summary.public_ids, dimensionsById);
+  const maxTarget = Math.max(1, ...linkedTargets.map(([code]) => summary.byTarget[code].length));
   const previous = sdgGoal(goal.number - 1), next = sdgGoal(goal.number + 1);
 
   return (
@@ -123,7 +134,7 @@ export default async function SdgGoalPage({ params }: Params) {
           {links === null && <Typography color="text.secondary" sx={{ mb: 4 }}>No se ha podido cargar la relación entre las recomendaciones y este objetivo. Sus metas pueden consultarse igualmente.</Typography>}
 
           {links !== null && (
-            <Box component="section" aria-labelledby="goal-figures-heading" sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,4fr) minmax(0,7fr)" }, columnGap: 8, rowGap: 4, alignItems: "start", p: { xs: 2.25, md: 4 }, mb: { xs: 4, md: 5 }, bgcolor: brand.soft, borderTop: `2px solid ${brand.accent}` }}>
+            <Box component="section" aria-labelledby="goal-figures-heading" sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "repeat(3,minmax(0,1fr))" }, columnGap: 6, rowGap: 4, alignItems: "start", p: { xs: 2.25, md: 4 }, mb: { xs: 4, md: 5 }, bgcolor: brand.soft, borderTop: `3px solid ${goal.color}` }}>
               <Box>
                 <Typography id="goal-figures-heading" variant="overline" color="text.secondary">Recomendaciones a España</Typography>
                 <Typography color="primary.main" sx={{ fontSize: { xs: "3.5rem", md: "4.5rem" }, fontWeight: 500, lineHeight: .95, letterSpacing: "-.03em", mt: 1 }}>{total}</Typography>
@@ -152,16 +163,54 @@ export default async function SdgGoalPage({ params }: Params) {
                       </Box>
                     ))}
                   </Box>
-                  <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", sm: "repeat(3,minmax(0,1fr))" }, columnGap: 3, rowGap: 2, mt: 2.5, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>
+                  <Box sx={{ display: "grid", gridTemplateColumns: "repeat(3,minmax(0,1fr))", columnGap: 2, mt: 2, pt: 2, borderTop: "1px solid", borderColor: "divider" }}>
                     {facts.map(([value, label]) => (
                       <Box key={label}>
-                        <Typography color="primary.main" sx={{ fontSize: "1.5rem", fontWeight: 500, lineHeight: 1 }}>{value}</Typography>
-                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5 }}>{label}</Typography>
+                        <Typography color="primary.main" sx={{ fontSize: "1.35rem", fontWeight: 500, lineHeight: 1 }}>{value}</Typography>
+                        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .5, lineHeight: 1.3 }}>{label}</Typography>
                       </Box>
                     ))}
                   </Box>
                 </Box>
               )}
+              {dimensions.length > 0 && (
+                <Box>
+                  <Typography variant="overline" color="text.secondary">Seguridad humana afectada</Typography>
+                  <Box sx={{ mt: .75 }}>
+                    {dimensions.map(({ key, count: n }) => (
+                      <Box key={key} title={`${formatShare(n, total)} de las recomendaciones del objetivo`} sx={{ display: "grid", gridTemplateColumns: "20px minmax(0,1fr) 30px", alignItems: "center", columnGap: 1.25, py: .7, color: "primary.main" }}>
+                        <DimensionIcon code={key} size={20} />
+                        <Box>
+                          <Typography variant="body2" color="text.primary" sx={{ mb: .5 }}>{dimensionNames[key]}</Typography>
+                          <Box aria-hidden sx={{ height: 4, bgcolor: track }}><Box sx={{ height: 1, width: `${(100 * n) / total}%`, bgcolor: brand.accentInk }} /></Box>
+                        </Box>
+                        <Typography variant="body2" sx={{ textAlign: "right", fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{n}</Typography>
+                      </Box>
+                    ))}
+                  </Box>
+                </Box>
+              )}
+            </Box>
+          )}
+
+          {summary.shared.length > 0 && (
+            <Box component="section" aria-labelledby="shared-goals-heading" sx={{ mb: { xs: 5, md: 6 } }}>
+              <Typography variant="overline" color="text.secondary">Relación con otros objetivos</Typography>
+              <Typography id="shared-goals-heading" variant="h4" color="primary.main" sx={{ mt: .45, mb: 2 }}>Comparte recomendaciones con</Typography>
+              {/* Icons in a single row, most shared first. */}
+              <Box component="ul" sx={{ listStyle: "none", m: 0, p: 0, display: "flex", flexWrap: "wrap", gap: 1.5 }}>
+                {summary.shared.map(({ goal: number, count: n }) => {
+                  const other = sdgGoal(number)!;
+                  return (
+                    <Box component="li" key={number} sx={{ width: { xs: 88, sm: 104 } }}>
+                      <Box component={Link} href={`/ods/${number}`} title={`${plural(n)} en común con el ODS ${number}`} sx={{ display: "block", p: 1, border: "1px solid", borderColor: "divider", color: "primary.main", textDecoration: "none", transition: "border-color .15s", "&:hover": { borderColor: brand.accentInk }, "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 3 } }}>
+                        <SdgIcon goal={other} sizes="104px" />
+                        <Typography component="span" sx={{ display: "block", mt: .75, px: .25, fontSize: "1.2rem", fontWeight: 500, lineHeight: 1, fontVariantNumeric: "tabular-nums" }}>{n}</Typography>
+                      </Box>
+                    </Box>
+                  );
+                })}
+              </Box>
             </Box>
           )}
 
@@ -177,7 +226,7 @@ export default async function SdgGoalPage({ params }: Params) {
                   {linkedTargets.map(([code, text]) => {
                     const ids = summary.byTarget[code];
                     return (
-                      <Target key={code} code={code} text={text}>
+                      <Target key={code} code={code} text={text} share={ids.length / maxTarget}>
                         <Box sx={{ mt: 1, "& > details": { borderTop: 0 } }}>
                           <RecordDisclosure title={plural(ids.length)} open={ids.length <= 3}>
                             <Recommendations records={records(ids)} />

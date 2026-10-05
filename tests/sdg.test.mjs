@@ -2,7 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import { PGlite } from '@electric-sql/pglite';
-import { SDG_TARGET_COUNT, sdgGoals, sdgIcon, summarizeSdgs, targetText } from '../src/lib/sdg.ts';
+import { countBy, SDG_TARGET_COUNT, sdgGoals, summarizeSdgs, targetText } from '../src/lib/sdg.ts';
+import { sdgIcon } from '../src/lib/sdg-icon.ts';
 import { compareTargets, parseSdgs, recommendationNumber, snapshotRows } from '../scripts/import-uhri-sdg.mjs';
 
 const snapshot=JSON.parse(await readFile(new URL('../data/sdg/uhri-spain-upr4.json',import.meta.url),'utf8'));
@@ -65,6 +66,13 @@ test('summaries count recommendations per goal and per target, published ones on
   assert.deepEqual(by[16].withoutTarget,['T-3']);
   assert.deepEqual([by[5].public_ids,by[5].withoutTarget,by[5].byTarget],[['T-1'],['T-1'],{}]);
   assert.deepEqual(by[1].public_ids,[]);
+  // Goals 16 and 5 share one recommendation (T-1).
+  assert.deepEqual([by[16].shared,by[5].shared,by[1].shared],[[{goal:5,count:1}],[{goal:16,count:1}],[]]);
+});
+
+test('recommendations are counted under each key they carry, most frequent first',()=>{
+  assert.deepEqual(countBy(['T-1','T-2','T-3'],{'T-1':['personal','political'],'T-2':['political'],'T-9':['economic']}),[{key:'political',count:2},{key:'personal',count:1}]);
+  assert.deepEqual(countBy([],{}),[]);
 });
 
 test('the SDG migration publishes exactly the snapshot and is safe to run again',async()=>{

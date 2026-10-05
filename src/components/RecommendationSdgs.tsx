@@ -1,15 +1,23 @@
 import Link from "next/link";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import { Box, Button, Stack, Typography } from "@mui/material";
+import { brand } from "@/brand";
 import { formatDate } from "@/lib/hrct";
 import { sdgGoal, targetText, UHRI_URL, type SdgLink } from "@/lib/sdg";
 import { SdgIcon } from "./SdgIcon";
 
-// The goals of the 2030 Agenda related to one recommendation, each with its related targets only.
-export function RecommendationSdgs({ links }: { links: SdgLink[] | null }) {
-  const linked = (links || []).flatMap((link) => {
+const others = (n: number) => (n === 1 ? "1 recomendación más" : `${n} recomendaciones más`);
+
+// The goals of the 2030 Agenda related to one recommendation, each with its related targets only,
+// and how many other recommendations contribute to the same target. `links` are those of the
+// whole catalogue.
+export function RecommendationSdgs({ publicId, links }: { publicId: string; links: SdgLink[] | null }) {
+  const rest = (links || []).filter((link) => link.public_id !== publicId);
+  const linked = (links || []).filter((link) => link.public_id === publicId).sort((a, b) => a.goal - b.goal).flatMap((link) => {
     const goal = sdgGoal(link.goal);
-    return goal ? [{ goal, targets: link.targets }] : [];
+    return goal ? [{ goal, targets: link.targets, peers: rest.filter((other) => other.goal === link.goal).length }] : [];
   });
+  const peersOf = (code: string) => rest.filter((other) => other.targets.includes(code)).length;
   const published = formatDate(links?.find((link) => link.source_published_at)?.source_published_at);
 
   return (
@@ -27,41 +35,57 @@ export function RecommendationSdgs({ links }: { links: SdgLink[] | null }) {
 
       {linked.length > 0 && (
         <>
-          <Typography variant="body2" color="text.secondary" sx={{ mb: 3, maxWidth: 840, lineHeight: 1.7 }}>
-            Objetivos y metas de la Agenda 2030 con los que las Naciones Unidas relacionan esta recomendación. Avanzar en su cumplimiento contribuye también a alcanzarlos.
+          <Typography variant="body2" color="text.secondary" sx={{ mb: 2.5, maxWidth: 840, lineHeight: 1.7 }}>
+            Cumplir esta recomendación contribuye a {linked.length === 1 ? "este objetivo" : `estos ${linked.length} objetivos`} de la Agenda 2030.
           </Typography>
-          <Stack spacing={3}>
-            {linked.map(({ goal, targets }) => (
-              <Box key={goal.number} sx={{ display: "grid", gridTemplateColumns: { xs: "88px minmax(0,1fr)", sm: "128px minmax(0,1fr)" }, columnGap: { xs: 2, sm: 3 }, alignItems: "start" }}>
-                <Box component={Link} href={`/ods/${goal.number}`} sx={{ display: "block", "&:focus-visible": { outline: "2px solid", outlineColor: "secondary.dark", outlineOffset: 3 } }}>
-                  <SdgIcon goal={goal} sizes="128px" />
+          <Box sx={{ borderTop: "1px solid", borderColor: "divider" }}>
+            {linked.map(({ goal, targets, peers }) => (
+              <Box key={goal.number} sx={{ display: "grid", gridTemplateColumns: { xs: "88px minmax(0,1fr)", sm: "132px minmax(0,1fr)" }, columnGap: { xs: 2, sm: 4 }, alignItems: "start", py: 3, borderBottom: "1px solid", borderColor: "divider" }}>
+                <Box component={Link} href={`/ods/${goal.number}`} sx={{ display: "block", "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 3 } }}>
+                  <SdgIcon goal={goal} sizes="132px" />
                 </Box>
-                <Box sx={{ minWidth: 0, pl: { xs: 0, sm: 3 }, borderLeft: { sm: `3px solid ${goal.color}` } }}>
-                  <Typography variant="overline" color="text.secondary">Objetivo {goal.number}</Typography>
-                  <Typography variant="h6" color="primary.main" sx={{ lineHeight: 1.3 }}>{goal.name}</Typography>
+                <Box sx={{ minWidth: 0 }}>
+                  <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" alignItems={{ sm: "baseline" }} spacing={{ xs: .5, sm: 2 }}>
+                    <Box>
+                      <Typography variant="overline" color="text.secondary" sx={{ display: "block", borderLeft: `3px solid ${goal.color}`, pl: 1.25, lineHeight: 1.5 }}>Objetivo {goal.number}</Typography>
+                      <Typography variant="h6" color="primary.main" sx={{ mt: .5, lineHeight: 1.3 }}>{goal.name}</Typography>
+                    </Box>
+                    <Button component={Link} href={`/ods/${goal.number}`} endIcon={<ArrowForwardRoundedIcon />} sx={{ px: 0, flexShrink: 0 }}>
+                      {peers ? `${others(peers)} en este objetivo` : "Ver el objetivo"}
+                    </Button>
+                  </Stack>
                   {targets.length > 0 ? (
-                    <Stack component="ul" spacing={1.25} sx={{ listStyle: "none", m: 0, mt: 1.5, p: 0 }}>
-                      {targets.map((code) => (
-                        <Box component="li" key={code} sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "84px minmax(0,1fr)" }, columnGap: 1.5 }}>
-                          <Typography variant="body2" color="primary.main" sx={{ fontWeight: 600 }}>Meta {code}</Typography>
-                          <Typography variant="body2" sx={{ lineHeight: 1.7, maxWidth: 720 }}>{targetText(code) || "Meta no disponible."}</Typography>
-                        </Box>
-                      ))}
-                    </Stack>
+                    <Box component="ul" sx={{ listStyle: "none", m: 0, mt: 1.5, p: 0 }}>
+                      {targets.map((code) => {
+                        const peersOfTarget = peersOf(code);
+                        return (
+                          <Box component="li" key={code} sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "84px minmax(0,1fr)" }, columnGap: 1.5, rowGap: .25, py: 1.25, borderTop: "1px solid", borderColor: "divider" }}>
+                            <Typography variant="body2" color="primary.main" sx={{ fontWeight: 600 }}>Meta {code}</Typography>
+                            <Box>
+                              <Typography variant="body2" sx={{ lineHeight: 1.7, maxWidth: 720 }}>{targetText(code) || "Meta no disponible."}</Typography>
+                              {peersOfTarget > 0 && (
+                                <Typography component={Link} href={`/ods/${goal.number}#meta-${code}`} variant="caption" sx={{ display: "inline-block", mt: .5, color: "secondary.dark", fontWeight: 500, textDecoration: "none", "&:hover": { color: "primary.main" } }}>
+                                  {others(peersOfTarget)} {peersOfTarget === 1 ? "contribuye" : "contribuyen"} a esta meta
+                                </Typography>
+                              )}
+                            </Box>
+                          </Box>
+                        );
+                      })}
+                    </Box>
                   ) : (
                     <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5, lineHeight: 1.7 }}>Relacionada con el objetivo en su conjunto, sin una meta concreta.</Typography>
                   )}
-                  <Button component={Link} href={`/ods/${goal.number}`} sx={{ mt: 1, px: 0 }}>Ver el ODS {goal.number} y sus recomendaciones</Button>
                 </Box>
               </Box>
             ))}
-          </Stack>
+          </Box>
         </>
       )}
 
       {links !== null && (
-        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 3, maxWidth: 840, lineHeight: 1.6 }}>
-          Vinculación: <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>Índice Universal de los Derechos Humanos</Box> (ACNUDH){published ? `, publicada el ${published}` : ""}. Texto de las metas: resolución A/RES/70/1 de la Asamblea General.
+        <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 2, maxWidth: 840, lineHeight: 1.6 }}>
+          Relación: <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>Índice Universal de los Derechos Humanos</Box> (ACNUDH){published ? `, publicada el ${published}` : ""}. Texto de las metas: resolución A/RES/70/1 de la Asamblea General.
         </Typography>
       )}
     </Box>

@@ -2,184 +2,281 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
+import { visuallyHidden } from "@mui/utils";
+import { brand } from "@/brand";
+import { DimensionIcon } from "@/components/DimensionIcon";
+import { RecordDisclosure } from "@/components/RecordDisclosure";
+import { SdgExplorer, type SdgExplorerGoal } from "@/components/SdgExplorer";
 import { SdgIcon } from "@/components/SdgIcon";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { formatDate, formatShare, getAllSdgLinks, getCommitments } from "@/lib/hrct";
-import { SDG_TARGET_COUNT, summarizeSdgs, UHRI_URL, UN_SDG_GUIDELINES_URL, UN_SDG_URL } from "@/lib/sdg";
-import { brand } from "@/brand";
+import { dimensionCodes, dimensionNames, formatDate, formatShare, getAllHumanSecurityDimensions, getAllSdgLinks, getCommitments, isAssessed, type DimensionCode } from "@/lib/hrct";
+import { countBy, SDG_TARGET_COUNT, sdgGoal, summarizeSdgs, targetText, UHRI_URL, UN_SDG_GUIDELINES_URL, UN_SDG_URL } from "@/lib/sdg";
 
 export const metadata: Metadata = {
   title: "ODS | Human Rights Commitment Tracker",
   description: "Los Objetivos de Desarrollo Sostenible y las metas de la Agenda 2030 con los que se relacionan las recomendaciones de derechos humanos dirigidas a España.",
 };
 
-const link = { color: "primary.main", textDecorationColor: brand.accent, textUnderlineOffset: "4px", "&:hover": { color: "secondary.dark" } };
+const track = "rgba(0,163,224,.16)";
+const plural = (n: number) => `${n} ${n === 1 ? "recomendación" : "recomendaciones"}`;
+// "Seguridad comunitaria" → "Comunitaria": the columns share the word "Seguridad" as a label.
+const shortName = (code: DimensionCode) => dimensionNames[code].replace(/^Seguridad\s+/i, "").replace(/^./, (letter) => letter.toUpperCase());
 
-// One headline finding: a figure and what it refers to.
-function Reading({ label, value, children }: { label: string; value: string; children: React.ReactNode }) {
+// Magnitude in one hue, light to dark. The steps follow the square root of the count, so that
+// the many small figures of the matrix stay distinguishable next to the few large ones.
+const ramp = ["#e6f5fb", "#b5e0f2", "#74c4e6", "#2f9cc9", "#006c95"];
+const step = (count: number, max: number) => Math.min(ramp.length - 1, Math.floor(ramp.length * Math.sqrt(count / max) - 1e-9));
+
+function Figure({ value, of, children }: { value: string; of?: string; children: React.ReactNode }) {
   return (
-    <Box sx={{ py: 2.5, px: { md: 3 }, borderTop: { xs: `1px solid ${brand.border}`, md: 0 }, borderLeft: { md: `1px solid ${brand.border}` }, "&:first-of-type": { pl: 0, borderLeft: 0, borderTop: 0 } }}>
-      <Typography variant="overline" color="text.secondary">{label}</Typography>
-      <Typography color="primary.main" sx={{ fontSize: "2rem", fontWeight: 500, lineHeight: 1.1, mt: .5 }}>{value}</Typography>
-      <Typography variant="body2" color="primary.main" sx={{ mt: 1 }}>{children}</Typography>
+    <Box>
+      <Typography color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.6rem" }, fontWeight: 500, lineHeight: 1, letterSpacing: "-.02em" }}>
+        {value}
+        {of && <Box component="span" sx={{ ml: .75, fontSize: "1rem", fontWeight: 400, letterSpacing: 0, color: "text.secondary" }}>{of}</Box>}
+      </Typography>
+      <Typography variant="body2" color="text.secondary" sx={{ mt: 1, lineHeight: 1.5 }}>{children}</Typography>
     </Box>
   );
 }
 
-function Section({ id, overline, title, children }: { id: string; overline: string; title: string; children: React.ReactNode }) {
+function Heading({ id, overline, title, children }: { id: string; overline: string; title: string; children?: React.ReactNode }) {
   return (
-    <Container component="section" aria-labelledby={id} maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, borderTop: "1px solid", borderColor: "divider" }}>
+    <Box sx={{ mb: 3 }}>
       <Typography variant="overline" color="text.secondary">{overline}</Typography>
-      <Typography id={id} variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5, mb: 2.5 }}>{title}</Typography>
-      {children}
-    </Container>
+      <Typography id={id} variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>{title}</Typography>
+      {children && <Typography color="text.secondary" sx={{ maxWidth: 760, mt: 1.25, lineHeight: 1.7 }}>{children}</Typography>}
+    </Box>
   );
 }
 
-const keyFigures: [string, string][] = [
-  ["17", "objetivos"],
-  [String(SDG_TARGET_COUNT), "metas que los concretan"],
-  ["193", "Estados Miembros de las Naciones Unidas los aprobaron en 2015"],
-  ["2030", "año fijado para alcanzarlos"],
+// The goal column stays in view while the matrix scrolls sideways on a narrow screen.
+const sticky = { position: "sticky", left: 0, zIndex: 1, bgcolor: "#fff" } as const;
+
+const section = { py: { xs: 5, md: 7 }, borderTop: "1px solid", borderColor: "divider" };
+
+const brief: [string, string][] = [
+  ["Objetivos y metas", "Cada objetivo se concreta en metas. Las numeradas (1.1) fijan el resultado que se busca; las que llevan letra (1.a), los medios para lograrlo."],
+  ["Basados en los derechos humanos", "La Agenda 2030 se funda en la Declaración Universal de Derechos Humanos y promete que «nadie se quedará atrás». Cumplir una recomendación acerca también sus metas."],
+  ["Compromiso político", "Los ODS no son obligaciones jurídicas, a diferencia de los derechos humanos. Que una recomendación se relacione con un objetivo no dice nada sobre su grado de cumplimiento."],
 ];
 
 export default async function SdgPage() {
-  const [commitments, links] = await Promise.all([getCommitments(), getAllSdgLinks()]);
+  const [commitments, links, dimensionLinks] = await Promise.all([getCommitments(), getAllSdgLinks(), getAllHumanSecurityDimensions().catch(() => [])]);
   const total = commitments.length;
+  const byId = new Map(commitments.map((c) => [c.public_id, c]));
   const { goals, linked } = summarizeSdgs(commitments.map((c) => c.public_id), links || []);
-  const ranked = [...goals].sort((a, b) => b.public_ids.length - a.public_ids.length);
-  const leading = ranked[0];
-  const topTarget = goals.flatMap((g) => Object.entries(g.byTarget).map(([code, ids]) => ({ code, count: ids.length }))).sort((a, b) => b.count - a.count)[0];
-  const goalsWithLinks = goals.filter((g) => g.public_ids.length).length;
+  const dimensionsById: Record<string, DimensionCode[]> = {};
+  for (const d of dimensionLinks) (dimensionsById[d.public_id] ??= []).push(d.code);
+
+  const explorer: SdgExplorerGoal[] = goals.map(({ goal, public_ids, byTarget }) => {
+    const records = public_ids.map((id) => byId.get(id)!);
+    const count = (status: string) => records.filter((c) => c.acceptance_status === status).length;
+    return {
+      number: goal.number, name: goal.name, title: goal.title, color: goal.color,
+      total: records.length, accepted: count("accepted"), partiallyAccepted: count("partially_accepted"), noted: count("noted"),
+      priority: records.filter((c) => c.is_priority).length, assessed: records.filter(isAssessed).length,
+      targetCount: goal.targets.length, linkedTargets: Object.keys(byTarget).length,
+      targets: Object.entries(byTarget).map(([code, ids]) => ({ code, text: targetText(code)!, count: ids.length })).sort((a, b) => b.count - a.count).slice(0, 4),
+      dimensions: countBy(public_ids, dimensionsById).slice(0, 5).map(({ key, count: n }) => ({ code: key, name: dimensionNames[key], count: n })),
+    };
+  });
+
+  const withLinks = goals.filter((g) => g.public_ids.length);
+  const targets = goals.flatMap((g) => Object.entries(g.byTarget).map(([code, ids]) => ({ code, goal: g.goal, text: targetText(code)!, count: ids.length }))).sort((a, b) => b.count - a.count);
+  const topTargets = targets.slice(0, 8);
+
+  // Recommendations per goal and human-security dimension.
+  const matrix = withLinks.map((g) => {
+    const counts = Object.fromEntries(countBy(g.public_ids, dimensionsById).map(({ key, count }) => [key, count])) as Partial<Record<DimensionCode, number>>;
+    return { goal: g.goal, total: g.public_ids.length, counts };
+  });
+  const matrixMax = Math.max(1, ...matrix.flatMap((row) => Object.values(row.counts)));
+
+  // Recommendations related to the most goals.
+  const goalsById = new Map<string, number[]>();
+  for (const g of goals) for (const id of g.public_ids) goalsById.set(id, [...(goalsById.get(id) || []), g.goal.number]);
+  const transversal = [...goalsById.entries()].filter(([, numbers]) => numbers.length >= 3).sort((a, b) => b[1].length - a[1].length).slice(0, 5);
+
   const published = formatDate(links?.find((l) => l.source_published_at)?.source_published_at);
-  const max = leading.public_ids.length;
 
   return (
     <>
       <SiteHeader />
       <Box component="main">
-        <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
-          <Typography variant="overline" color="primary.main" sx={{ borderLeft: "3px solid", borderColor: "secondary.main", pl: 1.5 }}>Agenda 2030 · Naciones Unidas</Typography>
-          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.2rem", md: "3rem" }, mt: 1 }}>Objetivos de Desarrollo Sostenible</Typography>
-          <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 820, lineHeight: 1.75 }}>
-            Los Objetivos de Desarrollo Sostenible (ODS) son el plan común que los Estados Miembros de las Naciones Unidas acordaron para erradicar la pobreza, reducir las desigualdades y proteger el planeta de aquí a 2030. Esta página muestra con qué objetivos y metas se relaciona cada una de las recomendaciones de derechos humanos que España recibió en el Examen Periódico Universal.
-          </Typography>
-          {/* Official logo for entities outside the United Nations system: colour version, on white. */}
-          <Box sx={{ mt: 4, maxWidth: 460 }}>
-            <Image src="/images/ods/S_SDG_logo_without_UN_emblem_horizontal_Transparent_WEB.png" alt="Objetivos de Desarrollo Sostenible" width={2559} height={336} sizes="(min-width: 600px) 460px, 100vw" priority style={{ display: "block", width: "100%", height: "auto" }} />
+        <Container maxWidth="lg" sx={{ pt: { xs: 4.5, md: 6 }, pb: { xs: 4, md: 5 } }}>
+          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,7fr) minmax(0,5fr)" }, columnGap: 8, rowGap: 3.5, alignItems: "end" }}>
+            <Box>
+              <Typography variant="overline" color="primary.main" sx={{ borderLeft: "3px solid", borderColor: "secondary.main", pl: 1.5 }}>Agenda 2030 · Naciones Unidas</Typography>
+              <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.2rem", md: "3rem" }, mt: 1 }}>Objetivos de Desarrollo Sostenible</Typography>
+              <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 620, lineHeight: 1.7 }}>
+                A qué objetivos y metas de la Agenda 2030 contribuye cada recomendación de derechos humanos que recibió España.
+              </Typography>
+            </Box>
+            {/* Official logo for entities outside the United Nations system: colour version, over white. */}
+            <Box sx={{ maxWidth: 420, justifySelf: { md: "end" }, width: "100%" }}>
+              <Image src="/images/ods/S_SDG_logo_without_UN_emblem_horizontal_Transparent_WEB.png" alt="Objetivos de Desarrollo Sostenible" width={2559} height={336} sizes="(min-width: 900px) 420px, 100vw" priority unoptimized style={{ display: "block", width: "100%", height: "auto" }} />
+            </Box>
           </Box>
-        </Container>
-
-        <Divider />
-
-        <Container component="section" aria-labelledby="sdg-goals-heading" maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
-          <Typography variant="overline" color="text.secondary">Recomendaciones a España</Typography>
-          <Typography id="sdg-goals-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>A qué objetivos contribuyen las recomendaciones</Typography>
-
-          {links === null && <Typography color="text.secondary" sx={{ mt: 2 }}>No se ha podido cargar la relación entre las recomendaciones y los ODS. Los objetivos pueden consultarse igualmente.</Typography>}
 
           {links !== null && linked > 0 && (
-            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "repeat(3,minmax(0,1fr))" }, borderBottom: "1px solid", borderColor: "divider", mt: 2 }}>
-              <Reading label="Recomendaciones con algún ODS" value={`${linked} de ${total}`}>
-                {formatShare(linked, total)} del examen, repartidas en {goalsWithLinks} de los 17 objetivos
-              </Reading>
-              <Reading label="Objetivo con más recomendaciones" value={formatShare(max, total)}>
-                ODS {leading.goal.number} · {leading.goal.name} · {max} recomendaciones
-              </Reading>
-              {topTarget && (
-                <Reading label="Meta más citada" value={`Meta ${topTarget.code}`}>
-                  {topTarget.count} recomendaciones se relacionan con ella
-                </Reading>
-              )}
+            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 4, rowGap: 3, mt: { xs: 4, md: 5 }, pt: 3.5, borderTop: "2px solid", borderColor: "secondary.main" }}>
+              <Figure value={String(linked)} of={`de ${total}`}>recomendaciones relacionadas con algún ODS</Figure>
+              <Figure value={String(withLinks.length)} of="de 17">objetivos con recomendaciones a España</Figure>
+              <Figure value={String(targets.length)} of={`de ${SDG_TARGET_COUNT}`}>metas con recomendaciones</Figure>
+              {targets[0] && <Figure value={targets[0].code}>meta más citada, con {plural(targets[0].count)}</Figure>}
             </Box>
           )}
-
-          {/* The 17 icons, whole and in their official order, aligned to the left. */}
-          <Box component="ul" sx={{ listStyle: "none", m: 0, mt: 4, p: 0, display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", sm: "repeat(3,minmax(0,1fr))", md: "repeat(6,minmax(0,1fr))" }, columnGap: 2, rowGap: 3.5 }}>
-            {goals.map(({ goal, public_ids }, index) => {
-              const count = public_ids.length;
-              return (
-                <Box component="li" key={goal.number} sx={{ minWidth: 0 }}>
-                  <Box component={Link} href={`/ods/${goal.number}`} sx={{ display: "block", color: "primary.main", textDecoration: "none", "&:hover .sdg-count": { textDecoration: "underline", textDecorationColor: brand.accent, textUnderlineOffset: "4px" }, "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 4 } }}>
-                    <SdgIcon goal={goal} sizes="(min-width: 900px) 180px, (min-width: 600px) 33vw, 50vw" priority={index < 6} />
-                    {links !== null && (
-                      <>
-                        <Typography className="sdg-count" sx={{ mt: 1.25, fontWeight: 500, lineHeight: 1.3, color: count ? "primary.main" : "text.secondary" }}>
-                          {count ? `${count} ${count === 1 ? "recomendación" : "recomendaciones"}` : "Sin recomendaciones"}
-                        </Typography>
-                        <Box aria-hidden sx={{ height: 4, mt: .9, bgcolor: "rgba(0,163,224,.16)" }}>
-                          <Box sx={{ height: 1, width: `${max ? (100 * count) / max : 0}%`, bgcolor: brand.accentInk }} />
-                        </Box>
-                      </>
-                    )}
-                  </Box>
-                </Box>
-              );
-            })}
-          </Box>
-
-          <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 3, maxWidth: 860, lineHeight: 1.6 }}>
-            Cada icono lleva al objetivo, a sus metas y a las recomendaciones relacionadas. Una recomendación puede relacionarse con varios objetivos, por lo que las cifras suman más que el total de recomendaciones.
-          </Typography>
+          {links === null && <Typography color="text.secondary" sx={{ mt: 4 }}>No se ha podido cargar la relación entre las recomendaciones y los ODS.</Typography>}
         </Container>
 
-        <Section id="sdg-about-heading" overline="La Agenda 2030" title="Qué son los ODS">
-          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,7fr) minmax(0,4fr)" }, columnGap: 8, rowGap: 4 }}>
-            <Stack spacing={1.6} sx={{ maxWidth: 780, "& p": { lineHeight: 1.8 } }}>
-              <Typography>
-                En septiembre de 2015, la Asamblea General de las Naciones Unidas aprobó la Agenda 2030 para el Desarrollo Sostenible (resolución A/RES/70/1). La Agenda fija 17 objetivos que abarcan desde el fin de la pobreza y la igualdad de género hasta la acción por el clima y el acceso a la justicia, y se aplica a todos los países, también a los desarrollados como España.
-              </Typography>
-              <Typography>
-                Cada objetivo se concreta en metas. Las numeradas (1.1, 1.2…) describen el resultado que se quiere lograr; las que llevan una letra (1.a, 1.b…) se refieren a los medios para conseguirlo, como la financiación, las leyes o la cooperación. Las metas son las que permiten medir si se avanza.
-              </Typography>
-              <Typography>
-                La Agenda promete «que nadie se quedará atrás» y se compromete a llegar primero a los más rezagados. Por eso sus objetivos y los derechos humanos se refuerzan mutuamente.
-              </Typography>
-            </Stack>
-            <Box sx={{ display: "grid", gridTemplateColumns: "repeat(2,minmax(0,1fr))", columnGap: 3, rowGap: 3, alignContent: "start", p: { xs: 2.25, md: 3 }, bgcolor: brand.soft, borderTop: `2px solid ${brand.accent}` }}>
-              {keyFigures.map(([value, label]) => (
-                <Box key={label}>
-                  <Typography color="primary.main" sx={{ fontSize: "2rem", fontWeight: 500, lineHeight: 1 }}>{value}</Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ mt: .75, lineHeight: 1.5 }}>{label}</Typography>
+        <Container component="section" aria-labelledby="sdg-explorer-heading" maxWidth="lg" sx={section}>
+          <Heading id="sdg-explorer-heading" overline="Recomendaciones por objetivo" title="Los 17 objetivos, uno a uno">
+            Cada cifra es el número de recomendaciones relacionadas con el objetivo. Al seleccionar uno se ve cómo respondió España, qué metas concentran las recomendaciones y a qué seguridad humana afectan.
+          </Heading>
+          <SdgExplorer goals={explorer} total={total} />
+        </Container>
+
+        {matrix.length > 0 && dimensionLinks.length > 0 && (
+          <Container component="section" aria-labelledby="sdg-matrix-heading" maxWidth="lg" sx={section}>
+            <Heading id="sdg-matrix-heading" overline="Cruce de marcos" title="Objetivos y seguridad humana">
+              Recomendaciones que comparten cada objetivo y cada dimensión de la seguridad humana. Cuanto más oscura la celda, más recomendaciones.
+            </Heading>
+            <Box sx={{ position: "relative", overflowX: "auto" }}>
+              <Box component="table" sx={{ width: "100%", minWidth: 820, borderCollapse: "separate", borderSpacing: 2, tableLayout: "fixed", "& th": { fontWeight: 500 } }}>
+                <Box component="thead">
+                  <Box component="tr">
+                    <Box component="th" scope="col" sx={{ ...sticky, width: { xs: 168, sm: 250 }, textAlign: "left", verticalAlign: "bottom", pb: 1 }}>
+                      <Typography variant="overline" color="text.secondary">Objetivo</Typography>
+                    </Box>
+                    {dimensionCodes.map((code) => (
+                      <Box component="th" scope="col" key={code} sx={{ verticalAlign: "bottom", pb: 1, color: "primary.main" }}>
+                        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: .75 }}>
+                          <DimensionIcon code={code} size={24} />
+                          <Typography component="span" variant="caption" color="text.secondary" sx={{ lineHeight: 1.2 }}><Box component="span" sx={visuallyHidden}>Seguridad </Box>{shortName(code)}</Typography>
+                        </Box>
+                      </Box>
+                    ))}
+                    <Box component="th" scope="col" sx={{ width: 64, textAlign: "right", verticalAlign: "bottom", pb: 1 }}>
+                      <Typography variant="overline" color="text.secondary">Total</Typography>
+                    </Box>
+                  </Box>
                 </Box>
-              ))}
+                <Box component="tbody">
+                  {matrix.map(({ goal, total: rowTotal, counts }) => (
+                    <Box component="tr" key={goal.number}>
+                      <Box component="th" scope="row" sx={{ ...sticky, textAlign: "left", p: 0 }}>
+                        <Box component={Link} href={`/ods/${goal.number}`} sx={{ display: "grid", gridTemplateColumns: { xs: "40px minmax(0,1fr)", sm: "48px minmax(0,1fr)" }, alignItems: "center", columnGap: { xs: 1, sm: 1.5 }, pr: 1.5, color: "primary.main", textDecoration: "none", "&:hover .sdg-name": { color: brand.accentInk }, "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 2 } }}>
+                          <SdgIcon goal={goal} sizes="48px" />
+                          <Typography className="sdg-name" component="span" variant="body2" sx={{ fontWeight: 500, lineHeight: 1.3, transition: "color .15s" }}>{goal.name}</Typography>
+                        </Box>
+                      </Box>
+                      {dimensionCodes.map((code) => {
+                        const count = counts[code] || 0;
+                        const level = count ? step(count, matrixMax) : -1;
+                        return (
+                          <Box component="td" key={code} title={`ODS ${goal.number} · ${dimensionNames[code]}: ${plural(count)}`} sx={{ height: 48, textAlign: "center", bgcolor: count ? ramp[level] : brand.soft, color: level >= 4 ? "#fff" : "primary.main" }}>
+                            <Typography component="span" variant="body2" sx={{ fontWeight: count ? 600 : 400, fontVariantNumeric: "tabular-nums", color: count ? "inherit" : "text.disabled" }}>{count || "·"}</Typography>
+                          </Box>
+                        );
+                      })}
+                      <Box component="td" sx={{ textAlign: "right" }}>
+                        <Typography component="span" color="primary.main" sx={{ fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{rowTotal}</Typography>
+                      </Box>
+                    </Box>
+                  ))}
+                </Box>
+              </Box>
             </Box>
+            <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap sx={{ mt: 2 }}>
+              <Typography variant="caption" color="text.secondary">Menos</Typography>
+              <Box aria-hidden sx={{ display: "flex", gap: "2px" }}>{ramp.map((color) => <Box key={color} sx={{ width: 22, height: 10, bgcolor: color }} />)}</Box>
+              <Typography variant="caption" color="text.secondary">Más recomendaciones</Typography>
+              <Typography variant="caption" color="text.secondary" sx={{ pl: { sm: 2 }, width: { xs: "100%", sm: "auto" } }}>Una recomendación puede figurar en varias celdas.</Typography>
+            </Stack>
+          </Container>
+        )}
+
+        {topTargets.length > 0 && (
+          <Container maxWidth="lg" sx={section}>
+            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,7fr) minmax(0,5fr)" }, columnGap: 8, rowGap: 6 }}>
+              <Box component="section" aria-labelledby="sdg-targets-heading">
+                <Heading id="sdg-targets-heading" overline="Metas" title="Las metas más citadas" />
+                <Box component="ol" sx={{ listStyle: "none", m: 0, p: 0, borderTop: "1px solid", borderColor: "divider" }}>
+                  {topTargets.map((target) => (
+                    <Box component="li" key={target.code} sx={{ borderBottom: "1px solid", borderColor: "divider" }}>
+                      <Box component={Link} href={`/ods/${target.goal.number}#meta-${target.code}`} sx={{ display: "grid", gridTemplateColumns: "56px minmax(0,1fr) 40px", columnGap: 2, alignItems: "start", py: 1.75, color: "primary.main", textDecoration: "none", "&:hover .sdg-code": { color: brand.accentInk }, "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 2 } }}>
+                        <Typography className="sdg-code" component="span" sx={{ fontSize: "1.2rem", fontWeight: 500, lineHeight: 1.2, fontVariantNumeric: "tabular-nums", transition: "color .15s" }}>{target.code}</Typography>
+                        <Box>
+                          <Typography component="span" variant="body2" color="text.primary" sx={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", lineHeight: 1.5 }}>{target.text}</Typography>
+                          <Box aria-hidden sx={{ height: 4, mt: 1, bgcolor: track }}>
+                            <Box sx={{ height: 1, width: `${(100 * target.count) / topTargets[0].count}%`, bgcolor: brand.accentInk }} />
+                          </Box>
+                        </Box>
+                        <Typography component="span" title={plural(target.count)} sx={{ textAlign: "right", fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{target.count}</Typography>
+                      </Box>
+                    </Box>
+                  ))}
+                </Box>
+              </Box>
+
+              {transversal.length > 0 && (
+                <Box component="section" aria-labelledby="sdg-transversal-heading">
+                  <Heading id="sdg-transversal-heading" overline="Recomendaciones" title="Las más transversales" />
+                  <Box component="ol" sx={{ listStyle: "none", m: 0, p: 0, borderTop: "1px solid", borderColor: "divider" }}>
+                    {transversal.map(([id, numbers]) => {
+                      const c = byId.get(id)!;
+                      return (
+                        <Box component="li" key={id} sx={{ py: 1.75, borderBottom: "1px solid", borderColor: "divider" }}>
+                          <Typography variant="caption" color="text.secondary">Recomendación {c.recommendation_number} · {numbers.length} objetivos</Typography>
+                          <Typography component={Link} href={`/commitments/${encodeURIComponent(id)}#ods`} color="primary.main" sx={{ display: "block", mt: .25, fontWeight: 500, lineHeight: 1.4, textDecoration: "none", "&:hover": { color: "secondary.dark" } }}>{c.title}</Typography>
+                          {/* Icons in a single row, in their official order. */}
+                          <Box sx={{ display: "flex", gap: .75, mt: 1.25 }}>
+                            {numbers.map((number) => <Box key={number} sx={{ width: 52 }}><SdgIcon goal={sdgGoal(number)!} sizes="52px" /></Box>)}
+                          </Box>
+                        </Box>
+                      );
+                    })}
+                  </Box>
+                </Box>
+              )}
+            </Box>
+          </Container>
+        )}
+
+        <Container component="section" aria-labelledby="sdg-about-heading" maxWidth="lg" sx={section}>
+          <Heading id="sdg-about-heading" overline="La Agenda 2030" title="Los ODS en breve" />
+          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 4, rowGap: 3, p: { xs: 2.25, md: 4 }, bgcolor: brand.soft, borderTop: `2px solid ${brand.accent}` }}>
+            <Figure value="17">objetivos comunes a todos los países</Figure>
+            <Figure value={String(SDG_TARGET_COUNT)}>metas que los concretan y permiten medirlos</Figure>
+            <Figure value="193">Estados los aprobaron en la ONU en 2015</Figure>
+            <Figure value="2030">año fijado para alcanzarlos</Figure>
           </Box>
-        </Section>
+          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "repeat(3,minmax(0,1fr))" }, columnGap: 6, rowGap: 3, mt: 4 }}>
+            {brief.map(([title, text]) => (
+              <Box key={title} sx={{ pt: 2, borderTop: "1px solid", borderColor: "divider" }}>
+                <Typography variant="h6" color="primary.main">{title}</Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ mt: .75, lineHeight: 1.7 }}>{text}</Typography>
+              </Box>
+            ))}
+          </Box>
 
-        <Section id="sdg-rights-heading" overline="ODS y derechos humanos" title="Por qué se relacionan con las recomendaciones">
-          <Stack spacing={1.6} sx={{ maxWidth: 860, "& p": { lineHeight: 1.8 } }}>
-            <Typography>
-              La propia Agenda 2030 declara que sus fundamentos son la Declaración Universal de Derechos Humanos y los tratados internacionales de derechos humanos. Muchas de sus metas recogen, con otras palabras, obligaciones que los Estados ya tienen: acabar con la discriminación, garantizar la educación y la salud o proteger frente a la violencia.
+          <Box sx={{ mt: 5, "& a": { color: "inherit" } }}>
+            <RecordDisclosure title="Fuente y método">
+              <Stack spacing={1.4} sx={{ maxWidth: 860, "& p": { lineHeight: 1.75 } }}>
+                <Typography variant="body2">
+                  La relación entre recomendaciones, objetivos y metas procede del <a href={UHRI_URL} target="_blank" rel="noreferrer">Índice Universal de los Derechos Humanos</a>, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos{published ? ` (datos publicados el ${published})` : ""}. HRCT la reproduce tal como figura en la fuente, sin añadir ni modificar relaciones{links !== null && linked > 0 && total > linked ? `; ${total - linked} recomendaciones no tienen ningún ODS asignado` : ""}.
+                </Typography>
+                <Typography variant="body2">
+                  El nombre de los objetivos y el texto de las metas son los oficiales en español de la resolución A/RES/70/1 de la Asamblea General. Las dimensiones de la seguridad humana son la clasificación propia de HRCT.
+                </Typography>
+              </Stack>
+            </RecordDisclosure>
+            <Divider />
+            <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 2, maxWidth: 940, lineHeight: 1.7 }}>
+              Logotipo e iconos de los ODS: materiales oficiales de las Naciones Unidas, utilizados con fines informativos conforme a sus <a href={UN_SDG_GUIDELINES_URL} target="_blank" rel="noreferrer">directrices de uso</a>. Su uso no implica el respaldo de las Naciones Unidas. El contenido de esta página no ha sido aprobado por las Naciones Unidas y no refleja las opiniones de las Naciones Unidas, de sus funcionarios ni de sus Estados Miembros. Más información en <a href={UN_SDG_URL} target="_blank" rel="noreferrer">un.org/sustainabledevelopment/es</a>.
             </Typography>
-            <Typography>
-              Las recomendaciones del Examen Periódico Universal señalan qué debe mejorar un país en materia de derechos humanos. Cuando una recomendación se cumple, se avanza también en las metas de los ODS con las que está relacionada. Leer ambas cosas juntas ayuda a ver qué hay detrás de cada objetivo y qué medidas concretas se le piden a España.
-            </Typography>
-            <Typography>
-              Hay una diferencia importante: los ODS son un compromiso político, mientras que los derechos humanos son obligaciones jurídicas. Que una recomendación se relacione con un objetivo no dice nada sobre su grado de cumplimiento, que se valora en la ficha de cada recomendación.
-            </Typography>
-          </Stack>
-        </Section>
-
-        <Section id="sdg-method-heading" overline="Fuente y método" title="Cómo se establece la relación">
-          <Stack spacing={1.6} sx={{ maxWidth: 860, "& p": { lineHeight: 1.8 } }}>
-            <Typography>
-              La relación entre cada recomendación y los ODS procede del <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={link}>Índice Universal de los Derechos Humanos</Box>, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos (ACNUDH), que asigna objetivos y metas a las recomendaciones de los mecanismos de derechos humanos{published ? `. Los datos que se muestran se publicaron en el Índice el ${published}` : ""}. HRCT los reproduce tal como figuran en la fuente: no añade ni modifica relaciones.
-            </Typography>
-            <Typography>
-              En cada recomendación se muestran solo las metas con las que se relaciona, no todas las del objetivo. En algunos casos la fuente relaciona una recomendación con un objetivo en su conjunto, sin una meta concreta{links !== null && linked > 0 && total > linked ? `, y ${total - linked} recomendaciones no tienen ningún ODS asignado` : ""}.
-            </Typography>
-            <Typography>
-              El nombre de los objetivos y el texto de las metas son los oficiales en español de la resolución A/RES/70/1 de la Asamblea General.
-            </Typography>
-          </Stack>
-        </Section>
-
-        <Container maxWidth="lg" sx={{ py: 3.5, borderTop: "1px solid", borderColor: "divider" }}>
-          <Typography variant="caption" color="text.secondary" sx={{ display: "block", maxWidth: 940, lineHeight: 1.7 }}>
-            El logotipo y los 17 iconos de los ODS son materiales oficiales de las Naciones Unidas y se utilizan aquí con fines informativos, conforme a sus <Box component="a" href={UN_SDG_GUIDELINES_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>directrices de uso</Box>. Su uso no implica el respaldo de las Naciones Unidas a Blue Human ni a este sitio. El contenido de esta página no ha sido aprobado por las Naciones Unidas y no refleja las opiniones de las Naciones Unidas, de sus funcionarios ni de sus Estados Miembros. Más información en <Box component="a" href={UN_SDG_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>un.org/sustainabledevelopment/es</Box>.
-          </Typography>
+          </Box>
         </Container>
       </Box>
       <SiteFooter />
