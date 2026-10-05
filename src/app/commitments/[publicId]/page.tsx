@@ -8,11 +8,12 @@ import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
 import { MonitoringList } from "@/components/MonitoringList";
 import { PriorityTag } from "@/components/PriorityTag";
+import { RecommendationSdgs } from "@/components/RecommendationSdgs";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { RecordDisclosure } from "@/components/RecordDisclosure";
-import { acceptanceLabels, confidenceLabels, evidenceTypeLabels, formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getLastScannedAt, getMonitoringItems, labelOf, monitoringChannel, splitRationale } from "@/lib/hrct";
+import { acceptanceLabels, confidenceLabels, evidenceTypeLabels, formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getLastScannedAt, getMonitoringItems, getSdgLinks, labelOf, monitoringChannel, splitRationale } from "@/lib/hrct";
 
 function Meta({ label, value }: { label: string; value: string }) {
   return <Box><Typography variant="overline" color="text.secondary">{label}</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{value}</Typography></Box>;
@@ -21,13 +22,14 @@ function Meta({ label, value }: { label: string; value: string }) {
 export default async function CommitmentPage({ params }: { params: Promise<{ publicId: string }> }) {
   const { publicId } = await params;
   const decoded = decodeURIComponent(publicId);
-  const [commitment, evidence, dimensions, monitoring, history, lastScannedAt] = await Promise.all([
+  const [commitment, evidence, dimensions, monitoring, history, lastScannedAt, sdgLinks] = await Promise.all([
     getCommitment(decoded),
     getEvidence(decoded),
     getHumanSecurityDimensions(decoded),
     getMonitoringItems(decoded),
     getAssessmentHistory(decoded),
     getLastScannedAt(decoded),
+    getSdgLinks(decoded),
   ]);
   if (!commitment) notFound();
 
@@ -61,7 +63,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
 
         <Container maxWidth="lg" sx={{ py: { xs: 4, md: 5 }, '& section[id]': { scrollMarginTop: { xs: 150, sm: 100 } } }}>
           <Stack component="nav" aria-label="Secciones de la recomendación" direction="row" spacing={{ xs: 1, sm: 3 }} useFlexGap flexWrap="wrap" sx={{ mb: { xs: 4, md: 5 }, pb: 1.5, borderBottom: "2px solid", borderColor: "secondary.main" }}>
-            {[['Valoración', '#valoracion'], ['Indicadores', '#indicadores'], ['Fuentes y seguimiento', '#fuentes']].map(([label, href]) => <Button key={href} component="a" href={href} sx={{ px: 0 }}>{label}</Button>)}
+            {[['Valoración', '#valoracion'], ['Indicadores', '#indicadores'], ['ODS y metas', '#ods'], ['Fuentes y seguimiento', '#fuentes']].map(([label, href]) => <Button key={href} component="a" href={href} sx={{ px: 0 }}>{label}</Button>)}
           </Stack>
           <Stack spacing={{ xs: 5, md: 6 }}>
             <Stack direction={{ xs: "column", lg: "row" }} spacing={{ xs: 4, lg: 7 }} alignItems="flex-start">
@@ -130,6 +132,10 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
 
             <Box sx={{ pt: { xs: 4, md: 5 }, borderTop: "1px solid", borderColor: "divider" }}>
               <Suspense fallback={<IndicatorSkeleton />}><RecommendationIndicators publicId={decoded} /></Suspense>
+            </Box>
+
+            <Box sx={{ pt: { xs: 4, md: 5 }, borderTop: "1px solid", borderColor: "divider" }}>
+              <RecommendationSdgs links={sdgLinks} />
             </Box>
 
             <Box component="section" id="fuentes" aria-labelledby="sources-heading" sx={{ pt: { xs: 4, md: 5 }, borderTop: "1px solid", borderColor: "divider" }}>

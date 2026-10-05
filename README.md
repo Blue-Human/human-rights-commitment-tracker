@@ -24,6 +24,7 @@ The frontend only consumes published data exposed through these Supabase views:
 - `hrct_public_assessment_history`
 - `hrct_public_human_security`
 - `hrct_public_monitoring`
+- `hrct_public_sdgs` (goals and targets of the 2030 Agenda linked to each recommendation; see `docs/sdg.md`)
 - `hrct_public_monitoring_status` and `hrct_public_monitoring_coverage` (optional; the UI omits "last source scan" until they exist)
 
 Recommendations are managed from the in-app admin panel (see below). Jira is no longer part of the workflow.

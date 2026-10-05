@@ -1,17 +1,9 @@
 "use client";
 
 import { createTheme } from "@mui/material/styles";
+import { brand } from "./brand";
 
-export const brand = {
-  navy: "#0a1e33",
-  ink: "#15283b",
-  muted: "#64717c",
-  border: "#d8dde2",
-  soft: "#f7f8f9",
-  accent: "#00a3e0",
-  accentInk: "#006c95",
-  accentSoft: "rgba(0,163,224,.07)",
-};
+export { brand };
 
 export const theme = createTheme({
   palette: {

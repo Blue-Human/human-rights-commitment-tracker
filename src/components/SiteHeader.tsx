@@ -75,6 +75,7 @@ export function SiteHeader() {
             {[
               ["Recomendaciones", "/"],
               ["Datos", "/indicators"],
+              ["ODS", "/ods"],
               ["Actualidad", "/monitoring"],
               ["Metodología", "/methodology"],
             ].map(([label, href]) => (

@@ -46,6 +46,8 @@ const api=createServer(async(req,res)=>{
     else if(id==='FIXTURE-ERROR'){res.writeHead(503);return res.end('{}');}
     else {result=b;if(!args.p_all_history)result.values=result.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);}
   } else if(url.pathname.includes('hrct_public_commitments')) result=[{id:'fixture-rec',public_id:url.searchParams.get('public_id')?.slice(3)||'FIXTURE-MULTI',title:'PRUEBA AISLADA · Datos sintéticos',original_text:'Fixture sintética, nunca producción.',country_iso2:'ES',country_name:'España',country_slug:'spain',mechanism_code:'UPR',mechanism_name:'EPU, cuarto ciclo',recommendation_number:'TEST',assessment_status:'not_assessed',acceptance_status:'accepted',published_at:'2026-01-01'}];
+  // Synthetic SDG links: one goal with a target and one linked as a whole.
+  else if(url.pathname.includes('hrct_public_sdgs')) result=['eq.FIXTURE-MULTI',null].includes(url.searchParams.get('public_id'))?[{public_id:'FIXTURE-MULTI',goal:5,targets:[],source_published_at:'2026-01-01'},{public_id:'FIXTURE-MULTI',goal:16,targets:['16.3'],source_published_at:'2026-01-01'}]:[];
   else if(url.searchParams.get('public_id')==='eq.FIXTURE-MULTI') {
     if(url.pathname.includes('hrct_public_evidence'))result=[{id:'test-evidence',evidence_type:'official_report',source_title:'Fuente documental sintética',source_url:'https://example.test/evidence',finding:'Conclusión documental de prueba.',reviewed_at:'2026-01-01'}];
     else if(url.pathname.includes('hrct_public_human_security'))result=[{code:'economic',name:'Seguridad económica',is_primary:true,rationale:'Justificación de seguridad humana sintética.'}];
@@ -84,7 +86,16 @@ try {
     return !!(assessment.compareDocumentPosition(indicators)&Node.DOCUMENT_POSITION_FOLLOWING);
   }),true);
   const recordNavigation=page.getByRole('navigation',{name:'Secciones de la recomendación'});
-  assert.equal(await recordNavigation.getByRole('link').count(),3);
+  assert.equal(await recordNavigation.getByRole('link').count(),4);
+  assert.equal(await recordNavigation.getByRole('link',{name:'ODS y metas',exact:true}).getAttribute('href'),'#ods');
+  // Related goals carry their official icon and only the related targets.
+  const sdgs=page.locator('#ods');
+  assert.equal(await sdgs.getByRole('img').count(),2);
+  assert.equal(await sdgs.getByRole('img',{name:'ODS 16: Paz, justicia e instituciones sólidas'}).evaluate(async img=>{await img.decode();return img.naturalWidth===img.naturalHeight&&img.naturalWidth>0;}),true);
+  assert.equal(await sdgs.getByText('Meta 16.3',{exact:true}).isVisible(),true);
+  assert.equal(await sdgs.getByText('Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos',{exact:true}).isVisible(),true);
+  assert.equal(await sdgs.getByText(/^Meta /).count(),1);
+  assert.equal(await sdgs.getByText('Relacionada con el objetivo en su conjunto, sin una meta concreta.',{exact:true}).count(),1);
   assert.equal(await recordNavigation.getByRole('link',{name:'Indicadores',exact:true}).getAttribute('href'),'#indicadores');
   const official=page.locator('summary').filter({hasText:'Texto oficial de Naciones Unidas'});
   await official.focus();await page.keyboard.press('Enter');
@@ -177,8 +188,21 @@ try {
   assert.equal(await overview.locator('figure svg circle').count(),0);
   await overview.close();
   const admin=await browser.newPage();await admin.goto(`${base}/admin/indicators`,{waitUntil:'commit'});await admin.waitForURL('**/admin/login');assert.match(admin.url(),/\/admin\/login$/);await admin.close();
+  const goals=await browser.newPage();goals.on('pageerror',error=>pageErrors.push(error.message));
+  await goals.goto(`${base}/ods`);
+  assert.equal(await goals.getByRole('img',{name:/^ODS \d+: /}).count(),17);
+  assert.equal(await goals.getByRole('link',{name:/ODS 16: /}).getByText('1 recomendación',{exact:true}).count(),1);
+  assert.equal(await goals.getByRole('link',{name:/ODS 2: /}).getByText('Sin recomendaciones',{exact:true}).count(),1);
+  await goals.getByRole('link',{name:/ODS 16: /}).click();await goals.waitForURL('**/ods/16');
+  assert.equal(await goals.getByRole('heading',{level:1}).textContent(),'Paz, justicia e instituciones sólidas');
+  assert.equal(await goals.locator('[id="meta-16.3"]').getByRole('link',{name:'PRUEBA AISLADA · Datos sintéticos'}).getAttribute('href'),'/commitments/FIXTURE-MULTI#ods');
+  assert.equal(await goals.locator('[id^="meta-16."]').count(),12);
+  assert.equal((await goals.goto(`${base}/ods/18`)).status(),404);
+  await goals.goto(`${base}/commitments/FIXTURE-NODATA`);
+  assert.equal(await goals.locator('#ods').getByText(/no relaciona esta recomendación con ningún Objetivo de Desarrollo Sostenible/).count(),1);
+  await goals.close();
   assert.deepEqual(pageErrors,[]);
-  console.log('Chromium: desktop/mobile, keyboard points, data table, scopes, history, empty states, errors and protected admin verified.');
+  console.log('Chromium: desktop/mobile, keyboard points, data table, scopes, history, empty states, errors, SDG pages and protected admin verified.');
 } finally {
   await browser?.close();next?.kill('SIGTERM');
   await new Promise(r=>api.close(r));await rm(sandbox,{recursive:true,force:true});

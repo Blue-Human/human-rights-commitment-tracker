@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -106,6 +107,15 @@ export default function MethodologyPage() {
               </Typography>
               <Typography>
                 Toda conclusión debe apoyarse en un documento público citado. Las valoraciones se actualizan mediante revisiones periódicas de fuentes oficiales e institucionales. Una valoración actualizada en una revisión periódica se publica como provisional y se marca como «pendiente de confirmación final» hasta que Blue Human la confirma. Una recomendación solo se muestra como cumplida cuando Blue Human lo ha confirmado.
+              </Typography>
+            </Section>
+
+            <Section overline="Agenda 2030" title="Relación con los Objetivos de Desarrollo Sostenible">
+              <Typography>
+                Cada ficha indica los Objetivos de Desarrollo Sostenible (ODS) y las metas de la Agenda 2030 con los que se relaciona la recomendación. Esa relación no la establece Blue Human: procede del Índice Universal de los Derechos Humanos, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, y se reproduce tal como figura en la fuente. Cuando la fuente no asigna ningún objetivo a una recomendación, la ficha lo indica.
+              </Typography>
+              <Typography>
+                El nombre de los objetivos y el texto de las metas son los oficiales de la resolución A/RES/70/1 de la Asamblea General. La relación con un objetivo es informativa y no forma parte de la valoración del cumplimiento. La página <Box component={Link} href="/ods" sx={{ color: "primary.main", textDecorationColor: "#00a3e0", textUnderlineOffset: "4px", "&:hover": { color: "secondary.dark" } }}>ODS</Box> reúne los objetivos, sus metas y las recomendaciones relacionadas con cada uno.
               </Typography>
             </Section>
 
