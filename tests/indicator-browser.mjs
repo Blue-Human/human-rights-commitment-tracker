@@ -198,7 +198,7 @@ try {
   await relations.getByText('Ninguna recomendación del examen se relaciona con este objetivo',{exact:true}).waitFor();
   await goals.getByRole('button',{name:/^ODS 16: /}).click();
   assert.equal(await relations.getByRole('link',{name:/^16\.3/}).getAttribute('href'),'/ods/16#meta-16.3');
-  assert.equal(await relations.getByRole('img',{name:'ODS 16: Paz, justicia e instituciones sólidas'}).evaluate(async img=>{await img.decode();return img.naturalWidth===1536&&img.naturalHeight===1536;}),true);
+  assert.equal(await relations.getByRole('img',{name:'ODS 16: Paz, justicia e instituciones sólidas'}).evaluate(async img=>{await img.decode();return img.naturalWidth===1500&&img.naturalHeight===1500;}),true);
   await relations.getByRole('link',{name:'Ver objetivo y recomendaciones'}).click();await goals.waitForURL('**/ods/16');
   assert.equal(await goals.getByRole('heading',{level:1}).textContent(),'Paz, justicia e instituciones sólidas');
   assert.equal(await goals.locator('[id="meta-16.3"]').getByRole('link',{name:'PRUEBA AISLADA · Datos sintéticos'}).getAttribute('href'),'/commitments/FIXTURE-MULTI#ods');

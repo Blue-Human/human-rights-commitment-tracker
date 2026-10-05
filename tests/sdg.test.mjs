@@ -24,7 +24,7 @@ test('the catalogue holds the 17 goals and 169 targets of the 2030 Agenda, each 
       // No doubled spaces or footnote marks left over from the source document.
       assert.ok(text.length>30&&!/\s{2}|\p{L}\d+$/u.test(text),code);
     }
-    await access(new URL(`../public${sdgIcon(goal.number)}`,import.meta.url));
+    for(const variant of ['inverse','filled']) await access(new URL(`../public${sdgIcon(goal.number,variant)}`,import.meta.url));
   }
   assert.equal(new Set(sdgGoals.map(g=>g.color)).size,17);
   assert.equal(targetText('16.b'),'Promover y aplicar leyes y políticas no discriminatorias en favor del desarrollo sostenible');

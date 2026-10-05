@@ -105,7 +105,7 @@ export default async function SdgPage() {
       <SiteHeader />
       <Box component="main">
         <Container maxWidth="lg" sx={{ pt: { xs: 4.5, md: 6 }, pb: { xs: 4, md: 5 } }}>
-          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,7fr) minmax(0,5fr)" }, columnGap: 8, rowGap: 3.5, alignItems: "end" }}>
+          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,1fr) auto" }, columnGap: 8, rowGap: 3.5, alignItems: "center" }}>
             <Box>
               <Typography variant="overline" color="primary.main" sx={{ borderLeft: "3px solid", borderColor: "secondary.main", pl: 1.5 }}>Agenda 2030 · Naciones Unidas</Typography>
               <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.2rem", md: "3rem" }, mt: 1 }}>Objetivos de Desarrollo Sostenible</Typography>
@@ -113,9 +113,9 @@ export default async function SdgPage() {
                 A qué objetivos y metas de la Agenda 2030 contribuye cada recomendación de derechos humanos que recibió España.
               </Typography>
             </Box>
-            {/* Official logo for entities outside the United Nations system: colour version, over white. */}
-            <Box sx={{ maxWidth: 420, justifySelf: { md: "end" }, width: "100%" }}>
-              <Image src="/images/ods/S_SDG_logo_without_UN_emblem_horizontal_Transparent_WEB.png" alt="Objetivos de Desarrollo Sostenible" width={2559} height={336} sizes="(min-width: 900px) 420px, 100vw" priority unoptimized style={{ display: "block", width: "100%", height: "auto" }} />
+            {/* Official colour wheel, over white and apart from any other logo. */}
+            <Box sx={{ width: { xs: 120, md: 190 }, justifySelf: { md: "end" } }}>
+              <Image src="/images/ods/SDG-Wheel_PRINT_Transparent.png" alt="Rueda de colores de los Objetivos de Desarrollo Sostenible" width={1500} height={1500} sizes="(min-width: 900px) 190px, 120px" priority unoptimized style={{ display: "block", width: "100%", height: "auto" }} />
             </Box>
           </Box>
 
@@ -274,7 +274,7 @@ export default async function SdgPage() {
             </RecordDisclosure>
             <Divider />
             <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 2, maxWidth: 940, lineHeight: 1.7 }}>
-              Logotipo e iconos de los ODS: materiales oficiales de las Naciones Unidas, utilizados con fines informativos conforme a sus <a href={UN_SDG_GUIDELINES_URL} target="_blank" rel="noreferrer">directrices de uso</a>. Su uso no implica el respaldo de las Naciones Unidas. El contenido de esta página no ha sido aprobado por las Naciones Unidas y no refleja las opiniones de las Naciones Unidas, de sus funcionarios ni de sus Estados Miembros. Más información en <a href={UN_SDG_URL} target="_blank" rel="noreferrer">un.org/sustainabledevelopment/es</a>.
+              Rueda de colores e iconos de los ODS: materiales oficiales de las Naciones Unidas, utilizados con fines informativos conforme a sus <a href={UN_SDG_GUIDELINES_URL} target="_blank" rel="noreferrer">directrices de uso</a>. Su uso no implica el respaldo de las Naciones Unidas. El contenido de esta página no ha sido aprobado por las Naciones Unidas y no refleja las opiniones de las Naciones Unidas, de sus funcionarios ni de sus Estados Miembros. Más información en <a href={UN_SDG_URL} target="_blank" rel="noreferrer">un.org/sustainabledevelopment/es</a>.
             </Typography>
           </Box>
         </Container>

@@ -71,7 +71,7 @@ export function SdgExplorer({ goals, total }: { goals: SdgExplorerGoal[]; total:
 
   return (
     <Box>
-      <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(3,minmax(0,1fr))", sm: "repeat(6,minmax(0,1fr))", lg: "repeat(9,minmax(0,1fr))" }, gap: 1 }}>
+      <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(3,minmax(0,1fr))", sm: "repeat(4,minmax(0,1fr))", md: "repeat(6,minmax(0,1fr))" }, columnGap: { xs: 1.5, md: 3 }, rowGap: { xs: 2.5, md: 3.5 } }}>
         {goals.map((goal, index) => {
           const on = goal.number === active.number;
           return (
@@ -82,19 +82,18 @@ export function SdgExplorer({ goals, total }: { goals: SdgExplorerGoal[]; total:
               aria-pressed={on}
               onClick={() => select(goal.number)}
               sx={{
-                position: "relative", appearance: "none", font: "inherit", textAlign: "left", cursor: "pointer", minWidth: 0, p: 1, bgcolor: "#fff",
-                border: "1px solid", borderColor: on ? "primary.main" : "divider", boxShadow: on ? `inset 0 0 0 1px ${brand.navy}` : "none",
-                transition: "border-color .15s, box-shadow .15s",
-                "&:hover": { borderColor: on ? "primary.main" : brand.accentInk },
-                "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 3 },
+                position: "relative", appearance: "none", font: "inherit", textAlign: "left", cursor: "pointer", minWidth: 0, p: 0, border: 0, bgcolor: "transparent",
+                "&:hover .sdg-count": { color: on ? "#fff" : brand.accentInk },
+                "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 4 },
               }}
             >
-              <SdgIcon goal={goal} sizes="(min-width: 1200px) 120px, (min-width: 600px) 16vw, 31vw" priority={index < 9} />
-              <Box sx={{ display: "flex", alignItems: "baseline", gap: .5, mt: .75, px: .25 }}>
-                <Typography component="span" sx={{ fontSize: "1.2rem", fontWeight: 500, lineHeight: 1, color: goal.total ? "primary.main" : "text.secondary", fontVariantNumeric: "tabular-nums" }}>{goal.total}</Typography>
+              <SdgIcon goal={goal} sizes="(min-width: 1200px) 180px, (min-width: 900px) 16vw, (min-width: 600px) 23vw, 30vw" priority={index < 6} />
+              {/* The selected goal is marked on its figure, never on the icon. */}
+              <Box sx={{ display: "flex", mt: .5, px: 1 }}>
+                <Typography className="sdg-count" component="span" sx={{ px: on ? .9 : 0, py: .35, fontSize: "1.3rem", fontWeight: 500, lineHeight: 1, bgcolor: on ? "primary.main" : "transparent", color: on ? "#fff" : goal.total ? "primary.main" : "text.secondary", fontVariantNumeric: "tabular-nums", transition: "color .15s, background-color .15s, padding .15s" }}>{goal.total}</Typography>
                 <Box component="span" sx={visuallyHidden}>{plural(goal.total)}</Box>
               </Box>
-              <Box sx={{ mt: .75 }}><Bar value={goal.total} max={max} /></Box>
+              <Box sx={{ mt: .75, px: 1 }}><Bar value={goal.total} max={max} /></Box>
             </Box>
           );
         })}
@@ -103,9 +102,8 @@ export function SdgExplorer({ goals, total }: { goals: SdgExplorerGoal[]; total:
       <Box ref={panel} role="region" aria-live="polite" aria-label={`ODS ${active.number}: ${active.name}`} sx={{ mt: 1, p: { xs: 2.25, md: 4 }, bgcolor: brand.soft, borderTop: `3px solid ${active.color}`, scrollMarginBlock: 96 }}>
         <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "repeat(2,minmax(0,1fr))", lg: "minmax(0,10fr) minmax(0,9fr) minmax(0,10fr) minmax(0,9fr)" }, columnGap: 5, rowGap: 4 }}>
           <Box>
-            {/* The inverse icon is only shown over white. */}
-            <Box sx={{ width: 148, p: 1, bgcolor: "#fff" }}>
-              <SdgIcon goal={active} sizes="132px" />
+            <Box sx={{ width: 148 }}>
+              <SdgIcon goal={active} variant="filled" sizes="148px" />
             </Box>
             <Typography sx={{ display: "flex", alignItems: "baseline", gap: 1, mt: 2.5, color: "primary.main" }}>
               <Box component="span" sx={{ fontSize: "2.6rem", fontWeight: 500, lineHeight: 1, letterSpacing: "-.02em" }}>{active.total}</Box>

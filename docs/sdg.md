@@ -8,7 +8,7 @@ The `/ods` pages and the "ODS y metas" section of each recommendation relate the
 | --- | --- | --- |
 | Which goals and targets each recommendation relates to | Universal Human Rights Index (UHRI), OHCHR. Full export: `https://uhri.ohchr.org/api/uhri/export-results/export-full-es.json` | `data/sdg/uhri-spain-upr4.json` (snapshot) → table `commitment_sdgs` → view `hrct_public_sdgs` |
 | Goal titles and the text of the 169 targets, in Spanish | General Assembly resolution A/RES/70/1 | `src/lib/sdg.ts` (`title`, `targets`), verbatim |
-| Goal names, colours, icons and logo | UN communications material for the SDGs, Spanish version: `https://www.un.org/sustainabledevelopment/es/news/communications-material/` | `src/lib/sdg.ts` (`name`, `color`), `public/images/ods/` |
+| Goal names, colours, icons and colour wheel | UN communications material for the SDGs, Spanish version: `https://www.un.org/sustainabledevelopment/es/news/communications-material/` | `src/lib/sdg.ts` (`name`, `color`), `public/images/ods/` |
 | Why each goal matters for human rights | Blue Human | `src/lib/sdg.ts` (`relevance`) |
 
 HRCT publishes the UHRI tagging as it is. It does not add, remove or reinterpret links: a recommendation the UHRI links to a goal without a target is shown that way, and one with no goal says so. In the snapshot of 2026-10-05 (tagging published on the UHRI on 2025-12-30), 306 of the 324 recommendations have at least one goal, 297 at least one target, and 12 goals and 32 targets are in use.
@@ -21,13 +21,13 @@ HRCT publishes the UHRI tagging as it is. It does not add, remove or reinterpret
 
 ## Use of the UN logo and icons
 
-The 17 icons and the SDG logo are UN materials. The files in `public/images/ods/` are the official Spanish web versions, unmodified: the inverse colour version of the icons (`S_SDG_Icons_Inverted_Transparent_WEB-NN.png`, the goal's colour on a transparent background) and the logo without the UN emblem. They are served as they are, without recompression (`unoptimized`), so that they stay sharp. Their use here is informational, which the UN guidelines allow without prior permission. The guidelines (linked from `/ods`) set rules the UI follows:
+The 17 icons and the SDG colour wheel are UN materials. The files in `public/images/ods/` are the official versions, unmodified: the icons in Spanish, in their inverse colour version (`S_SDG_Icons_Inverted_Transparent_WEB-NN.png`, the goal's colour on a transparent background) and in their filled version (`S-WEB-Goal-NN.png`, used in the detail panel of `/ods`), and the colour wheel (`SDG-Wheel_PRINT_Transparent.png`, the high-resolution file of the official pack). They are served as they are, without recompression (`unoptimized`), so that they stay sharp. Their use here is informational, which the UN guidelines allow without prior permission. The guidelines (linked from `/ods`) set rules the UI follows:
 
 - Each icon is shown whole (number, name and pictogram), square, in its own colours, with nothing drawn over it, no shadow and no cropping. Use `SdgIcon`; do not rebuild an icon from its parts, recolour it or dim it.
-- The inverse version may only be used over white. On a tinted panel the icon sits in a white box.
+- The inverse version may only be used over white.
 - Icons are shown in a row or grid aligned to the left.
-- The logo is the version without the UN emblem, for entities outside the UN system. Its colour version goes on a white or light grey background only.
-- The logo and the colour wheel are not placed side by side with the HRCT or Blue Human logo. Doing so would require the text "[entity] supports the Sustainable Development Goals".
+- The colour wheel is shown whole, over white, with nothing in its centre and not inside a coloured box.
+- The colour wheel and the SDG logo are not placed side by side with the HRCT or Blue Human logo. Doing so would require the text "[entity] supports the Sustainable Development Goals".
 - `/ods` states that the content has not been approved by the United Nations, and links to the guidelines and to the UN SDG site.
 
 ## Relations shown on `/ods`
