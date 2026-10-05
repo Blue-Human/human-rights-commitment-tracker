@@ -112,7 +112,10 @@ export default function MethodologyPage() {
 
             <Section overline="Agenda 2030" title="Relación con los Objetivos de Desarrollo Sostenible">
               <Typography>
-                Cada ficha indica los Objetivos de Desarrollo Sostenible (ODS) y las metas de la Agenda 2030 con los que se relaciona la recomendación. Esa relación no la establece Blue Human: procede del Índice Universal de los Derechos Humanos, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, y se reproduce tal como figura en la fuente. Cuando la fuente no asigna ningún objetivo a una recomendación, la ficha lo indica.
+                Cada ficha indica los Objetivos de Desarrollo Sostenible (ODS) y las metas de la Agenda 2030 con los que se relaciona la recomendación. Es una clasificación propia de HRCT: cada recomendación se analiza a partir de su texto oficial y se relaciona con las metas a las que su cumplimiento contribuiría de forma directa, con una justificación para cada relación. Se toma como referencia el etiquetado del Índice Universal de los Derechos Humanos, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos.
+              </Typography>
+              <Typography>
+                Se atiende a la medida que se pide y no a las palabras que emplea; se elige la meta más específica y solo se añaden otras cuando la recomendación tiene componentes distintos. Cuando un objetivo recoge el asunto pero ninguna de sus metas lo concreta, la recomendación se relaciona con el objetivo en su conjunto, y cuando la Agenda 2030 no contiene ninguna meta sobre su contenido, la ficha lo indica.
               </Typography>
               <Typography>
                 El nombre de los objetivos y el texto de las metas son los oficiales de la resolución A/RES/70/1 de la Asamblea General. La relación con un objetivo es informativa y no forma parte de la valoración del cumplimiento. La página <Box component={Link} href="/ods" sx={{ color: "primary.main", textDecorationColor: "#00a3e0", textUnderlineOffset: "4px", "&:hover": { color: "secondary.dark" } }}>ODS</Box> reúne los objetivos, sus metas y las recomendaciones relacionadas con cada uno.

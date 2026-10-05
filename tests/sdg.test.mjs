@@ -5,8 +5,10 @@ import { PGlite } from '@electric-sql/pglite';
 import { countBy, SDG_TARGET_COUNT, sdgGoals, summarizeSdgs, targetText } from '../src/lib/sdg.ts';
 import { sdgIcon } from '../src/lib/sdg-icon.ts';
 import { compareTargets, parseSdgs, recommendationNumber, snapshotRows } from '../scripts/import-uhri-sdg.mjs';
+import { reviewRows } from '../scripts/sdg-review.mjs';
 
 const snapshot=JSON.parse(await readFile(new URL('../data/sdg/uhri-spain-upr4.json',import.meta.url),'utf8'));
+const review=JSON.parse(await readFile(new URL('../data/sdg/hrct-review-spain-upr4.json',import.meta.url),'utf8'));
 
 test('the catalogue holds the 17 goals and 169 targets of the 2030 Agenda, each with its official icon',async()=>{
   assert.deepEqual(sdgGoals.map(g=>g.number),Array.from({length:17},(_,i)=>i+1));
@@ -96,5 +98,45 @@ test('the SDG migration publishes exactly the snapshot and is safe to run again'
   await assert.rejects(db.query(`update public.commitment_sdgs set targets='{16.33x}' where goal=16`));
   const {rows:grants}=await db.query(`select distinct privilege_type from information_schema.role_table_grants where grantee in ('anon','authenticated') and table_name in ('commitment_sdgs','hrct_public_sdgs')`);
   assert.deepEqual(grants.map(g=>g.privilege_type),['SELECT']);
+  await db.close();
+});
+
+test('the HRCT review covers every recommendation, with existing targets and a reason for each link',()=>{
+  assert.deepEqual(review.records.map(r=>r.number),Array.from({length:324},(_,i)=>`50.${i+1}`));
+  for(const record of review.records) {
+    // A recommendation without links says why.
+    assert.ok(record.links.length||record.note,record.number);
+    assert.deepEqual(record.links.map(l=>l.goal),[...new Set(record.links.map(l=>l.goal))].sort((a,b)=>a-b),record.number);
+    for(const link of record.links) {
+      assert.ok(link.goal>=1&&link.goal<=17&&/\S.*\.$/.test(link.rationale),`${record.number}: ${link.goal}`);
+      assert.deepEqual(link.targets,[...new Set(link.targets)].sort(compareTargets),record.number);
+      for(const code of link.targets) {
+        assert.ok(targetText(code),`${record.number}: ${code}`);
+        assert.equal(Number(code.split('.')[0]),link.goal,`${record.number}: ${code}`);
+      }
+    }
+  }
+  // Trafficking in persons is never linked to the target on trafficking in protected species.
+  assert.ok(!review.records.some(r=>r.links.some(l=>l.targets.includes('15.7'))));
+});
+
+test('the review migration replaces the UHRI tagging with the review and is safe to run again',async()=>{
+  const db=new PGlite();
+  await db.exec(`
+    create role anon; create role authenticated;
+    create table public.commitments(id uuid primary key default gen_random_uuid(),public_id text unique,publication_status text not null default 'published');
+    insert into public.commitments(public_id) select 'ESP-UPR4-050.'||n from generate_series(1,324) n;
+    insert into public.commitments(public_id) values ('OTHER-1');
+  `);
+  await db.exec(await readFile(new URL('../supabase/migrations/20261011_sdg_links.sql',import.meta.url),'utf8'));
+  // A link of another catalogue is left alone.
+  await db.exec(`insert into public.commitment_sdgs(commitment_id,goal,targets) select id,15,'{15.7}' from public.commitments where public_id='OTHER-1'`);
+  const sql=await readFile(new URL('../supabase/migrations/20261012_sdg_review.sql',import.meta.url),'utf8');
+  await db.exec(sql);await db.exec(sql);
+  const {rows}=await db.query(`select split_part(public_id,'.',2)::int n,goal,targets,rationale,source,reviewed_at::text reviewed from public.hrct_public_sdgs where public_id like 'ESP-UPR4-050.%' order by 1,2`);
+  assert.deepEqual(rows.map(r=>({n:r.n,goal:r.goal,targets:r.targets,rationale:r.rationale})),reviewRows(review));
+  assert.ok(rows.every(r=>r.source==='hrct'&&r.reviewed===review.reviewed_at));
+  const {rows:[other]}=await db.query(`select count(*)::int n from public.hrct_public_sdgs where public_id='OTHER-1'`);
+  assert.equal(other.n,1);
   await db.close();
 });

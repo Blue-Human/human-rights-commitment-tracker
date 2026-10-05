@@ -15,10 +15,10 @@ export function RecommendationSdgs({ publicId, links }: { publicId: string; link
   const rest = (links || []).filter((link) => link.public_id !== publicId);
   const linked = (links || []).filter((link) => link.public_id === publicId).sort((a, b) => a.goal - b.goal).flatMap((link) => {
     const goal = sdgGoal(link.goal);
-    return goal ? [{ goal, targets: link.targets, peers: rest.filter((other) => other.goal === link.goal).length }] : [];
+    return goal ? [{ goal, targets: link.targets, rationale: link.rationale, peers: rest.filter((other) => other.goal === link.goal).length }] : [];
   });
   const peersOf = (code: string) => rest.filter((other) => other.targets.includes(code)).length;
-  const published = formatDate(links?.find((link) => link.source_published_at)?.source_published_at);
+  const reviewed = formatDate(links?.find((link) => link.reviewed_at)?.reviewed_at);
 
   return (
     <Box component="section" id="ods" aria-labelledby="sdg-heading">
@@ -29,7 +29,7 @@ export function RecommendationSdgs({ publicId, links }: { publicId: string; link
 
       {links !== null && !linked.length && (
         <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.7 }}>
-          El Índice Universal de los Derechos Humanos de las Naciones Unidas no relaciona esta recomendación con ningún Objetivo de Desarrollo Sostenible.
+          HRCT no relaciona esta recomendación con ningún Objetivo de Desarrollo Sostenible: su contenido no corresponde a ninguna meta de la Agenda 2030.
         </Typography>
       )}
 
@@ -39,7 +39,7 @@ export function RecommendationSdgs({ publicId, links }: { publicId: string; link
             Cumplir esta recomendación contribuye a {linked.length === 1 ? "este objetivo" : `estos ${linked.length} objetivos`} de la Agenda 2030.
           </Typography>
           <Box sx={{ borderTop: "1px solid", borderColor: "divider" }}>
-            {linked.map(({ goal, targets, peers }) => (
+            {linked.map(({ goal, targets, rationale, peers }) => (
               <Box key={goal.number} sx={{ display: "grid", gridTemplateColumns: { xs: "88px minmax(0,1fr)", sm: "132px minmax(0,1fr)" }, columnGap: { xs: 2, sm: 4 }, alignItems: "start", py: 3, borderBottom: "1px solid", borderColor: "divider" }}>
                 <Box component={Link} href={`/ods/${goal.number}`} sx={{ display: "block", "&:focus-visible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 3 } }}>
                   <SdgIcon goal={goal} sizes="132px" />
@@ -54,6 +54,7 @@ export function RecommendationSdgs({ publicId, links }: { publicId: string; link
                       {peers ? `${others(peers)} en este objetivo` : "Ver el objetivo"}
                     </Button>
                   </Stack>
+                  {rationale && <Typography variant="body2" color="text.secondary" sx={{ mt: .75, maxWidth: 720, lineHeight: 1.6 }}>{rationale}</Typography>}
                   {targets.length > 0 ? (
                     <Box component="ul" sx={{ listStyle: "none", m: 0, mt: 1.5, p: 0 }}>
                       {targets.map((code) => {
@@ -85,7 +86,7 @@ export function RecommendationSdgs({ publicId, links }: { publicId: string; link
 
       {links !== null && (
         <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 2, maxWidth: 840, lineHeight: 1.6 }}>
-          Relación: <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>Índice Universal de los Derechos Humanos</Box> (ACNUDH){published ? `, publicada el ${published}` : ""}. Texto de las metas: resolución A/RES/70/1 de la Asamblea General.
+          Clasificación de HRCT a partir del texto oficial de la recomendación{reviewed ? ` (revisión del ${reviewed})` : ""}, con el <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>Índice Universal de los Derechos Humanos</Box> (ACNUDH) como referencia. Texto de las metas: resolución A/RES/70/1 de la Asamblea General.
         </Typography>
       )}
     </Box>

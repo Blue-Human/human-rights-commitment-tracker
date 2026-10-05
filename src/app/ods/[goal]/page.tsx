@@ -142,7 +142,7 @@ export default async function SdgGoalPage({ params }: Params) {
                   {total === 1 ? "recomendación relacionada" : "recomendaciones relacionadas"} con este objetivo
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ mt: .5, lineHeight: 1.6 }}>
-                  {total ? `${formatShare(total, commitments.length)} de las ${commitments.length} que recibió en el cuarto ciclo del Examen Periódico Universal.` : "El Índice Universal de los Derechos Humanos no relaciona con él ninguna de las recomendaciones del cuarto ciclo del Examen Periódico Universal."}
+                  {total ? `${formatShare(total, commitments.length)} de las ${commitments.length} que recibió en el cuarto ciclo del Examen Periódico Universal.` : "Ninguna de las recomendaciones del cuarto ciclo del Examen Periódico Universal se relaciona con él."}
                 </Typography>
               </Box>
               {total > 0 && (
@@ -244,7 +244,7 @@ export default async function SdgGoalPage({ params }: Params) {
                 <Typography variant="overline" color="text.secondary">Sin una meta concreta</Typography>
                 <Typography id="whole-goal-heading" variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.5 }}>Recomendaciones relacionadas con el objetivo en su conjunto</Typography>
                 <Typography variant="body2" color="text.secondary" sx={{ mb: 2, maxWidth: 840, lineHeight: 1.7 }}>
-                  La fuente las relaciona con el objetivo {goal.number}, pero no con ninguna de sus metas.
+                  Su asunto corresponde al objetivo {goal.number}, pero ninguna de sus metas lo concreta.
                 </Typography>
                 <RecordDisclosure title={plural(summary.withoutTarget.length)} open={summary.withoutTarget.length <= 3}>
                   <Recommendations records={records(summary.withoutTarget)} />
@@ -269,7 +269,7 @@ export default async function SdgGoalPage({ params }: Params) {
           </Stack>
 
           <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 4, maxWidth: 860, lineHeight: 1.6 }}>
-            Relación entre recomendaciones y metas: <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>Índice Universal de los Derechos Humanos</Box> (ACNUDH). Nombre del objetivo y texto de las metas: resolución A/RES/70/1 de la Asamblea General. La nota sobre su importancia es de Blue Human.
+            Relación entre recomendaciones y metas: clasificación de HRCT, con el <Box component="a" href={UHRI_URL} target="_blank" rel="noreferrer" sx={{ color: "inherit" }}>Índice Universal de los Derechos Humanos</Box> (ACNUDH) como referencia. Nombre del objetivo y texto de las metas: resolución A/RES/70/1 de la Asamblea General. La nota sobre su importancia es de Blue Human.
           </Typography>
 
           <Stack component="nav" aria-label="Otros objetivos" direction="row" justifyContent="space-between" spacing={2} sx={{ mt: 4, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>

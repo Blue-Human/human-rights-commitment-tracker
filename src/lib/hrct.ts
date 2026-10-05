@@ -258,7 +258,7 @@ export async function getAllSdgLinks(): Promise<SdgLink[] | null> {
   const rows: SdgLink[] = [];
   try {
     for (let offset = 0; ; offset += pageSize) {
-      const page = await rest<SdgLink[]>(`hrct_public_sdgs?select=public_id,goal,targets,source_published_at&order=public_id.asc,goal.asc&limit=${pageSize}&offset=${offset}`);
+      const page = await rest<SdgLink[]>(`hrct_public_sdgs?select=public_id,goal,targets,rationale,reviewed_at&order=public_id.asc,goal.asc&limit=${pageSize}&offset=${offset}`);
       rows.push(...page);
       if (page.length < pageSize) return rows;
     }

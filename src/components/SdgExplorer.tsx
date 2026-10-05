@@ -158,7 +158,7 @@ export function SdgExplorer({ goals, total }: { goals: SdgExplorerGoal[]; total:
                       <Typography component="span" variant="body2" sx={{ textAlign: "right", fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{target.count}</Typography>
                     </Box>
                   ))}
-                  {!active.targets.length && <Typography variant="body2" color="text.secondary" sx={{ py: 1 }}>La fuente no las relaciona con ninguna meta concreta.</Typography>}
+                  {!active.targets.length && <Typography variant="body2" color="text.secondary" sx={{ py: 1 }}>Se relacionan con el objetivo en su conjunto, sin una meta concreta.</Typography>}
                 </Box>
               </Box>
 

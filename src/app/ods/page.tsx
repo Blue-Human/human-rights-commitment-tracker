@@ -98,7 +98,7 @@ export default async function SdgPage() {
   for (const g of goals) for (const id of g.public_ids) goalsById.set(id, [...(goalsById.get(id) || []), g.goal.number]);
   const transversal = [...goalsById.entries()].filter(([, numbers]) => numbers.length >= 3).sort((a, b) => b[1].length - a[1].length).slice(0, 5);
 
-  const published = formatDate(links?.find((l) => l.source_published_at)?.source_published_at);
+  const reviewed = formatDate(links?.find((l) => l.reviewed_at)?.reviewed_at);
 
   return (
     <>
@@ -265,10 +265,13 @@ export default async function SdgPage() {
             <RecordDisclosure title="Fuente y método">
               <Stack spacing={1.4} sx={{ maxWidth: 860, "& p": { lineHeight: 1.75 } }}>
                 <Typography variant="body2">
-                  La relación entre recomendaciones, objetivos y metas procede del <a href={UHRI_URL} target="_blank" rel="noreferrer">Índice Universal de los Derechos Humanos</a>, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos{published ? ` (datos publicados el ${published})` : ""}. HRCT la reproduce tal como figura en la fuente, sin añadir ni modificar relaciones{links !== null && linked > 0 && total > linked ? `; ${total - linked} recomendaciones no tienen ningún ODS asignado` : ""}.
+                  La relación entre recomendaciones, objetivos y metas es una clasificación propia de HRCT{reviewed ? ` (revisión del ${reviewed})` : ""}. Cada recomendación se ha analizado a partir de su texto oficial y se ha relacionado con las metas a las que su cumplimiento contribuiría de forma directa. Cada relación lleva una justificación, que se muestra en la ficha de la recomendación.
                 </Typography>
                 <Typography variant="body2">
-                  El nombre de los objetivos y el texto de las metas son los oficiales en español de la resolución A/RES/70/1 de la Asamblea General. Las dimensiones de la seguridad humana son la clasificación propia de HRCT.
+                  Criterios: se atiende a la medida que se pide y no a las palabras que emplea; se elige la meta más específica y solo se añaden otras cuando la recomendación tiene componentes distintos; cuando un objetivo recoge el asunto pero ninguna de sus metas lo concreta, la recomendación se relaciona con el objetivo en su conjunto{links !== null && linked > 0 && total > linked ? `; ${total - linked} recomendaciones no se relacionan con ningún ODS porque la Agenda 2030 no contiene ninguna meta sobre su contenido` : ""}.
+                </Typography>
+                <Typography variant="body2">
+                  Se ha tomado como referencia el etiquetado del <a href={UHRI_URL} target="_blank" rel="noreferrer">Índice Universal de los Derechos Humanos</a>, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, que se ha revisado recomendación a recomendación. El nombre de los objetivos y el texto de las metas son los oficiales en español de la resolución A/RES/70/1 de la Asamblea General. Las dimensiones de la seguridad humana son también una clasificación propia de HRCT.
                 </Typography>
               </Stack>
             </RecordDisclosure>

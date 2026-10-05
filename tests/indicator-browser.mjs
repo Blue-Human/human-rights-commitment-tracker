@@ -47,7 +47,7 @@ const api=createServer(async(req,res)=>{
     else {result=b;if(!args.p_all_history)result.values=result.values.filter(v=>Number(v.period_start.slice(0,4))>=new Date().getUTCFullYear()-4);}
   } else if(url.pathname.includes('hrct_public_commitments')) result=[{id:'fixture-rec',public_id:url.searchParams.get('public_id')?.slice(3)||'FIXTURE-MULTI',title:'PRUEBA AISLADA · Datos sintéticos',original_text:'Fixture sintética, nunca producción.',country_iso2:'ES',country_name:'España',country_slug:'spain',mechanism_code:'UPR',mechanism_name:'EPU, cuarto ciclo',recommendation_number:'TEST',assessment_status:'not_assessed',acceptance_status:'accepted',published_at:'2026-01-01'}];
   // Synthetic SDG links: one goal with a target and one linked as a whole.
-  else if(url.pathname.includes('hrct_public_sdgs')) result=['eq.FIXTURE-MULTI',null].includes(url.searchParams.get('public_id'))?[{public_id:'FIXTURE-MULTI',goal:5,targets:[],source_published_at:'2026-01-01'},{public_id:'FIXTURE-MULTI',goal:16,targets:['16.3'],source_published_at:'2026-01-01'}]:[];
+  else if(url.pathname.includes('hrct_public_sdgs')) result=['eq.FIXTURE-MULTI',null].includes(url.searchParams.get('public_id'))?[{public_id:'FIXTURE-MULTI',goal:5,targets:[],rationale:'Justificación sintética del objetivo 5.',reviewed_at:'2026-01-01'},{public_id:'FIXTURE-MULTI',goal:16,targets:['16.3'],rationale:'Justificación sintética del objetivo 16.',reviewed_at:'2026-01-01'}]:[];
   else if(url.searchParams.get('public_id')==='eq.FIXTURE-MULTI') {
     if(url.pathname.includes('hrct_public_evidence'))result=[{id:'test-evidence',evidence_type:'official_report',source_title:'Fuente documental sintética',source_url:'https://example.test/evidence',finding:'Conclusión documental de prueba.',reviewed_at:'2026-01-01'}];
     else if(url.pathname.includes('hrct_public_human_security'))result=[{code:'economic',name:'Seguridad económica',is_primary:true,rationale:'Justificación de seguridad humana sintética.'}];
@@ -95,6 +95,7 @@ try {
   assert.equal(await sdgs.getByText('Meta 16.3',{exact:true}).isVisible(),true);
   assert.equal(await sdgs.getByText('Promover el estado de derecho en los planos nacional e internacional y garantizar la igualdad de acceso a la justicia para todos',{exact:true}).isVisible(),true);
   assert.equal(await sdgs.getByText(/^Meta /).count(),1);
+  assert.equal(await sdgs.getByText('Justificación sintética del objetivo 16.',{exact:true}).isVisible(),true);
   assert.equal(await sdgs.getByText('Relacionada con el objetivo en su conjunto, sin una meta concreta.',{exact:true}).count(),1);
   assert.equal(await recordNavigation.getByRole('link',{name:'Indicadores',exact:true}).getAttribute('href'),'#indicadores');
   const official=page.locator('summary').filter({hasText:'Texto oficial de Naciones Unidas'});

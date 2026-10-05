@@ -19,9 +19,9 @@ export type SdgGoal = {
   targets: [string, string][];
 };
 
-// Goals and targets linked to a recommendation by the Universal Human Rights Index (OHCHR).
-// A goal with no targets is linked as a whole.
-export type SdgLink = { public_id: string; goal: number; targets: string[]; source_published_at?: string | null };
+// Goals and targets a recommendation is related to, in HRCT's own classification (docs/sdg.md).
+// A goal with no targets is related as a whole. `rationale` says why the link was made.
+export type SdgLink = { public_id: string; goal: number; targets: string[]; rationale?: string | null; reviewed_at?: string | null };
 
 export const SDG_TARGET_COUNT = 169;
 export const UN_SDG_URL = "https://www.un.org/sustainabledevelopment/es/";
