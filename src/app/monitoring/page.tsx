@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Box, Container, Typography } from "@mui/material";
-import { Figure } from "@/components/Figure";
 import { MonitoringCard } from "@/components/MonitoringCard";
 import { MonitoringExplorer, type ExplorerItem } from "@/components/MonitoringExplorer";
 import { RecordDisclosure } from "@/components/RecordDisclosure";
@@ -42,11 +41,6 @@ export default async function MonitoringPage() {
     numbers: d.public_ids.map((id) => numbers[id] || id),
   }));
 
-  const monitored = status?.recommendations_monitored ?? commitments.length;
-  const withDevelopments = new Set(items.map((item) => item.public_id)).size;
-  const sources = new Set(developments.map((d) => d.source_domain || d.publisher)).size;
-  const lastScan = status?.last_successful_run_at ? new Date(status.last_successful_run_at) : null;
-
   return (
     <>
       <SiteHeader />
@@ -57,15 +51,6 @@ export default async function MonitoringPage() {
           <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 660, lineHeight: 1.7 }}>
             Noticias, publicaciones oficiales y cambios normativos relacionados con las recomendaciones de derechos humanos que recibió España.
           </Typography>
-
-          {developments.length > 0 && (
-            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 4, rowGap: 3, mt: { xs: 4, md: 5 }, pt: 3.5, borderTop: "2px solid", borderColor: "secondary.main" }}>
-              <Figure value={String(developments.length)}>novedades publicadas</Figure>
-              <Figure value={String(withDevelopments)} of={`de ${monitored}`}>recomendaciones con alguna novedad</Figure>
-              <Figure value={String(sources)}>medios e instituciones citados</Figure>
-              {lastScan && <Figure value={lastScan.toLocaleDateString("es-ES", { day: "numeric", month: "short", timeZone: "UTC" })} of={String(lastScan.getUTCFullYear())}>última consulta de fuentes</Figure>}
-            </Box>
-          )}
         </Container>
 
         {lead && (
