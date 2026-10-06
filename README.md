@@ -22,7 +22,7 @@ The frontend only consumes published data exposed through these Supabase views:
 - `hrct_public_commitments`
 - `hrct_public_evidence`
 - `hrct_public_assessment_history`
-- `hrct_public_human_security`
+- `hrct_public_human_security` (human-security dimensions of each recommendation, HRCT's reviewed classification; see `docs/human-security.md`)
 - `hrct_public_monitoring`
 - `hrct_public_sdgs` (goals and targets of the 2030 Agenda linked to each recommendation; see `docs/sdg.md`)
 - `hrct_public_monitoring_status` and `hrct_public_monitoring_coverage` (optional; the UI omits "last source scan" until they exist)

@@ -42,7 +42,7 @@ export default async function Home() {
                 <Typography variant="overline" color="text.secondary">Seguridad humana</Typography>
                 <Typography id="human-security-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>A qué seguridad afectan las recomendaciones</Typography>
               </Box>
-              <HumanSecurityImpact dimensions={summarizeDimensions(commitments, dimensions, descriptions, monitoringCounts)} total={commitments.length} noted={noted} />
+              <HumanSecurityImpact dimensions={summarizeDimensions(commitments, dimensions, descriptions, monitoringCounts)} total={commitments.length} noted={noted} unclassified={commitments.filter((c) => !dimensionsById[c.public_id]).length} />
             </Container>
           )}
 

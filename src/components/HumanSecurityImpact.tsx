@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRef, useState } from "react";
 import ArrowDownwardRoundedIcon from "@mui/icons-material/ArrowDownwardRounded";
 import { Box, Button, Typography } from "@mui/material";
@@ -13,6 +14,8 @@ type Props = {
   // Published recommendations, and how many of them Spain only noted.
   total: number;
   noted: number;
+  // Recommendations to which the classification assigns no dimension.
+  unclassified?: number;
 };
 
 // "Seguridad comunitaria" → "Comunitaria": the tiles share the word "Seguridad" as a label.
@@ -35,7 +38,7 @@ function Reading({ label, value, children }: { label: string; value: string; chi
   );
 }
 
-export function HumanSecurityImpact({ dimensions, total, noted }: Props) {
+export function HumanSecurityImpact({ dimensions, total, noted, unclassified = 0 }: Props) {
   const ranked = [...dimensions].sort((a, b) => b.total - a.total);
   const [selected, setSelected] = useState<DimensionCode>(ranked[0].code);
   const { setDimension } = useDimensionFilter();
@@ -182,7 +185,7 @@ export function HumanSecurityImpact({ dimensions, total, noted }: Props) {
       </Box>
 
       <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 1.5 }}>
-        Una recomendación puede afectar a varias dimensiones, por lo que los porcentajes no suman 100. Siete dimensiones proceden del marco de seguridad humana del PNUD; la seguridad tecnológica es una dimensión añadida por Blue Human.
+        Clasificación de HRCT a partir del texto oficial de cada recomendación: una dimensión solo se asigna cuando la medida que se pide responde a una amenaza propia de ella. Una recomendación puede tener más de una dimensión, por lo que los porcentajes no suman 100{unclassified > 0 ? `; ${unclassified} ${unclassified === 1 ? "no tiene ninguna, porque su texto no nombra" : "no tienen ninguna, porque su texto no nombra"} una amenaza concreta` : ""}. Siete dimensiones proceden del marco de seguridad humana del PNUD; la seguridad tecnológica es una dimensión añadida por Blue Human. <Box component={Link} href="/methodology#seguridad-humana" sx={{ color: "inherit" }}>Criterios de clasificación</Box>.
       </Typography>
     </Box>
   );

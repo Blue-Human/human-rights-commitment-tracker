@@ -93,7 +93,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                   </RecordDisclosure>
                   <RecordDisclosure title="Dimensiones de seguridad humana" count={dimensions.length}>
                     <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 820, lineHeight: 1.75, mb: 2.2 }}>
-                      HRCT relaciona cada recomendación con las siete dimensiones de la seguridad humana que utiliza el PNUD y con una octava, la seguridad tecnológica, añadida por Blue Human. Puede aplicarse más de una dimensión, porque las amenazas a la seguridad humana están interconectadas.
+                      HRCT clasifica cada recomendación según las siete dimensiones de la seguridad humana del PNUD y una octava, la seguridad tecnológica, añadida por Blue Human. Una dimensión solo se asigna cuando la medida que se pide responde a una amenaza propia de ella; se añade otra únicamente si el texto nombra una amenaza distinta. Los criterios están en la <Box component={Link} href="/methodology#seguridad-humana" sx={{ color: "inherit" }}>metodología</Box>.
                     </Typography>
                     <Stack divider={<Divider flexItem />} sx={{ borderTop: "1px solid", borderColor: "divider" }}>
                       {dimensions.map((dimension) => (
@@ -107,7 +107,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
                           </Stack>
                         </Box>
                       ))}
-                      {!dimensions.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>Clasificación de seguridad humana pendiente.</Typography>}
+                      {!dimensions.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.5 }}>HRCT no asigna ninguna dimensión a esta recomendación: su texto no nombra una amenaza concreta para la seguridad de las personas.</Typography>}
                     </Stack>
                   </RecordDisclosure>
                 </Box>

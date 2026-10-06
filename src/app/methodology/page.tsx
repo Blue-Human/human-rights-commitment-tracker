@@ -28,9 +28,9 @@ const sourceTiers: [string, string][] = [
   ["Evidencia secundaria", "Publicaciones académicas, periodismo de calidad contrastada y análisis de especialistas."],
 ];
 
-function Section({ overline, title, children }: { overline: string; title: string; children: React.ReactNode }) {
+function Section({ id, overline, title, children }: { id?: string; overline: string; title: string; children: React.ReactNode }) {
   return (
-    <Box component="section" sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider" }}>
+    <Box component="section" id={id} sx={{ pt: 4, borderTop: "1px solid", borderColor: "divider", scrollMarginTop: { xs: 58, md: 72 } }}>
       <Typography variant="overline" color="text.secondary">{overline}</Typography>
       <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.6 }}>{title}</Typography>
       <Stack spacing={1.6} sx={{ maxWidth: 860, "& p": { lineHeight: 1.8 } }}>{children}</Stack>
@@ -107,6 +107,21 @@ export default function MethodologyPage() {
               </Typography>
               <Typography>
                 Toda conclusión debe apoyarse en un documento público citado. Las valoraciones se actualizan mediante revisiones periódicas de fuentes oficiales e institucionales. Una valoración actualizada en una revisión periódica se publica como provisional y se marca como «pendiente de confirmación final» hasta que Blue Human la confirma. Una recomendación solo se muestra como cumplida cuando Blue Human lo ha confirmado.
+              </Typography>
+            </Section>
+
+            <Section id="seguridad-humana" overline="Seguridad humana" title="Dimensiones de la seguridad humana">
+              <Typography>
+                Cada ficha indica a qué dimensiones de la seguridad humana afecta la recomendación. HRCT utiliza las siete dimensiones que definió el Programa de las Naciones Unidas para el Desarrollo en su Informe sobre Desarrollo Humano de 1994 (económica, alimentaria, sanitaria, ambiental, personal, comunitaria y política) y una octava, la seguridad tecnológica, añadida por Blue Human. Es una clasificación propia: cada recomendación se analiza a partir de su texto oficial y cada dimensión asignada lleva una justificación, que se muestra en la ficha.
+              </Typography>
+              <Typography>
+                Una dimensión solo se asigna cuando la medida que se pide responde de forma directa a una amenaza propia de ella. No se asignan dimensiones por los efectos que una medida podría llegar a tener ni por el grupo de población al que se dirige: una recomendación sobre personas migrantes afecta a la seguridad comunitaria cuando trata de la discriminación o la xenofobia, no por referirse a ellas. La seguridad política no se añade a toda recomendación por tratarse de derechos humanos; se reserva para las libertades civiles, las garantías frente a la actuación del Estado, la justicia y las instituciones.
+              </Typography>
+              <Typography>
+                Lo habitual es una sola dimensión. Se añade otra únicamente cuando el texto nombra una amenaza distinta, y la principal es la que corresponde al objeto central de la recomendación. Las medidas instrumentales, como ratificar un tratado, aprobar un plan o dotar de medios a un organismo, siguen la dimensión de la amenaza de la que se ocupan. Cuando el texto no nombra ninguna amenaza concreta, la recomendación queda sin dimensión, y ninguna se asigna por inferencia: la seguridad alimentaria, por ejemplo, no figura en ninguna ficha porque ninguna recomendación de este examen se refiere a la alimentación.
+              </Typography>
+              <Typography>
+                La clasificación es informativa y no forma parte de la valoración del cumplimiento.
               </Typography>
             </Section>
 

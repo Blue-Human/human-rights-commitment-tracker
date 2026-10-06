@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { PGlite } from '@electric-sql/pglite';
 import { dimensionCodes, formatShare, summarizeDimensions } from '../src/lib/hrct.ts';
+import { dimensionCodes as reviewCodes, reviewRows } from '../scripts/human-security-review.mjs';
+
+const review=JSON.parse(await readFile(new URL('../data/human-security/hrct-review-spain-upr4.json',import.meta.url),'utf8'));
 
 // Synthetic records for the calculations only.
 const rec=(n,extra={})=>({public_id:`TEST-${n}`,acceptance_status:'accepted',assessment_status:'not_assessed',is_priority:false,...extra});
@@ -45,5 +48,52 @@ test('the technological-security migration adds one further dimension and is saf
   // Every recommendation keeps exactly one primary dimension.
   const {rows:[primaries]}=await db.query(`select count(*)::int n from public.commitment_human_security where is_primary`);
   assert.equal(primaries.n,324);
+  await db.close();
+});
+
+test('the HRCT review covers every recommendation, with one primary dimension and a reason for each link',()=>{
+  assert.deepEqual(reviewCodes,[...dimensionCodes]);
+  assert.deepEqual(review.records.map(r=>r.number),Array.from({length:324},(_,i)=>`50.${i+1}`));
+  for(const record of review.records) {
+    // A recommendation without a dimension says why.
+    assert.ok(record.links.length?!record.note:/\S.*\.$/.test(record.note),record.number);
+    assert.equal(new Set(record.links.map(l=>l.code)).size,record.links.length,record.number);
+    // The primary dimension comes first and is the only one.
+    assert.deepEqual(record.links.map(l=>l.primary),record.links.map((_,i)=>i===0),record.number);
+    for(const link of record.links) assert.ok(dimensionCodes.includes(link.code)&&/\S.*\.$/.test(link.rationale),`${record.number}: ${link.code}`);
+    // Three dimensions only when the text names three distinct threats; never more.
+    assert.ok(record.links.length<=3,record.number);
+  }
+  // No recommendation of the review names food, so food security is not assigned by inference.
+  assert.ok(!review.records.some(r=>r.links.some(l=>l.code==='food')));
+});
+
+test('the review migration replaces the earlier assignment with the review and is safe to run again',async()=>{
+  const db=new PGlite();
+  await db.exec(`
+    create role anon; create role authenticated;
+    create table public.commitments(id uuid primary key default gen_random_uuid(),public_id text unique,publication_status text not null default 'published');
+    create table public.human_security_dimensions(id uuid primary key default gen_random_uuid(),code text not null unique,name text not null,description text,sort_order integer not null default 0);
+    create table public.commitment_human_security(commitment_id uuid not null references public.commitments(id),dimension_id uuid not null references public.human_security_dimensions(id),is_primary boolean not null default false,rationale text,created_at timestamptz not null default now(),primary key(commitment_id,dimension_id));
+    create view public.hrct_public_human_security as select c.public_id,d.code,d.name,d.description,chs.is_primary,chs.rationale from public.commitment_human_security chs join public.commitments c on c.id=chs.commitment_id join public.human_security_dimensions d on d.id=chs.dimension_id where c.publication_status='published';
+    insert into public.commitments(public_id) select 'ESP-UPR4-050.'||n from generate_series(1,324) n;
+    insert into public.commitments(public_id) values ('OTHER-1');
+    insert into public.human_security_dimensions(code,name) select code,'Seguridad '||code from unnest(array['economic','food','health','environmental','personal','community','political','technological']) code;
+    -- The earlier assignment: several dimensions for every recommendation, food among them.
+    insert into public.commitment_human_security(commitment_id,dimension_id,is_primary,rationale) select c.id,d.id,d.code='community','Antes de la revisión.' from public.commitments c, public.human_security_dimensions d where d.code in ('community','political','food');
+  `);
+  const sql=await readFile(new URL('../supabase/migrations/20261013_human_security_review.sql',import.meta.url),'utf8');
+  await db.exec(sql);await db.exec(sql);
+  const {rows}=await db.query(`select split_part(public_id,'.',2)::int n,code,is_primary,rationale,reviewed_at::text reviewed from public.hrct_public_human_security where public_id like 'ESP-UPR4-050.%'`);
+  const key=r=>`${String(r.n).padStart(3,'0')}|${r.primary?0:1}|${r.code}`;
+  assert.deepEqual(rows.map(r=>({n:r.n,code:r.code,primary:r.is_primary,rationale:r.rationale})).sort((a,b)=>key(a).localeCompare(key(b))),reviewRows(review).sort((a,b)=>key(a).localeCompare(key(b))));
+  assert.ok(rows.every(r=>r.reviewed===review.reviewed_at));
+  // One primary dimension per classified recommendation, none for the ones the review leaves without a dimension.
+  const {rows:[primaries]}=await db.query(`select count(*)::int n, count(distinct commitment_id)::int recommendations from public.commitment_human_security h join public.commitments c on c.id=h.commitment_id where h.is_primary and c.public_id like 'ESP-UPR4-050.%'`);
+  const classified=review.records.filter(r=>r.links.length).length;
+  assert.deepEqual(primaries,{n:classified,recommendations:classified});
+  // The links of another catalogue are left alone.
+  const {rows:[other]}=await db.query(`select count(*)::int n from public.hrct_public_human_security where public_id='OTHER-1'`);
+  assert.equal(other.n,3);
   await db.close();
 });

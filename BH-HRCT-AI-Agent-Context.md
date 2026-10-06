@@ -1322,15 +1322,14 @@ while reviewed evidence and assessments remain a separate methodological layer.
 
 The Human Security dimension layer exists because Blue Human's organizational mission is broader than formal human-rights legal classification.
 
-A recommendation can affect more than one security dimension.
+A recommendation can affect more than one security dimension, but a dimension is assigned only when the measure requested responds directly to a threat that belongs to it. One dimension is the rule. The criteria and the reviewed classification of 2026-10-06 are in `docs/human-security.md`, which supersedes the earlier practice of assigning several dimensions to every recommendation.
 
 Example:
 
 ```text
-Anti-hate-speech recommendation
-  ├─ Community security
-  ├─ Personal security
-  └─ Political security
+Recommendation against hate speech on the Internet
+  ├─ Community security (primary)
+  └─ Technological security
 ```
 
 This layer helps explain the real-world human-security implications of recommendations.
