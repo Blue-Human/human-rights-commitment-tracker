@@ -31,10 +31,10 @@ async function getDevelopment(slug: string) {
 // search engines are sent to the source, not here.
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { item } = await getDevelopment((await params).slug);
-  if (!item) return { title: "Actualidad | Human Rights Commitment Tracker" };
+  if (!item) return { title: "Actualidad | Human Rights Commitment Institute" };
   const title = item.title.length > 90 ? `${item.title.slice(0, 89).trimEnd()}…` : item.title;
   return {
-    title: `${title} | Actualidad | Human Rights Commitment Tracker`,
+    title: `${title} | Actualidad | Human Rights Commitment Institute`,
     description: `${channelLabels[monitoringChannel(item)]}. ${sourceName(item)}${formatDate(item.published_at) ? `, ${formatDate(item.published_at)}` : ""}. ${relatedCount(item.public_ids.length)}.`,
     robots: { index: false, follow: true },
   };

@@ -9,7 +9,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { getAllHumanSecurityDimensions, getCommitments, getMonitoringStatus, getRecentMonitoringItems, groupByUrl } from "@/lib/hrct";
 
 export const metadata: Metadata = {
-  title: "Actualidad | Human Rights Commitment Tracker",
+  title: "Actualidad | Human Rights Commitment Institute",
   description: "Noticias, publicaciones oficiales y cambios normativos recientes relacionados con las recomendaciones del EPU a España.",
 };
 

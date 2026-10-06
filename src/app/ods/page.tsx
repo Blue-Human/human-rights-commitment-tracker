@@ -15,7 +15,7 @@ import { dimensionCodes, dimensionNames, formatDate, formatShare, getAllHumanSec
 import { countBy, SDG_TARGET_COUNT, sdgGoal, summarizeSdgs, targetText, UHRI_URL, UN_SDG_GUIDELINES_URL, UN_SDG_URL } from "@/lib/sdg";
 
 export const metadata: Metadata = {
-  title: "ODS | Human Rights Commitment Tracker",
+  title: "ODS | Human Rights Commitment Institute",
   description: "Los Objetivos de Desarrollo Sostenible y las metas de la Agenda 2030 con los que se relacionan las recomendaciones de derechos humanos dirigidas a España.",
 };
 

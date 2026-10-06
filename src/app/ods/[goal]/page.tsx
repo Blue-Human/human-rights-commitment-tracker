@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const goal = goalOf((await params).goal);
   if (!goal) return {};
   return {
-    title: `ODS ${goal.number}: ${goal.name} | Human Rights Commitment Tracker`,
+    title: `ODS ${goal.number}: ${goal.name} | Human Rights Commitment Institute`,
     description: `${goal.title}. Metas del objetivo y recomendaciones de derechos humanos a España relacionadas con él.`,
   };
 }

@@ -6,7 +6,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
 
 export const metadata: Metadata = {
-  title: "Metodología | Human Rights Commitment Tracker",
+  title: "Metodología | Human Rights Commitment Institute",
   description: "Cómo registra HRCT las recomendaciones, pondera las evidencias, hace seguimiento de las fuentes públicas y conserva el historial de valoraciones.",
 };
 

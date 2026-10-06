@@ -7,8 +7,9 @@ import { brand } from "@/brand";
 const ibm = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Human Rights Commitment Tracker | Blue Human",
+  title: "Human Rights Commitment Institute | Blue Human",
   description: "Seguimiento público y basado en evidencias de los compromisos de derechos humanos de España.",
+  icons: { icon: { url: "/favicon.svg", type: "image/svg+xml" } },
 };
 
 // The page reaches the edges of a notched phone; the theme keeps the content clear of them.

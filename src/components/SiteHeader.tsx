@@ -65,8 +65,8 @@ export function SiteHeader() {
           >
             <Box
               component="img"
-              src="/images/HRCT.png"
-              alt="HRCT"
+              src="/images/HRCI_logo.png"
+              alt="HRCI"
               sx={{
                 display: "block",
                 height: { xs: 24, sm: 28 },
@@ -88,7 +88,7 @@ export function SiteHeader() {
                 whiteSpace: "nowrap",
               }}
             >
-              Human Rights Commitment Tracker
+              Human Rights Commitment Institute
             </Typography>
           </Stack>
 
