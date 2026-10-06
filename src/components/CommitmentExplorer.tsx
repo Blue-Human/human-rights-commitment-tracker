@@ -20,7 +20,7 @@ type Props = {
 };
 
 // The full catalogue is long: the list grows on request instead of rendering every record at once.
-const PAGE_SIZE = 40;
+const PAGE_SIZE = 20;
 
 // A priority row keeps its text aligned, with a restrained brand accent in the gutter.
 const priorityRow = { mx: -2, px: 2, bgcolor: "rgba(0,163,224,.04)", boxShadow: "inset 3px 0 0 #00a3e0" };

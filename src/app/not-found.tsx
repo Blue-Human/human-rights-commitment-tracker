@@ -14,7 +14,7 @@ export default function NotFound() {
           <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 720, lineHeight: 1.75 }}>
             La página que buscas no existe o la ficha ya no está publicada.
           </Typography>
-          <Button component={Link} href="/" sx={{ mt: 2.5, px: 0 }}>Volver a las recomendaciones</Button>
+          <Button component={Link} href="/commitments" sx={{ mt: 2.5, px: 0 }}>Volver a las recomendaciones</Button>
         </Container>
       </Box>
       <SiteFooter />

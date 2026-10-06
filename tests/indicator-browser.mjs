@@ -138,7 +138,9 @@ try {
   assert.ok((await header.boundingBox()).height<=64);
   await header.getByRole('button',{name:'Abrir el menú'}).click();
   const menu=page.getByRole('dialog',{name:'Menú'});
-  assert.equal(await menu.getByRole('link').count(),6);
+  // Four sections and the four entries of «Sobre el HRCI», which the side menu shows open.
+  assert.equal(await menu.getByRole('link').count(),8);
+  assert.equal(await menu.getByRole('group',{name:'Sobre el HRCI'}).getByRole('link').count(),4);
   assert.equal(await menu.getByRole('link',{name:'Recomendaciones',exact:true}).getAttribute('aria-current'),'location');
   await page.keyboard.press('Escape');await menu.waitFor({state:'detached'});
   // The chart is drawn at the width of the phone, so its text keeps its size, and a point answers to the band around it.

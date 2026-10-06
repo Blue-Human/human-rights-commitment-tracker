@@ -45,7 +45,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
       <SiteHeader />
       <Box component="main">
         <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
-          <Button component={Link} href="/" startIcon={<ArrowBackRoundedIcon />} sx={{ mb: 3, px: 0 }}>Volver a las recomendaciones</Button>
+          <Button component={Link} href="/commitments" startIcon={<ArrowBackRoundedIcon />} sx={{ mb: 3, px: 0 }}>Volver a las recomendaciones</Button>
           <Typography variant="overline" color="primary.main" sx={{ display: "block" }}>España · EPU, cuarto ciclo · Recomendación {commitment.recommendation_number}</Typography>
           <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>
             {commitment.title}

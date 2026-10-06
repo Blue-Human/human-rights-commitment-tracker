@@ -89,6 +89,19 @@ export const theme = createTheme({
         },
       },
     },
+    // Page numbers are squares like the buttons; the current one is filled with the brand navy.
+    MuiPaginationItem: {
+      styleOverrides: {
+        root: {
+          borderRadius: 0, fontVariantNumeric: "tabular-nums", [touch]: { minWidth: 40, height: 40 },
+          "&.Mui-selected, &.Mui-selected:hover": { backgroundColor: brand.navy, color: "#fff" },
+          "&:hover": { backgroundColor: brand.accentSoft },
+          "&.Mui-focusVisible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 2, backgroundColor: "transparent" },
+        },
+        ellipsis: { display: "inline-flex", alignItems: "center", justifyContent: "center" },
+      },
+    },
+    MuiTooltip: { styleOverrides: { tooltip: { backgroundColor: brand.navy, borderRadius: 0, fontSize: ".75rem", fontWeight: 500, padding: "6px 9px" }, arrow: { color: brand.navy } } },
     MuiBreadcrumbs: { styleOverrides: { root: { fontSize: ".8rem" }, separator: { marginInline: 6, color: brand.muted } } },
     MuiPaper: { styleOverrides: { root: { backgroundImage: "none", boxShadow: "none", borderRadius: 0 }, outlined: { borderColor: brand.border } } },
     MuiChip: { styleOverrides: { root: { fontWeight: 500, borderRadius: 0, height: 26 } } },
