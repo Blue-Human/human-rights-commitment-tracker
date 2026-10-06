@@ -17,9 +17,10 @@ const CLASSIFIER: ClassifierConfig | null = GEMINI_API_KEY
 // Optional. A caller presenting it may pass ?force=1 to skip the cooldown (used for backfills).
 const ADMIN_SECRET = Deno.env.get("LIVE_TRACKER_ADMIN_SECRET");
 const REST = `${SUPABASE_URL}/rest/v1`;
-// One refresh cycle per week: a profile or a feed sweep done within the last six days is up to date,
-// so repeated calls during the weekly batch only pick up what is still pending.
-const REFRESH_MS = 6 * 24 * 60 * 60 * 1000;
+// One refresh cycle per day: a profile or a feed sweep done within the last twelve hours is up to date,
+// so repeated calls during the daily batch only pick up what is still pending. Twelve hours, not
+// twenty-four, because the scheduler can start a run hours late and the next one must still find work.
+const REFRESH_MS = 12 * 60 * 60 * 1000;
 // Hidden, unreviewed candidates older than this are deleted so the queue does not pile up.
 const RETENTION_DAYS = 45;
 const PROFILE_BATCH = 6;

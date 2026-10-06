@@ -26,7 +26,7 @@ Every review is logged in `research_reviews` (who, when, previous and proposed s
 | `POST /review-queue/reviews` | One review per recommendation (max 10 per call) |
 | `GET /review-queue/confirmations` | "Implemented" proposals waiting for a decision |
 | `POST /review-queue/confirmations` | Confirm or reject one; needs `REVIEW_CONFIRMATION_CODE`, which only Blue Human staff know |
-| `GET /review-queue`, `POST /review-queue` | Monitoring candidates collected by the weekly tracker: list and classify |
+| `GET /review-queue`, `POST /review-queue` | Monitoring candidates collected by the daily tracker: list and classify |
 | `POST /review-queue/findings` | File a context source (news, statement) under a recommendation |
 
 Rotation: a recommendation that has just been reviewed goes to the back of the line, so each run continues where the last one stopped. Confirmed "implemented" records and ones waiting for a confirmation decision are skipped.

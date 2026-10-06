@@ -53,7 +53,7 @@ Set the public Supabase URL and anon/publishable key in `.env.local`.
 
 `supabase/functions/live-tracker` scans public sources for each recommendation and writes monitoring items. It never writes evidence or assessments.
 
-- Cadence: weekly (`.github/workflows/live-tracker.yml`, Mondays 05:00 UTC). The job calls the function until no recommendation is pending. A profile or feed sweep done in the last six days counts as up to date, so extra calls do nothing.
+- Cadence: daily (`.github/workflows/live-tracker.yml`, 05:00 UTC). The job calls the function until no recommendation is pending. A profile or feed sweep done in the last twelve hours counts as up to date, so extra calls do nothing. Sources already stored are not stored or classified again.
 - Retention: hidden, unreviewed candidates are deleted after 45 days, and unreviewed public items leave the public lists after 90 days. Reviewed items stay.
 - Review: candidates nobody has classified wait in the review queue (`supabase/functions/review-queue`, see `docs/review-agent.md`).
 

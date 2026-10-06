@@ -16,7 +16,7 @@ export default async function AdminFeeds({ searchParams }: { searchParams: Promi
   const [feeds, { error }] = await Promise.all([listFeeds(), searchParams]);
 
   return (
-    <AdminFrame title="Fuentes" intro="Canales RSS y Atom que se leen en cada consulta semanal. Un canal desactivado se omite.">
+    <AdminFrame title="Fuentes" intro="Canales RSS y Atom que se leen en cada consulta diaria. Un canal desactivado se omite.">
       <AdminSection title={`Canales (${feeds.filter((f) => f.enabled).length} de ${feeds.length} activos)`}>
         <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
           {feeds.map((f, index) => (

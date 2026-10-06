@@ -1,10 +1,10 @@
 name: HRCT Live Tracker
 
-# Weekly refresh. Each call to the function scans a batch of six recommendations; the job
+# Daily refresh. Each call to the function scans a batch of six recommendations; the job
 # repeats until none are pending (324 recommendations take about 55 calls).
 on:
   schedule:
-    - cron: "0 5 * * 1"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 permissions:
