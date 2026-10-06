@@ -5,6 +5,7 @@ import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import { visuallyHidden } from "@mui/utils";
 import { brand } from "@/brand";
 import { DimensionIcon } from "@/components/DimensionIcon";
+import { Figure } from "@/components/Figure";
 import { RecordDisclosure } from "@/components/RecordDisclosure";
 import { SdgExplorer, type SdgExplorerGoal } from "@/components/SdgExplorer";
 import { SdgIcon } from "@/components/SdgIcon";
@@ -27,18 +28,6 @@ const shortName = (code: DimensionCode) => dimensionNames[code].replace(/^Seguri
 // the many small figures of the matrix stay distinguishable next to the few large ones.
 const ramp = ["#e6f5fb", "#b5e0f2", "#74c4e6", "#2f9cc9", "#006c95"];
 const step = (count: number, max: number) => Math.min(ramp.length - 1, Math.floor(ramp.length * Math.sqrt(count / max) - 1e-9));
-
-function Figure({ value, of, children }: { value: string; of?: string; children: React.ReactNode }) {
-  return (
-    <Box>
-      <Typography color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.6rem" }, fontWeight: 500, lineHeight: 1, letterSpacing: "-.02em" }}>
-        {value}
-        {of && <Box component="span" sx={{ ml: .75, fontSize: "1rem", fontWeight: 400, letterSpacing: 0, color: "text.secondary" }}>{of}</Box>}
-      </Typography>
-      <Typography variant="body2" color="text.secondary" sx={{ mt: 1, lineHeight: 1.5 }}>{children}</Typography>
-    </Box>
-  );
-}
 
 function Heading({ id, overline, title, children }: { id: string; overline: string; title: string; children?: React.ReactNode }) {
   return (

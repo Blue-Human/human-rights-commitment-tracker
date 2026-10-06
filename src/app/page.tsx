@@ -1,10 +1,11 @@
 import Link from "next/link";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import { CommitmentExplorer } from "@/components/CommitmentExplorer";
 import { DimensionFilterProvider } from "@/components/DimensionFilter";
 import { EpuResults } from "@/components/EpuResults";
 import { HumanSecurityImpact } from "@/components/HumanSecurityImpact";
-import { MonitoringList } from "@/components/MonitoringList";
+import { MonitoringCard } from "@/components/MonitoringCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { formatDate, getAllHumanSecurityDimensions, getCommitments, getDimensionDescriptions, getMonitoringStatus, getRecentMonitoringItems, groupByUrl, isAssessed, summarizeDimensions } from "@/lib/hrct";
@@ -21,7 +22,6 @@ export default async function Home() {
   const response = (status: string) => commitments.filter((x) => x.acceptance_status === status).length;
   const accepted = response("accepted"), partiallyAccepted = response("partially_accepted"), noted = response("noted");
   const priority = commitments.filter((x) => x.is_priority).length;
-  const numbers = Object.fromEntries(commitments.map((c) => [c.public_id, c.recommendation_number || c.public_id]));
   const developments = groupByUrl(monitoring);
   const lastScan = formatDate(trackerStatus?.last_successful_run_at);
   const monitoringCounts: Record<string, number> = {};
@@ -70,8 +70,11 @@ export default async function Home() {
                 {lastScan ? `Última consulta de fuentes: ${lastScan}` : `${commitments.length} recomendaciones en seguimiento`}
               </Typography>
             </Stack>
-            <MonitoringList items={developments.slice(0, 4)} numbers={numbers} empty="Todavía no se ha publicado ninguna novedad." />
-            <Button component={Link} href="/monitoring" sx={{ mt: 1.5, px: 0 }}>Ver todas las novedades</Button>
+            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(3,minmax(0,1fr))" }, gap: { xs: 1.5, md: 2.5 } }}>
+              {developments.slice(0, 3).map((item) => <MonitoringCard key={item.slug} item={item} />)}
+            </Box>
+            {!developments.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75, borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>Todavía no se ha publicado ninguna novedad.</Typography>}
+            <Button component={Link} href="/monitoring" endIcon={<ArrowForwardRoundedIcon />} sx={{ mt: 2, px: 0 }}>Ver todas las novedades</Button>
           </Container>
         </Box>
       </DimensionFilterProvider>

@@ -98,7 +98,7 @@ export default function MethodologyPage() {
               </Stack>
             </Section>
 
-            <Section overline="Seguimiento de la actualidad" title="El seguimiento se mantiene separado de la evidencia">
+            <Section id="seguimiento" overline="Seguimiento de la actualidad" title="El seguimiento se mantiene separado de la evidencia">
               <Typography>
                 HRCT consulta periódicamente fuentes públicas para cada recomendación, entre ellas medios de comunicación nacionales, publicaciones de instituciones y de la sociedad civil y el Boletín Oficial del Estado. Lo que encuentra se publica en canales claramente separados: por un lado, el contexto que muestra que el problema de fondo continúa; por otro, los posibles avances en el cumplimiento o las novedades en sentido contrario que están pendientes de revisión.
               </Typography>

@@ -61,6 +61,35 @@ export const theme = createTheme({
       },
     },
     MuiCard: { styleOverrides: { root: { border: `1px solid ${brand.border}`, borderRadius: 0, boxShadow: "none" } } },
+    // A card that is a link: no ripple wash; the border and the title answer to the pointer instead.
+    MuiCardActionArea: {
+      defaultProps: { disableRipple: true },
+      styleOverrides: {
+        root: { "&.Mui-focusVisible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: 2 } },
+        focusHighlight: { display: "none" },
+      },
+    },
+    // Tabs sit on a hairline and mark the current one with the brand accent, like the header.
+    MuiTabs: {
+      styleOverrides: {
+        root: { minHeight: 44, borderBottom: `1px solid ${brand.border}` },
+        indicator: { height: 2, backgroundColor: brand.accent },
+        scrollButtons: { "&.Mui-disabled": { opacity: .25 } },
+      },
+    },
+    MuiTab: {
+      defaultProps: { disableRipple: true },
+      styleOverrides: {
+        root: {
+          minHeight: 44, minWidth: 0, paddingInline: 0, marginRight: 28, fontSize: ".95rem", color: brand.muted,
+          "&:hover": { color: brand.navy },
+          "&.Mui-selected": { color: brand.navy },
+          "&.Mui-focusVisible": { outline: `2px solid ${brand.accentInk}`, outlineOffset: -2 },
+          [touch]: { minHeight: 48 },
+        },
+      },
+    },
+    MuiBreadcrumbs: { styleOverrides: { root: { fontSize: ".8rem" }, separator: { marginInline: 6, color: brand.muted } } },
     MuiPaper: { styleOverrides: { root: { backgroundImage: "none", boxShadow: "none", borderRadius: 0 }, outlined: { borderColor: brand.border } } },
     MuiChip: { styleOverrides: { root: { fontWeight: 500, borderRadius: 0, height: 26 } } },
     MuiTextField: { defaultProps: { size: "small" } },

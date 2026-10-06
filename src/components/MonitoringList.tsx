@@ -1,7 +1,8 @@
+import Link from "next/link";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { Box, Button, Divider, Stack, Typography } from "@mui/material";
 import { RelatedRecommendations } from "./RelatedRecommendations";
-import { channelLabels, formatDate, monitoringChannel, reviewLabel, type Development } from "@/lib/hrct";
+import { channelLabels, developmentPath, formatDate, monitoringChannel, reviewLabel, type Development } from "@/lib/hrct";
 
 type Props = {
   items: Development[];
@@ -20,7 +21,9 @@ export function MonitoringList({ items, numbers, empty }: Props) {
               <Typography variant="overline" color="text.secondary">
                 {channelLabels[monitoringChannel(item)]} · {reviewLabel(item)}
               </Typography>
-              <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>{item.title}</Typography>
+              <Typography variant="h6" color="primary.main" sx={{ mt: .25 }}>
+                <Box component={Link} href={developmentPath(item)} sx={{ color: "inherit", textDecoration: "none", "&:hover": { color: "secondary.dark" } }}>{item.title}</Box>
+              </Typography>
               <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: .45 }}>
                 {[item.publisher || item.source_domain, formatDate(item.published_at)].filter(Boolean).join(" · ")}
               </Typography>

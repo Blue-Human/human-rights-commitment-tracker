@@ -13,7 +13,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StatusChip } from "@/components/StatusChip";
 import { RecordDisclosure } from "@/components/RecordDisclosure";
-import { acceptanceLabels, confidenceLabels, evidenceTypeLabels, formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getAllSdgLinks, getLastScannedAt, getMonitoringItems, labelOf, monitoringChannel, splitRationale } from "@/lib/hrct";
+import { acceptanceLabels, confidenceLabels, developmentSlug, evidenceTypeLabels, formatDate, getAssessmentHistory, getCommitment, getEvidence, getHumanSecurityDimensions, getAllSdgLinks, getLastScannedAt, getMonitoringItems, labelOf, monitoringChannel, splitRationale } from "@/lib/hrct";
 
 function Meta({ label, value }: { label: string; value: string }) {
   return <Box><Typography variant="overline" color="text.secondary">{label}</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{value}</Typography></Box>;
@@ -35,7 +35,7 @@ export default async function CommitmentPage({ params }: { params: Promise<{ pub
 
   const pending = commitment.assessment_status === "not_assessed";
   const rationale = splitRationale(commitment.assessment_rationale);
-  const items = monitoring.map((item) => ({ ...item, public_ids: [] as string[] }));
+  const items = monitoring.map((item) => ({ ...item, public_ids: [] as string[], slug: developmentSlug(item) }));
   const needContext = items.filter((item) => monitoringChannel(item) === "need");
   const liveImplementation = items.filter((item) => monitoringChannel(item) === "implementation");
   const liveContrary = items.filter((item) => monitoringChannel(item) === "contradiction");

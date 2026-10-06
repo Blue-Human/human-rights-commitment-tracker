@@ -142,6 +142,22 @@ export const channelLabels: Record<MonitoringChannel, string> = {
   contradiction: "Posible novedad en sentido contrario",
 };
 
+// What each channel means for the reader, and what it does not prove.
+export const channelNotes: Record<MonitoringChannel, string> = {
+  need: "Noticias, estadísticas oficiales y declaraciones públicas que indican que el problema al que responde una recomendación persiste. Son contexto: no prueban que la recomendación se haya cumplido ni que se haya incumplido.",
+  implementation: "Leyes, publicaciones en boletines oficiales, planes y actuaciones oficiales relacionados con una recomendación. Siguen siendo material en estudio hasta que una persona del equipo de investigación los revisa y los incorpora al registro de evidencias.",
+  contradiction: "Novedades que pueden ir en contra de una recomendación. Como todo lo que está pendiente de confirmación, no modifican ninguna valoración hasta que se revisan.",
+};
+
+export const sourceTypeLabels: Record<string, string> = {
+  news: "Medio de comunicación",
+  official_web: "Institución oficial",
+  legislation: "Legislación",
+  official_gazette: "Boletín oficial",
+  un_body: "Órgano de la ONU",
+  civil_society: "Sociedad civil",
+};
+
 export const statusLabels: Record<string, string> = {
   not_assessed: "Valoración pendiente",
   implemented: "Cumplida",
@@ -267,8 +283,16 @@ export async function getAllSdgLinks(): Promise<SdgLink[] | null> {
   }
 }
 
-export async function getRecentMonitoringItems(limit = 200): Promise<MonitoringItem[]> {
-  return rest<MonitoringItem[]>(`hrct_public_monitoring?select=*&order=published_at.desc.nullslast,discovered_at.desc&limit=${limit}`);
+// Every public monitoring item, newest first. One source is stored once per recommendation it relates to,
+// so the rows outnumber the sources several times over; they are read in pages, like the dimensions.
+export async function getRecentMonitoringItems(): Promise<MonitoringItem[]> {
+  const pageSize = 1000;
+  const rows: MonitoringItem[] = [];
+  for (let offset = 0; ; offset += pageSize) {
+    const page = await rest<MonitoringItem[]>(`hrct_public_monitoring?select=*&order=published_at.desc.nullslast,discovered_at.desc,id.asc&limit=${pageSize}&offset=${offset}`);
+    rows.push(...page);
+    if (page.length < pageSize) return rows;
+  }
 }
 
 export async function getMonitoringStatus(): Promise<MonitoringStatus | null> {
@@ -281,7 +305,26 @@ export async function getLastScannedAt(publicId: string): Promise<string | null>
   return rows[0]?.last_scanned_at ?? null;
 }
 
-export type Development = MonitoringItem & { public_ids: string[] };
+// `slug` identifies the development in the address of its own page.
+export type Development = MonitoringItem & { public_ids: string[]; slug: string };
+
+// A development has no row of its own: it is a source, in a channel, stored once per recommendation.
+// Its address is derived from those two, so it stays the same when recommendations are added or removed.
+// (cyrb53, a 53-bit string hash: enough for a few hundred sources and the same on server and browser.)
+export function developmentSlug(item: Pick<MonitoringItem, "kind" | "relation" | "url">) {
+  const text = `${monitoringChannel(item)}|${item.url}`;
+  let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+  for (let i = 0; i < text.length; i++) {
+    const code = text.charCodeAt(i);
+    h1 = Math.imul(h1 ^ code, 2654435761);
+    h2 = Math.imul(h2 ^ code, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
+}
+
+export const developmentPath = (item: Pick<Development, "slug">) => `/monitoring/${item.slug}`;
 
 // The same source is often relevant to several recommendations; show it once.
 export function groupByUrl(items: MonitoringItem[]): Development[] {
@@ -290,7 +333,7 @@ export function groupByUrl(items: MonitoringItem[]): Development[] {
     const key = `${monitoringChannel(item)}|${item.url}`;
     const existing = byUrl.get(key);
     if (existing) existing.public_ids.push(item.public_id);
-    else byUrl.set(key, { ...item, public_ids: [item.public_id] });
+    else byUrl.set(key, { ...item, public_ids: [item.public_id], slug: developmentSlug(item) });
   }
   const order = (id: string) => Number(id.split("-").pop()?.split(".").pop()) || 0;
   for (const d of byUrl.values()) d.public_ids.sort((a, b) => order(a) - order(b));
