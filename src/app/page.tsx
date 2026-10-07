@@ -8,33 +8,50 @@ import { HumanSecurityImpact } from "@/components/HumanSecurityImpact";
 import { MonitoringCard } from "@/components/MonitoringCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { formatDate, getAllHumanSecurityDimensions, getCommitments, getDimensionDescriptions, getMonitoringStatus, getRecentMonitoringItems, groupByUrl, isAssessed, summarizeDimensions } from "@/lib/hrct";
+import { dimensionNames, formatDate, getAllHumanSecurityDimensions, getAllSdgLinks, getCommitments, getDimensionDescriptions, getMonitoringStatus, getRecentMonitoringItems, groupByUrl, summarizeDimensions, type DimensionCode } from "@/lib/hrct";
+import { crossWithGoals, sdgGoal, summarizeSdgs } from "@/lib/sdg";
 
 export default async function Home() {
-  const [commitments, monitoring, dimensions, trackerStatus, descriptions] = await Promise.all([
+  const [commitments, monitoring, dimensions, trackerStatus, descriptions, sdgLinks] = await Promise.all([
     getCommitments(),
     getRecentMonitoringItems(),
     getAllHumanSecurityDimensions(),
     getMonitoringStatus(),
     getDimensionDescriptions(),
+    getAllSdgLinks(),
   ]);
-  const assessed = commitments.filter(isAssessed).length;
   const response = (status: string) => commitments.filter((x) => x.acceptance_status === status).length;
   const accepted = response("accepted"), partiallyAccepted = response("partially_accepted"), noted = response("noted");
-  const priority = commitments.filter((x) => x.is_priority).length;
   const developments = groupByUrl(monitoring);
   const lastScan = formatDate(trackerStatus?.last_successful_run_at);
   const monitoringCounts: Record<string, number> = {};
   for (const item of monitoring) monitoringCounts[item.public_id] = (monitoringCounts[item.public_id] || 0) + 1;
-  const dimensionsById: Record<string, string[]> = {};
+  const dimensionsById: Record<string, DimensionCode[]> = {};
   for (const d of dimensions) (dimensionsById[d.public_id] ??= []).push(d.code);
+  const unclassified = commitments.filter((c) => !dimensionsById[c.public_id]).length;
+
+  // The two classifications of the catalogue, and the recommendations they have in common.
+  const publicIds = commitments.map((c) => c.public_id);
+  const sdgs = sdgLinks && summarizeSdgs(publicIds, sdgLinks);
+  const crossed = crossWithGoals(publicIds, dimensionsById, sdgLinks || []);
+  const crossing = crossed.pairs.length > 0 ? {
+    dimensions: crossed.keys.map(({ key, total }) => ({ code: key, name: dimensionNames[key], total })),
+    goals: crossed.goals.map(({ goal, total }) => ({ number: goal, name: sdgGoal(goal)!.name, color: sdgGoal(goal)!.color, total })),
+    pairs: crossed.pairs.map(({ key, goal, count }) => ({ code: key, goal, count })),
+    both: crossed.both,
+  } : null;
 
   return (
     <>
       <SiteHeader />
       <DimensionFilterProvider>
         <Box component="main">
-          <EpuResults total={commitments.length} accepted={accepted} partiallyAccepted={partiallyAccepted} noted={noted} assessed={assessed} priority={priority} developments={developments.length} />
+          <EpuResults
+            total={commitments.length} accepted={accepted} partiallyAccepted={partiallyAccepted} noted={noted}
+            classified={dimensions.length > 0 ? commitments.length - unclassified : 0}
+            sdg={sdgs ? { linked: sdgs.linked, goals: sdgs.goals.filter((g) => g.public_ids.length).length, targets: sdgs.goals.reduce((sum, g) => sum + Object.keys(g.byTarget).length, 0) } : null}
+            crossing={crossing}
+          />
 
           {dimensions.length > 0 && (
             <Container id="seguridad-humana" component="section" aria-labelledby="human-security-heading" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, scrollMarginTop: { xs: 58, md: 72 } }}>
@@ -42,7 +59,7 @@ export default async function Home() {
                 <Typography variant="overline" color="text.secondary">Seguridad humana</Typography>
                 <Typography id="human-security-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>A qué seguridad afectan las recomendaciones</Typography>
               </Box>
-              <HumanSecurityImpact dimensions={summarizeDimensions(commitments, dimensions, descriptions, monitoringCounts)} total={commitments.length} noted={noted} unclassified={commitments.filter((c) => !dimensionsById[c.public_id]).length} />
+              <HumanSecurityImpact dimensions={summarizeDimensions(commitments, dimensions, descriptions, monitoringCounts)} total={commitments.length} noted={noted} unclassified={unclassified} />
             </Container>
           )}
 

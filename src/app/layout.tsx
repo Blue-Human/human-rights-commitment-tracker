@@ -1,10 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { IBM_Plex_Sans } from "next/font/google";
+import { IBM_Plex_Sans, IBM_Plex_Serif } from "next/font/google";
 import { Providers } from "./providers";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import { brand } from "@/brand";
 
 const ibm = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], display: "swap" });
+// The serif of the same family, for the headline of the home page.
+const serif = IBM_Plex_Serif({ subsets: ["latin"], weight: ["400"], display: "swap", variable: "--font-serif" });
 
 export const metadata: Metadata = {
   title: "Human Rights Commitment Institute | Blue Human",
@@ -23,7 +25,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
-      <body className={ibm.className}>
+      <body className={`${ibm.className} ${serif.variable}`}>
         <AppRouterCacheProvider><Providers>{children}</Providers></AppRouterCacheProvider>
       </body>
     </html>

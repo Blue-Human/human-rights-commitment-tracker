@@ -429,3 +429,46 @@ export function countBy<K extends string>(publicIds: string[], keysById: Record<
   for (const id of publicIds) for (const key of keysById[id] || []) counts.set(key, (counts.get(key) || 0) + 1);
   return [...counts.entries()].map(([key, count]) => ({ key, count })).sort((a, b) => b.count - a.count);
 }
+
+// How a classification of the recommendations (the human-security dimensions, for example)
+// crosses with the goals.
+export type GoalCrossing<K extends string> = {
+  // Recommendations under each key that shares at least one with a goal, most frequent first.
+  keys: { key: K; total: number }[];
+  // Recommendations related to each goal that shares at least one with a key, in the goals' official order.
+  goals: { goal: number; total: number }[];
+  // Recommendations that share a key and a goal, most frequent first. A recommendation with
+  // several keys or goals counts in each of its pairs.
+  pairs: { key: K; goal: number; count: number }[];
+  // Recommendations with at least one key and one goal.
+  both: number;
+};
+
+export function crossWithGoals<K extends string>(publicIds: string[], keysById: Record<string, K[] | undefined>, links: SdgLink[]): GoalCrossing<K> {
+  const published = new Set(publicIds);
+  const goalsById = new Map<string, number[]>();
+  for (const link of links) if (published.has(link.public_id)) goalsById.set(link.public_id, [...(goalsById.get(link.public_id) || []), link.goal]);
+  const pairs = new Map<string, { key: K; goal: number; count: number }>();
+  const keyTotals = new Map<K, number>();
+  const goalTotals = new Map<number, number>();
+  let both = 0;
+  for (const id of publicIds) {
+    const keys = keysById[id] || [];
+    const goals = goalsById.get(id) || [];
+    for (const key of keys) keyTotals.set(key, (keyTotals.get(key) || 0) + 1);
+    for (const goal of goals) goalTotals.set(goal, (goalTotals.get(goal) || 0) + 1);
+    if (keys.length && goals.length) both++;
+    for (const key of keys) for (const goal of goals) {
+      const pair = pairs.get(`${key}|${goal}`) || { key, goal, count: 0 };
+      pair.count++;
+      pairs.set(`${key}|${goal}`, pair);
+    }
+  }
+  const crossed = [...pairs.values()];
+  return {
+    keys: [...keyTotals.entries()].filter(([key]) => crossed.some((pair) => pair.key === key)).map(([key, total]) => ({ key, total })).sort((a, b) => b.total - a.total),
+    goals: [...goalTotals.entries()].filter(([goal]) => crossed.some((pair) => pair.goal === goal)).map(([goal, total]) => ({ goal, total })).sort((a, b) => a.goal - b.goal),
+    pairs: crossed.sort((a, b) => b.count - a.count || a.goal - b.goal),
+    both,
+  };
+}

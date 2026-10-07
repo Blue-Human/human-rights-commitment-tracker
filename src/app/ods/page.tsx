@@ -127,7 +127,7 @@ export default async function SdgPage() {
         </Container>
 
         {matrix.length > 0 && dimensionLinks.length > 0 && (
-          <Container component="section" aria-labelledby="sdg-matrix-heading" maxWidth="lg" sx={section}>
+          <Container id="cruce" component="section" aria-labelledby="sdg-matrix-heading" maxWidth="lg" sx={{ ...section, scrollMarginTop: { xs: 58, md: 72 } }}>
             <Heading id="sdg-matrix-heading" overline="Cruce de marcos" title="Objetivos y seguridad humana">
               Recomendaciones que comparten cada objetivo y cada dimensión de la seguridad humana. Cuanto más oscura la celda, más recomendaciones.
             </Heading>

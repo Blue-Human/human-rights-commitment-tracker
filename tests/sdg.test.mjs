@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import { PGlite } from '@electric-sql/pglite';
-import { countBy, SDG_TARGET_COUNT, sdgGoals, summarizeSdgs, targetText } from '../src/lib/sdg.ts';
+import { countBy, crossWithGoals, SDG_TARGET_COUNT, sdgGoals, summarizeSdgs, targetText } from '../src/lib/sdg.ts';
 import { sdgIcon } from '../src/lib/sdg-icon.ts';
 import { compareTargets, parseSdgs, recommendationNumber, snapshotRows } from '../scripts/import-uhri-sdg.mjs';
 import { reviewRows } from '../scripts/sdg-review.mjs';
@@ -75,6 +75,17 @@ test('summaries count recommendations per goal and per target, published ones on
 test('recommendations are counted under each key they carry, most frequent first',()=>{
   assert.deepEqual(countBy(['T-1','T-2','T-3'],{'T-1':['personal','political'],'T-2':['political'],'T-9':['economic']}),[{key:'political',count:2},{key:'personal',count:1}]);
   assert.deepEqual(countBy([],{}),[]);
+});
+
+test('dimensions and goals are crossed by the recommendations they share, published ones only',()=>{
+  const link=(public_id,goal)=>({public_id,goal,targets:[]});
+  const crossing=crossWithGoals(['T-1','T-2','T-3','T-4'],{'T-1':['personal','political'],'T-2':['personal'],'T-3':['economic'],'T-9':['economic']},[link('T-1',16),link('T-1',5),link('T-2',16),link('T-4',10),link('T-9',1)]);
+  // T-1 counts in each of its four pairs; T-3 has no goal and T-4 no dimension; T-9 is not published.
+  assert.deepEqual(crossing.pairs,[{key:'personal',goal:16,count:2},{key:'personal',goal:5,count:1},{key:'political',goal:5,count:1},{key:'political',goal:16,count:1}]);
+  assert.deepEqual(crossing.keys,[{key:'personal',total:2},{key:'political',total:1}]);
+  assert.deepEqual(crossing.goals,[{goal:5,total:1},{goal:16,total:2}]);
+  assert.equal(crossing.both,2);
+  assert.deepEqual(crossWithGoals(['T-1'],{},[]),{keys:[],goals:[],pairs:[],both:0});
 });
 
 test('the SDG migration publishes exactly the snapshot and is safe to run again',async()=>{
