@@ -55,7 +55,7 @@ export default function MethodologyPage() {
 
         <Container maxWidth="lg" sx={{ py: { xs: 5, md: 6 } }}>
           <Stack spacing={5}>
-            <Section overline="Alcance" title="Qué es una ficha y qué no es">
+            <Section id="alcance" overline="Alcance" title="Qué es una ficha y qué no es">
               <Typography>
                 HRCT distingue entre las obligaciones jurídicas derivadas de instrumentos vinculantes, los compromisos formales que un Estado ha aceptado o anunciado expresamente, las recomendaciones formuladas por órganos externos y los objetivos de política pública recogidos en estrategias o planes. Una recomendación no es automáticamente una obligación jurídica, y cada ficha indica si España la aceptó o se limitó a tomar nota de ella («anotada»).
               </Typography>
@@ -64,7 +64,7 @@ export default function MethodologyPage() {
               </Typography>
             </Section>
 
-            <Section overline="Valoración" title="Estado de cumplimiento">
+            <Section id="valoracion" overline="Valoración" title="Estado de cumplimiento">
               <Typography>
                 Cada recomendación tiene asignado uno de los siguientes estados de cumplimiento, junto con un nivel de confianza, una justificación escrita y la versión de la metodología aplicada.
               </Typography>
@@ -84,7 +84,7 @@ export default function MethodologyPage() {
               </Typography>
             </Section>
 
-            <Section overline="Evidencias" title="Jerarquía de fuentes">
+            <Section id="evidencias" overline="Evidencias" title="Jerarquía de fuentes">
               <Typography>
                 La evidencia se pondera en función de la afirmación que se quiere sostener con ella. Un nivel inferior no es automáticamente más débil: la pertinencia depende de lo que se esté valorando.
               </Typography>
@@ -125,7 +125,7 @@ export default function MethodologyPage() {
               </Typography>
             </Section>
 
-            <Section overline="Agenda 2030" title="Relación con los Objetivos de Desarrollo Sostenible">
+            <Section id="agenda-2030" overline="Agenda 2030" title="Relación con los Objetivos de Desarrollo Sostenible">
               <Typography>
                 Cada ficha indica los Objetivos de Desarrollo Sostenible (ODS) y las metas de la Agenda 2030 con los que se relaciona la recomendación. Es una clasificación propia de HRCT: cada recomendación se analiza a partir de su texto oficial y se relaciona con las metas a las que su cumplimiento contribuiría de forma directa, con una justificación para cada relación. Se toma como referencia el etiquetado del Índice Universal de los Derechos Humanos, la base de datos de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos.
               </Typography>
@@ -137,7 +137,7 @@ export default function MethodologyPage() {
               </Typography>
             </Section>
 
-            <Section overline="Integridad del registro" title="Historial y correcciones">
+            <Section id="historial" overline="Integridad del registro" title="Historial y correcciones">
               <Typography>
                 Las valoraciones publicadas no se sobrescriben. Cuando una valoración cambia, la anterior se conserva en el historial, la nueva pasa a ser la vigente y el cambio queda registrado. La página de cada recomendación muestra ese historial. Cada valoración indica además la versión de la metodología con la que se hizo.
               </Typography>

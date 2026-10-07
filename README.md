@@ -39,6 +39,14 @@ Recommendations are managed from the in-app admin panel (see below). Jira is no 
 
 Environment (see `.env.example`): `ADMIN_USER`, `ADMIN_PASSWORD`, `ADMIN_SESSION_SECRET`, `SUPABASE_SERVICE_ROLE_KEY`. Every admin page and server action checks the session; the database operations are `hrct_admin_set_assessment` and `hrct_admin_confirm_assessment`, callable by the service role only.
 
+## Site search
+
+The magnifying glass in the header opens a search over the whole site: the pages and the sections of the methodology, the recommendations, the goals and targets of the 2030 Agenda, the human-security dimensions, the indicators and the monitoring items. The pages are listed in `src/lib/search.ts`, which also holds the matching (accent-insensitive, every word must be found); the rest of the index is served by `/api/search`, cached like the public pages, and loaded the first time the search is opened. A new public page should be added to `sitePages`.
+
+## Contact form
+
+`/contact` sends its form by e-mail through [Resend](https://resend.com) from a server action; the key never reaches the browser. Environment (see `.env.example`): `RESEND_API_KEY` is required; `CONTACT_FROM_EMAIL` (the sender, which must be on a domain verified in Resend) and `CONTACT_TO_EMAIL` (where the messages arrive) are optional and both default to `hrci@bluehuman.org`. The kinds of enquiry and the fields each one adds are in `src/lib/contact.ts`.
+
 ## Local development
 
 ```bash

@@ -5,19 +5,20 @@ import { Box, Button, Stack, Typography } from "@mui/material";
 
 export type LinkBlock = {
   title: string;
-  text: string;
+  text?: string;
   // Where the block leads. An address that starts with "/" stays on the site.
   links: { label: string; href: string }[];
 };
 
 // Short blocks that each say one thing and lead somewhere: a page of the site, another site or an e-mail address.
-export function LinkBlocks({ blocks, columns = 3 }: { blocks: LinkBlock[]; columns?: 2 | 3 }) {
+// `dense` is for a column beside something else: smaller type and less air between the blocks.
+export function LinkBlocks({ blocks, columns = 3, dense = false }: { blocks: LinkBlock[]; columns?: 1 | 2 | 3; dense?: boolean }) {
   return (
-    <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: `repeat(${columns},minmax(0,1fr))` }, columnGap: 6, rowGap: 5 }}>
+    <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: `repeat(${columns},minmax(0,1fr))` }, columnGap: 6, rowGap: dense ? 2.5 : 5 }}>
       {blocks.map((block) => (
-        <Box component="section" key={block.title} sx={{ display: "flex", flexDirection: "column", pt: 2.5, borderTop: "2px solid", borderColor: "secondary.main" }}>
-          <Typography variant="h5" component="h2" color="primary.main">{block.title}</Typography>
-          <Typography color="text.secondary" sx={{ mt: 1.25, mb: 2, lineHeight: 1.7 }}>{block.text}</Typography>
+        <Box component="section" key={block.title} sx={{ display: "flex", flexDirection: "column", pt: dense ? 1.5 : 2.5, borderTop: "2px solid", borderColor: "secondary.main" }}>
+          <Typography variant={dense ? "h6" : "h5"} component="h2" color="primary.main" sx={dense ? { fontSize: "1.0625rem", lineHeight: 1.4 } : undefined}>{block.title}</Typography>
+          {block.text && <Typography variant={dense ? "body2" : "body1"} color="text.secondary" sx={dense ? { mt: .5, lineHeight: 1.6 } : { mt: 1.25, mb: 2, lineHeight: 1.7 }}>{block.text}</Typography>}
           <Stack alignItems="flex-start" sx={{ mt: "auto" }}>
             {block.links.map(({ label, href }) => {
               const internal = href.startsWith("/");
@@ -29,7 +30,7 @@ export function LinkBlocks({ blocks, columns = 3 }: { blocks: LinkBlock[]; colum
                   href={href}
                   {...(!internal && !mail && { target: "_blank", rel: "noreferrer" })}
                   endIcon={mail ? undefined : internal ? <ArrowForwardRoundedIcon /> : <OpenInNewRoundedIcon />}
-                  sx={{ px: 0, textAlign: "left", "& .MuiButton-endIcon svg": { fontSize: 18 } }}
+                  sx={{ px: 0, textAlign: "left", "& .MuiButton-endIcon svg": { fontSize: 18 }, ...(dense && { "@media (pointer: fine)": { minHeight: 32 } }) }}
                 >
                   {label}
                 </Button>

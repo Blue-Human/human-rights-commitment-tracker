@@ -21,8 +21,8 @@ type Props = {
   } | null;
 };
 
-// A/HRC/60/8, paragraph 1.
-const REVIEW_DATE = "30 de abril de 2025";
+// A/HRC/60/8, paragraph 1: the review was held on 30 April 2025.
+const REVIEW_YEAR = 2025;
 
 // On a computer screen the whole section fits below the site header, so that nothing of it is left
 // under the fold. A window that is not tall gets a smaller headline and tighter text first; the
@@ -55,7 +55,6 @@ export function EpuResults({ total, accepted, partiallyAccepted, noted, classifi
       Fuente oficial: A/HRC/60/8 y A/HRC/60/8/Add.1 · Consejo de Derechos Humanos. Clasificaciones y valoraciones: Blue Human, según su <Link href="/methodology">metodología</Link>.
     </Typography>
   );
-  const frameworks = [classified > 0 && "la seguridad humana", sdg && sdg.linked > 0 && "la Agenda 2030"].filter(Boolean);
 
   return (
     <Box component="section" aria-labelledby="results-heading" sx={{
@@ -75,11 +74,11 @@ export function EpuResults({ total, accepted, partiallyAccepted, noted, classifi
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1, pt: { xs: 4.5, md: 5, lg: 4 }, pb: { xs: 3.5, lg: 3 }, [COMPACT]: { pt: 3, pb: 2.5 }, [SHORT]: { pt: 2, pb: 2 } }}>
         <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", lg: crossing ? "minmax(0,5fr) minmax(0,7fr)" : "minmax(0,1fr)" }, columnGap: 8, rowGap: { xs: 5, md: 6 } }}>
           <Box sx={{ display: "flex", flexDirection: "column", maxWidth: crossing ? { xs: 720, lg: "none" } : 860 }}>
-            <Typography id="results-heading" variant="h1" sx={{ fontFamily: serif, fontWeight: 400, fontSize: { xs: "2.15rem", sm: "2.7rem", lg: "2.95rem" }, lineHeight: 1.1, letterSpacing: "-.018em", [COMPACT]: { fontSize: "2.4rem", textWrap: "balance" }, [SHORT]: { fontSize: "2.05rem" } }}>
+            <Typography id="results-heading" variant="h1" sx={{ fontFamily: serif, fontWeight: 400, fontSize: { xs: "2.45rem", sm: "3.1rem", lg: "3.5rem" }, lineHeight: 1.08, letterSpacing: "-.02em", [COMPACT]: { fontSize: "2.9rem", textWrap: "balance" }, [SHORT]: { fontSize: "2.45rem" } }}>
               Seguimiento de los compromisos de derechos humanos de España
             </Typography>
             <Typography sx={{ mt: { xs: 2, md: 2.5, lg: 2 }, fontSize: { xs: "1.02rem", md: "1.1rem" }, lineHeight: 1.65, color: "rgba(255,255,255,.86)", [COMPACT]: { mt: 1.5, fontSize: "1rem", lineHeight: 1.55 }, [SHORT]: { mt: 1.25, fontSize: ".95rem", lineHeight: 1.5 } }}>
-              Las <Box component="strong" sx={{ color: "#fff", fontWeight: 600 }}>{total} recomendaciones</Box> que España recibió en su examen del {REVIEW_DATE} ante el Consejo de Derechos Humanos, analizadas una a una a partir de su texto oficial{frameworks.length > 0 && `, clasificadas según ${frameworks.join(" y ")}`} y seguidas con evidencias públicas.
+              Las <Box component="strong" sx={{ color: "#fff", fontWeight: 600 }}>{total} recomendaciones</Box> que España recibió en su examen de {REVIEW_YEAR} ante el Consejo de Derechos Humanos, seguidas una a una con evidencias públicas.
             </Typography>
             <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, mt: { xs: 3, lg: 2.5 }, [COMPACT]: { mt: 2 }, [SHORT]: { mt: 1.5 } }}>
               <Button href="#recomendaciones" variant="contained" color="secondary" sx={{ "&.Mui-focusVisible": { outlineColor: "#fff" } }}>Ver las recomendaciones</Button>

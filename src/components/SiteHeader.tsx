@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { AppBar, Box, Button, Container, Drawer, IconButton, Menu, MenuItem, Stack, Toolbar, Typography } from "@mui/material";
+import { SiteSearch } from "./SiteSearch";
 
 const sections = [
   ["Recomendaciones", "/commitments"],
@@ -42,6 +43,12 @@ export function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [aboutAnchor, setAboutAnchor] = useState<HTMLElement | null>(null);
+  // The open search unfolds over the bar: what it covers fades out and leaves the tab order.
+  const [searching, setSearching] = useState(false);
+  const toolbar = useRef<HTMLDivElement>(null);
+  const logo = useRef<HTMLAnchorElement>(null);
+  const covered = { opacity: 0, visibility: "hidden", transition: "opacity .18s ease, visibility 0s .18s" };
+  const uncovered = { opacity: 1, visibility: "visible", transition: "opacity .32s ease .14s", "@media (prefers-reduced-motion: reduce)": { transition: "none" } };
   // "page" on the section's own page, "location" on a page inside it.
   const current = (href: string) => (pathname.startsWith(href) ? (pathname === href ? "page" : "location") : undefined);
   const inAbout = about.some((item) => !item.external && pathname.startsWith(item.href));
@@ -60,6 +67,7 @@ export function SiteHeader() {
     >
       <Container maxWidth="lg">
         <Toolbar
+          ref={toolbar}
           disableGutters
           sx={{
             minHeight: { xs: 56, md: 64 },
@@ -69,6 +77,7 @@ export function SiteHeader() {
           }}
         >
           <Stack
+            ref={logo}
             component={Link}
             href="/"
             spacing={0.35}
@@ -81,6 +90,9 @@ export function SiteHeader() {
               minWidth: 0,
               flexShrink: 0,
               overflow: "visible",
+              // On a narrow bar the search takes the place of the logo.
+              ...uncovered,
+              ...(searching && { "@media (max-width:899.95px)": covered }),
             }}
           >
             <Box
@@ -112,7 +124,8 @@ export function SiteHeader() {
             </Typography>
           </Stack>
 
-          <Stack component="nav" aria-label="Principal" direction="row" spacing={1} alignItems="center" sx={{ display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: { xs: .5, md: 1 } }}>
+          <Stack component="nav" aria-label="Principal" direction="row" spacing={1} alignItems="center" sx={{ display: { xs: "none", md: "flex" }, ...(searching ? covered : uncovered) }}>
             {sections.map(([label, href]) => (
               <Button key={href} component={Link} href={href} aria-current={current(href)} sx={barButton}>
                 {label}
@@ -165,6 +178,8 @@ export function SiteHeader() {
             </Menu>
           </Stack>
 
+          <SiteSearch open={searching} onOpenChange={setSearching} bounds={toolbar} clear={logo} />
+
           {/* Below the desktop width the sections live in a side menu, so the bar stays one row high. */}
           <IconButton
             aria-label="Abrir el menú"
@@ -177,6 +192,7 @@ export function SiteHeader() {
           >
             <MenuRoundedIcon />
           </IconButton>
+          </Box>
         </Toolbar>
       </Container>
 
