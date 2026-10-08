@@ -8,6 +8,7 @@ import { AdminItemRow } from "@/components/AdminItemRow";
 import { PriorityTag } from "@/components/PriorityTag";
 import { StatusChip } from "@/components/StatusChip";
 import { getRecommendation, listEvidence, listItemsFor, listProposals } from "@/lib/admin/db";
+import { commitmentContributions } from "@/lib/admin/programmes";
 import { requireAdmin } from "@/lib/admin/session";
 import { confidenceLabels, evidenceTypeLabels, formatDate, labelOf, splitRationale, statusLabels } from "@/lib/hrct";
 import { confirmAssessment, resolveProposal, reviewEvidence, setAssessment, setPriority } from "../../actions";
@@ -21,7 +22,7 @@ export default async function ManageRecommendation({ params }: { params: Promise
   const publicId = decodeURIComponent((await params).publicId);
   const rec = await getRecommendation(publicId);
   if (!rec) notFound();
-  const [evidence, items, proposals] = await Promise.all([listEvidence(rec.id), listItemsFor(rec.id), listProposals(rec.id)]);
+  const [evidence, items, proposals, contributions] = await Promise.all([listEvidence(rec.id), listItemsFor(rec.id), listProposals(rec.id), commitmentContributions(rec.id)]);
   const assessed = !!rec.assessment_status && rec.assessment_status !== "not_assessed";
   const rationale = splitRationale(rec.assessment_rationale).text;
 
@@ -41,6 +42,16 @@ export default async function ManageRecommendation({ params }: { params: Promise
         <Button component={Link} href={`/admin/recommendations/${encodeURIComponent(rec.public_id)}/indicators`} size="small">Gestionar indicadores</Button>
       </Stack>
       <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5, maxWidth: 860, lineHeight: 1.7 }}>{rec.original_text}</Typography>
+
+      <AdminSection title="Proyectos y actividades de Blue Human relacionados" note="Estas relaciones documentan contribuciones y pertinencia. Las actividades de Blue Human y sus productos no modifican automáticamente la valoración de implementación estatal.">
+        {contributions.map(link => <Box key={link.id} sx={{py:1.5,borderBottom:'1px solid',borderColor:'divider'}}>
+          <Button component={Link} href={`/admin/programmes/projects/${link.project_id}`} sx={{px:0}}>{link.projects?.project_code} · {link.projects?.title}</Button>
+          {link.project_activities && <Typography><Link href={`/admin/programmes/activities/${link.project_activities.id}`}>{link.project_activities.title}</Link></Typography>}
+          {link.project_outputs && <Typography><Link href={`/admin/programmes/outputs/${link.project_outputs.id}`}>{link.project_outputs.title}</Link></Typography>}
+          <Typography variant="body2" color="text.secondary">{link.contribution_description}</Typography>
+        </Box>)}
+        {!contributions.length && <Typography color="text.secondary">Sin intervenciones relacionadas.</Typography>}
+      </AdminSection>
 
       {proposals.map((p) => (
         <AdminSection key={p.id} title="Propuesta como cumplida" note={`Una revisión periódica del ${formatDate(p.reviewed_at)} propone marcar esta recomendación como cumplida (confianza: ${labelOf(confidenceLabels, p.confidence).toLowerCase()}). La ficha pública no cambia hasta que decidas.`}>

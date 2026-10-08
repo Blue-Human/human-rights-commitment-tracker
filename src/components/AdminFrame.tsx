@@ -17,6 +17,7 @@ export function AdminFrame({ title, intro, children }: { title: string; intro?: 
             <Button component={Link} href="/admin/monitoring" size="small">Novedades de seguimiento</Button>
             <Button component={Link} href="/admin/feeds" size="small">Fuentes</Button>
             <Button component={Link} href="/admin/indicators" size="small">Indicadores</Button>
+            <Button component={Link} href="/admin/programmes" size="small">Programmes</Button>
             <Box sx={{ flex: 1, minWidth: { xs: 8, md: 0 } }} />
             <form action={logout}><Button type="submit" size="small">Cerrar sesión</Button></form>
           </Stack>

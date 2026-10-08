@@ -3,7 +3,7 @@ export function Field({name,label,value='',required=false,multiline=false,type='
   return <TextField fullWidth name={name} label={label} defaultValue={value??''} required={required} multiline={multiline} minRows={multiline?3:undefined} type={type} slotProps={type==='date'||type==='datetime-local'?{inputLabel:{shrink:true}}:undefined}/>;
 }
 export function Choice({name,label,value,options}:{name:string;label:string;value?:string|null;options:Record<string,string>}) {
-  return <TextField fullWidth name={name} label={label} defaultValue={value??Object.keys(options)[0]} select slotProps={{select:{native:true}}}>{Object.entries(options).map(([v,l])=><option key={v} value={v}>{l}</option>)}</TextField>;
+  return <TextField fullWidth name={name} label={label} defaultValue={value??Object.keys(options)[0]} select slotProps={{select:{native:true},inputLabel:{shrink:true}}}>{Object.entries(options).map(([v,l])=><option key={v} value={v}>{l}</option>)}</TextField>;
 }
 export const IndicatorFields = ({values={}}:{values?:Partial<Record<"topic"|"name"|"description"|"indicator_type"|"methodology"|"orientation"|"preferred_sources"|"recommended_disaggregation",string|null>>}) => <Stack spacing={2}>
   <Field name="topic" label="Tema" value={values.topic}/><Field name="name" label="Nombre" required value={values.name}/><Field name="description" label="Definición" required multiline value={values.description}/>

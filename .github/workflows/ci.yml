@@ -16,6 +16,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run indicators:validate
+      - run: npm run lint
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run test:indicators:ui
+      - run: npm run test:programmes:ui
