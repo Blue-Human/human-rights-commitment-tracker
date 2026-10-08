@@ -1,0 +1,126 @@
+{
+  "version": "official-housing-history-2026-10-04",
+  "country_iso2": "ES",
+  "retrieved_at": "2026-10-04T14:35:39.859Z",
+  "components": [
+    {
+      "indicator_code": "HOU-001",
+      "component_code": "component-2",
+      "label": "Viviendas sociales de titularidad pública · estimación",
+      "unit": "nº",
+      "definition": "Estimación del parque existente de vivienda social de titularidad autonómica y municipal, publicada por MITMA en 2020. No incluye toda la vivienda protegida ni identifica incorporaciones anuales al parque.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "bar"
+    },
+    {
+      "indicator_code": "HOU-005",
+      "component_code": "default",
+      "label": "Viviendas protegidas terminadas · calificaciones definitivas",
+      "unit": "nº",
+      "definition": "Calificaciones definitivas anuales de vivienda protegida, empleadas por MIVAU para medir su terminación. Incluye promoción pública y privada y viviendas para venta o alquiler. Es una medición parcial de la oferta asequible; no equivale a entregas de vivienda pública de alquiler.",
+      "formula": "Recuento anual de calificaciones definitivas de vivienda protegida (VP Calif. Def.).",
+      "frequency": "annual",
+      "visualization": "bar"
+    }
+  ],
+  "sources": [
+    {
+      "file": "sources/mivau-protected-completions.json",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/Documents/2025/040725-ObservatoriodeviviendaysueloBoletnanual24.pdf",
+      "title": "MIVAU · Observatorio de Vivienda y Suelo, boletín anual 2024",
+      "publication_date": "2025-07-04",
+      "retrieved_at": "2026-10-04T14:35:39.859Z",
+      "sha256": "4293ee9c7742e2cf2dce29d98a0b0f773998292304e8830cc0f777b328347918"
+    },
+    {
+      "file": "sources/mitma-public-social-stock.json",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/paginas/2020/281020-vivienda.aspx",
+      "title": "MITMA · Estudio sobre Vivienda Social en España (2020)",
+      "publication_date": "2020-10-28",
+      "retrieved_at": "2026-10-04T14:35:39.859Z",
+      "sha256": "20a6e7c2f6bcc5f05db639e71842dc39906a517a3fbad9870a8bbaa141c13c68"
+    }
+  ],
+  "series": [
+    {
+      "indicator_code": "HOU-001",
+      "component_code": "component-2",
+      "scope": {
+        "territory": "national",
+        "population": "Viviendas sociales de titularidad autonómica y municipal"
+      },
+      "source": "sources/mitma-public-social-stock.json",
+      "observations": [
+        {
+          "year": 2020,
+          "value": 290000,
+          "flags": "e"
+        }
+      ],
+      "comparability_notes": "Estimación aproximada publicada en octubre de 2020, no censo anual ni dato actual. Una sola observación: no permite calcular una tendencia. No se convierte el porcentaje de hogares cubiertos en porcentaje del parque residencial."
+    },
+    {
+      "indicator_code": "HOU-005",
+      "component_code": "default",
+      "scope": {
+        "territory": "national",
+        "population": "Viviendas protegidas · promoción pública y privada · venta y alquiler"
+      },
+      "source": "sources/mivau-protected-completions.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 7931,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 7118,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 4938,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 5191,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 7248,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 9973,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 10637,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 9610,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 8847,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 14371,
+          "flags": ""
+        }
+      ],
+      "comparability_notes": "Tabla 1.2, página 7 del boletín anual 2024, columna VP Calif. Def.; misma serie oficial para todos los años. Incluye viviendas protegidas destinadas a venta y alquiler; no permite calcular la evolución del parque de vivienda social pública ni probar su entrega a los destinatarios."
+    }
+  ]
+}

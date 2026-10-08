@@ -1,7 +1,7 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import {
   boeDailySummary, boeSearch, fetchFeed, gdelt, googleNews, heuristicIsPublic, isAfter, lastDays, matchBoeEntry,
-  matchFeedItem, titleKey, GDELT_MIN_INTERVAL_MS, type Candidate, type ConnectorResult, type Feed, type FeedItem,
+  matchFeedItem, titleKey, GDELT_MIN_INTERVAL_MS, type BoeEntry, type Candidate, type ConnectorResult, type Feed, type FeedItem,
 } from "./lib.ts";
 import { classify, DEFAULT_MODEL, type ClassifierConfig, type Verdict } from "./classifier.ts";
 
@@ -17,15 +17,21 @@ const CLASSIFIER: ClassifierConfig | null = GEMINI_API_KEY
 // Optional. A caller presenting it may pass ?force=1 to skip the cooldown (used for backfills).
 const ADMIN_SECRET = Deno.env.get("LIVE_TRACKER_ADMIN_SECRET");
 const REST = `${SUPABASE_URL}/rest/v1`;
-const COOLDOWN_MS = 45 * 60 * 1000;
+// One refresh cycle per day: a profile or a feed sweep done within the last twelve hours is up to date,
+// so repeated calls during the daily batch only pick up what is still pending. Twelve hours, not
+// twenty-four, because the scheduler can start a run hours late and the next one must still find work.
+const REFRESH_MS = 12 * 60 * 60 * 1000;
+// Hidden, unreviewed candidates older than this are deleted so the queue does not pile up.
+const RETENTION_DAYS = 45;
 const PROFILE_BATCH = 6;
+const SWEEP_PARALLEL = 6;
 // Stop starting new profiles well before the Edge Function wall-clock limit.
 const DEADLINE_MS = 110 * 1000;
 const AI_PUBLIC_RELEVANCE = 0.8;
 
 type Profile = {
   id: string; commitment_id: string; news_query: string; implementation_query: string | null;
-  boe_query: string | null; lookback_days: number | null;
+  boe_query: string | null; lookback_days: number | null; last_run_at: string | null;
 };
 type Recommendation = {
   id: string; public_id: string; title: string; original_text: string;
@@ -145,57 +151,69 @@ Deno.serve(async (req) => {
 
   try {
     const recent = await rest("monitoring_runs?select=started_at,status&order=started_at.desc&limit=1");
-    if (recent?.[0]) {
-      const age = Date.now() - new Date(recent[0].started_at).getTime();
-      if (recent[0].status === "running" && age < 20 * 60 * 1000) return Response.json({ ok: true, skipped: "run_in_progress" });
-      if (!force && recent[0].status === "success" && age < COOLDOWN_MS) return Response.json({ ok: true, skipped: "cooldown" });
+    if (recent?.[0]?.status === "running" && Date.now() - new Date(recent[0].started_at).getTime() < 20 * 60 * 1000) {
+      return Response.json({ ok: true, skipped: "run_in_progress", remaining: 0 });
     }
+
+    const profiles: Profile[] = await rest("monitoring_profiles?select=id,commitment_id,news_query,implementation_query,boe_query,lookback_days,last_run_at&enabled=eq.true&order=last_run_at.asc.nullsfirst") || [];
+    const cutoff = Date.now() - REFRESH_MS;
+    const due = profiles.filter((p) => force || !p.last_run_at || new Date(p.last_run_at).getTime() < cutoff);
+    const lastSweep = await rest("monitoring_runs?select=started_at&status=eq.success&source_stats->rss=not.is.null&order=started_at.desc&limit=1");
+    const sweepDue = force || !lastSweep?.[0] || new Date(lastSweep[0].started_at).getTime() < cutoff;
+    if (!sweepDue && !due.length) return Response.json({ ok: true, skipped: "up_to_date", remaining: 0 });
+
     const run = await rest("monitoring_runs", { method: "POST", headers: { Prefer: "return=representation" }, body: JSON.stringify({ status: "running" }) });
     runId = run?.[0]?.id;
 
-    const profiles: Profile[] = await rest("monitoring_profiles?select=id,commitment_id,news_query,implementation_query,boe_query,lookback_days&enabled=eq.true&order=last_run_at.asc.nullsfirst") || [];
     const recs: Recommendation[] = profiles.length
       ? await rest(`commitments?select=id,public_id,title,original_text,commitment_date,sources(publication_date)&id=in.(${profiles.map((p) => p.commitment_id).join(",")})`) || []
       : [];
     const recById = new Map(recs.map((r) => [r.id, r]));
 
-    // Official gazette: every profile is checked against the last days' dispositions on each run.
-    const gazette = [];
-    for (const day of lastDays(3)) {
-      const r = await boeDailySummary(day);
-      record("boe_summary", r, r.entries.length);
-      gazette.push(...r.entries);
-    }
+    if (sweepDue) {
+      await rest(`monitoring_items?status=eq.auto&is_public=eq.false&connector=in.(rss,google_news,gdelt,boe_summary)&discovered_at=lt.${new Date(Date.now() - RETENTION_DAYS * 86400000).toISOString()}`, { method: "DELETE" });
 
-    // Configured RSS/Atom feeds, fetched once per run and checked against every profile.
-    const feeds: Feed[] = await rest("monitoring_feeds?select=id,name,url,source_type,spain_focused&enabled=eq.true") || [];
-    const feedItems: Array<{ feed: Feed; item: FeedItem }> = [];
-    await Promise.all(feeds.map(async (feed) => {
-      const r = await fetchFeed(feed);
-      record("rss", r, r.items.length);
-      for (const item of r.items) feedItems.push({ feed, item });
-      await rest(`monitoring_feeds?id=eq.${feed.id}`, {
-        method: "PATCH",
-        body: JSON.stringify({ last_fetched_at: new Date().toISOString(), last_status: r.outcome === "ok" ? "ok" : (r.detail || r.outcome), last_item_count: r.items.length }),
-      });
-    }));
-
-    for (const p of profiles) {
-      const rec = recById.get(p.commitment_id);
-      if (!rec) continue;
-      const matches: Candidate[] = [];
-      for (const { feed, item } of feedItems) {
-        const c = matchFeedItem(feed, item, p.news_query, "need_context", "supports_need")
-          || (p.implementation_query ? matchFeedItem(feed, item, p.implementation_query, "implementation_candidate", "supports_progress") : null);
-        if (c) matches.push(c);
+      // Official gazette: every profile is checked against the past week's dispositions.
+      const gazette: BoeEntry[] = [];
+      for (const day of lastDays(8)) {
+        const r = await boeDailySummary(day);
+        record("boe_summary", r, r.entries.length);
+        gazette.push(...r.entries);
       }
-      const query = p.boe_query || p.implementation_query;
-      if (query) matches.push(...gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec))));
-      await store(rec, matches);
+
+      // Configured RSS/Atom feeds, fetched once per run and checked against every profile.
+      const feeds: Feed[] = await rest("monitoring_feeds?select=id,name,url,source_type,spain_focused&enabled=eq.true") || [];
+      const feedItems: Array<{ feed: Feed; item: FeedItem }> = [];
+      await Promise.all(feeds.map(async (feed) => {
+        const r = await fetchFeed(feed);
+        record("rss", r, r.items.length);
+        for (const item of r.items) feedItems.push({ feed, item });
+        await rest(`monitoring_feeds?id=eq.${feed.id}`, {
+          method: "PATCH",
+          body: JSON.stringify({ last_fetched_at: new Date().toISOString(), last_status: r.outcome === "ok" ? "ok" : (r.detail || r.outcome), last_item_count: r.items.length }),
+        });
+      }));
+
+      // Stored a few profiles at a time: one by one, the full catalogue does not fit in one call.
+      for (let i = 0; i < profiles.length; i += SWEEP_PARALLEL) {
+        await Promise.all(profiles.slice(i, i + SWEEP_PARALLEL).map(async (p) => {
+          const rec = recById.get(p.commitment_id);
+          if (!rec) return;
+          const matches: Candidate[] = [];
+          for (const { feed, item } of feedItems) {
+            const c = matchFeedItem(feed, item, p.news_query, "need_context", "supports_need")
+              || (p.implementation_query ? matchFeedItem(feed, item, p.implementation_query, "implementation_candidate", "supports_progress") : null);
+            if (c) matches.push(c);
+          }
+          const query = p.boe_query || p.implementation_query;
+          if (query) matches.push(...gazette.map((e) => matchBoeEntry(e, query)).filter((c): c is Candidate => !!c && isAfter(c, since(rec))));
+          await store(rec, matches);
+        }));
+      }
     }
 
-    // News and legislation search rotate through the profiles that have waited longest.
-    for (const p of profiles.slice(0, PROFILE_BATCH)) {
+    // News and legislation search: the profiles that have waited longest, a batch per call.
+    for (const p of due.slice(0, PROFILE_BATCH)) {
       if (Date.now() - started > DEADLINE_MS) break;
       const rec = recById.get(p.commitment_id);
       if (!rec) continue;
@@ -222,7 +240,7 @@ Deno.serve(async (req) => {
         body: JSON.stringify({ finished_at: new Date().toISOString(), profiles_processed: processed, items_found: found, items_inserted: inserted, status: "success", source_stats: stats }),
       });
     }
-    return Response.json({ ok: true, processed, found, inserted, classifier: CLASSIFIER?.model ?? null, sources: stats });
+    return Response.json({ ok: true, processed, found, inserted, remaining: Math.max(0, due.length - processed), classifier: CLASSIFIER?.model ?? null, sources: stats });
   } catch (e) {
     if (runId) {
       try {
