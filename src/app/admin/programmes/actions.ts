@@ -29,6 +29,7 @@ export async function saveRecord(form:FormData):Promise<{error?:string;success?:
     });
   } catch(error) { return {error:errorMessage(error)}; }
   revalidatePath(rootPath,'layout');
+  revalidatePath('/partners','layout');
   revalidatePath('/admin/recommendations','layout');
   if(!id) redirect(`${rootPath}/${section}/${savedId}`);
   return {success:'Cambios guardados. Se ha conservado el historial.'};
@@ -41,6 +42,7 @@ export async function archiveRecord(form:FormData):Promise<{error?:string;succes
   try {
     await adminRpc('hrct_programmes_write',{p_entity:entity.table,p_id:id,p_values:{},p_actor:process.env.ADMIN_USER!,p_operation:'archive'});
   } catch(error) { return {error:errorMessage(error)}; }
-  revalidatePath(rootPath,'layout'); revalidatePath('/admin/recommendations','layout');
+  revalidatePath(rootPath,'layout');
+  revalidatePath('/partners','layout'); revalidatePath('/admin/recommendations','layout');
   redirect(`${rootPath}/${section}`);
 }

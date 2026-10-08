@@ -43,6 +43,10 @@ Environment (see `.env.example`): `ADMIN_USER`, `ADMIN_PASSWORD`, `ADMIN_SESSION
 
 `/admin/programmes` adds private cooperation-project management and MEL: programmes, country projects, partners, activities, outputs/outcomes, indicators with measurement history, project evidence and explicit contribution links to commitments. It reuses the admin account; no operational data is exposed publicly. See [architecture, permissions and operator guide](docs/programmes.md).
 
+## Portal de partners
+
+`/partners` ofrece acceso por invitación, proyectos asignados y envío de evidencias para revisión. Desde la ficha administrativa de cada partner se generan invitaciones y se activa o desactiva cada cuenta. El acceso a proyectos y el contenido compartido se seleccionan expresamente; presupuestos, contactos y notas internas siguen privados. [Guía de uso y permisos](docs/partners.md).
+
 ## Site search
 
 The magnifying glass in the header opens a search over the whole site: the pages and the sections of the methodology, the recommendations, the goals and targets of the 2030 Agenda, the human-security dimensions, the indicators and the monitoring items. The pages are listed in `src/lib/search.ts`, which also holds the matching (accent-insensitive, every word must be found); the rest of the index is served by `/api/search`, cached like the public pages, and loaded the first time the search is opened. A new public page should be added to `sitePages`.

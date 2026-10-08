@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 const migration=await readFile(new URL('../supabase/migrations/20261008173400_programmes_mel.sql',import.meta.url),'utf8');
 export async function createProgrammeDatabase() {
   const db=new PGlite();
-  await db.exec(`create role anon;create role authenticated;create role service_role bypassrls;
+  await db.exec(`create schema auth; create table auth.users(id uuid primary key, email text); create role anon;create role authenticated;create role service_role bypassrls;
     alter default privileges grant all on tables to anon,authenticated;
     alter default privileges grant all on sequences to anon,authenticated;
     create table commitments(id uuid primary key default gen_random_uuid(),public_id text,title text,original_text text,assessment_status text);
@@ -17,6 +17,7 @@ export async function createProgrammeDatabase() {
   `);
   await db.exec(migration);
   await db.exec(await readFile(new URL('../supabase/migrations/20261008173727_programmes_fk_indexes.sql',import.meta.url),'utf8'));
+  await db.exec(await readFile(new URL('../supabase/migrations/20261008184713_partner_portal.sql',import.meta.url),'utf8'));
   await db.exec('set role service_role');
   return db;
 }
