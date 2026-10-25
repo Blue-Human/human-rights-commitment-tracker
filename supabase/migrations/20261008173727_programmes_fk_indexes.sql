@@ -1,0 +1,36 @@
+-- Cover the full composite FK, and replace redundant single-column prefix indexes.
+begin;
+create index project_activities_project_responsible_partner_fk_idx on public.project_activities(project_id,responsible_partner_id);
+drop index public.project_activities_project_id_idx;
+create index project_outputs_activity_project_fk_idx on public.project_outputs(activity_id,project_id);
+drop index public.project_outputs_activity_id_idx;
+create index project_outcomes_specific_objective_project_fk_idx on public.project_outcomes(specific_objective_id,project_id);
+drop index public.project_outcomes_specific_objective_id_idx;
+create index project_output_outcomes_output_project_fk_idx on public.project_output_outcomes(output_id,project_id);
+drop index public.project_output_outcomes_output_id_idx;
+create index project_output_outcomes_outcome_project_fk_idx on public.project_output_outcomes(outcome_id,project_id);
+drop index public.project_output_outcomes_outcome_id_idx;
+create index project_indicators_outcome_project_fk_idx on public.project_indicators(outcome_id,project_id);
+drop index public.project_indicators_outcome_id_idx;
+create index project_indicators_output_project_fk_idx on public.project_indicators(output_id,project_id);
+drop index public.project_indicators_output_id_idx;
+create index project_evidence_activity_project_fk_idx on public.project_evidence(activity_id,project_id);
+drop index public.project_evidence_activity_id_idx;
+create index project_evidence_output_project_fk_idx on public.project_evidence(output_id,project_id);
+drop index public.project_evidence_output_id_idx;
+create index project_evidence_outcome_project_fk_idx on public.project_evidence(outcome_id,project_id);
+drop index public.project_evidence_outcome_id_idx;
+create index project_evidence_indicator_project_fk_idx on public.project_evidence(indicator_id,project_id);
+drop index public.project_evidence_indicator_id_idx;
+create index project_indicator_measurements_indicator_project_fk_idx on public.project_indicator_measurements(indicator_id,project_id);
+drop index public.project_indicator_measurements_indicator_id_idx;
+create index project_indicator_measurements_evidence_project_fk_idx on public.project_indicator_measurements(evidence_id,project_id);
+drop index public.project_indicator_measurements_evidence_id_idx;
+create index activity_target_groups_activity_project_fk_idx on public.activity_target_groups(activity_id,project_id);
+drop index public.activity_target_groups_activity_id_idx;
+create index activity_commitments_activity_project_fk_idx on public.activity_commitments(activity_id,project_id);
+drop index public.activity_commitments_activity_id_idx;
+create index output_commitments_output_project_fk_idx on public.output_commitments(output_id,project_id);
+drop index public.output_commitments_output_id_idx;
+drop index public.project_partners_project_id_idx; -- covered by the full unique(project_id,partner_id)
+commit;
