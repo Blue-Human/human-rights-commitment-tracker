@@ -97,31 +97,19 @@ export function SiteHeader() {
           >
             <Box
               component="img"
-              src="/images/HRCI_logo.png"
-              alt="HRCI"
+              src="/images/blue%20human%20(1).png"
+              alt="HRCI · Human Rights Commitment Institute"
+              width={774}
+              height={213}
               sx={{
                 display: "block",
-                height: { xs: 24, sm: 28 },
+                height: { xs: 44, sm: 48 },
                 width: "auto",
-                maxWidth: { xs: 145, sm: 175 },
+                maxWidth: { xs: 200, sm: 220 },
                 objectFit: "contain",
                 flexShrink: 0,
               }}
             />
-            <Typography
-              variant="caption"
-              sx={{
-                fontFamily: '"IBM Plex Sans", Arial, sans-serif',
-                fontSize: { xs: ".66rem", sm: ".69rem" },
-                fontWeight: 500,
-                lineHeight: 1.15,
-                letterSpacing: ".015em",
-                color: "rgba(255,255,255,.82)",
-                whiteSpace: "nowrap",
-              }}
-            >
-              Human Rights Commitment Institute
-            </Typography>
           </Stack>
 
           <Box sx={{ display: "flex", alignItems: "center", gap: { xs: .5, md: 1 } }}>
