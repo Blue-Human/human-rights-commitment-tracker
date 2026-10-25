@@ -21,6 +21,7 @@ const ABOUT = "Sobre el HRCI";
 const about: { label: string; href: string; external?: boolean }[] = [
   { label: "Sobre nosotros", href: "https://bluehuman.org", external: true },
   { label: "Metodología", href: "/methodology" },
+  { label: "Nuevas misiones", href: "/missions" },
   { label: "Contacto", href: "/contact" },
   { label: "Open HRCI", href: "/open" },
 ];

@@ -1,6 +1,6 @@
 "use server";
 
-import { CONTACT_EMAIL, MESSAGE_MAX, inquiryType, type ContactField, type ContactResult } from "@/lib/contact";
+import { CONTACT_EMAIL, MESSAGE_MAX, asksOrganisation, inquiryType, type ContactField, type ContactResult } from "@/lib/contact";
 
 // A single line: no line breaks, so a value cannot spill into the next line of the message.
 const line = (form: FormData, name: string, max: number) => String(form.get(name) ?? "").replace(/\s+/g, " ").trim().slice(0, max);
@@ -16,7 +16,8 @@ export async function sendContactMessage(form: FormData): Promise<ContactResult>
   const name = line(form, "name", 120);
   const email = line(form, "email", 200);
   const phone = line(form, "phone", 30);
-  const organisation = type?.extra === "organisation" ? line(form, "organisation", 160) : "";
+  const organisation = asksOrganisation(type) ? line(form, "organisation", 160) : "";
+  const country = type?.extra === "mission" ? line(form, "country", 80) : "";
   const recommendation = type?.extra === "record" ? line(form, "recommendation", 40) : "";
   const source = type?.extra === "record" ? line(form, "source", 500) : "";
   const message = String(form.get("message") ?? "").trim();
@@ -25,6 +26,7 @@ export async function sendContactMessage(form: FormData): Promise<ContactResult>
   if (!type) fields.type = "Hay que elegir un tipo de consulta.";
   if (!name) fields.name = "Hay que indicar un nombre.";
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) fields.email = "Hay que indicar un correo electrónico válido.";
+  if (type?.extra === "mission" && !country) fields.country = "Hay que indicar el país de la misión.";
   if (phone && !/^\+?[\d\s().-]{6,}$/.test(phone)) fields.phone = "El teléfono solo puede llevar cifras, espacios y el prefijo.";
   if (source && !/^https?:\/\/\S+$/.test(source)) fields.source = "El enlace debe empezar por http:// o https://.";
   if (message.length < 10) fields.message = "El mensaje es demasiado corto.";
@@ -43,6 +45,7 @@ export async function sendContactMessage(form: FormData): Promise<ContactResult>
     ["Correo electrónico", email],
     ["Teléfono", phone],
     [type.organisationLabel ?? "Organización", organisation],
+    ["País de la misión", country],
     ["Recomendación", recommendation],
     ["Fuente pública", source],
   ].filter(([, value]) => value);

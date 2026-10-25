@@ -4,13 +4,13 @@ import { useEffect, useRef, useState, useTransition } from "react";
 import { Box, Button, MenuItem, Stack, TextField, Typography } from "@mui/material";
 import { sendContactMessage } from "@/app/contact/actions";
 import { brand } from "@/brand";
-import { CONTACT_EMAIL, MESSAGE_MAX, inquiryType, inquiryTypes, type ContactResult } from "@/lib/contact";
+import { CONTACT_EMAIL, MESSAGE_MAX, asksOrganisation, inquiryType, inquiryTypes, type ContactResult } from "@/lib/contact";
 
 const full = { gridColumn: "1 / -1" };
 
-// The contact form. The kind of enquiry chosen decides which extra fields are asked for.
-export function ContactForm() {
-  const [type, setType] = useState("");
+// The contact form. The kind of enquiry chosen decides which extra fields are asked for; a link can choose it beforehand.
+export function ContactForm({ initialType = "" }: { initialType?: string }) {
+  const [type, setType] = useState(initialType);
   const [result, setResult] = useState<ContactResult | null>(null);
   const [pending, startTransition] = useTransition();
   const confirmation = useRef<HTMLDivElement>(null);
@@ -64,13 +64,17 @@ export function ContactForm() {
           {inquiryTypes.map(({ value, label }) => <MenuItem key={value} value={value}>{label}</MenuItem>)}
         </TextField>
 
-        <TextField name="name" label="Nombre" autoComplete="name" required fullWidth error={!!errors.name} helperText={errors.name} sx={chosen?.extra === "organisation" ? undefined : full} slotProps={{ htmlInput: { maxLength: 120 } }} />
-        {chosen?.extra === "organisation" && (
+        <TextField name="name" label="Nombre" autoComplete="name" required fullWidth error={!!errors.name} helperText={errors.name} sx={asksOrganisation(chosen) ? undefined : full} slotProps={{ htmlInput: { maxLength: 120 } }} />
+        {asksOrganisation(chosen) && (
           <TextField name="organisation" label={`${chosen.organisationLabel} (opcional)`} autoComplete="organization" fullWidth error={!!errors.organisation} helperText={errors.organisation} slotProps={{ htmlInput: { maxLength: 160 } }} />
         )}
 
         <TextField name="email" label="Correo electrónico" type="email" autoComplete="email" required fullWidth error={!!errors.email} helperText={errors.email} slotProps={{ htmlInput: { maxLength: 200, autoCapitalize: "none", autoCorrect: "off", spellCheck: false } }} />
         <TextField name="phone" label="Teléfono (opcional)" type="tel" autoComplete="tel" fullWidth error={!!errors.phone} helperText={errors.phone} slotProps={{ htmlInput: { maxLength: 30 } }} />
+
+        {chosen?.extra === "mission" && (
+          <TextField name="country" label="País de la misión" autoComplete="country-name" required fullWidth error={!!errors.country} helperText={errors.country} sx={full} slotProps={{ htmlInput: { maxLength: 80 } }} />
+        )}
 
         {chosen?.extra === "record" && (
           <>

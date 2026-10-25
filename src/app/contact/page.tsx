@@ -4,7 +4,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { LinkBlocks, type LinkBlock } from "@/components/LinkBlocks";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { CONTACT_EMAIL } from "@/lib/contact";
+import { CONTACT_EMAIL, inquiryType } from "@/lib/contact";
 
 export const metadata: Metadata = {
   title: "Contacto | Human Rights Commitment Institute",
@@ -28,7 +28,10 @@ const blocks: LinkBlock[] = [
   },
 ];
 
-export default function ContactPage() {
+// `?tipo=` chooses the kind of enquiry beforehand, as the link to propose a mission does.
+export default async function ContactPage({ searchParams }: { searchParams: Promise<{ tipo?: string | string[] }> }) {
+  const { tipo } = await searchParams;
+  const initialType = inquiryType(String(tipo ?? ""))?.value;
   return (
     <>
       <SiteHeader />
@@ -42,7 +45,7 @@ export default function ContactPage() {
         </Container>
         <Container maxWidth="lg" sx={{ pb: 4 }}>
           <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,7fr) minmax(0,4fr)" }, columnGap: 8, rowGap: 5, alignItems: "start" }}>
-            <ContactForm />
+            <ContactForm initialType={initialType} />
             <Box component="aside">
               <LinkBlocks blocks={blocks} columns={1} dense />
             </Box>
