@@ -11,7 +11,7 @@ const serif = IBM_Plex_Serif({ subsets: ["latin"], weight: ["400"], display: "sw
 export const metadata: Metadata = {
   title: "Human Rights Commitment Institute | Blue Human",
   description: "Seguimiento público y basado en evidencias de los compromisos de derechos humanos de España.",
-  icons: { icon: { url: "/favicon.svg?v=hrci-circular", type: "image/svg+xml" } },
+  icons: { icon: { url: "/favicon.svg?v=fav-hrci-max", type: "image/svg+xml" } },
 };
 
 // The page reaches the edges of a notched phone; the theme keeps the content clear of them.
