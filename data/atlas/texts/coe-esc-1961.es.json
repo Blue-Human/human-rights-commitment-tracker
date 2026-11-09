@@ -134,6 +134,11 @@
      "number": "4"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a1"
   },
   {
@@ -173,6 +178,11 @@
      "number": "5"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a2"
   },
   {
@@ -202,6 +212,11 @@
      "number": "3"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a3"
   },
   {
@@ -245,6 +260,11 @@
      "text": "El ejercicio de estos derechos deberá asegurarse mediante Convenios Colectivos libremente concertados, por los medios legales de fijación de salarios, o mediante cualquier otro procedimiento adecuado a las condiciones nacionales."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a4"
   },
   {
@@ -259,6 +279,11 @@
      "text": "Para garantizar o promover la libertad de los trabajadores y empleadores de constituir Organizaciones locales; nacionales, o internacionales para la protección de sus intereses económicos y sociales y de adherirse a esas Organizaciones, las Partes Contratantes se comprometen a que la legislación nacional no menoscabe esa libertad, ni se aplique de manera que pueda menoscabarla. Igualmente el principio que establezca, la aplicación de estas garantías a los miembros de las Fuerzas Armadas y la medida de su aplicación a esta categoría de personas deberán ser determinados por las Leyes y Reglamentos nacionales."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a5"
   },
   {
@@ -297,6 +322,11 @@
      "number": "4"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a6"
   },
   {
@@ -361,6 +391,11 @@
      "number": "10"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a7"
   },
   {
@@ -397,10 +432,6 @@
     {
      "id": "art-8-p6",
      "text": "b) A prohibir el empleo femenino en trabajos subterráneos de minería y, en su caso, en cualesquiera otros trabajos que no sean adecuados para la mujer por su carácter peligroso, penoso e insalubre."
-    },
-    {
-     "id": "art-8-p7",
-     "text": "Téngase en cuenta que España ha denunciado el apartado 4.b), con efectos a partir del 5 de junio de 1991, por notificación de 6 de mayo de 1991. Ref. BOE-A-1991-11143."
     }
    ],
    "history": [
@@ -419,6 +450,15 @@
      ]
     }
    ],
+   "version": {
+    "norm": "BOE-A-1991-11143",
+    "published": "1991-05-10",
+    "in_force": "1991-06-05"
+   },
+   "notes": [
+    "Téngase en cuenta que España ha denunciado el apartado 4.b), con efectos a partir del 5 de junio de 1991, por notificación de 6 de mayo de 1991. Ref. BOE-A-1991-11143.",
+    "Se denuncia por España el apartado 4.b) por notificación de 6 de mayo de 1991. Ref. BOE-A-1991-11143."
+   ],
    "block": "a8"
   },
   {
@@ -433,6 +473,11 @@
      "text": "Para garantizar el ejercicio efectivo del derecho a la orientación profesional, las Partes Contratantes se comprometen a establecer o facilitar, según se requiera, un servicio que ayude a todas las personas, incluso los minusválidos, a resolver los problemas que plantea la elección de una profesión o la promoción profesional, teniendo en cuenta las características del interesado y su relación con las posibilidades del mercado de empleo, esta ayuda deberá ser prestada gratuitamente tanto a los jóvenes, incluidos los niños en edad escolar, como a los adultos."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a9"
   },
   {
@@ -491,6 +536,11 @@
      "text": "d) La garantía, por medio de un control adecuado, previa consulta con las organizaciones profesionales de empleadores y trabajadores, de la eficacia del sistema de aprendizaje y de cualquier otro sistema de formación para trabajadores jóvenes y, en general, de la adecuada protección a los trabajadores jóvenes."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a10"
   },
   {
@@ -520,6 +570,11 @@
      "number": "3"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a11"
   },
   {
@@ -562,6 +617,11 @@
      "text": "b) La concesión, mantenimiento y restablecimiento de los derechos de seguridad social, por medios tales como la acumulación de los períodos de seguro o de empleo completados de conformidad con la legislación de cada una de las Partes Contratantes."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a12"
   },
   {
@@ -596,6 +656,11 @@
      "number": "4"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a13"
   },
   {
@@ -620,6 +685,11 @@
      "number": "2"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a14"
   },
   {
@@ -644,6 +714,11 @@
      "number": "2"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a15"
   },
   {
@@ -658,6 +733,11 @@
      "text": "Con miras a lograr las condiciones de vida indispensables para un pleno desarrollo de la familia, célula fundamental de la sociedad, las Partes Contratantes se comprometen a fomentar la protección económica, jurídica y social de la familia, especialmente mediante prestaciones sociales y familiares, disposiciones fiscales, apoyo a la construcción de viviendas adaptadas a las necesidades de las familias, ayuda a los recién casados o por medio de cualesquiera otras medidas adecuadas."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a16"
   },
   {
@@ -672,6 +752,11 @@
      "text": "Para garantizar el ejercicio efectivo del derecho de las madres y los niños a una protección social y económica, las Partes Contratantes adoptarán cuantas medidas fueren necesarias y adecuadas a ese fin, incluyendo la creación o mantenimiento de instituciones o servicios apropiados."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a17"
   },
   {
@@ -710,6 +795,11 @@
      "number": "4"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a18"
   },
   {
@@ -786,6 +876,11 @@
      "number": "10"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a19"
   },
   {
@@ -840,6 +935,11 @@
      "number": "5"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a20"
   },
   {
@@ -861,6 +961,11 @@
      "text": "Las Partes Contratantes remitirán al Secretario general del Consejo de Europa, en forma que habrá de determinar el Comité de Ministros, un informe bienal sobre la aplicación de las disposiciones de la Parte II de la Carta que aquéllas hubieren aceptado."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a21"
   },
   {
@@ -875,6 +980,11 @@
      "text": "Las Partes Contratantes remitirán al Secretario general del Consejo de Europa, a intervalos apropiados y a petición del Comité de Ministros, informes sobre las disposiciones de la Parte II de la Carta que aquéllas no hubieren aceptado en el momento de su ratificación o aprobación, o en una notificación posterior. El Comité de Ministros determinará periódicamente sobre qué disposiciones se pedirán dichos informes y cuál será su forma."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a22"
   },
   {
@@ -895,6 +1005,11 @@
      "number": "2"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a23"
   },
   {
@@ -909,6 +1024,11 @@
      "text": "Los informes presentados al Secretario general en aplicación de los artículos 21 y 22 serán examinados por un Comité de Expertos, que conocerá igualmente todas las observaciones remitidas al Secretario general conforme a lo dispuesto en el párrafo 2 del artículo 23."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a24"
   },
   {
@@ -939,6 +1059,11 @@
      "number": "4"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a25"
   },
   {
@@ -953,6 +1078,11 @@
      "text": "Se invitará a la Organización Internacional del Trabaje a que designe un representante para que participe a título consultivo en las deliberaciones del Comité de Expertos."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a26"
   },
   {
@@ -978,6 +1108,11 @@
      "number": "3"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a27"
   },
   {
@@ -992,6 +1127,11 @@
      "text": "El Secretario general del Consejo de Europa remitirá a la Asamblea Consultiva las conclusiones del Comité de Expertos. La Asamblea Consultiva comunicará al Comité de Ministros su opinión sobre dichas conclusiones."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a28"
   },
   {
@@ -1006,6 +1146,11 @@
      "text": "Por una mayoría de dos tercios de los miembros que tengan derecho a participar en sus reuniones, el Comité de Ministros, sobre la base del informe del Subcomité y previa consulta a la Asamblea Consultiva, podrá formular las recomendaciones que estime pertinentes a cada una de las Partes Contratantes."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a29"
   },
   {
@@ -1038,6 +1183,11 @@
      "number": "3"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a30"
   },
   {
@@ -1058,6 +1208,11 @@
      "number": "2"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a31"
   },
   {
@@ -1072,6 +1227,11 @@
      "text": "Las disposiciones de la presente Carta no afectarán a las disposiciones de Derecho interno ni a las de los Tratados, Convenios o Acuerdos bilaterales o multilaterales que estén vigentes o puedan entrar en vigor y conforme a los cuales se concediere un trato más favorable a las personas protegidas."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a32"
   },
   {
@@ -1092,6 +1252,11 @@
      "number": "2"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a33"
   },
   {
@@ -1127,6 +1292,11 @@
      "number": "5"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a34"
   },
   {
@@ -1157,6 +1327,11 @@
      "number": "4"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a35"
   },
   {
@@ -1171,6 +1346,11 @@
      "text": "Todo miembro del Consejo de Europa podrá proponer enmiendas a la presente Carta mediante comunicación dirigida al Secretario general del Consejo de Europa. El Secretario general transmitirá a los demás miembros del Consejo de Europa las enmiendas que se propongan, las cuales serán examinadas por el Comité de Ministros y sometidas a la Asamblea Consultiva para que emita su dictamen. Toda enmienda aprobada por el Comité de Ministros entrará en vigor treinta días después de que todas las Partes Contratantes hayan comunicado al Secretario general su aceptación. El Secretario general notificará a todos los miembros del Consejo de Europa y al Director general de la Oficina Internacional del Trabajo la entrada en vigor de tales enmiendas."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a36"
   },
   {
@@ -1196,6 +1376,11 @@
      "number": "3"
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a37"
   },
   {
@@ -1210,6 +1395,11 @@
      "text": "El anejo a la presente Carta forma parte integrante de la misma."
     }
    ],
+   "version": {
+    "norm": "BOE-A-1980-13567",
+    "published": "1980-06-26",
+    "in_force": "1980-06-05"
+   },
    "block": "a38"
   }
  ],
@@ -1236,7 +1426,6 @@
  ],
  "publication_notes": [
   "Incluye la corrección de errores publicada en BOE núm. 192, de 11 de agosto de 1980. Ref. BOE-A-1980-17130.",
-  "Se denuncia por España el apartado 4.b) por notificación de 6 de mayo de 1991. Ref. BOE-A-1991-11143.",
   "Redactado conforme a la corrección de errores publicada en BOE núm. 192, de 11 de agosto de 1980. Ref. BOE-A-1980-17130.",
   "Información relacionada",
   "Véase el Protocolo Adicional a la Carta Social Europea, hecho en Estrasburgo el 5 de mayo de 1988. Ref. BOE-A-2000-7640",
@@ -1320,17 +1509,26 @@
     "detail": null
    },
    {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
     "check": "codificacion",
     "ok": true,
     "detail": null
    }
   ],
   "complete": true
- },
- "pending_review": {
-  "since": "2026-11-09",
-  "articles": [
-   "art-8"
-  ]
  }
 }

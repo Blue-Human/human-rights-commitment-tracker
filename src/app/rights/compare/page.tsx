@@ -34,9 +34,9 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
       <Container maxWidth="lg" sx={{ pb: 3 }}>
         <Box component="form" method="get" action="/rights/compare" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
           {slots.map((value, i) => (
-            <Box key={i} component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary" }}>
+            <Box key={i} component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary", width: { xs: "100%", sm: "auto" } }}>
               Estado {i + 1}
-              <Box component="select" name="c" defaultValue={value} sx={{ minWidth: 200, maxWidth: "100%", p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink }}>
+              <Box component="select" name="c" defaultValue={value} sx={{ minWidth: { sm: 200 }, width: { xs: "100%", sm: "auto" }, maxWidth: "100%", p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink }}>
                 <option value="">—</option>
                 {sorted.map((x) => <option key={x.iso3} value={x.iso3}>{x.name_es || x.name_en}</option>)}
               </Box>

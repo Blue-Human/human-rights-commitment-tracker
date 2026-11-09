@@ -628,7 +628,7 @@
     },
     {
      "id": "art-22-p4",
-     "text": "feedblock /center group /rightcol /maincontent footer © Copyright OEA <li><a href=\"http://www.oas.org/es/socios.asp\">Socios</a></li> Empleos y Pasantías Becas Avisos de Adquisición Protocolo Términos y Condiciones Contáctenos Acceso a la Información Directorio <li><a href=\"http://www.oas.org/americas/\">Revista Américas</a></li> <li class=\"rss\"><a href=\"http://www.oas.org/es/rss.asp\" title=\"RSS\">RSS</a></li><li class=\"addthis\"><a href=\"http://www.addthis.com/bookmark.php?v=250&pub=oasweb\" class=\"addthis_button\" title=\"Compartir\">Compartir</a><script type=\"text/javascript\">var addthis_config = {ui_language: \"es\"}</script><script type=\"text/javascript\" src=\"http://s7.addthis.com/js/250/addthis_widget.js?pub=oasweb\"></script></li> socialicons <ul class=\"socialicons\"> <li class=\"flickr\"><a href=\"http://flickr.com/photos/oasoea\" title=\"Flickr\"></a>Flickr</li> <li class=\"twitter\"><a href=\"http://twitter.com/oea_oficial\" title=\"Twitter\"></a>Twitter</li> <li class=\"facebook\"><a href=\"http://www.facebook.com/oeaoficial\" title=\"Facebook\"></a>Facebook</li> <li class=\"youtube\"><a href=\"http://www.youtube.com/oasvideos\" title=\"YouTube\"></a>YouTube</li> <li class=\"rss\"><a href=\"http://www.oas.org/es/rss.asp\" title=\"RSS\"></a>RSS</li> </ul> /socialicons href=\"http://www.oas.org/OASpage/bid/default_spa.asp\" /footer /page Google tag (gtag.js)"
+     "text": "feedblock /center group /rightcol /maincontent footer © Copyright OEA <li><a href=\"http://www.oas.org/es/socios.asp\">Socios</a></li> Empleos y Pasantías Becas Avisos de Adquisición Protocolo Términos y Condiciones Contáctenos Acceso a la Información Directorio /footer /page Google tag (gtag.js)"
     }
    ]
   }
@@ -695,11 +695,5 @@
    }
   ],
   "complete": true
- },
- "pending_review": {
-  "since": "2026-11-09",
-  "articles": [
-   "art-22"
-  ]
  }
 }

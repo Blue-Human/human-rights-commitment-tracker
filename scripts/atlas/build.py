@@ -6,7 +6,9 @@
 The run is idempotent: an unchanged source leaves the files untouched. A source that cannot be
 reached keeps the data of the last successful run (with its date) and is listed in report.json.
 A change in the text of a provision is not published silently: it is written to
-pending-changes.json and the previous text stays until the change is reviewed (see review.py).
+pending-changes.json and the previous text stays until the change is reviewed (docs/atlas/README.md).
+Only a change of the official document (a different SHA-256) is held back; a new reading of the same
+document by the structurer is a code change, reviewed in the git history of data/atlas.
 """
 from __future__ import annotations
 
@@ -156,25 +158,32 @@ def tb_step(resolve: Resolver):
 
 # ---------------------------------------------------------------- texts
 
+PREVIOUS_PENDING: list = []
+
+
 def text_file(instrument_id: str, lang: str, result: dict, previous: dict | None, pending: list) -> dict:
     """Keep the published text when a provision changed, until the change is reviewed."""
-    if previous and previous.get("quality", {}).get("complete") and result["quality"]["complete"]:
+    same_document = previous and previous.get("source", {}).get("sha256") == result["source"].get("sha256")
+    if previous and not same_document and previous.get("quality", {}).get("complete") and result["quality"]["complete"]:
         old = {n["id"]: [p.get("text") for p in n.get("paragraphs", [])] for n in previous["nodes"] if n["kind"] == "article"}
         new = {n["id"]: [p.get("text") for p in n.get("paragraphs", [])] for n in result["nodes"] if n["kind"] == "article"}
         changed = sorted(k for k in set(old) | set(new) if old.get(k) != new.get(k))
-        if changed:
-            pending.append({"instrument": instrument_id, "lang": lang, "articles": changed, "detected": TODAY,
+        accepted = any(p.get("accepted") for p in PREVIOUS_PENDING if p.get("instrument") == instrument_id and p.get("lang") == lang)
+        if changed and not accepted:
+            since = next((p["detected"] for p in PREVIOUS_PENDING if p.get("instrument") == instrument_id and p.get("lang") == lang), TODAY)
+            pending.append({"instrument": instrument_id, "lang": lang, "articles": changed, "detected": since,
                             "source": result["source"], "reason": "El texto de estas disposiciones ha cambiado en la fuente."})
             kept = dict(previous)
-            kept["pending_review"] = {"since": TODAY, "articles": changed}
+            kept["pending_review"] = {"since": since, "articles": changed}
             return kept
     return result
 
 
 @step("Textos (BOE, Naciones Unidas, OEA, Unión Africana)")
 def texts_step(oas_found: dict | None, au_found: dict | None):
-    previous_pending = read_json(DATA / "pending-changes.json", [])
-    pending: list = [p for p in previous_pending if not p.get("resolved")]
+    # Rebuilt on every run: a text still held back is reported again, with the date it was first detected.
+    PREVIOUS_PENDING[:] = read_json(DATA / "pending-changes.json", [])
+    pending: list = []
     results = {}
 
     def keep(instrument_id: str, lang: str, build, authority: str):

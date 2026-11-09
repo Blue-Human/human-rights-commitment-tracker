@@ -8,6 +8,7 @@
     "derecho a la vida",
     "right to life"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -91,6 +92,7 @@
     "tortura",
     "torture"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -168,6 +170,7 @@
     "libertad personal",
     "liberty and security"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -230,6 +233,7 @@
     "no hay pena sin ley",
     "legalidad y de retroactividad"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -296,6 +300,7 @@
     "access to justice",
     "effective remedy"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -342,6 +347,7 @@
     "privacy",
     "protección de la honra"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -399,6 +405,7 @@
     "libertad religiosa",
     "freedom of thought, conscience"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -448,6 +455,7 @@
     "freedom of expression",
     "libertad de opinión"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -507,6 +515,7 @@
     "reunión pacífica",
     "peaceful assembly"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -564,6 +573,7 @@
     "derecho de asociación",
     "freedom of association"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -621,6 +631,7 @@
     "non-discrimination",
     "equality before the law"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -728,6 +739,10 @@
     "right to education",
     "inclusive education"
    ],
+   "exact": [
+    "educación",
+    "education"
+   ],
    "articles": [
     {
      "instrument": "oas-san-salvador",
@@ -814,6 +829,10 @@
     "nivel posible de salud",
     "right to health"
    ],
+   "exact": [
+    "salud",
+    "health"
+   ],
    "articles": [
     {
      "instrument": "oas-san-salvador",
@@ -881,6 +900,7 @@
     "right to work",
     "condiciones equitativas"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "oas-san-salvador",
@@ -969,6 +989,7 @@
     "protección social",
     "social security"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "oas-san-salvador",
@@ -1088,6 +1109,7 @@
     "vivienda",
     "housing"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-esc-revised",
@@ -1149,6 +1171,7 @@
     "protección de la infancia",
     "rights and welfare of the child"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-lanzarote",
@@ -1172,6 +1195,14 @@
      "anchor": "art-19",
      "basis": "article_heading",
      "evidence": "Derechos del Niño",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crc-opic",
+     "article": "1",
+     "anchor": "art-1",
+     "basis": "article_heading",
+     "evidence": "Competencia del comité de los derechos del niño",
      "lang": "es"
     },
     {
@@ -1314,6 +1345,7 @@
     "persons with disabilities",
     "minusválid"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "oas-san-salvador",
@@ -1395,6 +1427,7 @@
     "rights of women",
     "igualdad de derechos del hombre y la mujer"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "un-crpd",
@@ -1524,6 +1557,7 @@
     "desapariciones forzadas",
     "enforced disappearance"
    ],
+   "exact": [],
    "articles": [],
    "instruments": [
     {
@@ -1551,6 +1585,7 @@
     "trabajo forzado",
     "slavery"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "coe-echr",
@@ -1583,6 +1618,7 @@
     "refugee",
     "asylum"
    ],
+   "exact": [],
    "articles": [
     {
      "instrument": "oas-american-declaration",

@@ -161,7 +161,7 @@ def write_extra(*, general_comments: list | None, tb_decisions: list | None, hud
             if record.get("category") != "procedural" and title and any(p in fold(title) for p in phrases):
                 whole.append({"instrument": instrument_id, "basis": "instrument_title", "evidence": record.get("title_es") or record.get("title_en")})
         comments = [g["id"] for g in interpretations if any(p in fold(g["title"]) for p in phrases)]
-        rights.append({"id": right["id"], "name": right["name"], "phrases": right["phrases"], "articles": links, "instruments": whole,
+        rights.append({"id": right["id"], "name": right["name"], "phrases": right["phrases"], "exact": right.get("exact", []), "articles": links, "instruments": whole,
                        "interpretations": comments})
     write_json(DATA / "rights.json", {"generated": TODAY, "rights": rights})
 

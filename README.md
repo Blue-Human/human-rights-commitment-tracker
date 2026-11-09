@@ -47,6 +47,10 @@ Environment (see `.env.example`): `ADMIN_USER`, `ADMIN_PASSWORD`, `ADMIN_SESSION
 
 `/partners` ofrece acceso por invitación, proyectos asignados y envío de evidencias para revisión. Desde la ficha administrativa de cada partner se generan invitaciones y se activa o desactiva cada cuenta. El acceso a proyectos y el contenido compartido se seleccionan expresamente; presupuestos, contactos y notas internas siguen privados. [Guía de uso y permisos](docs/partners.md).
 
+## Human Rights Atlas
+
+`/rights` is a library, legal atlas and guide to international protection mechanisms: instruments read article by article, States' ratifications, reservations and accepted procedures, bodies, procedures with their requirements quoted from the official texts, general comments and decisions. All data come from official sources through `scripts/atlas` and are versioned in `data/atlas`; Blue Human annotations are managed in `/admin/atlas`. See [docs/atlas](docs/atlas/README.md).
+
 ## Site search
 
 The magnifying glass in the header opens a search over the whole site: the pages and the sections of the methodology, the recommendations, the goals and targets of the 2030 Agenda, the human-security dimensions, the indicators and the monitoring items. The pages are listed in `src/lib/search.ts`, which also holds the matching (accent-insensitive, every word must be found); the rest of the index is served by `/api/search`, cached like the public pages, and loaded the first time the search is opened. A new public page should be added to `sitePages`.

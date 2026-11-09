@@ -32,9 +32,9 @@ export default async function RatificationsPage({ searchParams }: { searchParams
       </PageHead>
       <Container maxWidth="lg" sx={{ pb: 3 }}>
         <Box component="form" method="get" action="/rights/ratifications" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
-          <Box component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary", flex: "1 1 320px", maxWidth: 640 }}>
+          <Box component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary", flex: "1 1 260px", minWidth: 0, maxWidth: 640 }}>
             Instrumento
-            <Box component="select" name="i" defaultValue={instrument.id} sx={{ p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink, maxWidth: "100%" }}>
+            <Box component="select" name="i" defaultValue={instrument.id} sx={{ p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink, width: "100%", minWidth: 0 }}>
               {(["un", "oas", "au"] as const).map((system) => (
                 <optgroup key={system} label={systemNames[system]}>
                   {options.filter((x) => x.system === system).map((x) => <option key={x.id} value={x.id}>{instrumentTitle(x)}</option>)}

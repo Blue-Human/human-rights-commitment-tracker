@@ -9,7 +9,7 @@
   "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
   "retrieved": "2026-11-09",
   "sha256": "e2c29c0a9bbb906e7b1a9928fab8731b533d3b91a278e7d0ef4b96f71baad01c",
-  "method": "html"
+  "method": "html:container"
  },
  "versions": [],
  "preamble": [
@@ -123,10 +123,6 @@
     {
      "id": "art-4-p1",
      "text": "El presente Protocolo entrará en vigencia, para los Estados que lo ratifiquen o se adhieran a él, a partir del depósito del correspondiente instrumento de ratificación o adhesión en la Secretaría General de la Organización de los Estados Americanos (OEA)."
-    },
-    {
-     "id": "art-4-p2",
-     "text": "[ Estado de Firmas y Ratificaciones ]"
     }
    ]
   }
@@ -168,17 +164,26 @@
     "detail": null
    },
    {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
     "check": "codificacion",
     "ok": true,
     "detail": null
    }
   ],
   "complete": true
- },
- "pending_review": {
-  "since": "2026-11-09",
-  "articles": [
-   "art-4"
-  ]
  }
 }

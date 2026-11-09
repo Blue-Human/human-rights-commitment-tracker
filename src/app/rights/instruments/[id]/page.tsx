@@ -66,7 +66,8 @@ export default async function InstrumentPage({ params }: { params: Promise<{ id:
   ]);
   const own = interpretations.filter((g) => g.instrument === id);
   const parent = instrument.parent ? byId.get(instrument.parent) : null;
-  const children = instrument.children.map((c) => byId.get(c)).filter(Boolean) as Instrument[];
+  const children = (instrument.children.map((c) => byId.get(c)).filter(Boolean) as Instrument[])
+    .sort((a, b) => a.id.localeCompare(b.id, "es", { numeric: true }));
   const otherLangs = instrument.texts.filter((t) => t.complete && t !== readable);
   const failing = instrument.texts.filter((t) => !t.complete);
 

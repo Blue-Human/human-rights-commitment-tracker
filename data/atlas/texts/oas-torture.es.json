@@ -9,7 +9,7 @@
   "url": "http://www.oas.org/juridico/spanish/tratados/a-51.html",
   "retrieved": "2026-11-09",
   "sha256": "5ddc34323d964bd9c0995026dd7f3a9f35277da0ac1d9f647f2f9109a1070b6f",
-  "method": "html"
+  "method": "html:container"
  },
  "versions": [],
  "preamble": [
@@ -436,10 +436,6 @@
     {
      "id": "art-24-p1",
      "text": "El instrumento original de la presente Convención, cuyos textos en español, francés, inglés y portugués son igualmente auténticos, será depositado en la Secretaría General de la Organización de los Estados Americanos, la que enviará copia certificada de su texto para su registro y publicación a la Secretaría de las Naciones Unidas, de conformidad con el artículo 102 de la Carta de las Naciones Unidas. La Secretaría General de la Organización de los Estados Americanos notificará a los Estados miembros de dicha Organización y a los Estados que se hayan adherido a la Convención, las firmas, los depósitos de instrumentos de ratificación, adhesión y denuncia, así como las reservas que hubiere."
-    },
-    {
-     "id": "art-24-p2",
-     "text": "[ Estado de Firmas y Ratificaciones ]"
     }
    ]
   }
@@ -485,17 +481,26 @@
     "detail": null
    },
    {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
     "check": "codificacion",
     "ok": true,
     "detail": null
    }
   ],
   "complete": true
- },
- "pending_review": {
-  "since": "2026-11-09",
-  "articles": [
-   "art-24"
-  ]
  }
 }

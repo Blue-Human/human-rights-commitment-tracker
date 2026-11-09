@@ -9,7 +9,7 @@
   "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
   "retrieved": "2026-11-09",
   "sha256": "2bc7dd3e0769d468b4e5d5eb9259019cd20fce3c540d1b74b4898d8c8496215a",
-  "method": "html"
+  "method": "html:newline"
  },
  "versions": [],
  "preamble": [
@@ -923,12 +923,15 @@
     {
      "id": "art-46-p1",
      "text": "The Commission may resort to any appropriate method of investigation; it may hear from the Secretary General of the Organisation of African Unity or any other person capable of enlightening it."
-    },
-    {
-     "id": "art-46-p2",
-     "text": "COMMUNICATION FROM STATES"
     }
    ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion",
+   "level": 3,
+   "label": "COMMUNICATION FROM STATES",
+   "title": null
   },
   {
    "kind": "article",
@@ -1339,17 +1342,32 @@
     "detail": null
    },
    {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null,
+    "exceptions": [
+     {
+      "article": "3",
+      "reason": "La Comisión Africana publica los dos apartados de este artículo sin punto final."
+     }
+    ]
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
     "check": "codificacion",
     "ok": true,
     "detail": null
    }
   ],
   "complete": true
- },
- "pending_review": {
-  "since": "2026-11-09",
-  "articles": [
-   "art-46"
-  ]
  }
 }

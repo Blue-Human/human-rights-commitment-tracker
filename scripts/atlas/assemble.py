@@ -35,7 +35,7 @@ def boe_title(title: str | None) -> str | None:
 
 def boe_done(title: str | None) -> str | None:
     """'hecho en Nueva York el 19 de diciembre de 1966' as printed in the BOE title."""
-    match = re.search(r"(hech[oa]|adoptad[oa]|aprobad[oa])\s+(en|por)\s+(.+?)(?:\.\s*$|$)", one_line(title or ""))
+    match = re.search(r"(hech[oa]|adoptad[oa]|aprobad[oa])\s+(en|por)\s+(.+?)(?:,\s*y\s+enmendad[oa].*|\.\s*$|$)", one_line(title or ""))
     return f"{match.group(1)} {match.group(2)} {match.group(3)}".strip(" .") if match else None
 
 

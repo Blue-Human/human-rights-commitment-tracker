@@ -13,7 +13,7 @@ export function AtlasShell({ crumbs, children }: { crumbs?: Crumb[]; children: R
     <>
       <SiteHeader />
       <AtlasNav />
-      <Box component="main">
+      <Box component="main" sx={{ "& a:not([class*=Mui])": { color: "secondary.dark", textDecorationColor: "rgba(0,108,149,.35)", textUnderlineOffset: "3px" }, "& a:not([class*=Mui]):hover": { color: "primary.main" } }}>
         {crumbs && crumbs.length > 0 && (
           <Container maxWidth="lg" sx={{ pt: 2.5 }}>
             <Breadcrumbs aria-label="Ruta de la página" sx={{ "& a": { color: "text.secondary", textDecoration: "none", "&:hover": { color: "secondary.dark" } } }}>

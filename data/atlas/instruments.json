@@ -409,17 +409,26 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-41"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Pacto Internacional de Derechos Civiles y Políticos",
@@ -1696,40 +1705,26 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-1",
-       "art-10",
-       "art-11",
-       "art-12",
-       "art-13",
-       "art-14",
-       "art-15",
-       "art-16",
-       "art-17",
-       "art-18",
-       "art-19",
-       "art-2",
-       "art-20",
-       "art-21",
-       "art-22",
-       "art-23",
-       "art-24",
-       "art-3",
-       "art-4",
-       "art-5",
-       "art-6",
-       "art-7",
-       "art-8",
-       "art-9"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Protocolo facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones",
@@ -2649,18 +2644,26 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-11",
-       "art-6"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Convención sobre el Estatuto de los Refugiados",
@@ -3418,25 +3421,31 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-21",
-       "art-23",
-       "art-30",
-       "art-35"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales",
    "title_es_source": "BOE-A-1979-24010",
-   "done_es": "hecho en Roma el 4 de noviembre de 1950, y enmendado por los Protocolos adicionales números 3 y 5, de 6 de mayo de 1963 y 20 de enero de 1966, respectivamente",
+   "done_es": "hecho en Roma el 4 de noviembre de 1950",
    "council_number": null,
    "spain_boe": {
     "instrument_type": "ratification",
@@ -3516,17 +3525,26 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-8"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Carta Social Europea",
@@ -5442,13 +5460,7 @@
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-22"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Convención Interamericana contra toda Forma de Discriminación e Intolerancia",
@@ -5560,13 +5572,7 @@
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-41"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores",
@@ -5678,13 +5684,7 @@
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-22"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Convención Interamericana contra el Racismo, la Discriminación Racial y Formas Conexas de Intolerancia",
@@ -5746,7 +5746,7 @@
      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
      "url": "http://www.oas.org/juridico/spanish/tratados/a-51.html",
      "identifier": null,
-     "method": "html",
+     "method": "html:container",
      "articles": 24,
      "checks": [
       {
@@ -5780,17 +5780,26 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-24"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Convención Interamericana para Prevenir y Sancionar la Tortura",
@@ -5852,7 +5861,7 @@
      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
      "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
      "identifier": null,
-     "method": "html",
+     "method": "html:container",
      "articles": 4,
      "checks": [
       {
@@ -5886,17 +5895,26 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-4"
-      ]
-     }
+     ]
     }
    ],
    "title_es": "Protocolo a la Convención Americana sobre Derechos Humanos relativo a la Abolición de la Pena de Muerte",
@@ -6343,7 +6361,7 @@
      "publisher": "African Commission on Human and Peoples' Rights",
      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
      "identifier": null,
-     "method": "html",
+     "method": "html:newline",
      "articles": 68,
      "checks": [
       {
@@ -6377,17 +6395,32 @@
        "detail": null
       },
       {
+       "check": "termina_con_clausulas_finales",
+       "ok": true,
+       "detail": null
+      },
+      {
+       "check": "articulos_completos",
+       "ok": true,
+       "detail": null,
+       "exceptions": [
+        {
+         "article": "3",
+         "reason": "La Comisión Africana publica los dos apartados de este artículo sin punto final."
+        }
+       ]
+      },
+      {
+       "check": "articulos_bien_separados",
+       "ok": true,
+       "detail": null
+      },
+      {
        "check": "codificacion",
        "ok": true,
        "detail": null
       }
-     ],
-     "pending_review": {
-      "since": "2026-11-09",
-      "articles": [
-       "art-46"
-      ]
-     }
+     ]
     }
    ],
    "title_es": null,

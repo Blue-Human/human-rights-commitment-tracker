@@ -1,0 +1,39 @@
+name: Human Rights Atlas update
+
+# Weekly re-read of the official sources. Register data (ratifications, declarations, compositions)
+# is published when it changes; a change in the text of a provision is not: it is listed in
+# data/atlas/pending-changes.json and the previous text stays until someone reviews it.
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pip install -r scripts/atlas/requirements.txt
+      - run: npm ci
+      - name: Read the sources again
+        run: python3 scripts/atlas/build.py --refresh
+      - name: Integrity checks
+        run: node --test tests/atlas.test.mjs
+      - name: Publish changed data
+        run: |
+          if git diff --quiet -- data/atlas; then echo "Sin cambios"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/atlas
+          git commit -m "Update Human Rights Atlas data from official sources"
+          git push
