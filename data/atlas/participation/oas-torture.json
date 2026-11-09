@@ -1,0 +1,387 @@
+{
+ "instrument": "oas-torture",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-51.html",
+  "retrieved": "2026-11-09",
+  "sha256": "8e6da4580c289a490dc951a67422773c404bff61e79815ce8f81452b36a14821"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": "*\nDECLARACIONES/RESERVAS/DENUNCIAS/RETIROS\nGuatemala\n:\n(Reserva hecha al firmar la Convenci�n)\n\"La Rep�blica de Guatemala no acepta la aplicaci�n ni aplicar� el tercer (3er.) p�rrafo del Articulo Ocho (8) de la Convenci�n Interamericana para Prevenir y Sancionar la Tortura, ya que de conformidad con su ordenamiento jur�dico interno, agotados los recursos, la resoluci�n que determine la absoluci�n para un presunto delincuente del delito de tortura, quedar� firme y no podr� ser sometido a ninguna instancia\ninternacional\".\n(Reserva hecha al ratificar la Convenci�n)\nCon la reserva formulada al firmarla.\nRetiro de reserva:\nEl 1 de octubre de 1990, deposit� en la Secretar�a General, un instrumento de fechado el 6 de agosto de 1990, mediante el cual retira las reservas hecha por el Gobierno de Guatemala al firmar la Convenci�n y reiterada al ratificarla el 10 de diciembre de 1986.\nChile\n:\n(Reservas hecha al ratificar la Convenci�n)\na. Al art�culo 4, en cuanto modifica el principio de la \"obediencia reflexiva\" consagrado en la legislaci�n interna\nchilena, en el sentido de que el Gobierno de Chile aplicar� lo dispuesto en dicha norma internacional al personal sujeto al C�digo de Justicia Militar, respecto a los subalternos, siempre que la orden, notoriamente tendiente a la perpetraci�n de los actos indicados en el art�culo 2, no sea insistida por el superior ante la representaci�n del subalterno.\nb. Al inciso final del art�culo 13,\nen raz�n del car�cter discrecional y subjetivo en que est� redactada la norma.\nc. El Gobierno de Chile declara que en sus relaciones con los Pa�ses Americanos que sean Partes en la presente Convenci�n, aplicar� esta Convenci�n en los casos en que existan imcompatibilidades entre sus disposiciones y las de la Convenci�n contra la Tortura y otros Tratos o Penas Crueles, Inhumanos o Degradantes, adoptada por las Naciones Unidas en 1984.\nd. Al inciso tercero del art�culo 8, en cuanto un caso s�lo podr� ser sometido a instancias internacionales cuya competencia haya sido aceptada expresamente por el Estado de Chile.\nRetiro de reservas:\nEl 21 de agosto de 1990, deposit� en la Secretaria General un instrumento fechado 18 de mayo de 1990, mediante el cual retira las reservas formuladas por el Gobierno de Chile al Art�culo 4 y al inciso final del Articulo 13 de la Convenc��n.\n[\nTexto\ndel Tratado\n]",
+ "participants": [
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "1986-02-10",
+   "consent": {
+    "date": "1988-11-18",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1989-03-31",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1988-11-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "signature": "1985-12-09",
+   "consent": {
+    "date": "2006-08-26",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2006-11-21",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-08-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": "1986-01-24",
+   "consent": {
+    "date": "1989-06-09",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1989-07-20",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1989-06-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "1987-09-24",
+   "consent": {
+    "date": "1988-09-15",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1988-09-30",
+   "date_reading": null,
+   "statements": [
+    {
+     "section": "oas",
+     "section_title": "Declaraciones, reservas, denuncias y retiros",
+     "label": null,
+     "kind": "other",
+     "text": "Chile\n:\n(Reservas hecha al ratificar la Convenci�n)\na. Al art�culo 4, en cuanto modifica el principio de la \"obediencia reflexiva\" consagrado en la legislaci�n interna\nchilena, en el sentido de que el Gobierno de Chile aplicar� lo dispuesto en dicha norma internacional al personal sujeto al C�digo de Justicia Militar, respecto a los subalternos, siempre que la orden, notoriamente tendiente a la perpetraci�n de los actos indicados en el art�culo 2, no sea insistida por el superior ante la representaci�n del subalterno.\nb. Al inciso final del art�culo 13,\nen raz�n del car�cter discrecional y subjetivo en que est� redactada la norma.\nc. El Gobierno de Chile declara que en sus relaciones con los Pa�ses Americanos que sean Partes en la presente Convenci�n, aplicar� esta Convenci�n en los casos en que existan imcompatibilidades entre sus disposiciones y las de la Convenci�n contra la Tortura y otros Tratos o Penas Crueles, Inhumanos o Degradantes, adoptada por las Naciones Unidas en 1984.\nd. Al inciso tercero del art�culo 8, en cuanto un caso s�lo podr� ser sometido a instancias internacionales cuya competencia haya sido aceptada expresamente por el Estado de Chile.\nRetiro de reservas:\nEl 21 de agosto de 1990, deposit� en la Secretaria General un instrumento fechado 18 de mayo de 1990, mediante el cual retira las reservas formuladas por el Gobierno de Chile al Art�culo 4 y al inciso final del Articulo 13 de la Convenc��n.\n[\nTexto\ndel Tratado\n]"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1988-09-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "1985-12-09",
+   "consent": {
+    "date": "1998-12-02",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1999-01-19",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-12-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1986-07-31",
+   "consent": {
+    "date": "1999-11-25",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2000-02-08",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-11-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1986-05-30",
+   "consent": {
+    "date": "1999-09-30",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1999-11-09",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-09-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "1987-10-16",
+   "consent": {
+    "date": "1994-10-17",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1994-12-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-10-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "1986-10-27",
+   "consent": {
+    "date": "1986-12-10",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1987-01-29",
+   "date_reading": null,
+   "statements": [
+    {
+     "section": "oas",
+     "section_title": "Declaraciones, reservas, denuncias y retiros",
+     "label": null,
+     "kind": "other",
+     "text": "Guatemala\n:\n(Reserva hecha al firmar la Convenci�n)\n\"La Rep�blica de Guatemala no acepta la aplicaci�n ni aplicar� el tercer (3er.) p�rrafo del Articulo Ocho (8) de la Convenci�n Interamericana para Prevenir y Sancionar la Tortura, ya que de conformidad con su ordenamiento jur�dico interno, agotados los recursos, la resoluci�n que determine la absoluci�n para un presunto delincuente del delito de tortura, quedar� firme y no podr� ser sometido a ninguna instancia\ninternacional\".\n(Reserva hecha al ratificar la Convenci�n)\nCon la reserva formulada al firmarla.\nRetiro de reserva:\nEl 1 de octubre de 1990, deposit� en la Secretar�a General, un instrumento de fechado el 6 de agosto de 1990, mediante el cual retira las reservas hecha por el Gobierno de Guatemala al firmar la Convenci�n y reiterada al ratificarla el 10 de diciembre de 1986."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1986-12-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Hait�",
+   "signature": "1986-06-13",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1986-06-13",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "1986-03-11",
+   "consent": {
+    "date": "2024-04-15",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2024-07-23",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2024-04-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "M�xico",
+   "signature": "1986-02-10",
+   "consent": {
+    "date": "1987-02-11",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1987-06-22",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1987-02-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1987-09-29",
+   "consent": {
+    "date": "2009-09-23",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "2009-11-23",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-09-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panam�",
+   "signature": "1986-02-10",
+   "consent": {
+    "date": "1991-06-27",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1991-08-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1991-06-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1989-10-25",
+   "consent": {
+    "date": "1990-02-12",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1990-03-09",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1990-02-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Per�",
+   "signature": "1986-01-10",
+   "consent": {
+    "date": "1990-02-27",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1991-03-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1990-02-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Rep�blica Dominicana",
+   "signature": "1986-03-31",
+   "consent": {
+    "date": "1986-12-12",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1987-01-29",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1986-12-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SUR",
+   "name": "Suriname",
+   "signature": "1987-11-12",
+   "consent": {
+    "date": "1987-11-12",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1987-11-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1987-11-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1985-12-09",
+   "consent": {
+    "date": "1992-09-23",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1992-11-10",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "signature": "1985-12-09",
+   "consent": {
+    "date": "1991-06-25",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1991-08-26",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1991-06-25",
+    "type": "ratification"
+   }
+  }
+ ]
+}

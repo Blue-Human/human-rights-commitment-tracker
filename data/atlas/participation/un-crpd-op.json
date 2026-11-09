@@ -1,0 +1,2505 @@
+{
+ "instrument": "un-crpd-op",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15-a&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "2d8192c0b824e6d70bb504cb5880e56ee9bfc7ef38897d6aa17414ed5ae3a707"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Formal confirmation(c), Accession(a), Ratification"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, acceptance, approval or accession.)",
+   "entries": 6
+  },
+  {
+   "key": "Obj",
+   "title": "Objections",
+   "intro": "(Unless otherwise indicated, the objections were made upon ratification, acceptance, approval or accession.)",
+   "entries": 3
+  }
+ ],
+ "notes": {
+  "1": "1See Note 1 under \"Bolivia (Plurinational State of)\" in the “Historical Information” section.",
+  "2": "2Upon its accession of the Optional Protocol the Government of Denmark notified the Secretary-General that the Optional Protocol shall not apply to Greenland.\nOn 11 March 2026, the Government of Denmark notified the Secretary-General of its withdrawal of the declaration relating to the territorial exclusion in respect of Greenland.\n(See C.N.109.2026.TREATIES-IV.15.a of 11 March 2026)",
+  "3": "3With a territorial exclusion. See C.N.721.2016.TREATIES-IV.15.a of 4 October 2016.",
+  "4": "4On 28 January 2010, the Secretary-General received from the Government of Germany the following communication relating to the declaration made by the Republic of El Salvador upon signature and confirmed upon ratification:\n“The Federal Republic of Germany has carefully examined the aforementioned reservation.\nThe Federal Republic of Germany is of the opinion that reservations which consist in a general reference to a system of norms (like the constitution or the legal order of the reserving State) without specifying the contents thereof leave it uncertain to which extent that State accepts to be bound by the obligations under the treaty. Moreover, those norms may be subject to changes.\nThe reservation made by the Republic of El Salvador is therefore not sufficiently precise to make it possible to determine the restrictions that are introduced into the agreement.\nThe Federal Republic of Germany is therefore of the opinion that the reservation is incompatible with object and purpose of the Convention and the Protocol and would like to recall that, according to Article 46, paragraph 1 of the Convention, and Article 14, paragraph 1 of the Protocol, a reservation incompatible with the object and purpose of the Convention shall not be permitted.\nThe Federal Republic of Germany therefore objects to the above-mentioned reservation. This objection shall not preclude the entry into force of the Convention and the Protocol between the Federal Republic of Germany and the Republic of El Salvador.”",
+  "5": "5 On 18 March 2015, the Government of El Salvador informed the Secretary-General that it had decided to withdraw the following Reservation made upon signature and confirmed upon ratification:\nThe Government of the Republic of El Salvador signs the present Convention on the Rights of Persons with Disabilities and the Optional Protocol thereto, adopted by the United Nations General Assembly on 13 December 2006, to the extent that its provisions do not prejudice or violate the provisions of any of the precepts, principles and norms enshrined in the Constitution of the Republic of El Salvador, particularly in its enumeration of principles.",
+  "6": "6On 6 December 2016, the Secretary-General received from the Government of Portugal the following communication relating to the declaration made by the Republic of Turkey upon ratification:\n“The Government of the Portuguese Republic has examined the declaration made by the Republic of Turkey upon ratification of the Optional Protocol to the Convention on the Rights of Persons with Disabilities adopted on 13 December 2006.\nIt welcomes the ratification of the Optional Protocol by the Republic of Turkey since this is a significant step for the promotion of human rights, particularly the rights of those persons with disabilities.\nNevertheless, the Portuguese Republic, as a European Union Member State, opposes the declaration made by the Republic of Turkey since it describes another Member State, the Republic of Cyprus, as a defunct entity.”"
+ },
+ "participants": [
+  {
+   "iso3": "AFG",
+   "name": "Afghanistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Sep 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-09-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DZA",
+   "name": "Algeria",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "AND",
+   "name": "Andorra",
+   "signature": "2007-04-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-03-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Mar 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-03-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-05-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 May 2014 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-05-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ATG",
+   "name": "Antigua and Barbuda",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Sep 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-12-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Dec 2022"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration made upon ratification",
+     "kind": "declaration",
+     "text": "“The Declaration of the Republic of Azerbaijan contains unsubstantiated and baseless allegations against the Republic of Armenia and distorts the essence of the Nagorno-Karabakh conflict which was triggered and sustained by the use of force by Azerbaijan against peaceful demands of the people of Nagorno-Karabakh for human rights and self-determination.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2022-12-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-08-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Aug 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-08-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Sep 2008"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "26 September 2008\nWith regard to the reservation made by El Salvador upon signature and confirmed upon ratification:\n“The Government of Austria has examined the reservation to the Convention on the Rights of Persons with Disabilities and Optional Protocol thereto made by the Government of El Salvador.\nAccording to its reservation, El Salvador envisages becoming Party to the Convention only to the extent that its provisions do not prejudice or violate the provisions of any of the precepts, principles and norms enshrined in the Constitution of the Republic of El Salvador, particularly in its enumeration of principles. In the absence of further clarification, this reservation does not clearly specify the extent of El Salvador’s derogation from the provisions of the Convention. This general and vague wording of the reservation raises doubts as to the degree of commitment assumed by El Salvador in becoming a party to the Convention and is therefore incompatible with international law.\nThe Government of Austria objects to the reservation made by the Government of the Republic of El Salvador to the Convention on the Rights of Persons with Disabilities and Optional Protocol thereto.\nThis objection, however, does not preclude the entry into force, in its entirety, of the Convention between Austria and El Salvador.”\n16 March 2016\nWith regard to the declaration made by Turkey upon ratification:\n“The Government of Austria has examined the declaration made by the Republic of Turkey upon ratification of the Optional Protocol to the Convention on the Rights of Persons with Disabilities adopted on 13 December 2006. It welcomes the ratification of the Optional Protocol by Turkey as a significant step for the promotion of the rights of persons with disabilities. However, as a member state of the European Union, Austria opposes the declaration made by the Republic of Turkey which describes another member state, the Republic of Cyprus, as a defunct entity.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": "2008-01-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-01-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Jan 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“The Republic of Azerbaijan declares that it is unable to guarantee the application of the provisions of the Protocol in the territories occupied by the Republic of Armenia until these territories are liberated from occupation.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2009-01-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-05-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 May 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-05-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Jul 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-07-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "2008-02-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-07-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Jul 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-07-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": "2007-08-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-11-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 Nov 2009"
+   },
+   "notes": [
+    "1"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-11-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2009-07-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-03-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Mar 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-03-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-08-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Aug 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-08-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": "2008-12-18",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-12-18",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "2007-05-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Jul 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-07-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "signature": "2007-04-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-05-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 May 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-05-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "signature": "2007-10-01",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-10-01",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CMR",
+   "name": "Cameroon",
+   "signature": "2008-10-01",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-10-01",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-12-03",
+    "type": "accession",
+    "code": "a",
+    "raw": "3 Dec 2018 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-12-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "signature": "2007-05-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-10-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Oct 2016"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-10-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TCD",
+   "name": "Chad",
+   "signature": "2012-09-26",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-09-26",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-07-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Jul 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-07-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COG",
+   "name": "Congo",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Sep 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-09-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COK",
+   "name": "Cook Islands",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-05-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 May 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-05-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-10-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Oct 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-10-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": "2007-06-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2026-06-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Jun 2026"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2026-06-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-08-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Aug 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-08-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-06-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Jun 2011"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "11 February 2016\nWith regard to the declaration made by Turkey upon ratification:\n“The Republic of Cyprus has examined the declaration deposited by the Republic of Turkey upon ratification of the Optional Protocol to the Convention on the Rights of Persons with Disabilities (New York, 13 December 2006) on 26 March 2015, limiting the implementation of the provisions of the Convention and the Protocol, by excluding the Republic of Cyprus from the application of the Protocol at reference by the Republic of Turkey. The content of the declaration makes it tantamount in its essence to a reservation. Such a reservation is contrary to the object and purpose of the Convention and its Protocol, as it prevents the realization of the cooperation between States Parties foreseen by the Convention and its Protocol. In addition, such a declaration / reservation also relies on the principle of reciprocity, which is incompatible with human rights’ obligations assumed through this Convention. The legal reasoning, cited above, renders Turkey’s declaration unacceptable, as the declaration under reference contravenes the letter and the spirit of the Convention and its Protocol. The Republic of Cyprus, therefore, objects to the aforesaid declaration made by the Republic of Turkey and considers the declaration null and void. This objection shall not preclude the entry into force of the Convention, in its entirety, between the Republic of Cyprus and the Republic of Turkey, without the Republic of Turkey benefiting from its declaration / reservation.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2011-06-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-08-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Aug 2021"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-08-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COD",
+   "name": "Democratic Republic of the Congo",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-09-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Sep 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-09-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Sep 2014 a"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-09-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-06-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Jun 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-06-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-10-01",
+    "type": "accession",
+    "code": "a",
+    "raw": "1 Oct 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-10-01",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-08-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Aug 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-08-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-04-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Apr 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-04-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-12-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Dec 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-12-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-05-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 May 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-05-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWZ",
+   "name": "Eswatini",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FJI",
+   "name": "Fiji",
+   "signature": "2010-06-02",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2010-06-02",
+    "type": null
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-05-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 May 2016"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-05-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "2008-09-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-02-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Feb 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-02-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-06-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Jun 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-06-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GMB",
+   "name": "Gambia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-07-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Jul 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-07-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": "2009-07-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-04-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Apr 2021"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-04-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-02-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Feb 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-02-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-07-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Jul 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-07-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GRC",
+   "name": "Greece",
+   "signature": "2010-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-05-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 May 2012"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "16 March 2016\nWith regard to the declaration made by Turkey upon ratification:\n“… The Government of the Hellenic Republic has examined the declaration made by the Republic of Turkey upon ratification, on 26 March 2015, of the Optional Protocol to the Convention on the Rights of Persons with Disabilities.\nThe Republic of Turkey declares that its ratification of the Optional Protocol to the Convention on the Rights of Persons with Disabilities should not imply any obligation on the part of Turkey to enter into any dealing with the Republic of Cyprus within the framework of the said Protocol.\nIn [the] view of the Government of the Hellenic Republic, the above declaration in fact amounts to a reservation, as it purports to exclude the application of the Protocol in Turkey's relations with the Republic of Cyprus. Such a reservation is incompatible with the principle that inter-State reciprocity has no place in the context of human rights treaties, which concern the endowment of individuals with rights. It is, therefore, contrary to the object and purpose of the Convention on the Rights of Persons with Disabilities and its Optional Protocol.\nThe Government of the Hellenic Republic recalls that, according to Article 14 paragraph 1 of the Optional Protocol to the Convention on the Rights of Persons with Disabilities, reservations incompatible with the object and purpose of this Protocol shall not be permitted.\nFor the above reasons, the Government of the Hellenic Republic objects to the declaration made by the Republic of Turkey upon ratification of the said Protocol.\nThis objection shall not preclude the entry into force of the Protocol between the Hellenic Republic and the Republic of Turkey…”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2012-05-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-04-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Apr 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-04-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GIN",
+   "name": "Guinea",
+   "signature": "2007-08-31",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-02-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Feb 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-02-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-10-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Oct 2018"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Republic of Guinea-Bissau does not recognize the competence of the Committee under articles 6 and 7 to conduct inquiries into serious and systematic violations of the Convention (Article 8)."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2018-10-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Jul 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-07-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "2007-08-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-08-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 Aug 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-08-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HUN",
+   "name": "Hungary",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-07-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Jul 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-07-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2026-05-21",
+    "type": "ratification",
+    "code": null,
+    "raw": "21 May 2026"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2026-05-21",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-10-31",
+    "type": "accession",
+    "code": "a",
+    "raw": "31 Oct 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2024-10-31",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-05-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 May 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-05-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "JOR",
+   "name": "Jordan",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": "2008-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-07-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Jul 2023"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2023-07-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LVA",
+   "name": "Latvia",
+   "signature": "2010-01-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-08-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Aug 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-08-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LBN",
+   "name": "Lebanon",
+   "signature": "2007-06-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2025-06-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Jun 2025"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2025-06-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-08-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Aug 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-08-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Sep 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-09-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": "2007-05-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-04-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Apr 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-04-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-10-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Oct 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-10-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MRT",
+   "name": "Mauritania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-04-03",
+    "type": "accession",
+    "code": "a",
+    "raw": "3 Apr 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-04-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-12-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Dec 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-12-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": "2019-06-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-06-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Jun 2019"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-06-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-05-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 May 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-05-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": "2007-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-11-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Nov 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-11-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-04-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 Apr 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-04-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-01-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Jan 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-01-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "signature": "2007-04-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-12-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Dec 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-12-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "signature": "2008-01-03",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-05-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 May 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-05-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": "2026-01-27",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2026-01-27",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-10-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Oct 2016 a"
+   },
+   "notes": [
+    "3"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-10-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "2008-10-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-02-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Feb 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-02-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NER",
+   "name": "Niger",
+   "signature": "2007-08-02",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-06-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jun 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-06-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": "2009-07-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-12-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Dec 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-12-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PLW",
+   "name": "Palau",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-06-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Jun 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-06-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-08-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Aug 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-08-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Sep 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-01-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Jan 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-01-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-09-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Sep 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "QAT",
+   "name": "Qatar",
+   "signature": "2007-07-09",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-07-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "KOR",
+   "name": "Republic of Korea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-12-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Dec 2022 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-12-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": "2018-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-11-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Nov 2022"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-11-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": "2008-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Dec 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-12-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-02-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Feb 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-02-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "STP",
+   "name": "Sao Tome and Principe",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-05-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 May 2021 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-05-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SAU",
+   "name": "Saudi Arabia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-06-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Jun 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-06-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "2007-04-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-04-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": "2007-12-17",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Jul 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-07-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-03-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "2007-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-05-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 May 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-05-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-04-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Apr 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-04-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLB",
+   "name": "Solomon Islands",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-11-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Nov 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-11-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SSD",
+   "name": "South Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-02-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Feb 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2024-02-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-12-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Dec 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-12-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LCA",
+   "name": "St. Lucia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2020-06-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Jun 2020 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2020-06-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VCT",
+   "name": "St. Vincent and the Grenadines",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-10-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Oct 2010 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-10-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-04-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Apr 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-04-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SDN",
+   "name": "Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-04-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Apr 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-04-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Dec 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-12-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SYR",
+   "name": "Syrian Arab Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Jul 2009 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Government of the Syrian Arab Republic declares that it does not recognize the competence of the Committee on the Rights of Persons with Disabilities (“the Committee”) provided for in articles 6 and 7 of the Optional Protocol, in accordance with Article 8 of that Protocol, which provides that each State Party may, at the time of signature or ratification of the present Protocol or accession thereto, declare that it does not recognize the competence of the Committee provided for in articles 6 and 7."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2009-07-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "THA",
+   "name": "Thailand",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-09-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Sep 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-09-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-02-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Feb 2023 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2023-02-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": "2008-09-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-03-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Mar 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-03-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-04-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Apr 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-04-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TUR",
+   "name": "Türkiye",
+   "signature": "2009-09-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-03-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Mar 2015"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "6"
+     ],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“Turkey declares that [its] ratification of the Optional Protocol to the Convention on the Rights of Persons with Disabilities neither amounts to any form of recognition of the Greek Cypriot Administration’s pretention to represent the defunct ‘Republic of Cyprus’ as party to that Protocol, nor should it imply any obligation on the part of Turkey to enter into any dealing with the so-called Republic of Cyprus within the framework of the said Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2015-03-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-11-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Nov 2010 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-11-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UGA",
+   "name": "Uganda",
+   "signature": "2007-03-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Sep 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": "2008-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-02-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Feb 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-02-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "signature": "2008-02-12",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-02-12",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GBR",
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "signature": "2009-02-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-08-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Aug 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-08-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TZA",
+   "name": "United Republic of Tanzania",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-11-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Nov 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-11-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-10-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Oct 2011 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-10-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Sep 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "YEM",
+   "name": "Yemen",
+   "signature": "2007-04-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-03-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Mar 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-03-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-09-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Sep 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-09-23",
+    "type": "accession"
+   }
+  }
+ ]
+}

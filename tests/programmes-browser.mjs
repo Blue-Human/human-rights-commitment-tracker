@@ -75,7 +75,7 @@ const api=createServer(async(req,res)=>{
 const project=resolve('.'),sandbox=await mkdtemp(join(tmpdir(),'hrct-programmes-browser-'));
 let next,browser,logs='';
 try {
-  await Promise.all(['src','public','package.json','tsconfig.json','next.config.ts','next-env.d.ts','eslint.config.mjs'].map(file=>cp(join(project,file),join(sandbox,file),{recursive:true})));
+  await Promise.all(['src','public','data/atlas','package.json','tsconfig.json','next.config.ts','next-env.d.ts','eslint.config.mjs'].map(file=>cp(join(project,file),join(sandbox,file),{recursive:true})));
   await symlink(join(project,'node_modules'),join(sandbox,'node_modules'),'dir');
   await new Promise(r=>api.listen(0,'127.0.0.1',r));
   const socket=createServer();await new Promise(r=>socket.listen(0,'127.0.0.1',r));const port=socket.address().port;await new Promise(r=>socket.close(r));

@@ -57,7 +57,7 @@ const api=createServer(async(req,res)=>{
   res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify(result));
 });
 try {
-  await Promise.all(['src','public','package.json','tsconfig.json','next.config.ts','next-env.d.ts'].map(file=>cp(join(project,file),join(sandbox,file),{recursive:true})));
+  await Promise.all(['src','public','data/atlas','package.json','tsconfig.json','next.config.ts','next-env.d.ts'].map(file=>cp(join(project,file),join(sandbox,file),{recursive:true})));
   await symlink(join(project,'node_modules'),join(sandbox,'node_modules'),'dir');
   await new Promise(r=>api.listen(0,'127.0.0.1',r));
   const apiPort=api.address().port;

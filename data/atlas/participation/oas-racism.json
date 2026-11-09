@@ -1,0 +1,529 @@
+{
+ "instrument": "oas-racism",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo_firmas.asp",
+  "retrieved": "2026-11-09",
+  "sha256": "d188f4d8c0334679fc1c7179f95733d14f3f3b3a7fbc90dda36c754bdbff380b"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": null,
+ "participants": [
+  {
+   "iso3": "ATG",
+   "name": "Antigua y Barbuda",
+   "signature": "2013-06-06",
+   "consent": {
+    "date": "2018-05-23",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2018-06-01",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-05-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2013-06-06",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-06-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BHS",
+   "name": "Bahamas (Commonwealth de las)",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "BRB",
+   "name": "Barbados",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "signature": "2015-03-10",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2015-03-10",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": "2013-06-06",
+   "consent": {
+    "date": "2021-05-12",
+    "type": "unknown",
+    "code": null
+   },
+   "deposit": "2021-05-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-05-12",
+    "type": "unknown"
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canadá",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2015-10-22",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2015-10-22",
+    "type": null
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "2014-09-08",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2014-09-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "2013-06-06",
+   "consent": {
+    "date": "2016-09-12",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2016-12-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-09-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CUB",
+   "name": "Cuba",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica (Commonwealth de)",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2013-06-06",
+   "consent": {
+    "date": "2019-12-18",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2020-01-14",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-12-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "USA",
+   "name": "Estados Unidos",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "GRD",
+   "name": "Grenada",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "GUY",
+   "name": "Guyana",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haití",
+   "signature": "2014-06-25",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2014-06-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "México",
+   "signature": null,
+   "consent": {
+    "date": "2019-11-19",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2020-01-21",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-11-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panamá",
+   "signature": "2014-06-05",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2014-06-05",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Perú",
+   "signature": "2016-10-25",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2016-10-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "República Dominicana",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "KNA",
+   "name": "San Kitts y Nevis",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "VCT",
+   "name": "San Vicente y las Granadinas",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "LCA",
+   "name": "Santa Lucía",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "SUR",
+   "name": "Suriname",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "TTO",
+   "name": "Trinidad y Tobago",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "2013-06-06",
+   "consent": {
+    "date": "2017-09-11",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2017-10-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-09-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (República Bolivariana de)",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  }
+ ]
+}

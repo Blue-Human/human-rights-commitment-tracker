@@ -1,0 +1,642 @@
+{
+ "instrument": "oas-iachr-statute",
+ "authority": "body",
+ "lang": "es",
+ "title": "I. NATURALEZA Y PROPÓSITOS",
+ "source": {
+  "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+  "document": "Estatuto de la Comisión Interamericana de Derechos Humanos",
+  "url": "https://www.oas.org/es/cidh/mandato/Basicos/estatutoCIDH.asp",
+  "retrieved": "2026-11-09",
+  "sha256": "2d84f98bc99266d534702ff8d1a43a4cf2d7a604a73c7a8deab1a1049241e335",
+  "method": "html:container"
+ },
+ "versions": [],
+ "preamble": [],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "La Comisión Interamericana de Derechos Humanos es un órgano de la Organización de los Estados Americanos creado para promover la observancia y la defensa de los derechos humanos y servir como órgano consultivo de la Organización en esta materia."
+    },
+    {
+     "id": "art-1-p2",
+     "text": "Para los fines del presente Estatuto, por derechos humanos se entiende:"
+    },
+    {
+     "id": "art-1-p3",
+     "text": "los derechos definidos en la Convención Americana sobre Derechos Humanos en relación con los Estados partes en la misma;"
+    },
+    {
+     "id": "art-1-p4",
+     "text": "los derechos consagrados en la Declaración Americana de Derechos y Deberes del Hombre, en relación con los demás Estados miembros."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion",
+   "level": 3,
+   "label": "II. COMPOSICIÓN Y ESTRUCTURA",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "La Comisión se compone de siete miembros, quienes deben ser personas de alta autoridad moral y de reconocida versación en materia de derechos humanos."
+    },
+    {
+     "id": "art-2-p2",
+     "text": "La Comisión representa a todos los Estados miembros de la Organización."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Los miembros de la Comisión serán elegidos a título personal por la Asamblea General de la Organización, de una lista de candidatos propuestos por los gobiernos de los Estados miembros."
+    },
+    {
+     "id": "art-3-p2",
+     "text": "Cada gobierno puede proponer hasta tres candidatos, ya sea nacionales del Estado que los propone o de cualquier otro Estado miembro de la Organización. Cuando se proponga una terna, por lo menos uno de los candidatos deberá ser nacional de un Estado distinto del proponente."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "Seis meses antes de la celebración del período ordinario de sesiones de la Asamblea General de la OEA, previa a la terminación del mandato para el cual fueron elegidos los miembros de la Comisión,[1] el Secretario General de la OEA pedirá por escrito a cada Estado miembro de la Organización que presente sus candidatos dentro de un plazo de noventa días."
+    },
+    {
+     "id": "art-4-p2",
+     "text": "Una vez finalizado este período, la Secretaría General revisará el equilibrio de género entre los candidatos. Si la diferencia entre el número de candidatos y candidatas es mayor a uno, la Secretaría otorgará una prórroga única de 10 días calendario para promover la presentación de nuevas nominaciones. Esto permite a los Estados miembros de la OEA presentar candidatos cuya elección ayudará a lograr la paridad de género. [2]"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "El Secretario General preparará una lista por orden alfabético de los candidatos presentados y la comunicará a los Estados miembros de la Organización al menos treinta días antes de la próxima Asamblea General."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "La elección de los miembros de la Comisión se hará de entre los candidatos que figuren en la lista a que se refiere el artículo 4 (2), por votación secreta de la Asamblea General, y se declararán elegidos los candidatos que obtengan mayor número de votos y la mayoría absoluta de los votos de los Estados miembros. Si para elegir a todos los miembros de la Comisión resultare necesario efectuar varias votaciones, se eliminarán sucesivamente, en la forma que determine la Asamblea General, a los candidatos que reciban menor número de votos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "Los miembros de la Comisión serán elegidos por cuatro años y sólo podrán ser reelegidos una vez. Los mandatos se contarán a partir del 1º de enero del año siguiente al de la elección."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "No puede formar parte de la Comisión más de un nacional de un mismo Estado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "El cargo de miembro de la Comisión Interamericana de Derechos Humanos es incompatible con el ejercicio de actividades que pudieren afectar su independencia, su imparcialidad, o la dignidad o el prestigio de su cargo en la Comisión."
+    },
+    {
+     "id": "art-8-p2",
+     "text": "La Comisión considerará cualquier caso que se presente sobre incompatibilidad según los términos fijados en el inciso primero de este artículo y de acuerdo con el procedimiento que disponga su Reglamento. Si la Comisión, con el voto afirmativo de por lo menos cinco de sus miembros, determina que existe un caso de incompatibilidad, lo elevará con sus antecedentes a la Asamblea General, la cual decidirá al respecto."
+    },
+    {
+     "id": "art-8-p3",
+     "text": "La declaratoria de incompatibilidad, por parte de la Asamblea General, será adoptada con una mayoría de los dos tercios de los Estados miembros de la Organización y causará la inmediata separación del cargo del miembro de la Comisión, pero no invalidará las actuaciones en la que éste hubiera intervenido."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "Son deberes de los miembros de la Comisión:"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "Asistir, salvo impedimento justificado, a las reuniones ordinarias y extraordinarias que celebre la Comisión en su sede permanente o en aquella a la que haya acordado trasladarse transitoriamente."
+    },
+    {
+     "id": "art-9-p3",
+     "text": "Formar parte, salvo impedimento justificado, de las Comisiones Especiales que la Comisión acuerde integrar para el desempeño de observaciones in loco, o para realizar cualquier otro de los deberes que le incumban."
+    },
+    {
+     "id": "art-9-p4",
+     "text": "Guardar absoluta reserva sobre todos los asuntos que la Comisión considere confidenciales."
+    },
+    {
+     "id": "art-9-p5",
+     "text": "Guardar, en las actividades de su vida pública y privada un comportamiento acorde con la elevada autoridad moral de su cargo y la importancia de la misión encomendada a la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "Si algún miembro violare gravemente alguno de los deberes a que se refiere el artículo 9, la Comisión, con el voto afirmativo de cinco de sus miembros, someterá el caso a la Asamblea General de la Organización, la cual decidirá si procede separarlo de su cargo."
+    },
+    {
+     "id": "art-10-p2",
+     "text": "Antes de tomar su decisión, la Comisión oirá al miembro en cuestión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "Al producirse una vacante que no se deba al vencimiento normal del mandato, el Presidente de la Comisión lo notificará inmediatamente al Secretario General de la Organización, quien a su vez lo llevará a conocimiento de los Estados miembros de la Organización."
+    },
+    {
+     "id": "art-11-p2",
+     "text": "Para llenar las vacantes cada gobierno podrá presentar un candidato dentro del plazo de treinta días a contar de la fecha de recibo de la comunicación en que el Secretario General informe que se ha producido una vacante."
+    },
+    {
+     "id": "art-11-p3",
+     "text": "El Secretario General preparará una lista por orden alfabético de los candidatos y la comunicará al Consejo Permanente de la Organización, el cual llenará la vacante."
+    },
+    {
+     "id": "art-11-p4",
+     "text": "Cuando el mandato expire dentro de los seis meses siguientes a la fecha en que ocurriera una vacante, ésta no se llenará."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "En los Estados miembros de la Organización que son partes en la Convención Americana sobre Derechos Humanos, los miembros de la Comisión gozan, desde el momento de su elección y mientras dure su mandato, de las inmunidades reconocidas por el derecho internacional a los agentes diplomáticos. Durante el ejercicio de sus cargos gozan, además, de los privilegios diplomáticos necesarios para el desempeño de sus funciones."
+    },
+    {
+     "id": "art-12-p2",
+     "text": "En los Estados miembros de la Organización que no son partes de la Convención Americana sobre Derechos Humanos, los miembros de la Comisión gozarán de los privilegios e inmunidades correspondientes a sus cargos, necesarios para desempeñar con independencia sus funciones."
+    },
+    {
+     "id": "art-12-p3",
+     "text": "El régimen de inmunidades y privilegios de los miembros de la Comisión podrá reglamentarse o complementarse mediante convenios multilaterales o bilaterales entre la Organización y los Estados miembros."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "Los miembros de la Comisión percibirán gastos de viaje, viáticos y honorarios, según corresponda, por su participación en las sesiones de la Comisión o en otras funciones que la Comisión, de acuerdo con su Reglamento, les encomiende individual o colectivamente. Tales gastos de viaje, viáticos y honorarios se incluirán en el presupuesto de la Organización y su monto y condiciones serán determinados por la Asamblea General."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "La Comisión tendrá un Presidente, un primer Vicepresidente y un segundo Vicepresidente, que serán elegidos por mayoría absoluta de sus miembros por un período de un año, y podrán ser reelegidos sólo una vez en cada período de cuatro años."
+    },
+    {
+     "id": "art-14-p2",
+     "text": "El Presidente y los Vicepresidentes constituirán la Directiva de la Comisión, cuyas funciones serán determinadas por el Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "El Presidente de la Comisión podrá trasladarse a la sede de ésta y permanecer en ella durante el tiempo necesario para el cumplimiento de sus funciones."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-2",
+   "level": 3,
+   "label": "III. SEDE Y REUNIONES",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "La Comisión tendrá su sede en Washington, D. C."
+    },
+    {
+     "id": "art-16-p2",
+     "text": "La Comisión podrá trasladarse y reunirse en el territorio de cualquier Estado americano cuando lo decida por mayoría absoluta de votos y con la anuencia o a invitación del gobierno respectivo."
+    },
+    {
+     "id": "art-16-p3",
+     "text": "La Comisión se reunirá en sesiones ordinarias y extraordinarias de conformidad con su Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "La mayoría absoluta de los miembros de la Comisión constituye quórum."
+    },
+    {
+     "id": "art-17-p2",
+     "text": "En relación con los Estados que son partes en la Convención, las decisiones se tomarán por mayoría absoluta de votos de los miembros de la Comisión en los casos en que así lo establezcan la Convención Americana sobre Derechos Humanos y el presente Estatuto. En los demás casos se requerirá la mayoría absoluta de los miembros presentes."
+    },
+    {
+     "id": "art-17-p3",
+     "text": "En relación con los Estados que no son partes en la Convención, las decisiones se tomarán por mayoría absoluta de votos de los miembros de la Comisión, salvo cuando se trate de asuntos de procedimiento, en cuyo caso las decisiones se tomarán por simple mayoría."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-3",
+   "level": 3,
+   "label": "IV. FUNCIONES Y ATRIBUCIONES",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "Respecto a los Estados miembros de la Organización de los Estados Americanos, la Comisión tiene las siguientes atribuciones:"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "estimular la conciencia de los derechos humanos en los pueblos de América;"
+    },
+    {
+     "id": "art-18-p3",
+     "text": "formular recomendaciones a los gobiernos de los Estados para que adopten medidas progresivas en favor de los derechos humanos, dentro del marco de sus legislaciones, de sus preceptos constitucionales y de sus compromisos internacionales, y también disposiciones apropiadas para fomentar el respeto a esos derechos;"
+    },
+    {
+     "id": "art-18-p4",
+     "text": "preparar los estudios o informes que considere convenientes para el desempeño de sus funciones;"
+    },
+    {
+     "id": "art-18-p5",
+     "text": "solicitar que los gobiernos de los Estados le proporcionen informes sobre la medidas que adopten en materia de derechos humanos;"
+    },
+    {
+     "id": "art-18-p6",
+     "text": "atender las consultas que, por medio de la Secretaría General de la Organización, le formule cualquier Estado miembro sobre cuestiones relacionadas con los derechos humanos en ese Estado y, dentro de sus posibilidades, prestar el asesoramiento que le soliciten;"
+    },
+    {
+     "id": "art-18-p7",
+     "text": "rendir un informe anual a la Asamblea General de la Organización, en el cual se tenga debida cuenta del régimen jurídico aplicable a los Estados partes en la Convención Americana sobre Derechos Humanos y de los Estados que no son partes;"
+    },
+    {
+     "id": "art-18-p8",
+     "text": "practicar observaciones in loco en un Estado, con la anuencia o a invitación del gobierno respectivo, y"
+    },
+    {
+     "id": "art-18-p9",
+     "text": "presentar al Secretario General el programa-presupuesto de la Comisión para que éste lo someta a la Asamblea General."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "En relación con los Estados partes en la Convención Americana sobre Derechos Humanos, la Comisión ejercerá sus funciones de conformidad con las atribuciones previstas en aquella y en el presente Estatuto y, además de las atribuciones señaladas en el artículo 18, tendrá las siguientes:"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "diligenciar las peticiones y otras comunicaciones, de conformidad con lo dispuesto en los artículos 44 al 51 de la Convención;"
+    },
+    {
+     "id": "art-19-p3",
+     "text": "comparecer ante la Corte Interamericana de Derechos Humanos en los casos previstos en la Convención;"
+    },
+    {
+     "id": "art-19-p4",
+     "text": "solicitar a la Corte Interamericana de Derechos Humanos que tome las medidas provisionales que considere pertinentes en asuntos graves y urgentes que aún no estén sometidos a su conocimiento, cuando se haga necesario para evitar daños irreparables a las personas;"
+    },
+    {
+     "id": "art-19-p5",
+     "text": "consultar a la Corte acerca de la interpretación de la Convención Americana sobre Derechos Humanos o de otros tratados sobre la protección de los derechos humanos en los Estados americanos;"
+    },
+    {
+     "id": "art-19-p6",
+     "text": "someter a la consideración de la Asamblea General proyectos de protocolos adicionales a la Convención Americana sobre Derechos Humanos, con el fin de incluir progresivamente en el régimen de protección de la misma otros derechos y libertades, y"
+    },
+    {
+     "id": "art-19-p7",
+     "text": "someter a la Asamblea General, para lo que estime conveniente, por conducto del Secretario General, propuestas de enmienda a la Convención Americana sobre Derechos Humanos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "En relación con los Estados miembros de la Organización que no son partes de la Convención Americana sobre Derechos Humanos, la Comisión tendrá, además de las atribuciones señaladas en el artículo 18, las siguientes:"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "prestar particular atención a la tarea de la observancia de los derechos humanos mencionados en los artículos I, II, III, IV, XVIII, XXV y XXVI de la Declaración Americana de los Derechos y Deberes del Hombre;"
+    },
+    {
+     "id": "art-20-p3",
+     "text": "examinar las comunicaciones que le sean dirigidas y cualquier información disponible; dirigirse al gobierno de cualquiera de los Estados miembros no partes en la Convención con el fin de obtener las informaciones que considere pertinentes y formularles recomendaciones, cuando lo considere apropiado, para hacer más efectiva la observancia de los derechos humanos fundamentales;"
+    },
+    {
+     "id": "art-20-p4",
+     "text": "verificar, como medida previa al ejercicio de la atribución prescrita en el inciso b. anterior, si los procesos y recursos internos de cada Estado miembro no parte en la Convención fueron debidamente aplicados y agotados."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-4",
+   "level": 3,
+   "label": "V. SECRETARÍA",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "Los servicios de Secretaría de la Comisión estarán a cargo de una unidad administrativa especializada bajo la dirección de un Secretario Ejecutivo. Esta unidad dispondrá de los recursos y del personal necesarios para cumplir las tareas que le encomiende la Comisión."
+    },
+    {
+     "id": "art-21-p2",
+     "text": "El Secretario Ejecutivo, quien deberá ser persona de alta autoridad moral y reconocida versación en materia de derechos humanos, será responsable de la actividad de la Secretaría y asistirá a la Comisión en el ejercicio de sus funciones, de conformidad con el Reglamento."
+    },
+    {
+     "id": "art-21-p3",
+     "text": "El Secretario Ejecutivo será designado por el Secretario General de la Organización en consulta con la Comisión. Asimismo, para que el Secretario General pueda proceder a la separación del Secretario Ejecutivo de la Comisión deberá consultar su decisión con la Comisión e informarle de los motivos en que se fundamenta."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-5",
+   "level": 3,
+   "label": "VI. ESTATUTO Y REGLAMENTO",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "El presente Estatuto podrá ser modificado por la Asamblea General."
+    },
+    {
+     "id": "art-22-p2",
+     "text": "La Comisión formulará y adoptará su propio Reglamento de acuerdo con el presente Estatuto."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "El Reglamento de la Comisión determinará, de acuerdo con lo dispuesto en los artículos 44 al 51 de la Convención Americana sobre Derechos Humanos, el procedimiento que se debe seguir en los casos de peticiones o comunicaciones en las que se alegue la violación de cualquiera de los derechos que consagra la mencionada Convención y en las que se impute tal violación a algún Estado parte en la misma."
+    },
+    {
+     "id": "art-23-p2",
+     "text": "De no llegarse a la solución amistosa referida en los artículos 44 al 51 de la Convención, la Comisión redactará dentro del plazo de 180 días el informe requerido por el artículo 50 de la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "El Reglamento establecerá el procedimiento que se debe seguir en los casos de comunicaciones que contengan denuncias o quejas de violaciones de derechos humanos imputables a Estados que no sean partes en la Convención Americana sobre Derechos Humanos."
+    },
+    {
+     "id": "art-24-p2",
+     "text": "A tal efecto, el Reglamento contendrá las normas pertinentes establecidas en el Estatuto de la Comisión aprobado por el Consejo de la Organización en las resoluciones aprobadas el 25 de mayo y el 8 de junio de 1960, con las modificaciones y enmiendas introducidas por la Resolución XXII de la Segunda Conferencia Interamericana Extraordinaria y por el Consejo de la Organización en la sesión celebrada el 24 de abril de 1968 y tomando en consideración la Resolución CP/RES. 253 (343/78) \"Transición entre la actual Comisión Interamericana de Derechos Humanos y la Comisión prevista en la Convención Americana sobre Derechos Humanos\", adoptada por el Consejo Permanente de la Organización el 20 de septiembre de 1978."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-6",
+   "level": 3,
+   "label": "VII. DISPOSICIONES TRANSITORIAS",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "Mientras que la Comisión no adopte su nuevo Reglamento, se aplicará en relación a todos los Estados de la Organización, el Reglamento actual (OEA/Ser.L/VII.17 doc. 26, de 2 de mayo de 1976)."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "Este Estatuto entrará en vigor 30 días después de su aprobación por la Asamblea General."
+    },
+    {
+     "id": "art-26-p2",
+     "text": "El Secretario General promoverá la inmediata publicación del Estatuto y le dará la más amplia divulgación posible."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 26,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "26 artículos (1–26)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ },
+ "body": "oas-iachr",
+ "kind": "statute"
+}

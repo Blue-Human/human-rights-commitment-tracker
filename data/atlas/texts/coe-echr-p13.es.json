@@ -1,0 +1,335 @@
+{
+ "instrument": "coe-echr-p13",
+ "authority": "official_es",
+ "lang": "es",
+ "title": "PROTOCOLO Nº 13 AL CONVENIO PARA LA PROTECCIÓN DE LOS DERECHOS HUMANOS Y DE LAS LIBERTADES FUNDAMENTALES, RELATIVO A LA ABOLICIÓN DE LA PENA DE MUERTE EN TODAS LAS CIRCUNSTANCIAS",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Resolución de 5 de abril de 1999, de la Secretaría General Técnica, por la que se hacen públicos los textos refundidos del Convenio para la protección de los derechos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950; el protocolo adicional al Convenio, hecho en París el 20 de marzo de 1952, y el protocolo número 6, relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983.",
+  "identifier": "BOE-A-1999-10148",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+  "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
+  "eli": "https://www.boe.es/eli/es/ai/1999/04/05/(1)",
+  "published": "1999-05-06",
+  "retrieved": "2026-11-09",
+  "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
+  "method": "boe-consolidated"
+ },
+ "versions": [
+  {
+   "norm": "BOE-A-1999-10148",
+   "published": "1999-05-06"
+  },
+  {
+   "norm": "BOE-A-2008-4891",
+   "published": "2008-03-14"
+  },
+  {
+   "norm": "BOE-A-2009-16302",
+   "published": "2009-10-13"
+  },
+  {
+   "norm": "BOE-A-2009-16399",
+   "published": "2009-10-15"
+  },
+  {
+   "norm": "BOE-A-2010-5208",
+   "published": "2010-03-30"
+  },
+  {
+   "norm": "BOE-A-2010-8504",
+   "published": "2010-05-28"
+  },
+  {
+   "norm": "BOE-A-2015-4158",
+   "published": "2015-04-17"
+  },
+  {
+   "norm": "BOE-A-2021-7554",
+   "published": "2021-05-07"
+  },
+  {
+   "norm": "BOE-A-2025-18339",
+   "published": "2025-09-17"
+  }
+ ],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados miembros del Consejo de Europa, signatarios del presente Protocolo,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Convencidos de que el derecho de toda persona a la vida es un valor fundamental en una sociedad democrática, y de que la abolición de la pena de muerte es esencial para la protección de este derecho y el pleno reconocimiento de la dignidad inherente a todos los seres humanos;"
+  },
+  {
+   "id": "pre-3",
+   "text": "Deseando reforzar la protección del derecho a la vida garantizado por el Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales, firmado en Roma el 4 de noviembre de 1950 (en lo sucesivo denominado «el Convenio»);"
+  },
+  {
+   "id": "pre-4",
+   "text": "Tomando nota de que el Protocolo nº 6 al Convenio relativo a la abolición de la pena de muerte, firmado en Estrasburgo el 28 de abril de 1983, no excluye la pena de muerte por actos cometidos en tiempos de guerra o de peligro inminente de guerra;"
+  },
+  {
+   "id": "pre-5",
+   "text": "Resueltos a dar un paso definitivo con el fin de abolir la pena de muerte en todas las circunstancias;"
+  },
+  {
+   "id": "pre-6",
+   "text": "Han convenido en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": "Abolición de la pena de muerte",
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "Queda abolida la pena de muerte. Nadie podrá ser condenado a dicha pena ni ejecutado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": "Prohibición de excepciones",
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "No se autoriza excepción alguna a lo dispuesto en el presente Protocolo, en virtud del artículo 15 del Convenio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": "Prohibición de reservas",
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "No se admitirá reserva alguna a lo dispuesto en el presente Protocolo, en virtud del artículo 57 del Convenio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": "Aplicación territorial",
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Cualquier Estado, en el momento de la firma o del depósito de su instrumento de ratificación, aceptación o aprobación, podrá designar el territorio o territorios a los que se aplicará el presente Protocolo.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. Cualquier Estado podrá, en cualquier momento posterior y mediante una declaración dirigida al Secretario General del Consejo de Europa, hacer extensiva la aplicación del presente Protocolo a cualquier otro territorio designado en la declaración. El Protocolo entrará en vigor con respecto a dicho territorio el primer día del mes siguiente a la expiración de un período de tres meses después de la fecha de recepción de la declaración por el Secretario General.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. Cualquier declaración hecha en virtud de los dos párrafos precedentes podrá ser retirada o modificada, en lo que se refiere a cualquier territorio designado en dicha declaración, mediante notificación dirigida al Secretario General. La retirada o la modificación surtirá efecto el primer día del mes siguiente a la expiración de un período de tres meses después de la fecha de recepción de la notificación por el Secretario General.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": "Relaciones con el Convenio",
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "Los Estados Parte consideran que los artículos 1 a 4 del presente Protocolo son artículos adicionales al Convenio, y se aplicarán en consecuencia todas las disposiciones del Convenio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": "Firma y ratificación",
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "El presente Protocolo queda abierto a la firma de los Estados miembros del Consejo de Europa que hayan firmado el Convenio. Será objeto de ratificación, aceptación o aprobación. Un Estado miembro del Consejo de Europa no podrá ratificar, aceptar o aprobar el presente Protocolo sin haber ratificado anterior o simultáneamente el Convenio. Los instrumentos de ratificación, aceptación o aprobación se depositarán en poder del Secretario General del Consejo de Europa."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": "Entrada en vigor",
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. El presente Protocolo entrará en vigor el primer día del mes siguiente a la expiración de un período de tres meses después de la fecha en que diez Estados miembros del Consejo de Europa hayan expresado su consentimiento en quedar vinculados por el presente Protocolo, conforme a lo dispuesto en su artículo 6.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. Para todo Estado miembro que exprese con posterioridad su consentimiento en quedar vinculado por el presente Protocolo, este entrará en vigor el primer día del mes siguiente a la expiración de un período de tres meses después de la fecha del depósito del instrumento de ratificación, aceptación o aprobación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": "Funciones del Depositario",
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "El Secretario General del Consejo de Europa notificará a todos los Estados miembros del Consejo de Europa:"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "a. toda firma;"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "b. el depósito de todo instrumento de ratificación, aceptación o aprobación;"
+    },
+    {
+     "id": "art-8-p4",
+     "text": "c. toda fecha de entrada en vigor del presente Protocolo, conforme a sus artículos 4 y 7;"
+    },
+    {
+     "id": "art-8-p5",
+     "text": "d. cualquier otro acto, notificación o comunicación que se refieran al presente Protocolo."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "En fe de lo cual, los abajo firmantes, debidamente autorizados a este efecto, firman el presente Protocolo."
+  },
+  {
+   "text": "Hecho en Vilna, el 3 de mayo de 2002, en francés y en inglés, siendo ambos textos igualmente auténticos, en un solo ejemplar que será depositado en los archivos del Consejo de Europa. El Secretario General del Consejo de Europa transmitirá copia certificada conforme del mismo a cada uno de los Estados miembros del Consejo de Europa."
+  }
+ ],
+ "spain_instrument": [],
+ "publication_notes": [
+  "Incluye la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072",
+  "Téngase en cuenta que el Convenio para la protección de los derechos y de las libertades fundamentales, objeto de refundición, entró en vigor con carácter general el 3 de septiembre de 1953 y para España el 4 de octubre de 1979.",
+  "El Protocolo adicional, objeto de refundición, entró en vigor con carácter general el 18 de mayo de 1954 y para España el 27 de noviembre de 1990.",
+  "El Protocolo número 6, objeto de refundición, entró en vigor de forma general y para España el 1 de mayo de 1985.",
+  "El Protocolo número 12 entró en vigor de forma general el 1 de abril de 2005 y para España el 1 de junio de 2008.",
+  "El Protocolo número 4 entró en vigor de forma general el 2 de mayo de 1968 y para España el 16 de septiembre de 2009.",
+  "El Protocolo número 7 entró en vigor de forma general el 1 de noviembre de 1988 y para España el 1 de diciembre de 2009.",
+  "El Protocolo número 13 entró en vigor de forma general el 1 de julio de 2003 y para España el 1 de abril de 2010.",
+  "El Protocolo número 14 entró en vigor de forma general y para España el 1 de junio de 2010.",
+  "El Protocolo número 15 entra en vigor, con carácter general y para España, el 1 de agosto de 2021.",
+  "El Consejo de Europa ha elaborado los siguientes textos refundidos:",
+  "Convenio para la protección de los derechos humanos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950 («Boletín Oficial del Estado» número 243, de 10 de octubre de 1979), con las modificaciones introducidas por el protocolo número 11, relativo a la reestructuración de los mecanismos de control establecidos en el Convenio, hecho en Estrasburgo el 11 de mayo de 1994 («Boletín Oficial del Estado» número 152, de 26 de junio de 1998).",
+  "Protocolo adicional al Convenio para la protección de los derechos humanos y las libertades fundamentales, hecho en París el 20 de marzo de 1952 («Boletín Oficial del Estado» número 11, de 12 de enero de 1991), con las modificaciones introducidas por el protocolo número 11, relativo a la reestructuración de los mecanismos de control establecidos en el Convenio, hecho en Estrasburgo el 11 de mayo de 1994 («Boletín Oficial del Estado» número 152, de 26 de junio de 1998).",
+  "Protocolo número 6 al Convenio para la protección de los derechos humanos y de las libertades fundamentales relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983 («Boletín Oficial del Estado» número 92, de 17 de abril de 1985), con las modificaciones introducidas por el protocolo número 11, relativo a la reestructuración de los mecanismos de control establecidos en el Convenio, hecho en Estrasburgo el 11 de mayo de 1994 («Boletín Oficial del Estado» número 152, de 26 de junio de 1998).",
+  "Para general conocimiento, se publican los mismos como anexo a esta Resolución.",
+  "Téngase en cuenta que el último considerando, añadido por el art. 1 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554, entra en vigor el 1 de agosto de 2021, de conformidad con lo establecido en su artículo 7.",
+  "Se añade el último considerando por el art. 1 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554",
+  "Se añade el Protocolo número 4, de 16 de septiembre de 1963, por Instrumento de ratificación de 28 de agosto de 2009. Ref. BOE-A-2009-16302",
+  "Se añade el Protocolo número 7, de 22 de noviembre de 1984, por Instrumento de ratificación de 28 de agosto de 2009. Ref. BOE-A-2009-16399",
+  "Se añade el Protocolo número 12, de 4 de noviembre de 2000, por Instrumento de ratificación de 25 de enero de 2008. Ref. BOE-A-2008-4891",
+  "Se añade el Protocolo número 13, de 3 de mayo de 2002, por Instrumento de ratificación de 27 de noviembre de 2009. Ref. BOE-A-2010-5208",
+  "Se añade el Protocolo número 16, de 2 de octubre de 2013, por Instrumento de ratificación de 7 de julio de 2025. Ref. BOE-A-2025-18339",
+  "Información relacionada",
+  "De conformidad con el artículo 64 del Convenio (hoy artículo 57), España se reserva la aplicación de:",
+  "1. Los artículos 5 y 6 en la medida en que resulten incompatibles con la Ley Orgánica 8/2014, de 4 de diciembre (capítulo II del Título I, Título II, Título III, capítulo I del Título IV, Título V y Disposiciones adicionales cuarta y quinta), de Régimen Disciplinario de las Fuerzas Armadas, promulgada el día 4 de diciembre de 2014 y que entró en vigor el 5 de marzo de 2015.",
+  "2. El artículo 11, en la medida en que fuere incompatible con los artículos 28 y 127 de la Constitución Española.",
+  "España declara que interpreta:",
+  "1. La disposición del punto tercero del párrafo 1.° del artículo 10, como compatible con un régimen que corresponda a la organización de la radiodifusión y televisión en España;",
+  "2. Las disposiciones de los artículos 15 y 17 en el sentido de que permiten la adopción de las medidas contempladas en los artículos 55 y 116 de la Constitución española.",
+  "En los Instrumentos de ratificación de los Protocolos números 4, 7 y 13 al Convenio, España ha formulado la siguiente declaración, para el caso de que fueran extendidos por el Reino Unido a Gibraltar:",
+  "1. Gibraltar es un territorio no autónomo de cuyas relaciones exteriores es responsable el Reino Unido y que está sometido a un proceso de descolonización de acuerdo con las decisiones y resoluciones pertinentes de la Asamblea General de las Naciones Unidas.",
+  "2. Las autoridades de Gibraltar tienen un carácter local y ejercen competencias exclusivamente internas que tienen su origen y fundamento en la distribución y atribución de competencias efectuadas por el Reino Unido, de conformidad con lo previsto en su legislación interna, en su condición de Estado soberano del que depende el citado territorio no autónomo.",
+  "3. En consecuencia, la eventual participación de las autoridades gibraltareñas en la aplicación del presente Convenio se entenderá realizada exclusivamente en el marco de las competencias internas de Gibraltar y no podrá considerarse que produce cambio alguno respecto de lo previsto en los dos párrafos precedentes.",
+  "En el Instrumento de ratificación del Protocolo nº 15 de enmienda al Convenio, España ha formulado la siguiente declaración:",
+  "«Para el caso de que el presente Protocolo sea ratificado por el Reino Unido y su aplicación extendida al territorio de Gibraltar, España desea formular la siguiente Declaración:",
+  "1. Gibraltar es un territorio no autónomo de cuyas relaciones exteriores es responsable el Reino Unido y que está sometido a un proceso de descolonización de acuerdo con las decisiones y resoluciones pertinentes de la Asamblea General de las Naciones Unidas.",
+  "2. Las autoridades de Gibraltar tienen un carácter local y ejercen competencias exclusivamente internas que tienen su origen y fundamento en la distribución y atribución de competencias efectuadas por el Reino Unido, de conformidad con lo previsto en su legislación interna, en su condición de Estado soberano del que depende el citado territorio no autónomo.",
+  "3. En consecuencia, la eventual participación de las autoridades gibraltareñas en la aplicación del presente Protocolo se entenderá realizada exclusivamente en el marco de las competencias internas de Gibraltar y no podrá considerarse que produce cambio alguno respecto de lo previsto en los dos párrafos anteriores.",
+  "4. El procedimiento previsto en el Régimen relativo a las autoridades de Gibraltar en el contexto de ciertos Tratados internacionales acordado por España y el Reino Unido el 19 de diciembre de 2007 (junto al \"Régimen acordado relativo a las autoridades de Gibraltar en el contexto de los instrumentos de la UE y CE y Tratados conexos\", de 19 de abril de 2000) se aplica al presente Protocolo n.º 15 de enmienda al Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales.",
+  "5. La aplicación a Gibraltar del presente Protocolo no puede ser interpretada como reconocimiento de cualquiera derechos o situaciones relativas a los espacios que no estén comprendidos en el artículo 10 del Tratado de Utrecht, de 13 de julio de 1713, suscrito por la Coronas de España y Gran Bretaña.»",
+  "Véase la Resolución de 27 de abril de 2022 por la que se hace pública la comunicación de los efectos desde el 16-3-2022 de la Resolución CM/RES(2022) 2 del Consejo de Europa donde se cesa a Rusia como miembro del Consejo de Europa. Ref. BOE-A-2022-7315"
+ ],
+ "authentic_clause": {
+  "article": null,
+  "paragraph": null,
+  "text": "Hecho en Vilna, el 3 de mayo de 2002, en francés y en inglés, siendo ambos textos igualmente auténticos, en un solo ejemplar que será depositado en los archivos del Consejo de Europa. El Secretario General del Consejo de Europa transmitirá copia certificada conforme del mismo a cada uno de los Estados miembros del Consejo de Europa."
+ },
+ "quality": {
+  "articles": 8,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "8 artículos (1–8)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

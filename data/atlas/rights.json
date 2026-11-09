@@ -1,0 +1,1655 @@
+{
+ "generated": "2026-11-09",
+ "rights": [
+  {
+   "id": "vida",
+   "name": "Derecho a la vida",
+   "phrases": [
+    "derecho a la vida",
+    "right to life"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vida",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Vida",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "I",
+     "anchor": "art-i",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vida, a la libertad, a la seguridad e integridad de la persona",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vida y a la dignidad en la vejez",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "10",
+     "anchor": "art-10",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vida",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "general_comment_title",
+     "evidence": "General comment No. 36 - Article 6 (the right to life)",
+     "document": "gc-ccpr-c-gc-36",
+     "symbol": "CCPR/C/GC/36"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "general_comment_title",
+     "evidence": "Observación general no. 14 - El derecho a la vida (art. 6)",
+     "document": "gc-int-ccpr-gec-4723",
+     "symbol": "INT/CCPR/GEC/4723"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 6 - Derecho a la vida (artículo 6)",
+     "document": "gc-int-ccpr-gec-6630",
+     "symbol": "INT/CCPR/GEC/6630"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-ccpr-c-gc-36",
+    "gc-int-ccpr-gec-4723",
+    "gc-int-ccpr-gec-6630"
+   ]
+  },
+  {
+   "id": "tortura",
+   "name": "Prohibición de la tortura y de los tratos crueles, inhumanos o degradantes",
+   "phrases": [
+    "tortura",
+    "torture"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "3",
+     "anchor": "art-3",
+     "basis": "article_heading",
+     "evidence": "Prohibición de la tortura",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "15",
+     "anchor": "art-15",
+     "basis": "article_heading",
+     "evidence": "Protección contra la tortura y otros tratos o penas crueles, inhumanos o degradantes",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "general_comment_title",
+     "evidence": "Observación general N° 20 - Prohibición de la tortura u otros tratos o penas crueles, inhumanos o degradantes (artículo 7)",
+     "document": "gc-int-ccpr-gec-6621",
+     "symbol": "INT/CCPR/GEC/6621"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 7 - Prohibición de la tortura u otros tratos o penas crueles, inhumanos o degradantes (artículo 7) [La Observación general Nº 7 ha sido sustituida por la Observación general Nº 20]",
+     "document": "gc-int-ccpr-gec-6629",
+     "symbol": "INT/CCPR/GEC/6629"
+    }
+   ],
+   "instruments": [
+    {
+     "instrument": "un-cat",
+     "basis": "instrument_title",
+     "evidence": "Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes"
+    },
+    {
+     "instrument": "un-opcat",
+     "basis": "instrument_title",
+     "evidence": "Protocolo facultativo a la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes"
+    },
+    {
+     "instrument": "un-cat-amend-17-18",
+     "basis": "instrument_title",
+     "evidence": "Amendments to articles 17 (7) and 18 (5) of the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment"
+    },
+    {
+     "instrument": "coe-cpt",
+     "basis": "instrument_title",
+     "evidence": "Convenio Europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes"
+    },
+    {
+     "instrument": "oas-torture",
+     "basis": "instrument_title",
+     "evidence": "Convención Interamericana para Prevenir y Sancionar la Tortura"
+    }
+   ],
+   "interpretations": [
+    "gc-int-ccpr-gec-6621",
+    "gc-int-ccpr-gec-6629"
+   ]
+  },
+  {
+   "id": "libertad-personal",
+   "name": "Libertad y seguridad personales",
+   "phrases": [
+    "derecho a la libertad y a la seguridad",
+    "libertad y seguridad personales",
+    "libertad personal",
+    "liberty and security"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "5",
+     "anchor": "art-5",
+     "basis": "article_heading",
+     "evidence": "Derecho a la libertad y a la seguridad",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Libertad Personal",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "13",
+     "anchor": "art-13",
+     "basis": "article_heading",
+     "evidence": "Derecho a la libertad personal",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 35 -Artículo 9 (Libertad y seguridad personales)",
+     "document": "gc-ccpr-c-gc-35",
+     "symbol": "CCPR/C/GC/35"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 8 - Derecho a la libertad y a la seguridad personales (artículo 9)",
+     "document": "gc-int-ccpr-gec-6628",
+     "symbol": "INT/CCPR/GEC/6628"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-ccpr-c-gc-35",
+    "gc-int-ccpr-gec-6628"
+   ]
+  },
+  {
+   "id": "garantias",
+   "name": "Garantías procesales y juicio justo",
+   "phrases": [
+    "proceso equitativo",
+    "garantías judiciales",
+    "juicio imparcial",
+    "fair trial",
+    "proceso regular",
+    "no hay pena sin ley",
+    "legalidad y de retroactividad"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Derecho a un proceso equitativo",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "article_heading",
+     "evidence": "No hay pena sin ley",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "8",
+     "anchor": "art-8",
+     "basis": "article_heading",
+     "evidence": "Garantías Judiciales",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "article_heading",
+     "evidence": "Principio de Legalidad y de Retroactividad",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XXVI",
+     "anchor": "art-xxvi",
+     "basis": "article_heading",
+     "evidence": "Derecho a proceso regular",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "14",
+     "anchor": "art-14",
+     "basis": "general_comment_title",
+     "evidence": "Observación General Nº 32: Artículo 14. El derecho a un juicio imparcial y a la igualdad ante los tribunales y cortes de justicia",
+     "document": "gc-ccpr-c-gc-32",
+     "symbol": "CCPR/C/GC/32"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-ccpr-c-gc-32"
+   ]
+  },
+  {
+   "id": "justicia",
+   "name": "Acceso a la justicia y recurso efectivo",
+   "phrases": [
+    "acceso a la justicia",
+    "recurso efectivo",
+    "protección judicial",
+    "access to justice",
+    "effective remedy"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "13",
+     "anchor": "art-13",
+     "basis": "article_heading",
+     "evidence": "Derecho a un recurso efectivo",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "25",
+     "anchor": "art-25",
+     "basis": "article_heading",
+     "evidence": "Protección Judicial",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "31",
+     "anchor": "art-31",
+     "basis": "article_heading",
+     "evidence": "Acceso a la justicia",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "13",
+     "anchor": "art-13",
+     "basis": "article_heading",
+     "evidence": "Acceso a la justicia",
+     "lang": "es"
+    }
+   ],
+   "instruments": [],
+   "interpretations": []
+  },
+  {
+   "id": "vida-privada",
+   "name": "Vida privada y familiar",
+   "phrases": [
+    "vida privada",
+    "intimidad",
+    "privacy",
+    "protección de la honra"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "8",
+     "anchor": "art-8",
+     "basis": "article_heading",
+     "evidence": "Derecho al respeto a la vida privada y familiar",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Protección de la Honra y de la Dignidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "V",
+     "anchor": "art-v",
+     "basis": "article_heading",
+     "evidence": "Derecho a la protección a la honra, la reputación personal y la vida privada y familiar",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "16",
+     "anchor": "art-16",
+     "basis": "article_heading",
+     "evidence": "Derecho a la privacidad y a la intimidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "17",
+     "anchor": "art-17",
+     "basis": "general_comment_title",
+     "evidence": "Observación general N° 16 - Derecho a la intimidad (artículo 17)",
+     "document": "gc-int-ccpr-gec-6624",
+     "symbol": "INT/CCPR/GEC/6624"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-int-ccpr-gec-6624"
+   ]
+  },
+  {
+   "id": "pensamiento",
+   "name": "Libertad de pensamiento, de conciencia y de religión",
+   "phrases": [
+    "libertad de pensamiento, de conciencia",
+    "libertad de conciencia y de religión",
+    "libertad religiosa",
+    "freedom of thought, conscience"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "article_heading",
+     "evidence": "Libertad de pensamiento, de conciencia y de religión",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "12",
+     "anchor": "art-12",
+     "basis": "article_heading",
+     "evidence": "Libertad de Conciencia y de Religión",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "III",
+     "anchor": "art-iii",
+     "basis": "article_heading",
+     "evidence": "Derecho de libertad religiosa y de culto",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "18",
+     "anchor": "art-18",
+     "basis": "general_comment_title",
+     "evidence": "Observación general no. 22: Derecho a la libertad de pensamiento, de conciencia y de religión (art. 18)",
+     "document": "gc-ccpr-c-21-rev-1-add-4",
+     "symbol": "CCPR/C/21/Rev.1/Add.4"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-ccpr-c-21-rev-1-add-4"
+   ]
+  },
+  {
+   "id": "expresion",
+   "name": "Libertad de expresión",
+   "phrases": [
+    "libertad de expresión",
+    "de pensamiento y de expresión",
+    "freedom of expression",
+    "libertad de opinión"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "10",
+     "anchor": "art-10",
+     "basis": "article_heading",
+     "evidence": "Libertad de expresión",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "13",
+     "anchor": "art-13",
+     "basis": "article_heading",
+     "evidence": "Libertad de Pensamiento y de Expresión",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "21",
+     "anchor": "art-21",
+     "basis": "article_heading",
+     "evidence": "Libertad de expresión y de opinión y acceso a la información",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "19",
+     "anchor": "art-19",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 34 - Artículo 19 - Libertad de opinión y libertad de expresión",
+     "document": "gc-ccpr-c-gc-34",
+     "symbol": "CCPR/C/GC/34"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "19",
+     "anchor": "art-19",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 10 - Libertad de opinión (artículo 19)",
+     "document": "gc-int-ccpr-gec-6627",
+     "symbol": "INT/CCPR/GEC/6627"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-ccpr-c-gc-34",
+    "gc-int-ccpr-gec-6627"
+   ]
+  },
+  {
+   "id": "reunion",
+   "name": "Libertad de reunión pacífica",
+   "phrases": [
+    "libertad de reunión",
+    "derecho de reunión",
+    "reunión pacífica",
+    "peaceful assembly"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Libertad de reunión y de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "15",
+     "anchor": "art-15",
+     "basis": "article_heading",
+     "evidence": "Derecho de Reunión",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XXI",
+     "anchor": "art-xxi",
+     "basis": "article_heading",
+     "evidence": "Derecho de reunión",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "28",
+     "anchor": "art-28",
+     "basis": "article_heading",
+     "evidence": "Derecho de reunión y de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "21",
+     "anchor": "art-21",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 37 on Article 21 (Right of peaceful assembly)",
+     "document": "gc-ccpr-c-gc-37",
+     "symbol": "CCPR/C/GC/37"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-ccpr-c-gc-37"
+   ]
+  },
+  {
+   "id": "asociacion",
+   "name": "Libertad de asociación",
+   "phrases": [
+    "libertad de asociación",
+    "de reunión y de asociación",
+    "derecho de asociación",
+    "freedom of association"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Libertad de reunión y de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "16",
+     "anchor": "art-16",
+     "basis": "article_heading",
+     "evidence": "Libertad de Asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XXII",
+     "anchor": "art-xxii",
+     "basis": "article_heading",
+     "evidence": "Derecho de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "28",
+     "anchor": "art-28",
+     "basis": "article_heading",
+     "evidence": "Derecho de reunión y de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-refugees-1951",
+     "article": "15",
+     "anchor": "art-15",
+     "basis": "article_heading",
+     "evidence": "Derecho de asociación",
+     "lang": "es"
+    }
+   ],
+   "instruments": [],
+   "interpretations": []
+  },
+  {
+   "id": "igualdad",
+   "name": "Igualdad y no discriminación",
+   "phrases": [
+    "no discriminación",
+    "prohibición de discriminación",
+    "prohibición general de la discriminación",
+    "igualdad ante la ley",
+    "igualdad y no discriminación",
+    "non-discrimination",
+    "equality before the law"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "14",
+     "anchor": "art-14",
+     "basis": "article_heading",
+     "evidence": "Prohibición de discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-lanzarote",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "article_heading",
+     "evidence": "Principio de no discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-san-salvador",
+     "article": "3",
+     "anchor": "art-3",
+     "basis": "article_heading",
+     "evidence": "Obligación de no Discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "article_heading",
+     "evidence": "Igualdad ante la Ley",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr-p12",
+     "article": "1",
+     "anchor": "art-1",
+     "basis": "article_heading",
+     "evidence": "Prohibición general de la discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "II",
+     "anchor": "art-ii",
+     "basis": "article_heading",
+     "evidence": "Derecho de igualdad ante la Ley",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "E",
+     "anchor": "art-e",
+     "basis": "article_heading",
+     "evidence": "No discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "5",
+     "anchor": "art-5",
+     "basis": "article_heading",
+     "evidence": "Igualdad y no discriminación por razones de edad",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "5",
+     "anchor": "art-5",
+     "basis": "article_heading",
+     "evidence": "Igualdad y no discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-istanbul",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "article_heading",
+     "evidence": "Derechos fundamentales, igualdad y no discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "5",
+     "anchor": "art-5",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 6 - Article 5 : Equality and non-discrimination (Adopted 9 March 2018) - Plain English version",
+     "document": "gc-crpd-c-gc-5-plain-english-version",
+     "symbol": "CRPD/C/GC/5 Plain English version"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-crpd-c-gc-6",
+    "gc-crpd-c-gc-5-plain-english-version",
+    "gc-int-ccpr-gec-6622",
+    "gc-e-c-12-gc-20"
+   ]
+  },
+  {
+   "id": "educacion",
+   "name": "Derecho a la educación",
+   "phrases": [
+    "derecho a la educación",
+    "right to education",
+    "inclusive education"
+   ],
+   "articles": [
+    {
+     "instrument": "oas-san-salvador",
+     "article": "13",
+     "anchor": "art-13",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Educación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XII",
+     "anchor": "art-xii",
+     "basis": "article_heading",
+     "evidence": "Derecho a la educación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "20",
+     "anchor": "art-20",
+     "basis": "article_heading",
+     "evidence": "Derecho a la educación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "article_heading",
+     "evidence": "Educación",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-istanbul",
+     "article": "14",
+     "anchor": "art-14",
+     "basis": "article_heading",
+     "evidence": "Educación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 4 - Article 24 : Right to inclusive education (Adopted 26 August 2016) - Easy Read English version",
+     "document": "gc-crpd-c-gc-4-easy-read-english-version",
+     "symbol": "CRPD/C/GC/4 Easy Read English version"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 4 - Article 24 : Right to inclusive education (Adopted 26 August 2016) - Plain English version",
+     "document": "gc-crpd-c-gc-4-plain-english-version",
+     "symbol": "CRPD/C/GC/4 Plain English version"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "13",
+     "anchor": "art-13",
+     "basis": "general_comment_title",
+     "evidence": "Observaciones generales 13 (21º período de sesiones, 1999), El derecho a la educación (artículo 13 del Pacto)",
+     "document": "gc-e-c-12-1999-10",
+     "symbol": "E/C.12/1999/10"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-crpd-c-gc-4",
+    "gc-crpd-c-gc-4-easy-read-english-version",
+    "gc-crpd-c-gc-4-plain-english-version",
+    "gc-e-c-12-1999-10"
+   ]
+  },
+  {
+   "id": "salud",
+   "name": "Derecho a la salud",
+   "phrases": [
+    "derecho a la salud",
+    "protección de la salud",
+    "nivel posible de salud",
+    "right to health"
+   ],
+   "articles": [
+    {
+     "instrument": "oas-san-salvador",
+     "article": "10",
+     "anchor": "art-10",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Derecho a la protección de la salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "19",
+     "anchor": "art-19",
+     "basis": "article_heading",
+     "evidence": "Derecho a la salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Derecho a la protección de la salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "25",
+     "anchor": "art-25",
+     "basis": "article_heading",
+     "evidence": "Salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "12",
+     "anchor": "art-12",
+     "basis": "general_comment_title",
+     "evidence": "Observación general núm. 22 (2016), relativa al derecho a la salud sexual y reproductiva (artículo 12 del Pacto Internacional de Derechos Económicos, Sociales y Culturales)",
+     "document": "gc-e-c-12-gc-22",
+     "symbol": "E/C.12/GC/22"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-cerd-c-gc-37",
+    "gc-e-c-12-gc-22",
+    "gc-e-c-12-2000-4"
+   ]
+  },
+  {
+   "id": "trabajo",
+   "name": "Derecho al trabajo y condiciones de trabajo",
+   "phrases": [
+    "derecho al trabajo",
+    "condiciones de trabajo",
+    "right to work",
+    "condiciones equitativas"
+   ],
+   "articles": [
+    {
+     "instrument": "oas-san-salvador",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Derecho al Trabajo",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XIV",
+     "anchor": "art-xiv",
+     "basis": "article_heading",
+     "evidence": "Derecho al trabajo y a una justa retribución",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "1",
+     "anchor": "art-1",
+     "basis": "article_heading",
+     "evidence": "Derecho al trabajo",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "article_heading",
+     "evidence": "Derecho a unas condiciones de trabajo equitativas",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "22",
+     "anchor": "art-22",
+     "basis": "article_heading",
+     "evidence": "Derecho a participar en la determinación y en la mejora de las condiciones de trabajo y del entorno de trabajo",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "18",
+     "anchor": "art-18",
+     "basis": "article_heading",
+     "evidence": "Derecho al trabajo",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "1",
+     "anchor": "art-1",
+     "basis": "article_heading",
+     "evidence": "Derecho al trabajo",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "article_heading",
+     "evidence": "Derecho a unas condiciones de trabajo equitativas",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "general_comment_title",
+     "evidence": "Observación general núm. 23 (2016) sobre el derecho a condiciones de trabajo equitativas y satisfactorias (artículo 7 del Pacto Internacional de Derechos Económicos, Sociales y Culturales)",
+     "document": "gc-e-c-12-gc-23",
+     "symbol": "E/C.12/GC/23"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-e-c-12-gc-23"
+   ]
+  },
+  {
+   "id": "seguridad-social",
+   "name": "Seguridad social y protección social",
+   "phrases": [
+    "seguridad social",
+    "protección social",
+    "social security"
+   ],
+   "articles": [
+    {
+     "instrument": "oas-san-salvador",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Seguridad Social",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XVI",
+     "anchor": "art-xvi",
+     "basis": "article_heading",
+     "evidence": "Derecho a la seguridad social",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XXXV",
+     "anchor": "art-xxxv",
+     "basis": "article_heading",
+     "evidence": "Deberes de asistencia y seguridad sociales",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "12",
+     "anchor": "art-12",
+     "basis": "article_heading",
+     "evidence": "Derecho a la seguridad social",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "16",
+     "anchor": "art-16",
+     "basis": "article_heading",
+     "evidence": "Derecho de la familia a protección social, jurídica y económica",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "17",
+     "anchor": "art-17",
+     "basis": "article_heading",
+     "evidence": "Derecho de los niños y jóvenes a protección social, jurídica y económica",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "23",
+     "anchor": "art-23",
+     "basis": "article_heading",
+     "evidence": "Derecho de las personas de edad avanzada a protección social",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "17",
+     "anchor": "art-17",
+     "basis": "article_heading",
+     "evidence": "Derecho a la seguridad social",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "12",
+     "anchor": "art-12",
+     "basis": "article_heading",
+     "evidence": "Derecho a la seguridad social",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "16",
+     "anchor": "art-16",
+     "basis": "article_heading",
+     "evidence": "Derecho de la familia a una protección social, jurídica y económica",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "17",
+     "anchor": "art-17",
+     "basis": "article_heading",
+     "evidence": "Derechos de las madres y los niños a una protección social y económica",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "28",
+     "anchor": "art-28",
+     "basis": "article_heading",
+     "evidence": "Nivel de vida adecuado y protección social",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "general_comment_title",
+     "evidence": "Observación general, El derecho a la seguridad social (artículo 9)",
+     "document": "gc-e-c-12-gc-19",
+     "symbol": "E/C.12/GC/19"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-e-c-12-gc-19"
+   ]
+  },
+  {
+   "id": "vivienda",
+   "name": "Derecho a la vivienda",
+   "phrases": [
+    "vivienda",
+    "housing"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-esc-revised",
+     "article": "31",
+     "anchor": "art-31",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vivienda",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vivienda",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-refugees-1951",
+     "article": "21",
+     "anchor": "art-21",
+     "basis": "article_heading",
+     "evidence": "Vivienda",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 7. El derecho a una vivienda adecuada (párrafo 1 del artículo 11 del Pacto): los desalojos forzosos",
+     "document": "gc-int-cescr-gec-6430",
+     "symbol": "INT/CESCR/GEC/6430"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "general_comment_title",
+     "evidence": "Observación general No. 4: El derecho a una vivienda adecuada (pár. 1 del art. 11 del Pacto)",
+     "document": "gc-int-cescr-gec-4759",
+     "symbol": "INT/CESCR/GEC/4759"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-int-cescr-gec-6430",
+    "gc-int-cescr-gec-4759"
+   ]
+  },
+  {
+   "id": "infancia",
+   "name": "Derechos de la infancia",
+   "phrases": [
+    "derechos del niño",
+    "rights of the child",
+    "niños y niñas",
+    "de los niños",
+    "protección de la infancia",
+    "rights and welfare of the child"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-lanzarote",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Educación de los niños",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-lanzarote",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "article_heading",
+     "evidence": "Participación de los niños, el sector privado, los medios de comunicación y la sociedad civil",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "19",
+     "anchor": "art-19",
+     "basis": "article_heading",
+     "evidence": "Derechos del Niño",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "article_heading",
+     "evidence": "Derecho de los niños y jóvenes a protección",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-revised",
+     "article": "17",
+     "anchor": "art-17",
+     "basis": "article_heading",
+     "evidence": "Derecho de los niños y jóvenes a protección social, jurídica y económica",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-esc-1961",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "article_heading",
+     "evidence": "Derecho de los niños y adolescentes a protección",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "article_heading",
+     "evidence": "Niños y niñas con discapacidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crc",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "general_comment_title",
+     "evidence": "Observación general núm. 19 (2016) sobre la elaboración de presupuestos públicos para hacer efectivos los derechos del niño (art. 4)",
+     "document": "gc-crc-c-gc-19",
+     "symbol": "CRC/C/GC/19"
+    },
+    {
+     "instrument": "un-crc",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "general_comment_title",
+     "evidence": "Observación general No. 5: Medidas generales de aplicación de la Convención sobre los Derechos del Niño (artículos 4 y 42 y párrafo 6 del artículo 44)",
+     "document": "gc-crc-gc-2003-5",
+     "symbol": "CRC/GC/2003/5"
+    },
+    {
+     "instrument": "un-crc",
+     "article": "42",
+     "anchor": "art-42",
+     "basis": "general_comment_title",
+     "evidence": "Observación general No. 5: Medidas generales de aplicación de la Convención sobre los Derechos del Niño (artículos 4 y 42 y párrafo 6 del artículo 44)",
+     "document": "gc-crc-gc-2003-5",
+     "symbol": "CRC/GC/2003/5"
+    },
+    {
+     "instrument": "un-crc",
+     "article": "44",
+     "anchor": "art-44",
+     "basis": "general_comment_title",
+     "evidence": "Observación general No. 5: Medidas generales de aplicación de la Convención sobre los Derechos del Niño (artículos 4 y 42 y párrafo 6 del artículo 44)",
+     "document": "gc-crc-gc-2003-5",
+     "symbol": "CRC/GC/2003/5"
+    },
+    {
+     "instrument": "un-iccpr",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 17 - Derechos del niño (artículo 24)",
+     "document": "gc-int-ccpr-gec-6623",
+     "symbol": "INT/CCPR/GEC/6623"
+    }
+   ],
+   "instruments": [
+    {
+     "instrument": "un-crc",
+     "basis": "instrument_title",
+     "evidence": "Convención sobre los Derechos del Niño"
+    },
+    {
+     "instrument": "un-crc-opac",
+     "basis": "instrument_title",
+     "evidence": "Protocolo facultativo de la Convención sobre los Derechos del Niño, sobre la participación de niños en conflictos armados"
+    },
+    {
+     "instrument": "un-crc-opsc",
+     "basis": "instrument_title",
+     "evidence": "Protocolo Facultativo de la Convención sobre los Derechos del Niño, relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía"
+    },
+    {
+     "instrument": "un-crc-opic",
+     "basis": "instrument_title",
+     "evidence": "Protocolo facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones"
+    },
+    {
+     "instrument": "un-crc-amend-43",
+     "basis": "instrument_title",
+     "evidence": "Enmienda al párrafo 2 del artículo 43 de la Convención sobre los Derechos del Niño"
+    },
+    {
+     "instrument": "coe-lanzarote",
+     "basis": "instrument_title",
+     "evidence": "Convenio del Consejo de Europa para la protección de los niños contra la explotación y el abuso sexual"
+    },
+    {
+     "instrument": "au-acrwc",
+     "basis": "instrument_title",
+     "evidence": "African Charter on the Rights and Welfare of the Child"
+    }
+   ],
+   "interpretations": [
+    "gc-cedaw-c-gc-31-crc-c-gc-18",
+    "gc-cedaw-c-gc-31-rev-1",
+    "gc-crc-c-gc-20",
+    "gc-crc-c-gc-19",
+    "gc-crc-c-gc-9-corr-1",
+    "gc-crc-c-gc-10",
+    "gc-crc-c-gc-9",
+    "gc-crc-c-gc-7-rev-1",
+    "gc-crc-gc-2003-5",
+    "gc-crc-gc-2003-4",
+    "gc-crc-gc-2003-3",
+    "gc-crc-gc-2002-2",
+    "gc-cmw-c-gc-4",
+    "gc-int-ccpr-gec-6623"
+   ]
+  },
+  {
+   "id": "discapacidad",
+   "name": "Derechos de las personas con discapacidad",
+   "phrases": [
+    "personas con discapacidad",
+    "persons with disabilities",
+    "minusválid"
+   ],
+   "articles": [
+    {
+     "instrument": "oas-san-salvador",
+     "article": "18",
+     "anchor": "art-18",
+     "basis": "article_heading",
+     "evidence": "Protección de los Minusválidos",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 7 - Article 4.3 and 33.3 : Participation with persons with disabilities, including children with disabilities, in the implementation and monitoring of the Convention (Adopted 21 September 2018) Easy Read English version",
+     "document": "gc-crpd-c-gc-7-easy-read-version",
+     "symbol": "CRPD/C/GC/7 Easy Read version"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "33",
+     "anchor": "art-33",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 7 - Article 4.3 and 33.3 : Participation with persons with disabilities, including children with disabilities, in the implementation and monitoring of the Convention (Adopted 21 September 2018) Easy Read English version",
+     "document": "gc-crpd-c-gc-7-easy-read-version",
+     "symbol": "CRPD/C/GC/7 Easy Read version"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 7 - Article 4.3 and 33.3 : Participation with persons with disabilities, including children with disabilities, in the implementation and monitoring of the Convention (Adopted 21 September 2018)",
+     "document": "gc-crpd-c-gc-7",
+     "symbol": "CRPD/C/GC/7"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "33",
+     "anchor": "art-33",
+     "basis": "general_comment_title",
+     "evidence": "General Comment No. 7 - Article 4.3 and 33.3 : Participation with persons with disabilities, including children with disabilities, in the implementation and monitoring of the Convention (Adopted 21 September 2018)",
+     "document": "gc-crpd-c-gc-7",
+     "symbol": "CRPD/C/GC/7"
+    }
+   ],
+   "instruments": [
+    {
+     "instrument": "un-crpd",
+     "basis": "instrument_title",
+     "evidence": "Convención sobre los derechos de las personas con discapacidad"
+    },
+    {
+     "instrument": "un-crpd-op",
+     "basis": "instrument_title",
+     "evidence": "Protocolo Facultativo a la Convención sobre los derechos de las personas con discapacidad"
+    },
+    {
+     "instrument": "oas-disability",
+     "basis": "instrument_title",
+     "evidence": "Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad"
+    }
+   ],
+   "interpretations": [
+    "gc-crpd-c-gc-11",
+    "gc-crpd-c-gc-8",
+    "gc-crpd-c-gc-7-easy-read-version",
+    "gc-crpd-c-gc-7",
+    "gc-int-cescr-gec-4760"
+   ]
+  },
+  {
+   "id": "mujeres",
+   "name": "Derechos de las mujeres",
+   "phrases": [
+    "discriminación contra la mujer",
+    "violencia contra la mujer",
+    "mujeres con discapacidad",
+    "rights of women",
+    "igualdad de derechos del hombre y la mujer"
+   ],
+   "articles": [
+    {
+     "instrument": "un-crpd",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Mujeres con discapacidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "general_comment_title",
+     "evidence": "Proyecto de Recomendación general Nº 28 relativa al artículo 2 de la Convención sobre la eliminación de todas las formas de discriminación contra la mujer",
+     "document": "gc-cedaw-c-gc-28",
+     "symbol": "CEDAW/C/GC/28"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "general_comment_title",
+     "evidence": "Recomendación general No. 25, sobre el párrafo 1 del artículo 4 de la Convención sobre la eliminación de todas las formas de discriminación contra la mujer, referente a medidas especiales de carácter temporal",
+     "document": "gc-int-cedaw-gec-3733",
+     "symbol": "INT/CEDAW/GEC/3733"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "general_comment_title",
+     "evidence": "RECOMENDACIÓN GENERAL Nº 12 (Octavo período de sesiones, 1989)* Violencia contra la mujer El Comité para la Eliminación de la Discriminación contra la Mujer, Considerando que los artículos 2, 5, 11, 12 y 16 de la Convención obligan a los Estados Partes a proteger a la mujer contra cualquier tipo de violencia que se produzca en la familia, en el trabajo o en cualquier otro ámbito de la vida social, Teniendo en cuenta la resolución 1988/27 del Consejo Económico y Social, Recomienda",
+     "document": "gc-int-cedaw-gec-5831",
+     "symbol": "INT/CEDAW/GEC/5831"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "5",
+     "anchor": "art-5",
+     "basis": "general_comment_title",
+     "evidence": "RECOMENDACIÓN GENERAL Nº 12 (Octavo período de sesiones, 1989)* Violencia contra la mujer El Comité para la Eliminación de la Discriminación contra la Mujer, Considerando que los artículos 2, 5, 11, 12 y 16 de la Convención obligan a los Estados Partes a proteger a la mujer contra cualquier tipo de violencia que se produzca en la familia, en el trabajo o en cualquier otro ámbito de la vida social, Teniendo en cuenta la resolución 1988/27 del Consejo Económico y Social, Recomienda",
+     "document": "gc-int-cedaw-gec-5831",
+     "symbol": "INT/CEDAW/GEC/5831"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "general_comment_title",
+     "evidence": "RECOMENDACIÓN GENERAL Nº 12 (Octavo período de sesiones, 1989)* Violencia contra la mujer El Comité para la Eliminación de la Discriminación contra la Mujer, Considerando que los artículos 2, 5, 11, 12 y 16 de la Convención obligan a los Estados Partes a proteger a la mujer contra cualquier tipo de violencia que se produzca en la familia, en el trabajo o en cualquier otro ámbito de la vida social, Teniendo en cuenta la resolución 1988/27 del Consejo Económico y Social, Recomienda",
+     "document": "gc-int-cedaw-gec-5831",
+     "symbol": "INT/CEDAW/GEC/5831"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "12",
+     "anchor": "art-12",
+     "basis": "general_comment_title",
+     "evidence": "RECOMENDACIÓN GENERAL Nº 12 (Octavo período de sesiones, 1989)* Violencia contra la mujer El Comité para la Eliminación de la Discriminación contra la Mujer, Considerando que los artículos 2, 5, 11, 12 y 16 de la Convención obligan a los Estados Partes a proteger a la mujer contra cualquier tipo de violencia que se produzca en la familia, en el trabajo o en cualquier otro ámbito de la vida social, Teniendo en cuenta la resolución 1988/27 del Consejo Económico y Social, Recomienda",
+     "document": "gc-int-cedaw-gec-5831",
+     "symbol": "INT/CEDAW/GEC/5831"
+    },
+    {
+     "instrument": "un-cedaw",
+     "article": "16",
+     "anchor": "art-16",
+     "basis": "general_comment_title",
+     "evidence": "RECOMENDACIÓN GENERAL Nº 12 (Octavo período de sesiones, 1989)* Violencia contra la mujer El Comité para la Eliminación de la Discriminación contra la Mujer, Considerando que los artículos 2, 5, 11, 12 y 16 de la Convención obligan a los Estados Partes a proteger a la mujer contra cualquier tipo de violencia que se produzca en la familia, en el trabajo o en cualquier otro ámbito de la vida social, Teniendo en cuenta la resolución 1988/27 del Consejo Económico y Social, Recomienda",
+     "document": "gc-int-cedaw-gec-5831",
+     "symbol": "INT/CEDAW/GEC/5831"
+    },
+    {
+     "instrument": "un-icescr",
+     "article": "3",
+     "anchor": "art-3",
+     "basis": "general_comment_title",
+     "evidence": "Observación general Nº 16: La igualdad de derechos del hombre y la mujer al disfrute de los derechos económicos, sociales y culturales (artículo 3 del Pacto Internacional de Derechos Económicos, Sociales y Culturales)",
+     "document": "gc-e-c-12-2005-4",
+     "symbol": "E/C.12/2005/4"
+    }
+   ],
+   "instruments": [
+    {
+     "instrument": "un-cedaw",
+     "basis": "instrument_title",
+     "evidence": "Convención sobre la eliminación de todas las formas de discriminación contra la mujer"
+    },
+    {
+     "instrument": "un-cedaw-op",
+     "basis": "instrument_title",
+     "evidence": "Protocolo Facultativo de la Convención sobre la eliminación de todas las formas de discriminación contra la mujer"
+    },
+    {
+     "instrument": "coe-istanbul",
+     "basis": "instrument_title",
+     "evidence": "Convenio del Consejo de Europa sobre prevención y lucha contra la violencia contra la mujer y la violencia doméstica"
+    },
+    {
+     "instrument": "oas-belem-do-para",
+     "basis": "instrument_title",
+     "evidence": "Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia Contra la Mujer"
+    },
+    {
+     "instrument": "au-maputo",
+     "basis": "instrument_title",
+     "evidence": "Protocol to the African Charter on Human and Peoples' Rights on the Rights of Women in Africa"
+    }
+   ],
+   "interpretations": [
+    "gc-cedaw-c-gc-31-crc-c-gc-18",
+    "gc-cedaw-c-gc-28",
+    "gc-int-cedaw-gec-3733",
+    "gc-int-cedaw-gec-3731",
+    "gc-int-cedaw-gec-4730",
+    "gc-int-cedaw-gec-4726",
+    "gc-int-cedaw-gec-3728",
+    "gc-int-cedaw-gec-5831",
+    "gc-e-c-12-2005-4"
+   ]
+  },
+  {
+   "id": "desaparicion",
+   "name": "Protección contra las desapariciones forzadas",
+   "phrases": [
+    "desaparición forzada",
+    "desapariciones forzadas",
+    "enforced disappearance"
+   ],
+   "articles": [],
+   "instruments": [
+    {
+     "instrument": "un-ced",
+     "basis": "instrument_title",
+     "evidence": "Convención Internacional para la protección de todas las personas contra las desapariciones forzadas"
+    },
+    {
+     "instrument": "oas-disappearance",
+     "basis": "instrument_title",
+     "evidence": "Convención Interamericana sobre Desaparición Forzada de Personas"
+    }
+   ],
+   "interpretations": [
+    "gc-ced-c-gc-2",
+    "gc-ced-c-gc-1"
+   ]
+  },
+  {
+   "id": "esclavitud",
+   "name": "Prohibición de la esclavitud y del trabajo forzoso",
+   "phrases": [
+    "esclavitud",
+    "servidumbre",
+    "trabajo forzado",
+    "slavery"
+   ],
+   "articles": [
+    {
+     "instrument": "coe-echr",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "article_heading",
+     "evidence": "Prohibición de la esclavitud y del trabajo forzado",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Prohibición de la Esclavitud y Servidumbre",
+     "lang": "es"
+    }
+   ],
+   "instruments": [],
+   "interpretations": [
+    "gc-cerd-c-gr-40"
+   ]
+  },
+  {
+   "id": "asilo",
+   "name": "Asilo y protección de las personas refugiadas",
+   "phrases": [
+    "asilo",
+    "refugiad",
+    "refugee",
+    "asylum"
+   ],
+   "articles": [
+    {
+     "instrument": "oas-american-declaration",
+     "article": "XXVII",
+     "anchor": "art-xxvii",
+     "basis": "article_heading",
+     "evidence": "Derecho de asilo",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-refugees-1951",
+     "article": "1",
+     "anchor": "art-1",
+     "basis": "article_heading",
+     "evidence": "Definición del término «refugiado»",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-refugees-1951",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Marinos refugiados",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-refugees-1951",
+     "article": "31",
+     "anchor": "art-31",
+     "basis": "article_heading",
+     "evidence": "Refugiados que se encuentren ilegalmente en el país de refugio",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-istanbul",
+     "article": "60",
+     "anchor": "art-60",
+     "basis": "article_heading",
+     "evidence": "Solicitudes de asilo basadas en el género",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-icerd",
+     "article": "5",
+     "anchor": null,
+     "basis": "general_comment_title",
+     "evidence": "Recomendación general Nº 22 relativa al artículo 5 de la Convención y a los refugiados y las personas desplazadas",
+     "document": "gc-int-cerd-gec-7494",
+     "symbol": "INT/CERD/GEC/7494"
+    }
+   ],
+   "instruments": [
+    {
+     "instrument": "un-refugees-1951",
+     "basis": "instrument_title",
+     "evidence": "Convención sobre el Estatuto de los Refugiados"
+    },
+    {
+     "instrument": "un-refugees-1967",
+     "basis": "instrument_title",
+     "evidence": "Protocolo sobre el Estatuto de los Refugiados"
+    }
+   ],
+   "interpretations": [
+    "gc-cedaw-c-gc-32",
+    "gc-int-cerd-gec-7494"
+   ]
+  }
+ ]
+}

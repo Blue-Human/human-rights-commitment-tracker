@@ -15,6 +15,7 @@ const sections = [
   ["Datos", "/indicators"],
   ["ODS", "/ods"],
   ["Actualidad", "/monitoring"],
+  ["Atlas", "/rights"],
 ];
 // What the institute is and how it works, behind one item of the bar. The first entry leaves the site.
 const ABOUT = "Sobre el HRCI";

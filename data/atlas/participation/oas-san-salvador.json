@@ -1,0 +1,383 @@
+{
+ "instrument": "oas-san-salvador",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-52.html",
+  "retrieved": "2026-11-09",
+  "sha256": "33b2004add8651bb2b2dadecc9133177803388ae00ac5698c88126052609d010"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": "A-52 Protocolo Adicional a la Convenci�n Americana sobre Derechos Humanos en Materia de Derechos Econ�micos Sociales y Culturales \"Protocolo de San Salvador\"\n1.- M�xico\n(Declaraci�n en ocasi�n de la ratificaci�n)\n\"Al ratificar el Protocolo Adicional a la Convenc�n Americana sobre Derechos Humanos en materia de Derechos Econ�micos, Sociales y Culturales, el Gobierno de M�xico lo hace en el entendimiento de que el Art�culo 8 del aludido Protocolo se aplicar� en la Rep�blica Mexicana dentro de las modalidades y conforme a los procedimientos previstos en las disposiciones aplicables en la Constituci�n Pol�tica de los Estados Unidos Mexicanos y de sus leyes reglamentarias\".\n2.- Nicaragua\n(Declaraci�n en ocasi�n de la ratificaci�n)\nEl Estado de la Rep�blica de\nNicaragua al Depositar el respectivo Instrumento de Ratificaci�n del Protocolo Adicional a la Convenci�n Americana de Derechos Humanos en materia\nde Derechos Humanos en materia de Derechos Econ�micos, Sociales y Culturales,\n(Protocolo de San Salvador), en relaci�n a los art�culos 6 (Derecho al Trabajo), 13 (Derecho a la Educaci�n) y 18 (Protecc�n de los Minusv�lidos), declara lo siguiente:\nQue el termino \"MINUSVALIDOS\", empleado en los art�culos\n6 y 13, as� como en\nel t�tulo y en el contenido del art�culo 18 de este Protocolo, de ninguna\nmanera ser� entendido ni aplicado en el Estado de la Rep�blica de Nicaragua\nen su sentido estrictamente etimol�gico sino que ser� considerado e\nimplementado en su sentido actual e internacionalmente aceptado, que es el\nde Personas con Discapacidad.\n3\n.-\nVenezuela\nEl\n24 de julio de 2020\n, la\nRep�blica Bolivariana de\nVenezuela\ndeposit� el\ninstrumento de ratificaci�n\ndel Protocolo Adicional a la Convenci�n\nAmericana sobre Derechos Humanos en materia de Derechos Econ�micos, Sociales\ny Culturales, �Protocolo de San Salvador�, en Washington, D. C., Estados\nUnidos.\n4.-\nchile\nEl\n28 de julio de 2022\n,\nChile\nprocedi� al dep�sito del\ninstrumento de ratificaci�n\ndel Protocolo Adicional a la Convenci�n\nAmericana sobre Derechos Humanos en materia de Derechos Econ�micos,\nSociales y Culturales (�Protocolo de San Salvador�), en la sede de la\nOEA, en Washington, D. C., Estados Unidos.\n[\nTexto\ndel Tratado\n]",
+ "participants": [
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "2003-06-30",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2003-10-23",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-06-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "2006-07-12",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2006-10-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-07-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": null,
+   "consent": {
+    "date": "1996-08-08",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1996-08-21",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-08-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2001-06-05",
+   "consent": {
+    "date": "2022-03-23",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2022-07-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-03-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": null,
+   "consent": {
+    "date": "1997-10-22",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1997-12-23",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1997-10-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1999-09-29",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1999-11-16",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-09-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1993-02-10",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1993-03-25",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-02-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1995-05-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-06-06",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-05-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "2000-05-30",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2000-10-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-05-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": "1988-11-17",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1988-11-17",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": null,
+   "consent": {
+    "date": "2011-09-14",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "2011-11-10",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-09-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "M�xico",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1996-03-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-04-16",
+   "date_reading": null,
+   "statements": [
+    {
+     "section": "oas",
+     "section_title": "Declaraciones, reservas, denuncias y retiros",
+     "label": null,
+     "kind": "other",
+     "text": "1.- M�xico\n(Declaraci�n en ocasi�n de la ratificaci�n)\n\"Al ratificar el Protocolo Adicional a la Convenc�n Americana sobre Derechos Humanos en materia de Derechos Econ�micos, Sociales y Culturales, el Gobierno de M�xico lo hace en el entendimiento de que el Art�culo 8 del aludido Protocolo se aplicar� en la Rep�blica Mexicana dentro de las modalidades y conforme a los procedimientos previstos en las disposiciones aplicables en la Constituci�n Pol�tica de los Estados Unidos Mexicanos y de sus leyes reglamentarias\"."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1996-03-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "2009-12-15",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2010-03-05",
+   "date_reading": null,
+   "statements": [
+    {
+     "section": "oas",
+     "section_title": "Declaraciones, reservas, denuncias y retiros",
+     "label": null,
+     "kind": "other",
+     "text": "2.- Nicaragua\n(Declaraci�n en ocasi�n de la ratificaci�n)\nEl Estado de la Rep�blica de\nNicaragua al Depositar el respectivo Instrumento de Ratificaci�n del Protocolo Adicional a la Convenci�n Americana de Derechos Humanos en materia\nde Derechos Humanos en materia de Derechos Econ�micos, Sociales y Culturales,\n(Protocolo de San Salvador), en relaci�n a los art�culos 6 (Derecho al Trabajo), 13 (Derecho a la Educaci�n) y 18 (Protecc�n de los Minusv�lidos), declara lo siguiente:\nQue el termino \"MINUSVALIDOS\", empleado en los art�culos\n6 y 13, as� como en\nel t�tulo y en el contenido del art�culo 18 de este Protocolo, de ninguna\nmanera ser� entendido ni aplicado en el Estado de la Rep�blica de Nicaragua\nen su sentido estrictamente etimol�gico sino que ser� considerado e\nimplementado en su sentido actual e internacionalmente aceptado, que es el\nde Personas con Discapacidad.\n3\n.-\nVenezuela\nEl\n24 de julio de 2020\n, la\nRep�blica Bolivariana de\nVenezuela\ndeposit� el\ninstrumento de ratificaci�n\ndel Protocolo Adicional a la Convenci�n\nAmericana sobre Derechos Humanos en materia de Derechos Econ�micos, Sociales\ny Culturales, �Protocolo de San Salvador�, en Washington, D. C., Estados\nUnidos.\n4.-\nchile\nEl\n28 de julio de 2022\n,\nChile\nprocedi� al dep�sito del\ninstrumento de ratificaci�n\ndel Protocolo Adicional a la Convenci�n\nAmericana sobre Derechos Humanos en materia de Derechos Econ�micos,\nSociales y Culturales (�Protocolo de San Salvador�), en la sede de la\nOEA, en Washington, D. C., Estados Unidos.\n[\nTexto\ndel Tratado\n]"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2009-12-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panam�",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1992-10-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1993-02-18",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-10-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1996-08-26",
+   "consent": {
+    "date": "1997-05-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1997-06-03",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1997-05-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Per�",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1995-05-17",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-06-04",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-05-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Rep�blica Dominicana",
+   "signature": "1988-11-17",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1988-11-17",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SUR",
+   "name": "Suriname",
+   "signature": null,
+   "consent": {
+    "date": "1990-02-28",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1990-07-10",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1990-02-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1988-11-17",
+   "consent": {
+    "date": "1995-11-21",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-04-02",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-11-21",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "signature": "1989-01-27",
+   "consent": {
+    "date": "2020-07-13",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2020-07-24",
+   "date_reading": "Alguna fecha figura en el formato día/mes/año",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2020-07-13",
+    "type": "ratification"
+   }
+  }
+ ]
+}

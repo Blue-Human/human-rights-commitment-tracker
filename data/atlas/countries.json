@@ -1,0 +1,2661 @@
+{
+ "source": {
+  "source": "m49",
+  "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+  "retrieved": "2026-11-09",
+  "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb"
+ },
+ "countries": [
+  {
+   "iso3": "AFG",
+   "iso2": "AF",
+   "m49": "004",
+   "name_es": "Afganistán",
+   "name_en": "Afghanistan",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "AGO",
+   "iso2": "AO",
+   "m49": "024",
+   "name_es": "Angola",
+   "name_en": "Angola",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ALB",
+   "iso2": "AL",
+   "m49": "008",
+   "name_es": "Albania",
+   "name_en": "Albania",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "AND",
+   "iso2": "AD",
+   "m49": "020",
+   "name_es": "Andorra",
+   "name_en": "Andorra",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ARE",
+   "iso2": "AE",
+   "m49": "784",
+   "name_es": "Emiratos Árabes Unidos",
+   "name_en": "United Arab Emirates",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ARG",
+   "iso2": "AR",
+   "m49": "032",
+   "name_es": "Argentina",
+   "name_en": "Argentina",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ARM",
+   "iso2": "AM",
+   "m49": "051",
+   "name_es": "Armenia",
+   "name_en": "Armenia",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ATG",
+   "iso2": "AG",
+   "m49": "028",
+   "name_es": "Antigua y Barbuda",
+   "name_en": "Antigua and Barbuda",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "AUS",
+   "iso2": "AU",
+   "m49": "036",
+   "name_es": "Australia",
+   "name_en": "Australia",
+   "region_es": "Oceanía",
+   "subregion_es": "Australia y Nueva Zelandia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "AUT",
+   "iso2": "AT",
+   "m49": "040",
+   "name_es": "Austria",
+   "name_en": "Austria",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "AZE",
+   "iso2": "AZ",
+   "m49": "031",
+   "name_es": "Azerbaiyán",
+   "name_en": "Azerbaijan",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BDI",
+   "iso2": "BI",
+   "m49": "108",
+   "name_es": "Burundi",
+   "name_en": "Burundi",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BEL",
+   "iso2": "BE",
+   "m49": "056",
+   "name_es": "Bélgica",
+   "name_en": "Belgium",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BEN",
+   "iso2": "BJ",
+   "m49": "204",
+   "name_es": "Benin",
+   "name_en": "Benin",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BFA",
+   "iso2": "BF",
+   "m49": "854",
+   "name_es": "Burkina Faso",
+   "name_en": "Burkina Faso",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BGD",
+   "iso2": "BD",
+   "m49": "050",
+   "name_es": "Bangladesh",
+   "name_en": "Bangladesh",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BGR",
+   "iso2": "BG",
+   "m49": "100",
+   "name_es": "Bulgaria",
+   "name_en": "Bulgaria",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BHR",
+   "iso2": "BH",
+   "m49": "048",
+   "name_es": "Bahrein",
+   "name_en": "Bahrain",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BHS",
+   "iso2": "BS",
+   "m49": "044",
+   "name_es": "Bahamas",
+   "name_en": "Bahamas",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BIH",
+   "iso2": "BA",
+   "m49": "070",
+   "name_es": "Bosnia y Herzegovina",
+   "name_en": "Bosnia and Herzegovina",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BLR",
+   "iso2": "BY",
+   "m49": "112",
+   "name_es": "Belarús",
+   "name_en": "Belarus",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BLZ",
+   "iso2": "BZ",
+   "m49": "084",
+   "name_es": "Belice",
+   "name_en": "Belize",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BOL",
+   "iso2": "BO",
+   "m49": "068",
+   "name_es": "Bolivia (Estado Plurinacional de)",
+   "name_en": "Bolivia (Plurinational State of)",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BRA",
+   "iso2": "BR",
+   "m49": "076",
+   "name_es": "Brasil",
+   "name_en": "Brazil",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BRB",
+   "iso2": "BB",
+   "m49": "052",
+   "name_es": "Barbados",
+   "name_en": "Barbados",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "BRN",
+   "iso2": "BN",
+   "m49": "096",
+   "name_es": "Brunei Darussalam",
+   "name_en": "Brunei Darussalam",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BTN",
+   "iso2": "BT",
+   "m49": "064",
+   "name_es": "Bhután",
+   "name_en": "Bhutan",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "BWA",
+   "iso2": "BW",
+   "m49": "072",
+   "name_es": "Botswana",
+   "name_en": "Botswana",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África meridional",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CAF",
+   "iso2": "CF",
+   "m49": "140",
+   "name_es": "República Centroafricana",
+   "name_en": "Central African Republic",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CAN",
+   "iso2": "CA",
+   "m49": "124",
+   "name_es": "Canadá",
+   "name_en": "Canada",
+   "region_es": "Américas",
+   "subregion_es": "América septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CHE",
+   "iso2": "CH",
+   "m49": "756",
+   "name_es": "Suiza",
+   "name_en": "Switzerland",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "CHL",
+   "iso2": "CL",
+   "m49": "152",
+   "name_es": "Chile",
+   "name_en": "Chile",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CHN",
+   "iso2": "CN",
+   "m49": "156",
+   "name_es": "China",
+   "name_en": "China",
+   "region_es": "Asia",
+   "subregion_es": "Asia oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "CIV",
+   "iso2": "CI",
+   "m49": "384",
+   "name_es": "Côte d’Ivoire",
+   "name_en": "Côte d’Ivoire",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CMR",
+   "iso2": "CM",
+   "m49": "120",
+   "name_es": "Camerún",
+   "name_en": "Cameroon",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "COD",
+   "iso2": "CD",
+   "m49": "180",
+   "name_es": "República Democrática del Congo",
+   "name_en": "Democratic Republic of the Congo",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "COG",
+   "iso2": "CG",
+   "m49": "178",
+   "name_es": "Congo",
+   "name_en": "Congo",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "COK",
+   "iso2": "CK",
+   "m49": "184",
+   "name_es": "Islas Cook",
+   "name_en": "Cook Islands",
+   "region_es": "Oceanía",
+   "subregion_es": "Polinesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "COL",
+   "iso2": "CO",
+   "m49": "170",
+   "name_es": "Colombia",
+   "name_en": "Colombia",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "COM",
+   "iso2": "KM",
+   "m49": "174",
+   "name_es": "Comoras",
+   "name_en": "Comoros",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CPV",
+   "iso2": "CV",
+   "m49": "132",
+   "name_es": "Cabo Verde",
+   "name_en": "Cabo Verde",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CRI",
+   "iso2": "CR",
+   "m49": "188",
+   "name_es": "Costa Rica",
+   "name_en": "Costa Rica",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CUB",
+   "iso2": "CU",
+   "m49": "192",
+   "name_es": "Cuba",
+   "name_en": "Cuba",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "CYP",
+   "iso2": "CY",
+   "m49": "196",
+   "name_es": "Chipre",
+   "name_en": "Cyprus",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "CZE",
+   "iso2": "CZ",
+   "m49": "203",
+   "name_es": "Chequia",
+   "name_en": "Czechia",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "DEU",
+   "iso2": "DE",
+   "m49": "276",
+   "name_es": "Alemania",
+   "name_en": "Germany",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "DJI",
+   "iso2": "DJ",
+   "m49": "262",
+   "name_es": "Djibouti",
+   "name_en": "Djibouti",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "DMA",
+   "iso2": "DM",
+   "m49": "212",
+   "name_es": "Dominica",
+   "name_en": "Dominica",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "DNK",
+   "iso2": "DK",
+   "m49": "208",
+   "name_es": "Dinamarca",
+   "name_en": "Denmark",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "DOM",
+   "iso2": "DO",
+   "m49": "214",
+   "name_es": "República Dominicana",
+   "name_en": "Dominican Republic",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "DZA",
+   "iso2": "DZ",
+   "m49": "012",
+   "name_es": "Argelia",
+   "name_en": "Algeria",
+   "region_es": "África",
+   "subregion_es": "África septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ECU",
+   "iso2": "EC",
+   "m49": "218",
+   "name_es": "Ecuador",
+   "name_en": "Ecuador",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "EGY",
+   "iso2": "EG",
+   "m49": "818",
+   "name_es": "Egipto",
+   "name_en": "Egypt",
+   "region_es": "África",
+   "subregion_es": "África septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ERI",
+   "iso2": "ER",
+   "m49": "232",
+   "name_es": "Eritrea",
+   "name_en": "Eritrea",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ESP",
+   "iso2": "ES",
+   "m49": "724",
+   "name_es": "España",
+   "name_en": "Spain",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "coe",
+    "un"
+   ]
+  },
+  {
+   "iso3": "EST",
+   "iso2": "EE",
+   "m49": "233",
+   "name_es": "Estonia",
+   "name_en": "Estonia",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ETH",
+   "iso2": "ET",
+   "m49": "231",
+   "name_es": "Etiopía",
+   "name_en": "Ethiopia",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "FIN",
+   "iso2": "FI",
+   "m49": "246",
+   "name_es": "Finlandia",
+   "name_en": "Finland",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "FJI",
+   "iso2": "FJ",
+   "m49": "242",
+   "name_es": "Fiji",
+   "name_en": "Fiji",
+   "region_es": "Oceanía",
+   "subregion_es": "Melanesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "FRA",
+   "iso2": "FR",
+   "m49": "250",
+   "name_es": "Francia",
+   "name_en": "France",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "FSM",
+   "iso2": "FM",
+   "m49": "583",
+   "name_es": "Micronesia (Estados Federados de)",
+   "name_en": "Micronesia (Federated States of)",
+   "region_es": "Oceanía",
+   "subregion_es": "Micronesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "GAB",
+   "iso2": "GA",
+   "m49": "266",
+   "name_es": "Gabón",
+   "name_en": "Gabon",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GBR",
+   "iso2": "GB",
+   "m49": "826",
+   "name_es": "Reino Unido de Gran Bretaña e Irlanda del Norte",
+   "name_en": "United Kingdom of Great Britain and Northern Ireland",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "GEO",
+   "iso2": "GE",
+   "m49": "268",
+   "name_es": "Georgia",
+   "name_en": "Georgia",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "GHA",
+   "iso2": "GH",
+   "m49": "288",
+   "name_es": "Ghana",
+   "name_en": "Ghana",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GIN",
+   "iso2": "GN",
+   "m49": "324",
+   "name_es": "Guinea",
+   "name_en": "Guinea",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GMB",
+   "iso2": "GM",
+   "m49": "270",
+   "name_es": "Gambia",
+   "name_en": "Gambia",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GNB",
+   "iso2": "GW",
+   "m49": "624",
+   "name_es": "Guinea-Bissau",
+   "name_en": "Guinea-Bissau",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GNQ",
+   "iso2": "GQ",
+   "m49": "226",
+   "name_es": "Guinea Ecuatorial",
+   "name_en": "Equatorial Guinea",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GRC",
+   "iso2": "GR",
+   "m49": "300",
+   "name_es": "Grecia",
+   "name_en": "Greece",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "GRD",
+   "iso2": "GD",
+   "m49": "308",
+   "name_es": "Granada",
+   "name_en": "Grenada",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GTM",
+   "iso2": "GT",
+   "m49": "320",
+   "name_es": "Guatemala",
+   "name_en": "Guatemala",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "GUY",
+   "iso2": "GY",
+   "m49": "328",
+   "name_es": "Guyana",
+   "name_en": "Guyana",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "HND",
+   "iso2": "HN",
+   "m49": "340",
+   "name_es": "Honduras",
+   "name_en": "Honduras",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "HRV",
+   "iso2": "HR",
+   "m49": "191",
+   "name_es": "Croacia",
+   "name_en": "Croatia",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "HTI",
+   "iso2": "HT",
+   "m49": "332",
+   "name_es": "Haití",
+   "name_en": "Haiti",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "HUN",
+   "iso2": "HU",
+   "m49": "348",
+   "name_es": "Hungría",
+   "name_en": "Hungary",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "IDN",
+   "iso2": "ID",
+   "m49": "360",
+   "name_es": "Indonesia",
+   "name_en": "Indonesia",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "IND",
+   "iso2": "IN",
+   "m49": "356",
+   "name_es": "India",
+   "name_en": "India",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "IRL",
+   "iso2": "IE",
+   "m49": "372",
+   "name_es": "Irlanda",
+   "name_en": "Ireland",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "IRN",
+   "iso2": "IR",
+   "m49": "364",
+   "name_es": "Irán (República Islámica del)",
+   "name_en": "Iran (Islamic Republic of)",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "IRQ",
+   "iso2": "IQ",
+   "m49": "368",
+   "name_es": "Iraq",
+   "name_en": "Iraq",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ISL",
+   "iso2": "IS",
+   "m49": "352",
+   "name_es": "Islandia",
+   "name_en": "Iceland",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ISR",
+   "iso2": "IL",
+   "m49": "376",
+   "name_es": "Israel",
+   "name_en": "Israel",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ITA",
+   "iso2": "IT",
+   "m49": "380",
+   "name_es": "Italia",
+   "name_en": "Italy",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "JAM",
+   "iso2": "JM",
+   "m49": "388",
+   "name_es": "Jamaica",
+   "name_en": "Jamaica",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "JOR",
+   "iso2": "JO",
+   "m49": "400",
+   "name_es": "Jordania",
+   "name_en": "Jordan",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "JPN",
+   "iso2": "JP",
+   "m49": "392",
+   "name_es": "Japón",
+   "name_en": "Japan",
+   "region_es": "Asia",
+   "subregion_es": "Asia oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "KAZ",
+   "iso2": "KZ",
+   "m49": "398",
+   "name_es": "Kazajstán",
+   "name_en": "Kazakhstan",
+   "region_es": "Asia",
+   "subregion_es": "Asia central",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "KEN",
+   "iso2": "KE",
+   "m49": "404",
+   "name_es": "Kenya",
+   "name_en": "Kenya",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "KGZ",
+   "iso2": "KG",
+   "m49": "417",
+   "name_es": "Kirguistán",
+   "name_en": "Kyrgyzstan",
+   "region_es": "Asia",
+   "subregion_es": "Asia central",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "KHM",
+   "iso2": "KH",
+   "m49": "116",
+   "name_es": "Camboya",
+   "name_en": "Cambodia",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "KIR",
+   "iso2": "KI",
+   "m49": "296",
+   "name_es": "Kiribati",
+   "name_en": "Kiribati",
+   "region_es": "Oceanía",
+   "subregion_es": "Micronesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "KNA",
+   "iso2": "KN",
+   "m49": "659",
+   "name_es": "Saint Kitts y Nevis",
+   "name_en": "Saint Kitts and Nevis",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "KOR",
+   "iso2": "KR",
+   "m49": "410",
+   "name_es": "República de Corea",
+   "name_en": "Republic of Korea",
+   "region_es": "Asia",
+   "subregion_es": "Asia oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "KWT",
+   "iso2": "KW",
+   "m49": "414",
+   "name_es": "Kuwait",
+   "name_en": "Kuwait",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LAO",
+   "iso2": "LA",
+   "m49": "418",
+   "name_es": "República Democrática Popular Lao",
+   "name_en": "Lao People's Democratic Republic",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LBN",
+   "iso2": "LB",
+   "m49": "422",
+   "name_es": "Líbano",
+   "name_en": "Lebanon",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LBR",
+   "iso2": "LR",
+   "m49": "430",
+   "name_es": "Liberia",
+   "name_en": "Liberia",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "LBY",
+   "iso2": "LY",
+   "m49": "434",
+   "name_es": "Libia",
+   "name_en": "Libya",
+   "region_es": "África",
+   "subregion_es": "África septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "LCA",
+   "iso2": "LC",
+   "m49": "662",
+   "name_es": "Santa Lucía",
+   "name_en": "Saint Lucia",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "LIE",
+   "iso2": "LI",
+   "m49": "438",
+   "name_es": "Liechtenstein",
+   "name_en": "Liechtenstein",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LKA",
+   "iso2": "LK",
+   "m49": "144",
+   "name_es": "Sri Lanka",
+   "name_en": "Sri Lanka",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LSO",
+   "iso2": "LS",
+   "m49": "426",
+   "name_es": "Lesotho",
+   "name_en": "Lesotho",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África meridional",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "LTU",
+   "iso2": "LT",
+   "m49": "440",
+   "name_es": "Lituania",
+   "name_en": "Lithuania",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LUX",
+   "iso2": "LU",
+   "m49": "442",
+   "name_es": "Luxemburgo",
+   "name_en": "Luxembourg",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "LVA",
+   "iso2": "LV",
+   "m49": "428",
+   "name_es": "Letonia",
+   "name_en": "Latvia",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MAR",
+   "iso2": "MA",
+   "m49": "504",
+   "name_es": "Marruecos",
+   "name_en": "Morocco",
+   "region_es": "África",
+   "subregion_es": "África septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MCO",
+   "iso2": "MC",
+   "m49": "492",
+   "name_es": "Mónaco",
+   "name_en": "Monaco",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MDA",
+   "iso2": "MD",
+   "m49": "498",
+   "name_es": "República de Moldova",
+   "name_en": "Republic of Moldova",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MDG",
+   "iso2": "MG",
+   "m49": "450",
+   "name_es": "Madagascar",
+   "name_en": "Madagascar",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MDV",
+   "iso2": "MV",
+   "m49": "462",
+   "name_es": "Maldivas",
+   "name_en": "Maldives",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MEX",
+   "iso2": "MX",
+   "m49": "484",
+   "name_es": "México",
+   "name_en": "Mexico",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MHL",
+   "iso2": "MH",
+   "m49": "584",
+   "name_es": "Islas Marshall",
+   "name_en": "Marshall Islands",
+   "region_es": "Oceanía",
+   "subregion_es": "Micronesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MKD",
+   "iso2": "MK",
+   "m49": "807",
+   "name_es": "Macedonia del Norte",
+   "name_en": "North Macedonia",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MLI",
+   "iso2": "ML",
+   "m49": "466",
+   "name_es": "Malí",
+   "name_en": "Mali",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MLT",
+   "iso2": "MT",
+   "m49": "470",
+   "name_es": "Malta",
+   "name_en": "Malta",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MMR",
+   "iso2": "MM",
+   "m49": "104",
+   "name_es": "Myanmar",
+   "name_en": "Myanmar",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MNE",
+   "iso2": "ME",
+   "m49": "499",
+   "name_es": "Montenegro",
+   "name_en": "Montenegro",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MNG",
+   "iso2": "MN",
+   "m49": "496",
+   "name_es": "Mongolia",
+   "name_en": "Mongolia",
+   "region_es": "Asia",
+   "subregion_es": "Asia oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "MOZ",
+   "iso2": "MZ",
+   "m49": "508",
+   "name_es": "Mozambique",
+   "name_en": "Mozambique",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MRT",
+   "iso2": "MR",
+   "m49": "478",
+   "name_es": "Mauritania",
+   "name_en": "Mauritania",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MUS",
+   "iso2": "MU",
+   "m49": "480",
+   "name_es": "Mauricio",
+   "name_en": "Mauritius",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MWI",
+   "iso2": "MW",
+   "m49": "454",
+   "name_es": "Malawi",
+   "name_en": "Malawi",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "MYS",
+   "iso2": "MY",
+   "m49": "458",
+   "name_es": "Malasia",
+   "name_en": "Malaysia",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "NAM",
+   "iso2": "NA",
+   "m49": "516",
+   "name_es": "Namibia",
+   "name_en": "Namibia",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África meridional",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "NER",
+   "iso2": "NE",
+   "m49": "562",
+   "name_es": "Níger",
+   "name_en": "Niger",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "NGA",
+   "iso2": "NG",
+   "m49": "566",
+   "name_es": "Nigeria",
+   "name_en": "Nigeria",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "NIC",
+   "iso2": "NI",
+   "m49": "558",
+   "name_es": "Nicaragua",
+   "name_en": "Nicaragua",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "NIU",
+   "iso2": "NU",
+   "m49": "570",
+   "name_es": "Niue",
+   "name_en": "Niue",
+   "region_es": "Oceanía",
+   "subregion_es": "Polinesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "NLD",
+   "iso2": "NL",
+   "m49": "528",
+   "name_es": "Países Bajos (Reino de los)",
+   "name_en": "Netherlands (Kingdom of the)",
+   "region_es": "Europa",
+   "subregion_es": "Europa occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "NOR",
+   "iso2": "NO",
+   "m49": "578",
+   "name_es": "Noruega",
+   "name_en": "Norway",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "NPL",
+   "iso2": "NP",
+   "m49": "524",
+   "name_es": "Nepal",
+   "name_en": "Nepal",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "NRU",
+   "iso2": "NR",
+   "m49": "520",
+   "name_es": "Naoero",
+   "name_en": "Naoero",
+   "region_es": "Oceanía",
+   "subregion_es": "Micronesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "NZL",
+   "iso2": "NZ",
+   "m49": "554",
+   "name_es": "Nueva Zelandia",
+   "name_en": "New Zealand",
+   "region_es": "Oceanía",
+   "subregion_es": "Australia y Nueva Zelandia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "OMN",
+   "iso2": "OM",
+   "m49": "512",
+   "name_es": "Omán",
+   "name_en": "Oman",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PAK",
+   "iso2": "PK",
+   "m49": "586",
+   "name_es": "Pakistán",
+   "name_en": "Pakistan",
+   "region_es": "Asia",
+   "subregion_es": "Asia meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PAN",
+   "iso2": "PA",
+   "m49": "591",
+   "name_es": "Panamá",
+   "name_en": "Panama",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "PER",
+   "iso2": "PE",
+   "m49": "604",
+   "name_es": "Perú",
+   "name_en": "Peru",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "PHL",
+   "iso2": "PH",
+   "m49": "608",
+   "name_es": "Filipinas",
+   "name_en": "Philippines",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PLW",
+   "iso2": "PW",
+   "m49": "585",
+   "name_es": "Palau",
+   "name_en": "Palau",
+   "region_es": "Oceanía",
+   "subregion_es": "Micronesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PNG",
+   "iso2": "PG",
+   "m49": "598",
+   "name_es": "Papua Nueva Guinea",
+   "name_en": "Papua New Guinea",
+   "region_es": "Oceanía",
+   "subregion_es": "Melanesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "POL",
+   "iso2": "PL",
+   "m49": "616",
+   "name_es": "Polonia",
+   "name_en": "Poland",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PRK",
+   "iso2": "KP",
+   "m49": "408",
+   "name_es": "República Popular Democrática de Corea",
+   "name_en": "Democratic People's Republic of Korea",
+   "region_es": "Asia",
+   "subregion_es": "Asia oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PRT",
+   "iso2": "PT",
+   "m49": "620",
+   "name_es": "Portugal",
+   "name_en": "Portugal",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "PRY",
+   "iso2": "PY",
+   "m49": "600",
+   "name_es": "Paraguay",
+   "name_en": "Paraguay",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "PSE",
+   "iso2": "PS",
+   "m49": "275",
+   "name_es": "Estado de Palestina",
+   "name_en": "State of Palestine",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "QAT",
+   "iso2": "QA",
+   "m49": "634",
+   "name_es": "Qatar",
+   "name_en": "Qatar",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ROU",
+   "iso2": "RO",
+   "m49": "642",
+   "name_es": "Rumania",
+   "name_en": "Romania",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "RUS",
+   "iso2": "RU",
+   "m49": "643",
+   "name_es": "Federación de Rusia",
+   "name_en": "Russian Federation",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "RWA",
+   "iso2": "RW",
+   "m49": "646",
+   "name_es": "Rwanda",
+   "name_en": "Rwanda",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SAU",
+   "iso2": "SA",
+   "m49": "682",
+   "name_es": "Arabia Saudita",
+   "name_en": "Saudi Arabia",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SDN",
+   "iso2": "SD",
+   "m49": "729",
+   "name_es": "Sudán",
+   "name_en": "Sudan",
+   "region_es": "África",
+   "subregion_es": "África septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SEN",
+   "iso2": "SN",
+   "m49": "686",
+   "name_es": "Senegal",
+   "name_en": "Senegal",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SGP",
+   "iso2": "SG",
+   "m49": "702",
+   "name_es": "Singapur",
+   "name_en": "Singapore",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SLB",
+   "iso2": "SB",
+   "m49": "090",
+   "name_es": "Islas Salomón",
+   "name_en": "Solomon Islands",
+   "region_es": "Oceanía",
+   "subregion_es": "Melanesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SLE",
+   "iso2": "SL",
+   "m49": "694",
+   "name_es": "Sierra Leona",
+   "name_en": "Sierra Leone",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SLV",
+   "iso2": "SV",
+   "m49": "222",
+   "name_es": "El Salvador",
+   "name_en": "El Salvador",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América central",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SMR",
+   "iso2": "SM",
+   "m49": "674",
+   "name_es": "San Marino",
+   "name_en": "San Marino",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SOM",
+   "iso2": "SO",
+   "m49": "706",
+   "name_es": "Somalia",
+   "name_en": "Somalia",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SRB",
+   "iso2": "RS",
+   "m49": "688",
+   "name_es": "Serbia",
+   "name_en": "Serbia",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SSD",
+   "iso2": "SS",
+   "m49": "728",
+   "name_es": "Sudán del Sur",
+   "name_en": "South Sudan",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "STP",
+   "iso2": "ST",
+   "m49": "678",
+   "name_es": "Santo Tomé y Príncipe",
+   "name_en": "Sao Tome and Principe",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SUR",
+   "iso2": "SR",
+   "m49": "740",
+   "name_es": "Suriname",
+   "name_en": "Suriname",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SVK",
+   "iso2": "SK",
+   "m49": "703",
+   "name_es": "Eslovaquia",
+   "name_en": "Slovakia",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SVN",
+   "iso2": "SI",
+   "m49": "705",
+   "name_es": "Eslovenia",
+   "name_en": "Slovenia",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SWE",
+   "iso2": "SE",
+   "m49": "752",
+   "name_es": "Suecia",
+   "name_en": "Sweden",
+   "region_es": "Europa",
+   "subregion_es": "Europa septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "SWZ",
+   "iso2": "SZ",
+   "m49": "748",
+   "name_es": "Eswatini",
+   "name_en": "Eswatini",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África meridional",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SYC",
+   "iso2": "SC",
+   "m49": "690",
+   "name_es": "Seychelles",
+   "name_en": "Seychelles",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "SYR",
+   "iso2": "SY",
+   "m49": "760",
+   "name_es": "República Árabe Siria",
+   "name_en": "Syrian Arab Republic",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TCD",
+   "iso2": "TD",
+   "m49": "148",
+   "name_es": "Chad",
+   "name_en": "Chad",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África central",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "TGO",
+   "iso2": "TG",
+   "m49": "768",
+   "name_es": "Togo",
+   "name_en": "Togo",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África occidental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "THA",
+   "iso2": "TH",
+   "m49": "764",
+   "name_es": "Tailandia",
+   "name_en": "Thailand",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TJK",
+   "iso2": "TJ",
+   "m49": "762",
+   "name_es": "Tayikistán",
+   "name_en": "Tajikistan",
+   "region_es": "Asia",
+   "subregion_es": "Asia central",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TKM",
+   "iso2": "TM",
+   "m49": "795",
+   "name_es": "Turkmenistán",
+   "name_en": "Turkmenistan",
+   "region_es": "Asia",
+   "subregion_es": "Asia central",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TLS",
+   "iso2": "TL",
+   "m49": "626",
+   "name_es": "Timor-Leste",
+   "name_en": "Timor-Leste",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TON",
+   "iso2": "TO",
+   "m49": "776",
+   "name_es": "Tonga",
+   "name_en": "Tonga",
+   "region_es": "Oceanía",
+   "subregion_es": "Polinesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TTO",
+   "iso2": "TT",
+   "m49": "780",
+   "name_es": "Trinidad y Tabago",
+   "name_en": "Trinidad and Tobago",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "TUN",
+   "iso2": "TN",
+   "m49": "788",
+   "name_es": "Túnez",
+   "name_en": "Tunisia",
+   "region_es": "África",
+   "subregion_es": "África septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "TUR",
+   "iso2": "TR",
+   "m49": "792",
+   "name_es": "Türkiye",
+   "name_en": "Türkiye",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TUV",
+   "iso2": "TV",
+   "m49": "798",
+   "name_es": "Tuvalu",
+   "name_en": "Tuvalu",
+   "region_es": "Oceanía",
+   "subregion_es": "Polinesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "TZA",
+   "iso2": "TZ",
+   "m49": "834",
+   "name_es": "República Unida de Tanzanía",
+   "name_en": "United Republic of Tanzania",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "UGA",
+   "iso2": "UG",
+   "m49": "800",
+   "name_es": "Uganda",
+   "name_en": "Uganda",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "UKR",
+   "iso2": "UA",
+   "m49": "804",
+   "name_es": "Ucrania",
+   "name_en": "Ukraine",
+   "region_es": "Europa",
+   "subregion_es": "Europa oriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "URY",
+   "iso2": "UY",
+   "m49": "858",
+   "name_es": "Uruguay",
+   "name_en": "Uruguay",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "USA",
+   "iso2": "US",
+   "m49": "840",
+   "name_es": "Estados Unidos de América",
+   "name_en": "United States of America",
+   "region_es": "Américas",
+   "subregion_es": "América septentrional",
+   "intermediate_region_es": null,
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "UZB",
+   "iso2": "UZ",
+   "m49": "860",
+   "name_es": "Uzbekistán",
+   "name_en": "Uzbekistan",
+   "region_es": "Asia",
+   "subregion_es": "Asia central",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "VAT",
+   "iso2": "VA",
+   "m49": "336",
+   "name_es": "Santa Sede",
+   "name_en": "Holy See",
+   "region_es": "Europa",
+   "subregion_es": "Europa meridional",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "VCT",
+   "iso2": "VC",
+   "m49": "670",
+   "name_es": "San Vicente y las Granadinas",
+   "name_en": "Saint Vincent and the Grenadines",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "El Caribe",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "VEN",
+   "iso2": "VE",
+   "m49": "862",
+   "name_es": "Venezuela (República Bolivariana de)",
+   "name_en": "Venezuela (Bolivarian Republic of)",
+   "region_es": "Américas",
+   "subregion_es": "América Latina y el Caribe",
+   "intermediate_region_es": "América del Sur",
+   "systems": [
+    "oas",
+    "un"
+   ]
+  },
+  {
+   "iso3": "VNM",
+   "iso2": "VN",
+   "m49": "704",
+   "name_es": "Viet Nam",
+   "name_en": "Viet Nam",
+   "region_es": "Asia",
+   "subregion_es": "Asia sudoriental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "VUT",
+   "iso2": "VU",
+   "m49": "548",
+   "name_es": "Vanuatu",
+   "name_en": "Vanuatu",
+   "region_es": "Oceanía",
+   "subregion_es": "Melanesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "WSM",
+   "iso2": "WS",
+   "m49": "882",
+   "name_es": "Samoa",
+   "name_en": "Samoa",
+   "region_es": "Oceanía",
+   "subregion_es": "Polinesia",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "YEM",
+   "iso2": "YE",
+   "m49": "887",
+   "name_es": "Yemen",
+   "name_en": "Yemen",
+   "region_es": "Asia",
+   "subregion_es": "Asia occidental",
+   "intermediate_region_es": null,
+   "systems": [
+    "un"
+   ]
+  },
+  {
+   "iso3": "ZAF",
+   "iso2": "ZA",
+   "m49": "710",
+   "name_es": "Sudáfrica",
+   "name_en": "South Africa",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África meridional",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ZMB",
+   "iso2": "ZM",
+   "m49": "894",
+   "name_es": "Zambia",
+   "name_en": "Zambia",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  },
+  {
+   "iso3": "ZWE",
+   "iso2": "ZW",
+   "m49": "716",
+   "name_es": "Zimbabwe",
+   "name_en": "Zimbabwe",
+   "region_es": "África",
+   "subregion_es": "África Subsahariana",
+   "intermediate_region_es": "África oriental",
+   "systems": [
+    "au",
+    "un"
+   ]
+  }
+ ]
+}

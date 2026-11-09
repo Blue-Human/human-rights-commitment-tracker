@@ -1,0 +1,398 @@
+{
+ "instrument": "un-crpd-op",
+ "authority": "authentic",
+ "lang": "es",
+ "title": "PROTOCOLO FACULTATIVO DE LA CONVENCIÓN SOBRE LOS DERECHOS DE LAS PERSONAS CON DISCAPACIDAD",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de ratificación del Protocolo Facultativo a la Convención sobre los derechos de las personas con discapacidad, hecho en Nueva York el 13 de diciembre de 2006.",
+  "identifier": "BOE-A-2008-6996",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+  "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-6996",
+  "eli": "https://www.boe.es/eli/es/ai/2006/12/13/(2)",
+  "published": "2008-04-22",
+  "retrieved": "2026-11-09",
+  "sha256": "521e2cd60900f1dec5473494d31c8ecf6a47b17c04516638c3f4a6e7053916cb",
+  "method": "boe-gazette"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Partes en el presente Protocolo acuerdan lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. Todo Estado Parte en el presente Protocolo («Estado Parte» reconoce la competencia del Comité sobre los Derechos de las Personas con Discapacidad («el Comité») para recibir y considerar las comunicaciones presentadas por personas o grupos de personas sujetos a su jurisdicción que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de las disposiciones de la Convención, o en nombre de esas personas o grupos de personas.",
+     "number": "1"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "El Comité considerará inadmisible una comunicación cuando:"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "a) Sea anónima;"
+    },
+    {
+     "id": "art-2-p3",
+     "text": "b) Constituya un abuso del derecho a presentar una comunicación o sea incompatible con las disposiciones de la Convención;\nc) Se refiera a una cuestión que ya haya sido examinada por el Comité o ya haya sido o esté siendo examinada de conformidad con otro procedimiento de investigación o arreglo internacionales;\nd) No se hayan agotado todos los recursos internos disponibles, salvo que la tramitación de esos recursos se prolongue injutificadamente o sea improbable que con ellos se logre un remedio efectivo;\ne) Sea manifiestamente infundada o esté insuficientemente sustanciada; o\nf) Los hechos objeto de la comunicación hubieran sucedido antes de la fecha de entrada en vigor del presente Protocolo para el Estado Parte interesado, salvo que esos hechos continuasen produciéndose después de esa fecha."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Sin perjuicio de lo dispuesto en el artículo 2 del presente Protocolo, el Comité pondrá en conocimiento del Estado Parte, de forma confidencial, toda comunicación que reciba con arreglo al presente Protocolo. En un plazo de seis meses, ese Estado Parte presentará al Comité por escrito explicaciones o declaraciones en las que se aclare la cuestión y se indiquen las medidas correctivas que hubiere adoptado el Estado Parte, de haberlas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Tras haber recibido una comunicación y antes de llegar a una conclusión sobre el fondo de ésta, el Comité podrá remitir en cualquier momento al Estado Parte interesado, a los fines de su examen urgente, una solicitud para que adopte las medidas provisionales necesarias a fin de evitar posibles daños irreparables a la víctima o las víctimas de la supuesta violación.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. El ejercicio por el Comité de sus facultades discrecionales en virtud del párrafo 1 del presente artículo, no implicará juicio alguno sobre la admisibilidad o sobre el fondo de la comunicación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "El Comité examinará en sesiones privadas las comunicaciones que reciba en virtud del presente Protocolo. Tras examinar una comunicación, el Comité hará llegar sus sugerencias y recomendaciones, si las hubiere, al Estado Parte interesado y al comunicante."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. Si el Comité recibe información fidedigna que revele violaciones graves o sistemáticas por un Estado Parte de los derechos recogidos en la Convención, el Comité invitará a ese Estado Parte a colaborar en el examen de la información y, a esos efectos, a presentar observaciones sobre dicha información.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. Tomando en consideración las observaciones que haya presentado el Estado Parte interesado, así como toda información fidedigna que esté a su disposición, el Comité podrá encargar a uno o más de sus miembros que lleven a cabo una investigación y presenten, con carácter urgente, un informe al Comité. Cuando se justifique y con el consentimiento del Estado Parte, la investigación podrá incluir una visita a su territorio.\n3. Tras examinar las conclusiones de la investigación, el Comité las transmitirá al Estado Parte interesado, junto con las observaciones y recomendaciones que estime oportunas.\n4. En un plazo de seis meses después de recibir las conclusiones de la investigación y las observaciones y recomendaciones que le transmita el Comité, el Estado Parte interesado presentará sus propias observaciones al Comité.\n5. La investigación será de carácter confidencial y en todas sus etapas se solicitará la colaboración del Estado Parte.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. El Comité podrá invitar al Estado Parte interesado a que incluya en el informe que ha de presentar con arreglo al artículo 35 de la Convención pormenores sobre cualesquiera medidas que hubiere adoptado en respuesta a una investigación efectuada con arreglo al artículo 6 del presente Protocolo.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. Transcurrido el período de seis meses indicado en el párrafo 4 del artículo 6, el Comité podrá, si fuera necesario, invitar a Estado Parte interesado a que le informe sobre cualquier medida adoptada como resultado de la investigación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "Todo Estado Parte podrá, al momento de la firma o ratificación del presente Protocolo, o de la adhesión a él, declarar que no reconoce la competencia del Comité establecida en los artículos 6 y 7."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "El Secretario General de las Naciones Unidas será el depositario del presente Protocolo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "El presente Protocolo estará a abierto a la firma de todos los Estados y las organizaciones regionales de integración signatarios de la Convención en la Sede de las Naciones Unidas, en Nueva York, a partir del 30 de marzo de 2007."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "El presente Protocolo estará sujeto a la ratificación de los Estados signatarios del presente Protocolo que hayan ratificado la Convención se hayan adherido a ella. Estará sujeto a la confirmación oficial de las organizaciones regionales de integración signatarias del presente Protocolo que hayan confirmado oficialmente la Convención o se hayan adherido a ella. Estará abierto a la adhesión de cualquier Estado u organización regional de integración que haya ratificado la Convención, la haya confirmado oficialmente o se haya adherido a ella y que no haya firmado el presente Protocolo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "1. Por «organización regional de integración» se entenderá una organización constituida por Estados soberanos de una región determinada a la que sus Estados miembros hayan transferido competencia respecto de las cuestiones regidas por la Convención y el presente Protocolo. Esas organizaciones declararán, en sus instrumentos de confirmación oficial o adhesión, su grado de competencia con respecto a las cuestiones regidas por la Convención y el presente Protocolo. Posteriormente, informarán al depositario de toda modificación sustancial de su grado de competencia.",
+     "number": "1"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "2. Las referencias a los «Estados Partes» con arreglo al presente Protocolo se aplicarán a esas organizaciones dentro de los límites de su competencia.\n3. A los efectos de lo dispuesto en el párrafo 1 del artículo 13 y en el párrafo 2 del artículo 15 del presente Protocolo, no se tendrá en cuenta ningún instrumento depositado por una organización regional de integración.\n4. Las organizaciones regionales de integración, en asuntos de su competencia, ejercerán su derecho de voto en la reunión de los Estados Partes, con un número de votos igual al número de sus Estados miembros que sean Partes en el presente Protocolo. Dichas organizaciones no ejercerán su derecho de voto si sus Estados miembros ejercen el suyo, y viceversa.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "1. Con sujeción a la entrada en vigor de la Convención, el presente Protocolo entrará en vigor el trigésimo día después de que se haya depositado el décimo instrumento de ratificación o adhesión.",
+     "number": "1"
+    },
+    {
+     "id": "art-13-p2",
+     "text": "2. Para cada Estado u organización regional de integración que ratifique el Protocolo, lo confirme oficialmente o se adhiera a él una vez que haya sido depositado el décimo instrumento a sus efectos, el Protocolo entrará en vigor el trigésimo día a partir de la fecha en que haya sido depositado su propio instrumento.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. No se permitirán las reservas incompatibles con el objeto y el propósito del presente Protocolo.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. Las reservas podrán ser retiradas en cualquier momento.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "1. Todo Estado Parte podrá proponer una enmienda al presente Protocolo y presentarla al Secretario General de las Naciones Unidas. El Secretario General comunicará la enmienda propuesta a los Estados Partes, pidiéndoles que le notifiquen si desean que se convoque una conferencia de Estados Partes con el fin de examinar la propuesta y someterla a votación. Si dentro de los cuatro meses siguientes a la fecha de esa notificación, al menos un tercio de los Estados Partes se declara a favor de tal convocatoria, el Secretario General convocará una conferencia bajo los auspicios de las Naciones Unidas. Toda enmienda adoptada por mayoría de dos tercios de los Estados Partes presentes y votantes en la conferencia será sometida por el Secretario General a la Asamblea General de las Naciones Unidas para su aprobación y posteriormente a todos los Estados Partes para su aceptación.",
+     "number": "1"
+    },
+    {
+     "id": "art-15-p2",
+     "text": "2. Las enmiendas adoptadas y aprobadas conforme a lo dispuesto en el párrafo 1 del presente artículo entrarán en vigor el trigésimo día a partir de la fecha en que el número de instrumentos de aceptación depositados alcance los dos tercios del número de Estados Partes que hubiera en la fecha de adopción de la enmienda. Posteriormente, las enmiendas entrarán en vigor para todo Estado Parte el trigésimo día a partir de aquel en que hubieran depositado su propio instrumento de aceptación. Las enmiendas serán vinculantes exclusivamente para los Estados Partes que las hayan aceptado.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "Los Estados Partes podrán denunciar el presente Protocolo mediante notificación escrita dirigida al Secretario general de las Naciones Unidas. La denuncia tendrá efecto un año después de que el Secretario General haya recibido la notificación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "El texto del presente Protocolo se difundirá en formatos accesibles."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "Los textos en árabe, chino, español, francés, inglés y ruso del presente Protocolo serán igualmente auténticos."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "En testimonio de lo cual, los plenipotenciarios abajo firmantes, debidamente autorizados por sus respectivos gobiernos, firman el presente Protocolo."
+  },
+  {
+   "text": "El presente Protocolo Facultativo entrará en vigor de forma general y para España el 3 de mayo de 2008 de conformidad con lo establecido en el Artículo 13 (1) del mismo."
+  }
+ ],
+ "spain_instrument": [
+  "Por cuanto el día 30 de marzo de 2007, el Plenipotenciario de España nombrado en buena y debida forma al efecto, firmó en Nueva York el Protocolo Facultativo a la Convención sobre los derechos de las personas con discapacidad, hecho en Nueva York el 13 de diciembre de 2006,\nVistos y examinados los dieciocho artículos del Protocolo,\nConcedida por las Cortes Generales la autorización prevista en el artículo 94.1 de la Constitución,",
+  "Vengo en aprobar y ratificar cuanto en el mismo se dispone, como en virtud del presente lo apruebo y ratifico, prometiendo cumplirlo, observarlo y hacer que se cumpla y observe puntualmente en todas sus partes, a cuyo fin, para su mayor validación y firmeza, MANDO expedir este Instrumento de Ratificación firmado por Mí, debidamente sellado y refrendado por el infrascrito Ministro de Asuntos Exteriores y de Cooperación.",
+  "Dado en Madrid, a 23 de noviembre de 2007.",
+  "JUAN CARLOS R.",
+  "El Ministro de Asuntos Exteriores y de Cooperación,\nMIGUEL ÁNGEL MORATINOS CUYAUBÉ"
+ ],
+ "publication_notes": [
+  "Lo que se hace público para conocimiento general.",
+  "Madrid, 9 de abril de 2008.-El Secretario General Técnico del Ministerio de Asuntos Exteriores y de Cooperación, Francisco Fernández Fábregas."
+ ],
+ "authentic_clause": {
+  "article": "18",
+  "paragraph": "art-18-p1",
+  "text": "Los textos en árabe, chino, español, francés, inglés y ruso del presente Protocolo serán igualmente auténticos."
+ },
+ "quality": {
+  "articles": 18,
+  "stated_articles": 18,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "18 artículos (1–18)"
+   },
+   {
+    "check": "recuento_declarado",
+    "ok": true,
+    "detail": "el instrumento declara 18; extraídos 18"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

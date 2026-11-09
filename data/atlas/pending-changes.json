@@ -1,0 +1,653 @@
+[
+ {
+  "instrument": "un-iccpr",
+  "lang": "es",
+  "articles": [
+   "art-41"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación de España del Pacto Internacional de Derechos Civiles y Políticos, hecho en Nueva York el 19 de diciembre de 1966.",
+   "identifier": "BOE-A-1977-10733",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1966/12/19/(1)",
+   "published": "1977-04-30",
+   "retrieved": "2026-11-09",
+   "sha256": "20bee5332be8803c223f26551257fd4e1fbe2bbfd4b5d5574c45dd226a2c05a7",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-crc-opic",
+  "lang": "es",
+  "articles": [
+   "art-1",
+   "art-10",
+   "art-11",
+   "art-12",
+   "art-13",
+   "art-14",
+   "art-15",
+   "art-16",
+   "art-17",
+   "art-18",
+   "art-19",
+   "art-2",
+   "art-20",
+   "art-21",
+   "art-22",
+   "art-23",
+   "art-24",
+   "art-3",
+   "art-4",
+   "art-5",
+   "art-6",
+   "art-7",
+   "art-8",
+   "art-9"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación del Protocolo facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones, hecho en Nueva York el 19 de diciembre de 2011.",
+   "identifier": "BOE-A-2014-966",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+   "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-966",
+   "eli": "https://www.boe.es/eli/es/ai/2011/12/19/(1)",
+   "published": "2014-01-31",
+   "retrieved": "2026-11-09",
+   "sha256": "a7bd3199ee925136b53c5a59be241bac12b469beece35647b84f603690ec17f6",
+   "method": "boe-gazette"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-refugees-1951",
+  "lang": "es",
+  "articles": [
+   "art-11",
+   "art-6"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Adhesión de España a la Convención sobre el Estatuto de los Refugiados, hecha en Ginebra el 28 de julio de 1951, y al Protocolo sobre el Estatuto de los Refugiados, hecho en Nueva York el 31 de enero de 1967.",
+   "identifier": "BOE-A-1978-26331",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-26331",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1951/07/28/(1)",
+   "published": "1978-10-21",
+   "retrieved": "2026-11-09",
+   "sha256": "db35630310c324620a8b195a74c906e2f77c08e2a69c60a4f17406d650cb231f",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "coe-echr",
+  "lang": "es",
+  "articles": [
+   "art-21",
+   "art-23",
+   "art-30",
+   "art-35"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Resolución de 5 de abril de 1999, de la Secretaría General Técnica, por la que se hacen públicos los textos refundidos del Convenio para la protección de los derechos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950; el protocolo adicional al Convenio, hecho en París el 20 de marzo de 1952, y el protocolo número 6, relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983.",
+   "identifier": "BOE-A-1999-10148",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1999/04/05/(1)",
+   "published": "1999-05-06",
+   "retrieved": "2026-11-09",
+   "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "coe-esc-1961",
+  "lang": "es",
+  "articles": [
+   "art-8"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación, de 29 de abril de 1980, de la Carta Social Europea, hecha en Turín de 18 de octubre de 1961.",
+   "identifier": "BOE-A-1980-13567",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-13567",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1961/10/18/(1)",
+   "published": "1980-06-26",
+   "retrieved": "2026-11-09",
+   "sha256": "67f323c49cda3662bcd00d51222a884ad8b63bb77fa35d5953e1913778b3bb5e",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "au-achpr",
+  "lang": "en",
+  "articles": [
+   "art-46"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "African Commission on Human and Peoples' Rights",
+   "document": "African Charter on Human and Peoples' Rights",
+   "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+   "retrieved": "2026-11-09",
+   "sha256": "2bc7dd3e0769d468b4e5d5eb9259019cd20fce3c540d1b74b4898d8c8496215a",
+   "method": "html:newline"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-death-penalty",
+  "lang": "es",
+  "articles": [
+   "art-4"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-53",
+   "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
+   "retrieved": "2026-11-09",
+   "sha256": "e2c29c0a9bbb906e7b1a9928fab8731b533d3b91a278e7d0ef4b96f71baad01c",
+   "method": "html:container"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-torture",
+  "lang": "es",
+  "articles": [
+   "art-24"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-51",
+   "url": "http://www.oas.org/juridico/spanish/tratados/a-51.html",
+   "retrieved": "2026-11-09",
+   "sha256": "5ddc34323d964bd9c0995026dd7f3a9f35277da0ac1d9f647f2f9109a1070b6f",
+   "method": "html:container"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-iccpr",
+  "lang": "es",
+  "articles": [
+   "art-41"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación de España del Pacto Internacional de Derechos Civiles y Políticos, hecho en Nueva York el 19 de diciembre de 1966.",
+   "identifier": "BOE-A-1977-10733",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1966/12/19/(1)",
+   "published": "1977-04-30",
+   "retrieved": "2026-11-09",
+   "sha256": "20bee5332be8803c223f26551257fd4e1fbe2bbfd4b5d5574c45dd226a2c05a7",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-crc-opic",
+  "lang": "es",
+  "articles": [
+   "art-1",
+   "art-10",
+   "art-11",
+   "art-12",
+   "art-13",
+   "art-14",
+   "art-15",
+   "art-16",
+   "art-17",
+   "art-18",
+   "art-19",
+   "art-2",
+   "art-20",
+   "art-21",
+   "art-22",
+   "art-23",
+   "art-24",
+   "art-3",
+   "art-4",
+   "art-5",
+   "art-6",
+   "art-7",
+   "art-8",
+   "art-9"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación del Protocolo facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones, hecho en Nueva York el 19 de diciembre de 2011.",
+   "identifier": "BOE-A-2014-966",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+   "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-966",
+   "eli": "https://www.boe.es/eli/es/ai/2011/12/19/(1)",
+   "published": "2014-01-31",
+   "retrieved": "2026-11-09",
+   "sha256": "a7bd3199ee925136b53c5a59be241bac12b469beece35647b84f603690ec17f6",
+   "method": "boe-gazette"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-refugees-1951",
+  "lang": "es",
+  "articles": [
+   "art-11",
+   "art-6"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Adhesión de España a la Convención sobre el Estatuto de los Refugiados, hecha en Ginebra el 28 de julio de 1951, y al Protocolo sobre el Estatuto de los Refugiados, hecho en Nueva York el 31 de enero de 1967.",
+   "identifier": "BOE-A-1978-26331",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-26331",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1951/07/28/(1)",
+   "published": "1978-10-21",
+   "retrieved": "2026-11-09",
+   "sha256": "db35630310c324620a8b195a74c906e2f77c08e2a69c60a4f17406d650cb231f",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "coe-echr",
+  "lang": "es",
+  "articles": [
+   "art-21",
+   "art-23",
+   "art-30",
+   "art-35"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Resolución de 5 de abril de 1999, de la Secretaría General Técnica, por la que se hacen públicos los textos refundidos del Convenio para la protección de los derechos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950; el protocolo adicional al Convenio, hecho en París el 20 de marzo de 1952, y el protocolo número 6, relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983.",
+   "identifier": "BOE-A-1999-10148",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1999/04/05/(1)",
+   "published": "1999-05-06",
+   "retrieved": "2026-11-09",
+   "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "coe-esc-1961",
+  "lang": "es",
+  "articles": [
+   "art-8"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación, de 29 de abril de 1980, de la Carta Social Europea, hecha en Turín de 18 de octubre de 1961.",
+   "identifier": "BOE-A-1980-13567",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-13567",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1961/10/18/(1)",
+   "published": "1980-06-26",
+   "retrieved": "2026-11-09",
+   "sha256": "67f323c49cda3662bcd00d51222a884ad8b63bb77fa35d5953e1913778b3bb5e",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "au-achpr",
+  "lang": "en",
+  "articles": [
+   "art-46"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "African Commission on Human and Peoples' Rights",
+   "document": "African Charter on Human and Peoples' Rights",
+   "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+   "retrieved": "2026-11-09",
+   "sha256": "2bc7dd3e0769d468b4e5d5eb9259019cd20fce3c540d1b74b4898d8c8496215a",
+   "method": "html:newline"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-death-penalty",
+  "lang": "es",
+  "articles": [
+   "art-4"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-53",
+   "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
+   "retrieved": "2026-11-09",
+   "sha256": "e2c29c0a9bbb906e7b1a9928fab8731b533d3b91a278e7d0ef4b96f71baad01c",
+   "method": "html:container"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-torture",
+  "lang": "es",
+  "articles": [
+   "art-24"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-51",
+   "url": "http://www.oas.org/juridico/spanish/tratados/a-51.html",
+   "retrieved": "2026-11-09",
+   "sha256": "5ddc34323d964bd9c0995026dd7f3a9f35277da0ac1d9f647f2f9109a1070b6f",
+   "method": "html:container"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-racism",
+  "lang": "es",
+  "articles": [
+   "art-22"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-68",
+   "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo.asp",
+   "retrieved": "2026-11-09",
+   "sha256": "2e31a4e57612e6ffb1601e6a98cbcf36ce9ec4d40665124b21c974e876536f1f",
+   "method": "html:unwrap"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-discrimination",
+  "lang": "es",
+  "articles": [
+   "art-22"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-69",
+   "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-69_discriminacion_intolerancia.asp",
+   "retrieved": "2026-11-09",
+   "sha256": "6109f1b8394c36c18ad8d6bc51f0fe95ad84af406a0e6aef3c7d1d5ca1d4661d",
+   "method": "html:unwrap"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-older-persons",
+  "lang": "es",
+  "articles": [
+   "art-41"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-70",
+   "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-70_derechos_humanos_personas_mayores.asp",
+   "retrieved": "2026-11-09",
+   "sha256": "331659b581b328396973673719f78d6416271dbbec04d15dfe075d2df684a92a",
+   "method": "html:unwrap"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-iccpr",
+  "lang": "es",
+  "articles": [
+   "art-41"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación de España del Pacto Internacional de Derechos Civiles y Políticos, hecho en Nueva York el 19 de diciembre de 1966.",
+   "identifier": "BOE-A-1977-10733",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1966/12/19/(1)",
+   "published": "1977-04-30",
+   "retrieved": "2026-11-09",
+   "sha256": "20bee5332be8803c223f26551257fd4e1fbe2bbfd4b5d5574c45dd226a2c05a7",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-crc-opic",
+  "lang": "es",
+  "articles": [
+   "art-1",
+   "art-10",
+   "art-11",
+   "art-12",
+   "art-13",
+   "art-14",
+   "art-15",
+   "art-16",
+   "art-17",
+   "art-18",
+   "art-19",
+   "art-2",
+   "art-20",
+   "art-21",
+   "art-22",
+   "art-23",
+   "art-24",
+   "art-3",
+   "art-4",
+   "art-5",
+   "art-6",
+   "art-7",
+   "art-8",
+   "art-9"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación del Protocolo facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones, hecho en Nueva York el 19 de diciembre de 2011.",
+   "identifier": "BOE-A-2014-966",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+   "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-966",
+   "eli": "https://www.boe.es/eli/es/ai/2011/12/19/(1)",
+   "published": "2014-01-31",
+   "retrieved": "2026-11-09",
+   "sha256": "a7bd3199ee925136b53c5a59be241bac12b469beece35647b84f603690ec17f6",
+   "method": "boe-gazette"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "un-refugees-1951",
+  "lang": "es",
+  "articles": [
+   "art-11",
+   "art-6"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Adhesión de España a la Convención sobre el Estatuto de los Refugiados, hecha en Ginebra el 28 de julio de 1951, y al Protocolo sobre el Estatuto de los Refugiados, hecho en Nueva York el 31 de enero de 1967.",
+   "identifier": "BOE-A-1978-26331",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-26331",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1951/07/28/(1)",
+   "published": "1978-10-21",
+   "retrieved": "2026-11-09",
+   "sha256": "db35630310c324620a8b195a74c906e2f77c08e2a69c60a4f17406d650cb231f",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "coe-echr",
+  "lang": "es",
+  "articles": [
+   "art-21",
+   "art-23",
+   "art-30",
+   "art-35"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Resolución de 5 de abril de 1999, de la Secretaría General Técnica, por la que se hacen públicos los textos refundidos del Convenio para la protección de los derechos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950; el protocolo adicional al Convenio, hecho en París el 20 de marzo de 1952, y el protocolo número 6, relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983.",
+   "identifier": "BOE-A-1999-10148",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1999/04/05/(1)",
+   "published": "1999-05-06",
+   "retrieved": "2026-11-09",
+   "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "coe-esc-1961",
+  "lang": "es",
+  "articles": [
+   "art-8"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Boletín Oficial del Estado",
+   "document": "Instrumento de Ratificación, de 29 de abril de 1980, de la Carta Social Europea, hecha en Turín de 18 de octubre de 1961.",
+   "identifier": "BOE-A-1980-13567",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-13567",
+   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/texto",
+   "eli": "https://www.boe.es/eli/es/ai/1961/10/18/(1)",
+   "published": "1980-06-26",
+   "retrieved": "2026-11-09",
+   "sha256": "67f323c49cda3662bcd00d51222a884ad8b63bb77fa35d5953e1913778b3bb5e",
+   "method": "boe-consolidated"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "au-achpr",
+  "lang": "en",
+  "articles": [
+   "art-46"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "African Commission on Human and Peoples' Rights",
+   "document": "African Charter on Human and Peoples' Rights",
+   "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+   "retrieved": "2026-11-09",
+   "sha256": "2bc7dd3e0769d468b4e5d5eb9259019cd20fce3c540d1b74b4898d8c8496215a",
+   "method": "html:newline"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-death-penalty",
+  "lang": "es",
+  "articles": [
+   "art-4"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-53",
+   "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
+   "retrieved": "2026-11-09",
+   "sha256": "e2c29c0a9bbb906e7b1a9928fab8731b533d3b91a278e7d0ef4b96f71baad01c",
+   "method": "html:container"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-torture",
+  "lang": "es",
+  "articles": [
+   "art-24"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-51",
+   "url": "http://www.oas.org/juridico/spanish/tratados/a-51.html",
+   "retrieved": "2026-11-09",
+   "sha256": "5ddc34323d964bd9c0995026dd7f3a9f35277da0ac1d9f647f2f9109a1070b6f",
+   "method": "html:container"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-racism",
+  "lang": "es",
+  "articles": [
+   "art-22"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-68",
+   "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo.asp",
+   "retrieved": "2026-11-09",
+   "sha256": "2e31a4e57612e6ffb1601e6a98cbcf36ce9ec4d40665124b21c974e876536f1f",
+   "method": "html:unwrap"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-discrimination",
+  "lang": "es",
+  "articles": [
+   "art-22"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-69",
+   "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-69_discriminacion_intolerancia.asp",
+   "retrieved": "2026-11-09",
+   "sha256": "6109f1b8394c36c18ad8d6bc51f0fe95ad84af406a0e6aef3c7d1d5ca1d4661d",
+   "method": "html:unwrap"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ },
+ {
+  "instrument": "oas-older-persons",
+  "lang": "es",
+  "articles": [
+   "art-41"
+  ],
+  "detected": "2026-11-09",
+  "source": {
+   "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+   "document": "Texto del tratado A-70",
+   "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-70_derechos_humanos_personas_mayores.asp",
+   "retrieved": "2026-11-09",
+   "sha256": "331659b581b328396973673719f78d6416271dbbec04d15dfe075d2df684a92a",
+   "method": "html:unwrap"
+  },
+  "reason": "El texto de estas disposiciones ha cambiado en la fuente."
+ }
+]

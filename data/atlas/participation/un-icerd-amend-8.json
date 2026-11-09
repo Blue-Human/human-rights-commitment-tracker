@@ -1,0 +1,1053 @@
+{
+ "instrument": "un-icerd-amend-8",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2-a&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "9ff52e1f10d5071b899e6615d063dbcfc668894594c365ce793a6942112b4b34"
+ },
+ "columns": [
+  "Participant",
+  "Acceptance(A)"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [],
+ "notes": {
+  "1": "1See notes 1 and 2 under \"Netherlands\" regarding Aruba/Netherlands Antilles in the \"Historical Information\" section in the in the front matter of this volume.",
+  "2": "2See note 1 under \"New Zealand\" regarding Tokelau in the \"Historical Information\" section in the in the front matter of this volume."
+ },
+ "participants": [
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-09-29",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "29 Sep 2022 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-09-29",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-10-15",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "15 Oct 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-10-15",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "BHS",
+   "name": "Bahamas (The)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-03-31",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "31 Mar 1994 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-03-31",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "BHR",
+   "name": "Bahrain",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-06-29",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "29 Jun 2000 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-06-29",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-11-11",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "11 Nov 2016 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-11-11",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-03-05",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "5 Mar 2004 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-03-05",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-03-02",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "2 Mar 1995 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-03-02",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-08-09",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "9 Aug 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-08-09",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-02-08",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "8 Feb 1995 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-02-08",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CHN",
+   "name": "China",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-07-10",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "10 Jul 2002 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-07-10",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-10-05",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "5 Oct 1999 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-10-05",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-12-13",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "13 Dec 2000 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-12-13",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CUB",
+   "name": "Cuba",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1996-11-21",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "21 Nov 1996 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-11-21",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-09-28",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "28 Sep 1998 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-09-28",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-06",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "6 Aug 2002 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-08-06",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-09-03",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "3 Sep 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-09-03",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-26",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "26 Sep 2006 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-09-26",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-02-09",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "9 Feb 1994 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-02-09",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-09-01",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "1 Sep 1994 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-09-01",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-08-10",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "10 Aug 2023 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2023-08-10",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1996-10-08",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "8 Oct 1996 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-10-08",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "GIN",
+   "name": "Guinea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-05-31",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "31 May 2000 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-05-31",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "VAT",
+   "name": "Holy See",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-14",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "14 Mar 2002 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-03-14",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-03-14",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "14 Mar 2001 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-03-14",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "IRN",
+   "name": "Iran (Islamic Republic of)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-11-08",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "8 Nov 2005 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-11-08",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-05-25",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "25 May 2001 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-05-25",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-12-29",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "29 Dec 2000 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-12-29",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-25",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "25 Sep 2012 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-09-25",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-09-16",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "16 Sep 2005 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-09-16",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-04-28",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "28 Apr 2000 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-04-28",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-01-12",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "12 Jan 2017 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-01-12",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-08-12",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "12 Aug 2004 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-08-12",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1996-09-16",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "16 Sep 1996 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-09-16",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-10-14",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "14 Oct 2013 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-10-14",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-01-24",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "24 Jan 1995 A"
+   },
+   "notes": [
+    "1"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-01-24",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-10-08",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "8 Oct 1993 A"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-10-08",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "NOR",
+   "name": "Norway",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-10-06",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "6 Oct 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-10-06",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-12-03",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "3 Dec 2018 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-12-03",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-23",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "23 Aug 2002 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-08-23",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-05-15",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "15 May 2015 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-05-15",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "KOR",
+   "name": "Republic of Korea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-11-30",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "30 Nov 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-11-30",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "SAU",
+   "name": "Saudi Arabia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-02-28",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "28 Feb 2003 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-02-28",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-07-23",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "23 Jul 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-07-23",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-08-09",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "9 Aug 2006 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-08-09",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-11-09",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "9 Nov 2021 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-11-09",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-08-08",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "8 Aug 2019 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-08-08",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-05-14",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "14 May 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-05-14",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1996-12-16",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "16 Dec 1996 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-12-16",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "SYR",
+   "name": "Syrian Arab Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-02-25",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "25 Feb 1998 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-02-25",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "TTO",
+   "name": "Trinidad and Tobago",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-08-23",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "23 Aug 1993 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-08-23",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-06-17",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "17 Jun 1994 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-06-17",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "GBR",
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-02-07",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "7 Feb 1994 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-02-07",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2020-01-14",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "14 Jan 2020 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2020-01-14",
+    "type": "acceptance"
+   }
+  },
+  {
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1997-04-10",
+    "type": "acceptance",
+    "code": "A",
+    "raw": "10 Apr 1997 A"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1997-04-10",
+    "type": "acceptance"
+   }
+  }
+ ]
+}

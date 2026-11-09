@@ -20,8 +20,13 @@ const allowedOrigins = development
     ]
   : [];
 
+// The Human Rights Atlas reads its data from data/atlas at request time (pages rendered on
+// demand, its search API); the files are copied into those functions.
+const atlasData = ["./data/atlas/**/*"];
+
 const nextConfig: NextConfig = {
   experimental: { serverActions: { allowedOrigins } },
+  outputFileTracingIncludes: { "/rights": atlasData, "/rights/**/*": atlasData, "/api/rights/**/*": atlasData, "/api/search": atlasData },
 };
 
 export default nextConfig;

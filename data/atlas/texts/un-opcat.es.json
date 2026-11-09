@@ -1,0 +1,858 @@
+{
+ "instrument": "un-opcat",
+ "authority": "authentic",
+ "lang": "es",
+ "title": "PROTOCOLO FACULTATIVO DE LA CONVENCIÓN CONTRA LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANOS O DEGRADANTES",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de ratificación del Protocolo facultativo a la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, hecho en Nueva York el 18 de diciembre de 2002.",
+  "identifier": "BOE-A-2006-11128",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-11128",
+  "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2006-11128",
+  "eli": "https://www.boe.es/eli/es/ai/2002/12/18/(1)",
+  "published": "2006-06-22",
+  "retrieved": "2026-11-09",
+  "sha256": "b178286ba55e71d92a74d6bfa0b5941be1b98f3084dcba7f8e415996ef04bc11",
+  "method": "boe-gazette"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Partes en el presente Protocolo,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Reafirmando que la tortura y otros tratos o penas crueles, inhumanos o degradantes están prohibidos y constituyen violaciones graves de los derechos humanos,"
+  },
+  {
+   "id": "pre-3",
+   "text": "Convencidos de la necesidad de adoptar nuevas medidas para alcanzar los objetivos de la Convención contra la Tortura y Otros Tratos o Penas Crueles, Inhumanos o Degradantes (en adelante denominada la Convención) y de fortalecer la protección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes,\nRecordando que los artículos 2 y 16 de la Convención obligan a cada Estado Parte a tomar medidas efectivas para prevenir los actos de tortura y otros tratos o penas crueles, inhumanos o degradantes en todo territorio bajo su jurisdicción,\nReconociendo que los Estados tienen la responsabilidad primordial de aplicar estos artículos, que el fortalecimiento de la protección de las personas privadas de su libertad y el pleno respeto de sus derechos humanos es una responsabilidad común compartida por todos, y que los mecanismos internacionales de aplicación complementan y fortalecen las medidas nacionales,\nRecordando que la prevención efectiva de la tortura y otros tratos o penas crueles, inhumanos o degradantes requiere educación y una combinación de diversas medidas legislativas, administrativas, judiciales y de otro tipo,\nRecordando también que la Conferencia Mundial de Derechos Humanos declaró firmemente que los esfuerzos por erradicar la tortura debían concentrarse ante todo en la prevención y pidió que se adoptase un protocolo facultativo de la Convención destinado a establecer un sistema preventivo de visitas periódicas a los lugares de detención,\nConvencidos de que la protección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes puede fortalecerse por medios no judiciales de carácter preventivo basados en visitas periódicas a los lugares de detención,\nAcuerdan lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-parte-i",
+   "level": 1,
+   "label": "Parte I",
+   "title": "Principios generales"
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "El objetivo del presente Protocolo es establecer un sistema de visitas periódicas a cargo de órganos internacionales y nacionales independientes a los lugares en que se encuentren personas privadas de su libertad, con el fin de prevenir la tortura y otros tratos o penas crueles, inhumanos o degradantes."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. Se establecerá un Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos, o Degradantes del Comité contra la Tortura (en adelante denominado el Subcomité para la Prevención) que desempeñará las funciones previstas en el presente Protocolo.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. El Subcomité para la Prevención realizará su labor en el marco de la Carta de las Naciones Unidas y se guiará por los propósitos y principios enunciados en ella, así como por las normas de las Naciones Unidas relativas al trato de las personas privadas de su libertad.\n3. Asimismo, el Subcomité para la Prevención se guiará por los principios de confidencialidad, imparcialidad, no selectividad, universalidad y objetividad.\n4. El Subcomité para la Prevención y los Estados Partes cooperarán en la aplicación del presente Protocolo.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Cada Estado Parte establecerá, designará o mantendrá, a nivel nacional, uno o varios órganos de visitas para la prevención de la tortura y otros tratos o penas crueles, inhumanos o degradantes (en adelante denominado el mecanismo nacional de prevención)."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Cada Estado Parte permitirá las visitas, de conformidad con el presente Protocolo, de los mecanismos mencionados en los artículos 2 y 3 a cualquier lugar bajo su jurisdicción y control donde se encuentren o pudieran encontrarse personas privadas de su libertad, bien por orden de una autoridad pública o a instigación suya o con su consentimiento expreso o tácito (en adelante denominado lugar de detención). Estas visitas se llevarán a cabo con el fin de fortalecer, si fuera necesario, la protección de estas personas contra la tortura y otros tratos o penas crueles, inhumanos o degradantes.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. A los efectos del presente Protocolo, por privación de libertad se entiende cualquier forma de detención o encarcelamiento o de custodia de una persona, por orden de una autoridad judicial o administrativa o de otra autoridad pública, en una institución pública o privada de la cual no pueda salir libremente.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-ii",
+   "level": 1,
+   "label": "Parte II",
+   "title": "El Subcomité para la Prevención"
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. El Subcomité para la Prevención estará compuesto de diez miembros. Una vez que se haya registrado la quincuagésima ratificación del presente Protocolo o adhesión a él, el número de miembros del Subcomité para la Prevención aumentará a veinticinco.",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "2. Los miembros del Subcomité para la Prevención serán elegidos entre personas de gran integridad moral y reconocida competencia en la administración de justicia, en particular en materia de derecho penal, administración penitenciaria o policial, o en las diversas materias que tienen que ver con el tratamiento de personas privadas de su libertad.\n3. En la composición del Subcomité para la Prevención se tendrá debidamente en cuenta una distribución geográfica equitativa de los miembros y la representación de las diferentes formas de civilización y sistemas jurídicos de los Estados Partes.\n4. En esta composición también se tendrá en cuenta la necesidad de una representación equilibrada de los géneros sobre la base de los principios de igualdad y no discriminación.\n5. El Subcomité para la Prevención no podrá tener dos miembros de la misma nacionalidad.\n6. Los miembros del Subcomité para la Prevención ejercerán sus funciones a título personal, actuarán con independencia e imparcialidad y deberán estar disponibles para prestar servicios con eficacia en el Subcomité para la Prevención.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. Cada Estado Parte podrá designar, de conformidad con el párrafo 2 del presente artículo, hasta dos candidatos que posean las calificaciones y satisfagan los requisitos indicados en el artículo 5, y, al hacerlo, presentarán información detallada sobre las calificaciones de los candidatos.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. a) Los candidatos deberán tener la nacionalidad de un Estado Parte en el presente Protocolo;\nb) Al menos uno de los dos candidatos deberá tener la nacionalidad del Estado Parte que lo proponga;\nc) No se podrá proponer la candidatura de más de dos nacionales de un Estado Parte;\nd) Un Estado Parte, antes de proponer la candidatura de un nacional de otro Estado Parte, deberá solicitar y obtener el consentimiento de éste.",
+     "number": "2"
+    },
+    {
+     "id": "art-6-p3",
+     "text": "3. Al menos cinco meses antes de la fecha de la reunión de los Estados Partes en que deba procederse a la elección, el Secretario General de las Naciones Unidas enviará una carta a los Estados Partes invitándoles a que presenten sus candidaturas en un plazo de tres meses. El Secretario General presentará una lista por orden alfabético de todos los candidatos designados de este modo, indicando los Estados Partes que los hayan designado.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. La elección de los miembros del Subcomité para la Prevención se efectuará del modo siguiente:",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "a) La consideración primordial será que los candidatos satisfagan los requisitos y criterios del artículo 5 del presente Protocolo;"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "b) La elección inicial se celebrará a más tardar seis meses después de la fecha de la entrada en vigor del presente Protocolo;\nc) Los Estados Partes elegirán a los miembros del Subcomité para la Prevención en votación secreta;\nd) Las elecciones de los miembros del Subcomité para la Prevención se celebrarán en reuniones bienales de los Estados Partes convocadas por el Secretario General de las Naciones Unidas. En estas reuniones, para las cuales el quórum estará constituido por los dos tercios de los Estados Partes, se considerarán elegidos miembros del Subcomité para la Prevención los candidatos que obtengan el mayor número de votos y la mayoría absoluta de los votos de los representantes de los Estados Partes presentes y votantes."
+    },
+    {
+     "id": "art-7-p4",
+     "text": "2. Si durante el proceso de selección se determina que dos nacionales de un Estado Parte reúnen las condiciones establecidas para ser miembros del Subcomité para la Prevención, el candidato que reciba el mayor número de votos será elegido miembro del Subcomité para la Prevención. Si ambos candidatos obtienen el mismo número de votos se aplicará el procedimiento siguiente:",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p5",
+     "text": "a) Si sólo uno de los candidatos ha sido propuesto por el Estado Parte del que es nacional, quedará elegido miembro ese çandidato;"
+    },
+    {
+     "id": "art-7-p6",
+     "text": "b) Si ambos candidatos han sido propuestos por el Estado Parte del que son nacionales, se procederá a votación secreta por separado para determinar cuál de ellos será miembro;\nc) Si ninguno de los candidatos ha sido propuesto por el Estado Parte del que son nacionales, se procederá a votación secreta por separado para determinar cuál de ellos será miembro."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "Si un miembro del Subcomité para la Prevención muere o renuncia, o no puede desempeñar sus funciones en el Subcomité para la Prevención por cualquier otra causa, el Estado Parte que haya presentado su candidatura podrá proponer a otra persona que posea las calificaciones y satisfaga los requisitos indicados en el artículo 5, teniendo presente la necesidad de mantener un equilibrio adecuado entre las distintas esferas de competencia, para que desempeñe sus funciones hasta la siguiente reunión de los Estados Partes, con sujeción a la aprobación de la mayoría de dichos Estados. Se considerará otorgada dicha aprobación salvo que la mitad o más de los Estados Partes respondan negativamente dentro de un plazo de seis semanas a contar del momento en que el Secretario General de las Naciones Unidas les comunique la candidatura propuesta."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "Los miembros del Subcomité para la Prevención serán elegidos por un mandato de cuatro años. Podrán ser reelegidos una vez si se presenta de nuevo su candidatura. El mandato de la mitad de los miembros elegidos en la primera elección expirará al cabo de dos años; inmediatamente después de la primera elección, el Presidente de la reunión a que se hace referencia en el apartado d) del párrafo 1 del artículo 7 designará por sorteo los nombres de esos miembros."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. El Subcomité para la Prevención elegirá su Mesa por un mandato de dos años. Los miembros de la Mesa podrán ser reelegidos.",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "2. El Subcomité para la Prevención establecerá su propio reglamento, que dispondrá, entre otras cosas, lo siguiente:",
+     "number": "2"
+    },
+    {
+     "id": "art-10-p3",
+     "text": "a) La mitad más uno de sus miembros constituirán quórum,"
+    },
+    {
+     "id": "art-10-p4",
+     "text": "b) Las decisiones del Subcomité para la Prevención se tomarán por mayoría de votos de los miembros presentes;\nc) Las sesiones del Subcomité para la Prevención serán privadas."
+    },
+    {
+     "id": "art-10-p5",
+     "text": "3. El Secretario General de las Naciones Unidas convocará la reunión inicial del Subcomité para la Prevención. Después de su reunión inicial, el Subcomité para la Prevención se reunirá en las ocasiones que determine su reglamento. El Subcomité para la Prevención y el Comité contra la Tortura celebrarán sus períodos de sesiones simultáneamente al menos una vez al año.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-iii",
+   "level": 1,
+   "label": "Parte III",
+   "title": "Mandato del Subcomité para la Prevención"
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "El mandato del Subcomité para la Prevención será el siguiente:"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "a) Visitar los lugares mencionados en el artículo 4 y hacer recomendaciones a los Estados Partes en cuanto a la protección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes;"
+    },
+    {
+     "id": "art-11-p3",
+     "text": "b) Por lo que respecta a los mecanismos nacionales de prevención:"
+    },
+    {
+     "id": "art-11-p4",
+     "text": "i) Asesorar y ayudar a los Estados Partes, cuando sea necesario a establecerlos;"
+    },
+    {
+     "id": "art-11-p5",
+     "text": "ii) Mantener contacto directo, de ser necesario confidencial, con los mecanismos nacionales de prevención y ofrecerles formación y asistencia técnica con miras a aumentar su capacidad;\niii) Ayudar y asesorar a los mecanismos nacionales de prevención en la evaluación de las necesidades y las medidas destinadas a fortalecer la protección de personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes;\niv) Hacer recomendaciones y observaciones a los Estados Partes con miras a reforzar la capacidad y el mandato de los mecanismos nacionales para la prevención de la tortura y otros tratos o penas crueles, inhumanos o degradantes;"
+    },
+    {
+     "id": "art-11-p6",
+     "text": "c) Cooperar, para la prevención de la tortura en general, con los órganos y mecanismos pertinentes de las Naciones Unidas así como con instituciones u organizaciones internacionales, regionales y nacionales cuyo objeto sea fortalecer la protección de todas las personas contra la tortura y otros tratos o penas crueles, inhumanos o degradantes."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "A fin de que el Subcomité para la Prevención pueda cumplir el mandato establecido en el artículo 11, los Estados Partes se comprometen a:"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "a) Recibir al Subcomité para la Prevención en su territorio y darle acceso a todos los lugares de detención definidos en el artículo 4 del presente Protocolo;"
+    },
+    {
+     "id": "art-12-p3",
+     "text": "b) Compartir toda la información pertinente que el Subcomité para la Prevención solicite para evaluar las necesidades y medidas que deben adoptarse con el fin de fortalecer la protección de las personas privadas de su libertad contra, la tortura, y otros tratos o penas crueles, inhumanos o degradantes;\nc) Alentar y facilitar los contactos entre el Subcomité para la Prevención y los mecanismos nacionales de prevención;\nd) Examinar las recomendaciones del Subcomité para la Prevención y entablar un diálogo con éste sobre las posibles medidas de aplicación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "1. El Subcomité para la Prevención establecerá, primeramente por sorteo, un programa de visitas periódicas a los Estados Partes para dar cumplimiento a su mandato de conformidad con el artículo 11.",
+     "number": "1"
+    },
+    {
+     "id": "art-13-p2",
+     "text": "2. Tras celebrar las consultas oportunas, el Subcomité para la Prevención notificará su programa a los Estados Partes para que éstos puedan, sin demora, adoptar las disposiciones prácticas necesarias para la realización de las visitas.\n3. Las visitas serán realizadas por dos miembros como mínimo del Subcomité para la Prevención. Estos miembros podrán ir acompañados, si fuere necesario, de expertos de reconocida experiencia y conocimientos profesionales acreditados en las materias a que se refiere él presente Protocolo, que serán seleccionados de una lista de expertos preparada de acuerdo con las propuestas hechas por los Estados Partes, la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos y el Centro de las Naciones Unidas para la Prevención Internacional del Delito. Para la preparación de esta lista, los Estados Partes interesados propondrán un máximo de cinco expertos nacionales. El Estado Parte de que se trate podrá oponerse a la inclusión de un determinado experto en la visita, tras lo cual el Subcomité para la Prevención propondrá el nombre de otro experto.\n4. El Subcomité para la Prevención, si lo considera oportuno, podrá proponer una breve visita de seguimiento después de la visita periódica.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. A fin de que el Subcomité para la Prevención pueda desempeñar su mandato, los Estados Partes en el presente Protocolo se comprometen a darle:",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "a) Acceso sin restricciones a toda la información acerca del número de personas privadas de su libertad en lugares de detención según la definición del artículo 4 y sobre el número de lugares y su emplazamiento;"
+    },
+    {
+     "id": "art-14-p3",
+     "text": "b) Acceso sin restricciones a toda la información relativa al trato de esas personas y a las condiciones de su detención;\nc) Con sujeción a lo dispuesto en el párrafo 2 infra, acceso sin restricciones a todos los lugares de detención y a sus instalaciones y servicios;\nd) Posibilidad de entrevistarse con las personas privadas de su libertad, sin testigos, personalmente o con la asistencia de un intérprete en caso necesario, así como con cualquier otra persona que el Subcomité para la Prevención considere que pueda facilitar información pertinente;\ne) Libertad para seleccionar los lugares que desee visitar y las personas a las que desee entrevistar."
+    },
+    {
+     "id": "art-14-p4",
+     "text": "2. Sólo podrá objetarse a una visita a un determinado lugar de detención por razones urgentes y apremiantes, de defensa nacional, seguridad pública, catástrofes naturales o disturbios graves, en el lugar que deba visitarse, que impidan temporalmente la realización de esta visita. El Estado Parte no podrá hacer valer la existencia de un estado de excepción como tal para oponerse a una visita.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al Subcomité para la Prevención o a sus miembros cualquier información, ya sea verdadera o falsa, y ninguna de estas personas u organizaciones sufrirá perjuicios de ningún tipo por este motivo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "1. El Subcomité para la Prevención comunicará sus recomendaciones y observaciones con carácter confidencial al Estado Parte y, si fuera oportuno, al mecanismo nacional de prevención.",
+     "number": "1"
+    },
+    {
+     "id": "art-16-p2",
+     "text": "2. El Subcomité para la Prevención publicará su informe, juntamente con las posibles observaciones del Estado Parte interesado siempre que el Estado Parte le pida que lo haga. Si el Estado Parte hace pública una parte del informe, el Subcomité para la Prevención podrá publicar el informe en su totalidad o en parte. Sin embargo, no podrán publicarse datos personales sin el consentimiento expreso de la persona interesada.\n3. El Subcomité para la Prevención presentará un informe público anual sobre sus actividades al Comité contra la Tortura.\n4. Si el Estado Parte se niega a cooperar con el Subcomité para la Prevención de conformidad con los artículos 12 y 14, o a tomar medidas para mejorar la situación con arreglo a las recomendaciones del Subcomité para la Prevención, el Comité contra la Tortura podrá, a instancias del Subcomité para la Prevención, decidir por mayoría de sus miembros, después de que el Estado Parte haya tenido oportunidad de dar a conocer sus opiniones, hacer una declaración pública sobre la cuestión o publicar el informe del Subcomité para la Prevención.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-iv",
+   "level": 1,
+   "label": "Parte IV",
+   "title": "Mecanismos nacionales de prevención"
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "Cada Estado Parte mantendrá, designará o creará, a más tardar un año después de la entrada en vigor del presente Protocolo o de su ratificación o adhesión, uno o varios mecanismos nacionales independientes para la prevención de la tortura a nivel nacional. Los mecanismos establecidos por entidades descentralizadas podrán ser designados mecanismos nacionales de prevención a los efectos del presente Protocolo si se ajustan a sus disposiciones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "1. Los Estados Partes garantizarán la independencia funcional de los mecanismos nacionales de prevención, así como la independencia de su personal.",
+     "number": "1"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "2. Los Estados Partes tomarán las medidas necesarias a fin de garantizar que los expertos del mecanismo nacional de prevención tengan las aptitudes y los conocimientos profesionales requeridos. Se tendrá igualmente en cuenta el equilibrio de género y la adecuada representación de los grupos étnicos y minoritarios del país.\n3. Los Estados Partes se comprometen a proporcionar los recursos necesarios para el funcionamiento de los mecanismos nacionales de prevención.\n4. Al establecer los mecanismos nacionales de prevención, los Estados Partes tendrán debidamente en cuenta los Principios relativos al estatuto de las instituciones nacionales de promoción y protección de los derechos humanos.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "Los mecanismos nacionales de prevención tendrán como mínimo las siguientes facultades:"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "a) Examinar periódicamente el trato de las personas privadas de su libertad en lugares de detención, según la definición del artículo 4, con miras a fortalecer, si fuera necesario, su protección contra la tortura y otros tratos o penas crueles, inhumanos o degradantes;"
+    },
+    {
+     "id": "art-19-p3",
+     "text": "b) Hacer recomendaciones a las autoridades competentes con objeto de mejorar el trato y las condiciones de las personas privadas de su libertad y de prevenir la tortura y otros tratos o penas crueles, inhumanos o degradantes, tomando en consideración las normas pertinentes de las Naciones Unidas;\nc) Hacer propuestas y observaciones acerca de la legislación vigente o de los proyectos de ley en la materia."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "A fin de que los mecanismos nacionales de prevención puedan desempeñar su mandato los Estados Partes en el presente Protocolo se comprometen a darles:"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "a) Acceso a toda la información acerca del número de personas privadas de su libertad en lugares de detención según la definición del artículo 4 y sobre el número de lugares de detención y su emplazamiento;"
+    },
+    {
+     "id": "art-20-p3",
+     "text": "b) Acceso a toda la información relativa al trato de esas personas y a las condiciones de su detención;\nc) Acceso a todos los lugares de detención y a sus instalaciones y servicios;\nd) Posibilidad de entrevistarse con las personas privadas de su libertad, sin testigos, personalmente o con la asistencia de un intérprete en caso necesario, así como con cualquier otra persona que el mecanismo nacional de prevención considere que pueda facilitar información pertinente;\ne) Libertad para seleccionar los lugares que deseen visitar y las personas a las que deseen entrevistar;\nf) El derecho a mantener contactos con el Subcomité para la Prevención, enviarle información y reunirse con él."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "1. Ninguna autoridad o funcionario ordenará, aplicará, permitirá o tolerará sanción alguna contra una persona u organización por haber comunicado al mecanismo nacional de prevención cualquier información, ya sea verdadera o falsa, y ninguna de estas personas u organizaciones sufrirá perjuicios de ningún tipo por este motivo.",
+     "number": "1"
+    },
+    {
+     "id": "art-21-p2",
+     "text": "2. La información confidencial recogida por el mecanismo nacional de prevención tendrá carácter reservado. No podrán publicarse datos personales sin el consentimiento expreso de la persona interesada.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "Las autoridades competentes del Estado Parte interesado examinarán las recomendaciones del mecanismo nacional de prevención y entablarán un diálogo con este mecanismo acerca de las posibles medidas de aplicación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "Los Estados Partes en el presente Protocolo se comprometen a publicar y difundir los informes anuales de los mecanismos nacionales de prevención."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-v",
+   "level": 1,
+   "label": "Parte V",
+   "title": "Declaración"
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "1. Una vez ratificado el presente Protocolo, los Estados Partes podrán hacer una declaración para aplazar el cumplimiento de sus obligaciones en virtud de la parte III o de la parte IV.",
+     "number": "1"
+    },
+    {
+     "id": "art-24-p2",
+     "text": "2. Este aplazamiento tendrá validez por un período máximo de tres años. Una vez que el Estado Parte haga las presentaciones del caso y previa consulta con el Subcomité para la Prevención, el Comité contra la Tortura podrá prorrogar este período por otros dos años.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-vi",
+   "level": 1,
+   "label": "Parte VI",
+   "title": "Disposiciones financieras"
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "1. Los gastos que efectúe el Subcomité para la Prevención en la aplicación del presente Protocolo serán sufragados por las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "2. El Secretario General de las Naciones Unidas proporcionará el personal y los servicios necesarios para el desempeño eficaz de las funciones asignadas al Subcomité para la Prevención en virtud del presente Protocolo.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "1. Se creará un Fondo Especial con arreglo a los procedimientos de la Asamblea General en la materia, que será administrado de conformidad con el Reglamento Financiero y Reglamentación Financiera Detallada de las Naciones Unidas para contribuir a financiar la aplicación de las recomendaciones del Subcomité para la Prevención a un Estado Parte después de una visita, así como los programas de educación de los mecanismos nacionales de prevención.",
+     "number": "1"
+    },
+    {
+     "id": "art-26-p2",
+     "text": "2. Este Fondo Especial podrá estar financiado mediante contribuciones voluntarias de los gobiernos, organizaciones intergubernamentales y no gubernamentales y otras entidades, privadas o públicas.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-vii",
+   "level": 1,
+   "label": "Parte VII",
+   "title": "Disposiciones finales"
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "1. El presente Protocolo estará abierto a la firma de todos los Estados que hayan firmado la Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-27-p2",
+     "text": "2. El presente Protocolo estará sujeto a ratificación por cualquier Estado que haya ratificado la Convención o se haya adherido a ella. Los instrumentos de ratificación serán depositados en poder del Secretario General de las Naciones Unidas.\n3. El presente Protocolo quedará abierto a la adhesión de todos los Estados que hayan ratificado la Convención o se hayan adherido a ella.\n4. La adhesión se efectuará mediante el depósito de un instrumento de adhesión en poder del Secretario General de las Naciones Unidas.\n5. El Secretario General de las Naciones Unidas comunicará a todos los Estados que hayan firmado el presente Protocolo o se hayan adherido a él el depósito de cada uno de los instrumentos de ratificación o adhesión.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "1. El presente Protocolo entrará en vigor el trigésimo día a partir de la fecha en que haya sido depositado el vigésimo instrumento de ratificación o adhesión en poder del Secretario General de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "2. Para cada Estado que ratifique el presente Protocolo o se adhiera a él después de haber sido depositado el vigésimo instrumento de ratificación o de adhesión en poder del Secretario General de las Naciones Unidas, el presente Protocolo entrará en vigor el trigésimo día a partir de la fecha en que ese Estado haya depositado su instrumento de ratificación o de adhesión.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "Las disposiciones del presente Protocolo serán aplicables a todas las partes componentes de los Estados federales, sin limitación ni excepción alguna."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "No se admitirán reservas al presente Protocolo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "Las disposiciones del presente Protocolo no afectarán a las obligaciones que los Estados Partes puedan haber contraído en virtud de una convención regional que instituya un sistema de visitas a los lugares de detención. Se alienta al Subcomité para la Prevención y a los órganos establecidos con arreglo a esas convenciones regionales a que se consulten y cooperen entre sí para evitar duplicaciones y promover efectivamente los objetivos del presente Protocolo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "Las disposiciones del presente Protocolo no afectarán a las obligaciones de los Estados Partes en virtud de los cuatro Convenios de Ginebra de 12 de agosto de 1949 y sus Protocolos adicionales de 8 de junio de 1977 o la posibilidad abierta a cualquier Estado Parte de autorizar al Comité Internacional de la Cruz Roja a visitar los lugares de detención en situaciones no comprendidas en el derecho internacional humanitario."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "1. Todo Estado Parte podrá denunciar el presente Protocolo en cualquier momento mediante notificación escrita dirigida al Secretario General de las Naciones Unidas quien informará seguidamente a los demás Estados Partes en el presente Protocolo y la Convención. La denuncia surtirá efecto un año después de la fecha en que la notificación haya sido recibida por el Secretario General.",
+     "number": "1"
+    },
+    {
+     "id": "art-33-p2",
+     "text": "2. Esta denuncia no eximirá al Estado Parte de las obligaciones que le impone el presente Protocolo con respecto a cualquier acción o situación ocurrida antes de la fecha en que haya surtido efecto la denuncia o las medidas que el Subcomité para la Prevención haya decidido o decida adoptar en relación con el Estado Parte de que se trate, ni la denuncia entrañará tampoco la suspensión del examen de cualquier asunto que el Subcomité para la Prevención haya empezado a examinar antes de la fecha en que surta efecto la denuncia.\n3. A partir de la fecha en que surta efecto la denuncia del Estado Parte, el Subcomité para la Prevención no empezará a examinar ninguna cuestión nueva relativa a dicho Estado.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "1. Todo Estado Parte en el presente Protocolo podrá proponer enmiendas y depositarlas en poder del Secretario General de las Naciones Unidas. El Secretario General comunicará las enmiendas propuestas a los Estados Partes en el presente Protocolo, pidiéndoles que le notifiquen si desean que se convoque una conferencia de Estados Partes con el fin de examinar las propuestas y someterlas a votación. Si en el plazo de cuatro meses a partir de la fecha de la comunicación un tercio al menos de los Estados Partes se declara a favor de la convocación, el Secretario General, convocará la conferencia bajo los auspicios de las Naciones Unidas. Toda enmienda adoptada por una mayoría de dos tercios de los Estados Partes presentes y votantes en la conferencia será sometida por el Secretario General a todos los Estados Partes para su aceptación.",
+     "number": "1"
+    },
+    {
+     "id": "art-34-p2",
+     "text": "2. Una enmienda adoptada de conformidad con el párrafo 1 del presente artículo entrará en vigor cuando haya sido aceptada por una mayoría de dos tercios de los Estados Partes en el presente protocolo de conformidad con sus respectivos procedimientos constitucionales.\n3. Las enmiendas cuando entren en vigor serán obligatorias para los Estados Partes que las hayan aceptado, en tanto que los demás Estados Partes seguirán obligados por las disposiciones del presente Protocolo y por las enmiendas anteriores que hayan aceptado.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "Se reconocerá a los miembros del Subcomité para la Prevención y de los mecanismos nacionales de prevención las prerrogativas e inmunidades que sean necesarias para el ejercicio independiente de sus funciones. Se reconocerá a los miembros del Subcomité para la Prevención las prerrogativas e inmunidades especificadas en la sección 22 de la Convención sobre Prerrogativas e Inmunidades de las Naciones Unidas, de 13 de febrero de 1946, con sujeción a las disposiciones de la sección 23 de dicha Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "Durante la visita a un Estado Parte, y sin perjuicio de las disposiciones y objetivos del presente Protocolo y de las prerrogativas e inmunidades de que puedan gozar, los miembros del Subcomité para la Prevención deberán:"
+    },
+    {
+     "id": "art-36-p2",
+     "text": "a) Observar las leyes y los reglamentos del Estado visitado;"
+    },
+    {
+     "id": "art-36-p3",
+     "text": "b) Abstenerse de toda acción o actividad incompatible con el carácter imparcial e internacional de sus funciones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "1. El presente Protocolo, cuyos textos en árabe, chino, español, francés, inglés y ruso son igualmente auténticos, será depositado en poder del Secretario General de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-37-p2",
+     "text": "2. El Secretario General de las Naciones remitirá copias certificadas del presente Protocolo a todos los Estados.",
+     "number": "2"
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "spain_instrument": [
+  "JUAN CARLOS 1\nREY DE ESPAÑA",
+  "Por cuanto el día 13 de abril de 2005, el Plenipotenciario de España nombrado en buena y debida forma al efecto, firmó en Nueva York el Protocolo facultativo a la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, hecho en Nueva York el 18 de diciembre de 2002,",
+  "Vistos y examinados el Preámbulo y los treinta y siete artículos del Protocolo,\nConcedida por las Cortes Generales la autorización prevista en el artículo 94.1 de la Constitución,\nVengo en aprobar y ratificar cuanto en el mismo se dispone, como en virtud del presente lo apruebo y ratifico, prometiendo cumplirlo, observarlo y hacer que se cumpla y observe puntualmente en todas sus partes, a cuyo fin, para su mayor validación y firmeza, mando expedir este Instrumento de Ratificación firmado por Mí, debidamente sellado y refrendado por el infrascrito Ministro de Asuntos Exteriores y de Cooperación.",
+  "Dado en Madrid, a tres de marzo de dos mil seis.",
+  "JUAN CARLOS R.",
+  "El Ministro de Asuntos Exteriores y de Cooperación,\nMIGUEL ÁNGEL MORATINOS CUYAUBÉ"
+ ],
+ "publication_notes": [
+  "ESTADOS PARTE",
+  "AD. ADHESION; R RATIFICACION; (*) Reservas y declaraciones.",
+  "BÉLGICA: (declaraciones hechas en el momento de la firma).",
+  "Esta firma también compromete a la Comunidad Francófona, la Comunidad Flamenca, a la Comunidad Germano-parlante y a la Región Valona.",
+  "El presente Protocolo entrará en vigor de forma general y para España el 22 de junio de 2006, de conformidad con lo establecido en su artículo 28(1).",
+  "Lo que se hace público para conocimiento general.",
+  "Madrid, 6 de junio de 2006.-El Secretario General Técnico del Ministerio de Asuntos Exteriores y de Cooperación, Francisco Fernández Fábregas."
+ ],
+ "authentic_clause": {
+  "article": "37",
+  "paragraph": "art-37-p1",
+  "text": "1. El presente Protocolo, cuyos textos en árabe, chino, español, francés, inglés y ruso son igualmente auténticos, será depositado en poder del Secretario General de las Naciones Unidas."
+ },
+ "quality": {
+  "articles": 37,
+  "stated_articles": 37,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "37 artículos (1–37)"
+   },
+   {
+    "check": "recuento_declarado",
+    "ok": true,
+    "detail": "el instrumento declara 37; extraídos 37"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

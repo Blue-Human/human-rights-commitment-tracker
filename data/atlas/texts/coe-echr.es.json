@@ -1,0 +1,1943 @@
+{
+ "instrument": "coe-echr",
+ "authority": "official_es",
+ "lang": "es",
+ "title": "CONVENIO PARA LA PROTECCIÓN DE LOS DERECHOS HUMANOS Y DE LAS LIBERTADES FUNDAMENTALES",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Resolución de 5 de abril de 1999, de la Secretaría General Técnica, por la que se hacen públicos los textos refundidos del Convenio para la protección de los derechos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950; el protocolo adicional al Convenio, hecho en París el 20 de marzo de 1952, y el protocolo número 6, relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983.",
+  "identifier": "BOE-A-1999-10148",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+  "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
+  "eli": "https://www.boe.es/eli/es/ai/1999/04/05/(1)",
+  "published": "1999-05-06",
+  "retrieved": "2026-11-09",
+  "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
+  "method": "boe-consolidated"
+ },
+ "versions": [
+  {
+   "norm": "BOE-A-1999-10148",
+   "published": "1999-05-06"
+  },
+  {
+   "norm": "BOE-A-2008-4891",
+   "published": "2008-03-14"
+  },
+  {
+   "norm": "BOE-A-2009-16302",
+   "published": "2009-10-13"
+  },
+  {
+   "norm": "BOE-A-2009-16399",
+   "published": "2009-10-15"
+  },
+  {
+   "norm": "BOE-A-2010-5208",
+   "published": "2010-03-30"
+  },
+  {
+   "norm": "BOE-A-2010-8504",
+   "published": "2010-05-28"
+  },
+  {
+   "norm": "BOE-A-2015-4158",
+   "published": "2015-04-17"
+  },
+  {
+   "norm": "BOE-A-2021-7554",
+   "published": "2021-05-07"
+  },
+  {
+   "norm": "BOE-A-2025-18339",
+   "published": "2025-09-17"
+  }
+ ],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Roma, 4 de noviembre de 1950."
+  },
+  {
+   "id": "pre-2",
+   "text": "Los Gobiernos signatarios, miembros del Consejo de Europa,"
+  },
+  {
+   "id": "pre-3",
+   "text": "Considerando la Declaración Universal de Derechos Humanos, proclamada por la Asamblea General de las Naciones Unidas el 10 de diciembre de 1948;"
+  },
+  {
+   "id": "pre-4",
+   "text": "Considerando que esta declaración tiende a asegurar el reconocimiento y la aplicación universales y efectivos de los derechos en ellas enunciados;"
+  },
+  {
+   "id": "pre-5",
+   "text": "Considerando que la finalidad del Consejo de Europa es realizar una unión más estrecha entre sus miembros, y que uno de los medios para alcanzar esta finalidad es la protección y el desarrollo de los derechos humanos y de las libertades fundamentales;"
+  },
+  {
+   "id": "pre-6",
+   "text": "Reafirmando su profunda adhesión a estas libertades fundamentales que constituyen las bases mismas de la justicia y de la paz en el mundo, y cuyo mantenimiento reposa esencialmente, de una parte, en un régimen político verdaderamente democrático, y, de otra, en una concepción y un respeto comunes de los derechos humanos que ellos invocan;"
+  },
+  {
+   "id": "pre-7",
+   "text": "Resueltos, en cuanto Gobiernos de Estados europeos animados de un mismo espíritu y en posesión de un patrimonio común de ideales y de tradiciones políticas, de respeto a la libertad y de preeminencia del Derecho, a tomar las primeras medidas adecuadas para asegurar la garantía colectiva de algunos de los derechos enunciados en la Declaración Universal,"
+  },
+  {
+   "id": "pre-8",
+   "text": "Afirmando que incumbe en primer lugar a las Altas Partes Contratantes, con arreglo al principio de subsidiariedad, garantizar el respeto de los derechos y libertades definidos en el presente Convenio y sus protocolos, y que, al hacerlo, gozan de un margen de apreciación, bajo el control del Tribunal Europeo de Derechos Humanos que instituye el presente Convenio,"
+  },
+  {
+   "id": "pre-9",
+   "text": "Han convenido lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": "Reconocimiento de los derechos humanos",
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "Las Altas Partes Contratantes reconocen a toda persona dependiente de su jurisdicción los derechos y libertades definidos en el título I del presente Convenio."
+    }
+   ],
+   "block": "a1"
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-i",
+   "level": 1,
+   "label": "Título I",
+   "title": "Derechos y libertades"
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": "Derecho a la vida",
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. El derecho de toda persona a la vida está protegido por la Ley. Nadie podrá ser privado de su vida intencionadamente, salvo en ejecución de una condena que imponga pena capital dictada por un tribunal al reo de un delito para el que la ley establece esa pena.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. La muerte no se considerará infligida con infracción del presente artículo cuando se produzca como consecuencia de un recurso a la fuerza que sea absolutamente necesario:",
+     "number": "2"
+    },
+    {
+     "id": "art-2-p3",
+     "text": "a) En defensa de una persona contra una agresión ilegítima."
+    },
+    {
+     "id": "art-2-p4",
+     "text": "b) Para detener a una persona conforme a derecho o para impedir la evasión de un preso o detenido legalmente."
+    },
+    {
+     "id": "art-2-p5",
+     "text": "c) Para reprimir, de acuerdo con la ley, una revuelta o insurrección."
+    }
+   ],
+   "block": "a2"
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": "Prohibición de la tortura",
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Nadie podrá ser sometido a tortura ni a penas o tratos inhumanos o degradantes."
+    }
+   ],
+   "block": "a3"
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": "Prohibición de la esclavitud y del trabajo forzado",
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Nadie podrá ser sometido a esclavitud o servidumbre.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. Nadie podrá ser constreñido a realizar un trabajo forzado u obligatorio.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. No se considera como «trabajo forzado u obligatorio» en el sentido del presente artículo:",
+     "number": "3"
+    },
+    {
+     "id": "art-4-p4",
+     "text": "a) Todo trabajo exigido normalmente a una persona privada de libertad en las condiciones previstas por el artículo 5 del presente Convenio, o durante su libertad condicional."
+    },
+    {
+     "id": "art-4-p5",
+     "text": "b) Todo servicio de carácter militar o, en el caso de objetores de conciencia en los países en que la objeción de conciencia sea reconocida como legítima, cualquier otro servicio sustitutivo del servicio militar obligatorio."
+    },
+    {
+     "id": "art-4-p6",
+     "text": "c) Todo servicio exigido cuando alguna emergencia o calamidad amenacen la vida o el bienestar de la comunidad."
+    },
+    {
+     "id": "art-4-p7",
+     "text": "d) Todo trabajo o servicio que forme parte de las obligaciones cívicas normales."
+    }
+   ],
+   "block": "a4"
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": "Derecho a la libertad y a la seguridad",
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. Toda persona tiene derecho a la libertad y a la seguridad. Nadie puede ser privado de su libertad, salvo en los casos siguientes y con arreglo al procedimiento establecido por la Ley:",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "a) Si ha sido penado legalmente en virtud de una sentencia dictada por un tribunal competente."
+    },
+    {
+     "id": "art-5-p3",
+     "text": "b) Si ha sido detenido preventivamente o internado, conforme a derecho, por desobediencia a una orden judicial o para asegurar el cumplimiento de una obligación establecida por la Ley."
+    },
+    {
+     "id": "art-5-p4",
+     "text": "c) Si ha sido detenido preventivamente o internado, conforme a derecho, para hacerle comparecer ante la autoridad judicial competente, cuando existan indicios racionales de que ha cometido una infracción o cuando se estime necesario para impedirle que cometa una infracción o que huya después de haberla cometido."
+    },
+    {
+     "id": "art-5-p5",
+     "text": "d) Si se trata del internamiento de un menor en virtud de una orden legalmente acordada con el fin de vigilar su educación, o de su detención, conforme a derecho, con el fin de hacerle comparecer ante la autoridad competente."
+    },
+    {
+     "id": "art-5-p6",
+     "text": "e) Si se trata del internamiento, conforme a derecho, de una persona susceptible de propagar una enfermedad contagiosa, de un enajenado, de un alcohólico, de un toxicómano o de un vagabundo."
+    },
+    {
+     "id": "art-5-p7",
+     "text": "f) Si se trata de la detención preventiva o del internamiento, conforme a derecho, de una persona para impedir que entre ilegalmente en el territorio o contra la que esté en curso un procedimiento de expulsión o extradición."
+    },
+    {
+     "id": "art-5-p8",
+     "text": "2. Toda persona detenida preventivamente debe ser informada, en el más breve plazo y en una lengua que comprenda, de los motivos de su detención y de cualquier acusación formulada contra ella.",
+     "number": "2"
+    },
+    {
+     "id": "art-5-p9",
+     "text": "3. Toda persona detenida preventivamente o internada en las condiciones previstas en el párrafo 1.c) del presente artículo deberá ser conducida sin dilación a presencia de un juez o de otra autoridad habilitada por la ley para ejercer poderes judiciales, y tendrá derecho a ser juzgada en un plazo razonable o a ser puesta en libertad durante el procedimiento. La puesta en libertad puede ser condicionada a una garantía que asegure la comparecencia del interesado en juicio.",
+     "number": "3"
+    },
+    {
+     "id": "art-5-p10",
+     "text": "4. Toda persona privada de su libertad mediante detención preventiva o internamiento tendrá derecho a presentar un recurso ante un órgano judicial, a fin de que se pronuncie en breve plazo sobre la legalidad de su privación de libertad y ordene su puesta en libertad si fuera ilegal.",
+     "number": "4"
+    },
+    {
+     "id": "art-5-p11",
+     "text": "5. Toda persona víctima de una detención preventiva o de un internamiento en condiciones contrarias a las disposiciones de este artículo tendrá derecho a una reparación.",
+     "number": "5"
+    }
+   ],
+   "block": "a5"
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": "Derecho a un proceso equitativo",
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. Toda persona tiene derecho a que su causa sea oída equitativa, públicamente y dentro de un plazo razonable, por un tribunal independiente e imparcial, establecido por la ley, que decidirá los litigios sobre sus derechos y obligaciones de carácter civil o sobre el fundamento de cualquier acusación en materia penal dirigida contra ella. La sentencia debe ser pronunciada públicamente, pero el acceso a la sala de audiencia puede ser prohibido a la prensa y al público durante la totalidad o parte del proceso en interés de la moralidad, del orden público o de la seguridad nacional en una sociedad democrática, cuando los intereses de los menores o la protección de la vida privada de las partes en el proceso así lo exijan o en la medida considerada necesaria por el tribunal, cuando en circunstancias especiales la publicidad pudiera ser perjudicial para los intereses de la justicia.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. Toda persona acusada de una infracción se presume inocente hasta que su culpabilidad haya sido legalmente declarada.",
+     "number": "2"
+    },
+    {
+     "id": "art-6-p3",
+     "text": "3. Todo acusado tiene, como mínimo, los siguientes derechos:",
+     "number": "3"
+    },
+    {
+     "id": "art-6-p4",
+     "text": "a) A ser informado en el más breve plazo, en una lengua que comprenda y detalladamente, de la naturaleza y de la causa de la acusación formulada contra él."
+    },
+    {
+     "id": "art-6-p5",
+     "text": "b) A disponer del tiempo y de las facilidades necesarias para la preparación de su defensa."
+    },
+    {
+     "id": "art-6-p6",
+     "text": "c) A defenderse por sí mismo o a ser asistido por un defensor de su elección y, si no tiene medios para pagarlo, poder ser asistido gratuitamente por un abogado de oficio, cuando los intereses de la justicia lo exijan."
+    },
+    {
+     "id": "art-6-p7",
+     "text": "d) A interrogar o hacer interrogar a los testigos que declaren contra él y a obtener la citación y el interrogatorio de los testigos que declaren en su favor en las mismas condiciones que los testigos que lo hagan en su contra."
+    },
+    {
+     "id": "art-6-p8",
+     "text": "e) A ser asistido gratuitamente de un intérprete, si no comprende o no habla la lengua empleada en la audiencia."
+    }
+   ],
+   "block": "a6"
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": "No hay pena sin ley",
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. Nadie podrá ser condenado por una acción o una omisión que, en el momento en que haya sido cometida, no constituya una infracción según el derecho nacional o internacional. Igualmente no podrá ser impuesta una pena más grave que la aplicable en el momento en que la infracción haya sido cometida.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. El presente artículo no impedirá el juicio y el castigo de una persona culpable de una acción o de una omisión que, en el momento de su comisión, constituía delito según los principios generales del derecho reconocidos por las naciones civilizadas.",
+     "number": "2"
+    }
+   ],
+   "block": "a7"
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": "Derecho al respeto a la vida privada y familiar",
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. Toda persona tiene derecho al respeto de su vida privada y familiar, de su domicilio y de su correspondencia.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. No podrá haber injerencia de la autoridad pública en el ejercicio de este derecho, sino en tanto en cuanto esta injerencia esté prevista por la ley y constituya una medida que, en una sociedad democrática, sea necesaria para la seguridad nacional, la seguridad pública, el bienestar económico del país, la defensa del orden y la prevención del delito, la protección de la salud o de la moral, o la protección de los derechos y las libertades de los demás.",
+     "number": "2"
+    }
+   ],
+   "block": "a8"
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": "Libertad de pensamiento, de conciencia y de religión",
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión; este derecho implica la libertad de cambiar de religión o de convicciones, así como la libertad de manifestar su religión o sus convicciones individual o colectivamente, en público o en privado, por medio del culto, la enseñanza, las prácticas y la observancia de los ritos.",
+     "number": "1"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "2. La libertad de manifestar su religión o sus convicciones no puede ser objeto de más restricciones que las que, previstas por la ley, constituyen medidas necesarias, en una sociedad democrática, para la seguridad pública, la protección del orden, de la salud o de la moral públicas, o la protección de los derechos o las libertades de los demás.",
+     "number": "2"
+    }
+   ],
+   "block": "a9"
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": "Libertad de expresión",
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. Toda persona tiene derecho a la libertad de expresión. Este derecho comprende la libertad de opinión y la libertad de recibir o de comunicar informaciones o ideas, sin que pueda haber injerencia de autoridades públicas y sin consideración de fronteras. El presente artículo no impide que los Estados sometan a las empresas de radiodifusión, de cinematografía o de televisión a un régimen de autorización previa.",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "2. El ejercicio de estas libertades, que entrañan deberes y responsabilidades, podrá ser sometido a ciertas formalidades, condiciones, restricciones o sanciones previstas por la ley, que constituyan medidas necesarias, en una sociedad democrática, para la seguridad nacional, la integridad territorial o la seguridad pública, la defensa del orden y la prevención del delito, la protección de la salud o de la moral, la protección de la reputación o de los derechos ajenos, para impedir la divulgación de informaciones confidenciales o para garantizar la autoridad y la imparcialidad del poder judicial.",
+     "number": "2"
+    }
+   ],
+   "block": "a1-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": "Libertad de reunión y de asociación",
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "1. Toda persona tiene derecho a la libertad de reunión pacífica y a la libertad de asociación, incluido el derecho de fundar con otras sindicatos y de afiliarse a los mismos para la defensa de sus intereses.",
+     "number": "1"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. El ejercicio de estos derechos no podrá ser objeto de otras restricciones que aquellas que, previstas por la Ley, constituyan medidas necesarias, en una sociedad democrática, para la seguridad nacional, la seguridad pública, la defensa del orden y la prevención del delito, la protección de la salud o de la moral, o la protección de los derechos y libertades ajenos. El presente artículo no prohíbe que se impongan restricciones legítimas al ejercicio de estos derechos para los miembros de las Fuerzas Armadas, de la Policía o de la Administración del Estado.",
+     "number": "2"
+    }
+   ],
+   "block": "a1-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": "Derecho a contraer matrimonio",
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "A partir de la edad núbil, el hombre y la mujer tienen derecho a casarse y a fundar una familia según las leyes nacionales que rijan el ejercicio de este derecho."
+    }
+   ],
+   "block": "a1-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": "Derecho a un recurso efectivo",
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "Toda persona cuyos derechos y libertades reconocidos en el presente Convenio hayan sido violados tiene derecho a la concesión de un recurso efectivo ante una instancia nacional, incluso cuando la violación haya sido cometida por personas que actúen en el ejercicio de sus funciones oficiales."
+    }
+   ],
+   "block": "a1-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": "Prohibición de discriminación",
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "El goce de los derechos y libertades reconocidos en el presente Convenio ha de ser asegurado sin distinción alguna, especialmente por razones de sexo, raza, color, lengua, religión, opiniones políticas u otras, origen nacional o social, pertenencia a una minoría nacional, fortuna, nacimiento o cualquier otra situación."
+    }
+   ],
+   "block": "a1-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": "Derogación en caso de estado de urgencia",
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "1. En caso de guerra o de otro peligro público que amenace la vida de la nación, cualquier Alta Parte Contratante podrá tomar medidas que deroguen las obligaciones previstas en el presente Convenio en la medida estricta en que lo exija la situación, y supuesto que tales medidas no estén en contradicción con las otras obligaciones que dimanan del derecho internacional.",
+     "number": "1"
+    },
+    {
+     "id": "art-15-p2",
+     "text": "2. La disposición precedente no autoriza ninguna derogación al artículo 2, salvo para el caso de muertes resultantes de actos lícitos de guerra, y a los artículos 3, 4 (párrafo 1) y 7.",
+     "number": "2"
+    },
+    {
+     "id": "art-15-p3",
+     "text": "3. Toda Alta Parte Contratante que ejerza este derecho de derogación tendrá plenamente informado al Secretario general del Consejo de Europa de las medidas tomadas y de los motivos que las han inspirado. Deberá igualmente informar al Secretario General del Consejo de Europa de la fecha en que esas medidas hayan dejado de estar en vigor y las disposiciones del Convenio vuelvan a tener plena aplicación.",
+     "number": "3"
+    }
+   ],
+   "block": "a1-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": "Restricciones a la actividad política de los extranjeros",
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "Ninguna de las disposiciones de los artículos 10, 11 y 14 podrá ser interpretada en el sentido de que prohíbe a las Altas Partes Contratantes imponer restricciones a la actividad política de los extranjeros."
+    }
+   ],
+   "block": "a1-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": "Prohibición del abuso de derecho",
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "Ninguna de las disposiciones del presente Convenio podrá ser interpretada en el sentido de que implique para un Estado, grupo o individuo, un derecho cualquiera a dedicarse a una actividad o a realizar un acto tendente a la destrucción de los derechos o libertades reconocidos en el presente Convenio o a limitaciones más amplias de estos derechos o libertades que las previstas en el mismo."
+    }
+   ],
+   "block": "a1-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": "Limitación de la aplicación de las restricciones de derechos",
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "Las restricciones que, en los términos del presente Convenio, se impongan a los citados derechos y libertades no podrán ser aplicadas más que con la finalidad para la cual han sido previstas."
+    }
+   ],
+   "block": "a1-10"
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-ii",
+   "level": 1,
+   "label": "Título II",
+   "title": "Tribunal Europeo de Derechos Humanos"
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": "Institución del Tribunal",
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "Con el fin de asegurar el respeto de los compromisos que resultan para las Altas Partes Contratantes del presente Convenio y sus protocolos, se instituye un Tribunal Europeo de Derechos Humanos, en lo sucesivo denominado «el Tribunal». Funcionará de manera permanente."
+    }
+   ],
+   "block": "a1-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": "Número de Jueces",
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "El Tribunal se compondrá de un número de Jueces igual al de las Altas Partes Contratantes."
+    }
+   ],
+   "block": "a2-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": "Condiciones de ejercicio de sus funciones",
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "1. Los Jueces deberán gozar de la más alta consideración moral y reunir las condiciones requeridas para el ejercicio de altas funciones judiciales o ser jurisconsultos de reconocida competencia.",
+     "number": "1"
+    },
+    {
+     "id": "art-21-p2",
+     "text": "2. Los candidatos deberán ser menores de 65 años en la fecha en que la Asamblea Parlamentaria reciba la lista de tres candidatos, en virtud del artículo 22.",
+     "number": "2"
+    },
+    {
+     "id": "art-21-p3",
+     "text": "3. Los Jueces formarán parte del Tribunal a título individual.",
+     "number": "3"
+    },
+    {
+     "id": "art-21-p4",
+     "text": "4. Durante su mandato, los Jueces no podrán ejercer ninguna actividad que sea incompatible con las exigencias de su independencia, imparcialidad o disponibilidad necesaria para una actividad ejercida a tiempo completo; cualquier cuestión que se suscite en torno a la aplicación de este párrafo será dirimida por el Tribunal.",
+     "number": "4"
+    },
+    {
+     "id": "art-21-p5",
+     "text": "Téngase en cuenta que esta actualización del art. 21, establecida por el art. 2.1 y 2 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554, entra en vigor el 1 de agosto de 2021, de conformidad con lo establecido en su artículo 7."
+    },
+    {
+     "id": "art-21-p6",
+     "text": "Redacción anterior:"
+    },
+    {
+     "id": "art-21-p7",
+     "text": "\"1. Los Jueces deberán gozar de la más alta consideración moral y reunir las condiciones requeridas para el ejercicio de altas funciones judiciales o ser jurisconsultos de reconocida competencia."
+    },
+    {
+     "id": "art-21-p8",
+     "text": "2. Los Jueces formarán parte del Tribunal a título individual.",
+     "number": "2"
+    },
+    {
+     "id": "art-21-p9",
+     "text": "3. Durante su mandato, los Jueces no podrán ejercer ninguna actividad que sea incompatible con las exigencias de su independencia, imparcialidad o disponibilidad necesaria para una actividad ejercida a tiempo completo; cualquier cuestión que se suscite en torno a la aplicación de este párrafo será dirimida por el Tribunal.\"",
+     "number": "3"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 21. Condiciones de ejercicio de sus funciones.",
+      "1. Los Jueces deberán gozar de la más alta consideración moral y reunir las condiciones requeridas para el ejercicio de altas funciones judiciales o ser jurisconsultos de reconocida competencia.",
+      "2. Los Jueces formarán parte del Tribunal a título individual.",
+      "3. Durante su mandato, los Jueces no podrán ejercer ninguna actividad que sea incompatible con las exigencias de su independencia, imparcialidad o disponibilidad necesaria para una actividad ejercida a tiempo completo; cualquier cuestión que se suscite en torno a la aplicación de este párrafo será dirimida por el Tribunal.",
+      "Redactado conforme a la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072"
+     ]
+    }
+   ],
+   "block": "a2-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": "Elección de los Jueces",
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "Los Jueces serán elegidos por la Asamblea Parlamentaria en razón de cada Alta Parte Contratante, por mayoría absoluta de votos, de una lista de tres candidatos presentada por esa Alta Parte Contratante."
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 22. Elección de los Jueces.",
+      "1. Los Jueces serán elegidos por la Asamblea Parlamentaria en razón de cada Alta Parte Contratante, por mayoría absoluta de votos, de una lista de tres candidatos presentada por esa Alta Parte Contratante.",
+      "2. Se seguirá el mismo procedimiento para completar el Tribunal en el caso de adhesión de nuevas Altas Partes Contratantes y para proveer los puestos que queden vacantes."
+     ]
+    }
+   ],
+   "block": "a2-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": "Duración del mandato y revocación",
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "1. Los jueces serán elegidos por un periodo de nueve años. No serán reelegibles.",
+     "number": "1"
+    },
+    {
+     "id": "art-23-p2",
+     "text": "2. Los jueces permanecerán en sus funciones hasta su sustitución. No obstante, continuarán conociendo de los asuntos que tengan ya asignados.",
+     "number": "2"
+    },
+    {
+     "id": "art-23-p3",
+     "text": "3. Un juez sólo podrá ser relevado de sus funciones si los demás jueces deciden, por mayoría de dos tercios, que dicho juez ha dejado de reunir las condiciones requeridas para serlo.",
+     "number": "3"
+    },
+    {
+     "id": "art-23-p4",
+     "text": "Téngase en cuenta que esta actualización del art. 23, establecida por el art. 2.3 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554, entra en vigor el 1 de agosto de 2021, de conformidad con lo establecido en su artículo 7."
+    },
+    {
+     "id": "art-23-p5",
+     "text": "Redacción anterior:"
+    },
+    {
+     "id": "art-23-p6",
+     "text": "\"1. Los jueces serán elegidos por un periodo de nueve años. No serán reelegibles."
+    },
+    {
+     "id": "art-23-p7",
+     "text": "2. El mandato de los jueces finalizará cuando alcancen la edad de 70 años.",
+     "number": "2"
+    },
+    {
+     "id": "art-23-p8",
+     "text": "3. Los jueces permanecerán en sus funciones hasta su sustitución. No obstante, continuarán conociendo de los asuntos que tengan ya asignados.",
+     "number": "3"
+    },
+    {
+     "id": "art-23-p9",
+     "text": "4. Un juez sólo podrá ser relevado de sus funciones si los demás jueces deciden, por mayoría de dos tercios, que dicho juez ha dejado de reunir las condiciones requeridas para serlo.\"",
+     "number": "4"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 23. Duración del mandato.",
+      "1. Los Jueces son elegidos por un período de seis años. Son reelegibles. No obstante, en lo que se refiere a los jueces designados en la primera elección, las funciones de la mitad de ellos terminarán al cabo de tres años.",
+      "2. Los Jueces cuyas funciones concluyan al término del período inicial de tres años serán designados por sorteo efectuado por el Secretario General del Consejo de Europa inmediatamente después de su elección.",
+      "3. A fin de asegurar, en lo posible, la renovación de las funciones de una mitad de los Jueces cada tres años, la Asamblea Parlamentaria podrá decidir, antes de proceder a una elección ulterior, que uno o varios mandatos de los Jueces que deban elegirse tengan una duración distinta de los seis años, sin que ésta pueda, sin embargo, exceder de nueve años ni ser inferior a tres.",
+      "4. En el caso de que proceda conferir varios mandatos y de que la Asamblea Parlamentaria haga aplicación del párrafo precedente, el reparto de mandatos se realizará mediante sorteo efectuado por el Secretario General del Consejo de Europa inmediatamente después de la elección.",
+      "5. El Juez elegido en sustitución de un Juez cuyo mandato no haya expirado ejercerá sus funciones hasta completar el mandato de su predecesor.",
+      "6. El mandato de los jueces finalizará cuando alcancen la edad de setenta años.",
+      "7. Los Jueces permanecerán en sus funciones hasta su sustitución. No obstante, continuarán conociendo de los asuntos que tengan ya asignados."
+     ]
+    },
+    {
+     "norm": "BOE-A-2010-8504",
+     "published": "2010-05-28",
+     "in_force": "2010-06-01",
+     "paragraphs": [
+      "Artículo 23. Duración del mandato y revocación.",
+      "1. Los jueces serán elegidos por un periodo de nueve años. No serán reelegibles.",
+      "2. El mandato de los jueces finalizará cuando alcancen la edad de 70 años.",
+      "3. Los jueces permanecerán en sus funciones hasta su sustitución. No obstante, continuarán conociendo de los asuntos que tengan ya asignados.",
+      "4. Un juez sólo podrá ser relevado de sus funciones si los demás jueces deciden, por mayoría de dos tercios, que dicho juez ha dejado de reunir las condiciones requeridas para serlo.",
+      "Se modifica por el art. 2 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504"
+     ]
+    }
+   ],
+   "block": "a2-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": "Secretaría y ponentes",
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "1. El Tribunal tendrá una Secretaría cuyas funciones y organización se establecerán en el reglamento del Tribunal.",
+     "number": "1"
+    },
+    {
+     "id": "art-24-p2",
+     "text": "2. Cuando esté constituido en formación de juez único, el Tribunal estará asistido de ponentes, que actuarán bajo la autoridad del Presidente del Tribunal. Formarán parte de la Secretaría del Tribunal.",
+     "number": "2"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 24. Revocación.",
+      "Un Juez sólo podrá ser relevado de sus funciones si los demás jueces deciden, por mayoría de dos tercios, que ha dejado de reunir las condiciones requeridas para serlo."
+     ]
+    }
+   ],
+   "block": "a2-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": "Pleno del Tribunal",
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "El Tribunal, reunido en pleno:"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "a) elegirá, por un periodo de tres años, a su Presidente y a uno o dos Vicepresidentes, que serán reelegibles;"
+    },
+    {
+     "id": "art-25-p3",
+     "text": "b) constituirá Salas por un periodo determinado;"
+    },
+    {
+     "id": "art-25-p4",
+     "text": "c) elegirá a los Presidentes de las Salas del Tribunal, que serán reelegibles;"
+    },
+    {
+     "id": "art-25-p5",
+     "text": "d) aprobará su reglamento;"
+    },
+    {
+     "id": "art-25-p6",
+     "text": "e) elegirá al secretario y a uno o varios secretarios adjuntos;"
+    },
+    {
+     "id": "art-25-p7",
+     "text": "f) formulará cualquier solicitud con arreglo al párrafo 2 del artículo 26."
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 25. Secretaría y refrendarios.",
+      "El Tribunal tendrá una Secretaría cuyas funciones y organización se establecerán en el reglamento del Tribunal. Estará asistido de refrendarios."
+     ]
+    }
+   ],
+   "block": "a2-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": "Formación de juez único, Comités, Salas y Gran Sala",
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "1. Para el examen de los asuntos que se le sometan, el Tribunal actuará en formación de juez único, en Comités compuestos por tres jueces, en Salas de siete jueces y en una Gran Sala de diecisiete jueces. Las Salas del Tribunal constituirán los Comités por un periodo determinado.",
+     "number": "1"
+    },
+    {
+     "id": "art-26-p2",
+     "text": "2. Cuando el Pleno del Tribunal así lo solicite, el Comité de Ministros podrá, por decisión unánime y por un periodo determinado, reducir a cinco el número de jueces de las Salas.",
+     "number": "2"
+    },
+    {
+     "id": "art-26-p3",
+     "text": "3. Cuando actúe en formación de juez único, ningún juez podrá examinar una solicitud contra la Alta Parte Contratante en cuya representación fue elegido dicho juez.",
+     "number": "3"
+    },
+    {
+     "id": "art-26-p4",
+     "text": "4. El juez elegido en representación de una Alta Parte Contratante en el litigio será miembro de pleno derecho de la Sala y de la Gran Sala. En su ausencia, o cuando dicho juez no esté en condiciones de intervenir, actuará en calidad de juez una persona designada por el Presidente del Tribunal a partir de una lista presentada previamente por esa Parte.",
+     "number": "4"
+    },
+    {
+     "id": "art-26-p5",
+     "text": "5. Formarán también parte de la Gran Sala el Presidente del Tribunal, los Vicepresidentes, los Presidentes de las Salas y demás jueces designados de conformidad con el reglamento del Tribunal. Cuando el asunto sea deferido a la Gran Sala en virtud del artículo 43, ningún juez de la Sala que haya dictado la sentencia podrá actuar en la misma, con excepción del Presidente de la Sala y del Juez que haya intervenido en representación de la Alta Parte Contratante interesada.",
+     "number": "5"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 26. Pleno del Tribunal.",
+      "El Tribunal, reunido en pleno:",
+      "a) Elegirá, por un periodo de tres años, a su Presidente y a uno o dos Vicepresidentes, que serán reelegibles.",
+      "b) Constituirá Salas por un periodo determinado.",
+      "c) Elegirá a los Presidentes de las Salas del Tribunal, que serán reelegibles.",
+      "d) Aprobará su reglamento, y e) Elegirá al secretario y a uno o varios secretarios adjuntos."
+     ]
+    }
+   ],
+   "block": "a2-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": "Competencias de los jueces únicos",
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "1. El juez único podrá declarar inadmisible o eliminar del registro de asuntos del Tribunal una demanda presentada en virtud del artículo 34, cuando pueda adoptarse tal resolución sin tener que proceder a un examen complementario.",
+     "number": "1"
+    },
+    {
+     "id": "art-27-p2",
+     "text": "2. La resolución será definitiva.",
+     "number": "2"
+    },
+    {
+     "id": "art-27-p3",
+     "text": "3. Si el juez único no declara inadmisible una demanda ni la elimina del registro de asuntos, dicho juez remitirá la misma a un Comité o a una Sala para su examen complementario.",
+     "number": "3"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 27. Comités, Salas y Gran Sala.",
+      "1. Para el examen de los asuntos que se le sometan, el Tribunal actuará en Comités formados por tres Jueces o en Salas de siete Jueces o en una Gran Sala de diecisiete Jueces. Las Salas del Tribunal constituirán los Comités por un periodo determinado.",
+      "2. El Juez elegido en representación de un Estado parte en el litigio será miembro de pleno derecho de la respectiva Sala y de la Gran Sala; en su ausencia, o cuando no esté en condiciones de intervenir, dicho Estado parte designará una persona que actúe de Juez.",
+      "3. Forman también parte de la Gran Sala el Presidente del Tribunal, los Vicepresidentes, los Presidentes de las Salas y demás Jueces designados de conformidad con el reglamento del Tribunal. Cuando el asunto sea deferido a la Gran Sala en virtud del artículo 43, ningún Juez de la Sala que haya dictado la sentencia podrá actuar en la misma, con excepción del Presidente de la Sala y del Juez que haya intervenido en representación del Estado parte interesado."
+     ]
+    }
+   ],
+   "block": "a2-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": "Competencia de los Comités",
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "1. Respecto de una demanda presentada en virtud del artículo 34, un Comité podrá, por unanimidad:",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "a) declarar la misma inadmisible o eliminarla del registro de asuntos, cuando pueda adoptarse tal resolución sin tener que proceder a un examen complementario; o"
+    },
+    {
+     "id": "art-28-p3",
+     "text": "b) declararla admisible y dictar al mismo tiempo sentencia sobre el fondo, si la cuestión subyacente al caso, relativa a la interpretación o la aplicación del Convenio o de sus Protocolos, ya ha dado lugar a jurisprudencia bien establecida del Tribunal."
+    },
+    {
+     "id": "art-28-p4",
+     "text": "2. Las resoluciones y sentencias dictadas en virtud del párrafo 1 serán definitivas.",
+     "number": "2"
+    },
+    {
+     "id": "art-28-p5",
+     "text": "3. En caso de que el juez designado en representación de la Alta Parte Contratante en el litigio no sea miembro del Comité, el Comité podrá, en cualquier fase del procedimiento, invitar a dicho juez a ocupar el lugar de uno de los miembros del Comité, tomando en consideración todos los factores pertinentes, entre ellos el de si esa Parte se ha opuesto a la aplicación del procedimiento previsto en la letra 1.b)",
+     "number": "3"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 28. Declaración de inadmisibilidad por los Comités.",
+      "Un Comité podrá, por unanimidad, declarar inadmisible o eliminar del orden del día una demanda individual presentada en virtud del artículo 34, cuando pueda adoptarse tal resolución sin tener que proceder a un examen complementario. La resolución será definitiva."
+     ]
+    }
+   ],
+   "block": "a2-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": "Resoluciones de las Salas sobre la admisibilidad y el fondo del asunto",
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "1. Si no se ha adoptado resolución alguna en virtud de los artículos 27 ó 28 o no se ha dictado sentencia en virtud del artículo 28, una Sala se pronunciará sobre la admisibilidad y el fondo de las demandas individuales presentadas en virtud del artículo 34. Se podrá adoptar la resolución sobre la admisibilidad por separado.",
+     "number": "1"
+    },
+    {
+     "id": "art-29-p2",
+     "text": "2. La Sala se pronunciará sobre la admisibilidad y el fondo de las demandas de los Estados presentadas en virtud del artículo 33. Salvo decisión en contrario del Tribunal en casos excepcionales, la resolución sobre la admisibilidad se tomará por separado.",
+     "number": "2"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 29. Resoluciones de las Salas sobre la admisibilidad y el fondo del asunto.",
+      "1. Si no se ha adoptado resolución alguna en virtud del artículo 28, la Sala se pronunciará sobre la admisibilidad y el fondo de las demandas individuales presentadas en virtud del artículo 34.",
+      "2. La Sala se pronunciará sobre la admisibilidad y el fondo de las demandas de los Estados presentadas en virtud del artículo 33.",
+      "3. Salvo decisión en contrario del Tribunal en casos excepcionales, la resolución acerca de la admisibilidad se toma por separado."
+     ]
+    }
+   ],
+   "block": "a2-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": "Inhibición en favor de la Gran Sala",
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "Si el asunto pendiente ante una Sala plantea una cuestión grave relativa a la interpretación del Convenio o de sus protocolos, o si la solución dada a una cuestión pudiera ser contradictoria con una sentencia dictada anteriormente por el Tribunal, la Sala podrá inhibirse en favor de la Gran Sala, mientras no haya dictado sentencia."
+    },
+    {
+     "id": "art-30-p2",
+     "text": "Téngase en cuenta que esta actualización del articulo 30, establecida por el art. 3 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554, entra en vigor el 1 de agosto de 2021, de conformidad con lo establecido en su artículo 7."
+    },
+    {
+     "id": "art-30-p3",
+     "text": "Redacción anterior:"
+    },
+    {
+     "id": "art-30-p4",
+     "text": "\"Si el asunto pendiente ante una Sala plantea una cuestión grave relativa a la interpretación del Convenio o de sus protocolos, o si la solución dada a una cuestión pudiera ser contradictoria con una sentencia dictada anteriormente por el Tribunal, la Sala podrá inhibirse en favor de la Gran Sala, mientras no haya dictado sentencia, salvo que una de las partes se oponga a ello.\""
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 30. Inhibición en favor de la Gran Sala.",
+      "Si el asunto pendiente ante una Sala plantea una cuestión grave relativa a la interpretación del Convenio o de sus protocolos, o si la solución dada a una cuestión pudiera ser contradictoria con una sentencia dictada anteriormente por el Tribunal, la Sala podrá inhibirse en favor de la Gran Sala, mientras no haya dictado sentencia, salvo que una de las partes se oponga a ello."
+     ]
+    }
+   ],
+   "block": "a3-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": "Atribuciones de la Gran Sala",
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "La Gran Sala:"
+    },
+    {
+     "id": "art-31-p2",
+     "text": "a) se pronunciará sobre las demandas presentadas en virtud del artículo 33 o del artículo 34, cuando el asunto le haya sido elevado por la Sala en virtud del artículo 30 o cuando el asunto le haya sido deferido en virtud del artículo 43;"
+    },
+    {
+     "id": "art-31-p3",
+     "text": "b) se pronunciará sobre la cuestiones sometidas al Tribunal por el Comité de Ministros de conformidad con el párrafo 4 del artículo 46; y"
+    },
+    {
+     "id": "art-31-p4",
+     "text": "c) examinará las solicitudes de emisión de opiniones consultivas presentadas en virtud del artículo 47."
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 31. Atribuciones de la Gran Sala.",
+      "La Gran Sala:",
+      "a) Se pronunciará sobre las demandas presentadas en virtud del artículo 33 o del artículo 34, cuando el asunto le haya sido elevado por la Sala en virtud del artículo 30 o cuando el asunto le haya sido deferido en virtud del artículo 43; y",
+      "b) Examinará las solicitudes de emisión de opiniones consultivas presentadas en virtud del artículo 47.",
+      "Redactada la letra a) conforme a la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072"
+     ]
+    }
+   ],
+   "block": "a3-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": "Competencia del Tribunal",
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "1. La competencia del Tribunal se extiende a todos los asuntos relativos a la interpretación y la aplicación del Convenio y de sus protocolos que le sean sometidos en las condiciones previstas por los artículos 33, 34, 46 y 47.",
+     "number": "1"
+    },
+    {
+     "id": "art-32-p2",
+     "text": "2. En caso de impugnación de la competencia del Tribunal, éste decidirá sobre la misma.",
+     "number": "2"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 32. Competencia del Tribunal.",
+      "1. La competencia del Tribunal se extiende a todos los asuntos relativos a la interpretación y la aplicación del Convenio y de sus protocolos que le sean sometidos en las condiciones previstas por los artículos 33, 34 y 47.",
+      "2. En caso de impugnación de la competencia del Tribunal, éste decidirá sobre la misma."
+     ]
+    }
+   ],
+   "block": "a3-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": "Asuntos entre Estados",
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "Toda Alta Parte Contratante podrá someter al Tribunal cualquier incumplimiento de lo dispuesto en el Convenio y sus protocolos que, a su juicio, pueda ser imputado a otra Alta Parte Contratante."
+    }
+   ],
+   "block": "a3-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": "Demandas individuales",
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "El Tribunal podrá conocer de una demanda presentada por cualquier persona física, organización no gubernamental o grupo de particulares que se considere víctima de una violación, por una de las Altas Partes Contratantes, de los derechos reconocidos en el Convenio o sus protocolos. Las Altas Partes Contratantes se comprometen a no poner traba alguna al ejercicio eficaz de este derecho."
+    }
+   ],
+   "block": "a3-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": "Condiciones de admisibilidad",
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de cuatro meses a partir de la fecha de la resolución interna definitiva.",
+     "number": "1"
+    },
+    {
+     "id": "art-35-p2",
+     "text": "2. El Tribunal no admitirá ninguna demanda individual entablada en aplicación del artículo 34, cuando:",
+     "number": "2"
+    },
+    {
+     "id": "art-35-p3",
+     "text": "a) Sea anónima, o"
+    },
+    {
+     "id": "art-35-p4",
+     "text": "b) Sea esencialmente la misma que una demanda examinada anteriormente por el Tribunal o ya sometida a otra instancia internacional de investigación o de arreglo, y no contenga hechos nuevos."
+    },
+    {
+     "id": "art-35-p5",
+     "text": "3. El Tribunal declarará inadmisible cualquier demanda individual presentada en virtud del artículo 34 si considera que:",
+     "number": "3"
+    },
+    {
+     "id": "art-35-p6",
+     "text": "a) la demanda es incompatible con las disposiciones del Convenio o de sus Protocolos, manifiestamente mal fundada o abusiva; o"
+    },
+    {
+     "id": "art-35-p7",
+     "text": "b) el demandante no ha sufrido un perjuicio importante, a menos que el respeto de los derechos humanos garantizados por el Convenio y por sus Protocolos exija un examen del fondo de la demanda."
+    },
+    {
+     "id": "art-35-p8",
+     "text": "4. El Tribunal rechazará cualquier demanda que considere inadmisible en aplicación del presente artículo. Podrá decidirlo así en cualquier fase del procedimiento.",
+     "number": "4"
+    },
+    {
+     "id": "art-35-p9",
+     "text": "Téngase en cuenta que esta actualización del apartado 1, establecida por el art. 4 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018, Ref. BOE-A-2021-7554, entra en vigor el 1 de febrero de 2022, pasado un plazo de seis meses desde la fecha de entrada en vigor del Protocolo."
+    },
+    {
+     "id": "art-35-p10",
+     "text": "Redacción anterior:"
+    },
+    {
+     "id": "art-35-p11",
+     "text": "\"1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de seis meses a partir de la fecha de la resolución interna definitiva.\""
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 35. Condiciones de admisibilidad.",
+      "1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de seis meses a partir de la fecha de la resolución interna definitiva.",
+      "2. El Tribunal no admitirá ninguna demanda individual entablada en aplicación del artículo 34, cuando:",
+      "a) Sea anónima, o",
+      "b) Sea esencialmente la misma que una demanda examinada anteriormente por el Tribunal o ya sometida a otra instancia internacional de investigación o de arreglo, y no contenga hechos nuevos.",
+      "3. El Tribunal considerará inadmisible cualquier demanda individual presentada en aplicación del artículo 34 cuando la estime incompatible con las disposiciones del Convenio o de sus protocolos, manifiestamente mal fundada o abusiva.",
+      "4. El Tribunal rechazará cualquier demanda que considere inadmisible en aplicación del presente artículo. Podrá decidirlo así en cualquier fase del procedimiento."
+     ]
+    },
+    {
+     "norm": "BOE-A-2010-8504",
+     "published": "2010-05-28",
+     "in_force": "2010-06-01",
+     "paragraphs": [
+      "Artículo 35. Condiciones de admisibilidad.",
+      "1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de seis meses a partir de la fecha de la resolución interna definitiva.",
+      "2. El Tribunal no admitirá ninguna demanda individual entablada en aplicación del artículo 34, cuando:",
+      "a) Sea anónima, o",
+      "b) Sea esencialmente la misma que una demanda examinada anteriormente por el Tribunal o ya sometida a otra instancia internacional de investigación o de arreglo, y no contenga hechos nuevos.",
+      "3. El Tribunal declarará inadmisible cualquier demanda individual presentada en virtud del artículo 34 si considera que:",
+      "a) la demanda es incompatible con las disposiciones del Convenio o de sus Protocolos, manifiestamente mal fundada o abusiva; o",
+      "b) el demandante no ha sufrido un perjuicio importante, a menos que el respeto de los derechos humanos garantizados por el Convenio y por sus Protocolos exija un examen del fondo de la demanda, y con la condición de que no podrá rechazarse por este motivo ningún asunto que no haya sido debidamente examinado por un tribunal nacional.",
+      "4. El Tribunal rechazará cualquier demanda que considere inadmisible en aplicación del presente artículo. Podrá decidirlo así en cualquier fase del procedimiento.",
+      "Se modifica el apartado 3 por el art. 12 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504"
+     ]
+    }
+   ],
+   "block": "a3-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": "Intervención de terceros",
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "1. En cualquier asunto que se suscite ante una Sala o ante la Gran Sala, la Alta Parte Contratante cuyo nacional sea demandante tendrá derecho a presentar observaciones por escrito y a participar en la vista.",
+     "number": "1"
+    },
+    {
+     "id": "art-36-p2",
+     "text": "2. En interés de la buena administración de la justicia, el Presidente del Tribunal podrá invitar a cualquier Alta Parte Contratante que no sea parte en el asunto o a cualquier persona interesada distinta del demandante a que presente observaciones por escrito o a participar en la vista.",
+     "number": "2"
+    },
+    {
+     "id": "art-36-p3",
+     "text": "3. En cualquier asunto que se suscite ante una Sala o ante la Gran Sala, el Comisario de Derechos Humanos del Consejo de Europa podrá presentar observaciones por escrito y participar en la vista.",
+     "number": "3"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 36. Intervención de terceros.",
+      "1. En cualquier asunto que se suscite ante una Sala o ante la Gran Sala, la Alta Parte Contratante cuyo nacional sea demandante tendrá derecho a presentar observaciones por escrito y a participar en la vista.",
+      "2. En interés de la buena administración de la justicia, el Presidente del Tribunal podrá invitar a cualquier Alta Parte Contratante que no sea parte en el asunto o a cualquier persona interesada distinta del demandante a que presente observaciones por escrito o a participar en la vista."
+     ]
+    }
+   ],
+   "block": "a3-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": "Cancelación",
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "1. En cualquier momento del procedimiento, el Tribunal podrá decidir cancelar una demanda del registro de entrada cuando las circunstancias permitan comprobar:",
+     "number": "1"
+    },
+    {
+     "id": "art-37-p2",
+     "text": "a) Que el demandante ya no está dispuesto a mantenerla; o"
+    },
+    {
+     "id": "art-37-p3",
+     "text": "b) Que el litigio ha sido ya resuelto, o"
+    },
+    {
+     "id": "art-37-p4",
+     "text": "c) Que, por cualquier otro motivo verificado por el Tribunal, ya no está justificada la prosecución del examen de la demanda."
+    },
+    {
+     "id": "art-37-p5",
+     "text": "No obstante, el Tribunal proseguirá el examen de la demanda si así lo exige el respeto de los derechos humanos garantizados por el Convenio y sus protocolos."
+    },
+    {
+     "id": "art-37-p6",
+     "text": "2. El Tribunal podrá decidir que vuelva a inscribirse en el registro de entrada el procedimiento cuando estime que las circunstancias así lo justifican.",
+     "number": "2"
+    }
+   ],
+   "block": "a3-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-38",
+   "number": "38",
+   "label": "Artículo 38",
+   "heading": "Examen del asunto",
+   "paragraphs": [
+    {
+     "id": "art-38-p1",
+     "text": "El Tribunal procederá al examen del asunto con los representantes de las partes y, si procede, a una indagación, para cuya eficaz realización las Altas Partes Contratantes proporcionarán todas las facilidades necesarias."
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 38. Examen contradictorio del asunto y procedimiento de arreglo amistoso.",
+      "1. Si el Tribunal declara admisible una demanda:",
+      "a) Procederá al examen contradictorio del caso con los representantes de las partes y, si procede, a una indagación, para cuya eficaz realización los Estados interesados proporcionarán todas las facilidades necesarias.",
+      "b) Se pondrá a disposición de los interesados a fin de llegar a un arreglo amistoso del caso, inspirándose para ello en el respeto a los derechos humanos tal como los reconocen el Convenio y sus protocolos.",
+      "2. El procedimiento a que se refiere el párrafo 1.b) será confidencial."
+     ]
+    }
+   ],
+   "block": "a3-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-39",
+   "number": "39",
+   "label": "Artículo 39",
+   "heading": "Transacción",
+   "paragraphs": [
+    {
+     "id": "art-39-p1",
+     "text": "1. En cualquier fase del procedimiento, el Tribunal podrá ponerse a disposición de las partes interesadas para conseguir una transacción sobre el asunto inspirándose para ello en el respeto a los derechos humanos tal como los reconocen el Convenio y sus Protocolos.",
+     "number": "1"
+    },
+    {
+     "id": "art-39-p2",
+     "text": "2. El procedimiento a que se refiere el párrafo 1 será confidencial.",
+     "number": "2"
+    },
+    {
+     "id": "art-39-p3",
+     "text": "3. En caso de alcanzarse una transacción, el Tribunal eliminará el asunto del registro mediante una resolución que se limitará a una breve exposición de los hechos y de la solución adoptada.",
+     "number": "3"
+    },
+    {
+     "id": "art-39-p4",
+     "text": "4. Esta resolución se transmitirá al Comité de Ministros, que supervisará la ejecución de los términos de la transacción tal como se recojan en la resolución.",
+     "number": "4"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 39. Conclusión de un arreglo amistoso.",
+      "En el caso de arreglo amistoso, el Tribunal cancelará el asunto del registro de entrada mediante una resolución que se limitará a una breve exposición de los hechos y de la solución adoptada."
+     ]
+    }
+   ],
+   "block": "a3-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-40",
+   "number": "40",
+   "label": "Artículo 40",
+   "heading": "Vista pública y acceso a los documentos",
+   "paragraphs": [
+    {
+     "id": "art-40-p1",
+     "text": "1. La vista es pública, a menos que el Tribunal decida otra cosa por circunstancias excepcionales.",
+     "number": "1"
+    },
+    {
+     "id": "art-40-p2",
+     "text": "2. Los documentos depositados en la Secretaría serán accesibles al público, a menos que el Presidente del Tribunal decida de otro modo.",
+     "number": "2"
+    }
+   ],
+   "block": "a4-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-41",
+   "number": "41",
+   "label": "Artículo 41",
+   "heading": "Arreglo equitativo",
+   "paragraphs": [
+    {
+     "id": "art-41-p1",
+     "text": "Si el Tribunal declara que ha habido violación del Convenio o de sus protocolos y si el derecho interno de la Alta Parte Contratante sólo permite de manera imperfecta reparar las consecuencias de dicha violación, el Tribunal concederá a la parte perjudicada, si así procede, una satisfacción equitativa."
+    }
+   ],
+   "block": "a4-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-42",
+   "number": "42",
+   "label": "Artículo 42",
+   "heading": "Sentencias de las Salas",
+   "paragraphs": [
+    {
+     "id": "art-42-p1",
+     "text": "Las sentencias de las Salas serán definitivas, de conformidad con lo dispuesto en el artículo 44, párrafo 2."
+    }
+   ],
+   "block": "a4-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-43",
+   "number": "43",
+   "label": "Artículo 43",
+   "heading": "Remisión ante la Gran Sala",
+   "paragraphs": [
+    {
+     "id": "art-43-p1",
+     "text": "1. En el plazo de tres meses a partir de la fecha de la sentencia de una Sala, cualquier parte en el asunto podrá solicitar, en casos excepcionales, la remisión del asunto ante la Gran Sala.",
+     "number": "1"
+    },
+    {
+     "id": "art-43-p2",
+     "text": "2. Un colegio de cinco jueces de la Gran Sala aceptará la demanda si el asunto plantea una cuestión grave relativa a la interpretación o a la aplicación del Convenio o de sus protocolos o una cuestión grave de carácter general.",
+     "number": "2"
+    },
+    {
+     "id": "art-43-p3",
+     "text": "3. Si el colegio acepta la demanda, la Gran Sala se pronunciará acerca del asunto mediante sentencia.",
+     "number": "3"
+    }
+   ],
+   "block": "a4-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-44",
+   "number": "44",
+   "label": "Artículo 44",
+   "heading": "Sentencias definitivas",
+   "paragraphs": [
+    {
+     "id": "art-44-p1",
+     "text": "1. La sentencia de la Gran Sala será definitiva.",
+     "number": "1"
+    },
+    {
+     "id": "art-44-p2",
+     "text": "2. La sentencia de una Sala será definitiva cuando:",
+     "number": "2"
+    },
+    {
+     "id": "art-44-p3",
+     "text": "a) Las partes declaren que no solicitarán la remisión del asunto ante la Gran Sala; o"
+    },
+    {
+     "id": "art-44-p4",
+     "text": "b) No haya sido solicitada la remisión del asunto ante la Gran Sala tres meses después de la fecha de la sentencia, o"
+    },
+    {
+     "id": "art-44-p5",
+     "text": "c) El colegio de la Gran Sala rechace la demanda de remisión formulada en aplicación del artículo 43."
+    },
+    {
+     "id": "art-44-p6",
+     "text": "3. La sentencia definitiva será hecha pública.",
+     "number": "3"
+    }
+   ],
+   "block": "a4-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-45",
+   "number": "45",
+   "label": "Artículo 45",
+   "heading": "Motivación de las sentencias y de las resoluciones",
+   "paragraphs": [
+    {
+     "id": "art-45-p1",
+     "text": "1. Las sentencias, así como las resoluciones por las que las demandas se declaren admisibles o no admisibles, serán motivadas.",
+     "number": "1"
+    },
+    {
+     "id": "art-45-p2",
+     "text": "2. Si la sentencia no expresa en todo o en parte la opinión unánime de los Jueces, cualquier juez tendrá derecho a unir a ella su opinión por separado.",
+     "number": "2"
+    }
+   ],
+   "block": "a4-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-46",
+   "number": "46",
+   "label": "Artículo 46",
+   "heading": "Fuerza obligatoria y ejecución de las sentencias",
+   "paragraphs": [
+    {
+     "id": "art-46-p1",
+     "text": "1. Las Altas Partes Contratantes se comprometen a acatar las sentencias definitivas del Tribunal en los litigios en que sean partes.",
+     "number": "1"
+    },
+    {
+     "id": "art-46-p2",
+     "text": "2. La sentencia definitiva del Tribunal será transmitida al Comité de Ministros, que velará por su ejecución.",
+     "number": "2"
+    },
+    {
+     "id": "art-46-p3",
+     "text": "3. Cuando el Comité de Ministros considere que la supervisión de la ejecución de una sentencia definitiva resulta obstaculizada por un problema de interpretación de dicha sentencia, podrá remitir el asunto al Tribunal con objeto de que éste se pronuncie sobre dicho problema de interpretación. La decisión de remisión al Tribunal se tomará por mayoría de dos tercios de los votos de los representantes que tengan derecho a formar parte del Comité.",
+     "number": "3"
+    },
+    {
+     "id": "art-46-p4",
+     "text": "4. Si el Comité considera que una Alta Parte Contratante se niega a acatar una sentencia definitiva sobre un asunto en que es parte, podrá, tras notificarlo formalmente a esa Parte y por decisión adoptada por mayoría de dos tercios de los votos de los representantes que tengan derecho a formar parte del Comité, remitir al Tribunal la cuestión de si esa Parte ha incumplido su obligación en virtud del párrafo 1.",
+     "number": "4"
+    },
+    {
+     "id": "art-46-p5",
+     "text": "5. Si el Tribunal concluye que se ha producido una violación del párrafo 1, remitirá el asunto al Comité de Ministros para que examine las medidas que sea preciso adoptar. En caso de que el Tribunal concluya que no se ha producido violación alguna del párrafo 1, remitirá el asunto al Comité de Ministros, que pondrá fin a su examen del asunto.",
+     "number": "5"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 46. Fuerza obligatoria y ejecución de las sentencias.",
+      "1. Las Altas Partes Contratantes se comprometen a acatar las sentencias definitivas del Tribunal en los litigios en que sean partes.",
+      "2. La sentencia definitiva del Tribunal será transmitida al Comité de Ministros, que velará por su ejecución."
+     ]
+    }
+   ],
+   "block": "a4-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-47",
+   "number": "47",
+   "label": "Artículo 47",
+   "heading": "Opiniones consultivas",
+   "paragraphs": [
+    {
+     "id": "art-47-p1",
+     "text": "1. El Tribunal podrá emitir opiniones consultivas, a solicitud del Comité de Ministros, acerca de cuestiones jurídicas relativas a la interpretación del Convenio y de sus Protocolos.",
+     "number": "1"
+    },
+    {
+     "id": "art-47-p2",
+     "text": "2. Estas opiniones no podrán referirse ni a las cuestiones que guarden relación con el contenido o la extensión de los derechos y libertades definidos en el título I del Convenio y sus Protocolos, ni a las demás cuestiones de las que el Tribunal o el Comité de Ministros pudieran conocer de resultas de la presentación de un recurso previsto por el Convenio.",
+     "number": "2"
+    },
+    {
+     "id": "art-47-p3",
+     "text": "3. La resolución del Comité de Ministros de solicitar una opinión al Tribunal será adoptada por voto mayoritario de los representantes que tengan el derecho de intervenir en el Comité.",
+     "number": "3"
+    }
+   ],
+   "block": "a4-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-48",
+   "number": "48",
+   "label": "Artículo 48",
+   "heading": "Competencia consultiva del Tribunal",
+   "paragraphs": [
+    {
+     "id": "art-48-p1",
+     "text": "El Tribunal resolverá si la solicitud de opinión consultiva presentada por el Comité de Ministros es de su competencia, tal como la define el artículo 47."
+    }
+   ],
+   "block": "a4-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-49",
+   "number": "49",
+   "label": "Artículo 49",
+   "heading": "Motivación de las opiniones consultivas",
+   "paragraphs": [
+    {
+     "id": "art-49-p1",
+     "text": "1. La opinión del Tribunal estará motivada.",
+     "number": "1"
+    },
+    {
+     "id": "art-49-p2",
+     "text": "2. Si la opinión no expresa en todo o en parte la opinión unánime de los jueces, todo juez tendrá derecho a unir a ellas su opinión por separado.",
+     "number": "2"
+    },
+    {
+     "id": "art-49-p3",
+     "text": "3. La opinión del Tribunal será comunicada al Comité de Ministros.",
+     "number": "3"
+    }
+   ],
+   "block": "a4-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-50",
+   "number": "50",
+   "label": "Artículo 50",
+   "heading": "Gastos de funcionamiento del Tribunal",
+   "paragraphs": [
+    {
+     "id": "art-50-p1",
+     "text": "Los gastos de funcionamiento del Tribunal correrán a cargo del Consejo de Europa."
+    }
+   ],
+   "block": "a5-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-51",
+   "number": "51",
+   "label": "Artículo 51",
+   "heading": "Privilegios e inmunidades de los Jueces",
+   "paragraphs": [
+    {
+     "id": "art-51-p1",
+     "text": "Los Jueces gozarán, durante el ejercicio de sus funciones, de los privilegios e inmunidades previstos en el artículo 40 del Estatuto del Consejo de Europa y en los acuerdos concluidos en virtud de ese artículo."
+    }
+   ],
+   "block": "a5-3"
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-iii",
+   "level": 1,
+   "label": "Título III",
+   "title": "Disposiciones diversas"
+  },
+  {
+   "kind": "article",
+   "id": "art-52",
+   "number": "52",
+   "label": "Artículo 52",
+   "heading": "Indagaciones del Secretario General",
+   "paragraphs": [
+    {
+     "id": "art-52-p1",
+     "text": "A requerimiento del Secretario General del Consejo de Europa, toda Alta Parte Contratante suministrará las explicaciones pertinentes sobre la manera en que su derecho interno asegura la aplicación efectiva de cualesquiera disposiciones de este Convenio."
+    }
+   ],
+   "block": "a5-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-53",
+   "number": "53",
+   "label": "Artículo 53",
+   "heading": "Protección de los derechos humanos reconocidos",
+   "paragraphs": [
+    {
+     "id": "art-53-p1",
+     "text": "Ninguna de las disposiciones del presente Convenio será interpretada en el sentido de limitar o perjudicar aquellos derechos humanos y libertades fundamentales que podrían ser reconocidos conforme a las leyes de cualquier Alta Parte Contratante o en cualquier otro Convenio en el que ésta sea parte."
+    }
+   ],
+   "block": "a5-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-54",
+   "number": "54",
+   "label": "Artículo 54",
+   "heading": "Poderes del Comité de Ministros",
+   "paragraphs": [
+    {
+     "id": "art-54-p1",
+     "text": "Ninguna de las disposiciones del presente Convenio prejuzgará los poderes conferidos al Comité de Ministros por el Estatuto del Consejo de Europa."
+    }
+   ],
+   "block": "a5-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-55",
+   "number": "55",
+   "label": "Artículo 55",
+   "heading": "Renuncia a otros modos de solución de controversia",
+   "paragraphs": [
+    {
+     "id": "art-55-p1",
+     "text": "Las Altas Partes Contratantes renuncian recíprocamente, salvo compromiso especial, a prevalerse de los tratados, convenios o declaraciones que existan entre ellas, a fin de someter, por vía de demanda, una diferencia surgida de la interpretación o de la aplicación del presente Convenio a un procedimiento de solución distinto de los previstos en el presente Convenio."
+    }
+   ],
+   "block": "a5-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-56",
+   "number": "56",
+   "label": "Artículo 56",
+   "heading": "Aplicación territorial",
+   "paragraphs": [
+    {
+     "id": "art-56-p1",
+     "text": "1. Cualquier Estado puede, en el momento de la ratificación o con posterioridad a la misma, declarar, en notificación dirigida al Secretario General de Consejo de Europa, que el presente Convenio se aplicará, sin perjuicio de lo dispuesto en el párrafo 4 del presente artículo, a todos los territorios o a algunos de los territorios de cuyas relaciones internacionales es responsable.",
+     "number": "1"
+    },
+    {
+     "id": "art-56-p2",
+     "text": "2. El Convenio se aplicará al territorio o territorios designados en la notificación a partir del trigésimo día siguiente a la fecha en la que el Secretario general del Consejo de Europa haya recibido esta notificación.",
+     "number": "2"
+    },
+    {
+     "id": "art-56-p3",
+     "text": "3. En los mencionados territorios, las disposiciones del presente Convenio se aplicarán teniendo en cuenta las necesidades locales.",
+     "number": "3"
+    },
+    {
+     "id": "art-56-p4",
+     "text": "4. Todo Estado que haya hecho una declaración de conformidad con el primer párrafo de este artículo podrá, en cualquier momento sucesivo, declarar que acepta con respecto a uno o varios de los territorios en cuestión la competencia del Tribunal para conocer de las demandas de personas físicas, de organizaciones no gubernalmentales o de grupos de particulares, tal como se prevé en el artículo 34 del Convenio.",
+     "number": "4"
+    }
+   ],
+   "block": "a5-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-57",
+   "number": "57",
+   "label": "Artículo 57",
+   "heading": "Reservas",
+   "paragraphs": [
+    {
+     "id": "art-57-p1",
+     "text": "1. Todo Estado podrá formular, en el momento de la firma del presente Convenio o del depósito de su instrumento de ratificación, una reserva a propósito de una disposición particular del Convenio en la medida en que una Ley en vigor en su territorio esté en desacuerdo con esta disposición. Este artículo no autoriza las reservas de carácter general.",
+     "number": "1"
+    },
+    {
+     "id": "art-57-p2",
+     "text": "2. Toda reserva formulada de conformidad con el presente artículo irá acompañada de una breve exposición de la Ley de que se trate.",
+     "number": "2"
+    }
+   ],
+   "block": "a5-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-58",
+   "number": "58",
+   "label": "Artículo 58",
+   "heading": "Denuncia",
+   "paragraphs": [
+    {
+     "id": "art-58-p1",
+     "text": "1. Una Alta Parte Contratante sólo podrá denunciar el presente Convenio al término de un plazo de cinco años a partir de la fecha de entrada en vigor del Convenio para dicha Parte, y mediante un preaviso de seis meses dado en una notificación dirigida al Secretario General del Consejo de Europa, quien informará a las restantes Partes Contratantes.",
+     "number": "1"
+    },
+    {
+     "id": "art-58-p2",
+     "text": "2. Esta denuncia no podrá tener por efecto el desvincular a la Alta Parte Contratante interesada de las obligaciones contenidas en el presente Convenio en lo que se refiere a todo hecho que, pudiendo constituir una violación de estas obligaciones, hubiera sido realizado por dicha Parte con anterioridad a la fecha en que la denuncia produzca efecto.",
+     "number": "2"
+    },
+    {
+     "id": "art-58-p3",
+     "text": "3. Bajo la misma reserva, dejará de ser parte en el presente Convenio toda Alta Parte Contratante que deje de ser miembro del Consejo de Europa.",
+     "number": "3"
+    },
+    {
+     "id": "art-58-p4",
+     "text": "4. El Convenio podrá ser denunciado de acuerdo con lo previsto en los párrafos precedentes respecto a cualquier territorio en el cual hubiere sido declarado aplicable en los términos del artículo 56.",
+     "number": "4"
+    }
+   ],
+   "block": "a5-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-59",
+   "number": "59",
+   "label": "Artículo 59",
+   "heading": "Firma y ratificación",
+   "paragraphs": [
+    {
+     "id": "art-59-p1",
+     "text": "1. El presente Convenio está abierto a la firma de los miembros del Consejo de Europa. Será ratificado. Las ratificaciones serán depositadas ante el Secretario General del Consejo de Europa.",
+     "number": "1"
+    },
+    {
+     "id": "art-59-p2",
+     "text": "2. La Unión Europea podrá adherirse al presente Convenio.",
+     "number": "2"
+    },
+    {
+     "id": "art-59-p3",
+     "text": "3. El presente Convenio entrará en vigor después del depósito de diez instrumentos de ratificación.",
+     "number": "3"
+    },
+    {
+     "id": "art-59-p4",
+     "text": "4. Para todo signatario que lo ratifique ulteriormente, el Convenio entrará en vigor desde el momento del depósito del instrumento de ratificación.",
+     "number": "4"
+    },
+    {
+     "id": "art-59-p5",
+     "text": "5. El Secretario General del Consejo de Europa notificará a todos los miembros del Consejo de Europa la entrada en vigor del Convenio, los nombres de las Altas Partes Contratantes que lo hayan ratificado, así como el depósito de todo instrumento de ratificación que se haya efectuado posteriormente.",
+     "number": "5"
+    }
+   ],
+   "history": [
+    {
+     "norm": "BOE-A-1999-10148",
+     "published": "1999-05-06",
+     "in_force": null,
+     "paragraphs": [
+      "Artículo 59. Firma y ratificación.",
+      "1. El presente Convenio está abierto a la firma de los miembros del Consejo de Europa. Será ratificado.",
+      "Las ratificaciones serán depositadas ante el Secretario General del Consejo de Europa.",
+      "2. El presente Convenio entrará en vigor después del depósito de diez instrumentos de ratificación.",
+      "3. Para todo signatario que lo ratifique ulteriormente, el Convenio entrará en vigor desde el momento del depósito del instrumento de ratificación.",
+      "4. El Secretario General del Consejo de Europa notificará a todos los miembros del Consejo de Europa la entrada en vigor del Convenio, los nombres de las Altas Partes Contratantes que lo hayan ratificado, así como el depósito de todo instrumento de ratificación que se haya efectuado posteriormente."
+     ]
+    }
+   ],
+   "block": "a5-11"
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "Hecho en Roma el 4 de noviembre de 1950, en francés e inglés, siendo ambos textos igualmente auténticos, en un solo ejemplar que se depositará en los archivos del Consejo de Europa. El Secretario General remitirá copias certificadas a todos los signatarios."
+  }
+ ],
+ "spain_instrument": [],
+ "publication_notes": [
+  "Incluye la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072",
+  "Téngase en cuenta que el Convenio para la protección de los derechos y de las libertades fundamentales, objeto de refundición, entró en vigor con carácter general el 3 de septiembre de 1953 y para España el 4 de octubre de 1979.",
+  "El Protocolo adicional, objeto de refundición, entró en vigor con carácter general el 18 de mayo de 1954 y para España el 27 de noviembre de 1990.",
+  "El Protocolo número 6, objeto de refundición, entró en vigor de forma general y para España el 1 de mayo de 1985.",
+  "El Protocolo número 12 entró en vigor de forma general el 1 de abril de 2005 y para España el 1 de junio de 2008.",
+  "El Protocolo número 4 entró en vigor de forma general el 2 de mayo de 1968 y para España el 16 de septiembre de 2009.",
+  "El Protocolo número 7 entró en vigor de forma general el 1 de noviembre de 1988 y para España el 1 de diciembre de 2009.",
+  "El Protocolo número 13 entró en vigor de forma general el 1 de julio de 2003 y para España el 1 de abril de 2010.",
+  "El Protocolo número 14 entró en vigor de forma general y para España el 1 de junio de 2010.",
+  "El Protocolo número 15 entra en vigor, con carácter general y para España, el 1 de agosto de 2021.",
+  "El Consejo de Europa ha elaborado los siguientes textos refundidos:",
+  "Convenio para la protección de los derechos humanos y de las libertades fundamentales, hecho en Roma el 4 de noviembre de 1950 («Boletín Oficial del Estado» número 243, de 10 de octubre de 1979), con las modificaciones introducidas por el protocolo número 11, relativo a la reestructuración de los mecanismos de control establecidos en el Convenio, hecho en Estrasburgo el 11 de mayo de 1994 («Boletín Oficial del Estado» número 152, de 26 de junio de 1998).",
+  "Protocolo adicional al Convenio para la protección de los derechos humanos y las libertades fundamentales, hecho en París el 20 de marzo de 1952 («Boletín Oficial del Estado» número 11, de 12 de enero de 1991), con las modificaciones introducidas por el protocolo número 11, relativo a la reestructuración de los mecanismos de control establecidos en el Convenio, hecho en Estrasburgo el 11 de mayo de 1994 («Boletín Oficial del Estado» número 152, de 26 de junio de 1998).",
+  "Protocolo número 6 al Convenio para la protección de los derechos humanos y de las libertades fundamentales relativo a la abolición de la pena de muerte, hecho en Estrasburgo el 28 de abril de 1983 («Boletín Oficial del Estado» número 92, de 17 de abril de 1985), con las modificaciones introducidas por el protocolo número 11, relativo a la reestructuración de los mecanismos de control establecidos en el Convenio, hecho en Estrasburgo el 11 de mayo de 1994 («Boletín Oficial del Estado» número 152, de 26 de junio de 1998).",
+  "Para general conocimiento, se publican los mismos como anexo a esta Resolución.",
+  "Téngase en cuenta que el último considerando, añadido por el art. 1 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554, entra en vigor el 1 de agosto de 2021, de conformidad con lo establecido en su artículo 7.",
+  "Se añade el último considerando por el art. 1 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554",
+  "Se renumeran los apartados 2 y 3 como 3 y 4 y se añade un nuevo apartado 2 por el art. 2.1 y 2 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554",
+  "Téngase en cuenta para su aplicación el art. 8 del citado Protocolo.",
+  "Redactado conforme a la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072",
+  "Se suprime el apartado 2 por el art. 1 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se suprime el apartado 2 y se renumeran los apartados 3 y 4 como 2 y 3 por el art. 2.3 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554",
+  "Téngase en cuenta para su aplicación el art. 8 del citado Protocolo.",
+  "Se modifica por el art. 2 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se renumera y se modifica por el art. 3 y 4 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Su anterior numeración era art. 25.",
+  "Téngase en cuenta que, conforme al acuerdo adoptado el 12 de mayo de 2009, España aceptó la aplicación provisional del art. 4 del Protocolo nº 14 desde el 1/11/2009. Ref. BOE-A-2009-18786",
+  "Se renumera y se modifica por el art. 5 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Su anterior numeración era art. 26.",
+  "Se renumera y se modifica por el art. 6 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Su anterior numeración era art. 27.",
+  "Téngase en cuenta que, conforme al acuerdo adoptado el 12 de mayo de 2009, España aceptó la aplicación provisional del art. 6 del Protocolo nº 14 desde el 1/11/2009. Ref. BOE-A-2009-18786",
+  "Se modifica por el art. 7 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Téngase en cuenta que, conforme al acuerdo adoptado el 12 de mayo de 2009, España aceptó la aplicación provisional del art. 7 del Protocolo nº 14 desde el 1/11/2009. Ref. BOE-A-2009-18786",
+  "Se modifica por el art. 8 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Téngase en cuenta que, conforme al acuerdo adoptado el 12 de mayo de 2009, España aceptó la aplicación provisional del art. 8 del Protocolo nº 14 desde el 1/11/2009. Ref. BOE-A-2009-18786",
+  "Se modifica por el art. 9 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se suprime el inciso final por el art. 3 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554",
+  "Téngase en cuenta para su aplicación el art. 8 del citado Protocolo.",
+  "Se modifica por el art. 10 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Redactada la letra a) conforme a la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072",
+  "Se modifica por el art. 11 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se modifica el apartado 1 y se suprime la última frase de la letra b) del apartado 3 por los arts. 4 y 5 del Protocolo nº 15 de enmienda, de 24 de junio de 2013, ratificado por Instrumento de 3 de septiembre de 2018. Ref. BOE-A-2021-7554",
+  "Téngase en cuenta para su aplicación el art. 8 del citado Protocolo, según el cual, la modificación del apartado 1 entrará en vigor pasado un plazo de seis meses desde la fecha de entrada en vigor del Protocolo.",
+  "Se modifica el apartado 3 por el art. 12 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se añade el apartado 3 por el art. 13 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Redactada la letra a) conforme a la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072",
+  "Se modifica por el art. 14 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se modifica por el art. 15 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Redactada la letra a) del apartado 2 conforme a la corrección de erratas publicada en BOE núm. 140, de 12 de junio de 1999. Ref. BOE-A-1999-13072",
+  "Se modifica por el art. 16 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se modifica por el art. 17 del Protocolo número 14, de 13 de mayo de 2004, ratificado por Instrumento de 3 de marzo de 2006. Ref. BOE-A-2010-8504",
+  "Se añade el Protocolo número 4, de 16 de septiembre de 1963, por Instrumento de ratificación de 28 de agosto de 2009. Ref. BOE-A-2009-16302",
+  "Se añade el Protocolo número 7, de 22 de noviembre de 1984, por Instrumento de ratificación de 28 de agosto de 2009. Ref. BOE-A-2009-16399",
+  "Se añade el Protocolo número 12, de 4 de noviembre de 2000, por Instrumento de ratificación de 25 de enero de 2008. Ref. BOE-A-2008-4891",
+  "Se añade el Protocolo número 13, de 3 de mayo de 2002, por Instrumento de ratificación de 27 de noviembre de 2009. Ref. BOE-A-2010-5208",
+  "Se añade el Protocolo número 16, de 2 de octubre de 2013, por Instrumento de ratificación de 7 de julio de 2025. Ref. BOE-A-2025-18339",
+  "Información relacionada",
+  "De conformidad con el artículo 64 del Convenio (hoy artículo 57), España se reserva la aplicación de:",
+  "1. Los artículos 5 y 6 en la medida en que resulten incompatibles con la Ley Orgánica 8/2014, de 4 de diciembre (capítulo II del Título I, Título II, Título III, capítulo I del Título IV, Título V y Disposiciones adicionales cuarta y quinta), de Régimen Disciplinario de las Fuerzas Armadas, promulgada el día 4 de diciembre de 2014 y que entró en vigor el 5 de marzo de 2015.",
+  "2. El artículo 11, en la medida en que fuere incompatible con los artículos 28 y 127 de la Constitución Española.",
+  "España declara que interpreta:",
+  "1. La disposición del punto tercero del párrafo 1.° del artículo 10, como compatible con un régimen que corresponda a la organización de la radiodifusión y televisión en España;",
+  "2. Las disposiciones de los artículos 15 y 17 en el sentido de que permiten la adopción de las medidas contempladas en los artículos 55 y 116 de la Constitución española.",
+  "En los Instrumentos de ratificación de los Protocolos números 4, 7 y 13 al Convenio, España ha formulado la siguiente declaración, para el caso de que fueran extendidos por el Reino Unido a Gibraltar:",
+  "1. Gibraltar es un territorio no autónomo de cuyas relaciones exteriores es responsable el Reino Unido y que está sometido a un proceso de descolonización de acuerdo con las decisiones y resoluciones pertinentes de la Asamblea General de las Naciones Unidas.",
+  "2. Las autoridades de Gibraltar tienen un carácter local y ejercen competencias exclusivamente internas que tienen su origen y fundamento en la distribución y atribución de competencias efectuadas por el Reino Unido, de conformidad con lo previsto en su legislación interna, en su condición de Estado soberano del que depende el citado territorio no autónomo.",
+  "3. En consecuencia, la eventual participación de las autoridades gibraltareñas en la aplicación del presente Convenio se entenderá realizada exclusivamente en el marco de las competencias internas de Gibraltar y no podrá considerarse que produce cambio alguno respecto de lo previsto en los dos párrafos precedentes.",
+  "En el Instrumento de ratificación del Protocolo nº 15 de enmienda al Convenio, España ha formulado la siguiente declaración:",
+  "«Para el caso de que el presente Protocolo sea ratificado por el Reino Unido y su aplicación extendida al territorio de Gibraltar, España desea formular la siguiente Declaración:",
+  "1. Gibraltar es un territorio no autónomo de cuyas relaciones exteriores es responsable el Reino Unido y que está sometido a un proceso de descolonización de acuerdo con las decisiones y resoluciones pertinentes de la Asamblea General de las Naciones Unidas.",
+  "2. Las autoridades de Gibraltar tienen un carácter local y ejercen competencias exclusivamente internas que tienen su origen y fundamento en la distribución y atribución de competencias efectuadas por el Reino Unido, de conformidad con lo previsto en su legislación interna, en su condición de Estado soberano del que depende el citado territorio no autónomo.",
+  "3. En consecuencia, la eventual participación de las autoridades gibraltareñas en la aplicación del presente Protocolo se entenderá realizada exclusivamente en el marco de las competencias internas de Gibraltar y no podrá considerarse que produce cambio alguno respecto de lo previsto en los dos párrafos anteriores.",
+  "4. El procedimiento previsto en el Régimen relativo a las autoridades de Gibraltar en el contexto de ciertos Tratados internacionales acordado por España y el Reino Unido el 19 de diciembre de 2007 (junto al \"Régimen acordado relativo a las autoridades de Gibraltar en el contexto de los instrumentos de la UE y CE y Tratados conexos\", de 19 de abril de 2000) se aplica al presente Protocolo n.º 15 de enmienda al Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales.",
+  "5. La aplicación a Gibraltar del presente Protocolo no puede ser interpretada como reconocimiento de cualquiera derechos o situaciones relativas a los espacios que no estén comprendidos en el artículo 10 del Tratado de Utrecht, de 13 de julio de 1713, suscrito por la Coronas de España y Gran Bretaña.»",
+  "Véase la Resolución de 27 de abril de 2022 por la que se hace pública la comunicación de los efectos desde el 16-3-2022 de la Resolución CM/RES(2022) 2 del Consejo de Europa donde se cesa a Rusia como miembro del Consejo de Europa. Ref. BOE-A-2022-7315"
+ ],
+ "authentic_clause": {
+  "article": null,
+  "paragraph": null,
+  "text": "Hecho en Roma el 4 de noviembre de 1950, en francés e inglés, siendo ambos textos igualmente auténticos, en un solo ejemplar que se depositará en los archivos del Consejo de Europa. El Secretario General remitirá copias certificadas a todos los signatarios."
+ },
+ "quality": {
+  "articles": 59,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "59 artículos (1–59)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ },
+ "pending_review": {
+  "since": "2026-11-09",
+  "articles": [
+   "art-21",
+   "art-23",
+   "art-30",
+   "art-35"
+  ]
+ }
+}

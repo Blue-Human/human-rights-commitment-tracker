@@ -1,0 +1,676 @@
+{
+ "instrument": "coe-cpt",
+ "authority": "official_es",
+ "lang": "es",
+ "title": "CONVENIO EUROPEO PARA LA PREVENCIÓN DE LA TORTURA Y DE LAS PENAS O TRATOS INHUMANOS O DEGRADANTES",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de ratificación del Convenio Europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes, hecho en Estrasburgo el 26 de noviembre de 1987.",
+  "identifier": "BOE-A-1989-15618",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-15618",
+  "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1989-15618",
+  "eli": "https://www.boe.es/eli/es/ai/1987/11/26/(1)",
+  "published": "1989-07-05",
+  "retrieved": "2026-11-09",
+  "sha256": "afd15f0e0bec8ee1f94a6d9524ebdf3a9f45f29f9704ebab2e14413fb7ce5d9c",
+  "method": "boe-gazette"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados miembros del Consejo de Europa, signatarios del presente Convenio,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Vistas las disposiciones del Convenio para la Protección de los Derechos Humanos y Libertades Fundamentales,"
+  },
+  {
+   "id": "pre-3",
+   "text": "Recordando que, en virtud del artículo 3 de dicho Convenio, «nadie podrá ser sometido a tortura ni a penas o tratamientos inhumanos o degradantes»,"
+  },
+  {
+   "id": "pre-4",
+   "text": "Tomando nota de que las personas que alegan ser víctimas de infracciones del artículo 3 pueden valerse del mecanismo previsto en este Convenio,"
+  },
+  {
+   "id": "pre-5",
+   "text": "Convencidos de que la protección de las personas privadas de su libertad contra la tortura y las penas o tratos inhumanos o degradantes podría reforzarse mediante un procedimiento no judicial de carácter preventivo, basado en visitas,"
+  },
+  {
+   "id": "pre-6",
+   "text": "Convienen en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-capitulo-primero",
+   "level": 2,
+   "label": "Capítulo PRIMERO",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "Se crea un Comité europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes (denominado a continuación: «el Comité»). Por medio de visitas, este Comité examinará el trato dado a las personas privadas de libertad para reforzar, llegado el caso, su protección contra la tortura y las penas o tratos inhumanos o degradantes."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "Cada Parte autoriza la visita, conforme al presente Convenio, a todo lugar bajo su jurisdicción donde haya personas privadas de la libertad por una autoridad pública."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "El Comité y las autoridades nacionales competentes de la Parte interesada cooperarán para la aplicación del presente Convenio."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-ii",
+   "level": 2,
+   "label": "Capítulo II",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. El Comité estará compuesto de un número de miembros igual al de las Partes.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. Los miembros del Comité serán elegidos entre personalidades de elevada moralidad, conocidas por su competencia en materia de derechos humanos o que cuenten con experiencia profesional en los campos que abarca el presente Convenio.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. En el Comité no podrá haber más de un nacional del mismo Estado.",
+     "number": "3"
+    },
+    {
+     "id": "art-4-p4",
+     "text": "4. Los miembros intervendrán a título personal, serán independientes e imparciales en el desempeño de sus funciones y estarán disponibles para ejercerlas eficazmente.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. Los miembros del Comité serán elegidos por el Comité de Ministros del Consejo de Europa por mayoría absoluta de votos, de una lista de nombres elaborada por la Mesa de la Asamblea Consultiva del Consejo de Europa; la delegación nacional en la Asamblea Consultiva de cada Parte presentará tres candidatos de los que, al menos dos, serán de su nacionalidad.",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "2. Se seguirá el mismo procedimiento para proveer los puestos que queden vacantes.",
+     "number": "2"
+    },
+    {
+     "id": "art-5-p3",
+     "text": "3. Los miembros del Comité serán elegidos por un período de cuatro años. Podrán ser reelegidos sólo una vez. Sin embargo, por lo que respecta a los miembros designados en la primera elección, las funciones de tres de ellos terminarán al cabo de un período de dos años. Los miembros cuyas funciones concluyan al término del período inicial de dos años serán designados por sorteo efectuado por el Secretario general del Consejo de Europa inmediatamente después de que se haya procedido a la primera elección.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. El Comité se reunirá a puerta cerrada. El quórum estará constituido por la mayoría de sus miembros. Las decisiones del Comité se tomarán por mayoría de los miembros presentes, sin perjuicio de lo dispuesto en el párrafo 2 del artículo 10.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. El Comité establecerá su reglamento interno.",
+     "number": "2"
+    },
+    {
+     "id": "art-6-p3",
+     "text": "3. La Secretaría del Comité quedará asegurada por el Secretario general del Consejo de Europa.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iii",
+   "level": 2,
+   "label": "Capítulo III",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. El Comité organizará las visitas a que se refiere el artículo 2. Además de las visitas periódicas, el Comité podrá organizar cualquier otra visita que, a su juicio, exijan las circunstancias.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. Por regla general efectuarán las visitas al menos dos miembros del Comité. Este podrá, si lo estima necesario, recabar la asistencia de expertos e intérpretes.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. El Comité notificará al Gobierno de la Parte interesada su propósito de efectuar una visita. Hecha la notificación, el Comité estará facultado para visitar, en cualquier momento, los lugares previstos en el artículo 2.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. Toda Parte deberá dar al Comité las facilidades siguientes para el cumplimiento de sus funciones:",
+     "number": "2"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "a) acceso a su territorio y derecho a desplazarse por él sin restricciones;"
+    },
+    {
+     "id": "art-8-p4",
+     "text": "b) cualesquiera datos sobre los lugares en que se encuentren personas privadas de libertad;"
+    },
+    {
+     "id": "art-8-p5",
+     "text": "c) la posibilidad de desplazarse a su voluntad a todo lugar donde haya personas privadas de libertad, incluido el derecho a moverse sin trabas en el interior de esos lugares;"
+    },
+    {
+     "id": "art-8-p6",
+     "text": "d) cualquier otra información de que disponga la Parte y que necesite el Comité para el cumplimiento de su labor. Al recabar esta información, el Comité tendrá en cuenta las reglas jurídicas y deontológicas aplicables a nivel nacional."
+    },
+    {
+     "id": "art-8-p7",
+     "text": "3. El Comité podrá entrevistarse sin testigos con las personas privadas de libertad.",
+     "number": "3"
+    },
+    {
+     "id": "art-8-p8",
+     "text": "4. El Comité podrá ponerse en contacto libremente con cualquier persona que, a su juicio, pueda proporcionarle datos útiles.",
+     "number": "4"
+    },
+    {
+     "id": "art-8-p9",
+     "text": "5. Si procede, el Comité comunicará de inmediato observaciones a las autoridades competentes de la Parte interesada.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "1. En casos excepcionales, las autoridades competentes de la Parte interesada podrán dar a conocer al Comité sus objeciones a la visita en el momento previsto por el Comité o en el lugar por él determinado. Estas objeciones sólo podrán hacerse por motivos de defensa nacional o de seguridad pública o por razón de graves desórdenes en los lugares donde haya personas privadas de libertad, o por el estado de salud de una persona o con motivo de un interrogatorio urgente, dentro de un sumario en curso, en relación con un delito grave.",
+     "number": "1"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "2. Formuladas esas objeciones, el Comité y la Parte se consultarán inmediatamente para esclarecer la situación y llegar a un acuerdo sobre medidas que permitan al Comité ejercer sus funciones lo más rápidamente posible. Estas medidas podrán comprender el traslado a otro lugar de cualquier persona a la que se proponga visitar el Comité. Hasta que pueda efectuarse la visita, la Parte proporcionará al Comité información sobre toda persona afectada.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. Después de cada visita, el Comité redactará un informe sobre los hechos comprobados con motivo de la misma teniendo en cuenta todas las observaciones que pudiere presentar la Parte interesada. Trasmitirá a ésta su informe, en el que figurarán las recomendaciones que estime necesarias. El Comité podrá entablar consultas con la Parte para sugerir, si procede, mejoras para la protección de las personas privadas de libertad.",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "2. Si la Parte no coopera o se niega a mejorar la situación a la vista de las recomendaciones del Comité, éste podrá, por mayoría de dos tercios de sus miembros y después de que la Parte haya tenido la posibilidad de dar explicaciones, hacer una declaración pública al respecto.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "1. Los datos recogidos por el Comité con ocasión de una visita, así como su informe y sus consultas con la Parte interesada, tendrán carácter confidencial.",
+     "number": "1"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. El Comité publicará su informe, junto con cualquier comentario de la Parte interesada, cuando ésta así lo pida.",
+     "number": "2"
+    },
+    {
+     "id": "art-11-p3",
+     "text": "3. Ello no obstante, ningún dato de carácter personal podrá hacerse público sin el consentimiento explícito de la persona interesada.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "Cada año, el Comité presentará al Comité de Ministros, habida cuenta de las reglas de carácter confidencial previstas en el artículo 11, un informe general sobre sus actividades, que se transmitirá a la Asamblea Consultiva y se hará público."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "Los miembros del Comité, los expertos y las otras personas que le asisten estarán sujetos, durante su mandato y una vez expirado éste, a la obligación de mantener en secreto los hechos o las informaciones de que tengan conocimiento en el desempeño de sus funciones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. Los nombres de las personas que asistan al Comité figurarán en la notificación que se haga en virtud del párrafo 1 del artículo 8.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. Los expertos actuarán siguiendo las instrucciones y bajo la responsabilidad del Comité. Deberán poseer una competencia y una experiencia adecuadas a las materias que abarca el presente Convenio y estarán vinculados por las mismas obligaciones de independencia, imparcialidad y disponibilidad que los miembros del Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-14-p3",
+     "text": "3. Con carácter excepcional, una Parte podrá declarar que un experto u otra persona que asista al Comité no podrá participar en la visita a un lugar comprendido bajo su jurisdicción.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iv",
+   "level": 2,
+   "label": "Capítulo IV",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "Cada Parte comunicará al Comité el nombre y la dirección de la autoridad competente para recibir las notificaciones dirigidas a su Gobierno, así como los de cualquier agente de enlace que hubiere designado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "El Comité, sus miembros y los expertos a que se refiere el párrafo 2 del artículo 7, gozarán de los privilegios e inmunidades que se prevén en el anexo al presente Convenio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. El presente Convenio no afectará a las disposiciones de derecho interno o de los acuerdos internacionales que aseguran una mayor protección a las personas privadas de libertad.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. Ninguna de las disposiciones del presente Convenio podrá interpretarse como limitación o derogación de las competencias de los órganos del Convenio europeo de Derechos Humanos o de las obligaciones asumidas por las Partes en virtud del mismo.",
+     "number": "2"
+    },
+    {
+     "id": "art-17-p3",
+     "text": "3. El Comité no visitará los lugares que visiten efectivamente y con regularidad representantes o delegados de potencias protectoras o del Comité Internacional de la Cruz Roja en virtud de las Convenciones de Ginebra de 12 de agosto de 1949 y de sus Protocolos adicionales de 8 de junio de 1977.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-v",
+   "level": 2,
+   "label": "Capítulo V",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "El presente Convenio queda abierto a la firma de los Estados miembros del Consejo de Europa. Se someterá a ratificación, aceptación o aprobación. Los instrumentos de ratificación, de aceptación o de aprobación se depositarán en poder del Secretario general del Consejo de Europa."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "1. El presente Convenio entrará en vigor el día primero del mes siguiente a la expiración de un período de tres meses después de la fecha en que siete Estados miembros del Consejo de Europa hayan manifestado su consentimiento a quedar obligados por el Convenio conforme a lo dispuesto en su artículo 18.",
+     "number": "1"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "2. Para todo Estado miembro que manifieste posteriormente su consentimiento de quedar vinculado por el Convenio, éste entrará en vigor el día primero del mes siguiente a la expiración de un período de tres meses después de la fecha del depósito del instrumento de ratificación, de aceptación o de aprobación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "1. Cualquier Estado podrá designar, en el momento de la firma o en el momento del depósito de su instrumento de ratificación, de aceptación o de aprobación, el territorio o los territorios a los que se aplicará el presente Convenio.",
+     "number": "1"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "2. Cualquier estado podrá extender, en cualquier fecha posterior, mediante declaración dirigida al Secretario general del Consejo de Europa, la aplicación del presente Convenio a cualquier otro territorio designado en la declaración. El Convenio entrará en vigor respecto de ese territorio el día primero del mes siguiente a la expiración de un período de tres meses después de la fecha en que el Secretario general haya recibido dicha declaración.",
+     "number": "2"
+    },
+    {
+     "id": "art-20-p3",
+     "text": "3. Toda declaración hecha en virtud de los dos párrafos precedentes podrá retirarse, por lo que respecta a cualquier territorio designado en la misma, por notificación dirigida al Secretario general. Dicha retirada surtirá efecto el día primero del mes siguiente a la expiración de un periodo de tres meses después de la fecha en que el Secretario general haya recibido dicha notificación.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "No se admitirá reserva alguna a lo dispuesto en el presente Convenio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "1. Cualquier Parte podrá denunciar, en todo momento, el presente Convenio notificándolo así al Secretario general del Consejo de Europa.",
+     "number": "1"
+    },
+    {
+     "id": "art-22-p2",
+     "text": "2. La denuncia surtirá efecto el día primero del mes siguiente a la expiración de un período de doce meses después de que el Secretario general haya recibido dicha notificación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "El Secretario general del Consejo de Europa notificará a los Estados miembros del Consejo de Europa:"
+    },
+    {
+     "id": "art-23-p2",
+     "text": "a) toda firma;"
+    },
+    {
+     "id": "art-23-p3",
+     "text": "b) el depósito de todo instrumento de ratificación, de aceptación o de aprobación;"
+    },
+    {
+     "id": "art-23-p4",
+     "text": "c) toda entrada en vigor del presente Convenio conforme a sus artículos 19 y 20;"
+    },
+    {
+     "id": "art-23-p5",
+     "text": "d) cualquier otro acto, notificación o comunicación que haga referencia al presente Convenio, salvo las medidas previstas en los artículos 8 y 10."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "anexo-1",
+   "level": 1,
+   "annex": true,
+   "label": "Anexo",
+   "title": "Privilegios e inmunidades",
+   "text": [
+    "(Artículo 16)",
+    "1. A los fines del presente anexo, las referencias a los miembros del Comité incluirán a los expertos de que se hace mención en el párrafo 2 del artículo 7.",
+    "2. Los miembros del Comité gozarán, durante el ejercicio de sus funciones, así como durante los viajes que realicen en el desempeño de las mismas, de los privilegios e inmunidades siguientes:",
+    "a) inmunidad de detención o arresto y de embargo de sus equipajes personales y, por lo que respecta a los actos realizados por ellos en su calidad oficial, incluidas sus palabras y escritos, de inmunidad ante cualquier jurisdicción;",
+    "b) exención de cualquier medida restrictiva de su libertad de movimientos: salida y entrada en su país de residencia y entrada en el país donde ejercen sus funciones y salida del mismo, así como de cualesquiera trámites de registro de extranjeros en los países que visiten o atraviesen en el desempeño de sus funciones.",
+    "3. Durante los viajes que efectúen en el desempeño de sus funciones, los miembros del Comité recibirán, en materia aduanera y de control de cambios:",
+    "a) de su propio Gobierno, las mismas facilitades otorgadas a altos funcionarios que viajan al extranjero en comisión temporal de servicios;",
+    "b) de los Gobiernos de las otras Partes, las mismas facilidades concedidas a los representantes de Gobiernos extranjeros en comisión temporal de servicios.",
+    "4. Los documentos y papeles del Comité serán inviolables en lo que ataña a sus actuaciones.",
+    "La correspondencia oficial y demás comunicaciones oficiales del Comité no podrán ser retenidas o censuradas.",
+    "5. Para asegurar a los miembros del Comité libertad completa de expresión y total independencia en el desempeño de sus funciones, seguirá otorgándoseles, incluso después de que haya terminado el mandato de esas personas, inmunidad de jurisdicción por lo que respecta a sus palabras, escritos o actos en el cumplimiento de sus funciones.",
+    "6. Los privilegios e inmunidades se otorgarán a los miembros del Comité, no para su beneficio personal, sino para asegurar con toda independencia el desempeño de sus funciones. El Comité es el único habilitado para pronunciar la retirada de la inmunidad: no sólo tendrá el derecho sino también el deber de privar de la inmunidad a cualquiera de sus miembros en todos los casos en que, en su opinión, dicha inmunidad impida el curso de la justicia, y cuando dicha inmunidad pueda levantarse sin perjuicio de la finalidad para la que fue concedida."
+   ]
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "En fe de lo cual, los infrascritos, debidamente autorizados al efecto, firman el presente Convenio."
+  },
+  {
+   "text": "Hecho en Estrasburgo, el 26 de noviembre de 1987, en francés e inglés, siendo ambos textos igualmente auténticos, en un solo ejemplar, que se depositará en los archivos del Consejo de Europa. El Secretario general del Consejo de Europa transmitirá copia certificada conforme a cada uno de los Estados miembros del Consejo de Europa."
+  }
+ ],
+ "spain_instrument": [
+  "JUAN CARLOS I",
+  "REY DE ESPAÑA",
+  "Por cuanto el día 26 de noviembre de 1987, el Plenipotenciario de España, nombrado en buena y debida forma al efecto, firmó en Estrasburgo el Convenio Europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes (número 126), hecho en Estrasburgo el 26 de noviembre de 1987,",
+  "Vistos y examinados los veintitrés artículos de dicho Convenio y su anexo,",
+  "Concedida por las Cortes Generales la autorización prevista en el artículo 94.1 de la Constitución,",
+  "Vengo en aprobar y ratificar cuanto en él se dispone, como en virtud del presente lo apruebo y ratifico, prometiendo cumplirlo, observarlo y hacer que se cumpla y observe puntualmente en todas sus partes, a cuyo fin, para su mayor validación y firmeza, mando expedir este Instrumento de Ratificación firmado por Mí, debidamente sellado y refrendado por el infrascrito Ministro de Asuntos Exteriores.",
+  "Dado en Madrid a 28 de abril de 1989.",
+  "JUAN CARLOS R.",
+  "El Ministro de Asuntos Exteriores,",
+  "FRANCISCO FERNÁNDEZ ORDÓÑEZ"
+ ],
+ "publication_notes": [
+  "ESTADOS PARTE",
+  "RESERVAS Y DECLARACIONES",
+  "(1) Italia: Declaración contenida en una carta del Representante Permanente de Italia, con fecha 27 de enero de 1989; registrada en la Secretaría General el 30 de enero de 1989.",
+  "El Gobierno italiano declara que la letra a) del párrafo 2 del anexo sobre Privilegios e Inmunidades no debería interpretarse de forma que se excluyan los controles efectuados por las autoridades policiales aduaneras en el equipaje de los miembros del Comité, siempre que el control se realice con observancia de las normas de confidencialidad establecidas en el artículo 11 del Convenio.",
+  "ITALIA",
+  "Nota explicativa",
+  "En su informe explicativo al Senado de la República de 4 de julio de 1988 sobre la ratificación del Convenio, el Gobierno italiano había señalado que «en el momento del depósito del instrumento de ratificación (el Gobierno), presentará una declaración interpretativa de la letra a) del apartado 2 del anexo sobre Privilegios e Inmunidades, según la cual el mencionado párrafo no debería interpretarse de forma que se excluyan los controles efectuados por las autoridades policiales o aduaneras en el equipaje de los miembros del Comité, siempre que el control se realice en cumplimiento de las normas de confidencialidad establecidas en el artículo 11 del Convenio».",
+  "Debido a una omisión, la declaración no se comunicó al Secretario general, depositario del Convenio, en el momento del depósito del instrumento de ratificación, el 29 de diciembre de 1988.",
+  "El Gobierno italiano rectifica, en la fecha de hoy, dicho error material al comunicar al Secretario general el texto de la mencionada declaración que surtirá efecto la fecha de entrada en vigor del Convenio para Italia.",
+  "(2) Países Bajos: Declaración contenida en el instrumento de aceptación, depositado el 12 de octubre de 1988.",
+  "El Reino de los Países Bajos acepta el mencionado Convenio con anexo para el Reino en Europa, las Antillas Neerlandesas y Aruba.",
+  "(3) Reino Unido de Gran Bretaña e Irlanda del Norte: Declaración contenida en el instrumento de ratificación, depositada el 24 de junio de 1988.",
+  "El Convenio queda ratificado para el Reino Unido de Gran Bretaña e Irlanda del Norte, la Bahía de Jersey y la Isla de Man.",
+  "REINO UNIDO",
+  "Declaración contenida en una carta de la Representación Permanente del Reino Unido, con fecha 2 de septiembre de 1988, registrada en la Secretaría General el 5 de septiembre de 1988.",
+  "De conformidad con el párrafo 2 del artículo 20 del Convenio europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes, el Gobierno del Reino Unido extiende la aplicación del Convenio a Gibraltar.",
+  "El presente Convenio entró en vigor de forma general el 1 de febrero de 1989 y para España entrará en vigor el 1 de septiembre de 1989, de conformidad con lo establecido en el artículo 19 del mismo.",
+  "Lo que se hace público para general conocimiento.",
+  "Madrid, 30 de junio de 1989.–El Secretario general Técnico, Javier Jiménez-Ugarte Hernández."
+ ],
+ "authentic_clause": {
+  "article": null,
+  "paragraph": null,
+  "text": "Hecho en Estrasburgo, el 26 de noviembre de 1987, en francés e inglés, siendo ambos textos igualmente auténticos, en un solo ejemplar, que se depositará en los archivos del Consejo de Europa. El Secretario general del Consejo de Europa transmitirá copia certificada conforme a cada uno de los Estados miembros del Consejo de Europa."
+ },
+ "quality": {
+  "articles": 23,
+  "stated_articles": 23,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "23 artículos (1–23)"
+   },
+   {
+    "check": "recuento_declarado",
+    "ok": true,
+    "detail": "el instrumento declara 23; extraídos 23"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

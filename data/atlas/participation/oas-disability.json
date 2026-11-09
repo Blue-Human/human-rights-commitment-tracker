@@ -1,0 +1,417 @@
+{
+ "instrument": "oas-disability",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-65.html",
+  "retrieved": "2026-11-09",
+  "sha256": "9879a5a1672d9085893a4ca4bc184347186ec31f1b2400f82b511fe95dd5e8fd"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": "*DECLARATIONS/RESERVATIONS/DENUNCIATIONS/WITHDRAWLS\n[\nTexto\ndel Tratado\n]",
+ "participants": [
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2000-09-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-01-10",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2003-02-27",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2003-05-30",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-02-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2001-07-17",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-08-15",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-07-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2001-12-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-02-26",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-12-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2003-12-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2004-02-11",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-12-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "1999-12-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2000-02-08",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-12-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "signature": "1999-06-08",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1999-06-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2004-03-01",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2004-03-18",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-03-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2002-01-15",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-03-08",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-01-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2002-08-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2003-01-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-08-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2009-05-29",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2009-09-03",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-05-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": null,
+   "consent": {
+    "date": "2011-09-14",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "2011-11-10",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-09-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": "1999-06-08",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1999-06-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2000-12-06",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-01-25",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-12-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2002-07-15",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-11-25",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-07-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2001-01-24",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-02-16",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-01-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2002-06-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-10-22",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-06-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2001-07-10",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-08-30",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-07-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Republica Dominicana",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2006-12-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2007-02-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-12-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KNA",
+   "name": "Saint Kitts y Nevis",
+   "signature": null,
+   "consent": {
+    "date": "2025-04-22",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "2025-05-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2025-04-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LCA",
+   "name": "Santa Lucia",
+   "signature": "2024-06-28",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2024-06-28",
+    "type": null
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2001-05-24",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-07-20",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-05-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2006-06-06",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2006-09-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-06-06",
+    "type": "ratification"
+   }
+  }
+ ]
+}

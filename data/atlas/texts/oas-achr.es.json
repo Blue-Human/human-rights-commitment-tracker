@@ -1,0 +1,2048 @@
+{
+ "instrument": "oas-achr",
+ "authority": "depositary",
+ "lang": "es",
+ "title": null,
+ "source": {
+  "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+  "document": "Texto del tratado B-32",
+  "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+  "retrieved": "2026-11-09",
+  "sha256": "c751cf8a8386134e25e07950db1e2fcb97f2b68b0bf94ad5f7b487d0cd52a190",
+  "method": "html:container"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Americanos signatarios de la presente Convención,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Reafirmando su propósito de consolidar en este Continente, dentro del cuadro de las instituciones democráticas, un régimen de libertad personal y de justicia social, fundado en el respeto de los derechos esenciales del hombre;"
+  },
+  {
+   "id": "pre-3",
+   "text": "Reconociendo que los derechos esenciales del hombre no nacen del hecho de ser nacional de determinado Estado, sino que tienen como fundamento los atributos de la persona humana, razón por la cual justifican una protección internacional, de naturaleza convencional coadyuvante o complementaria de la que ofrece el derecho interno de los Estados americanos;"
+  },
+  {
+   "id": "pre-4",
+   "text": "Considerando que estos principios han sido consagrados en la Carta de la Organización de los Estados Americanos, en la Declaración Americana de los Derechos y Deberes del Hombre y en la Declaración Universal de los Derechos Humanos que han sido reafirmados y desarrollados en otros instrumentos internacionales, tanto de ámbito universal como regional;"
+  },
+  {
+   "id": "pre-5",
+   "text": "Reiterando que, con arreglo a la Declaración Universal de los Derechos Humanos, sólo puede realizarse el ideal del ser humano libre, exento del temor y de la miseria, si se crean condiciones que permitan a cada persona gozar de sus derechos económicos, sociales y culturales, tanto como de sus derechos civiles y políticos, y"
+  },
+  {
+   "id": "pre-6",
+   "text": "Considerando que la Tercera Conferencia Interamericana Extraordinaria (Buenos Aires, 1967) aprobó la incorporación a la propia Carta de la Organización de normas más amplias sobre derechos económicos, sociales y educacionales y resolvió que una convención interamericana sobre derechos humanos determinara la estructura, competencia y procedimiento de los órganos encargados de esa materia,"
+  },
+  {
+   "id": "pre-7",
+   "text": "Han convenido en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-parte-i",
+   "level": 1,
+   "label": "Parte I",
+   "title": "DEBERES DE LOS ESTADOS Y DERECHOS PROTEGIDOS"
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-i",
+   "level": 2,
+   "label": "Capítulo I",
+   "title": "ENUMERACION DE DEBERES"
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": "Obligación de Respetar los Derechos",
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. Los Estados Partes en esta Convención se comprometen a respetar los derechos y libertades reconocidos en ella y a garantizar su libre y pleno ejercicio a toda persona que esté sujeta a su jurisdicción, sin discriminación alguna por motivos de raza, color, sexo, idioma, religión, opiniones políticas o de cualquier otra índole, origen nacional o social, posición económica, nacimiento o cualquier otra condición social.",
+     "number": "1"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "2. Para los efectos de esta Convención, persona es todo ser humano.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": "Deber de Adoptar Disposiciones de Derecho Interno",
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "Si el ejercicio de los derechos y libertades mencionados en el artículo 1 no estuviere ya garantizado por disposiciones legislativas o de otro carácter, los Estados Partes se comprometen a adoptar, con arreglo a sus procedimientos constitucionales y a las disposiciones de esta Convención, las medidas legislativas o de otro carácter que fueren necesarias para hacer efectivos tales derechos y libertades."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-ii",
+   "level": 2,
+   "label": "Capítulo II",
+   "title": "DERECHOS CIVILES Y POLITICOS"
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": "Derecho al Reconocimiento de la Personalidad Jurídica",
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Toda persona tiene derecho al reconocimiento de su personalidad jurídica."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": "Derecho a la Vida",
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Toda persona tiene derecho a que se respete su vida. Este derecho estará protegido por la ley y, en general, a partir del momento de la concepción. Nadie puede ser privado de la vida arbitrariamente.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. En los países que no han abolido la pena de muerte, ésta sólo podrá imponerse por los delitos más graves, en cumplimiento de sentencia ejecutoriada de tribunal competente y de conformidad con una ley que establezca tal pena, dictada con anterioridad a la comisión del delito. Tampoco se extenderá su aplicación a delitos a los cuales no se la aplique actualmente.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. No se restablecerá la pena de muerte en los Estados que la han abolido.",
+     "number": "3"
+    },
+    {
+     "id": "art-4-p4",
+     "text": "4. En ningún caso se puede aplicar la pena de muerte por delitos políticos ni comunes conexos con los políticos.",
+     "number": "4"
+    },
+    {
+     "id": "art-4-p5",
+     "text": "5. No se impondrá la pena de muerte a personas que, en el momento de la comisión del delito, tuvieren menos de dieciocho años de edad o más de setenta, ni se le aplicará a las mujeres en estado de gravidez.",
+     "number": "5"
+    },
+    {
+     "id": "art-4-p6",
+     "text": "6. Toda persona condenada a muerte tiene derecho a solicitar la amnistía, el indulto o la conmutación de la pena, los cuales podrán ser concedidos en todos los casos. No se puede aplicar la pena de muerte mientras la solicitud esté pendiente de decisión ante autoridad competente.",
+     "number": "6"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": "Derecho a la Integridad Personal",
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. Toda persona tiene derecho a que se respete su integridad física, psíquica y moral.",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "2. Nadie debe ser sometido a torturas ni a penas o tratos crueles, inhumanos o degradantes. Toda persona privada de libertad será tratada con el respeto debido a la dignidad inherente al ser humano.",
+     "number": "2"
+    },
+    {
+     "id": "art-5-p3",
+     "text": "3. La pena no puede trascender de la persona del delincuente.",
+     "number": "3"
+    },
+    {
+     "id": "art-5-p4",
+     "text": "4. Los procesados deben estar separados de los condenados, salvo en circunstancias excepcionales, y serán sometidos a un tratamiento adecuado a su condición de personas no condenadas.",
+     "number": "4"
+    },
+    {
+     "id": "art-5-p5",
+     "text": "5. Cuando los menores puedan ser procesados, deben ser separados de los adultos y llevados ante tribunales especializados, con la mayor celeridad posible, para su tratamiento.",
+     "number": "5"
+    },
+    {
+     "id": "art-5-p6",
+     "text": "6. Las penas privativas de la libertad tendrán como finalidad esencial la reforma y la readaptación social de los condenados.",
+     "number": "6"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": "Prohibición de la Esclavitud y Servidumbre",
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. Nadie puede ser sometido a esclavitud o servidumbre, y tanto éstas, como la trata de esclavos y la trata de mujeres están prohibidas en todas sus formas.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. Nadie debe ser constreñido a ejecutar un trabajo forzoso u obligatorio. En los países donde ciertos delitos tengan señalada pena privativa de la libertad acompañada de trabajos forzosos, esta disposición no podrá ser interpretada en el sentido de que prohíbe el cumplimiento de dicha pena impuesta por juez o tribunal competente. El trabajo forzoso no debe afectar a la dignidad ni a la capacidad física e intelectual del recluido.",
+     "number": "2"
+    },
+    {
+     "id": "art-6-p3",
+     "text": "3. No constituyen trabajo forzoso u obligatorio, para los efectos de este artículo:",
+     "number": "3"
+    },
+    {
+     "id": "art-6-p4",
+     "text": "a. los trabajos o servicios que se exijan normalmente de una persona recluida en cumplimiento de una sentencia o resolución formal dictada por la autoridad judicial competente. Tales trabajos o servicios deberán realizarse bajo la vigilancia y control de las autoridades públicas, y los individuos que los efectúen no serán puestos a disposición de particulares, compañías o personas jurídicas de carácter privado;"
+    },
+    {
+     "id": "art-6-p5",
+     "text": "b. el servicio militar y, en los países donde se admite exención por razones de conciencia, el servicio nacional que la ley establezca en lugar de aquél;"
+    },
+    {
+     "id": "art-6-p6",
+     "text": "c. el servicio impuesto en casos de peligro o calamidad que amenace la existencia o el bienestar de la comunidad, y"
+    },
+    {
+     "id": "art-6-p7",
+     "text": "d. el trabajo o servicio que forme parte de las obligaciones cívicas normales."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": "Derecho a la Libertad Personal",
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. Toda persona tiene derecho a la libertad y a la seguridad personales.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. Nadie puede ser privado de su libertad física, salvo por las causas y en las condiciones fijadas de antemano por las Constituciones Políticas de los Estados Partes o por las leyes dictadas conforme a ellas.",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "3. Nadie puede ser sometido a detención o encarcelamiento arbitrarios.",
+     "number": "3"
+    },
+    {
+     "id": "art-7-p4",
+     "text": "4. Toda persona detenida o retenida debe ser informada de las razones de su detención y notificada, sin demora, del cargo o cargos formulados contra ella.",
+     "number": "4"
+    },
+    {
+     "id": "art-7-p5",
+     "text": "5. Toda persona detenida o retenida debe ser llevada, sin demora, ante un juez u otro funcionario autorizado por la ley para ejercer funciones judiciales y tendrá derecho a ser juzgada dentro de un plazo razonable o a ser puesta en libertad, sin perjuicio de que continúe el proceso. Su libertad podrá estar condicionada a garantías que aseguren su comparecencia en el juicio.",
+     "number": "5"
+    },
+    {
+     "id": "art-7-p6",
+     "text": "6. Toda persona privada de libertad tiene derecho a recurrir ante un juez o tribunal competente, a fin de que éste decida, sin demora, sobre la legalidad de su arresto o detención y ordene su libertad si el arresto o la detención fueran ilegales. En los Estados Partes cuyas leyes prevén que toda persona que se viera amenazada de ser privada de su libertad tiene derecho a recurrir a un juez o tribunal competente a fin de que éste decida sobre la legalidad de tal amenaza, dicho recurso no puede ser restringido ni abolido. Los recursos podrán interponerse por sí o por otra persona.",
+     "number": "6"
+    },
+    {
+     "id": "art-7-p7",
+     "text": "7. Nadie será detenido por deudas. Este principio no limita los mandatos de autoridad judicial competente dictados por incumplimientos de deberes alimentarios.",
+     "number": "7"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": "Garantías Judiciales",
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. Toda persona tiene derecho a ser oída, con las debidas garantías y dentro de un plazo razonable, por un juez o tribunal competente, independiente e imparcial, establecido con anterioridad por la ley, en la sustanciación de cualquier acusación penal formulada contra ella, o para la determinación de sus derechos y obligaciones de orden civil, laboral, fiscal o de cualquier otro carácter.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. Toda persona inculpada de delito tiene derecho a que se presuma su inocencia mientras no se establezca legalmente su culpabilidad. Durante el proceso, toda persona tiene derecho, en plena igualdad, a las siguientes garantías mínimas:",
+     "number": "2"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "a) derecho del inculpado de ser asistido gratuitamente por el traductor o intérprete, si no comprende o no habla el idioma del juzgado o tribunal;"
+    },
+    {
+     "id": "art-8-p4",
+     "text": "b) comunicación previa y detallada al inculpado de la acusación formulada;"
+    },
+    {
+     "id": "art-8-p5",
+     "text": "c) concesión al inculpado del tiempo y de los medios adecuados para la preparación de su defensa;"
+    },
+    {
+     "id": "art-8-p6",
+     "text": "d) derecho del inculpado de defenderse personalmente o de ser asistido por un defensor de su elección y de comunicarse libre y privadamente con su defensor;"
+    },
+    {
+     "id": "art-8-p7",
+     "text": "e) derecho irrenunciable de ser asistido por un defensor proporcionado por el Estado, remunerado o no según la legislación interna, si el inculpado no se defendiere por sí mismo ni nombrare defensor dentro del plazo establecido por la ley;"
+    },
+    {
+     "id": "art-8-p8",
+     "text": "f) derecho de la defensa de interrogar a los testigos presentes en el tribunal y de obtener la comparecencia, como testigos o peritos, de otras personas que puedan arrojar luz sobre los hechos;"
+    },
+    {
+     "id": "art-8-p9",
+     "text": "g) derecho a no ser obligado a declarar contra sí mismo ni a declararse culpable, y"
+    },
+    {
+     "id": "art-8-p10",
+     "text": "h) derecho de recurrir del fallo ante juez o tribunal superior."
+    },
+    {
+     "id": "art-8-p11",
+     "text": "3. La confesión del inculpado solamente es válida si es hecha sin coacción de ninguna naturaleza.",
+     "number": "3"
+    },
+    {
+     "id": "art-8-p12",
+     "text": "4. El inculpado absuelto por una sentencia firme no podrá ser sometido a nuevo juicio por los mismos hechos.",
+     "number": "4"
+    },
+    {
+     "id": "art-8-p13",
+     "text": "5. El proceso penal debe ser público, salvo en lo que sea necesario para preservar los intereses de la justicia.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": "Principio de Legalidad y de Retroactividad",
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "Nadie puede ser condenado por acciones u omisiones que en el momento de cometerse no fueran delictivos según el derecho aplicable. Tampoco se puede imponer pena más grave que la aplicable en el momento de la comisión del delito. Si con posterioridad a la comisión del delito la ley dispone la imposición de una pena más leve, el delincuente se beneficiará de ello."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": "Derecho a Indemnización",
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "Toda persona tiene derecho a ser indemnizada conforme a la ley en caso de haber sido condenada en sentencia firme por error judicial."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": "Protección de la Honra y de la Dignidad",
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "1. Toda persona tiene derecho al respeto de su honra y al reconocimiento de su dignidad.",
+     "number": "1"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. Nadie puede ser objeto de injerencias arbitrarias o abusivas en su vida privada, en la de su familia, en su domicilio o en su correspondencia, ni de ataques ilegales a su honra o reputación.",
+     "number": "2"
+    },
+    {
+     "id": "art-11-p3",
+     "text": "3. Toda persona tiene derecho a la protección de la ley contra esas injerencias o esos ataques.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": "Libertad de Conciencia y de Religión",
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "1. Toda persona tiene derecho a la libertad de conciencia y de religión. Este derecho implica la libertad de conservar su religión o sus creencias, o de cambiar de religión o de creencias, así como la libertad de profesar y divulgar su religión o sus creencias, individual o colectivamente, tanto en público como en privado.",
+     "number": "1"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "2. Nadie puede ser objeto de medidas restrictivas que puedan menoscabar la libertad de conservar su religión o sus creencias o de cambiar de religión o de creencias.",
+     "number": "2"
+    },
+    {
+     "id": "art-12-p3",
+     "text": "3. La libertad de manifestar la propia religión y las propias creencias está sujeta únicamente a las limitaciones prescritas por la ley y que sean necesarias para proteger la seguridad, el orden, la salud o la moral públicos o los derechos o libertades de los demás.",
+     "number": "3"
+    },
+    {
+     "id": "art-12-p4",
+     "text": "4. Los padres, y en su caso los tutores, tienen derecho a que sus hijos o pupilos reciban la educación religiosa y moral que esté de acuerdo con sus propias convicciones.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": "Libertad de Pensamiento y de Expresión",
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "1. Toda persona tiene derecho a la libertad de pensamiento y de expresión. Este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole, sin consideración de fronteras, ya sea oralmente, por escrito o en forma impresa o artística, o por cualquier otro procedimiento de su elección.",
+     "number": "1"
+    },
+    {
+     "id": "art-13-p2",
+     "text": "2. El ejercicio del derecho previsto en el inciso precedente no puede estar sujeto a previa censura sino a responsabilidades ulteriores, las que deben estar expresamente fijadas por la ley y ser necesarias para asegurar:",
+     "number": "2"
+    },
+    {
+     "id": "art-13-p3",
+     "text": "a) el respeto a los derechos o a la reputación de los demás, o"
+    },
+    {
+     "id": "art-13-p4",
+     "text": "b) la protección de la seguridad nacional, el orden público o la salud o la moral públicas."
+    },
+    {
+     "id": "art-13-p5",
+     "text": "3. No se puede restringir el derecho de expresión por vías o medios indirectos, tales como el abuso de controles oficiales o particulares de papel para periódicos, de frecuencias radioeléctricas, o de enseres y aparatos usados en la difusión de información o por cualesquiera otros medios encaminados a impedir la comunicación y la circulación de ideas y opiniones.",
+     "number": "3"
+    },
+    {
+     "id": "art-13-p6",
+     "text": "4. Los espectáculos públicos pueden ser sometidos por la ley a censura previa con el exclusivo objeto de regular el acceso a ellos para la protección moral de la infancia y la adolescencia, sin perjuicio de lo establecido en el inciso 2.",
+     "number": "4"
+    },
+    {
+     "id": "art-13-p7",
+     "text": "5. Estará prohibida por la ley toda propaganda en favor de la guerra y toda apología del odio nacional, racial o religioso que constituyan incitaciones a la violencia o cualquier otra acción ilegal similar contra cualquier persona o grupo de personas, por ningún motivo, inclusive los de raza, color, religión, idioma u origen nacional.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": "Derecho de Rectificación o Respuesta",
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. Toda persona afectada por informaciones inexactas o agraviantes emitidas en su perjuicio a través de medios de difusión legalmente reglamentados y que se dirijan al público en general, tiene derecho a efectuar por el mismo órgano de difusión su rectificación o respuesta en las condiciones que establezca la ley.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. En ningún caso la rectificación o la respuesta eximirán de las otras responsabilidades legales en que se hubiese incurrido.",
+     "number": "2"
+    },
+    {
+     "id": "art-14-p3",
+     "text": "3. Para la efectiva protección de la honra y la reputación, toda publicación o empresa periodística, cinematográfica, de radio o televisión tendrá una persona responsable que no esté protegida por inmunidades ni disponga de fuero especial.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": "Derecho de Reunión",
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "Se reconoce el derecho de reunión pacífica y sin armas. El ejercicio de tal derecho sólo puede estar sujeto a las restricciones previstas por la ley, que sean necesarias en una sociedad democrática, en interés de la seguridad nacional, de la seguridad o del orden públicos, o para proteger la salud o la moral públicas o los derechos o libertades de los demás."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": "Libertad de Asociación",
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "1. Todas las personas tienen derecho a asociarse libremente con fines ideológicos, religiosos, políticos, económicos, laborales, sociales, culturales, deportivos o de cualquiera otra índole.",
+     "number": "1"
+    },
+    {
+     "id": "art-16-p2",
+     "text": "2. El ejercicio de tal derecho sólo puede estar sujeto a las restricciones previstas por la ley que sean necesarias en una sociedad democrática, en interés de la seguridad nacional, de la seguridad o del orden públicos, o para proteger la salud o la moral públicas o los derechos y libertades de los demás.",
+     "number": "2"
+    },
+    {
+     "id": "art-16-p3",
+     "text": "3. Lo dispuesto en este artículo no impide la imposición de restricciones legales, y aun la privación del ejercicio del derecho de asociación, a los miembros de las fuerzas armadas y de la policía.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": "Protección a la Familia",
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. La familia es el elemento natural y fundamental de la sociedad y debe ser protegida por la sociedad y el Estado.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. Se reconoce el derecho del hombre y la mujer a contraer matrimonio y a fundar una familia si tienen la edad y las condiciones requeridas para ello por las leyes internas, en la medida en que éstas no afecten al principio de no discriminación establecido en esta Convención.",
+     "number": "2"
+    },
+    {
+     "id": "art-17-p3",
+     "text": "3. El matrimonio no puede celebrarse sin el libre y pleno consentimiento de los contrayentes.",
+     "number": "3"
+    },
+    {
+     "id": "art-17-p4",
+     "text": "4. Los Estados Partes deben tomar medidas apropiadas para asegurar la igualdad de derechos y la adecuada equivalencia de responsabilidades de los cónyuges en cuanto al matrimonio, durante el matrimonio y en caso de disolución del mismo. En caso de disolución, se adoptarán disposiciones que aseguren la protección necesaria de los hijos, sobre la base única del interés y conveniencia de ellos.",
+     "number": "4"
+    },
+    {
+     "id": "art-17-p5",
+     "text": "5. La ley debe reconocer iguales derechos tanto a los hijos nacidos fuera de matrimonio como a los nacidos dentro del mismo.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": "Derecho al Nombre",
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "Toda persona tiene derecho a un nombre propio y a los apellidos de sus padres o al de uno de ellos. La ley reglamentará la forma de asegurar este derecho para todos, mediante nombres supuestos, si fuere necesario."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": "Derechos del Niño",
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "Todo niño tiene derecho a las medidas de protección que su condición de menor requieren por parte de su familia, de la sociedad y del Estado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": "Derecho a la Nacionalidad",
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "1. Toda persona tiene derecho a una nacionalidad.",
+     "number": "1"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "2. Toda persona tiene derecho a la nacionalidad del Estado en cuyo territorio nació si no tiene derecho a otra.",
+     "number": "2"
+    },
+    {
+     "id": "art-20-p3",
+     "text": "3. A nadie se privará arbitrariamente de su nacionalidad ni del derecho a cambiarla.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": "Derecho a la Propiedad Privada",
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "1. Toda persona tiene derecho al uso y goce de sus bienes. La ley puede subordinar tal uso y goce al interés social.",
+     "number": "1"
+    },
+    {
+     "id": "art-21-p2",
+     "text": "2. Ninguna persona puede ser privada de sus bienes, excepto mediante el pago de indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley.",
+     "number": "2"
+    },
+    {
+     "id": "art-21-p3",
+     "text": "3. Tanto la usura como cualquier otra forma de explotación del hombre por el hombre, deben ser prohibidas por la ley.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": "Derecho de Circulación y de Residencia",
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "1. Toda persona que se halle legalmente en el territorio de un Estado tiene derecho a circular por el mismo y, a residir en él con sujeción a las disposiciones legales.",
+     "number": "1"
+    },
+    {
+     "id": "art-22-p2",
+     "text": "2. Toda persona tiene derecho a salir libremente de cualquier país, inclusive del propio.",
+     "number": "2"
+    },
+    {
+     "id": "art-22-p3",
+     "text": "3. El ejercicio de los derechos anteriores no puede ser restringido sino en virtud de una ley, en la medida indispensable en una sociedad democrática, para prevenir infracciones penales o para proteger la seguridad nacional, la seguridad o el orden públicos, la moral o la salud públicas o los derechos y libertades de los demás.",
+     "number": "3"
+    },
+    {
+     "id": "art-22-p4",
+     "text": "4. El ejercicio de los derechos reconocidos en el inciso 1 puede asimismo ser restringido por la ley, en zonas determinadas, por razones de interés público.",
+     "number": "4"
+    },
+    {
+     "id": "art-22-p5",
+     "text": "5. Nadie puede ser expulsado del territorio del Estado del cual es nacional, ni ser privado del derecho a ingresar en el mismo.",
+     "number": "5"
+    },
+    {
+     "id": "art-22-p6",
+     "text": "6. El extranjero que se halle legalmente en el territorio de un Estado parte en la presente Convención, sólo podrá ser expulsado de él en cumplimiento de una decisión adoptada conforme a la ley.",
+     "number": "6"
+    },
+    {
+     "id": "art-22-p7",
+     "text": "7. Toda persona tiene el derecho de buscar y recibir asilo en territorio extranjero en caso de persecución por delitos políticos o comunes conexos con los políticos y de acuerdo con la legislación de cada Estado y los convenios internacionales.",
+     "number": "7"
+    },
+    {
+     "id": "art-22-p8",
+     "text": "8. En ningún caso el extranjero puede ser expulsado o devuelto a otro país, sea o no de origen, donde su derecho a la vida o a la libertad personal está en riesgo de violación a causa de raza, nacionalidad, religión, condición social o de sus opiniones políticas.",
+     "number": "8"
+    },
+    {
+     "id": "art-22-p9",
+     "text": "9. Es prohibida la expulsión colectiva de extranjeros.",
+     "number": "9"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": "Derechos Políticos",
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "1. Todos los ciudadanos deben gozar de los siguientes derechos y oportunidades:",
+     "number": "1"
+    },
+    {
+     "id": "art-23-p2",
+     "text": "a) de participar en la dirección de los asuntos públicos, directamente o por medio de representantes libremente elegidos;"
+    },
+    {
+     "id": "art-23-p3",
+     "text": "b) de votar y ser elegidos en elecciones periódicas auténticas, realizadas por sufragio universal e igual y por voto secreto que garantice la libre expresión de la voluntad de los electores, y"
+    },
+    {
+     "id": "art-23-p4",
+     "text": "c) de tener acceso, en condiciones generales de igualdad, a las funciones públicas de su país."
+    },
+    {
+     "id": "art-23-p5",
+     "text": "2. La ley puede reglamentar el ejercicio de los derechos y oportunidades a que se refiere el inciso anterior, exclusivamente por razones de edad, nacionalidad, residencia, idioma, instrucción, capacidad civil o mental, o condena, por juez competente, en proceso penal.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": "Igualdad ante la Ley",
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "Todas las personas son iguales ante la ley. En consecuencia, tienen derecho, sin discriminación, a igual protección de la ley."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": "Protección Judicial",
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "1. Toda persona tiene derecho a un recurso sencillo y rápido o a cualquier otro recurso efectivo ante los jueces o tribunales competentes, que la ampare contra actos que violen sus derechos fundamentales reconocidos por la Constitución, la ley o la presente Convención, aun cuando tal violación sea cometida por personas que actúen en ejercicio de sus funciones oficiales.",
+     "number": "1"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "2. Los Estados Partes se comprometen:",
+     "number": "2"
+    },
+    {
+     "id": "art-25-p3",
+     "text": "a) a garantizar que la autoridad competente prevista por el sistema legal del Estado decidirá sobre los derechos de toda persona que interponga tal recurso;"
+    },
+    {
+     "id": "art-25-p4",
+     "text": "b) a desarrollar las posibilidades de recurso judicial, y"
+    },
+    {
+     "id": "art-25-p5",
+     "text": "c) a garantizar el cumplimiento, por las autoridades competentes, de toda decisión en que se haya estimado procedente el recurso."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iii",
+   "level": 2,
+   "label": "Capítulo III",
+   "title": "DERECHOS ECONOMICOS, SOCIALES Y CULTURALES"
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": "Desarrollo Progresivo",
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "Los Estados Partes se comprometen a adoptar providencias, tanto a nivel interno como mediante la cooperación internacional, especialmente económica y técnica, para lograr progresivamente la plena efectividad de los derechos que se derivan de las normas económicas, sociales y sobre educación, ciencia y cultura, contenidas en la Carta de la Organización de los Estados Americanos, reformada por el Protocolo de Buenos Aires, en la medida de los recursos disponibles, por vía legislativa u otros medios apropiados."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iv",
+   "level": 2,
+   "label": "Capítulo IV",
+   "title": "SUSPENSION DE GARANTIAS, INTERPRETACION Y APLICACION"
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": "Suspensión de Garantías",
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "1. En caso de guerra, de peligro público o de otra emergencia que amenace la independencia o seguridad del Estado parte, éste podrá adoptar disposiciones que, en la medida y por el tiempo estrictamente limitados a las exigencias de la situación, suspendan las obligaciones contraídas en virtud de esta Convención, siempre que tales disposiciones no sean incompatibles con las demás obligaciones que les impone el derecho internacional y no entrañen discriminación alguna fundada en motivos de raza, color, sexo, idioma, religión u origen social.",
+     "number": "1"
+    },
+    {
+     "id": "art-27-p2",
+     "text": "2. La disposición precedente no autoriza la suspensión de los derechos determinados en los siguientes artículos: 3 (Derecho al Reconocimiento de la Personalidad Jurídica); 4 (Derecho a la Vida); 5 (Derecho a la Integridad Personal); 6 (Prohibición de la Esclavitud y Servidumbre); 9 (Principio de Legalidad y de Retroactividad); 12 (Libertad de Conciencia y de Religión); 17 (Protección a la Familia); 18 (Derecho al Nombre); 19 (Derechos del Niño); 20 (Derecho a la Nacionalidad), y 23 (Derechos Políticos), ni de las garantías judiciales indispensables para la protección de tales derechos.",
+     "number": "2"
+    },
+    {
+     "id": "art-27-p3",
+     "text": "3. Todo Estado parte que haga uso del derecho de suspensión deberá informar inmediatamente a los demás Estados Partes en la presente Convención, por conducto del Secretario General de la Organización de los Estados Americanos, de las disposiciones cuya aplicación haya suspendido, de los motivos que hayan suscitado la suspensión y de la fecha en que haya dado por terminada tal suspensión.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": "Cláusula Federal",
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "1. Cuando se trate de un Estado parte constituido como Estado Federal, el gobierno nacional de dicho Estado parte cumplirá todas las disposiciones de la presente Convención relacionadas con las materias sobre las que ejerce jurisdicción legislativa y judicial.",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "2. Con respecto a las disposiciones relativas a las materias que corresponden a la jurisdicción de las entidades componentes de la federación, el gobierno nacional debe tomar de inmediato las medidas pertinentes, conforme a su constitución y sus leyes, a fin de que las autoridades competentes de dichas entidades puedan adoptar las disposiciones del caso para el cumplimiento de esta Convención.",
+     "number": "2"
+    },
+    {
+     "id": "art-28-p3",
+     "text": "3. Cuando dos o más Estados Partes acuerden integrar entre sí una federación u otra clase de asociación, cuidarán de que el pacto comunitario correspondiente contenga las disposiciones necesarias para que continúen haciéndose efectivas en el nuevo Estado así organizado, las normas de la presente Convención.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": "Normas de Interpretación",
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "Ninguna disposición de la presente Convención puede ser interpretada en el sentido de:"
+    },
+    {
+     "id": "art-29-p2",
+     "text": "a) permitir a alguno de los Estados Partes, grupo o persona, suprimir el goce y ejercicio de los derechos y libertades reconocidos en la Convención o limitarlos en mayor medida que la prevista en ella;"
+    },
+    {
+     "id": "art-29-p3",
+     "text": "b) limitar el goce y ejercicio de cualquier derecho o libertad que pueda estar reconocido de acuerdo con las leyes de cualquiera de los Estados Partes o de acuerdo con otra convención en que sea parte uno de dichos Estados;"
+    },
+    {
+     "id": "art-29-p4",
+     "text": "c) excluir otros derechos y garantías que son inherentes al ser humano o que se derivan de la forma democrática representativa de gobierno, y"
+    },
+    {
+     "id": "art-29-p5",
+     "text": "d) excluir o limitar el efecto que puedan producir la Declaración Americana de Derechos y Deberes del Hombre y otros actos internacionales de la misma naturaleza."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": "Alcance de las Restricciones",
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "Las restricciones permitidas, de acuerdo con esta Convención, al goce y ejercicio de los derechos y libertades reconocidas en la misma, no pueden ser aplicadas sino conforme a leyes que se dictaren por razones de interés general y con el propósito para el cual han sido establecidas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": "Reconocimiento de Otros Derechos",
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "Podrán ser incluidos en el régimen de protección de esta Convención otros derechos y libertades que sean reconocidos de acuerdo con los procedimientos establecidos en los artículos 76 y 77."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-v",
+   "level": 2,
+   "label": "Capítulo V",
+   "title": "DEBERES DE LAS PERSONAS"
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": "Correlación entre Deberes y Derechos",
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "1. Toda persona tiene deberes para con la familia, la comunidad y la humanidad.",
+     "number": "1"
+    },
+    {
+     "id": "art-32-p2",
+     "text": "2. Los derechos de cada persona están limitados por los derechos de los demás, por la seguridad de todos y por las justas exigencias del bien común, en una sociedad democrática.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-ii",
+   "level": 1,
+   "label": "Parte II",
+   "title": "MEDIOS DE LA PROTECCION"
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-vi",
+   "level": 2,
+   "label": "Capítulo VI",
+   "title": "DE LOS ORGANOS COMPETENTES"
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "Son competentes para conocer de los asuntos relacionados con el cumplimiento de los compromisos contraídos por los Estados Partes en esta Convención:"
+    },
+    {
+     "id": "art-33-p2",
+     "text": "a) la Comisión Interamericana de Derechos Humanos, llamada en adelante la Comisión, y"
+    },
+    {
+     "id": "art-33-p3",
+     "text": "b) la Corte Interamericana de Derechos Humanos, llamada en adelante la Corte."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-vii",
+   "level": 2,
+   "label": "Capítulo VII",
+   "title": "LA COMISION INTERAMERICANA DE DERECHOS HUMANOS"
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-1",
+   "level": 3,
+   "label": "Sección 1",
+   "title": "Organización"
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "La Comisión Interamericana de Derechos Humanos se compondrá de siete miembros, que deberán ser personas de alta autoridad moral y reconocida versación en materia de derechos humanos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "La Comisión representa a todos los miembros que integran la Organización de los Estados Americanos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "1. Los Miembros de la Comisión serán elegidos a título personal por la Asamblea General de la Organización de una lista de candidatos propuestos por los gobiernos de los Estados miembros.",
+     "number": "1"
+    },
+    {
+     "id": "art-36-p2",
+     "text": "2. Cada uno de dichos gobiernos puede proponer hasta tres candidatos, nacionales del Estado que los proponga o de cualquier otro Estado miembro de la Organización de los Estados Americanos. Cuando se proponga una terna, por lo menos uno de los candidatos deberá ser nacional de un Estado distinto del proponente.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "1. Los miembros de la Comisión serán elegidos por cuatro años y sólo podrán ser reelegidos una vez, pero el mandato de tres de los miembros designados en la primera elección expirará al cabo de dos años. Inmediatamente después de dicha elección se determinarán por sorteo en la Asamblea General los nombres de estos tres miembros.",
+     "number": "1"
+    },
+    {
+     "id": "art-37-p2",
+     "text": "2. No puede formar parte de la Comisión más de un nacional de un mismo Estado.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-38",
+   "number": "38",
+   "label": "Artículo 38",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-38-p1",
+     "text": "Las vacantes que ocurrieren en la Comisión, que no se deban a expiración normal del mandato, se llenarán por el Consejo Permanente de la Organización de acuerdo con lo que disponga el Estatuto de la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-39",
+   "number": "39",
+   "label": "Artículo 39",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-39-p1",
+     "text": "La Comisión preparará su Estatuto, lo someterá a la aprobación de la Asamblea General, y dictará su propio Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-40",
+   "number": "40",
+   "label": "Artículo 40",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-40-p1",
+     "text": "Los servicios de Secretaría de la Comisión deben ser desempeñados por la unidad funcional especializada que forma parte de la Secretaría General de la Organización y debe disponer de los recursos necesarios para cumplir las tareas que le sean encomendadas por la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-2",
+   "level": 3,
+   "label": "Sección 2",
+   "title": "Funciones"
+  },
+  {
+   "kind": "article",
+   "id": "art-41",
+   "number": "41",
+   "label": "Artículo 41",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-41-p1",
+     "text": "La Comisión tiene la función principal de promover la observancia y la defensa de los derechos humanos, y en el ejercicio de su mandato tiene las siguientes funciones y atribuciones:"
+    },
+    {
+     "id": "art-41-p2",
+     "text": "a) estimular la conciencia de los derechos humanos en los pueblos de América;"
+    },
+    {
+     "id": "art-41-p3",
+     "text": "b) formular recomendaciones, cuando lo estime conveniente, a los gobiernos de los Estados miembros para que adopten medidas progresivas en favor de los derechos humanos dentro del marco de sus leyes internas y sus preceptos constitucionales, al igual que disposiciones apropiadas para fomentar el debido respeto a esos derechos;"
+    },
+    {
+     "id": "art-41-p4",
+     "text": "c) preparar los estudios e informes que considere convenientes para el desempeño de sus funciones;"
+    },
+    {
+     "id": "art-41-p5",
+     "text": "d) solicitar de los gobiernos de los Estados miembros que le proporcionen informes sobre las medidas que adopten en materia de derechos humanos;"
+    },
+    {
+     "id": "art-41-p6",
+     "text": "e) atender las consultas que, por medio de la Secretaría General de la Organización de los Estados Americanos, le formulen los Estados miembros en cuestiones relacionadas con los derechos humanos y, dentro de sus posibilidades, les prestará el asesoramiento que éstos le soliciten;"
+    },
+    {
+     "id": "art-41-p7",
+     "text": "f) actuar respecto de las peticiones y otras comunicaciones en ejercicio de su autoridad de conformidad con lo dispuesto en los artículos 44 al 51 de esta Convención, y"
+    },
+    {
+     "id": "art-41-p8",
+     "text": "g) rendir un informe anual a la Asamblea General de la Organización de los Estados Americanos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-42",
+   "number": "42",
+   "label": "Artículo 42",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-42-p1",
+     "text": "Los Estados Partes deben remitir a la Comisión copia de los informes y estudios que en sus respectivos campos someten anualmente a las Comisiones Ejecutivas del Consejo Interamericano Económico y Social y del Consejo Interamericano para la Educación, la Ciencia y la Cultura, a fin de que aquella vele porque se promuevan los derechos derivados de las normas económicas, sociales y sobre educación, ciencia y cultura, contenidas en la Carta de la Organización de los Estados Americanos, reformada por el Protocolo de Buenos Aires."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-43",
+   "number": "43",
+   "label": "Artículo 43",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-43-p1",
+     "text": "Los Estados Partes se obligan a proporcionar a la Comisión las informaciones que ésta les solicite sobre la manera en que su derecho interno asegura la aplicación efectiva de cualesquiera disposiciones de esta Convención."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-3",
+   "level": 3,
+   "label": "Sección 3",
+   "title": "Competencia"
+  },
+  {
+   "kind": "article",
+   "id": "art-44",
+   "number": "44",
+   "label": "Artículo 44",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-44-p1",
+     "text": "Cualquier persona o grupo de personas, o entidad no gubernamental legalmente reconocida en uno o más Estados miembros de la Organización, puede presentar a la Comisión peticiones que contengan denuncias o quejas de violación de esta Convención por un Estado parte."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-45",
+   "number": "45",
+   "label": "Artículo 45",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-45-p1",
+     "text": "1. Todo Estado parte puede, en el momento del depósito de su instrumento de ratificación o adhesión de esta Convención, o en cualquier momento posterior, declarar que reconoce la competencia de la Comisión para recibir y examinar las comunicaciones en que un Estado parte alegue que otro Estado parte ha incurrido en violaciones de los derechos humanos establecidos en esta Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-45-p2",
+     "text": "2. Las comunicaciones hechas en virtud del presente artículo sólo se pueden admitir y examinar si son presentadas por un Estado parte que haya hecho una declaración por la cual reconozca la referida competencia de la Comisión. La Comisión no admitirá ninguna comunicación contra un Estado parte que no haya hecho tal declaración.",
+     "number": "2"
+    },
+    {
+     "id": "art-45-p3",
+     "text": "3. Las declaraciones sobre reconocimiento de competencia pueden hacerse para que ésta rija por tiempo indefinido, por un período determinado o para casos específicos.",
+     "number": "3"
+    },
+    {
+     "id": "art-45-p4",
+     "text": "4. Las declaraciones se depositarán en la Secretaría General de la Organización de los Estados Americanos, la que transmitirá copia de las mismas a los Estados miembros de dicha Organización.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-46",
+   "number": "46",
+   "label": "Artículo 46",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-46-p1",
+     "text": "1. Para que una petición o comunicación presentada conforme a los artículos 44 ó 45 sea admitida por la Comisión, se requerirá:",
+     "number": "1"
+    },
+    {
+     "id": "art-46-p2",
+     "text": "a) que se hayan interpuesto y agotado los recursos de jurisdicción interna, conforme a los principios del Derecho Internacional generalmente reconocidos;"
+    },
+    {
+     "id": "art-46-p3",
+     "text": "b) que sea presentada dentro del plazo de seis meses, a partir de la fecha en que el presunto lesionado en sus derechos haya sido notificado de la decisión definitiva;"
+    },
+    {
+     "id": "art-46-p4",
+     "text": "c) que la materia de la petición o comunicación no esté pendiente de otro procedimiento de arreglo internacional, y"
+    },
+    {
+     "id": "art-46-p5",
+     "text": "d) que en el caso del artículo 44 la petición contenga el nombre, la nacionalidad, la profesión, el domicilio y la firma de la persona o personas o del representante legal de la entidad que somete la petición."
+    },
+    {
+     "id": "art-46-p6",
+     "text": "2. Las disposiciones de los incisos 1.a. y 1.b. del presente artículo no se aplicarán cuando:",
+     "number": "2"
+    },
+    {
+     "id": "art-46-p7",
+     "text": "a) no exista en la legislación interna del Estado de que se trata el debido proceso legal para la protección del derecho o derechos que se alega han sido violados;"
+    },
+    {
+     "id": "art-46-p8",
+     "text": "b) no se haya permitido al presunto lesionado en sus derechos el acceso a los recursos de la jurisdicción interna, o haya sido impedido de agotarlos, y"
+    },
+    {
+     "id": "art-46-p9",
+     "text": "c) haya retardo injustificado en la decisión sobre los mencionados recursos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-47",
+   "number": "47",
+   "label": "Artículo 47",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-47-p1",
+     "text": "La Comisión declarará inadmisible toda petición o comunicación presentada de acuerdo con los artículos 44 ó 45 cuando:"
+    },
+    {
+     "id": "art-47-p2",
+     "text": "a) falte alguno de los requisitos indicados en el artículo 46;"
+    },
+    {
+     "id": "art-47-p3",
+     "text": "b) no exponga hechos que caractericen una violación de los derechos garantizados por esta Convención;"
+    },
+    {
+     "id": "art-47-p4",
+     "text": "c) resulte de la exposición del propio peticionario o del Estado manifiestamente infundada la petición o comunicación o sea evidente su total improcedencia, y"
+    },
+    {
+     "id": "art-47-p5",
+     "text": "d) sea sustancialmente la reproducción de petición o comunicación anterior ya examinada por la Comisión u otro organismo internacional."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-4",
+   "level": 3,
+   "label": "Sección 4",
+   "title": "Procedimiento"
+  },
+  {
+   "kind": "article",
+   "id": "art-48",
+   "number": "48",
+   "label": "Artículo 48",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-48-p1",
+     "text": "1. La Comisión, al recibir una petición o comunicación en la que se alegue la violación de cualquiera de los derechos que consagra esta Convención, procederá en los siguientes términos:",
+     "number": "1"
+    },
+    {
+     "id": "art-48-p2",
+     "text": "a) si reconoce la admisibilidad de la petición o comunicación solicitará informaciones al Gobierno del Estado al cual pertenezca la autoridad señalada como responsable de la violación alegada, transcribiendo las partes pertinentes de la petición o comunicación. Dichas informaciones deben ser enviadas dentro de un plazo razonable, fijado por la Comisión al considerar las circunstancias de cada caso;"
+    },
+    {
+     "id": "art-48-p3",
+     "text": "b) recibidas las informaciones o transcurrido el plazo fijado sin que sean recibidas, verificará si existen o subsisten los motivos de la petición o comunicación. De no existir o subsistir, mandará archivar el expediente;"
+    },
+    {
+     "id": "art-48-p4",
+     "text": "c) podrá también declarar la inadmisibilidad o la improcedencia de la petición o comunicación, sobre la base de una información o prueba sobrevinientes;"
+    },
+    {
+     "id": "art-48-p5",
+     "text": "d) si el expediente no se ha archivado y con el fin de comprobar los hechos, la Comisión realizará, con conocimiento de las partes, un examen del asunto planteado en la petición o comunicación. Si fuere necesario y conveniente, la Comisión realizará una investigación para cuyo eficaz cumplimiento solicitará, y los Estados interesados le proporcionarán, todas las facilidades necesarias;"
+    },
+    {
+     "id": "art-48-p6",
+     "text": "e) podrá pedir a los Estados interesados cualquier información pertinente y recibirá, si así se le solicita, las exposiciones verbales o escritas que presenten los interesados;"
+    },
+    {
+     "id": "art-48-p7",
+     "text": "f) se pondrá a disposición de las partes interesadas, a fin de llegar a una solución amistosa del asunto fundada en el respeto a los derechos humanos reconocidos en esta Convención."
+    },
+    {
+     "id": "art-48-p8",
+     "text": "2. Sin embargo, en casos graves y urgentes, puede realizarse una investigación previo consentimiento del Estado en cuyo territorio se alegue haberse cometido la violación, tan sólo con la presentación de una petición o comunicación que reúna todos los requisitos formales de admisibilidad.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-49",
+   "number": "49",
+   "label": "Artículo 49",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-49-p1",
+     "text": "Si se ha llegado a una solución amistosa con arreglo a las disposiciones del inciso 1.f. del artículo 48 la Comisión redactará un informe que será transmitido al peticionario y a los Estados Partes en esta Convención y comunicado después, para su publicación, al Secretario General de la Organización de los Estados Americanos. Este informe contendrá una breve exposición de los hechos y de la solución lograda. Si cualquiera de las partes en el caso lo solicitan, se les suministrará la más amplia información posible."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-50",
+   "number": "50",
+   "label": "Artículo 50",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-50-p1",
+     "text": "1. De no llegarse a una solución, y dentro del plazo que fije el Estatuto de la Comisión, ésta redactará un informe en el que expondrá los hechos y sus conclusiones. Si el informe no representa, en todo o en parte, la opinión unánime de los miembros de la Comisión, cualquiera de ellos podrá agregar a dicho informe su opinión por separado. También se agregarán al informe las exposiciones verbales o escritas que hayan hecho los interesados en virtud del inciso 1.e. del artículo 48.",
+     "number": "1"
+    },
+    {
+     "id": "art-50-p2",
+     "text": "2. El informe será transmitido a los Estados interesados, quienes no estarán facultados para publicarlo.",
+     "number": "2"
+    },
+    {
+     "id": "art-50-p3",
+     "text": "3. Al transmitir el informe, la Comisión puede formular las proposiciones y recomendaciones que juzgue adecuadas.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-51",
+   "number": "51",
+   "label": "Artículo 51",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-51-p1",
+     "text": "1. Si en el plazo de tres meses, a partir de la remisión a los Estados interesados del informe de la Comisión, el asunto no ha sido solucionado o sometido a la decisión de la Corte por la Comisión o por el Estado interesado, aceptando su competencia, la Comisión podrá emitir, por mayoría absoluta de votos de sus miembros, su opinión y conclusiones sobre la cuestión sometida a su consideración.",
+     "number": "1"
+    },
+    {
+     "id": "art-51-p2",
+     "text": "2. La Comisión hará las recomendaciones pertinentes y fijará un plazo dentro del cual el Estado debe tomar las medidas que le competan para remediar la situación examinada.",
+     "number": "2"
+    },
+    {
+     "id": "art-51-p3",
+     "text": "3. Transcurrido el período fijado, la Comisión decidirá, por la mayoría absoluta de votos de sus miembros, si el Estado ha tomado o no medidas adecuadas y si publica o no su informe.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-viii",
+   "level": 2,
+   "label": "Capítulo VIII",
+   "title": "LA CORTE INTERAMERICANA DE DERECHOS HUMANOS"
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-1-2",
+   "level": 3,
+   "label": "Sección 1",
+   "title": "Organización"
+  },
+  {
+   "kind": "article",
+   "id": "art-52",
+   "number": "52",
+   "label": "Artículo 52",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-52-p1",
+     "text": "1. La Corte se compondrá de siete jueces, nacionales de los Estados miembros de la Organización, elegidos a título personal entre juristas de la más alta autoridad moral, de reconocida competencia en materia de derechos humanos, que reúnan las condiciones requeridas para el ejercicio de las más elevadas funciones judiciales conforme a la ley del país del cual sean nacionales o del Estado que los proponga como candidatos.",
+     "number": "1"
+    },
+    {
+     "id": "art-52-p2",
+     "text": "2. No debe haber dos jueces de la misma nacionalidad.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-53",
+   "number": "53",
+   "label": "Artículo 53",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-53-p1",
+     "text": "1. Los jueces de la Corte serán elegidos, en votación secreta y por mayoría absoluta de votos de los Estados Partes en la Convención, en la Asamblea General de la Organización, de una lista de candidatos propuestos por esos mismos Estados.",
+     "number": "1"
+    },
+    {
+     "id": "art-53-p2",
+     "text": "2. Cada uno de los Estados Partes puede proponer hasta tres candidatos, nacionales del Estado que los propone o de cualquier otro Estado miembro de la Organización de los Estados Americanos. Cuando se proponga una terna, por lo menos uno de los candidatos deberá ser nacional de un Estado distinto del proponente.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-54",
+   "number": "54",
+   "label": "Artículo 54",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-54-p1",
+     "text": "1. Los jueces de la Corte serán elegidos para un período de seis años y sólo podrán ser reelegidos una vez. El mandato de tres de los jueces designados en la primera elección, expirará al cabo de tres años. Inmediatamente después de dicha elección, se determinarán por sorteo en la Asamblea General los nombres de estos tres jueces.",
+     "number": "1"
+    },
+    {
+     "id": "art-54-p2",
+     "text": "2. El juez elegido para reemplazar a otro cuyo mandato no ha expirado, completará el período de éste.",
+     "number": "2"
+    },
+    {
+     "id": "art-54-p3",
+     "text": "3. Los jueces permanecerán en funciones hasta el término de su mandato. Sin embargo, seguirán conociendo de los casos a que ya se hubieran abocado y que se encuentren en estado de sentencia, a cuyos efectos no serán sustituidos por los nuevos jueces elegidos.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-55",
+   "number": "55",
+   "label": "Artículo 55",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-55-p1",
+     "text": "1. El juez que sea nacional de alguno de los Estados Partes en el caso sometido a la Corte, conservará su derecho a conocer del mismo.",
+     "number": "1"
+    },
+    {
+     "id": "art-55-p2",
+     "text": "2. Si uno de los jueces llamados a conocer del caso fuere de la nacionalidad de uno de los Estados Partes, otro Estado parte en el caso podrá designar a una persona de su elección para que integre la Corte en calidad de juez ad hoc.",
+     "number": "2"
+    },
+    {
+     "id": "art-55-p3",
+     "text": "3. Si entre los jueces llamados a conocer del caso ninguno fuere de la nacionalidad de los Estados Partes, cada uno de éstos podrá designar un juez ad hoc.",
+     "number": "3"
+    },
+    {
+     "id": "art-55-p4",
+     "text": "4. El juez ad hoc debe reunir las calidades señaladas en el artículo 52.",
+     "number": "4"
+    },
+    {
+     "id": "art-55-p5",
+     "text": "5. Si varios Estados Partes en la Convención tuvieren un mismo interés en el caso, se considerarán como una sola parte para los fines de las disposiciones precedentes. En caso de duda, la Corte decidirá.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-56",
+   "number": "56",
+   "label": "Artículo 56",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-56-p1",
+     "text": "El quórum para las deliberaciones de la Corte es de cinco jueces."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-57",
+   "number": "57",
+   "label": "Artículo 57",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-57-p1",
+     "text": "La Comisión comparecerá en todos los casos ante la Corte."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-58",
+   "number": "58",
+   "label": "Artículo 58",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-58-p1",
+     "text": "1. La Corte tendrá su sede en el lugar que determinen, en la Asamblea General de la Organización, los Estados Partes en la Convención, pero podrá celebrar reuniones en el territorio de cualquier Estado miembro de la Organización de los Estados Americanos en que lo considere conveniente por mayoría de sus miembros y previa aquiescencia del Estado respectivo. Los Estados Partes en la Convención pueden, en la Asamblea General por dos tercios de sus votos, cambiar la sede de la Corte.",
+     "number": "1"
+    },
+    {
+     "id": "art-58-p2",
+     "text": "2. La Corte designará a su Secretario.",
+     "number": "2"
+    },
+    {
+     "id": "art-58-p3",
+     "text": "3. El Secretario residirá en la sede de la Corte y deberá asistir a las reuniones que ella celebre fuera de la misma.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-59",
+   "number": "59",
+   "label": "Artículo 59",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-59-p1",
+     "text": "La Secretaría de la Corte será establecida por ésta y funcionará bajo la dirección del Secretario de la Corte, de acuerdo con las normas administrativas de la Secretaría General de la Organización en todo lo que no sea incompatible con la independencia de la Corte. Sus funcionarios serán nombrados por el Secretario General de la Organización, en consulta con el Secretario de la Corte."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-60",
+   "number": "60",
+   "label": "Artículo 60",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-60-p1",
+     "text": "La Corte preparará su Estatuto y lo someterá a la aprobación de la Asamblea General, y dictará su Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-2-2",
+   "level": 3,
+   "label": "Sección 2",
+   "title": "Competencia y Funciones"
+  },
+  {
+   "kind": "article",
+   "id": "art-61",
+   "number": "61",
+   "label": "Artículo 61",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-61-p1",
+     "text": "1. Sólo los Estados Partes y la Comisión tienen derecho a someter un caso a la decisión de la Corte.",
+     "number": "1"
+    },
+    {
+     "id": "art-61-p2",
+     "text": "2. Para que la Corte pueda conocer de cualquier caso, es necesario que sean agotados los procedimientos previstos en los artículos 48 a 50.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-62",
+   "number": "62",
+   "label": "Artículo 62",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-62-p1",
+     "text": "1. Todo Estado parte puede, en el momento del depósito de su instrumento de ratificación o adhesión de esta Convención, o en cualquier momento posterior, declarar que reconoce como obligatoria de pleno derecho y sin convención especial, la competencia de la Corte sobre todos los casos relativos a la interpretación o aplicación de esta Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-62-p2",
+     "text": "2. La declaración puede ser hecha incondicionalmente, o bajo condición de reciprocidad, por un plazo determinado o para casos específicos. Deberá ser presentada al Secretario General de la Organización, quien transmitirá copias de la misma a los otros Estados miembros de la Organización y al Secretario de la Corte.",
+     "number": "2"
+    },
+    {
+     "id": "art-62-p3",
+     "text": "3. La Corte tiene competencia para conocer de cualquier caso relativo a la interpretación y aplicación de las disposiciones de esta Convención que le sea sometido, siempre que los Estados Partes en el caso hayan reconocido o reconozcan dicha competencia, ora por declaración especial, como se indica en los incisos anteriores, ora por convención especial.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-63",
+   "number": "63",
+   "label": "Artículo 63",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-63-p1",
+     "text": "1. Cuando decida que hubo violación de un derecho o libertad protegidos en esta Convención, la Corte dispondrá que se garantice al lesionado en el goce de su derecho o libertad conculcados. Dispondrá asimismo, si ello fuera procedente, que se reparen las consecuencias de la medida o situación que ha configurado la vulneración de esos derechos y el pago de una justa indemnización a la parte lesionada.",
+     "number": "1"
+    },
+    {
+     "id": "art-63-p2",
+     "text": "2. En casos de extrema gravedad y urgencia, y cuando se haga necesario evitar daños irreparables a las personas, la Corte, en los asuntos que esté conociendo, podrá tomar las medidas provisionales que considere pertinentes. Si se tratare de asuntos que aún no estén sometidos a su conocimiento, podrá actuar a solicitud de la Comisión.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-64",
+   "number": "64",
+   "label": "Artículo 64",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-64-p1",
+     "text": "1. Los Estados miembros de la Organización podrán consultar a la Corte acerca de la interpretación de esta Convención o de otros tratados concernientes a la protección de los derechos humanos en los Estados americanos. Asimismo, podrán consultarla, en lo que les compete, los órganos enumerados en el capítulo X de la Carta de la Organización de los Estados Americanos, reformada por el Protocolo de Buenos Aires.",
+     "number": "1"
+    },
+    {
+     "id": "art-64-p2",
+     "text": "2. La Corte, a solicitud de un Estado miembro de la Organización, podrá darle opiniones acerca de la compatibilidad entre cualquiera de sus leyes internas y los mencionados instrumentos internacionales.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-65",
+   "number": "65",
+   "label": "Artículo 65",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-65-p1",
+     "text": "La Corte someterá a la consideración de la Asamblea General de la Organización en cada período ordinario de sesiones un informe sobre su labor en el año anterior. De manera especial y con las recomendaciones pertinentes, señalará los casos en que un Estado no haya dado cumplimiento a sus fallos."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-3-2",
+   "level": 3,
+   "label": "Sección 3",
+   "title": "Procedimiento"
+  },
+  {
+   "kind": "article",
+   "id": "art-66",
+   "number": "66",
+   "label": "Artículo 66",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-66-p1",
+     "text": "1. El fallo de la Corte será motivado.",
+     "number": "1"
+    },
+    {
+     "id": "art-66-p2",
+     "text": "2. Si el fallo no expresare en todo o en parte la opinión unánime de los jueces, cualquiera de éstos tendrá derecho a que se agregue al fallo su opinión disidente o individual.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-67",
+   "number": "67",
+   "label": "Artículo 67",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-67-p1",
+     "text": "El fallo de la Corte será definitivo e inapelable. En caso de desacuerdo sobre el sentido o alcance del fallo, la Corte lo interpretará a solicitud de cualquiera de las partes, siempre que dicha solicitud se presente dentro de los noventa días a partir de la fecha de la notificación del fallo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-68",
+   "number": "68",
+   "label": "Artículo 68",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-68-p1",
+     "text": "1. Los Estados Partes en la Convención se comprometen a cumplir la decisión de la Corte en todo caso en que sean partes.",
+     "number": "1"
+    },
+    {
+     "id": "art-68-p2",
+     "text": "2. La parte del fallo que disponga indemnización compensatoria se podrá ejecutar en el respectivo país por el procedimiento interno vigente para la ejecución de sentencias contra el Estado.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-69",
+   "number": "69",
+   "label": "Artículo 69",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-69-p1",
+     "text": "El fallo de la Corte será notificado a las partes en el caso y transmitido a los Estados partes en la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-ix",
+   "level": 2,
+   "label": "Capítulo IX",
+   "title": "DISPOSICIONES COMUNES"
+  },
+  {
+   "kind": "article",
+   "id": "art-70",
+   "number": "70",
+   "label": "Artículo 70",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-70-p1",
+     "text": "1. Los jueces de la Corte y los miembros de la Comisión gozan, desde el momento de su elección y mientras dure su mandato, de las inmunidades reconocidas a los agentes diplomáticos por el derecho internacional. Durante el ejercicio de sus cargos gozan, además, de los privilegios diplomáticos necesarios para el desempeño de sus funciones.",
+     "number": "1"
+    },
+    {
+     "id": "art-70-p2",
+     "text": "2. No podrá exigirse responsabilidad en ningún tiempo a los jueces de la Corte ni a los miembros de la Comisión por votos y opiniones emitidos en el ejercicio de sus funciones.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-71",
+   "number": "71",
+   "label": "Artículo 71",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-71-p1",
+     "text": "Son incompatibles los cargos de juez de la Corte o miembros de la Comisión con otras actividades que pudieren afectar su independencia o imparcialidad conforme a lo que se determine en los respectivos Estatutos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-72",
+   "number": "72",
+   "label": "Artículo 72",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-72-p1",
+     "text": "Los jueces de la Corte y los miembros de la Comisión percibirán emolumentos y gastos de viaje en la forma y condiciones que determinen sus Estatutos, teniendo en cuenta la importancia e independencia de sus funciones. Tales emolumentos y gastos de viaje será fijados en el programa-presupuesto de la Organización de los Estados Americanos, el que debe incluir, además, los gastos de la Corte y de su Secretaría. A estos efectos, la Corte elaborará su propio proyecto de presupuesto y lo someterá a la aprobación de la Asamblea General, por conducto de la Secretaría General. Esta última no podrá introducirle modificaciones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-73",
+   "number": "73",
+   "label": "Artículo 73",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-73-p1",
+     "text": "Solamente a solicitud de la Comisión o de la Corte, según el caso, corresponde a la Asamblea General de la Organización resolver sobre las sanciones aplicables a los miembros de la Comisión o jueces de la Corte que hubiesen incurrido en las causales previstas en los respectivos Estatutos. Para dictar una resolución se requerirá una mayoría de los dos tercios de los votos de los Estados miembros de la Organización en el caso de los miembros de la Comisión y, además, de los dos tercios de los votos de los Estados Partes en la Convención, si se tratare de jueces de la Corte."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-iii",
+   "level": 1,
+   "label": "Parte III",
+   "title": "DISPOSICIONES GENERALES Y TRANSITORIAS"
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-x",
+   "level": 2,
+   "label": "Capítulo X",
+   "title": "FIRMA, RATIFICACION, RESERVA, ENMIENDA, PROTOCOLO Y DENUNCIA"
+  },
+  {
+   "kind": "article",
+   "id": "art-74",
+   "number": "74",
+   "label": "Artículo 74",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-74-p1",
+     "text": "1. Esta Convención queda abierta a la firma y a la ratificación o adhesión de todo Estado miembro de la Organización de los Estados Americanos.",
+     "number": "1"
+    },
+    {
+     "id": "art-74-p2",
+     "text": "2. La ratificación de esta Convención o la adhesión a la misma se efectuará mediante el depósito de un instrumento de ratificación o de adhesión en la Secretaría General de la Organización de los Estados Americanos. Tan pronto como once Estados hayan depositado sus respectivos instrumentos de ratificación o de adhesión, la Convención entrará en vigor. Respecto a todo otro Estado que la ratifique o adhiera a ella ulteriormente, la Convención entrará en vigor en la fecha del depósito de su instrumento de ratificación o de adhesión.",
+     "number": "2"
+    },
+    {
+     "id": "art-74-p3",
+     "text": "3. El Secretario General informará a todos los Estados miembros de la Organización de la entrada en vigor de la Convención.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-75",
+   "number": "75",
+   "label": "Artículo 75",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-75-p1",
+     "text": "Esta Convención sólo puede ser objeto de reservas conforme a las disposiciones de la Convención de Viena sobre Derecho de los Tratados, suscrita el 23 de mayo de 1969."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-76",
+   "number": "76",
+   "label": "Artículo 76",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-76-p1",
+     "text": "1. Cualquier Estado parte directamente y la Comisión o la Corte por conducto del Secretario General, pueden someter a la Asamblea General, para lo que estime conveniente, una propuesta de enmienda a esta Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-76-p2",
+     "text": "2. Las enmiendas entrarán en vigor para los Estados ratificantes de las mismas en la fecha en que se haya depositado el respectivo instrumento de ratificación que corresponda al número de los dos tercios de los Estados Partes en esta Convención. En cuanto al resto de los Estados Partes, entrarán en vigor en la fecha en que depositen sus respectivos instrumentos de ratificación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-77",
+   "number": "77",
+   "label": "Artículo 77",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-77-p1",
+     "text": "1. De acuerdo con la facultad establecida en el artículo 31, cualquier Estado parte y la Comisión podrán someter a la consideración de los Estados Partes reunidos con ocasión de la Asamblea General, proyectos de protocolos adicionales a esta Convención, con la finalidad de incluir progresivamente en el régimen de protección de la misma otros derechos y libertades.",
+     "number": "1"
+    },
+    {
+     "id": "art-77-p2",
+     "text": "2. Cada protocolo debe fijar las modalidades de su entrada en vigor, y se aplicará sólo entre los Estados Partes en el mismo.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-78",
+   "number": "78",
+   "label": "Artículo 78",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-78-p1",
+     "text": "1. Los Estados Partes podrán denunciar esta Convención después de la expiración de un plazo de cinco años a partir de la fecha de entrada en vigor de la misma y mediante un preaviso de un año, notificando al Secretario General de la Organización, quien debe informar a las otras partes.",
+     "number": "1"
+    },
+    {
+     "id": "art-78-p2",
+     "text": "2. Dicha denuncia no tendrá por efecto desligar al Estado parte interesado de las obligaciones contenidas en esta Convención en lo que concierne a todo hecho que, pudiendo constituir una violación de esas obligaciones, haya sido cumplido por él anteriormente a la fecha en la cual la denuncia produce efecto.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-xi",
+   "level": 2,
+   "label": "Capítulo XI",
+   "title": "DISPOSICIONES TRANSITORIAS"
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-1-3",
+   "level": 3,
+   "label": "Sección 1",
+   "title": "Comisión Interamericana de Derechos Humanos"
+  },
+  {
+   "kind": "article",
+   "id": "art-79",
+   "number": "79",
+   "label": "Artículo 79",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-79-p1",
+     "text": "Al entrar en vigor esta Convención, el Secretario General pedirá por escrito a cada Estado Miembro de la Organización que presente, dentro de un plazo de noventa días, sus candidatos para miembros de la Comisión Interamericana de Derechos Humanos. El Secretario General preparará una lista por orden alfabético de los candidatos presentados y la comunicará a los Estados miembros de la Organización al menos treinta días antes de la próxima Asamblea General."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-80",
+   "number": "80",
+   "label": "Artículo 80",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-80-p1",
+     "text": "La elección de miembros de la Comisión se hará de entre los candidatos que figuren en la lista a que se refiere el artículo 79, por votación secreta de la Asamblea General y se declararán elegidos los candidatos que obtengan mayor número de votos y la mayoría absoluta de los votos de los representantes de los Estados miembros. Si para elegir a todos los miembros de la Comisión resultare necesario efectuar varias votaciones, se eliminará sucesivamente, en la forma que determine la Asamblea General, a los candidatos que reciban menor número de votos."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-2-3",
+   "level": 3,
+   "label": "Sección 2",
+   "title": "Corte Interamericana de Derechos Humanos"
+  },
+  {
+   "kind": "article",
+   "id": "art-81",
+   "number": "81",
+   "label": "Artículo 81",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-81-p1",
+     "text": "Al entrar en vigor esta Convención, el Secretario General pedirá por escrito a cada Estado parte que presente, dentro de un plazo de noventa días, sus candidatos para jueces de la Corte Interamericana de Derechos Humanos. El Secretario General preparará una lista por orden alfabético de los candidatos presentados y la comunicará a los Estados Partes por lo menos treinta días antes de la próxima Asamblea General."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-82",
+   "number": "82",
+   "label": "Artículo 82",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-82-p1",
+     "text": "La elección de jueces de la Corte se hará de entre los candidatos que figuren en la lista a que se refiere el artículo 81, por votación secreta de los Estados Partes en la Asamblea General y se declararán elegidos los candidatos que obtengan mayor número de votos y la mayoría absoluta de los votos de los representantes de los Estados Partes. Si para elegir a todos los jueces de la Corte resultare necesario efectuar varias votaciones, se eliminarán sucesivamente, en la forma que determinen los Estados Partes, a los candidatos que reciban menor número de votos."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "EN FE DE LO CUAL, los Plenipotenciarios infrascritos, cuyos plenos poderes fueron hallados de buena y debida forma, firman esta Convención, que se llamará \"PACTO DE SAN JOSE DE COSTA RICA\", en la ciudad de San José, Costa Rica, el veintidós de noviembre de mil novecientos sesenta y nueve."
+  },
+  {
+   "text": "webbot bot=\"Include\" U-Include=\"footer.htm\" TAG=\"BODY\" startspan Sobre Nosotros | Mapa del sitio | Contáctenos | Inicio DDI |English"
+  }
+ ],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 82,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "82 artículos (1–82)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

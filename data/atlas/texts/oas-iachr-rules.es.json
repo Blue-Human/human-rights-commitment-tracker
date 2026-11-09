@@ -1,0 +1,2575 @@
+{
+ "instrument": "oas-iachr-rules",
+ "authority": "body",
+ "lang": "es",
+ "title": null,
+ "source": {
+  "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+  "document": "Reglamento de la Comisión Interamericana de Derechos Humanos",
+  "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+  "retrieved": "2026-11-09",
+  "sha256": "aeb6c17a67dd03a269b3837692d0238b0d97394f9f86e1be7def1ff823604e5d",
+  "method": "html:unwrap"
+ },
+ "versions": [],
+ "preamble": [],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-titulo-i",
+   "level": 1,
+   "label": "Título I",
+   "title": "ORGANIZACIÓN DE LA COMISIÓN"
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-i",
+   "level": 2,
+   "label": "Capítulo I",
+   "title": "NATURALEZA Y COMPOSICIÓN"
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": "Naturaleza y composición",
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. La Comisión Interamericana de Derechos Humanos es un órgano autónomo de la Organización de los Estados Americanos que tiene las funciones principales de promover la observancia y la defensa de los derechos humanos y de servir como órgano consultivo de la Organización en esta materia.",
+     "number": "1"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "2. La Comisión representa a todos los Estados miembros que integran la Organización.",
+     "number": "2"
+    },
+    {
+     "id": "art-1-p3",
+     "text": "3. La Comisión se compone de siete miembros, elegidos a título personal por la Asamblea General de la Organización, quienes deberán ser personas de alta autoridad moral y reconocida versación en materia de derechos humanos.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-ii",
+   "level": 2,
+   "label": "Capítulo II",
+   "title": "MIEMBROS DE LA COMISIÓN"
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": "Duración del mandato",
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. Los miembros de la Comisión serán elegidos por cuatro años y sólo podrán ser reelegidos una vez.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. En el caso de que no hayan sido elegidos los nuevos miembros de la Comisión para sustituir a los que terminan sus mandatos, éstos continuarán en el ejercicio de sus funciones hasta que se efectúe la elección de los nuevos miembros.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": "Precedencia",
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Los miembros de la Comisión, según su antigüedad en el mandato, seguirán en orden de precedencia al Presidente y Vicepresidentes. Cuando hubiere dos o más miembros con igual antigüedad, la precedencia será determinada de acuerdo con la edad."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": "Incompatibilidad",
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. El cargo de miembro de la Comisión Interamericana de Derechos Humanos es incompatible con el ejercicio de actividades que pudieran afectar su independencia, su imparcialidad, o la dignidad o el prestigio de dicho cargo. En el momento de asumir sus funciones los miembros se comprometerán a no representar a víctimas o sus familiares, ni a Estados, en medidas cautelares, peticiones y casos individuales ante la CIDH, por un plazo de dos años, contados a partir del cese de su mandato como miembros de la Comisión.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. La Comisión, con el voto afirmativo de por lo menos cinco de sus miembros, determinará si existe una situación de incompatibilidad.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. La Comisión, antes de tomar una decisión, oirá al miembro al que se atribuya dicha incompatibilidad.",
+     "number": "3"
+    },
+    {
+     "id": "art-4-p4",
+     "text": "4. La decisión sobre incompatibilidad, con todos sus antecedentes, será enviada por conducto del Secretario General a la Asamblea General de la Organización para los efectos previstos en el artículo 8 párrafo 3 del Estatuto de la Comisión.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": "Renuncia",
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "La renuncia de un miembro de la Comisión deberá ser presentada por escrito al Presidente de la Comisión quien de inmediato la pondrá en conocimiento del Secretario General de la OEA para los fines pertinentes."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iii",
+   "level": 2,
+   "label": "Capítulo III",
+   "title": "DIRECTIVA DE LA COMISIÓN"
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": "Composición y funciones",
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "La Directiva de la Comisión estará compuesta por un Presidente, un primer Vicepresidente, y un segundo Vicepresidente, quienes tendrán las funciones señaladas en este Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": "Elecciones",
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. La elección de los cargos a los que se refiere el artículo anterior se llevará a cabo con la sola participación de los miembros presentes.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. La elección será secreta. Sin embargo, por acuerdo unánime de los miembros presentes, la Comisión podrá acordar otro procedimiento.",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "3. Para ser electo en cualquiera de los cargos a que se refiere el artículo 6 se requerirá el voto favorable de la mayoría absoluta de los miembros de la Comisión.",
+     "number": "3"
+    },
+    {
+     "id": "art-7-p4",
+     "text": "4. Si para la elección de alguno de estos cargos resultare necesario efectuar más de una votación, se eliminarán sucesivamente los nombres que reciban menor número de votos.",
+     "number": "4"
+    },
+    {
+     "id": "art-7-p5",
+     "text": "5. La elección se efectuará el primer día del primer período de sesiones de la Comisión en el año calendario.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": "Permanencia en los cargos directivos",
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. El mandato de los integrantes de la directiva es de un año de duración. El ejercicio de los cargos directivos de los integrantes se extiende desde la elección de sus integrantes hasta la realización, el año siguiente, de la elección de la nueva directiva, en la oportunidad que señala el párrafo 5 del artículo 7. Los integrantes de la directiva podrán ser reelegidos en sus respectivos cargos sólo una vez en cada período de cuatro años.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. En caso de que expire el mandato del Presidente o de alguno de los Vicepresidentes en ejercicio como miembro de la Comisión, se aplicará lo dispuesto en los párrafos 2 y 3 del artículo 9 del presente Reglamento.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": "Renuncia, vacancia y sustitución",
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "1. En caso de que un miembro de la directiva renuncie a su cargo o deje de ser miembro de la Comisión, ésta llenará dicho cargo en la sesión inmediatamente posterior, por el tiempo que reste del mandato.",
+     "number": "1"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "2. Hasta que la Comisión elija a un nuevo Presidente, de conformidad con el párrafo 1 de este artículo, el Primer Vicepresidente ejercerá sus funciones.",
+     "number": "2"
+    },
+    {
+     "id": "art-9-p3",
+     "text": "3. Igualmente, el Primer Vicepresidente sustituirá al Presidente si este último se viere impedido temporalmente de desempeñar sus funciones. La sustitución corresponderá al Segundo Vicepresidente en los casos de vacancia, ausencia o impedimento del Primer Vicepresidente y al miembro más antiguo de acuerdo al orden de precedencia indicado en el artículo 3, en caso de vacancia, ausencia o impedimento del Segundo Vicepresidente.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": "Atribuciones del Presidente",
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. Son atribuciones del Presidente:",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "a. representar a la Comisión ante los otros órganos de la OEA y otras instituciones;"
+    },
+    {
+     "id": "art-10-p3",
+     "text": "b. convocar a sesiones de la Comisión, de conformidad con el Estatuto y el presente Reglamento;"
+    },
+    {
+     "id": "art-10-p4",
+     "text": "c. presidir las sesiones de la Comisión y someter a su consideración las materias que figuren en el orden del día del programa de trabajo aprobado para el correspondiente período de sesiones; decidir las cuestiones de orden que se susciten durante las deliberaciones; y someter asuntos a votación de acuerdo con las disposiciones pertinentes de este Reglamento;"
+    },
+    {
+     "id": "art-10-p5",
+     "text": "d. conceder el uso de la palabra a los miembros en el orden en que la hayan solicitado;"
+    },
+    {
+     "id": "art-10-p6",
+     "text": "e. promover los trabajos de la Comisión y velar por el cumplimiento de su programa presupuesto;"
+    },
+    {
+     "id": "art-10-p7",
+     "text": "f. rendir un informe escrito a la Comisión, al inicio de sus períodos de sesiones, sobre las actividades desarrolladas durante los recesos en cumplimiento de las funciones que le confieren el Estatuto y el presente Reglamento;"
+    },
+    {
+     "id": "art-10-p8",
+     "text": "g. velar por el cumplimiento de las decisiones de la Comisión;"
+    },
+    {
+     "id": "art-10-p9",
+     "text": "h. asistir a las reuniones de la Asamblea General de la OEA y a otras actividades relacionadas con la promoción y protección de los derechos humanos;"
+    },
+    {
+     "id": "art-10-p10",
+     "text": "i. trasladarse a la sede de la Comisión y permanecer en ella durante el tiempo que considere necesario para el cumplimiento de sus funciones;"
+    },
+    {
+     "id": "art-10-p11",
+     "text": "j. designar comisiones especiales, comisiones ad hoc y subcomisiones integradas por varios miembros, con el objeto de cumplir cualquier mandato relacionado con su competencia; y k. ejercer cualquier otra atribución conferida en el presente Reglamento u otras tareas que le encomiende la Comisión."
+    },
+    {
+     "id": "art-10-p12",
+     "text": "2. El Presidente podrá delegar en uno de los Vicepresidentes o en otro miembro de la Comisión las atribuciones especificadas en los incisos a, h y k.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iv",
+   "level": 2,
+   "label": "Capítulo IV",
+   "title": "SECRETARÍA EJECUTIVA"
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": "[1]",
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "La Secretaría Ejecutiva estará compuesta por un(a) Secretario(a) Ejecutivo(a) y por lo menos un(a) Secretario(a) Ejecutivo(a) Adjunto(a); y por el personal profesional, técnico y administrativo necesario para el cumplimiento de sus labores."
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. El(La) Secretario(a) Ejecutivo(a) será una persona con independencia y alta autoridad moral, con experiencia y de reconocida trayectoria en derechos humanos.",
+     "number": "2"
+    },
+    {
+     "id": "art-11-p3",
+     "text": "3. El(la) Secretario(a) Ejecutivo(a) será designado(a) por el Secretario General de la Organización. La Comisión llevará a cabo el siguiente procedimiento interno para identificar el(l)a candidato(a) más calificado(a) y remitir su nombre al Secretario General, proponiendo su designación por un periodo de cuatro años que podrá ser renovado una vez:",
+     "number": "3"
+    },
+    {
+     "id": "art-11-p4",
+     "text": "a. La Comisión realizará un concurso público para llenar la vacante y publicará los criterios y calificaciones para el cargo, así como una descripción de las tareas a ser desempeñadas."
+    },
+    {
+     "id": "art-11-p5",
+     "text": "b. La Comisión revisará las aplicaciones recibidas e identificará entre tres y cinco finalistas, quienes serán entrevistado(a) s para el cargo."
+    },
+    {
+     "id": "art-11-p6",
+     "text": "c. Las hojas de vida de los(a)s finalistas se harán públicas, incluyendo en la página Web de la Comisión, durante el mes anterior a la selección final con el objeto de recibir observaciones sobre los(a)s candidatos(a)s."
+    },
+    {
+     "id": "art-11-p7",
+     "text": "d. La Comisión determinará el(a) candidato(a) más calificado(a), teniendo en cuenta las observaciones, por mayoría absoluta de sus miembros."
+    },
+    {
+     "id": "art-11-p8",
+     "text": "4. Previo a iniciar su periodo en el cargo y durante el mismo, el(la) Secretario(a) Ejecutivo(a) y el(la) Secretario(a) Ejecutivo(a) Adjunto(a) revelarán a la Comisión cualquier interés que pueda ser considerado en conflicto con el ejercicio de sus funciones.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": "Atribuciones del Secretario Ejecutivo",
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "1. Son atribuciones del Secretario Ejecutivo:",
+     "number": "1"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "a. dirigir, planificar y coordinar el trabajo de la Secretaría Ejecutiva y coordinar los aspectos operativos de la labor de los grupos de trabajo y relatorías;"
+    },
+    {
+     "id": "art-12-p3",
+     "text": "b. elaborar, en consulta con el Presidente, el proyecto de programa presupuesto de la Comisión, que se regirá por las normas presupuestarias vigentes para la OEA, del cual dará cuenta a la Comisión;"
+    },
+    {
+     "id": "art-12-p4",
+     "text": "c. preparar, en consulta con el Presidente, el proyecto de programa de trabajo para cada período de sesiones;"
+    },
+    {
+     "id": "art-12-p5",
+     "text": "d. asesorar al Presidente y a los miembros de la Comisión en el desempeño de sus funciones;"
+    },
+    {
+     "id": "art-12-p6",
+     "text": "e. rendir un informe escrito a la Comisión, al iniciarse cada período de sesiones, sobre las labores cumplidas por la Secretaría Ejecutiva a contar del anterior período de sesiones, así como de aquellos asuntos de carácter general que puedan ser de interés de la Comisión; y f. ejecutar las decisiones que le sean encomendadas por la Comisión o el Presidente."
+    },
+    {
+     "id": "art-12-p7",
+     "text": "2. El Secretario Ejecutivo Adjunto sustituirá al Secretario Ejecutivo en caso de ausencia o impedimento de éste. En ausencia o impedimento de ambos, el Secretario Ejecutivo o el Secretario Ejecutivo Adjunto, según fuera el caso, designará temporalmente a uno de los especialistas de la Secretaría Ejecutiva para sustituirlo.",
+     "number": "2"
+    },
+    {
+     "id": "art-12-p8",
+     "text": "3. El Secretario Ejecutivo, el Secretario Ejecutivo Adjunto y el personal de la Secretaría Ejecutiva deberán guardar la más absoluta reserva sobre todos los asuntos que la Comisión considere confidenciales. Al momento de asumir sus funciones, el Secretario Ejecutivo se comprometerá a no representar a víctimas o sus familiares, ni a Estados, en medidas cautelares, peticiones y casos individuales ante la CIDH, por un plazo de dos años, contados a partir del cese de sus funciones como Secretario Ejecutivo.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": "Funciones de la Secretaría Ejecutiva",
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "La Secretaría Ejecutiva preparará los proyectos de informe, resoluciones, estudios y otros trabajos que le encomienden la Comisión o el Presidente. Asimismo recibirá y dará trámite a la correspondencia y las peticiones y comunicaciones dirigidas a la Comisión. La Secretaría Ejecutiva podrá también solicitar a las partes interesadas la información que considere pertinente, de acuerdo con lo dispuesto en el presente Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-v",
+   "level": 2,
+   "label": "Capítulo V",
+   "title": "FUNCIONAMIENTO DE LA COMISIÓN"
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": "Períodos de sesiones",
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. La Comisión celebrará al menos dos períodos ordinarios de sesiones al año durante el lapso previamente determinado por ella y el número de sesiones extraordinarias que considere necesario. Antes de la finalización del período de sesiones se determinará la fecha y lugar del período de sesiones siguiente.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. Los períodos de sesiones de la Comisión se celebrarán en su sede. Sin embargo, por el voto de la mayoría absoluta de sus miembros, la Comisión podrá acordar reunirse en otro lugar con la anuencia o por invitación del respectivo Estado.",
+     "number": "2"
+    },
+    {
+     "id": "art-14-p3",
+     "text": "3. Cada período se compondrá de las sesiones necesarias para el desarrollo de sus actividades. Las sesiones tendrán carácter reservado, a menos que la Comisión determine lo contrario.",
+     "number": "3"
+    },
+    {
+     "id": "art-14-p4",
+     "text": "4. El miembro que, por enfermedad o por cualquier causa grave se viere impedido de asistir a todo o a una parte de cualquier período de sesiones de la Comisión, o para desempeñar cualquier otra función, deberá así notificarlo, tan pronto le sea posible, al Secretario Ejecutivo, quien informará al Presidente y lo hará constar en acta.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": "Relatorías y grupos de trabajo",
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "1. La Comisión podrá asignar tareas o mandatos específicos ya sea a uno o a un grupo de sus miembros con vista a la preparación de sus períodos de sesiones o para la ejecución de programas, estudios o proyectos especiales.",
+     "number": "1"
+    },
+    {
+     "id": "art-15-p2",
+     "text": "2. La Comisión podrá designar a sus miembros como responsables de relatorías de país, en cuyo caso asegurará que cada Estado miembro de la OEA cuente con un relator o relatora. En la primera sesión del año o cuando sea necesario, la CIDH considerará el funcionamiento y la labor de las relatorías de país y decidirá sobre su asignación. Asimismo, los relatores o relatoras de país ejercerán las responsabilidades de seguimiento que la Comisión les asigne y, al menos una vez al año, informarán al pleno sobre las actividades llevadas a cabo.",
+     "number": "2"
+    },
+    {
+     "id": "art-15-p3",
+     "text": "3. La Comisión podrá crear relatorías con mandatos ligados al cumplimiento de sus funciones de promoción y protección de los derechos humanos respecto de las áreas temáticas que resulten de especial interés a ese fin. Los fundamentos de la decisión serán plasmados en una resolución adoptada por la mayoría absoluta de votos de los miembros de la Comisión en la que se dejará constancia de:",
+     "number": "3"
+    },
+    {
+     "id": "art-15-p4",
+     "text": "a. la definición del mandato conferido, incluyendo sus funciones y alcances; y b. la descripción de las actividades a desarrollar y los métodos de financiamiento proyectados con el fin de sufragarlas."
+    },
+    {
+     "id": "art-15-p5",
+     "text": "Los mandatos serán evaluados en forma periódica y serán sujetos a revisión, renovación o terminación por lo menos una vez cada tres años."
+    },
+    {
+     "id": "art-15-p6",
+     "text": "4. Las relatorías a las que se refiere el parágrafo anterior podrán funcionar ya sea como relatorías temáticas, a cargo de un miembro de la Comisión, o como relatorías especiales, a cargo de otras personas designadas por la Comisión. Las relatoras o relatores temáticos serán designados por la Comisión en su primera sesión del año o en cualquier otro momento que resulte necesario. Las personas a cargo de las relatorías especiales serán designadas por la Comisión conforme a los siguientes parámetros:",
+     "number": "4"
+    },
+    {
+     "id": "art-15-p7",
+     "text": "a. convocatoria a concurso abierto para llenar la vacante, con publicidad de los criterios a ser empleados en la elección de postulantes, de sus antecedentes de idoneidad para el cargo, y de la resolución de la CIDH aplicable al proceso de selección; y b. elección por voto favorable de la mayoría absoluta de los miembros de la CIDH y publicidad de los fundamentos de la decisión."
+    },
+    {
+     "id": "art-15-p8",
+     "text": "Previo al proceso de designación, y durante el ejercicio de su cargo, los relatores y relatoras especiales deben revelar a la Comisión todo interés que pueda estar en conflicto con el mandato de la relatoría. Los relatores y relatoras especiales ejercerán su cargo por un período de tres años, renovable por un período más, a menos que el mandato de la relatoría concluya antes de que se cumpla ese período. La Comisión, por decisión de la mayoría absoluta de sus miembros, podrá decidir reemplazar a un relator o relatora especial, por causa razonable."
+    },
+    {
+     "id": "art-15-p9",
+     "text": "5. Las personas a cargo de las relatorías especiales ejercerán sus funciones en coordinación con la Secretaría Ejecutiva la cual podrá delegarles la preparación de informes sobre peticiones y casos.",
+     "number": "5"
+    },
+    {
+     "id": "art-15-p10",
+     "text": "6. Las personas a cargo de las relatorías temáticas y especiales desempeñarán sus actividades en coordinación con aquellas a cargo de las relatorías de país. Los relatores y relatoras presentarán sus planes de trabajo al pleno de la Comisión para aprobación. Rendirán un informe escrito a la Comisión sobre las labores realizadas, al menos una vez por año.",
+     "number": "6"
+    },
+    {
+     "id": "art-15-p11",
+     "text": "7. El desempeño de las actividades y funciones previstas en los mandatos de las relatorías se ajustará a las normas del presente Reglamento y a las directivas, códigos de conducta y manuales que pueda adoptar la Comisión.",
+     "number": "7"
+    },
+    {
+     "id": "art-15-p12",
+     "text": "8. Los relatores y relatoras deberán llamar la atención del pleno de la Comisión sobre cuestiones que, habiendo llegado a su conocimiento, puedan ser consideradas como materia de controversia, grave preocupación o especial interés de la Comisión.",
+     "number": "8"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": "Quórum para sesionar",
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "Para constituir quórum será necesaria la presencia de la mayoría absoluta de los miembros de la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": "Discusión y votación",
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. Las sesiones se ajustarán al presente Reglamento y subsidiariamente a las disposiciones pertinentes del Reglamento del Consejo Permanente de la OEA.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. Los miembros de la Comisión no podrán participar en la discusión, investigación, deliberación o decisión de un asunto sometido a la consideración de la Comisión en los siguientes casos:",
+     "number": "2"
+    },
+    {
+     "id": "art-17-p3",
+     "text": "a. si fuesen nacionales del Estado objeto de consideración general o específica o si estuviesen acreditados o cumpliendo una misión especial como agentes diplomáticos ante dicho Estado; o b. si previamente hubiesen participado, a cualquier título, en alguna decisión sobre los mismos hechos en que se funda el asunto o si hubiesen actuado como consejeros o representantes de alguna de las partes interesadas en la decisión."
+    },
+    {
+     "id": "art-17-p4",
+     "text": "3. En caso de que un miembro considere que debe abstenerse de participar en el examen o decisión del asunto comunicará dicha circunstancia a la Comisión, la cual decidirá si es procedente la inhibición.",
+     "number": "3"
+    },
+    {
+     "id": "art-17-p5",
+     "text": "4. Cualquier miembro podrá suscitar la inhibición de otro miembro, fundado en las causales previstas en el párrafo 2 del presente artículo.",
+     "number": "4"
+    },
+    {
+     "id": "art-17-p6",
+     "text": "5. Mientras la Comisión no se halla reunida en sesión ordinaria o extraordinaria, los miembros podrán deliberar y decidir las cuestiones de su competencia por el medio que consideren adecuado.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": "Quórum especial para decidir",
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "1. La Comisión resolverá las siguientes cuestiones por el voto de la mayoría absoluta de sus miembros:",
+     "number": "1"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "a. elección de los integrantes de la directiva de la Comisión;"
+    },
+    {
+     "id": "art-18-p3",
+     "text": "b. interpretación de la aplicación del presente Reglamento;"
+    },
+    {
+     "id": "art-18-p4",
+     "text": "c. adopción de informe sobre la situación de los derechos humanos en un determinado Estado; y d. cuando tal mayoría esté prevista en la Convención Americana, el Estatuto o el presente Reglamento."
+    },
+    {
+     "id": "art-18-p5",
+     "text": "2. Respecto a otros asuntos será suficiente el voto de la mayoría de los miembros presentes.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": "Voto razonado",
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "1. Los miembros, estén o no de acuerdo con las decisiones de la mayoría, tendrán derecho a presentar su voto razonado por escrito, el cual deberá incluirse a continuación de dicha decisión.",
+     "number": "1"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "2. Si la decisión versare sobre la aprobación de un informe o proyecto, el voto razonado se incluirá a continuación de dicho informe o proyecto.",
+     "number": "2"
+    },
+    {
+     "id": "art-19-p3",
+     "text": "3. Cuando la decisión no conste en un documento separado, el voto razonado se transcribirá en el acta de la sesión, a continuación de la decisión de que se trate.",
+     "number": "3"
+    },
+    {
+     "id": "art-19-p4",
+     "text": "4. El voto razonado deberá presentarse por escrito a la Secretaría dentro de los 30 días posteriores al período de sesiones en el cual se haya adoptado la decisión respectiva. En casos urgentes, la mayoría absoluta de los miembros puede estipular un plazo menor. Vencido dicho plazo sin que se haya presentado el voto razonado por escrito a la Secretaría, se considerará que el respectivo miembro desistió del mismo, sin perjuicio de consignar su disidencia.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": "Actas de las sesiones",
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "1. En cada sesión se levantará un acta resumida en la que constará el día y la hora de celebración, los nombres de los miembros presentes, los asuntos tratados, las decisiones adoptadas y cualquier declaración especialmente formulada por los miembros con el fin de que conste en acta. Estas actas son documentos internos de trabajo de carácter reservado.",
+     "number": "1"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "2. La Secretaría Ejecutiva distribuirá copias de las actas resumidas de cada sesión a los miembros de la Comisión, quienes podrán presentar a aquella sus observaciones con anterioridad al período de sesiones en que deben ser aprobadas. Si no ha habido objeción hasta el comienzo de dicho período de sesiones, se considerarán aprobadas.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": "Remuneración por servicios extraordinarios",
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "Con la aprobación de la mayoría absoluta de sus miembros, la Comisión podrá encomendar a cualquiera de ellos la elaboración de un estudio especial u otros trabajos específicos para ser ejecutados individualmente, fuera de los períodos de sesiones. Dichos trabajos se remunerarán de acuerdo con las disponibilidades del presupuesto. El monto de los honorarios se fijará sobre la base del número de días requeridos para la preparación y redacción del trabajo."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-ii",
+   "level": 1,
+   "label": "Título II",
+   "title": "PROCEDIMIENTO"
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-i-2",
+   "level": 2,
+   "label": "Capítulo I",
+   "title": "DISPOSICIONES GENERALES"
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": "Idiomas oficiales",
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "1. Los idiomas oficiales de la Comisión serán el español, el francés, el inglés y el portugués. Los idiomas de trabajo serán los que acuerde la Comisión conforme a los idiomas hablados por sus miembros.",
+     "number": "1"
+    },
+    {
+     "id": "art-22-p2",
+     "text": "2. Cualquiera de los miembros de la Comisión podrá dispensar la interpretación de debates y la preparación de documentos en su idioma.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": "Presentación de peticiones",
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "Cualquier persona o grupo de personas, o entidad no gubernamental legalmente reconocida en uno o más Estados miembros de la OEA puede presentar a la Comisión peticiones en su propio nombre o en el de terceras personas, referentes a la presunta violación de alguno de los derechos humanos reconocidos, según el caso, en la Declaración Americana de los Derechos y Deberes del Hombre, la Convención Americana sobre Derechos Humanos “Pacto de San José de Costa Rica”, el Protocolo Adicional a la Convención Americana sobre Derechos Humanos en Materia de Derechos Económicos, Sociales y Culturales “Protocolo de San Salvador”, el Protocolo a la Convención Americana sobre Derechos Humanos Relativo a la Abolición de la Pena de Muerte, la Convención Interamericana para Prevenir y Sancionar la Tortura, la Convención Interamericana sobre Desaparición Forzada de Personas y la Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer “Convención de Belém do Pará”, conforme a sus respectivas disposiciones, el Estatuto de la Comisión y el presente Reglamento. El peticionario podrá designar en la propia petición, o en otro escrito, a un abogado u a otra persona para representarlo ante la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": "Tramitación motu proprio",
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "La Comisión podrá, motu proprio, iniciar la tramitación de una petición que contenga, a su juicio, los requisitos para tal fin."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": "Medidas Cautelares",
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "[2]"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "1. Con fundamento en los artículos 106 de la Carta de la Organización de los Estados Americanos, 41.b de la Convención Americana sobre Derechos Humanos, 18.b del Estatuto de la Comisión y XIII de la Convención Interamericana sobre Desaparición Forzada de Personas, la Comisión podrá, a iniciativa propia o a solicitud de parte, solicitar que un Estado adopte medidas cautelares. Tales medidas, ya sea que guarden o no conexidad con una petición o caso, se relacionarán con situaciones de gravedad y urgencia que presenten un riesgo de daño irreparable a las personas o al objeto de una petición o caso pendiente ante los órganos del Sistema Interamericano.",
+     "number": "1"
+    },
+    {
+     "id": "art-25-p3",
+     "text": "2. A efectos de tomar la decisión referida en el párrafo 1, la Comisión considerará que:",
+     "number": "2"
+    },
+    {
+     "id": "art-25-p4",
+     "text": "a. la “gravedad de la situación”, significa el serio impacto que una acción u omisión puede tener sobre un derecho protegido o sobre el efecto eventual de una decisión pendiente en un caso o petición ante los órganos del Sistema Interamericano;"
+    },
+    {
+     "id": "art-25-p5",
+     "text": "b. la “urgencia de la situación” se determina por la información que indica que el riesgo o la amenaza sean inminentes y puedan materializarse, requiriendo de esa manera acción preventiva o tutelar; y c. el “daño irreparable” significa la afectación sobre derechos que, por su propia naturaleza, no son susceptibles de reparación, restauración o adecuada indemnización."
+    },
+    {
+     "id": "art-25-p6",
+     "text": "3. Las medidas cautelares podrán proteger a personas o grupos de personas, siempre que el beneficiario o los beneficiarios puedan ser determinados o determinables, a través de su ubicación geográfica o su pertenencia o vínculo a un grupo, pueblo, comunidad u organización.",
+     "number": "3"
+    },
+    {
+     "id": "art-25-p7",
+     "text": "4. Las solicitudes de medidas cautelares dirigidas a la Comisión deberán contener, entre otros elementos:",
+     "number": "4"
+    },
+    {
+     "id": "art-25-p8",
+     "text": "a. los datos de las personas propuestas como beneficiarias o información que permita determinarlas;"
+    },
+    {
+     "id": "art-25-p9",
+     "text": "b. una descripción detallada y cronológica de los hechos que sustentan la solicitud y cualquier otra información disponible; y c. la descripción de las medidas de protección solicitadas."
+    },
+    {
+     "id": "art-25-p10",
+     "text": "5. Antes de tomar una decisión sobre la solicitud de medidas cautelares, la Comisión requerirá al Estado involucrado información relevante, salvo cuando la inmediatez del daño potencial no admita demora. En dicha circunstancia, la Comisión revisará la decisión adoptada lo más pronto posible o, a más tardar, en el siguiente período de sesiones, teniendo en cuenta la información aportada por las partes.",
+     "number": "5"
+    },
+    {
+     "id": "art-25-p11",
+     "text": "6. Al considerar la solicitud, la Comisión tendrá en cuenta su contexto y los siguientes elementos:",
+     "number": "6"
+    },
+    {
+     "id": "art-25-p12",
+     "text": "a. si se ha denunciado la situación de riesgo ante las autoridades pertinentes, o los motivos por los cuales no hubiera podido hacerse;"
+    },
+    {
+     "id": "art-25-p13",
+     "text": "b. la identificación individual de los propuestos beneficiarios de las medidas cautelares o la determinación del grupo al que pertenecen o están vinculados; y c. la expresa conformidad de los potenciales beneficiarios, cuando la solicitud sea presentada por un tercero, salvo en situaciones en las que la ausencia de consentimiento se encuentre justificada."
+    },
+    {
+     "id": "art-25-p14",
+     "text": "7. Las decisiones de otorgamiento, ampliación, modificación y levantamiento de medidas cautelares serán emitidas mediante resoluciones fundamentadas que incluirán, entre otros, los siguientes elementos:",
+     "number": "7"
+    },
+    {
+     "id": "art-25-p15",
+     "text": "a. la descripción de la situación y de los beneficiarios;"
+    },
+    {
+     "id": "art-25-p16",
+     "text": "b. la información aportada por el Estado, de contar con ella;"
+    },
+    {
+     "id": "art-25-p17",
+     "text": "c. las consideraciones de la Comisión sobre los requisitos de gravedad, urgencia e irreparabilidad;"
+    },
+    {
+     "id": "art-25-p18",
+     "text": "d. de ser aplicable, el plazo de vigencia de las medidas cautelares; y e. los votos de los miembros de la Comisión."
+    },
+    {
+     "id": "art-25-p19",
+     "text": "8. El otorgamiento de estas medidas y su adopción por el Estado no constituirán prejuzgamiento sobre violación alguna a los derechos protegidos en la Convención Americana sobre Derechos Humanos u otros instrumentos aplicables.",
+     "number": "8"
+    },
+    {
+     "id": "art-25-p20",
+     "text": "9. La Comisión evaluará con periodicidad, de oficio o a solicitud de parte, las medidas cautelares vigentes, con el fin de mantenerlas, modificarlas o levantarlas. En cualquier momento, el Estado podrá presentar una petición debidamente fundada a fin de que la Comisión deje sin efecto las medidas cautelares vigentes. La Comisión solicitará observaciones a los beneficiarios antes de decidir sobre la petición del Estado. La presentación de tal solicitud no suspenderá la vigencia de las medidas cautelares otorgadas.",
+     "number": "9"
+    },
+    {
+     "id": "art-25-p21",
+     "text": "10. La Comisión podrá tomar las medidas de seguimiento apropiadas, como requerir a las partes interesadas información relevante sobre cualquier asunto relacionado con el otorgamiento, observancia y vigencia de las medidas cautelares. Dichas medidas pueden incluir, cuando resulte pertinente, cronogramas de implementación, audiencias, reuniones de trabajo y visitas de seguimiento y revisión.",
+     "number": "10"
+    },
+    {
+     "id": "art-25-p22",
+     "text": "11. En adición a lo expresado en el inciso 9, la Comisión podrá levantar o revisar una medida cautelar cuando los beneficiarios o sus representantes, en forma injustificada, se abstengan de dar respuesta satisfactoria a la Comisión sobre los requerimientos planteados por el Estado para su implementación.",
+     "number": "11"
+    },
+    {
+     "id": "art-25-p23",
+     "text": "12. La Comisión podrá presentar una solicitud de medidas provisionales a la Corte Interamericana de acuerdo con las condiciones establecidas en el artículo 76 del presente Reglamento. Si en el asunto se hubieren otorgado medidas cautelares, éstas mantendrán su vigencia hasta que la Corte notifique a las partes su resolución sobre la solicitud.",
+     "number": "12"
+    },
+    {
+     "id": "art-25-p24",
+     "text": "13. Ante una decisión de desestimación de una solicitud de medidas provisionales por parte de la Corte Interamericana, la Comisión no considerará una nueva solicitud de medidas cautelares, salvo que existan nuevos hechos que así lo justifiquen. En todo caso, la Comisión podrá ponderar el uso de otros mecanismos de monitoreo de la situación.",
+     "number": "13"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-ii-2",
+   "level": 2,
+   "label": "Capítulo II",
+   "title": "PETICIONES REFERENTES A LA CONVENCIÓN AMERICANA SOBRE",
+   "text": [
+    "DERECHOS HUMANOS Y OTROS INSTRUMENTOS APLICABLES"
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": "Revisión inicial",
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "1. La Secretaría Ejecutiva de la Comisión tendrá la responsabilidad del estudio y tramitación inicial de las peticiones presentadas a la Comisión que llenen todos los requisitos establecidos en el Estatuto y en el artículo 28 del presente Reglamento.",
+     "number": "1"
+    },
+    {
+     "id": "art-26-p2",
+     "text": "2. Si una petición no reúne los requisitos exigidos en el presente Reglamento, la Secretaría Ejecutiva podrá solicitar al peticionario o a su representante que los complete.",
+     "number": "2"
+    },
+    {
+     "id": "art-26-p3",
+     "text": "3. Si la Secretaría Ejecutiva tuviera alguna duda sobre el cumplimiento de los requisitos mencionados, consultará a la Comisión.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": "Condición para considerar la petición",
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "La Comisión tomará en consideración las peticiones sobre presuntas violaciones de los derechos humanos consagrados en la Convención Americana sobre Derechos Humanos y otros instrumentos aplicables, con relación a los Estados miembros de la OEA, solamente cuando llenen los requisitos establecidos en tales instrumentos, en el Estatuto y en el presente Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": "Requisitos para la consideración de peticiones",
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "[3]"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "Las peticiones dirigidas a la Comisión deberán contener la siguiente información:"
+    },
+    {
+     "id": "art-28-p3",
+     "text": "1. El nombre de la persona o personas denunciantes o, en el caso de que el peticionario sea una entidad no gubernamental, su representante o representantes legales y el Estado miembro en el que esté legalmente reconocida;",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p4",
+     "text": "2. Si el peticionario desea que su identidad sea mantenida en reserva frente al Estado, y las razones respectivas;",
+     "number": "2"
+    },
+    {
+     "id": "art-28-p5",
+     "text": "3. La dirección de correo electrónico para recibir correspondencia de la Comisión y, en su caso, número de teléfono, facsímil y dirección postal;",
+     "number": "3"
+    },
+    {
+     "id": "art-28-p6",
+     "text": "4. Una relación del hecho o situación denunciada, con especificación del lugar y fecha de las violaciones alegadas;",
+     "number": "4"
+    },
+    {
+     "id": "art-28-p7",
+     "text": "5. De ser posible, el nombre de la víctima, así como de cualquier autoridad pública que haya tomado conocimiento del hecho o situación denunciada;",
+     "number": "5"
+    },
+    {
+     "id": "art-28-p8",
+     "text": "6. La indicación del Estado que el peticionario considera responsable, por acción o por omisión, de la violación de alguno de los derechos humanos consagrados en la Convención Americana sobre Derechos Humanos y otros instrumentos aplicables, aunque no se haga una referencia específica al/os artículo(s) presuntamente violado(s);",
+     "number": "6"
+    },
+    {
+     "id": "art-28-p9",
+     "text": "7. El cumplimiento con el plazo previsto en el artículo 32 del presente Reglamento;",
+     "number": "7"
+    },
+    {
+     "id": "art-28-p10",
+     "text": "8. Las gestiones emprendidas para agotar los recursos de la jurisdicción interna o la imposibilidad de hacerlo conforme al artículo 31 del presente Reglamento; y",
+     "number": "8"
+    },
+    {
+     "id": "art-28-p11",
+     "text": "9. La indicación de si la denuncia ha sido sometida a otro procedimiento de arreglo internacional conforme al artículo 33 del presente Reglamento.",
+     "number": "9"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": "Tramitación inicial",
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "[4]"
+    },
+    {
+     "id": "art-29-p2",
+     "text": "1. La Comisión, actuando inicialmente por intermedio de su Secretaría Ejecutiva, recibirá y procesará en su tramitación inicial las peticiones que le sean presentadas. Cada petición se registrará, se hará constar en ella la fecha de recepción y se acusará recibo al peticionario.",
+     "number": "1"
+    },
+    {
+     "id": "art-29-p3",
+     "text": "2. La petición será estudiada en su orden de entrada; no obstante, la Comisión podrá adelantar la evaluación de una petición en supuestos como los siguientes:",
+     "number": "2"
+    },
+    {
+     "id": "art-29-p4",
+     "text": "a. cuando el transcurso del tiempo prive a la petición de su efecto útil, en particular:"
+    },
+    {
+     "id": "art-29-p5",
+     "text": "i. cuando la presunta víctima sea un adulto mayor, niño o niña;"
+    },
+    {
+     "id": "art-29-p6",
+     "text": "ii. cuando la presunta víctima padezca de una enfermedad terminal;"
+    },
+    {
+     "id": "art-29-p7",
+     "text": "iii. cuando se alegue que la presunta víctima puede ser objeto de aplicación de la pena de muerte; o"
+    },
+    {
+     "id": "art-29-p8",
+     "text": "iv. cuando el objeto de la petición guarde conexidad con una medida cautelar o provisional vigente;"
+    },
+    {
+     "id": "art-29-p9",
+     "text": "b. cuando las presuntas víctimas sean personas privadas de libertad;"
+    },
+    {
+     "id": "art-29-p10",
+     "text": "c. cuando el Estado manifieste formalmente su intención de entrar en un proceso de solución amistosa del asunto; o d. cuando se dé alguna de las circunstancias siguientes:"
+    },
+    {
+     "id": "art-29-p11",
+     "text": "i. la decisión pueda tener el efecto de remediar situaciones estructurales graves que tengan un impacto en el goce de los derechos humanos; o"
+    },
+    {
+     "id": "art-29-p12",
+     "text": "ii. la decisión pueda impulsar cambios legislativos o de práctica estatal y evitar la recepción de múltiples peticiones sobre el mismo asunto."
+    },
+    {
+     "id": "art-29-p13",
+     "text": "3. Si la petición no reúne los requisitos exigidos en el presente Reglamento, la Comisión podrá solicitar al peticionario o a su representante que los complete conforme al artículo 26.2 del presente Reglamento.",
+     "number": "3"
+    },
+    {
+     "id": "art-29-p14",
+     "text": "4. Si la petición expone hechos distintos, o si se refiere a más de una persona o a presuntas violaciones sin conexión en el tiempo y el espacio, la Comisión podrá desglosarla y tramitarla en expedientes separados, a condición de que reúna todos los requisitos del artículo 28 del presente Reglamento.",
+     "number": "4"
+    },
+    {
+     "id": "art-29-p15",
+     "text": "5. Si dos o más peticiones versan sobre hechos similares, involucran a las mismas personas, o si revelan el mismo patrón de conducta, la Comisión las podrá acumular y tramitar en un mismo expediente.",
+     "number": "5"
+    },
+    {
+     "id": "art-29-p16",
+     "text": "6. En los casos previstos en los literales 4 y 5, la Comisión notificará por escrito a los peticionarios.",
+     "number": "6"
+    },
+    {
+     "id": "art-29-p17",
+     "text": "7. En casos de gravedad o urgencia, la Secretaría Ejecutiva notificará de inmediato a la Comisión.",
+     "number": "7"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": "Procedimiento de admisibilidad",
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "[5]"
+    },
+    {
+     "id": "art-30-p2",
+     "text": "1. La Comisión, a través de su Secretaría Ejecutiva, dará trámite a las peticiones que reúnan los requisitos previstos en el artículo 28 del presente Reglamento.",
+     "number": "1"
+    },
+    {
+     "id": "art-30-p3",
+     "text": "2. A tal efecto, transmitirá las partes pertinentes de la petición al Estado en cuestión. La solicitud de información al Estado no prejuzgará sobre la decisión de admisibilidad que adopte la Comisión.",
+     "number": "2"
+    },
+    {
+     "id": "art-30-p4",
+     "text": "3. El Estado presentará su respuesta dentro del plazo de tres meses contados desde la fecha de transmisión. La Secretaría Ejecutiva evaluará solicitudes de prórroga de dicho plazo que estén debidamente fundadas. Sin embargo, no concederá prórrogas que excedan de cuatro meses contados a partir de la fecha del envío de la primera solicitud de información al Estado.",
+     "number": "3"
+    },
+    {
+     "id": "art-30-p5",
+     "text": "4. En caso de gravedad y urgencia o cuando se considere que la vida de una persona o su integridad personal se encuentre en peligro real e inminente, la Comisión solicitará al Estado su más pronta respuesta, a cuyo efecto utilizará los medios que considere más expeditos.",
+     "number": "4"
+    },
+    {
+     "id": "art-30-p6",
+     "text": "5. Antes de pronunciarse sobre la admisibilidad de la petición, la Comisión podrá invitar a las partes a presentar observaciones adicionales, ya sea por escrito o en una audiencia, conforme a lo establecido en el Capítulo VI del presente Reglamento.",
+     "number": "5"
+    },
+    {
+     "id": "art-30-p7",
+     "text": "6. Las consideraciones y cuestionamientos a la admisibilidad de la petición deberán ser presentadas desde el momento de la transmisión de las partes pertinentes de ésta al Estado y antes de que la Comisión adopte su decisión sobre admisibilidad.",
+     "number": "6"
+    },
+    {
+     "id": "art-30-p8",
+     "text": "7. En los casos previstos en el inciso 4, la Comisión podrá solicitar que el Estado presente su respuesta y observaciones sobre la admisibilidad y el fondo del asunto. La respuesta y observaciones del Estado deben ser enviadas dentro de un plazo razonable, fijado por la Comisión al considerar las circunstancias de cada caso.",
+     "number": "7"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": "Agotamiento de los recursos internos",
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "1. Con el fin de decidir sobre la admisibilidad del asunto la Comisión verificará si se han interpuesto y agotado los recursos de la jurisdicción interna, conforme a los principios del derecho internacional generalmente reconocidos.",
+     "number": "1"
+    },
+    {
+     "id": "art-31-p2",
+     "text": "2. Las disposiciones del párrafo precedente no se aplicarán cuando:",
+     "number": "2"
+    },
+    {
+     "id": "art-31-p3",
+     "text": "a. no exista en la legislación interna del Estado en cuestión el debido proceso legal para la protección del derecho o derechos que se alegan han sido violados;"
+    },
+    {
+     "id": "art-31-p4",
+     "text": "b. no se haya permitido al presunto lesionado en sus derechos el acceso a los recursos de la jurisdicción interna, o haya sido impedido de agotarlos; o c. haya retardo injustificado en la decisión sobre los mencionados recursos."
+    },
+    {
+     "id": "art-31-p5",
+     "text": "3. Cuando el peticionario alegue la imposibilidad de comprobar el cumplimiento del requisito señalado en este artículo, corresponderá al Estado en cuestión demostrar que los recursos internos no han sido agotados, a menos que ello se deduzca claramente del expediente.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": "Plazo para la presentación de peticiones",
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "1. La Comisión considerará las peticiones presentadas dentro de los seis meses contados a partir de la fecha en que la presunta víctima haya sido notificada de la decisión que agota los recursos internos.",
+     "number": "1"
+    },
+    {
+     "id": "art-32-p2",
+     "text": "2. En los casos en los cuales resulten aplicables las excepciones al requisito del previo agotamiento de los recursos internos, la petición deberá presentarse dentro de un plazo razonable, a criterio de la Comisión. A tal efecto, la Comisión considerará la fecha en que haya ocurrido la presunta violación de los derechos y las circunstancias de cada caso.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": "Duplicación de procedimientos",
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "1. La Comisión no considerará una petición si la materia contenida en ella:",
+     "number": "1"
+    },
+    {
+     "id": "art-33-p2",
+     "text": "a. se encuentra pendiente de otro procedimiento de arreglo ante un organismo internacional gubernamental de que sea parte el Estado en cuestión; o b. reproduce sustancialmente otra petición pendiente o ya examinada y resuelta por la Comisión u otro organismo internacional gubernamental del que sea parte el Estado en cuestión."
+    },
+    {
+     "id": "art-33-p3",
+     "text": "2. Sin embargo, la Comisión no se inhibirá de considerar las peticiones a las que se refiere el párrafo 1 cuando:",
+     "number": "2"
+    },
+    {
+     "id": "art-33-p4",
+     "text": "a. el procedimiento seguido ante el otro organismo se limite a un examen general sobre derechos humanos en el Estado en cuestión y no haya decisión sobre los hechos específicos que son objeto de la petición ante la Comisión o no conduzca a su arreglo efectivo; o b. el peticionario ante la Comisión sea la víctima de la presunta violación o su familiar y el peticionario ante el otro organismo sea una tercera persona o una entidad no gubernamental, sin mandato de los primeros."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": "Otras causales de inadmisibilidad",
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "La Comisión declarará inadmisible cualquier petición o caso cuando:"
+    },
+    {
+     "id": "art-34-p2",
+     "text": "a. no exponga hechos que caractericen una violación de los derechos a que se refiere el artículo 27 del presente Reglamento;"
+    },
+    {
+     "id": "art-34-p3",
+     "text": "b. sea manifiestamente infundada o improcedente, según resulte de la exposición del propio peticionario o del Estado; o c. la inadmisibilidad o improcedencia resulten de una información o prueba sobreviniente presentada a la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": "Grupo de trabajo sobre admisibilidad",
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "La Comisión constituirá un grupo de trabajo compuesto por tres o más de sus miembros a fin de estudiar, entre sesiones, la admisibilidad de las peticiones y formular recomendaciones al pleno."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": "Decisión sobre admisibilidad",
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "[6]"
+    },
+    {
+     "id": "art-36-p2",
+     "text": "1. Una vez consideradas las posiciones de las partes, la Comisión se pronunciará sobre la admisibilidad del asunto. Los informes de admisibilidad e inadmisibilidad serán públicos y la Comisión los incluirá en su Informe Anual a la Asamblea General de la OEA.",
+     "number": "1"
+    },
+    {
+     "id": "art-36-p3",
+     "text": "2. Con ocasión de la adopción del informe de admisibilidad, la petición será registrada como caso y se iniciará el procedimiento sobre el fondo. La adopción del informe de admisibilidad no prejuzga sobre el fondo del asunto.",
+     "number": "2"
+    },
+    {
+     "id": "art-36-p4",
+     "text": "3. En circunstancias excepcionales, y luego de haber solicitado información a las partes de acuerdo a lo dispuesto en el artículo 30 del presente Reglamento, la Comisión podrá abrir el caso pero diferir el tratamiento de la admisibilidad hasta el debate y decisión sobre el fondo. La decisión será adoptada en una resolución fundada que incluirá un análisis de las circunstancias excepcionales. Las circunstancias excepcionales que la Comisión tomará en cuenta incluirán las siguientes:",
+     "number": "3"
+    },
+    {
+     "id": "art-36-p5",
+     "text": "a. cuando la consideración sobre la aplicabilidad de una posible excepción al requisito del agotamiento de recursos internos estuviera inextricablemente unida al fondo del asunto;"
+    },
+    {
+     "id": "art-36-p6",
+     "text": "b. en casos de gravedad y urgencia o cuando se considere que la vida de una persona o su integridad personal se encuentran en peligro inminente; o c. cuando el transcurso del tiempo pueda impedir que la decisión de la Comisión tenga efecto útil."
+    },
+    {
+     "id": "art-36-p7",
+     "text": "4. Cuando la Comisión proceda de conformidad con el artículo 30.7 del presente Reglamento, abrirá un caso e informará a las partes por escrito que ha diferido el tratamiento de la admisibilidad hasta el debate y decisión sobre el fondo.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": "Procedimiento sobre el fondo",
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "[7]"
+    },
+    {
+     "id": "art-37-p2",
+     "text": "1. Con la apertura del caso, la Comisión fijará un plazo de cuatro meses para que los peticionarios presenten sus observaciones adicionales sobre el fondo. Las partes pertinentes de dichas observaciones serán transmitidas al Estado en cuestión a fin de que presente sus observaciones dentro del plazo de cuatro meses.",
+     "number": "1"
+    },
+    {
+     "id": "art-37-p3",
+     "text": "2. La Secretaría Ejecutiva evaluará solicitudes de prórroga de los plazos mencionados en el inciso precedente, que estén debidamente fundadas. Sin embargo, no concederá prórrogas que excedan de seis meses contados a partir de la fecha del envío de la primera solicitud de observaciones a cada parte.",
+     "number": "2"
+    },
+    {
+     "id": "art-37-p4",
+     "text": "3. En caso de gravedad y urgencia o cuando se considere que la vida de una persona o su integridad personal se encuentren en peligro real e inminente y una vez abierto el caso, la Comisión solicitará a las partes que envíen sus observaciones adicionales sobre el fondo dentro de un plazo razonable, fijado por la Comisión al considerar las circunstancias de cada caso.",
+     "number": "3"
+    },
+    {
+     "id": "art-37-p5",
+     "text": "4. Antes de pronunciarse sobre el fondo del caso, la Comisión fijará un plazo para que las partes manifiesten si tienen interés en iniciar el procedimiento de solución amistosa previsto en el artículo 40 del presente Reglamento. En los supuestos previstos en el artículo 30.7 y en el inciso anterior, la Comisión solicitará que las partes se manifiesten de la manera más expedita. Asimismo, la Comisión podrá invitar a las partes a presentar observaciones adicionales por escrito.",
+     "number": "4"
+    },
+    {
+     "id": "art-37-p6",
+     "text": "5. Si lo estima necesario para avanzar en el conocimiento del caso, la Comisión podrá convocar a las partes a una audiencia, conforme a lo establecido en el Capítulo VI del presente Reglamento.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-38",
+   "number": "38",
+   "label": "Artículo 38",
+   "heading": "Presunción",
+   "paragraphs": [
+    {
+     "id": "art-38-p1",
+     "text": "Se presumirán verdaderos los hechos alegados en la petición cuyas partes pertinentes hayan sido transmitidas al Estado en cuestión, si éste no suministra información relevante para controvertirlos dentro del plazo fijado por la Comisión conforme al artículo 37 del presente Reglamento, siempre que de otros elementos de convicción no resulte una conclusión contraria."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-39",
+   "number": "39",
+   "label": "Artículo 39",
+   "heading": "Investigación in loco",
+   "paragraphs": [
+    {
+     "id": "art-39-p1",
+     "text": "1. Si lo considera necesario y conveniente, la Comisión podrá realizar una investigación in loco, para cuyo eficaz cumplimiento solicitará las facilidades pertinentes, que serán proporcionadas por el Estado en cuestión. En casos graves y urgentes, la Comisión podrá realizar una investigación in loco, previo consentimiento del Estado en cuyo territorio se alegue haberse cometido la violación, tan sólo con la presentación de una petición o comunicación que reúna todos los requisitos formales de admisibilidad.",
+     "number": "1"
+    },
+    {
+     "id": "art-39-p2",
+     "text": "2. La Comisión podrá delegar en uno o más de sus miembros la recepción de prueba testimonial conforme a las reglas establecidas en el artículo 65, incisos 5, 6, 7 y 8.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-40",
+   "number": "40",
+   "label": "Artículo 40",
+   "heading": "Solución amistosa",
+   "paragraphs": [
+    {
+     "id": "art-40-p1",
+     "text": "1. La Comisión se pondrá a disposición de las partes en cualquier etapa del examen de una petición o caso, por iniciativa propia o a solicitud de cualquiera de ellas a fin de llegar a una solución amistosa del asunto fundada en el respeto de los derechos humanos establecidos en la Convención Americana sobre Derechos Humanos, la Declaración Americana y otros instrumentos aplicables.",
+     "number": "1"
+    },
+    {
+     "id": "art-40-p2",
+     "text": "2. El procedimiento de solución amistosa se iniciará y continuará con base en el consentimiento de las partes.",
+     "number": "2"
+    },
+    {
+     "id": "art-40-p3",
+     "text": "3. Cuando lo considere necesario, la Comisión podrá encomendar a uno o más de sus miembros la tarea de facilitar la negociación entre las partes.",
+     "number": "3"
+    },
+    {
+     "id": "art-40-p4",
+     "text": "4. La Comisión podrá dar por concluida su intervención en el procedimiento de solución amistosa si advierte que el asunto no es susceptible de resolverse por esta vía, o alguna de las partes no consiente en su aplicación, decide no continuar en él, o no muestra la voluntad de llegar a una solución amistosa fundada en el respeto de los derechos humanos.",
+     "number": "4"
+    },
+    {
+     "id": "art-40-p5",
+     "text": "5. Si se logra una solución amistosa, la Comisión aprobará un informe con una breve exposición de los hechos y de la solución lograda, lo transmitirá a las partes y lo publicará. Antes de aprobar dicho informe, la Comisión verificará si la víctima de la presunta violación o, en su caso, sus derechohabientes, han dado su consentimiento en el acuerdo de solución amistosa. En todos los casos, la solución amistosa deberá fundarse en el respeto de los derechos humanos reconocidos en la Convención Americana sobre Derechos Humanos, la Declaración Americana y otros instrumentos aplicables.",
+     "number": "5"
+    },
+    {
+     "id": "art-40-p6",
+     "text": "6. De no llegarse a una solución amistosa, la Comisión proseguirá con el trámite de la petición o caso.",
+     "number": "6"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-41",
+   "number": "41",
+   "label": "Artículo 41",
+   "heading": "Desistimiento",
+   "paragraphs": [
+    {
+     "id": "art-41-p1",
+     "text": "El peticionario podrá desistir en cualquier momento de su petición o caso, a cuyo efecto deberá manifestarlo por escrito a la Comisión. La manifestación del peticionario será analizada por la Comisión, que podrá archivar la petición o caso si lo estima procedente, o podrá proseguir el trámite en interés de proteger un derecho determinado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-42",
+   "number": "42",
+   "label": "Artículo 42",
+   "heading": "Archivo de peticiones y casos",
+   "paragraphs": [
+    {
+     "id": "art-42-p1",
+     "text": "[8]"
+    },
+    {
+     "id": "art-42-p2",
+     "text": "1. En cualquier momento del procedimiento, la Comisión decidirá sobre el archivo del expediente cuando verifique que no existen o subsisten los motivos de la petición o caso. Asimismo, la Comisión podrá decidir sobre el archivo del expediente cuando:",
+     "number": "1"
+    },
+    {
+     "id": "art-42-p3",
+     "text": "a. no se cuente con la información necesaria para alcanzar una decisión sobre la petición o caso, a pesar de los esfuerzos para obtener dicha información; o b. la injustificada inactividad procesal del peticionario constituya indicio serio de desinterés en la tramitación de la petición."
+    },
+    {
+     "id": "art-42-p4",
+     "text": "2. Antes de considerar el archivo de una petición o caso, se solicitará a los peticionarios que presenten la información necesaria y se les notificará la posibilidad de una decisión de archivo. Una vez expirado el plazo establecido para la presentación de dicha información, la Comisión procederá a adoptar la decisión correspondiente.",
+     "number": "2"
+    },
+    {
+     "id": "art-42-p5",
+     "text": "3. La decisión de archivo será definitiva, salvo en los siguientes casos:",
+     "number": "3"
+    },
+    {
+     "id": "art-42-p6",
+     "text": "a. error material;"
+    },
+    {
+     "id": "art-42-p7",
+     "text": "b. hechos sobrevinientes;"
+    },
+    {
+     "id": "art-42-p8",
+     "text": "c. información nueva que hubiera afectado la decisión de la Comisión; o d. fraude."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-43",
+   "number": "43",
+   "label": "Artículo 43",
+   "heading": "Decisión sobre el fondo",
+   "paragraphs": [
+    {
+     "id": "art-43-p1",
+     "text": "1. La Comisión deliberará sobre el fondo del caso, a cuyo efecto preparará un informe en el cual examinará los alegatos, las pruebas suministradas por las partes, y la información obtenida durante audiencias y observaciones in loco. Asimismo, la Comisión podrá tener en cuenta otra información de público conocimiento.",
+     "number": "1"
+    },
+    {
+     "id": "art-43-p2",
+     "text": "2. Las deliberaciones de la Comisión se harán en privado y todos los aspectos del debate serán confidenciales.",
+     "number": "2"
+    },
+    {
+     "id": "art-43-p3",
+     "text": "3. Toda cuestión que deba ser puesta a votación se formulará en términos precisos en uno de los idiomas de trabajo de la Comisión. A petición de cualquiera de los miembros, el texto será traducido por la Secretaría Ejecutiva a uno de los otros idiomas oficiales de la Comisión y se distribuirá antes de la votación.",
+     "number": "3"
+    },
+    {
+     "id": "art-43-p4",
+     "text": "4. Las actas referentes a las deliberaciones de la Comisión se limitarán a mencionar el objeto del debate y la decisión aprobada, así como los votos razonados y las declaraciones hechas para constar en acta. Si el informe no representa, en todo o en parte, la opinión unánime de los miembros de la Comisión, cualquiera de ellos podrá agregar su opinión por separado siguiendo el procedimiento establecido en el artículo 19 inciso 4 del presente Reglamento.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-44",
+   "number": "44",
+   "label": "Artículo 44",
+   "heading": "Informe sobre el fondo",
+   "paragraphs": [
+    {
+     "id": "art-44-p1",
+     "text": "[9]"
+    },
+    {
+     "id": "art-44-p2",
+     "text": "Luego de la deliberación y voto sobre el fondo del caso, la Comisión procederá de la siguiente manera:"
+    },
+    {
+     "id": "art-44-p3",
+     "text": "1. Si establece que no hubo violación en un caso determinado, así lo manifestará en su informe sobre el fondo. El informe será transmitido a las partes, y será publicado e incluido en el Informe Anual de la Comisión a la Asamblea General de la OEA.",
+     "number": "1"
+    },
+    {
+     "id": "art-44-p4",
+     "text": "2. Si establece una o más violaciones, preparará un informe preliminar con las proposiciones y recomendaciones que juzgue pertinentes y lo transmitirá al Estado en cuestión. En tal caso, fijará un plazo dentro del cual el Estado en cuestión deberá informar sobre las medidas adoptadas para cumplir las recomendaciones. El Estado no estará facultado para publicar el informe hasta que la Comisión adopte una decisión al respecto.",
+     "number": "2"
+    },
+    {
+     "id": "art-44-p5",
+     "text": "3. Notificará al peticionario la adopción del informe y su transmisión al Estado. En el caso de los Estados Partes en la Convención Americana que hubieran aceptado la jurisdicción contenciosa de la Corte Interamericana, al notificar al peticionario la Comisión le dará la oportunidad de presentar, dentro del plazo de un mes, su posición respecto del sometimiento del caso a la Corte. Si el peticionario tuviera interés en que el caso sea sometido a la Corte, deberá presentar los siguientes elementos:",
+     "number": "3"
+    },
+    {
+     "id": "art-44-p6",
+     "text": "a. la posición de la víctima o sus familiares, si fueran distintos del peticionario;"
+    },
+    {
+     "id": "art-44-p7",
+     "text": "b. los fundamentos con base en los cuales considera que el caso debe ser remitido a la Corte; y c. las pretensiones en materia de reparaciones y costas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-45",
+   "number": "45",
+   "label": "Artículo 45",
+   "heading": "Sometimiento del caso a la Corte",
+   "paragraphs": [
+    {
+     "id": "art-45-p1",
+     "text": "1. Si el Estado en cuestión ha aceptado la jurisdicción de la Corte Interamericana, de conformidad con el artículo 62 de la Convención Americana, y la Comisión considera que no ha cumplido las recomendaciones del informe aprobado de acuerdo al artículo 50 del referido instrumento, someterá el caso a la Corte, salvo por decisión fundada de la mayoría absoluta de los miembros de la Comisión.",
+     "number": "1"
+    },
+    {
+     "id": "art-45-p2",
+     "text": "2. La Comisión considerará fundamentalmente la obtención de justicia en el caso particular, fundada entre otros, en los siguientes elementos:",
+     "number": "2"
+    },
+    {
+     "id": "art-45-p3",
+     "text": "a. la posición del peticionario;"
+    },
+    {
+     "id": "art-45-p4",
+     "text": "b. la naturaleza y gravedad de la violación;"
+    },
+    {
+     "id": "art-45-p5",
+     "text": "c. la necesidad de desarrollar o aclarar la jurisprudencia del sistema; y d. el eventual efecto de la decisión en los ordenamientos jurídicos de los Estados miembros."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-46",
+   "number": "46",
+   "label": "Artículo 46",
+   "heading": "Suspensión del plazo para el sometimiento del caso a la Corte",
+   "paragraphs": [
+    {
+     "id": "art-46-p1",
+     "text": "[10]"
+    },
+    {
+     "id": "art-46-p2",
+     "text": "1. La Comisión podrá considerar a solicitud del Estado interesado la suspensión del plazo previsto en el artículo 51.1 de la Convención Americana para el sometimiento del caso a la Corte, cuando estuvieren reunidas las siguientes condiciones:",
+     "number": "1"
+    },
+    {
+     "id": "art-46-p3",
+     "text": "a. que el Estado haya demostrado su voluntad y capacidad de implementar las recomendaciones contenidas en el informe sobre el fondo, mediante la adopción de acciones concretas e idóneas orientadas a su cumplimiento. A tal efecto, la Comisión podrá tomar en cuenta la existencia de leyes internas que establezcan un mecanismo de cumplimiento de sus recomendaciones; y b. que en su solicitud el Estado acepte en forma expresa e irrevocable la suspensión del plazo previsto en el artículo 51.1 de la Convención Americana para el sometimiento del caso a la Corte y, en consecuencia, renuncie expresamente a interponer excepciones preliminares respecto del cumplimiento con dicho plazo, en la eventualidad de que el asunto sea remitido a la Corte."
+    },
+    {
+     "id": "art-46-p4",
+     "text": "2. Para el establecimiento de los plazos de suspensión, la Comisión podrá tener en cuenta los siguientes factores:",
+     "number": "2"
+    },
+    {
+     "id": "art-46-p5",
+     "text": "a. la complejidad del asunto y de las medidas necesarias para cumplir con las recomendaciones de la Comisión, en particular cuando impliquen el involucramiento de diferentes ramas del Poder Público, o la coordinación entre gobiernos centrales y regionales, entre otras;"
+    },
+    {
+     "id": "art-46-p6",
+     "text": "b. las medidas adoptadas por el Estado para el cumplimiento de las recomendaciones con anterioridad a la solicitud de la extensión del plazo; y c. la posición del peticionario."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-47",
+   "number": "47",
+   "label": "Artículo 47",
+   "heading": "Publicación del informe",
+   "paragraphs": [
+    {
+     "id": "art-47-p1",
+     "text": "1. Si dentro del plazo de tres meses a partir de la transmisión del informe preliminar al Estado en cuestión, el asunto no ha sido solucionado o, en el caso de los Estados que hubieran aceptado la jurisdicción de la Corte Interamericana, no ha sido sometido a la decisión de ésta por la Comisión o por el propio Estado, la Comisión podrá emitir, por mayoría absoluta de votos, un informe definitivo que contenga su opinión y conclusiones finales y recomendaciones.",
+     "number": "1"
+    },
+    {
+     "id": "art-47-p2",
+     "text": "2. El informe definitivo será transmitido a las partes, quienes presentarán, en el plazo fijado por la Comisión, información sobre el cumplimiento de las recomendaciones.",
+     "number": "2"
+    },
+    {
+     "id": "art-47-p3",
+     "text": "3. La Comisión evaluará el cumplimiento de sus recomendaciones con base en la información disponible y decidirá, por mayoría absoluta de votos de sus miembros, sobre la publicación del informe definitivo. La Comisión decidirá asimismo sobre su inclusión en el Informe Anual a la Asamblea General de la OEA o su publicación en cualquier otro medio que considere apropiado.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-48",
+   "number": "48",
+   "label": "Artículo 48",
+   "heading": "Seguimiento",
+   "paragraphs": [
+    {
+     "id": "art-48-p1",
+     "text": "1. Una vez publicado un informe sobre solución amistosa o sobre el fondo en los cuales haya formulado recomendaciones, la Comisión podrá tomar las medidas de seguimiento que considere oportunas, tales como solicitar información a las partes y celebrar audiencias, con el fin de verificar el cumplimiento con los acuerdos de solución amistosa y recomendaciones.",
+     "number": "1"
+    },
+    {
+     "id": "art-48-p2",
+     "text": "2. La Comisión informará de la manera que considere pertinente sobre los avances en el cumplimiento de dichos acuerdos y recomendaciones.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-49",
+   "number": "49",
+   "label": "Artículo 49",
+   "heading": "Certificación de informes",
+   "paragraphs": [
+    {
+     "id": "art-49-p1",
+     "text": "Los originales de los informes firmados por los Comisionados que participaron en su adopción serán depositados en los archivos de la Comisión. Los informes transmitidos a las partes serán certificados por la Secretaría Ejecutiva."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-50",
+   "number": "50",
+   "label": "Artículo 50",
+   "heading": "Comunicaciones interestatales",
+   "paragraphs": [
+    {
+     "id": "art-50-p1",
+     "text": "1. La comunicación presentada por un Estado parte en la Convención Americana sobre Derechos Humanos, que ha aceptado la competencia de la Comisión para recibir y examinar tales comunicaciones contra otros Estados partes, será transmitida al Estado parte aludido, sea que éste haya aceptado o no la competencia de la Comisión. En caso de no haberla aceptado, la comunicación será transmitida a los efectos de que dicho Estado pueda ejercer su opción bajo el artículo 45, párrafo 3, de la Convención, para reconocer esa competencia en el caso específico objeto de la comunicación.",
+     "number": "1"
+    },
+    {
+     "id": "art-50-p2",
+     "text": "2. Aceptada la competencia por el Estado aludido para conocer de la comunicación del otro Estado parte, el respectivo trámite se regirá por las disposiciones de este Capítulo II, en lo que le sean aplicables.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iii-2",
+   "level": 2,
+   "label": "Capítulo III",
+   "title": "PETICIONES REFERENTES A ESTADOS QUE NO SON PARTES EN",
+   "text": [
+    "LA CONVENCIÓN AMERICANA SOBRE DERECHOS HUMANOS"
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-51",
+   "number": "51",
+   "label": "Artículo 51",
+   "heading": "Recepción de la petición",
+   "paragraphs": [
+    {
+     "id": "art-51-p1",
+     "text": "La Comisión recibirá y examinará la petición que contenga una denuncia sobre presuntas violaciones de los derechos humanos consagrados en la Declaración Americana de los Derechos y Deberes del Hombre con relación a los Estados miembros de la Organización que no sean partes en la Convención Americana sobre Derechos Humanos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-52",
+   "number": "52",
+   "label": "Artículo 52",
+   "heading": "Procedimiento aplicable",
+   "paragraphs": [
+    {
+     "id": "art-52-p1",
+     "text": "El procedimiento aplicable a las peticiones referentes a Estados miembros de la OEA que no son partes en la Convención Americana será el establecido en las disposiciones generales contenidas en el Capítulo I del Título II; en los artículos 28 al 44 y 47 al 49 de este Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-iv-2",
+   "level": 2,
+   "label": "Capítulo IV",
+   "title": "OBSERVACIONES IN LOCO"
+  },
+  {
+   "kind": "article",
+   "id": "art-53",
+   "number": "53",
+   "label": "Artículo 53",
+   "heading": "Designación de Comisión Especial",
+   "paragraphs": [
+    {
+     "id": "art-53-p1",
+     "text": "Las observaciones in loco se practicarán, en cada caso, por una Comisión Especial designada a ese efecto. La determinación del número de miembros de la Comisión Especial y la designación de su Presidente corresponderán a la Comisión. En casos de extrema urgencia, tales decisiones podrán ser adoptadas por el Presidente, ad referendum de la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-54",
+   "number": "54",
+   "label": "Artículo 54",
+   "heading": "Impedimento",
+   "paragraphs": [
+    {
+     "id": "art-54-p1",
+     "text": "El miembro de la Comisión que sea nacional o que resida en el territorio del Estado en donde deba realizarse una observación in loco estará impedido de participar en ella."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-55",
+   "number": "55",
+   "label": "Artículo 55",
+   "heading": "Plan de actividades",
+   "paragraphs": [
+    {
+     "id": "art-55-p1",
+     "text": "La Comisión Especial organizará su propia labor. A tal efecto, podrá asignar a sus miembros cualquier actividad relacionada con su misión y, en consulta con el Secretario Ejecutivo, a funcionarios de la Secretaría Ejecutiva o al personal necesario."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-56",
+   "number": "56",
+   "label": "Artículo 56",
+   "heading": "Facilidades y garantías necesarias",
+   "paragraphs": [
+    {
+     "id": "art-56-p1",
+     "text": "El Estado que invite a la Comisión Interamericana de Derechos Humanos a una observación in loco, u otorgue su anuencia a dicho efecto, concederá a la Comisión Especial todas las facilidades necesarias para llevar a cabo su misión y, en particular, se comprometerá a no tomar represalias de ningún orden en contra de las personas o entidades que hayan cooperado con ella mediante informaciones o testimonios."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-57",
+   "number": "57",
+   "label": "Artículo 57",
+   "heading": "Otras normas aplicables",
+   "paragraphs": [
+    {
+     "id": "art-57-p1",
+     "text": "Sin perjuicio de lo dispuesto en el artículo anterior, las observaciones in loco que acuerde la Comisión Interamericana se realizarán de conformidad con las siguientes normas:"
+    },
+    {
+     "id": "art-57-p2",
+     "text": "a. la Comisión Especial o cualquiera de sus miembros podrá entrevistar, libre y privadamente, a personas, grupos, entidades o instituciones;"
+    },
+    {
+     "id": "art-57-p3",
+     "text": "b. el Estado deberá otorgar las garantías necesarias a quienes suministren a la Comisión Especial informaciones, testimonios o pruebas de cualquier carácter;"
+    },
+    {
+     "id": "art-57-p4",
+     "text": "c. los miembros de la Comisión Especial podrán viajar libremente por todo el territorio del país, para lo cual el Estado otorgará todas las facilidades del caso, incluyendo la documentación necesaria;"
+    },
+    {
+     "id": "art-57-p5",
+     "text": "d. el Estado deberá asegurar la disponibilidad de medios de transporte local;"
+    },
+    {
+     "id": "art-57-p6",
+     "text": "e. los miembros de la Comisión Especial tendrán acceso a las cárceles y todos los otros sitios de detención e interrogación y podrán entrevistar privadamente a las personas recluidas o detenidas;"
+    },
+    {
+     "id": "art-57-p7",
+     "text": "f. el Estado proporcionará a la Comisión Especial cualquier documento relacionado con la observancia de los derechos humanos que ésta considere necesario para la preparación de su informe;"
+    },
+    {
+     "id": "art-57-p8",
+     "text": "g. la Comisión Especial podrá utilizar cualquier medio apropiado para filmar, tomar fotografías, recoger, documentar, grabar o reproducir la información que considere oportuna;"
+    },
+    {
+     "id": "art-57-p9",
+     "text": "h. el Estado adoptará las medidas de seguridad adecuadas para proteger a la Comisión Especial;"
+    },
+    {
+     "id": "art-57-p10",
+     "text": "i. el Estado asegurará la disponibilidad de alojamiento apropiado para los miembros de la Comisión Especial;"
+    },
+    {
+     "id": "art-57-p11",
+     "text": "j. las mismas garantías y facilidades indicadas en el presente artículo para los miembros de la Comisión Especial se extenderán al personal de la Secretaría Ejecutiva; y k. los gastos en que incurra la Comisión Especial, cada uno de sus integrantes y el personal de la Secretaría Ejecutiva serán sufragados por la OEA, con sujeción a las disposiciones pertinentes."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-v-2",
+   "level": 2,
+   "label": "Capítulo V",
+   "title": "INFORME ANUAL Y OTROS INFORMES DE LA COMISIÓN"
+  },
+  {
+   "kind": "article",
+   "id": "art-58",
+   "number": "58",
+   "label": "Artículo 58",
+   "heading": "Preparación de informes",
+   "paragraphs": [
+    {
+     "id": "art-58-p1",
+     "text": "La Comisión rendirá un informe anual a la Asamblea General de la OEA. Además, la Comisión preparará los estudios e informes que considere convenientes para el desempeño de sus funciones, y los publicará del modo que juzgue oportuno. Una vez aprobada su publicación, la Comisión los transmitirá por intermedio de la Secretaría General a los Estados miembros de la OEA y sus órganos pertinentes."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-59",
+   "number": "59",
+   "label": "Artículo 59",
+   "heading": "Informe Anual",
+   "paragraphs": [
+    {
+     "id": "art-59-p1",
+     "text": "[11]"
+    },
+    {
+     "id": "art-59-p2",
+     "text": "1. El Informe Anual de la Comisión a la Asamblea General de la Organización tendrá dos volúmenes.",
+     "number": "1"
+    },
+    {
+     "id": "art-59-p3",
+     "text": "2. El primer volumen incluirá lo siguiente:",
+     "number": "2"
+    },
+    {
+     "id": "art-59-p4",
+     "text": "a. una introducción con el progreso alcanzado en la consecución de los objetivos señalados en la Declaración Americana, la Convención Americana y los demás instrumentos interamericanos en materia de derechos humanos, así como el estado de ratificación de éstos; la relación del origen, bases jurídicas, estructura y fines de la Comisión; y los mandatos conferidos a la Comisión por los instrumentos interamericanos en materia de derechos humanos, por la Asamblea General de la Organización y por otros órganos competentes."
+    },
+    {
+     "id": "art-59-p5",
+     "text": "b. en el Capítulo I,"
+    },
+    {
+     "id": "art-59-p6",
+     "text": "i. una lista de los períodos de sesiones celebrados durante el lapso cubierto por el informe, y de otras actividades desarrolladas por la Comisión para el cumplimiento de sus fines, objetivos y mandatos; y"
+    },
+    {
+     "id": "art-59-p7",
+     "text": "ii. un resumen de las actividades desarrolladas por la Comisión con la Corte, otros órganos de la OEA, y organismos regionales o universales de la misma índole, así como los resultados logrados."
+    },
+    {
+     "id": "art-59-p8",
+     "text": "c. en el Capítulo II, una relación del sistema de peticiones y casos, que particularice:"
+    },
+    {
+     "id": "art-59-p9",
+     "text": "i. la información sobre las peticiones en estudio inicial;"
+    },
+    {
+     "id": "art-59-p10",
+     "text": "ii. las peticiones declaradas admisibles e inadmisibles y los informes respectivos;"
+    },
+    {
+     "id": "art-59-p11",
+     "text": "iii. los informes de fondo emitidos;"
+    },
+    {
+     "id": "art-59-p12",
+     "text": "iv. las soluciones amistosas homologadas;"
+    },
+    {
+     "id": "art-59-p13",
+     "text": "v. los informes de archivo adoptados;"
+    },
+    {
+     "id": "art-59-p14",
+     "text": "vi. las medidas cautelares otorgadas; y"
+    },
+    {
+     "id": "art-59-p15",
+     "text": "vii. el estado del cumplimiento de las recomendaciones en casos individuales."
+    },
+    {
+     "id": "art-59-p16",
+     "text": "d. en el Capítulo III, una relación de las actividades de las Relatorías, Relatorías Especiales y Unidades Temáticas, incluyendo una referencia a cada uno de los informes producidos por ellas, así como a otras actividades de promoción."
+    },
+    {
+     "id": "art-59-p17",
+     "text": "e. en el Capítulo IV,"
+    },
+    {
+     "id": "art-59-p18",
+     "text": "i. la sección “A”, un panorama anual sobre la situación de los derechos humanos en el hemisferio, derivado de la labor de monitoreo de la Comisión, destacando las principales tendencias, problemas, desafíos, avances y buenas prácticas respecto tanto de los derechos civiles y políticos como de los derechos económicos, sociales y culturales; y"
+    },
+    {
+     "id": "art-59-p19",
+     "text": "ii. la sección “B”, los informes especiales que la Comisión considere necesarios sobre la situación de los derechos humanos en los Estados Miembros conforme a los criterios, metodología y procedimiento a los que hacen referencia los incisos siguientes."
+    },
+    {
+     "id": "art-59-p20",
+     "text": "f. en el Capítulo V, informes de seguimiento, en los que se destacarán los progresos alcanzados y las dificultades para la efectiva observancia de los derechos humanos."
+    },
+    {
+     "id": "art-59-p21",
+     "text": "g. en el Capítulo VI, una reseña de las actividades de desarrollo institucional, incluyendo información sobre los recursos financieros y la ejecución del presupuesto de la Comisión."
+    },
+    {
+     "id": "art-59-p22",
+     "text": "3. En un segundo volumen de su Informe Anual, la Comisión incorporará los informes de país, temáticos o regionales producidos o publicados durante el año, incluyendo los de Relatorías, Relatorías Especiales y Unidades Temáticas.",
+     "number": "3"
+    },
+    {
+     "id": "art-59-p23",
+     "text": "4. La Comisión aplicará las reglas establecidas en los incisos 5 a 9 de este artículo en la preparación de los Capítulos IV y V de su Informe Anual en el ejercicio de su mandato de promover y proteger los derechos humanos y, en particular, de su deber de informar a los Estados Miembros de la OEA sobre la situación de los derechos humanos que pueden requerir una respuesta por parte de los órganos políticos y la atención prioritaria de la Comisión.",
+     "number": "4"
+    },
+    {
+     "id": "art-59-p24",
+     "text": "5. La Comisión utilizará información confiable y convincente obtenida de las siguientes fuentes:",
+     "number": "5"
+    },
+    {
+     "id": "art-59-p25",
+     "text": "a. actos oficiales del Estado, en todos los niveles y en cualquiera de sus ramas, incluyendo enmiendas constitucionales, legislación, decretos, decisiones judiciales, pronunciamientos de política, comunicaciones oficiales a la Comisión y a otros órganos de derechos humanos, así como cualquier otro pronunciamiento o acción atribuible al Estado;"
+    },
+    {
+     "id": "art-59-p26",
+     "text": "b. información disponible en los casos, peticiones y medidas cautelares y provisionales en el Sistema Interamericano, así como información sobre el cumplimiento por parte del Estado de las recomendaciones de la Comisión y sentencias de la Corte Interamericana;"
+    },
+    {
+     "id": "art-59-p27",
+     "text": "c. información obtenida en visitas in loco de la Comisión Interamericana, sus Relatores, y sus funcionarios;"
+    },
+    {
+     "id": "art-59-p28",
+     "text": "d. información obtenida mediante audiencias públicas celebradas por la Comisión Interamericana durante sus sesiones;"
+    },
+    {
+     "id": "art-59-p29",
+     "text": "e. conclusiones de otros órganos internacionales de derechos humanos, incluyendo los órganos de tratados, Relatores, grupos de trabajo, el Consejo de Derechos Humanos y otros órganos y agencias especializadas de la Organización de las Naciones Unidas;"
+    },
+    {
+     "id": "art-59-p30",
+     "text": "f. informes de derechos humanos de gobiernos y de órganos regionales;"
+    },
+    {
+     "id": "art-59-p31",
+     "text": "g. informes de organizaciones de la sociedad civil e información presentada por éstas y por particulares; e h. información pública ampliamente diseminada en los medios de comunicación."
+    },
+    {
+     "id": "art-59-p32",
+     "text": "6. Los criterios para la inclusión de un Estado Miembro en el Capítulo IV.B del Informe Anual son los siguientes:",
+     "number": "6"
+    },
+    {
+     "id": "art-59-p33",
+     "text": "a. una violación grave de los elementos fundamentales y las instituciones de la democracia representativa previstos en la Carta Democrática Interamericana, que son medios esenciales para la realización de los derechos humanos, entre ellos:"
+    },
+    {
+     "id": "art-59-p34",
+     "text": "i. si hubiera acceso discriminatorio o un ejercicio abusivo del poder que socave o contraríe el Estado de Derecho, tales como la infracción sistemática de la independencia del Poder Judicial o la falta de subordinación de las instituciones del Estado a la autoridad civil legalmente constituida;"
+    },
+    {
+     "id": "art-59-p35",
+     "text": "ii. si se hubiera producido una alteración del orden constitucional que afecte gravemente el orden democrático; o"
+    },
+    {
+     "id": "art-59-p36",
+     "text": "iii. cuando un gobierno democráticamente constituido fuera derrocado por la fuerza o el gobierno actual haya llegado al poder por otros medios distintos a las elecciones libres, justas y basadas en el sufragio universal y secreto, de conformidad con las normas internacionalmente aceptadas y los principios recogidos en la Carta Democrática Interamericana."
+    },
+    {
+     "id": "art-59-p37",
+     "text": "b. la suspensión ilegítima, total o parcial, del libre ejercicio de los derechos garantizados en la Declaración Americana o la Convención Americana, en razón de la imposición de medidas excepcionales tales como la declaratoria de un estado de emergencia, de un estado de sitio, la suspensión de garantías constitucionales, o medidas excepcionales de seguridad."
+    },
+    {
+     "id": "art-59-p38",
+     "text": "c. la comisión, por parte de un Estado, de violaciones masivas, graves y sistemáticas de los derechos humanos garantizados en la Declaración Americana, la Convención Americana, o los demás instrumentos de derechos humanos aplicables."
+    },
+    {
+     "id": "art-59-p39",
+     "text": "d. la presencia de otras situaciones estructurales que afecten seria y gravemente el goce y disfrute de los derechos fundamentales consagrados en la Declaración Americana, la Convención Americana o los demás instrumentos de derechos humanos aplicables. Entre otros factores a ponderar, estarán los siguientes:"
+    },
+    {
+     "id": "art-59-p40",
+     "text": "i. graves crisis institucionales que infrinjan el disfrute de derechos humanos;"
+    },
+    {
+     "id": "art-59-p41",
+     "text": "ii. incumplimiento sistemático del Estado con su obligación de combatir la impunidad, atribuible a una falta de voluntad manifiesta;"
+    },
+    {
+     "id": "art-59-p42",
+     "text": "iii. omisiones graves en la adopción de disposiciones necesarias para hacer efectivos los derechos fundamentales o para cumplir las decisiones de la Comisión y la Corte Interamericana; y"
+    },
+    {
+     "id": "art-59-p43",
+     "text": "iv. violaciones sistemáticas de derechos humanos atribuibles al Estado en el marco de un conflicto armado interno."
+    },
+    {
+     "id": "art-59-p44",
+     "text": "7. La decisión sobre los países específicos a incluir en el Capítulo IV.B será adoptada por la Comisión cada año de conformidad con el quórum especial previsto en el artículo 18 del presente Reglamento. La inclusión de un Estado en dicho capítulo un determinado año no crea una presunción para su inclusión en el mismo en el año siguiente. Cuando la Comisión reciba del Estado concernido información que conduzca a la conclusión de que han sido superadas las condiciones que motivaron su inclusión, no lo incluirá en el mismo, salvo que nuevas razones así lo exijan.",
+     "number": "7"
+    },
+    {
+     "id": "art-59-p45",
+     "text": "8. Cuando un Estado incluido en el Capítulo IV.B del Informe Anual haya sido objeto de una visita in loco, no se le incorporará en dicho capítulo del Informe Anual correspondiente al año de la visita. El monitoreo de la situación de los derechos humanos de ese año en dicho Estado se realizará a través del informe de país preparado en relación con la visita in loco. Una vez que el informe de país haya sido publicado, la Comisión dará seguimiento al cumplimiento de las respectivas recomendaciones a través del Capítulo V de su Informe Anual. Con posterioridad, la Comisión decidirá, de conformidad con el presente Reglamento, si el monitoreo de la situación de los derechos humanos en el respectivo país debe ser incluido en alguno de los capítulos mencionados del Informe Anual.",
+     "number": "8"
+    },
+    {
+     "id": "art-59-p46",
+     "text": "9. A través del Capítulo V de su Informe Anual, la Comisión dará seguimiento a las medidas adoptadas para dar cumplimiento a las recomendaciones formuladas en los informes de país o temáticos, o en informes publicados previamente en el Capítulo IV.B.",
+     "number": "9"
+    },
+    {
+     "id": "art-59-p47",
+     "text": "10. En forma previa a la publicación en los Capítulos IV.B y V del Informe Anual, la Comisión transmitirá una copia preliminar al Estado respectivo. Éste podrá enviar a la Comisión una respuesta dentro del plazo máximo de un mes a partir de la transmisión del informe; esta respuesta estará disponible a través de un vínculo electrónico en la página de la Comisión, a menos que el Estado solicite lo contrario.",
+     "number": "10"
+    },
+    {
+     "id": "art-59-p48",
+     "text": "11. La Comisión incluirá en su Informe Anual cualquier otra información, observación o recomendación que considere pertinente someter a la Asamblea General.",
+     "number": "11"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-60",
+   "number": "60",
+   "label": "Artículo 60",
+   "heading": "Informe sobre derechos humanos en un Estado",
+   "paragraphs": [
+    {
+     "id": "art-60-p1",
+     "text": "La elaboración de un informe general o especial sobre la situación de los derechos humanos en un Estado determinado se ajustará a las siguientes normas:"
+    },
+    {
+     "id": "art-60-p2",
+     "text": "a. una vez que el proyecto de informe haya sido aprobado por la Comisión se transmitirá al Gobierno del Estado en cuestión, para que formule las observaciones que juzgue pertinentes;"
+    },
+    {
+     "id": "art-60-p3",
+     "text": "b. la Comisión indicará a dicho Estado el plazo dentro del cual debe presentar las observaciones;"
+    },
+    {
+     "id": "art-60-p4",
+     "text": "c. recibidas las observaciones del Estado, la Comisión las estudiará y a la luz de ellas podrá mantener o modificar su informe y decidir acerca de las modalidades de su publicación;"
+    },
+    {
+     "id": "art-60-p5",
+     "text": "d. si al vencimiento del plazo fijado el Estado no ha presentado observación alguna, la Comisión publicará el informe del modo que juzgue apropiado;"
+    },
+    {
+     "id": "art-60-p6",
+     "text": "e. luego de aprobada su publicación, la Comisión los transmitirá por intermedio de la Secretaría General a los Estados miembros y a la Asamblea General de la OEA."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-vi",
+   "level": 2,
+   "label": "Capítulo VI",
+   "title": "AUDIENCIAS ANTE LA COMISIÓN"
+  },
+  {
+   "kind": "article",
+   "id": "art-61",
+   "number": "61",
+   "label": "Artículo 61",
+   "heading": "Iniciativa",
+   "paragraphs": [
+    {
+     "id": "art-61-p1",
+     "text": "La Comisión podrá celebrar audiencias por iniciativa propia o a solicitud de parte interesada. La decisión de convocar a las audiencias será adoptada por el Presidente de la Comisión, a propuesta del Secretario Ejecutivo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-62",
+   "number": "62",
+   "label": "Artículo 62",
+   "heading": "Objeto",
+   "paragraphs": [
+    {
+     "id": "art-62-p1",
+     "text": "Las audiencias podrán tener por objeto recibir información de las partes con relación a alguna petición, caso en trámite ante la Comisión, seguimiento de recomendaciones, medidas cautelares, o información de carácter general o particular relacionada con los derechos humanos en uno o más Estados miembros de la OEA."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-63",
+   "number": "63",
+   "label": "Artículo 63",
+   "heading": "Garantías",
+   "paragraphs": [
+    {
+     "id": "art-63-p1",
+     "text": "El Estado en cuestión deberá otorgar las garantías pertinentes a todas las personas que concurran a una audiencia o que durante ella suministren a la Comisión informaciones, testimonios o pruebas de cualquier carácter. Dicho Estado no podrá enjuiciar a los testigos ni a los peritos, ni ejercer represalias contra ellos o sus familiares, a causa de sus declaraciones o dictámenes rendidos ante la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-64",
+   "number": "64",
+   "label": "Artículo 64",
+   "heading": "Audiencias sobre peticiones o casos",
+   "paragraphs": [
+    {
+     "id": "art-64-p1",
+     "text": "1. Las audiencias sobre peticiones o casos tendrán por objeto recibir exposiciones verbales y escritas de las partes sobre hechos nuevos e información adicional a la que ha sido aportada durante el procedimiento. La información podrá referirse a alguna de las siguientes cuestiones: admisibilidad; inicio o desarrollo del procedimiento de solución amistosa; comprobación de los hechos; fondo del asunto; seguimiento de recomendaciones; o cualquier otra cuestión relativa al trámite de la petición o caso.",
+     "number": "1"
+    },
+    {
+     "id": "art-64-p2",
+     "text": "2. Las solicitudes de audiencia deberán ser presentadas por escrito con una anticipación no menor a 50 días del inicio del correspondiente período de sesiones de la Comisión. Las solicitudes de audiencia indicarán su objeto y la identidad de los participantes.",
+     "number": "2"
+    },
+    {
+     "id": "art-64-p3",
+     "text": "3. Si la Comisión accede a la solicitud o decide celebrarla por iniciativa propia, deberá convocar a ambas partes. Si una parte debidamente notificada no comparece, la Comisión proseguirá con la audiencia. La Comisión adoptará las medidas necesarias para preservar la identidad de los peritos y testigos, si estima que éstos requieren tal protección.",
+     "number": "3"
+    },
+    {
+     "id": "art-64-p4",
+     "text": "4. La Secretaría Ejecutiva informará a las partes acerca de la fecha, lugar y hora de la audiencia, con una anticipación no menor a un mes de su celebración. Sin embargo, en circunstancias excepcionales, dicho plazo podrá ser menor.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-65",
+   "number": "65",
+   "label": "Artículo 65",
+   "heading": "Presentación y producción de pruebas",
+   "paragraphs": [
+    {
+     "id": "art-65-p1",
+     "text": "1. Durante la audiencia, las partes podrán presentar cualquier documento, testimonio, informe pericial o elemento de prueba. A petición de parte o de oficio, la Comisión podrá recibir el testimonio de testigos o peritos.",
+     "number": "1"
+    },
+    {
+     "id": "art-65-p2",
+     "text": "2. Con relación a las pruebas documentales presentadas durante la audiencia, la Comisión otorgará a las partes un plazo prudencial para que presenten sus observaciones.",
+     "number": "2"
+    },
+    {
+     "id": "art-65-p3",
+     "text": "3. La parte que proponga testigos o peritos para una audiencia deberá manifestarlo en su solicitud. A tal efecto, identificará al testigo o perito y el objeto de su testimonio o peritaje.",
+     "number": "3"
+    },
+    {
+     "id": "art-65-p4",
+     "text": "4. Al decidir sobre la solicitud de audiencia, la Comisión determinará asimismo la recepción de la prueba testimonial o pericial propuesta.",
+     "number": "4"
+    },
+    {
+     "id": "art-65-p5",
+     "text": "5. El ofrecimiento de los testimonios y pericias por una de las partes será notificado a la otra parte por la Comisión.",
+     "number": "5"
+    },
+    {
+     "id": "art-65-p6",
+     "text": "6. En circunstancias extraordinarias, a criterio de la Comisión, con el fin de salvaguardar la prueba, podrá recibir testimonios en las audiencias sin sujeción a lo dispuesto en el párrafo anterior. En tales circunstancias, tomará las medidas necesarias para garantizar el equilibrio procesal de las partes en el asunto sometido a su consideración.",
+     "number": "6"
+    },
+    {
+     "id": "art-65-p7",
+     "text": "7. La Comisión oirá a un testigo a la vez, y los restantes permanecerán fuera de la sala. Los testigos no podrán leer sus presentaciones ante la Comisión.",
+     "number": "7"
+    },
+    {
+     "id": "art-65-p8",
+     "text": "8. Antes de su intervención, los testigos y peritos deberán identificarse y prestar juramento o promesa solemne de decir la verdad. A solicitud expresa del interesado, la Comisión podrá mantener en reserva la identidad del testigo o perito cuando sea necesario para proteger a éstos o a otras personas.",
+     "number": "8"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-66",
+   "number": "66",
+   "label": "Artículo 66",
+   "heading": "Audiencias de carácter general",
+   "paragraphs": [
+    {
+     "id": "art-66-p1",
+     "text": "1. Los interesados en presentar a la Comisión testimonios o informaciones sobre la situación de los derechos humanos en uno o más Estados, o sobre asuntos de interés general, deberán solicitar por escrito una audiencia a la Secretaría Ejecutiva, con una anticipación no menor a 50 días del inicio del correspondiente período de sesiones de la Comisión.",
+     "number": "1"
+    },
+    {
+     "id": "art-66-p2",
+     "text": "2. El solicitante deberá expresar el objeto de la comparecencia, una síntesis de las materias que serán expuestas, el tiempo aproximado que consideran necesario para tal efecto, y la identidad de los participantes.",
+     "number": "2"
+    },
+    {
+     "id": "art-66-p3",
+     "text": "3. Cuando la Comisión acceda a solicitudes de audiencia sobre la situación de los derechos humanos en un país, convocará al Estado interesado, a menos que decida mantener una audiencia privada conforme al artículo 68.",
+     "number": "3"
+    },
+    {
+     "id": "art-66-p4",
+     "text": "4. Si lo considera apropiado, la Comisión podrá convocar a otros interesados a participar de las audiencias sobre la situación de derechos humanos en uno o más Estados o sobre asuntos de interés general.",
+     "number": "4"
+    },
+    {
+     "id": "art-66-p5",
+     "text": "5. La Secretaría Ejecutiva informará acerca de la fecha, lugar y hora de la audiencia, con una anticipación no menor a un mes de su celebración. Sin embargo, en circunstancias excepcionales, dicho plazo podrá ser menor.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-67",
+   "number": "67",
+   "label": "Artículo 67",
+   "heading": "Participación de los Comisionados",
+   "paragraphs": [
+    {
+     "id": "art-67-p1",
+     "text": "El Presidente de la Comisión podrá conformar grupos de trabajo para atender el programa de audiencias."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-68",
+   "number": "68",
+   "label": "Artículo 68",
+   "heading": "Publicidad de las audiencias",
+   "paragraphs": [
+    {
+     "id": "art-68-p1",
+     "text": "Las audiencias serán públicas. Cuando circunstancias excepcionales así lo justifiquen, la Comisión, por iniciativa propia o a solicitud de parte interesada podrá celebrar audiencias privadas y decidirá quiénes podrán asistir a ellas. Esta decisión corresponderá exclusivamente a la Comisión, que deberá informar al respecto a las partes antes del inicio de la audiencia, en forma oral o escrita. Aun en estos casos, se levantarán actas en los términos previstos por el artículo 70 de este Reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-69",
+   "number": "69",
+   "label": "Artículo 69",
+   "heading": "Gastos",
+   "paragraphs": [
+    {
+     "id": "art-69-p1",
+     "text": "La parte que proponga la producción de pruebas en una audiencia costeará todos los gastos que aquella ocasione."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-70",
+   "number": "70",
+   "label": "Artículo 70",
+   "heading": "Documentos y actas de las audiencias",
+   "paragraphs": [
+    {
+     "id": "art-70-p1",
+     "text": "1. En cada audiencia se levantará un acta resumida, en la que constará el día y la hora de celebración, los nombres de los participantes, las decisiones adoptadas y los compromisos asumidos por las partes. Los documentos presentados por las partes en la audiencia se agregarán como anexos al acta.",
+     "number": "1"
+    },
+    {
+     "id": "art-70-p2",
+     "text": "2. Las actas de las audiencias son documentos internos de trabajo de la Comisión. Si una parte lo solicita, la Comisión le extenderá una copia salvo que, a juicio de ésta, su contenido pudiera implicar algún riesgo para las personas.",
+     "number": "2"
+    },
+    {
+     "id": "art-70-p3",
+     "text": "3. La Comisión grabará los testimonios y los podrá poner a disposición de las partes que lo soliciten.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-iii",
+   "level": 1,
+   "label": "Título III",
+   "title": "RELACIONES CON LA CORTE INTERAMERICANA DE DERECHOS HUMANOS"
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-i-3",
+   "level": 2,
+   "label": "Capítulo I",
+   "title": "DELEGADOS, ASESORES, TESTIGOS Y EXPERTOS"
+  },
+  {
+   "kind": "article",
+   "id": "art-71",
+   "number": "71",
+   "label": "Artículo 71",
+   "heading": "Delegados y asesores",
+   "paragraphs": [
+    {
+     "id": "art-71-p1",
+     "text": "1. La Comisión encomendará a uno o más de sus miembros, y a su Secretario Ejecutivo, su representación para que participen, con carácter de delegados, en la consideración de cualquier asunto ante la Corte Interamericana de Derechos Humanos. Tal representación tendrá vigencia mientras el delegado ostente la condición de Comisionado o de Secretario Ejecutivo, sin perjuicio de que en circunstancias excepcionales la Comisión pueda decidir extender la duración de tal representación.",
+     "number": "1"
+    },
+    {
+     "id": "art-71-p2",
+     "text": "2. Al nombrar su delegado o delegados, la Comisión le impartirá las instrucciones que considere necesarias para orientar su actuación ante la Corte.",
+     "number": "2"
+    },
+    {
+     "id": "art-71-p3",
+     "text": "3. Cuando se designe a más de un delegado, la Comisión atribuirá a uno de ellos la responsabilidad de resolver las situaciones no contempladas en las instrucciones o las dudas planteadas por un delegado.",
+     "number": "3"
+    },
+    {
+     "id": "art-71-p4",
+     "text": "4. Los delegados podrán ser asistidos por cualquier persona designada por la Comisión en calidad de asesores. En el ejercicio de sus funciones, los asesores actuarán de conformidad con las instrucciones de los delegados.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-72",
+   "number": "72",
+   "label": "Artículo 72",
+   "heading": "Peritos [12]",
+   "paragraphs": [
+    {
+     "id": "art-72-p1",
+     "text": "1. La Comisión podrá solicitar a la Corte la comparecencia de peritos.",
+     "number": "1"
+    },
+    {
+     "id": "art-72-p2",
+     "text": "2. La presentación de dichos peritos se ajustará a lo dispuesto en el Reglamento de la Corte.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-ii-3",
+   "level": 2,
+   "label": "Capítulo II",
+   "title": "DEL PROCEDIMIENTO ANTE LA CORTE"
+  },
+  {
+   "kind": "article",
+   "id": "art-73",
+   "number": "73",
+   "label": "Artículo 73",
+   "heading": "Notificación al Estado y al peticionario",
+   "paragraphs": [
+    {
+     "id": "art-73-p1",
+     "text": "Si la Comisión decide someter un caso a la Corte, el Secretario Ejecutivo notificará tal decisión de inmediato al Estado, al peticionario y a la víctima. Con dicha comunicación, la Comisión transmitirá al peticionario todos los elementos necesarios para la preparación y presentación de la demanda."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-74",
+   "number": "74",
+   "label": "Artículo 74",
+   "heading": "Remisión del caso a la Corte",
+   "paragraphs": [
+    {
+     "id": "art-74-p1",
+     "text": "1. Cuando la Comisión de conformidad con el artículo 61 de la Convención Americana sobre Derechos Humanos y el artículo 45 del presente Reglamento decida someter un caso a la jurisdicción contenciosa de la Corte Interamericana, remitirá al Tribunal, a través de su Secretaría, copia del informe previsto en el Artículo 50 de la Convención Americana acompañado de copia del expediente en trámite ante la Comisión, con exclusión de los documentos de trabajo interno, más cualquier otro documento que considere útil para el conocimiento del caso.",
+     "number": "1"
+    },
+    {
+     "id": "art-74-p2",
+     "text": "2. La Comisión remitirá asimismo una nota de envío del caso a la Corte, la cual podrá contener:",
+     "number": "2"
+    },
+    {
+     "id": "art-74-p3",
+     "text": "a. los datos disponibles de las víctimas o sus representantes debidamente acreditados, con la indicación de si el peticionario ha solicitado reserva de identidad;"
+    },
+    {
+     "id": "art-74-p4",
+     "text": "b. su evaluación sobre el grado de cumplimiento de las recomendaciones formuladas en el informe de fondo;"
+    },
+    {
+     "id": "art-74-p5",
+     "text": "c. el motivo por el cual se decidió someter el caso a la Corte;"
+    },
+    {
+     "id": "art-74-p6",
+     "text": "d. los nombres de sus delegados; y e. cualquier otra información que considere útil para el conocimiento del caso."
+    },
+    {
+     "id": "art-74-p7",
+     "text": "3. Una vez sometido el caso a la jurisdicción de la Corte, la Comisión hará público el informe aprobado conforme al artículo 50 de la Convención Americana y la nota de envío del caso a la Corte.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-75",
+   "number": "75",
+   "label": "Artículo 75",
+   "heading": "Remisión de otros elementos",
+   "paragraphs": [
+    {
+     "id": "art-75-p1",
+     "text": "La Comisión remitirá a la Corte, a solicitud de ésta, cualquier otra petición, prueba, documento o información relativa al caso, con la excepción de los documentos referentes a la tentativa infructuosa de lograr una solución amistosa. La transmisión de los documentos estará sujeta, en cada caso, a la decisión de la Comisión, la que deberá excluir el nombre e identidad del peticionario, si éste no autorizara la revelación de estos datos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-76",
+   "number": "76",
+   "label": "Artículo 76",
+   "heading": "Medidas Provisionales",
+   "paragraphs": [
+    {
+     "id": "art-76-p1",
+     "text": "[13]"
+    },
+    {
+     "id": "art-76-p2",
+     "text": "1. La Comisión podrá solicitar medidas provisionales a la Corte en situaciones de extrema gravedad y urgencia cuando se haga necesario para evitar daños irreparables a las personas. Al tomar esta decisión, la Comisión considerara la posición de los beneficiarios o sus representantes.",
+     "number": "1"
+    },
+    {
+     "id": "art-76-p3",
+     "text": "2. La Comisión considerará los siguientes criterios para presentar la solicitud de medidas provisionales:",
+     "number": "2"
+    },
+    {
+     "id": "art-76-p4",
+     "text": "a. cuando el Estado concernido no haya implementado las medidas cautelares otorgadas por la Comisión;"
+    },
+    {
+     "id": "art-76-p5",
+     "text": "b. cuando las medidas cautelares no hayan sido eficaces;"
+    },
+    {
+     "id": "art-76-p6",
+     "text": "c. cuando exista una medida cautelar conectada a un caso sometido a la jurisdicción de la Corte;"
+    },
+    {
+     "id": "art-76-p7",
+     "text": "d. cuando la Comisión lo estime pertinente al mejor efecto de las medidas solicitadas, para lo cual fundamentará sus motivos."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-iv",
+   "level": 1,
+   "label": "Título IV",
+   "title": "DISPOSICIONES FINALES"
+  },
+  {
+   "kind": "article",
+   "id": "art-77",
+   "number": "77",
+   "label": "Artículo 77",
+   "heading": "Cómputo calendario",
+   "paragraphs": [
+    {
+     "id": "art-77-p1",
+     "text": "Todos los plazos señalados en el presente Reglamento -en número de días- se entenderán computados en forma calendaria."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-78",
+   "number": "78",
+   "label": "Artículo 78",
+   "heading": "Interpretación",
+   "paragraphs": [
+    {
+     "id": "art-78-p1",
+     "text": "Cualquier duda que surgiere en lo que respecta a la interpretación del presente Reglamento, deberá ser resuelta por la mayoría absoluta de los miembros de la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-79",
+   "number": "79",
+   "label": "Artículo 79",
+   "heading": "Modificación del Reglamento",
+   "paragraphs": [
+    {
+     "id": "art-79-p1",
+     "text": "[14]"
+    },
+    {
+     "id": "art-79-p2",
+     "text": "El presente Reglamento será modificado, previa consulta pública, por la mayoría absoluta de los miembros de la Comisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-80",
+   "number": "80",
+   "label": "Artículo 80",
+   "heading": "Disposición transitoria",
+   "paragraphs": [
+    {
+     "id": "art-80-p1",
+     "text": "El presente Reglamento, cuyos textos en español e inglés son igualmente idénticos, entrará en vigor el 31 de diciembre de 2009."
+    },
+    {
+     "id": "art-80-p2",
+     "text": "1 Artículo 11 modificado por la Comisión Interamericana de Derechos Humanos el 2 de septiembre de 2011."
+    },
+    {
+     "id": "art-80-p3",
+     "text": "2 Artículo 25 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p4",
+     "text": "3 Artículo 28 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p5",
+     "text": "4 Artículo 29 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p6",
+     "text": "5 Artículo 30 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p7",
+     "text": "6 Artículo 36 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p8",
+     "text": "7 Artículo 37 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p9",
+     "text": "8 Artículo 42 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p10",
+     "text": "9 Artículo 44 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p11",
+     "text": "10 Artículo 46 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p12",
+     "text": "11 Artículo 59 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p13",
+     "text": "12 Artículo 72 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p14",
+     "text": "13 Artículo 76 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    },
+    {
+     "id": "art-80-p15",
+     "text": "14 Artículo 79 modificado por la Comisión Interamericana en su 147° período ordinario de sesiones, celebrado del 8 al 22 de marzo de 2013."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 80,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "80 artículos (1–80)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ },
+ "body": "oas-iachr",
+ "kind": "rules"
+}
