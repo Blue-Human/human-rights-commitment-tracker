@@ -99,10 +99,10 @@ export function SiteHeader() {
           >
             <Box
               component="img"
-              src="/images/blue%20human%20(2).png"
+              src="/images/blue%20human%20(8).png"
               alt="HRCI · Human Rights Commitment Institute"
-              width={891}
-              height={214}
+              width={1111}
+              height={409}
               sx={{
                 display: "block",
                 height: { xs: 44, sm: 48 },
