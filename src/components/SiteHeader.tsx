@@ -35,6 +35,7 @@ const hairline = "rgba(255,255,255,.16)";
 const wash = "rgba(0,163,224,.12)";
 const barButton = {
   color: "#ffffff",
+  whiteSpace: "nowrap",
   borderBottom: "2px solid transparent",
   "&[aria-current]": { borderBottomColor: "secondary.main" },
   "&.Mui-focusVisible": { outlineColor: "secondary.main" },
@@ -74,7 +75,7 @@ export function SiteHeader() {
           sx={{
             minHeight: { xs: 56, md: 64 },
             justifyContent: "space-between",
-            gap: { xs: 1, md: 3 },
+            gap: { xs: 1, md: 2, lg: 3 },
             overflow: "visible",
           }}
         >
@@ -99,22 +100,23 @@ export function SiteHeader() {
           >
             <Box
               component="img"
-              src="/images/blue%20human%20(8).png"
+              src="/images/blue%20human%20(11).png"
               alt="HRCI · Human Rights Commitment Institute"
-              width={1111}
-              height={409}
+              width={1483}
+              height={249}
               sx={{
                 display: "block",
-                height: { xs: 44, sm: 48 },
+                height: { xs: 40, sm: 46, md: 34, lg: 52 },
+                "@media (max-width:359.95px)": { height: 32 },
                 width: "auto",
-                maxWidth: { xs: 200, sm: 220 },
+                maxWidth: "100%",
                 objectFit: "contain",
                 flexShrink: 0,
               }}
             />
           </Stack>
 
-          <Box sx={{ display: "flex", alignItems: "center", gap: { xs: .5, md: 1 } }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: { xs: .5, md: .25, lg: 1 } }}>
           <Stack component="nav" aria-label="Principal" direction="row" spacing={1} alignItems="center" sx={{ display: { xs: "none", md: "flex" }, ...(searching ? covered : uncovered) }}>
             {sections.map(([label, href]) => (
               <Button key={href} component={Link} href={href} aria-current={current(href)} sx={barButton}>
