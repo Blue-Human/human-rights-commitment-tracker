@@ -9,7 +9,7 @@ import { Button, Stack, Typography } from "@mui/material";
 export type CiteData = {
   // Plain reference, as it is copied.
   citation: string;
-  // Path on this site ("/rights/instruments/un-iccpr#art-6").
+  // Path on this site ("/atlas/instruments/un-iccpr#art-6").
   permalink: string;
   // Only what the source states: an entry is left out when its metadata are missing.
   bib?: { key: string; title: string; organization?: string | null; year?: string | null; date?: string | null; url?: string | null; note?: string | null } | null;

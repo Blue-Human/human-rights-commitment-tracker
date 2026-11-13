@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default async function BodiesPage() {
   const bodies = await getBodies();
   return (
-    <AtlasShell crumbs={[{ label: "Órganos" }]}>
+    <AtlasShell crumbs={[{ label: "Protección", href: "/atlas/mechanisms" }, { label: "Órganos" }]}>
       <PageHead overline="Directorio" title="Órganos, tribunales e instituciones">
         <p>Cada ficha cita la disposición que crea el órgano y las que le atribuyen competencias. El tipo de órgano es el que nombra su norma constitutiva —tribunal, comité, comisión—, porque sus competencias y el valor de sus decisiones son distintos.</p>
       </PageHead>

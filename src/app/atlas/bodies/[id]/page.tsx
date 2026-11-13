@@ -27,7 +27,7 @@ export default async function BodyPage({ params }: { params: Promise<{ id: strin
   const statute = body.statute ? instruments.get(body.statute) : null;
 
   return (
-    <AtlasShell crumbs={[{ label: "Órganos", href: "/rights/bodies" }, { label: body.name_es }]}>
+    <AtlasShell crumbs={[{ label: "Protección", href: "/atlas/mechanisms" }, { label: "Órganos", href: "/atlas/bodies" }, { label: body.name_es }]}>
       <PageHead overline={`${systemNames[body.system]} · ${natureNames[body.nature] || body.nature}`} title={body.name_es}>
         {body.name_en && <p lang="en">{body.name_en}</p>}
         {body.name_note && <p>{body.name_note}</p>}
@@ -89,8 +89,8 @@ export default async function BodyPage({ params }: { params: Promise<{ id: strin
           {own.map((p) => <Typography key={p.id} variant="body2" sx={{ py: .5 }}><Link href={procedurePath(p.id)}>{p.name_es}</Link></Typography>)}
           {rules && <Typography variant="body2" sx={{ py: .5 }}>Reglamento: <Link href={instrumentPath(rules.id)}>{instrumentTitle(rules)}</Link>{rules.registry?.un_symbol ? ` (${rules.registry.un_symbol as string})` : ""}</Typography>}
           {statute && <Typography variant="body2" sx={{ py: .5 }}>Estatuto: <Link href={instrumentPath(statute.id)}>{instrumentTitle(statute)}</Link></Typography>}
-          {body.interpretations > 0 && <Typography variant="body2" sx={{ py: .5 }}><Link href={`/rights/case-law?body=${body.id}`}>{body.interpretations} observaciones o recomendaciones generales</Link></Typography>}
-          {body.decisions > 0 && <Typography variant="body2" sx={{ py: .5 }}><Link href={`/rights/case-law?body=${body.id}#decisiones`}>{body.decisions} decisiones sobre España</Link></Typography>}
+          {body.interpretations > 0 && <Typography variant="body2" sx={{ py: .5 }}><Link href={`/atlas/case-law?body=${body.id}`}>{body.interpretations} observaciones o recomendaciones generales</Link></Typography>}
+          {body.decisions > 0 && <Typography variant="body2" sx={{ py: .5 }}><Link href={`/atlas/case-law?body=${body.id}#decisiones`}>{body.decisions} decisiones sobre España</Link></Typography>}
         </Section>
       )}
     </AtlasShell>

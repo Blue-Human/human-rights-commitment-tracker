@@ -38,13 +38,13 @@ export default async function GuidePage({ searchParams }: { searchParams: Promis
   const select = { p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink, width: "100%" };
 
   return (
-    <AtlasShell crumbs={[{ label: "Mecanismos", href: "/rights/mechanisms" }, { label: "Orientador" }]}>
+    <AtlasShell crumbs={[{ label: "Protección", href: "/atlas/mechanisms" }, { label: "Orientador" }]}>
       <PageHead overline="Mecanismos de protección" title="Orientador">
         <p>Muestra qué procedimientos consta en los registros oficiales que se aplican a un Estado y la lista de requisitos que establece cada norma, para que puedan comprobarse. Funciona solo con reglas explícitas y datos registrados: no interpreta casos, no valora la admisibilidad y no recomienda ninguna vía.</p>
         <p>No escriba aquí datos personales ni hechos de un caso: el orientador no los pide ni los necesita.</p>
       </PageHead>
       <Container maxWidth="lg" sx={{ pb: 3 }}>
-        <Box component="form" method="get" action="/rights/mechanisms/guide" sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr)) auto" }, gap: 1.5, alignItems: "end" }}>
+        <Box component="form" method="get" action="/atlas/mechanisms/guide" sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr)) auto" }, gap: 1.5, alignItems: "end" }}>
           <Box component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary" }}>
             País
             <Box component="select" name="pais" defaultValue={country?.iso3 || ""} required sx={select}>

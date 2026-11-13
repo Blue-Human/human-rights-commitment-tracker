@@ -26,12 +26,12 @@ export default async function RatificationsPage({ searchParams }: { searchParams
   const outside = (participation?.participants || []).filter((p) => !p.iso3 && p.listed !== false);
 
   return (
-    <AtlasShell crumbs={[{ label: "Países", href: "/rights/countries" }, { label: "Ratificaciones" }]}>
+    <AtlasShell crumbs={[{ label: "Países", href: "/atlas/countries" }, { label: "Ratificaciones" }]}>
       <PageHead overline="Ratificaciones" title={instrumentTitle(instrument)}>
         <p>Situación de cada Estado según el registro del depositario. Cada recuadro es un Estado; la representación agrupa los Estados por regiones y no es cartográfica, de modo que no traza fronteras ni representa territorios.</p>
       </PageHead>
       <Container maxWidth="lg" sx={{ pb: 3 }}>
-        <Box component="form" method="get" action="/rights/ratifications" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
+        <Box component="form" method="get" action="/atlas/ratifications" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
           <Box component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary", flex: "1 1 260px", minWidth: 0, maxWidth: 640 }}>
             Instrumento
             <Box component="select" name="i" defaultValue={instrument.id} sx={{ p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink, width: "100%", minWidth: 0 }}>

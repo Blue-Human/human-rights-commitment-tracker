@@ -2,7 +2,7 @@
 // the browser and the tests run the same code. The index itself is built by /api/search.
 
 export type SearchKind = "page" | "recommendation" | "sdg" | "dimension" | "data" | "news"
-  // Human Rights Atlas (/rights)
+  // Human Rights Atlas (/atlas)
   | "right" | "instrument" | "article" | "country" | "body" | "procedure" | "interpretation" | "decision" | "annotation";
 
 // `note` is a short line shown beside the title; `text` is searched and quoted when it holds the match.
@@ -46,19 +46,19 @@ export const sitePages: SearchEntry[] = [
   { kind: "page", title: "Historial y correcciones", href: "/methodology#historial", note: "Metodología", text: "Integridad del registro: historial de valoraciones, correcciones y derecho de réplica." },
   { kind: "page", title: "Contacto", href: "/contact", text: "Formulario de contacto y correo electrónico para consultas, correcciones, nuevas evidencias, derecho de réplica, medios de comunicación y colaboración." },
   { kind: "page", title: "Open HRCI", href: "/open", text: "Fuentes, método, datos abiertos y código del HRCI: archivos de datos y repositorio en GitHub." },
-  { kind: "page", title: "Human Rights Atlas", href: "/rights", text: "Atlas de los derechos humanos: tratados, artículos, ratificaciones, reservas, órganos y mecanismos internacionales de protección, con su texto oficial." },
-  { kind: "page", title: "Instrumentos de derechos humanos", href: "/rights/instruments", note: "Atlas", text: "Biblioteca de tratados, protocolos, declaraciones y reglamentos, legibles artículo por artículo." },
-  { kind: "page", title: "Explorador de derechos", href: "/rights/topics", note: "Atlas", text: "Derecho a la vida, prohibición de la tortura, libertad de expresión, educación, salud y otros derechos." },
-  { kind: "page", title: "Mecanismos de protección", href: "/rights/mechanisms", note: "Atlas", text: "Comunicaciones individuales, peticiones, demandas, reclamaciones colectivas: requisitos, plazos y canales oficiales." },
-  { kind: "page", title: "Orientador de mecanismos", href: "/rights/mechanisms/guide", note: "Atlas", text: "Qué procedimientos internacionales se aplican a un Estado y qué requisitos deben comprobarse." },
-  { kind: "page", title: "Países y ratificaciones", href: "/rights/countries", note: "Atlas", text: "Tratados firmados y ratificados por cada Estado, reservas, declaraciones y procedimientos aceptados." },
-  { kind: "page", title: "Comparar Estados", href: "/rights/compare", note: "Atlas", text: "Comparación de ratificaciones, protocolos y procedimientos aceptados entre Estados." },
-  { kind: "page", title: "Mapa de ratificaciones", href: "/rights/ratifications", note: "Atlas", text: "Situación de cada Estado en un tratado, por regiones." },
-  { kind: "page", title: "Órganos de derechos humanos", href: "/rights/bodies", note: "Atlas", text: "Tribunales, comités y comisiones: base jurídica, composición y competencias." },
-  { kind: "page", title: "Jurisprudencia e interpretaciones", href: "/rights/case-law", note: "Atlas", text: "Observaciones y recomendaciones generales y decisiones sobre comunicaciones." },
-  { kind: "page", title: "Cronología jurídica", href: "/rights/timeline", note: "Atlas", text: "Adopción y entrada en vigor de los instrumentos por año." },
-  { kind: "page", title: "Anotaciones de Blue Human", href: "/rights/annotations", note: "Atlas", text: "Notas firmadas del equipo, separadas del texto oficial." },
-  { kind: "page", title: "Fuentes y cobertura del Atlas", href: "/rights/sources", note: "Atlas", text: "Inventario de fuentes oficiales, cobertura y límites." },
+  { kind: "page", title: "Human Rights Atlas", href: "/atlas", text: "Atlas de los derechos humanos: tratados, artículos, ratificaciones, reservas, órganos y mecanismos internacionales de protección, con su texto oficial." },
+  { kind: "page", title: "Instrumentos de derechos humanos", href: "/atlas/instruments", note: "Atlas", text: "Biblioteca de tratados, protocolos, declaraciones y reglamentos, legibles artículo por artículo." },
+  { kind: "page", title: "Explorador de derechos", href: "/atlas/topics", note: "Atlas", text: "Derecho a la vida, prohibición de la tortura, libertad de expresión, educación, salud y otros derechos." },
+  { kind: "page", title: "Mecanismos de protección", href: "/atlas/mechanisms", note: "Atlas", text: "Comunicaciones individuales, peticiones, demandas, reclamaciones colectivas: requisitos, plazos y canales oficiales." },
+  { kind: "page", title: "Orientador de mecanismos", href: "/atlas/mechanisms/guide", note: "Atlas", text: "Qué procedimientos internacionales se aplican a un Estado y qué requisitos deben comprobarse." },
+  { kind: "page", title: "Países y ratificaciones", href: "/atlas/countries", note: "Atlas", text: "Tratados firmados y ratificados por cada Estado, reservas, declaraciones y procedimientos aceptados." },
+  { kind: "page", title: "Comparar Estados", href: "/atlas/compare", note: "Atlas", text: "Comparación de ratificaciones, protocolos y procedimientos aceptados entre Estados." },
+  { kind: "page", title: "Mapa de ratificaciones", href: "/atlas/ratifications", note: "Atlas", text: "Situación de cada Estado en un tratado, por regiones." },
+  { kind: "page", title: "Órganos de derechos humanos", href: "/atlas/bodies", note: "Atlas", text: "Tribunales, comités y comisiones: base jurídica, composición y competencias." },
+  { kind: "page", title: "Jurisprudencia e interpretaciones", href: "/atlas/case-law", note: "Atlas", text: "Observaciones y recomendaciones generales y decisiones sobre comunicaciones." },
+  { kind: "page", title: "Cronología jurídica", href: "/atlas/timeline", note: "Atlas", text: "Adopción y entrada en vigor de los instrumentos por año." },
+  { kind: "page", title: "Anotaciones de Blue Human", href: "/atlas/annotations", note: "Atlas", text: "Notas firmadas del equipo, separadas del texto oficial." },
+  { kind: "page", title: "Fuentes y cobertura del Atlas", href: "/atlas/sources", note: "Atlas", text: "Inventario de fuentes oficiales, cobertura y límites." },
 ];
 
 // Lower case and without accents, one character for each one of the text: «España» is found by

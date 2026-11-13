@@ -27,12 +27,12 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
   if (slots.length < 2) slots.push("");
 
   return (
-    <AtlasShell crumbs={[{ label: "Países", href: "/rights/countries" }, { label: "Comparar" }]}>
+    <AtlasShell crumbs={[{ label: "Países", href: "/atlas/countries" }, { label: "Comparar" }]}>
       <PageHead overline="Estados" title="Comparar Estados">
         <p>La situación de cada Estado en los mismos instrumentos y procedimientos, tal como la recogen los registros oficiales. La comparación no ordena ni puntúa a los Estados: muestra las diferencias de lo registrado.</p>
       </PageHead>
       <Container maxWidth="lg" sx={{ pb: 3 }}>
-        <Box component="form" method="get" action="/rights/compare" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
+        <Box component="form" method="get" action="/atlas/compare" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
           {slots.map((value, i) => (
             <Box key={i} component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary", width: { xs: "100%", sm: "auto" } }}>
               Estado {i + 1}

@@ -49,7 +49,7 @@ Environment (see `.env.example`): `ADMIN_USER`, `ADMIN_PASSWORD`, `ADMIN_SESSION
 
 ## Human Rights Atlas
 
-`/rights` is a library, legal atlas and guide to international protection mechanisms: instruments read article by article, States' ratifications, reservations and accepted procedures, bodies, procedures with their requirements quoted from the official texts, general comments and decisions. All data come from official sources through `scripts/atlas` and are versioned in `data/atlas`; Blue Human annotations are managed in `/admin/atlas`. See [docs/atlas](docs/atlas/README.md).
+`/atlas` is a library, legal atlas and guide to international protection mechanisms: instruments read article by article, States' ratifications, reservations and accepted procedures, bodies, procedures with their requirements quoted from the official texts, general comments and decisions. All data come from official sources through `scripts/atlas` and are versioned in `data/atlas`; Blue Human annotations are managed in `/admin/atlas`. See [docs/atlas](docs/atlas/README.md).
 
 ## Site search
 

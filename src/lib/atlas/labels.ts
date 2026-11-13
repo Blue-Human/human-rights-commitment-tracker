@@ -3,7 +3,7 @@
 import type { AcceptanceStatus, Instrument, InstrumentKind, MatrixCell, StatusCode, SystemCode } from "./types";
 
 export const ATLAS = "Human Rights Atlas";
-export const BASE = "/rights";
+export const BASE = "/atlas";
 
 export const systemNames: Record<SystemCode, string> = {
   un: "Naciones Unidas",

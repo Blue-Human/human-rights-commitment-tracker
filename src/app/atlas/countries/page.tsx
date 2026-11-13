@@ -26,7 +26,7 @@ export default async function CountriesPage() {
     <AtlasShell crumbs={[{ label: "Países" }]}>
       <PageHead overline="Estados" title="Países">
         <p>{rows.length} Estados que figuran en los registros de los depositarios. Para cada uno, los actos que esos registros recogen —firma, ratificación, adhesión, sucesión, denuncia—, sus reservas y declaraciones y los procedimientos que ha aceptado. La cifra junto a cada nombre cuenta los {core.length} tratados y protocolos fundamentales de las Naciones Unidas en los que consta su consentimiento; no es una puntuación.</p>
-        <p><Link href="/rights/compare">Comparar Estados</Link> · <Link href="/rights/ratifications">Mapa de ratificaciones</Link></p>
+        <p><Link href="/atlas/compare">Comparar Estados</Link> · <Link href="/atlas/ratifications">Mapa de ratificaciones</Link></p>
       </PageHead>
       <Section title="Estados por región" id="regiones" note="Regiones de la norma M49 de la División de Estadística de las Naciones Unidas, que no prejuzga ninguna cuestión de soberanía.">
         <CountryFilter />

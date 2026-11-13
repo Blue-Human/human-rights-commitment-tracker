@@ -16,7 +16,7 @@ function Marked({ text, words }: { text: string; words: string[] }) {
 }
 
 // The search page of the Atlas: words and filters are kept in the address, so a search can be
-// shared; results come from /api/rights/search, which searches the records published in the Atlas.
+// shared; results come from /api/atlas/search, which searches the records published in the Atlas.
 export function AtlasSearch({ initial, options }: { initial: State; options: SearchOptions }) {
   const [state, setState] = useState<State>(initial);
   const [groups, setGroups] = useState<SearchGroup[] | null>(null);
@@ -26,11 +26,11 @@ export function AtlasSearch({ initial, options }: { initial: State; options: Sea
 
   useEffect(() => {
     const params = new URLSearchParams(Object.entries(state).filter(([, v]) => v) as [string, string][]);
-    window.history.replaceState(null, "", `/rights/search${params.size ? `?${params}` : ""}`);
+    window.history.replaceState(null, "", `/atlas/search${params.size ? `?${params}` : ""}`);
     if (!words.length) { setGroups(null); return; }
     const controller = new AbortController();
     const timer = setTimeout(() => {
-      fetch(`/api/rights/search?${params}`, { signal: controller.signal })
+      fetch(`/api/atlas/search?${params}`, { signal: controller.signal })
         .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
         .then((data: { groups: SearchGroup[] }) => { setGroups(data.groups); setFailed(false); })
         .catch((error) => { if (error.name !== "AbortError") setFailed(true); });

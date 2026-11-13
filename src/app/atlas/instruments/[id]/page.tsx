@@ -101,7 +101,7 @@ export default async function InstrumentPage({ params }: { params: Promise<{ id:
   const title = instrumentTitle(instrument);
 
   return (
-    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/rights/instruments" }, { label: title.length > 60 ? `${title.slice(0, 57)}…` : title }]}>
+    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/atlas/instruments" }, { label: title.length > 60 ? `${title.slice(0, 57)}…` : title }]}>
       <PageHead overline={`${systemNames[instrument.system]} · ${kindNames[instrument.kind]}`} title={title}>
         {instrument.popular_name_es && <p>«{instrument.popular_name_es}»</p>}
         {instrument.title_es && instrument.title_en && instrument.system !== "oas" && <p lang="en">{instrument.title_en}</p>}
@@ -210,7 +210,7 @@ export default async function InstrumentPage({ params }: { params: Promise<{ id:
       </Section>
 
       {participation && (
-        <Section id="participacion" overline="Estados" title="Participación" note={<>{participation.legend} <Link href={`/rights/ratifications?i=${id}`}>Ver el mapa de ratificaciones</Link>.</>}>
+        <Section id="participacion" overline="Estados" title="Participación" note={<>{participation.legend} <Link href={`/atlas/ratifications?i=${id}`}>Ver el mapa de ratificaciones</Link>.</>}>
           <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, mb: 2 }}>
             {[...statusCounts.entries()].map(([code, n]) => <Pill key={code}>{statusNames[code as keyof typeof statusNames] || code}: {n}</Pill>)}
           </Box>
@@ -249,7 +249,7 @@ export default async function InstrumentPage({ params }: { params: Promise<{ id:
                 <Box component="ul" sx={{ m: 0, mt: 1, p: 0, listStyle: "none" }}>
                   {own.slice(0, 12).map((g) => <Box component="li" key={g.id} sx={{ py: 1, borderBottom: "1px solid", borderColor: "divider" }}><Typography variant="body2"><ExternalLink href={g.links.es}>{g.symbol}</ExternalLink> · {g.title}</Typography></Box>)}
                 </Box>
-                {own.length > 12 && <Typography variant="body2" sx={{ mt: 1 }}><Link href={`/rights/case-law?committee=${own[0].committee}`}>Ver las {own.length}</Link></Typography>}
+                {own.length > 12 && <Typography variant="body2" sx={{ mt: 1 }}><Link href={`/atlas/case-law?committee=${own[0].committee}`}>Ver las {own.length}</Link></Typography>}
               </Box>
             )}
             {procedures.length > 0 && (

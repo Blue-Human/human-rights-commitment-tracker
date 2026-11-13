@@ -26,12 +26,12 @@ export default async function CaseLawPage({ searchParams }: { searchParams: Prom
   const select = { p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink, minWidth: 180 };
 
   return (
-    <AtlasShell crumbs={[{ label: "Jurisprudencia" }]}>
+    <AtlasShell crumbs={[{ label: "Protección", href: "/atlas/mechanisms" }, { label: "Jurisprudencia" }]}>
       <PageHead overline="Interpretaciones y decisiones" title="Jurisprudencia e interpretaciones institucionales">
         <p>Las observaciones y recomendaciones generales son interpretaciones de los comités de las Naciones Unidas; las decisiones sobre comunicaciones individuales resuelven casos concretos. Unas y otras son distintas de las sentencias de un tribunal. Cada documento enlaza con su texto oficial.</p>
       </PageHead>
       <Container maxWidth="lg" sx={{ pb: 3 }}>
-        <Box component="form" method="get" action="/rights/case-law" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
+        <Box component="form" method="get" action="/atlas/case-law" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
           <Box component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary" }}>
             Comité
             <Box component="select" name="committee" defaultValue={committee || ""} sx={select}><option value="">Todos</option>{committees.map((c) => <option key={c} value={c}>{c}</option>)}</Box>

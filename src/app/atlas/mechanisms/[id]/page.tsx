@@ -42,7 +42,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ id: 
   for (const s of states) counts.set(s.s, (counts.get(s.s) || 0) + 1);
 
   return (
-    <AtlasShell crumbs={[{ label: "Mecanismos", href: "/rights/mechanisms" }, { label: p.name_es }]}>
+    <AtlasShell crumbs={[{ label: "Protección", href: "/atlas/mechanisms" }, { label: p.name_es }]}>
       <PageHead overline={`${systemNames[p.system]} · ${procedureKinds[p.kind] || p.kind}`} title={p.name_es}>
         {body && <p>Órgano: <Link href={bodyPath(body.id)}>{body.name_es}</Link></p>}
         <p>Ficha informativa: reproduce lo que establecen las normas citadas. No determina si un caso es admisible.</p>
@@ -73,7 +73,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ id: 
               <Box sx={{ mt: 2.5 }}>
                 <Typography variant="overline" color="text.secondary">Aplicación por Estado</Typography>
                 {[...counts.entries()].map(([s, n]) => <Typography key={s} variant="body2">{acceptanceNames[s as keyof typeof acceptanceNames]}: {n}</Typography>)}
-                <Typography variant="body2" sx={{ mt: 1 }}><Link href={`/rights/mechanisms/guide?tipo=${p.kind}&sistema=${p.system}`}>Consultar un Estado en el orientador</Link></Typography>
+                <Typography variant="body2" sx={{ mt: 1 }}><Link href={`/atlas/mechanisms/guide?tipo=${p.kind}&sistema=${p.system}`}>Consultar un Estado en el orientador</Link></Typography>
               </Box>
             </Box>
           </Box>

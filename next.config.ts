@@ -26,7 +26,14 @@ const atlasData = ["./data/atlas/**/*"];
 
 const nextConfig: NextConfig = {
   experimental: { serverActions: { allowedOrigins } },
-  outputFileTracingIncludes: { "/rights": atlasData, "/rights/**/*": atlasData, "/api/rights/**/*": atlasData, "/api/search": atlasData },
+  // The Atlas lived at /rights until 2026-11-13; old links keep working.
+  async redirects() {
+    return [
+      { source: "/rights", destination: "/atlas", permanent: true },
+      { source: "/rights/:path*", destination: "/atlas/:path*", permanent: true },
+    ];
+  },
+  outputFileTracingIncludes: { "/atlas": atlasData, "/atlas/**/*": atlasData, "/api/atlas/**/*": atlasData, "/api/search": atlasData },
 };
 
 export default nextConfig;

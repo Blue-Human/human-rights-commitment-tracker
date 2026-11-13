@@ -28,7 +28,7 @@ export default async function SourcesPage() {
   const quotes = procedures.reduce((n, p) => n + p.quoted, 0) + bodies.reduce((n, b) => n + b.competences.filter((c) => c.quote).length + b.composition.filter((c) => c.quote).length + (b.established_by?.quote ? 1 : 0), 0);
 
   return (
-    <AtlasShell crumbs={[{ label: "Fuentes y cobertura" }]}>
+    <AtlasShell crumbs={[{ label: "Sobre el Atlas" }, { label: "Fuentes y cobertura" }]}>
       <PageHead overline="Transparencia" title="Fuentes, cobertura y límites">
         <p>Todos los datos del Atlas proceden de fuentes institucionales. Un proceso automático los descarga, comprueba su integridad, conserva la fecha y la huella de cada documento y los publica; si una fuente deja de responder, se mantienen los datos de la última lectura y se indica. Última ejecución: {longDate(report.run_at.slice(0, 10))}.</p>
       </PageHead>

@@ -67,10 +67,10 @@ export default async function CountryPage({ params }: { params: Promise<{ iso3: 
     .filter((g) => g.rows.length);
 
   return (
-    <AtlasShell crumbs={[{ label: "Países", href: "/rights/countries" }, { label: name }]}>
+    <AtlasShell crumbs={[{ label: "Países", href: "/atlas/countries" }, { label: name }]}>
       <PageHead overline={[country.region_es, country.subregion_es].filter(Boolean).join(" · ") || "Estado"} title={name}>
         {country.name_es && <p lang="en">{country.name_en}</p>}
-        <p><Link href={`/rights/compare?c=${iso3}`}>Comparar con otros Estados</Link> · <Link href={`/rights/mechanisms/guide?pais=${iso3}`}>Orientador de mecanismos para este Estado</Link></p>
+        <p><Link href={`/atlas/compare?c=${iso3}`}>Comparar con otros Estados</Link> · <Link href={`/atlas/mechanisms/guide?pais=${iso3}`}>Orientador de mecanismos para este Estado</Link></p>
       </PageHead>
 
       <Container maxWidth="lg" sx={{ pb: 4 }}>

@@ -1,6 +1,6 @@
 # Human Rights Atlas — cobertura documental
 
-Generado a partir de `data/atlas` (ejecución del 2026-11-09). Las cifras se recalculan en `/rights/sources`.
+Generado a partir de `data/atlas` (ejecución del 2026-11-09). Las cifras se recalculan en `/atlas/sources`.
 
 | Concepto | Cifra |
 |---|---|

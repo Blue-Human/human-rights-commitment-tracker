@@ -71,7 +71,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ id: st
   const reference = `${node.label}${node.heading ? ` (${node.heading})` : ""}, ${title}`;
 
   return (
-    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/rights/instruments" }, { label: title.length > 48 ? `${title.slice(0, 45)}…` : title, href: instrumentPath(id) }, { label: node.label }]}>
+    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/atlas/instruments" }, { label: title.length > 48 ? `${title.slice(0, 45)}…` : title, href: instrumentPath(id) }, { label: node.label }]}>
       <Container maxWidth="lg" sx={{ pt: { xs: 3, md: 4 }, pb: 3 }}>
         <Typography variant="overline" color="primary.main" sx={{ borderLeft: "3px solid", borderColor: "secondary.main", pl: 1.5 }}>{systemNames[instrument.system]}</Typography>
         <Typography component="p" color="text.secondary" sx={{ mt: 1 }}><Link href={`${instrumentPath(id)}#${node.id}`}>{title}</Link></Typography>
@@ -125,7 +125,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ id: st
               <Box sx={{ mb: 3 }}>
                 <Typography variant="overline" color="text.secondary">Estados</Typography>
                 <Typography variant="body2" sx={{ mt: .5 }}><Link href={`${instrumentPath(id)}#participacion`}>Participación en el instrumento</Link></Typography>
-                <Typography variant="body2"><Link href={`/rights/ratifications?i=${id}`}>Mapa de ratificaciones</Link></Typography>
+                <Typography variant="body2"><Link href={`/atlas/ratifications?i=${id}`}>Mapa de ratificaciones</Link></Typography>
               </Box>
             )}
             {topics.length > 0 && (
@@ -133,7 +133,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ id: st
                 <Typography variant="overline" color="text.secondary">Derechos</Typography>
                 {topics.map(({ r, links }) => (
                   <Box key={r.id} sx={{ mt: .75 }}>
-                    <Typography variant="body2"><Link href={`/rights/topics/${r.id}`}>{r.name}</Link></Typography>
+                    <Typography variant="body2"><Link href={`/atlas/topics/${r.id}`}>{r.name}</Link></Typography>
                     <Typography variant="caption" color="text.secondary">{basisNames[links[0].basis]}</Typography>
                   </Box>
                 ))}

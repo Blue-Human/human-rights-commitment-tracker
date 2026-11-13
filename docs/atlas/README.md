@@ -1,6 +1,20 @@
-# Human Rights Atlas (`/rights`)
+# Human Rights Atlas (`/atlas`)
 
 Section of the HRCI site that connects human-rights instruments, their articles, the States' participation (signature, ratification, accession, succession, denunciation, reservations, declarations, objections), the bodies that supervise them and the protection procedures, all read from official sources. See also [sources](sources.md) and [coverage](coverage.md).
+
+## Structure of the space
+
+The Atlas is a space of its own inside the site (`/atlas`; the old `/rights` addresses redirect permanently). Its frame (`AtlasShell`) adds, under the site header, the Atlas bar (name, four areas, search) and, above the site footer, a map of the Atlas. The areas and their pages are declared once in `src/lib/atlas/sections.ts`, which the bar, the second row of tabs, the footer map and the home page read:
+
+| Area | Pages |
+|---|---|
+| Derechos | `/atlas/topics` and each right |
+| Instrumentos | `/atlas/instruments` (library, instrument, article, other language), `/atlas/timeline` |
+| Países | `/atlas/countries` (and each State), `/atlas/ratifications`, `/atlas/compare` |
+| Protección | `/atlas/mechanisms` (with the guide form), `/atlas/mechanisms/guide`, `/atlas/bodies`, `/atlas/case-law` |
+| Sobre el Atlas (footer) | `/atlas/sources`, `/atlas/annotations`, `/atlas/search` |
+
+The home page is the hub: search with ways in, the four areas, the rights as tiles, the States by number of core UN treaties consented to (a tile grid by M49 region, not a map), the parties to the nine core UN treaties and their protocols (UNTC), Spain in focus and the first step of the guide. Every figure is computed from `data/atlas` (and the tracker's recommendation count); nothing is entered by hand. The pictograms of the rights (`RightTiles.tsx`) and the short names of the nine treaties (`CoreTreaties.tsx`) are editorial labels; the official title is always linked.
 
 ## Principles
 
@@ -34,7 +48,7 @@ data/atlas/           published data (versioned in git)
   rights.json  documents/  sources.json  fetches.json  report.json  pending-changes.json
 src/lib/atlas/        types, server-only loaders (data.ts), labels, relations, annotations, search index
 src/components/atlas/ shell, reader, quotes, citation tools, library, search, checklist
-src/app/rights/       pages; src/app/api/rights/search; src/app/admin/atlas (annotations)
+src/app/atlas/       pages; src/app/api/atlas/search; src/app/admin/atlas (annotations)
 ```
 
 The site reads `data/atlas` with `fs` (copied into the functions by `outputFileTracingIncludes`). Instrument, country, body, procedure and right pages are static; article pages are rendered on first request and cached; compare, ratifications, guide, case law, timeline and search read the query string.
@@ -64,7 +78,7 @@ The Atlas does not duplicate the tracker. Spain's country page links to the UPR 
 
 ## Search
 
-`/api/rights/search` builds one in-memory index (instruments, all articles, countries, bodies, procedures, general comments, decisions, rights, published annotations) and uses the site's matcher (`src/lib/search.ts`: accent-insensitive, every word must match). Filters: type, system, country, body, instrument, date range. The header search also finds Atlas instruments, rights, bodies, procedures and countries.
+`/api/atlas/search` builds one in-memory index (instruments, all articles, countries, bodies, procedures, general comments, decisions, rights, published annotations) and uses the site's matcher (`src/lib/search.ts`: accent-insensitive, every word must match). Filters: type, system, country, body, instrument, date range. The header search also finds Atlas instruments, rights, bodies, procedures and countries.
 
 ## Annotations: permissions and publication
 
@@ -79,7 +93,7 @@ python3 scripts/atlas/build.py --refresh  # reads every source again
 node --test tests/atlas.test.mjs          # integrity checks
 ```
 
-`.github/workflows/atlas-update.yml` runs every Monday (and on demand): refresh, integrity tests, and a commit of `data/atlas` if anything changed. A source that does not answer keeps the previous data and is reported in `report.json` and `/rights/sources`. A changed provision is not published: when the official document itself changes (different SHA-256), the changed articles are recorded in `pending-changes.json` and the previous text stays (`build.text_file`); to accept it, review the change, set `"accepted": true` on the entry and run the build. A new reading of the same document after a change to the structurer is a code change and is reviewed in the git diff of `data/atlas/texts`.
+`.github/workflows/atlas-update.yml` runs every Monday (and on demand): refresh, integrity tests, and a commit of `data/atlas` if anything changed. A source that does not answer keeps the previous data and is reported in `report.json` and `/atlas/sources`. A changed provision is not published: when the official document itself changes (different SHA-256), the changed articles are recorded in `pending-changes.json` and the previous text stays (`build.text_file`); to accept it, review the change, set `"accepted": true` on the entry and run the build. A new reading of the same document after a change to the structurer is a code change and is reviewed in the git diff of `data/atlas/texts`.
 
 To add an instrument: add it to `catalog.py` (and its text source to `src_texts.py`), run the build, check its integrity report. To add a procedure or a body: add references with control phrases to `curated.py`; the build fails if a phrase is not in the quoted provision.
 

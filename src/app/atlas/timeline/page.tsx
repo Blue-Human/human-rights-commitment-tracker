@@ -35,12 +35,12 @@ export default async function TimelinePage({ searchParams }: { searchParams: Pro
   const select = { p: 1, border: `1px solid ${brand.border}`, bgcolor: "#fff", font: "inherit", fontSize: ".95rem", color: brand.ink, minWidth: 200 };
 
   return (
-    <AtlasShell crumbs={[{ label: "Cronología" }]}>
+    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/atlas/instruments" }, { label: "Cronología" }]}>
       <PageHead overline="Cronología" title="Cronología jurídica">
         <p>Fechas tomadas de los registros de los depositarios, de la base de datos del ACNUDH y del BOE. Las fechas que la fuente da solo con mes y año se muestran así.</p>
       </PageHead>
       <Container maxWidth="lg" sx={{ pb: 3 }}>
-        <Box component="form" method="get" action="/rights/timeline" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
+        <Box component="form" method="get" action="/atlas/timeline" sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, alignItems: "flex-end" }}>
           <Box component="label" sx={{ display: "flex", flexDirection: "column", gap: .5, fontSize: ".8rem", color: "text.secondary" }}>
             Tipo
             <Box component="select" name="tipo" defaultValue={tipo || ""} sx={select}>

@@ -18,8 +18,8 @@ function links(value: string) {
 function refresh(instrument?: string) {
   revalidateTag("atlas-annotations");
   revalidatePath("/admin/atlas");
-  revalidatePath("/rights/annotations");
-  if (instrument) revalidatePath(`/rights/instruments/${instrument}`, "layout");
+  revalidatePath("/atlas/annotations");
+  if (instrument) revalidatePath(`/atlas/instruments/${instrument}`, "layout");
 }
 
 export async function saveAnnotation(form: FormData) {

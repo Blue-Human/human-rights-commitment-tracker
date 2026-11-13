@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import { brand } from "@/brand";
 import { AtlasShell, PageHead, Section } from "@/components/atlas/AtlasShell";
-import { getBodies, getProcedures } from "@/lib/atlas/data";
+import { GuideForm } from "@/components/atlas/GuideForm";
+import { getBodies, getCountries, getProcedures, getRights } from "@/lib/atlas/data";
 import { procedureKinds, procedurePath, startedByPeople, systemNames, systemOrder } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
@@ -13,25 +13,18 @@ export const metadata: Metadata = {
 };
 
 export default async function MechanismsPage() {
-  const [procedures, bodies] = await Promise.all([getProcedures(), getBodies()]);
+  const [procedures, bodies, countries, rights] = await Promise.all([getProcedures(), getBodies(), getCountries(), getRights()]);
   const bodyName = new Map(bodies.map((b) => [b.id, b.name_es]));
   return (
-    <AtlasShell crumbs={[{ label: "Mecanismos" }]}>
-      <PageHead overline="Mecanismos de protección" title="Procedimientos internacionales">
+    <AtlasShell crumbs={[{ label: "Protección" }]}>
+      <PageHead overline="Protección" title="¿Ante quién se puede acudir?">
         <p>Para cada procedimiento: el órgano competente, su base jurídica, quién puede iniciarlo, los requisitos de admisibilidad, los plazos y los canales oficiales de presentación. Cada requisito se cita literalmente de la norma que lo establece.</p>
         <p>El Atlas es una herramienta informativa: no valora si un caso concreto es admisible ni recomienda una vía, y no recibe ni almacena casos. Las solicitudes se presentan siempre ante el órgano, por sus canales oficiales.</p>
       </PageHead>
-      <Box sx={{ px: 0 }}>
-        <Box sx={{ maxWidth: "lg", mx: "auto", px: { xs: 2, sm: 3 }, pb: 4 }}>
-          <Box component={Link} href="/rights/mechanisms/guide" sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2, p: { xs: 2, md: 2.5 }, bgcolor: brand.navy, color: "#fff", textDecoration: "none", "&:hover .go": { transform: "translateX(3px)" } }}>
-            <Box>
-              <Typography variant="h6" component="h2">Orientador de mecanismos</Typography>
-              <Typography variant="body2" sx={{ color: "rgba(255,255,255,.8)", mt: .25 }}>Elija un país, un derecho y un tipo de mecanismo para ver qué procedimientos consta que se aplican y la lista de requisitos que deben comprobarse.</Typography>
-            </Box>
-            <ArrowForwardRoundedIcon className="go" sx={{ transition: "transform .15s", flexShrink: 0 }} />
-          </Box>
-        </Box>
-      </Box>
+      <Container maxWidth="lg" sx={{ pb: 4 }}>
+        <Typography variant="overline" color="text.secondary" component="h2">Orientador · qué vías constan para un Estado</Typography>
+        <Box sx={{ mt: 1 }}><GuideForm countries={countries} rights={rights} /></Box>
+      </Container>
       {systemOrder.map((system) => {
         const list = procedures.filter((p) => p.system === system);
         if (!list.length) return null;
@@ -55,7 +48,7 @@ export default async function MechanismsPage() {
         );
       })}
       <Box sx={{ maxWidth: "lg", mx: "auto", px: { xs: 2, sm: 3 }, py: 3 }}>
-        <Button component={Link} href="/rights/bodies">Ver los órganos</Button>
+        <Button component={Link} href="/atlas/bodies">Ver los órganos</Button>
       </Box>
     </AtlasShell>
   );

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default async function AnnotationsPage() {
   const annotations = await getPublishedAnnotations();
   return (
-    <AtlasShell crumbs={[{ label: "Anotaciones" }]}>
+    <AtlasShell crumbs={[{ label: "Sobre el Atlas", href: "/atlas/sources" }, { label: "Anotaciones" }]}>
       <PageHead overline="Blue Human" title="Anotaciones">
         <p>Comentarios académicos y editoriales del equipo de Blue Human, firmados por su autor. Son una categoría aparte: no modifican el texto oficial y no son interpretaciones de ningún órgano. Cada nota indica sus fuentes.</p>
       </PageHead>

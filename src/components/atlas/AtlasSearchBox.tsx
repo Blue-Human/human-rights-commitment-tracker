@@ -6,7 +6,7 @@ import { brand } from "@/brand";
 // results page, where the filters are.
 export function AtlasSearchBox({ defaultValue = "", light = false }: { defaultValue?: string; light?: boolean }) {
   return (
-    <Box component="form" action="/rights/search" method="get" role="search" sx={{ display: "flex", alignItems: "stretch", bgcolor: "#fff", border: light ? `1px solid ${brand.border}` : "none" }}>
+    <Box component="form" action="/atlas/search" method="get" role="search" sx={{ display: "flex", alignItems: "stretch", bgcolor: "#fff", border: light ? `1px solid ${brand.border}` : "none" }}>
       <Box sx={{ display: "flex", alignItems: "center", pl: 1.75, color: brand.muted }}><SearchRoundedIcon /></Box>
       <InputBase
         name="q"

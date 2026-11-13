@@ -33,7 +33,7 @@ export default async function TextInLanguage({ params }: { params: Promise<{ id:
   const context = await articleContext(id);
   const title = instrumentTitle(instrument);
   return (
-    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/rights/instruments" }, { label: title.length > 48 ? `${title.slice(0, 45)}…` : title, href: instrumentPath(id) }, { label: `Versión en ${languages[lang] || lang}` }]}>
+    <AtlasShell crumbs={[{ label: "Instrumentos", href: "/atlas/instruments" }, { label: title.length > 48 ? `${title.slice(0, 45)}…` : title, href: instrumentPath(id) }, { label: `Versión en ${languages[lang] || lang}` }]}>
       <PageHead overline={`Versión en ${languages[lang] || lang}`} title={title}>
         <p><Link href={instrumentPath(id)}>Volver a la ficha del instrumento</Link></p>
       </PageHead>

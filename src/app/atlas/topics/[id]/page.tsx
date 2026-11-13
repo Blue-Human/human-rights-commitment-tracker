@@ -40,7 +40,7 @@ export default async function RightPage({ params }: { params: Promise<{ id: stri
   const mentioning = commitments.filter((c) => phrases.some((p) => fold(c.original_text || "").includes(p)));
 
   return (
-    <AtlasShell crumbs={[{ label: "Derechos", href: "/rights/topics" }, { label: right.name }]}>
+    <AtlasShell crumbs={[{ label: "Derechos", href: "/atlas/topics" }, { label: right.name }]}>
       <PageHead overline="Derecho" title={right.name}>
         <p>Expresiones que establecen los vínculos: {right.phrases.map((p) => `«${p}»`).join(", ")}.</p>
       </PageHead>
@@ -88,7 +88,7 @@ export default async function RightPage({ params }: { params: Promise<{ id: stri
 
       <Section id="mecanismos" overline="Protección" title="Mecanismos" note="Procedimientos basados en los instrumentos anteriores. Si un procedimiento se aplica a un Estado depende de lo que este haya ratificado o aceptado: compruébese en el orientador.">
         {relevant.length ? relevant.map((p) => <Typography key={p.id} variant="body2" sx={{ py: .5 }}><Link href={procedurePath(p.id)}>{p.name_es}</Link></Typography>) : <Typography variant="body2" color="text.secondary">Ninguno documentado.</Typography>}
-        <Typography variant="body2" sx={{ mt: 1.5 }}><Link href={`/rights/mechanisms/guide?derecho=${right.id}`}>Abrir el orientador con este derecho</Link></Typography>
+        <Typography variant="body2" sx={{ mt: 1.5 }}><Link href={`/atlas/mechanisms/guide?derecho=${right.id}`}>Abrir el orientador con este derecho</Link></Typography>
       </Section>
 
       <Section id="hrci" overline="Seguimiento del HRCI" title="Recomendaciones del EPU a España" note="Recomendaciones del cuarto ciclo del Examen Periódico Universal cuyo texto oficial contiene alguna de las expresiones de este derecho. Es una búsqueda literal en el texto, no una clasificación; la valoración del cumplimiento es del HRCI y se muestra en cada ficha.">
