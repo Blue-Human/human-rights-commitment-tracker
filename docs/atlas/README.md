@@ -4,7 +4,7 @@ Section of the HRCI site that connects human-rights instruments, their articles,
 
 ## Structure of the space
 
-The Atlas is a space of its own inside the site (`/atlas`; the old `/rights` addresses redirect permanently). Its frame (`AtlasShell`) adds, under the site header, the Atlas bar (name, four areas, search) and, above the site footer, a map of the Atlas. The areas and their pages are declared once in `src/lib/atlas/sections.ts`, which the bar, the second row of tabs, the footer map and the home page read:
+The Atlas is a space of its own inside the site (`/atlas`; the old `/rights` addresses redirect permanently). It carries the site's identity, with no mark or name of its own. Its frame (`AtlasShell`) adds, under the site header, the navigation of the Atlas (home, four areas, search, and the area's pages beneath) and, above the site footer, an index of the Atlas. The areas and their pages are declared once in `src/lib/atlas/sections.ts`, which the bar, the second row of tabs, the footer map and the home page read:
 
 | Area | Pages |
 |---|---|
@@ -14,7 +14,7 @@ The Atlas is a space of its own inside the site (`/atlas`; the old `/rights` add
 | Protección | `/atlas/mechanisms` (with the guide form), `/atlas/mechanisms/guide`, `/atlas/bodies`, `/atlas/case-law` |
 | Sobre el Atlas (footer) | `/atlas/sources`, `/atlas/annotations`, `/atlas/search` |
 
-The home page is the hub: search with ways in, the four areas, the rights as tiles, the States by number of core UN treaties consented to (a tile grid by M49 region, not a map), the parties to the nine core UN treaties and their protocols (UNTC), Spain in focus and the first step of the guide. Every figure is computed from `data/atlas` (and the tracker's recommendation count); nothing is entered by hand. The pictograms of the rights (`RightTiles.tsx`) and the short names of the nine treaties (`CoreTreaties.tsx`) are editorial labels; the official title is always linked.
+The home page is built like the site's home (headline, search and figures beside a chart of the parties to the nine core UN treaties), followed by the four areas, the rights as an index, the States by number of core UN treaties consented to (a tile grid by M49 region, not a map), Spain in focus and the first step of the guide. Every figure is computed from `data/atlas` (and the tracker's recommendation count); nothing is entered by hand. The short names of the nine treaties (`CoreTreaties.tsx`) are editorial labels; the official title is always linked.
 
 ## Principles
 
