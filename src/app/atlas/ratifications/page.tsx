@@ -9,7 +9,7 @@ import { getCountries, getInstruments, getMatrix, getParticipation } from "@/lib
 import { cellLabel, cellStatus, countryPath, instrumentPath, instrumentTitle, shortDate, statusNames, statusNotes, statusTones, systemNames } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Mapa de ratificaciones | Human Rights Atlas",
+  title: "Mapa de ratificaciones | Atlas | Human Rights Commitment Institute",
   description: "Situación de cada Estado en un tratado de derechos humanos según el registro de su depositario, por regiones.",
 };
 

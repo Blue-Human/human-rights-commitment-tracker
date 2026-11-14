@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 }
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const r = await getRight((await params).id);
-  return r ? { title: `${r.name} | Human Rights Atlas`, description: `Artículos que reconocen ${r.name.toLowerCase()}, interpretaciones de los comités y mecanismos de protección, con su fuente oficial.` } : {};
+  return r ? { title: `${r.name} | Atlas | Human Rights Commitment Institute`, description: `Artículos que reconocen ${r.name.toLowerCase()}, interpretaciones de los comités y mecanismos de protección, con su fuente oficial.` } : {};
 }
 
 export default async function RightPage({ params }: { params: Promise<{ id: string }> }) {

@@ -8,7 +8,7 @@ import { getBodies, getCountries, getDecisions, getInstruments, getInterpretatio
 import { checkNames, instrumentPath, instrumentTitle, longDate } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Fuentes y cobertura | Human Rights Atlas",
+  title: "Fuentes y cobertura | Atlas | Human Rights Commitment Institute",
   description: "Inventario de las fuentes oficiales del Atlas, qué se ha recopilado de cada una, cómo se verifica y qué límites quedan.",
 };
 

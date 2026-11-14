@@ -7,7 +7,7 @@ import { getCountries, getInstruments, getInterpretations, getMatrix } from "@/l
 import { consentTypes, instrumentPath, instrumentTitle, longDate, systemShort } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Cronología | Human Rights Atlas",
+  title: "Cronología | Atlas | Human Rights Commitment Institute",
   description: "Adopción y entrada en vigor de los instrumentos de derechos humanos, observaciones generales y actos de un Estado, por año.",
 };
 

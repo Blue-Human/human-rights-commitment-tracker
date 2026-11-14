@@ -10,7 +10,7 @@ import { acceptanceNames, acceptanceTones, procedureKinds, procedurePath, shortD
 import type { Procedure, Quote } from "@/lib/atlas/types";
 
 export const metadata: Metadata = {
-  title: "Orientador de mecanismos | Human Rights Atlas",
+  title: "Orientador de mecanismos | Atlas | Human Rights Commitment Institute",
   description: "Qué procedimientos internacionales consta que se aplican a un Estado y qué requisitos establece cada uno, según los registros y las normas oficiales.",
 };
 

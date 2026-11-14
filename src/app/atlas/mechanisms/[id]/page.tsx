@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const p = await getProcedure((await params).id);
-  return p ? { title: `${p.name_es} | Human Rights Atlas`, description: `${procedureKinds[p.kind] || p.kind} · ${systemNames[p.system]}: base jurídica, legitimación, requisitos, plazos y canal oficial, con la cita de cada norma.` } : {};
+  return p ? { title: `${p.name_es} | Atlas | Human Rights Commitment Institute`, description: `${procedureKinds[p.kind] || p.kind} · ${systemNames[p.system]}: base jurídica, legitimación, requisitos, plazos y canal oficial, con la cita de cada norma.` } : {};
 }
 
 function Block({ title, quotes, empty, instruments, labelled = false }: { title: string; quotes: Quote[]; empty?: string; instruments: Awaited<ReturnType<typeof instrumentMap>>; labelled?: boolean }) {

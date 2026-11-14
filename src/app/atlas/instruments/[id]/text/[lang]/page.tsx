@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string; lang: string }> }): Promise<Metadata> {
   const { id, lang } = await params;
   const instrument = await getInstrument(id);
-  return instrument ? { title: `${instrumentTitle(instrument)} (${languages[lang] || lang}) | Human Rights Atlas` } : {};
+  return instrument ? { title: `${instrumentTitle(instrument)} (${languages[lang] || lang}) | Atlas | Human Rights Commitment Institute` } : {};
 }
 
 export default async function TextInLanguage({ params }: { params: Promise<{ id: string; lang: string }> }) {

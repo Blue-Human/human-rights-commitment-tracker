@@ -5,7 +5,7 @@ import { getInstruments } from "@/lib/atlas/data";
 import { categoryNames, instrumentPath, instrumentTitle, kindNames, partiesLine, systemNames, year } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Instrumentos | Human Rights Atlas",
+  title: "Instrumentos | Atlas | Human Rights Commitment Institute",
   description: "Biblioteca de tratados, protocolos, declaraciones y reglamentos de derechos humanos de las Naciones Unidas, el Consejo de Europa, la OEA y la Unión Africana.",
 };
 

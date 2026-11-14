@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 }
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const body = await getBody((await params).id);
-  return body ? { title: `${body.name_es} | Human Rights Atlas`, description: `${natureNames[body.nature]} · ${systemNames[body.system]}: base jurídica, composición, competencias y procedimientos, con cita de su norma.` } : {};
+  return body ? { title: `${body.name_es} | Atlas | Human Rights Commitment Institute`, description: `${natureNames[body.nature]} · ${systemNames[body.system]}: base jurídica, composición, competencias y procedimientos, con cita de su norma.` } : {};
 }
 
 export default async function BodyPage({ params }: { params: Promise<{ id: string }> }) {

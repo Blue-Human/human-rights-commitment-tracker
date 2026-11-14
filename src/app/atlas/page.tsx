@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import type { SvgIconComponent } from "@mui/icons-material";
-import AccountBalanceRounded from "@mui/icons-material/AccountBalanceRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
-import MenuBookRounded from "@mui/icons-material/MenuBookRounded";
-import PublicRounded from "@mui/icons-material/PublicRounded";
-import ShieldRounded from "@mui/icons-material/ShieldRounded";
 import { Box, Button, Container, Typography } from "@mui/material";
 import { brand, displayFont } from "@/brand";
 import { AtlasShell } from "@/components/atlas/AtlasShell";
@@ -16,25 +11,25 @@ import { GuideForm } from "@/components/atlas/GuideForm";
 import { RightTiles } from "@/components/atlas/RightTiles";
 import { Figure } from "@/components/Figure";
 import { getAcceptance, getBodies, getCountries, getDecisions, getInstruments, getMatrix, getProcedures, getReport, getRights } from "@/lib/atlas/data";
-import { countryPath, instrumentPath, longDate, rightPath, systemNames, systemOrder } from "@/lib/atlas/labels";
+import { countryPath, instrumentPath, longDate, rightPath } from "@/lib/atlas/labels";
 import { atlasAreas, type AtlasArea } from "@/lib/atlas/sections";
 import { getCommitments } from "@/lib/hrct";
 
 export const metadata: Metadata = {
-  title: "Human Rights Atlas | Human Rights Commitment Institute",
+  title: "Atlas | Human Rights Commitment Institute",
   description: "Qué reconoce cada tratado de derechos humanos, qué ha aceptado cada Estado y ante qué órganos se puede acudir. Con el texto oficial y la fuente de cada dato.",
 };
-
-const areaIcons: Record<AtlasArea["id"], SvgIconComponent> = { derechos: AccountBalanceRounded, instrumentos: MenuBookRounded, paises: PublicRounded, proteccion: ShieldRounded };
 
 // Ways in for someone who does not know where to start: each one opens a real page of the Atlas.
 const suggestions: [string, string][] = [
   ["Derecho a la vivienda", rightPath("vivienda")],
   ["España", countryPath("ESP")],
   ["Convención sobre los Derechos del Niño", instrumentPath("un-crc")],
-  ["Prohibición de la tortura", rightPath("tortura")],
   ["Acudir a un comité de la ONU", "/atlas/mechanisms/guide?pais=ESP"],
 ];
+
+const hairline = "rgba(255,255,255,.16)";
+const quiet = "rgba(255,255,255,.72)";
 
 export default async function AtlasHome() {
   const [instruments, countries, matrix, bodies, procedures, decisions, rights, acceptance, report, commitments] = await Promise.all([
@@ -54,130 +49,122 @@ export default async function AtlasHome() {
     decisions: decisions.items.filter((d) => d.source === "tbinternet" && d.states.includes("ESP")).length,
   };
 
-  const figures: Record<AtlasArea["id"], string> = {
+  const heroFigures: [string, string, string?][] = [
+    [String(legal.length), "instrumentos", `${readable} con texto legible por artículos`],
+    [String(countries.length), "Estados", "con su participación en cada tratado"],
+    [String(procedures.length), "procedimientos", `ante ${bodies.length} órganos`],
+  ];
+  const areaFigures: Record<AtlasArea["id"], string> = {
     derechos: `${rights.length} derechos`,
-    instrumentos: `${legal.length} instrumentos · ${readable} textos legibles`,
+    instrumentos: `${legal.length} instrumentos`,
     paises: `${countries.length} Estados`,
-    proteccion: `${procedures.length} procedimientos · ${bodies.length} órganos`,
+    proteccion: `${procedures.length} procedimientos`,
   };
 
   return (
     <AtlasShell>
-      {/* Hero: what the Atlas answers, and a search that accepts anything. */}
-      <Box sx={{ position: "relative", overflow: "hidden", bgcolor: brand.navy, color: "#fff" }}>
-        <Graticule />
-        <Container maxWidth="lg" sx={{ position: "relative", pt: { xs: 5, md: 8 }, pb: { xs: 9, md: 12 } }}>
-          <Typography variant="overline" sx={{ color: "rgba(255,255,255,.72)", letterSpacing: ".16em" }}>Human Rights Atlas</Typography>
-          <Typography variant="h1" sx={{ mt: 1, maxWidth: 820, fontFamily: displayFont, fontWeight: 400, fontSize: { xs: "2.2rem", sm: "2.8rem", md: "3.6rem" }, lineHeight: 1.08, letterSpacing: "-.01em" }}>
-            Los derechos humanos, de la norma a la protección
-          </Typography>
-          <Typography sx={{ mt: 2.25, maxWidth: 640, lineHeight: 1.7, color: "rgba(255,255,255,.82)", fontSize: { md: "1.1rem" } }}>
-            Qué reconoce cada tratado, a qué se ha comprometido cada Estado y ante quién se puede acudir. Con el texto oficial y la fuente de cada dato.
-          </Typography>
-          <Box sx={{ mt: 4, maxWidth: 720 }}><AtlasSearchBox /></Box>
-          <Box sx={{ mt: 2, display: "flex", flexWrap: "wrap", alignItems: "center", gap: 1 }}>
-            <Typography variant="caption" sx={{ color: "rgba(255,255,255,.65)", mr: .5 }}>Por ejemplo:</Typography>
-            {suggestions.map(([label, href]) => (
-              <Box key={href} component={Link} href={href} sx={{ px: 1.5, py: .6, fontSize: ".82rem", color: "#fff", textDecoration: "none", border: "1px solid rgba(255,255,255,.28)", borderRadius: 99, "&:hover": { bgcolor: "rgba(0,163,224,.22)", borderColor: brand.accent }, "&:focus-visible": { outline: `2px solid ${brand.accent}`, outlineOffset: 2 } }}>{label}</Box>
-            ))}
-          </Box>
-        </Container>
-      </Box>
+      {/* The opening of the Atlas, built like the opening of the site: the question on the left, the data on the right. */}
+      <Box component="section" aria-labelledby="atlas-heading" sx={{
+        position: "relative", overflow: "hidden", isolation: "isolate", bgcolor: "primary.main", color: "#fff",
+        backgroundImage: 'url("/images/ods/Untitled%20design%20-%202026-10-06T193326.870.png")', backgroundSize: "cover", backgroundPosition: "right center", backgroundRepeat: "no-repeat",
+      }}>
+        <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1, pt: { xs: 4.5, md: 6 }, pb: { xs: 4.5, md: 6 } }}>
+          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", lg: "minmax(0,6fr) minmax(0,5fr)" }, columnGap: 8, rowGap: 6 }}>
+            <Box sx={{ display: "flex", flexDirection: "column", maxWidth: { xs: 720, lg: "none" } }}>
+              <Typography variant="overline" sx={{ color: quiet }}>Atlas de los derechos humanos</Typography>
+              <Typography id="atlas-heading" variant="h1" sx={{ mt: .75, fontWeight: 400, fontSize: { xs: "2.25rem", sm: "2.85rem", lg: "3.15rem" }, lineHeight: 1.08, letterSpacing: "-.03em", textWrap: "balance" }}>
+                Los derechos humanos, de la norma a la protección
+              </Typography>
+              <Typography sx={{ mt: { xs: 2, md: 2.5 }, fontSize: { xs: "1.02rem", md: "1.1rem" }, lineHeight: 1.65, color: "rgba(255,255,255,.86)" }}>
+                Qué reconoce cada tratado, a qué se ha comprometido cada Estado y ante quién se puede acudir, con el texto oficial y la fuente de cada dato.
+              </Typography>
+              <Box sx={{ mt: 3.5 }}><AtlasSearchBox /></Box>
+              <Typography variant="body2" sx={{ mt: 1.75, color: quiet, lineHeight: 1.9 }}>
+                Por ejemplo: {suggestions.map(([label, href], i) => <span key={href}>{i ? " · " : ""}<Box component={Link} href={href} sx={{ color: "#fff", textDecoration: "underline", textDecorationColor: "rgba(255,255,255,.45)", textUnderlineOffset: "3px", "&:hover": { textDecorationColor: "#fff" }, "&:focus-visible": { outline: "2px solid #fff", outlineOffset: 2 } }}>{label}</Box></span>)}
+              </Typography>
 
-      {/* The four areas of the Atlas, as doors that overlap the hero. */}
-      <Container maxWidth="lg" sx={{ position: "relative", mt: { xs: -6, md: -8 } }}>
-        <Box component="nav" aria-label="Áreas del Atlas" sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, gap: "1px", bgcolor: "divider", border: "1px solid", borderColor: "divider", boxShadow: "0 18px 40px rgba(10,30,51,.12)" }}>
-          {atlasAreas.map((area) => {
-            const Icon = areaIcons[area.id];
-            return (
-              <Box key={area.id} sx={{ bgcolor: "#fff", p: { xs: 2.5, md: 3 }, display: "flex", flexDirection: "column", borderTop: `3px solid ${brand.accent}` }}>
-                <Box component={Link} href={area.href} sx={{ color: "inherit", textDecoration: "none", "&:hover .t": { color: brand.accentInk }, "&:hover .go": { transform: "translateX(3px)" } }}>
-                  <Icon aria-hidden sx={{ fontSize: 30, color: brand.accentInk }} />
-                  <Box sx={{ display: "flex", alignItems: "center", gap: .75, mt: 1.25 }}>
-                    <Typography className="t" component="h2" variant="h5" color="primary.main" sx={{ transition: "color .15s" }}>{area.label}</Typography>
-                    <ArrowForwardRoundedIcon className="go" fontSize="small" sx={{ color: brand.accentInk, transition: "transform .15s" }} />
+              <Box sx={{ display: "grid", gridTemplateColumns: "repeat(3,minmax(0,1fr))", gap: { xs: 2, sm: 3 }, mt: { xs: 4.5, lg: "auto" }, pt: { xs: 3, lg: 4 }, borderTop: `1px solid ${hairline}` }}>
+                {heroFigures.map(([value, label, note]) => (
+                  <Box key={label}>
+                    <Typography sx={{ fontFamily: displayFont, fontSize: { xs: "1.7rem", md: "2rem" }, fontWeight: 500, lineHeight: 1, letterSpacing: "-.01em" }}>{value}</Typography>
+                    <Typography variant="body2" sx={{ mt: .75, lineHeight: 1.35 }}>{label}</Typography>
+                    {note && <Typography variant="caption" sx={{ color: quiet, display: "block", lineHeight: 1.4, mt: .25 }}>{note}</Typography>}
                   </Box>
-                  <Typography variant="body2" color="text.secondary" sx={{ mt: .75, lineHeight: 1.55 }}>{area.question}</Typography>
-                </Box>
-                <Typography variant="caption" sx={{ mt: 1.5, color: brand.navy, fontWeight: 600 }}>{figures[area.id]}</Typography>
-                {area.pages.length > 1 && (
-                  <Box component="ul" sx={{ listStyle: "none", m: 0, mt: 1.5, p: 0, pt: 1.5, borderTop: "1px solid", borderColor: "divider", display: "grid", gap: .5 }}>
-                    {area.pages.slice(1).map((p) => <li key={p.href}><Box component={Link} href={p.href} sx={{ fontSize: ".85rem", color: brand.accentInk, textDecoration: "none", "&:hover": { textDecoration: "underline" } }}>{p.label}</Box></li>)}
-                  </Box>
-                )}
+                ))}
               </Box>
-            );
-          })}
-        </Box>
-      </Container>
-
-      <Block id="derechos" overline="Empezar por un derecho" title="¿Qué derecho le interesa?" action={["Ver todos los derechos", "/atlas/topics"]}>
-        <RightTiles rights={rights} compact />
-      </Block>
-
-      <Block id="compromisos" overline="Países" title="¿Quién se ha comprometido?" action={["Ver un tratado concreto", "/atlas/ratifications"]}
-        note={`Cada recuadro es un Estado. El color indica en cuántos de los ${core.length} tratados y protocolos fundamentales de las Naciones Unidas consta su consentimiento —ratificación, adhesión o sucesión— en el registro del depositario. ${all} Estados los han aceptado todos. No es una puntuación ni un mapa: no traza fronteras.`}>
-        <CommitmentTiles tiles={tiles} total={core.length} highlight="ESP" />
-      </Block>
-
-      <Block id="tratados" overline="Instrumentos" title="Los nueve tratados fundamentales de la ONU" action={["Abrir la biblioteca", "/atlas/instruments"]}
-        note="Cuántos Estados son parte en cada tratado y en sus protocolos. Los protocolos facultativos son tratados distintos: ser parte en la convención no obliga a aceptarlos.">
-        <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,1.4fr) minmax(0,1fr)" }, columnGap: 7, rowGap: 4 }}>
-          <CoreTreaties instruments={instruments} />
-          <Box sx={{ alignSelf: "start", p: { xs: 2.5, md: 3 }, bgcolor: brand.soft, borderLeft: `3px solid ${brand.accent}` }}>
-            <Typography variant="overline" color="text.secondary">El sistema en cifras</Typography>
-            <Box sx={{ display: "grid", gridTemplateColumns: "repeat(2,minmax(0,1fr))", gap: 3, mt: 1.5 }}>
-              {systemOrder.map((s) => (
-                <Box key={s}>
-                  <Typography color="primary.main" sx={{ fontWeight: 600, fontSize: ".95rem" }}>{systemNames[s]}</Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ mt: .5, lineHeight: 1.6 }}>
-                    {legal.filter((i) => i.system === s).length} instrumentos<br />{bodies.filter((b) => b.system === s).length} órganos<br />{procedures.filter((p) => p.system === s).length} procedimientos
-                  </Typography>
-                </Box>
-              ))}
             </Box>
-          </Box>
-        </Box>
-      </Block>
 
-      {/* Spain in focus: the readers of the site are in Spain, and the HRCI follows its commitments. */}
-      <Box component="section" aria-labelledby="espana-heading" sx={{ bgcolor: brand.soft, borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider", mt: { xs: 2, md: 3 } }}>
-        <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
-          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: "minmax(0,1fr) minmax(0,2fr)" }, columnGap: 6, rowGap: 3, alignItems: "center" }}>
             <Box>
-              <Typography variant="overline" color="text.secondary">España en el sistema internacional</Typography>
-              <Typography id="espana-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.6rem", md: "2rem" }, mt: .5 }}>Lo que España ha aceptado</Typography>
-              <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1.5, mt: 2.5 }}>
-                <Button component={Link} href={countryPath("ESP")} variant="contained" disableElevation endIcon={<ArrowForwardRoundedIcon />}>Ficha de España</Button>
-                <Button component={Link} href="/commitments" variant="outlined">Seguimiento del EPU</Button>
+              <Typography component="h2" sx={{ fontFamily: displayFont, fontWeight: 500, fontSize: "1.25rem", lineHeight: 1.3 }}>Los nueve tratados fundamentales de la ONU</Typography>
+              <Typography variant="body2" sx={{ color: quiet, mt: .5 }}>Estados Partes en cada uno, según el registro del depositario.</Typography>
+              <Box sx={{ mt: 2.5, pt: 2.5, borderTop: `1px solid ${hairline}` }}>
+                <CoreTreaties instruments={instruments} dark withProtocols={false} />
               </Box>
-            </Box>
-            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 3, rowGap: 3 }}>
-              <Figure value={String(spain.core)} of={`de ${core.length}`}>tratados y protocolos fundamentales de la ONU con consentimiento registrado</Figure>
-              <Figure value={String(spain.accepted)} of={spain.procedures ? `de ${spain.procedures}` : undefined}>procedimientos de los comités de la ONU aceptados</Figure>
-              <Figure value={String(spain.decisions)}>decisiones de comités de la ONU sobre comunicaciones relativas a España</Figure>
-              {commitments.length > 0 && <Figure value={String(commitments.length)}>recomendaciones del EPU a España en seguimiento por el HRCI</Figure>}
             </Box>
           </Box>
         </Container>
       </Box>
 
-      <Block id="proteccion" overline="Protección" title="¿Ante quién se puede acudir?" action={["Ver todos los procedimientos", "/atlas/mechanisms"]}
-        note="Elija un Estado y, si quiere, un derecho: el orientador muestra qué procedimientos internacionales constan en los registros para ese Estado y qué requisitos fija cada norma. No valora casos ni pide datos personales.">
-        <GuideForm countries={countries} rights={rights} />
-        <Box component="ul" sx={{ listStyle: "none", m: 0, mt: 3, p: 0, display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 3 }}>
-          {[["Órganos", "/atlas/bodies", "Tribunales, comités y comisiones, con su norma"], ["Jurisprudencia", "/atlas/case-law", "Observaciones generales y decisiones"], ["Tribunal Europeo", "/atlas/bodies/coe-ecthr", "Composición, competencias y demanda individual"], ["Comité de Derechos Humanos", "/atlas/bodies/un-ccpr", "El órgano del Pacto de Derechos Civiles y Políticos"]].map(([label, href, hint]) => (
-            <Box component="li" key={href} sx={{ borderBottom: "1px solid", borderColor: "divider" }}>
-              <Box component={Link} href={href} sx={{ display: "block", py: 1.5, color: "inherit", textDecoration: "none", "&:hover .t": { color: brand.accentInk } }}>
-                <Typography className="t" color="primary.main" sx={{ fontWeight: 500, transition: "color .15s" }}>{label}</Typography>
-                <Typography variant="caption" color="text.secondary">{hint}</Typography>
+      {/* The four areas: where each kind of question is answered. */}
+      <Container component="section" aria-labelledby="areas-heading" maxWidth="lg" sx={{ pt: { xs: 4.5, md: 6 }, pb: { xs: 2, md: 3 } }}>
+        <Typography id="areas-heading" variant="overline" color="text.secondary">Por dónde empezar</Typography>
+        <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 4, rowGap: 4, mt: 1.5, pt: 3, borderTop: "2px solid", borderColor: "secondary.main" }}>
+          {atlasAreas.map((area) => (
+            <Box key={area.id} sx={{ display: "flex", flexDirection: "column" }}>
+              <Box component={Link} href={area.href} sx={{ display: "flex", alignItems: "center", gap: .75, color: "primary.main", textDecoration: "none", "&:hover": { color: brand.accentInk }, "&:hover .go": { transform: "translateX(3px)" } }}>
+                <Typography component="h3" variant="h4" sx={{ fontSize: { xs: "1.45rem", md: "1.6rem" }, color: "inherit" }}>{area.label}</Typography>
+                <ArrowForwardRoundedIcon className="go" sx={{ color: brand.accentInk, transition: "transform .15s" }} />
               </Box>
+              <Typography variant="body2" color="text.secondary" sx={{ mt: .75, lineHeight: 1.6 }}>{area.question}</Typography>
+              <Typography variant="caption" sx={{ mt: 1, color: brand.navy, fontWeight: 600 }}>{areaFigures[area.id]}</Typography>
+              {area.pages.length > 1 && (
+                <Box component="ul" sx={{ listStyle: "none", m: 0, mt: 1.5, p: 0, display: "grid", gap: .5 }}>
+                  {area.pages.slice(1).map((p) => <li key={p.href}><Box component={Link} href={p.href} sx={{ fontSize: ".875rem", color: "secondary.dark", textDecoration: "none", "&:hover": { textDecoration: "underline", textUnderlineOffset: "3px" } }}>{p.label}</Box></li>)}
+                </Box>
+              )}
             </Box>
           ))}
         </Box>
+      </Container>
+
+      <Block id="derechos" overline="Derechos" title="Empezar por un derecho" action={["Ver los derechos", "/atlas/topics"]}
+        note="Los artículos que lo reconocen, las interpretaciones de los comités y los mecanismos que permiten reclamarlo.">
+        <RightTiles rights={rights} />
       </Block>
 
-      <Container maxWidth="lg" sx={{ pt: 1 }}>
+      <Block id="compromisos" overline="Países" title="¿Quién se ha comprometido?" action={["Mapa de un tratado", "/atlas/ratifications"]}
+        note={`Cada recuadro es un Estado; el color indica en cuántos de los ${core.length} tratados y protocolos fundamentales de las Naciones Unidas consta su consentimiento en el registro del depositario. ${all} Estados los han aceptado todos. No es una puntuación ni un mapa: no traza fronteras.`}>
+        <CommitmentTiles tiles={tiles} total={core.length} highlight="ESP" />
+      </Block>
+
+      {/* Spain in focus: the readers of the site are in Spain, and the HRCI follows its commitments. */}
+      <Box component="section" aria-labelledby="espana-heading" sx={{ bgcolor: brand.soft, borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider", my: { xs: 2, md: 3 } }}>
+        <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
+          <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-end", gap: 2 }}>
+            <Box>
+              <Typography variant="overline" color="text.secondary">España</Typography>
+              <Typography id="espana-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.6rem", md: "2rem" }, mt: .5 }}>Lo que España ha aceptado</Typography>
+            </Box>
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1.5 }}>
+              <Button component={Link} href={countryPath("ESP")} variant="contained" disableElevation endIcon={<ArrowForwardRoundedIcon />}>Ficha de España</Button>
+              <Button component={Link} href="/commitments" variant="outlined">Recomendaciones del EPU</Button>
+            </Box>
+          </Box>
+          <Box sx={{ display: "grid", gridTemplateColumns: { xs: "repeat(2,minmax(0,1fr))", md: "repeat(4,minmax(0,1fr))" }, columnGap: 4, rowGap: 3, mt: 3, pt: 3, borderTop: "2px solid", borderColor: "secondary.main" }}>
+            <Figure value={String(spain.core)} of={`de ${core.length}`}>tratados y protocolos fundamentales de la ONU con consentimiento registrado</Figure>
+            <Figure value={String(spain.accepted)} of={spain.procedures ? `de ${spain.procedures}` : undefined}>procedimientos de los comités de la ONU aceptados</Figure>
+            <Figure value={String(spain.decisions)}>decisiones de comités de la ONU sobre comunicaciones relativas a España</Figure>
+            {commitments.length > 0 && <Figure value={String(commitments.length)}>recomendaciones del EPU a España en seguimiento por el HRCI</Figure>}
+          </Box>
+        </Container>
+      </Box>
+
+      <Block id="proteccion" overline="Protección" title="¿Ante quién se puede acudir?" action={["Ver los procedimientos", "/atlas/mechanisms"]}
+        note="Elija un Estado y, si quiere, un derecho: el orientador muestra qué procedimientos internacionales constan en los registros para ese Estado y qué requisitos fija cada norma. No valora casos ni pide datos personales.">
+        <GuideForm countries={countries} rights={rights} />
+      </Block>
+
+      <Container maxWidth="lg">
         <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 900, lineHeight: 1.7, pt: 3, borderTop: "1px solid", borderColor: "divider" }}>
           El Atlas separa siempre el texto jurídico oficial, las interpretaciones y decisiones de los órganos, la información procedimental oficial y las anotaciones de Blue Human. No interpreta las normas ni valora la admisibilidad de ningún caso. Datos actualizados el {longDate(report.run_at.slice(0, 10))} · <Link href="/atlas/sources">Fuentes, cobertura y límites</Link>
         </Typography>
@@ -189,8 +176,8 @@ export default async function AtlasHome() {
 // A section of the home page: overline, title, an optional short note and a link to go further.
 function Block({ id, overline, title, note, action, children }: { id: string; overline: string; title: string; note?: string; action?: [string, string]; children: React.ReactNode }) {
   return (
-    <Container id={id} component="section" aria-labelledby={`${id}-heading`} maxWidth="lg" sx={{ py: { xs: 4.5, md: 6.5 }, scrollMarginTop: { xs: 58, md: 72 } }}>
-      <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-end", gap: 2, mb: note ? 1.5 : 3 }}>
+    <Container id={id} component="section" aria-labelledby={`${id}-heading`} maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 }, scrollMarginTop: { xs: 58, md: 72 } }}>
+      <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-end", gap: 2, mb: note ? 1.25 : 3 }}>
         <Box>
           <Typography variant="overline" color="text.secondary">{overline}</Typography>
           <Typography id={`${id}-heading`} variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.6rem", md: "2rem" }, mt: .5 }}>{title}</Typography>
@@ -200,22 +187,5 @@ function Block({ id, overline, title, note, action, children }: { id: string; ov
       {note && <Typography color="text.secondary" sx={{ maxWidth: 820, lineHeight: 1.7, mb: 3, fontSize: ".95rem" }}>{note}</Typography>}
       {children}
     </Container>
-  );
-}
-
-// Meridians and parallels behind the hero: the Atlas as a map of the law, drawn faintly.
-function Graticule() {
-  return (
-    <Box component="svg" aria-hidden viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet" sx={{ position: "absolute", right: { xs: -260, md: -120 }, top: { xs: -40, md: -90 }, width: { xs: 520, md: 760 }, height: { xs: 520, md: 760 }, opacity: { xs: .1, md: .16 }, pointerEvents: "none" }}>
-      <g fill="none" stroke="#fff" strokeWidth="1.2">
-        <circle cx="300" cy="300" r="290" />
-        {[70, 140, 210].map((rx) => <ellipse key={rx} cx="300" cy="300" rx={rx} ry="290" />)}
-        {[-210, -140, -70, 0, 70, 140, 210].map((y) => {
-          const half = Math.sqrt(290 ** 2 - y ** 2);
-          return <line key={y} x1={300 - half} x2={300 + half} y1={300 + y} y2={300 + y} />;
-        })}
-      </g>
-      <line x1="10" x2="590" y1="300" y2="300" stroke={brand.accent} strokeWidth="2" />
-    </Box>
   );
 }

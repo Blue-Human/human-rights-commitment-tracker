@@ -5,7 +5,7 @@ import { getBodies, getCountries } from "@/lib/atlas/data";
 import { systemNames, systemOrder } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Buscar | Human Rights Atlas",
+  title: "Buscar | Atlas | Human Rights Commitment Institute",
   description: "Búsqueda en los instrumentos, artículos, países, órganos, procedimientos, interpretaciones, decisiones y anotaciones del Atlas.",
 };
 

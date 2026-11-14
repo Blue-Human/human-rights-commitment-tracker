@@ -2,7 +2,7 @@
 // defines it; none adds a legal effect. No dependencies, so server and client components share it.
 import type { AcceptanceStatus, Instrument, InstrumentKind, MatrixCell, StatusCode, SystemCode } from "./types";
 
-export const ATLAS = "Human Rights Atlas";
+export const ATLAS = "Atlas";
 export const BASE = "/atlas";
 
 export const systemNames: Record<SystemCode, string> = {

@@ -8,7 +8,7 @@ import { getCountries, getInstruments, getMatrix } from "@/lib/atlas/data";
 import { countryPath, systemShort } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Países | Human Rights Atlas",
+  title: "Países | Atlas | Human Rights Commitment Institute",
   description: "Ficha de cada Estado: tratados firmados, ratificados o a los que se ha adherido, reservas, declaraciones y procedimientos aceptados, según los registros oficiales.",
 };
 

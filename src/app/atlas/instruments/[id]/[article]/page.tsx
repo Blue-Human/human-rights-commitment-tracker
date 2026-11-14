@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const data = await load(id, article);
   if (!data) return {};
   return {
-    title: `${data.node.label}${data.node.heading ? `. ${data.node.heading}` : ""} · ${instrumentTitle(data.instrument)} | Human Rights Atlas`,
+    title: `${data.node.label}${data.node.heading ? `. ${data.node.heading}` : ""} · ${instrumentTitle(data.instrument)} | Atlas | Human Rights Commitment Institute`,
     description: (data.node.paragraphs.map((p) => p.text).join(" ").slice(0, 200) || data.node.label),
   };
 }

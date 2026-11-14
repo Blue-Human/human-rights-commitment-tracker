@@ -7,7 +7,7 @@ import { getBodies } from "@/lib/atlas/data";
 import { bodyPath, natureNames, systemNames, systemOrder } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Órganos | Human Rights Atlas",
+  title: "Órganos | Atlas | Human Rights Commitment Institute",
   description: "Tribunales, comités y comisiones de derechos humanos de las Naciones Unidas, el Consejo de Europa, la OEA y la Unión Africana: base jurídica, composición y competencias.",
 };
 

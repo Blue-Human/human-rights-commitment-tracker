@@ -46,7 +46,7 @@ export const sitePages: SearchEntry[] = [
   { kind: "page", title: "Historial y correcciones", href: "/methodology#historial", note: "Metodología", text: "Integridad del registro: historial de valoraciones, correcciones y derecho de réplica." },
   { kind: "page", title: "Contacto", href: "/contact", text: "Formulario de contacto y correo electrónico para consultas, correcciones, nuevas evidencias, derecho de réplica, medios de comunicación y colaboración." },
   { kind: "page", title: "Open HRCI", href: "/open", text: "Fuentes, método, datos abiertos y código del HRCI: archivos de datos y repositorio en GitHub." },
-  { kind: "page", title: "Human Rights Atlas", href: "/atlas", text: "Atlas de los derechos humanos: tratados, artículos, ratificaciones, reservas, órganos y mecanismos internacionales de protección, con su texto oficial." },
+  { kind: "page", title: "Atlas de los derechos humanos", href: "/atlas", text: "Atlas de los derechos humanos: tratados, artículos, ratificaciones, reservas, órganos y mecanismos internacionales de protección, con su texto oficial." },
   { kind: "page", title: "Instrumentos de derechos humanos", href: "/atlas/instruments", note: "Atlas", text: "Biblioteca de tratados, protocolos, declaraciones y reglamentos, legibles artículo por artículo." },
   { kind: "page", title: "Explorador de derechos", href: "/atlas/topics", note: "Atlas", text: "Derecho a la vida, prohibición de la tortura, libertad de expresión, educación, salud y otros derechos." },
   { kind: "page", title: "Mecanismos de protección", href: "/atlas/mechanisms", note: "Atlas", text: "Comunicaciones individuales, peticiones, demandas, reclamaciones colectivas: requisitos, plazos y canales oficiales." },

@@ -8,7 +8,7 @@ import { getBodies, getCountries, getProcedures, getRights } from "@/lib/atlas/d
 import { procedureKinds, procedurePath, startedByPeople, systemNames, systemOrder } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Mecanismos de protección | Human Rights Atlas",
+  title: "Mecanismos de protección | Atlas | Human Rights Commitment Institute",
   description: "Cómo funcionan los procedimientos internacionales de protección de los derechos humanos: quién puede acudir, requisitos de admisibilidad, plazos y canales oficiales, con la cita de cada norma.",
 };
 

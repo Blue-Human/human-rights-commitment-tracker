@@ -6,7 +6,7 @@ import { RecordDisclosure } from "@/components/RecordDisclosure";
 import { getRights } from "@/lib/atlas/data";
 
 export const metadata: Metadata = {
-  title: "Derechos | Human Rights Atlas",
+  title: "Derechos | Atlas | Human Rights Commitment Institute",
   description: "Explorar el derecho internacional de los derechos humanos a partir de un derecho: artículos que lo reconocen, interpretaciones de los comités y mecanismos de protección.",
 };
 

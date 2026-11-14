@@ -23,7 +23,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ iso3: string }> }): Promise<Metadata> {
   const country = await getCountry((await params).iso3);
   return country ? {
-    title: `${country.name_es || country.name_en} | Human Rights Atlas`,
+    title: `${country.name_es || country.name_en} | Atlas | Human Rights Commitment Institute`,
     description: `Tratados de derechos humanos firmados, ratificados o a los que se ha adherido ${country.name_es || country.name_en}, sus reservas y declaraciones y los procedimientos que ha aceptado, según los registros oficiales.`,
   } : {};
 }

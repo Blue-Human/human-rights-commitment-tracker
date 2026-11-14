@@ -8,7 +8,7 @@ import { getBodies, getDecisions, getInterpretations } from "@/lib/atlas/data";
 import { articlePath, bodyPath, longDate, shortDate } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Jurisprudencia e interpretaciones | Human Rights Atlas",
+  title: "Jurisprudencia e interpretaciones | Atlas | Human Rights Commitment Institute",
   description: "Observaciones y recomendaciones generales de los comités de las Naciones Unidas y decisiones sobre comunicaciones relativas a España, con su símbolo oficial.",
 };
 

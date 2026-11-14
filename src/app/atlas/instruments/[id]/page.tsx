@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const instrument = await getInstrument((await params).id);
   if (!instrument) return {};
   return {
-    title: `${instrumentTitle(instrument)} | Human Rights Atlas`,
+    title: `${instrumentTitle(instrument)} | Atlas | Human Rights Commitment Institute`,
     description: `${kindNames[instrument.kind]} · ${systemNames[instrument.system]}. Texto, estado de ratificación, reservas y órganos de supervisión, con la fuente oficial de cada dato.`,
   };
 }
@@ -132,7 +132,7 @@ export default async function InstrumentPage({ params }: { params: Promise<{ id:
         </Box>
         <Box sx={{ mt: 2.5 }}>
           <CiteTools data={{
-            citation: `${title}${instrument.concluded ? `, ${longDate(instrument.concluded)}` : instrument.done_es ? `, ${instrument.done_es}` : ""}.${partiesLine(instrument) ? ` ${partiesLine(instrument)}.` : ""} Human Rights Atlas (HRCI).`,
+            citation: `${title}${instrument.concluded ? `, ${longDate(instrument.concluded)}` : instrument.done_es ? `, ${instrument.done_es}` : ""}.${partiesLine(instrument) ? ` ${partiesLine(instrument)}.` : ""} Atlas del Human Rights Commitment Institute (HRCI).`,
             permalink: instrumentPath(id),
             bib: { key: id, title, organization: instrument.depositary || systemNames[instrument.system], year: year(instrument.concluded), date: instrument.concluded, url: registryLinks(instrument)[0]?.href, note: kindNames[instrument.kind] },
           }} />

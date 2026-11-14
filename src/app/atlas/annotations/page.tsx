@@ -8,7 +8,7 @@ import { annotationKinds, getPublishedAnnotations } from "@/lib/atlas/annotation
 export const revalidate = 300;
 
 export const metadata: Metadata = {
-  title: "Anotaciones | Human Rights Atlas",
+  title: "Anotaciones | Atlas | Human Rights Commitment Institute",
   description: "Notas firmadas del equipo de Blue Human sobre instrumentos y artículos, separadas del texto oficial y de las interpretaciones de los órganos.",
 };
 

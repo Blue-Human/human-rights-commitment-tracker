@@ -8,7 +8,7 @@ import { getAcceptance, getCountries, getInstruments, getMatrix } from "@/lib/at
 import { cellLabel, cellStatus, countryPath, instrumentPath, instrumentTitle, shortDate, statusTones, systemNames, systemOrder } from "@/lib/atlas/labels";
 
 export const metadata: Metadata = {
-  title: "Comparar Estados | Human Rights Atlas",
+  title: "Comparar Estados | Atlas | Human Rights Commitment Institute",
   description: "Comparación de la situación de varios Estados en los tratados de derechos humanos, sus protocolos y los procedimientos aceptados, según los registros oficiales.",
 };
 
