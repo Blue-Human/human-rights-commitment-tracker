@@ -1,0 +1,230 @@
+import { test,after } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { PGlite } from '@electric-sql/pglite';
+import { normalizeSeed } from '../scripts/import-indicators.mjs';
+import {loadHistory,historySql} from '../scripts/historical-indicators.mjs';
+
+// Isolated synthetic schema fixture reflecting inspected production column types. Never deployed.
+const db = new PGlite();
+after(()=>db.close());
+const seed = normalizeSeed(JSON.parse(await readFile(new URL('../data/indicators/spain-upr4.v1.json',import.meta.url)))).payload;
+const q=(sql,params=[])=>db.query(sql,params);
+const id = '10000000-0000-0000-0000-000000000001';
+let indicator,component,value,legacy;
+async function setup(database) {
+  await database.exec(`
+    create role anon; create role authenticated; create role service_role bypassrls;
+    alter default privileges grant all on tables to anon,authenticated;
+    alter default privileges grant all on sequences to anon,authenticated;
+    create table countries(id uuid primary key default gen_random_uuid(),iso2 text unique);
+    create table mechanisms(id uuid primary key default gen_random_uuid(),code text);
+    create table sources(id uuid primary key default gen_random_uuid(),document_reference text);
+    create table commitments(id uuid primary key default gen_random_uuid(),public_id text, country_id uuid references countries,mechanism_id uuid references mechanisms,source_id uuid references sources,recommendation_number text,publication_status text);
+    create table evidence(id uuid primary key);
+    create table actions(id uuid primary key);
+    create table indicators(id uuid primary key default gen_random_uuid(),action_id uuid references actions,commitment_id uuid not null references commitments,name text not null,description text,indicator_type text,unit text,target_value text,target_date date,created_at timestamptz not null default now());
+    alter table commitments enable row level security;
+    create policy commitments_public_read on commitments for select to anon,authenticated using(publication_status='published');
+    alter table indicators enable row level security;
+    create policy indicators_public_read on indicators for select to anon,authenticated using(true);
+    grant select on countries,commitments to anon,authenticated;
+    grant all on countries,mechanisms,sources,commitments to service_role;
+    insert into countries(iso2) values('ES'),('FR');insert into mechanisms(code) values('UPR');
+    insert into sources(document_reference) values('A/HRC/60/8'),('OTHER');
+    insert into commitments(id,public_id,country_id,mechanism_id,source_id,recommendation_number,publication_status)
+      select case when n=10 then '${id}'::uuid else gen_random_uuid() end,'FIXTURE-ES-UPR4-50.'||n,co.id,m.id,s.id,'50.'||n,'published' from generate_series(1,324) n,countries co,mechanisms m,sources s where co.iso2='ES' and s.document_reference='A/HRC/60/8';
+    insert into commitments(public_id,country_id,mechanism_id,source_id,recommendation_number,publication_status)
+      select 'TEST-50.10',co.id,m.id,s.id,'50.10','published' from countries co,mechanisms m,sources s where co.iso2='ES' and s.document_reference='A/HRC/60/8';
+    insert into indicators(commitment_id,name,description,target_value) values('${id}','Legacy fixture','Pending legacy review','100');
+  `);
+  for(const filename of ['20261004093520_visual_indicators.sql','20261004093818_indicator_import_review.sql','20261004105020_public_indicator_proposals.sql','20261004114405_public_indicator_overview.sql']) await database.exec(await readFile(new URL(`../supabase/migrations/${filename}`,import.meta.url),'utf8'));
+}
+test('official history import is atomic, idempotent and publicly scoped',async()=>{
+  const database=new PGlite();
+  try {
+    await setup(database);
+    await database.exec('set role service_role');
+    await database.query('select hrct_import_indicators($1::jsonb,true)',[JSON.stringify(seed)]);
+    await database.exec(await readFile(new URL('../scripts/approve-indicator-annex.sql',import.meta.url),'utf8'));
+    const history=await loadHistory(),sql=historySql(history);
+    await database.exec(sql);
+    const count=async()=>Number((await database.query('select count(*) n from indicator_values')).rows[0].n);
+    assert.equal(await count(),239);
+    const audit=Number((await database.query('select count(*) n from indicator_audit')).rows[0].n);
+    await database.exec(sql);
+    assert.equal(await count(),239);
+    assert.equal(Number((await database.query('select count(*) n from indicator_audit')).rows[0].n),audit);
+    const conflicting={...history,values:history.values.map((v,i)=>i===10?{...v,numeric_value:999}:v)};
+    await assert.rejects(database.exec(historySql(conflicting)),/Published observation conflict/);
+    await database.exec('rollback');
+    assert.equal(await count(),239);
+    await database.exec('reset role;set role anon');
+    const overview=(await database.query('select hrct_public_indicator_overview(true) result')).rows[0].result;
+    assert.equal(overview.observation_count,239);assert.equal(overview.indicator_count,16);assert.equal(overview.recommendation_count,86);
+    assert.equal(overview.cards.length,16);
+    assert.doesNotMatch(JSON.stringify(overview),/authored_by|reviewed_by|import_metadata|TEST-50/);
+    const data=(await database.query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.10',true) result")).rows[0].result;
+    assert.equal(data.values.length,5);assert.equal(data.latest[0].numeric_value,21082664.49);
+    await database.exec('reset role;set role service_role');
+    const housing=await loadHistory(new URL('../data/indicators/history-housing-2026-10-04/',import.meta.url));
+    await database.exec(historySql(housing));await database.exec(historySql(housing));
+    assert.equal(await count(),250);
+    await database.exec('reset role;set role anon');
+    const housingData=(await database.query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.132',true) result")).rows[0].result;
+    assert.equal(housingData.values.length,11);
+    assert.equal(housingData.latest.find(v=>v.period_start==='2020-01-01').numeric_value,290000);
+    assert.equal(housingData.latest.find(v=>v.period_start==='2024-01-01').numeric_value,14371);
+    const updated=(await database.query('select hrct_public_indicator_overview(true) result')).rows[0].result;
+    assert.equal(updated.indicator_count,18);assert.equal(updated.recommendation_count,91);
+    assert.doesNotMatch(JSON.stringify(housingData),/authored_by|reviewed_by|import_metadata/);
+    await assert.rejects(database.query('delete from indicator_values'),/permission denied/);
+  } finally {await database.close();}
+});
+test('migrations, seed, RLS, shared observations, revisions and scoped targets',async()=>{
+  await setup(db);
+  await db.exec('set role service_role');
+  const rpc=async(write)=> (await q('select hrct_import_indicators($1::jsonb,$2) as result',[JSON.stringify(seed),write])).rows[0].result;
+  assert.equal((await rpc(false)).validated,true);
+  assert.equal((await q('select count(*)::int n from indicators')).rows[0].n,1);
+  assert.equal((await rpc(true)).inserted_indicators,98);
+  assert.equal((await rpc(true)).inserted_indicators,0);
+  assert.equal((await q('select count(*)::int n from recommendation_indicators')).rows[0].n,429);
+  assert.equal((await q('select count(*)::int n from recommendation_indicator_requirements')).rows[0].n,324);
+  assert.equal((await q("select count(*)::int n from recommendation_indicators l join commitments c on c.id=l.commitment_id where c.public_id like 'TEST%'")).rows[0].n,0);
+  // A published human decision and rationale survive reimport.
+  await q("update recommendation_indicator_requirements set reason='Human decision',editorial_status='published',reviewed_by='Reviewer',reviewed_at=now() where commitment_id=$1",[id]);
+  await rpc(true);
+  assert.equal((await q('select reason from recommendation_indicator_requirements where commitment_id=$1',[id])).rows[0].reason,'Human decision');
+  await db.exec('reset role;set role anon');
+  const publicBundle=async(publicId='FIXTURE-ES-UPR4-50.10',all=false)=>(await q('select hrct_public_indicators($1,$2) as result',[publicId,all])).rows[0].result;
+  assert.equal((await publicBundle()).links.length,0);
+  assert.equal((await publicBundle()).requirement,'required');
+  assert.deepEqual((await publicBundle()).annex.indicators.map(i=>i.code),['INST-001']);
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex.indicators[0].code,'MIG-010');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.1')).annex.requirement,'not_required');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.1')).annex.indicators.length,0);
+  assert.equal((await publicBundle('TEST-50.10')).annex,null);
+  assert.equal((await publicBundle('NONEXISTENT')).annex,null);
+  await assert.rejects(q('select import_metadata from indicators'),/permission denied/);
+  await assert.rejects(q('select * from indicator_audit'),/permission denied/);
+  await assert.rejects(q("select nextval('indicator_audit_id_seq')"),/permission denied/);
+  await assert.rejects(q('delete from indicator_values'),/permission denied/);
+  await assert.rejects(rpc(true),/permission denied/);
+  await db.exec('reset role;set role authenticated');
+  assert.equal((await publicBundle()).links.length,0);
+  await assert.rejects(q('insert into indicator_components(indicator_id,code,label,unit,value_type,definition) values(gen_random_uuid(),\'TEST\',\'TEST\',\'%\',\'numeric\',\'TEST\')'),/permission denied/);
+  await assert.rejects(q('select reviewed_by from recommendation_indicators'),/permission denied/);
+  await db.exec('reset role;set role service_role');
+  // Public preview is the original annex, never a private draft's current fields.
+  await q("update indicators set name='PRIVATE draft',description='SECRET notes' where code='MIG-010'");
+  await q("update recommendation_indicator_requirements set reason='PRIVATE rationale' where commitment_id=(select id from commitments where public_id='FIXTURE-ES-UPR4-50.62')");
+  await q("update recommendation_indicators set rationale='PRIVATE link rationale' where indicator_id=(select id from indicators where code='MIG-010')");
+  await db.exec('reset role;set role anon');
+  const preview=await publicBundle('FIXTURE-ES-UPR4-50.62');
+  assert.doesNotMatch(JSON.stringify(preview),/PRIVATE|SECRET|import_metadata|reviewed_by|baseline_rule|target_rule/);
+  assert.equal(preview.links.length,0);assert.equal(preview.values.length,0);
+  assert.equal(preview.annex.indicators[0].name,seed.indicators.find(i=>i.indicator_code==='MIG-010').indicator_name);
+  await db.exec('reset role;set role service_role');
+  await q("update commitments set publication_status='draft' where public_id='FIXTURE-ES-UPR4-50.62'");
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex,null);
+  await db.exec('reset role;set role service_role');
+  await q("update commitments set publication_status='published' where public_id='FIXTURE-ES-UPR4-50.62'");
+  await q("update indicators set active=false where code='MIG-010'");
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex.indicators.length,0);
+  await db.exec('reset role;set role service_role');
+  await q("update indicators set active=true where code='MIG-010'");
+  // A published decision that indicators are not needed overrides the annex.
+  await q("update recommendation_indicator_requirements set indicator_requirement='not_required',editorial_status='published',reviewed_by='Reviewer',reviewed_at=now() where commitment_id=(select id from commitments where public_id='FIXTURE-ES-UPR4-50.62')");
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.62')).annex,null);
+  await db.exec('reset role;set role service_role');
+  assert.equal((await q("select hrct_import_indicators('{}',true) as result")).rows[0].result.written,false);
+  indicator=(await q("select id from indicators where code='INST-001'")).rows[0].id;
+  component=(await q("select id from indicator_components where indicator_id=$1 and unit='EUR'",[indicator])).rows[0].id;
+  await q("update indicators set editorial_status='published',reviewed_by='Reviewer',reviewed_at=now() where id=$1",[indicator]);
+  await q("update indicator_components set editorial_status='published' where id=$1",[component]);
+  await q("update recommendation_indicators set editorial_status='published',reviewed_by='Reviewer',reviewed_at=now() where indicator_id=$1",[indicator]);
+  await q("insert into recommendation_indicators(commitment_id,indicator_id,role,rationale,editorial_status,reviewed_by,reviewed_at) select id,$1,'supporting','Synthetic shared-series fixture','published','Reviewer',now() from commitments where public_id='FIXTURE-ES-UPR4-50.11'",[indicator]);
+  const year=new Date().getUTCFullYear();
+  async function add(year,valueNumber=0,scope={territory:'national',population:'all'},unit='EUR',country='ES') {
+    return (await q(`insert into indicator_values(indicator_id,component_id,country_iso2,scope,period_start,period_end,numeric_value,unit,source_url,source_title,citation,publication_date,retrieved_at,series_key,methodology_version,authored_by)
+      values($1,$2,$3,$4::jsonb,$5,$6,$7,$8,'https://example.test/synthetic','Synthetic TEST source','Isolated fixture, never production',$6,now(),'test-series','v1','Test author') returning id`,[indicator,component,country,JSON.stringify(scope),`${year}-01-01`,`${year}-12-31`,valueNumber,unit])).rows[0].id;
+  }
+  value=await add(year-1);
+  await assert.rejects(add(year-2,1,undefined,'FTE'),/unit differs/);
+  await assert.rejects(q("update indicator_values set numeric_value=null,boolean_value=false where id=$1",[value]),/type differs/);
+  await db.exec('reset role;set role anon');assert.equal((await publicBundle()).values.length,0);
+  await db.exec('reset role;set role service_role');
+  await q('select hrct_publish_indicator_value($1,$2,$3)',[value,'Reviewer','Explicit fixture source selection']);
+  const old=await add(year-7,100),foreign=await add(year-1,20,undefined,'EUR','FR');
+  await q('select hrct_publish_indicator_value($1,$2,$3)',[old,'Reviewer','Old fixture']);await q('select hrct_publish_indicator_value($1,$2,$3)',[foreign,'Reviewer','Foreign fixture']);
+  await db.exec('reset role;set role anon');
+  let bundle=await publicBundle();assert.equal(bundle.values.length,1);assert.equal(bundle.values[0].numeric_value,0);assert.equal(bundle.has_older,true);
+  assert.equal(bundle.annex.indicators.length,0); // Reviewed assignments are not duplicated as proposals.
+  assert.equal((await publicBundle(undefined,true)).values.length,2);
+  assert.equal((await publicBundle('FIXTURE-ES-UPR4-50.11')).values[0].id,value);
+  assert.equal((await publicBundle('TEST-50.10')).values.length,0);
+  await db.exec('reset role;set role service_role');
+  await assert.rejects(q('update indicator_values set numeric_value=12 where id=$1',[value]),/immutable/);
+  const correction=await add(year-1,12,{population:'all',territory:'national'});
+  await q('update indicator_values set supersedes_id=$1 where id=$2',[value,correction]);
+  await q('select hrct_publish_indicator_value($1,$2,$3)',[correction,'Reviewer','Corrected synthetic source']);
+  assert.equal((await q('select count(*)::int n from indicator_values where component_id=$1 and country_iso2=\'ES\' and is_current',[component])).rows[0].n,2);
+  await assert.rejects(q("update recommendation_indicators set target_value=1,target_type='absolute',target_operator='>=' where indicator_id=$1",[indicator]),/check constraint|Numeric target requires/);
+  await assert.rejects(q("update recommendation_indicators set baseline_value_id=$1,baseline_reason='fixture',component_id=$2,scope='{\"territory\":\"national\",\"population\":\"other\"}' where indicator_id=$3",[correction,component,indicator]),/exact scope/);
+  await q("update recommendation_indicators set component_id=$1,scope='{\"territory\":\"national\",\"population\":\"all\"}',baseline_value_id=$2,baseline_reason='Documented fixture choice',target_value=20,target_operator='>=',target_type='absolute',target_date=$3,target_source_url='https://example.test/target',target_citation='Synthetic target' where indicator_id=$4 and commitment_id=$5",[component,correction,`${year}-12-31`,indicator,id]);
+  await assert.rejects(q("update indicator_components set unit='FTE' where id=$1",[component]),/immutable/);
+  await db.exec('reset role;set role anon');
+  bundle=await publicBundle();assert.equal(bundle.latest[0].numeric_value,12);assert.equal(bundle.baselines[0].id,correction);
+  await db.exec('reset role;set role service_role');
+  assert.ok((await q('select count(*)::int n from indicator_audit')).rows[0].n>500);
+  await q("update recommendation_indicators set editorial_status='archived' where commitment_id=$1",[id]);await rpc(true);
+  assert.equal((await q("select count(*)::int n from recommendation_indicators where commitment_id=$1 and editorial_status='published'",[id])).rows[0].n,0);
+  await db.exec('reset role;set role anon');
+  assert.equal((await publicBundle()).annex.indicators.length,0); // Archive stays effective after reimport.
+  await db.exec('reset role;set role service_role');
+  // Missing recommendation aborts BEFORE writes.
+  const broken=structuredClone(seed);broken.recommendations[0].recommendation_number='50.999';
+  const report=(await q('select hrct_import_indicators($1,true) as result',[JSON.stringify(broken)])).rows[0].result;assert.equal(report.written,false);assert.ok(report.errors.length);
+});
+
+
+test('explicit owner approval publishes the exact annex once and preserves observations and legacy drafts',async()=>{
+  const approvedDb=new PGlite();
+  const query=(sql,params=[])=>approvedDb.query(sql,params);
+  try {
+    await setup(approvedDb);
+    await approvedDb.exec('set role service_role');
+    await query('select hrct_import_indicators($1,true)',[JSON.stringify(seed)]);
+    const before=(await query("select md5(string_agg(public_id||publication_status,',' order by public_id)) as snapshot from commitments")).rows[0].snapshot;
+    const approval=await readFile(new URL('../scripts/approve-indicator-annex.sql',import.meta.url),'utf8');
+    await approvedDb.exec(approval);
+    assert.equal((await query("select count(*)::int n from indicators where editorial_status='published'")).rows[0].n,98);
+    assert.equal((await query("select count(*)::int n from indicator_components where editorial_status='published'")).rows[0].n,149);
+    assert.equal((await query("select count(*)::int n from recommendation_indicators where editorial_status='published'")).rows[0].n,428);
+    assert.equal((await query("select count(*)::int n from recommendation_indicator_requirements where editorial_status='published'")).rows[0].n,324);
+    assert.equal((await query("select count(*)::int n from indicator_values")).rows[0].n,0);
+    assert.equal((await query("select count(*)::int n from indicators where code is null and editorial_status='draft'")).rows[0].n,1);
+    assert.equal((await query("select count(*)::int n from indicator_components where definition ilike '%pendiente de revisión%' or definition ilike '%pendiente de validación%' or definition ilike '%propuesta de componente%'")).rows[0].n,0);
+    assert.equal((await query("select md5(string_agg(public_id||publication_status,',' order by public_id)) as snapshot from commitments")).rows[0].snapshot,before);
+    const rows=(await query("select reviewed_at,reviewed_by,import_metadata->'approval' as approval from indicators where code='INST-001'")).rows;
+    assert.match(rows[0].reviewed_by,/aprobación explícita/);assert.ok(rows[0].reviewed_at);assert.match(rows[0].approval.basis,/responsable de HRCT/);
+    const audits=(await query('select count(*)::int n from indicator_audit')).rows[0].n;
+    await approvedDb.exec(approval);
+    await query('select hrct_import_indicators($1,true)',[JSON.stringify(seed)]);
+    assert.equal((await query('select count(*)::int n from indicator_audit')).rows[0].n,audits);
+    await approvedDb.exec('reset role;set role anon');
+    const bundle=(await query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.10') as bundle")).rows[0].bundle;
+    assert.equal(bundle.requirement,'required');assert.equal(bundle.links.length,1);assert.equal(bundle.components.length,2);assert.equal(bundle.values.length,0);
+    assert.equal(bundle.indicators[0].code,'INST-001');assert.equal(bundle.annex.indicators.length,0);
+    assert.doesNotMatch(JSON.stringify(bundle),/pending_review|pendiente|Propuesta de componente|reviewed_by|import_metadata/);
+    const documentary=(await query("select hrct_public_indicators('FIXTURE-ES-UPR4-50.1') as bundle")).rows[0].bundle;
+    assert.equal(documentary.requirement,'not_required');assert.equal(documentary.links.length,0);
+    await assert.rejects(query('select import_metadata from indicators'),/permission denied/);
+    assert.equal((await query('select count(*)::int n from recommendation_indicators')).rows[0].n,428);
+    await assert.rejects(approvedDb.exec(approval),/permission denied/);
+  } finally {await approvedDb.close();}
+});

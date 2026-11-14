@@ -1,0 +1,1463 @@
+{
+ "instrument": "un-crc-opic",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "27c896a5b8203275ba9f7899a8403931c02d7d1792536c21231ab123d2ad16ce"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Accession(a), Ratification"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, acceptance, accession or succession.)",
+   "entries": 17
+  },
+  {
+   "key": "Obj",
+   "title": "Objections",
+   "intro": "(Unless otherwise indicated, the objections were made upon ratification or accession.)",
+   "entries": 1
+  }
+ ],
+ "notes": {
+  "1": "1With Territorial exclusion with regard to Greenland and the Faroe Islands.",
+  "2": "2With territorial exclusion in respect of Tokelau (See C.N.303.2022.TREATIES-IV.11.d of 22 September 2022.)"
+ },
+ "participants": [
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-05-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 May 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“According to article 12, first paragraph of the Optional Protocol, the Republic of Albania hereby declares it accepts the competence of the committee to receive and examine the communications in which a State party claims that another State party does not meet its obligations under the instruments referred to in this paragraph [to] which the State is a party.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2013-05-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AND",
+   "name": "Andorra",
+   "signature": "2012-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Sep 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-09-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2012-07-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-04-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Apr 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-04-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": "2019-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-03-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Mar 2021"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-03-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-02-28",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-05-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 May 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Upon Signature"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“This signature engages also the French Community, the Flemish Community, the German-speaking Community, the Walloon Region, the Flemish Region and the Brussels-Capital Region.”\nUpon Ratification"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Kingdom of Belgium recognizes the competence of the Committee on the Rights of the Child to receive, pursuant to article 12 of the Optional Protocol, communications from a State party which claims that another State is not fulfilling its obligations."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2014-05-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-08-19",
+    "type": "ratification",
+    "code": null,
+    "raw": "19 Aug 2019"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-08-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-04-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Apr 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-04-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2017-07-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-05-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 May 2018"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-05-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-09-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Sep 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-09-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "2024-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2024-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-09-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Sep 2015"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Republic of Chile declares, in accordance to article 12, entitled Inter-State Communications, of the Optional Protocol to the Convention on the Rights of the Child on a communications procedure, that it recognizes the competence of the Committee to receive and consider communications in which a State party claims that another State party is not fulfilling its obligations under any of the following instruments to which the State is a party: the Convention; the Optional Protocol to the Convention on the sale of children, child prostitution and child pornography; and to the Optional Protocol to the Convention on the involvement of children in armed conflicts."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2015-09-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-01-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Jan 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-01-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": "2013-12-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-04-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Apr 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-04-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": "2012-07-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-09-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Sep 2017"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "14 September 2018\nWith regard to the declaration made by Turkey upon ratification:\n“The Republic of Cyprus has examined the Declaration made by the Republic of Turkey on the 26th of December 2017, upon ratifying the Optional Protocol to the Convention on the Rights of the Child on a communications procedure (2011), limiting the competence of the Committee on the Rights of the Child to those States Parties which it recognizes and with which it has diplomatic relations. In the view of the Republic of Cyprus, this Declaration amounts to a Reservation.\nTo this effect, the Republic of Cyprus would like to state that the Objections it has made in respect of the Declarations/Reservations of Turkey with regard to the Optional Protocol to the Convention on the Rights of the Child on the Involvement of Children in armed conflict and to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography, fully retain their validity and apply equally to the Reservation of Turkey in respect to the Optional Protocol to the Convention on the Rights of the Child on a communications procedure.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2017-09-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": "2015-04-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-12-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Dec 2015"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "20 May 2016\nPursuant to Article 12 (1) of the Optional Protocol to the Convention on the Rights of the Child on a Communication Procedure, the Czech Republic declares that it recognizes the competence of the Committee on the Rights of the Child to receive and consider communications according to this article."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2015-12-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-10-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Oct 2015 a"
+   },
+   "notes": [
+    "1"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-10-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2013-04-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-09-19",
+    "type": "ratification",
+    "code": null,
+    "raw": "19 Sep 2018"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-09-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "2013-07-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-02-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Feb 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-02-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2025-03-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Mar 2025 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Declaration made at the time of accession\n“In accordance with Article 12(1), the Republic of Estonia recognises the competence of the Committee on the Rights of the Child to receive and consider complaints under this provision.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2025-03-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-11-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Nov 2015"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“The Republic of Finland declares that it recognizes the competence of the Committee to receive and consider inter-state communications made against it provided for in Article 12 of the Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2015-11-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "2014-11-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-01-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Jan 2016"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-01-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Sep 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-09-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-09-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Sep 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-09-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-02-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Feb 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“The Federal Republic of Germany recognizes the competence of the Committee to receive and consider communications pursuant to Article 12(1) of the Optional Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2013-02-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": "2014-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-02-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Feb 2016"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "1 December 2016"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“... pursuant to Article 12 (1) of the Optional Protocol to the Convention on the Rights of the Child on a Communications Procedure, done at New York on 19 December 2011, the Italian Republic declares that it recognizes the competence of the Committee on the Rights of the Child to receive and consider communications in which a State party claims that another State party is not fulfilling its obligations under the instruments referred to in this Article.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2016-02-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": "2023-02-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-02-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Feb 2024"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2024-02-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-01-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Jan 2017"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\"According to article 12 of the Optional Protocol from 19 December 2011 to the Convention on the Rights of the Child on a communications procedure, the Principality of Liechtenstein declares that it recognises the competence of the Committee on the Rights of the Child to receive and consider communications in which a State party claims that the Principality of Liechtenstein does not fulfil its obligations under any of the following instruments: the Convention on the Rights of the Child, the Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict, or the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2017-01-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": "2015-09-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-10-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Oct 2022"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-10-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-02-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Feb 2016"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-02-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-09-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Sep 2019"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-09-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-02-28",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": "2012-04-18",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-04-18",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MHL",
+   "name": "Marshall Islands",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-01-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Jan 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-01-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "signature": "2012-08-13",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-08-13",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Sep 2014 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "Pursuant to Article 13, paragraph 7, of the Protocol, the Principality of Monaco wishes to indicate that it does not recognize the competence of the Committee provided for in the present article in respect of the rights set forth in the Convention on the Rights of the Child, the Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict and the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2014-09-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": "2013-10-04",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-09-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Sep 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-09-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-02-28",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-09-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Sep 2022 a"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-09-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": "2012-05-23",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-05-23",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-02-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Feb 2017 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-02-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "2012-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-01-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Jan 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-01-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-01-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Jan 2016"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-01-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": "2013-09-30",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-09-30",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "“The Portuguese Republic declares that it recognizes the competence of the Committee on the Rights of the Child in accordance and for the purposes of article twelve of the Optional Protocol to the Convention on the Rights of the Child on a communications procedure, adopted in New York, on the nineteenth of December of two thousand and eleven.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-09-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Sep 2023 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2023-09-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": "2012-06-13",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-06-13",
+    "type": null
+   }
+  },
+  {
+   "iso3": "WSM",
+   "name": "Samoa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-04-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Apr 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-04-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-09-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Sep 2018 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "17 May 2021\nDeclaration under article 12\nThe Republic of San Marino declares, in accordance with article 12 of the Optional Protocol to the Convention on the Rights of the Child on a communications procedure, that it recognizes the competence of the Committee on the Rights of the Child to receive and consider communications in which a State Party claims that the Republic of San Marino does not fulfil its obligations under the Convention on the Rights of the Child, the Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict or the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2018-09-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "2012-10-01",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-10-01",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2026-08-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Aug 2026"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2026-08-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-06-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Jun 2021"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-06-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-12-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Dec 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“The Slovak Republic recognizes the competence of the Committee on the Rights of the Child to receive and consider communications pursuant to Article 12 (1) of the Optional Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2013-12-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-05-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 May 2018"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“Pursuant to Article 12, paragraph 1, of the said Protocol, the Republic of Slovenia declares that it recognises the competence of the Committee on the Rights of the Child to receive and consider communications in which a State party claims that another State party is not fulfilling its obligations under the instruments in this paragraph.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2018-05-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-06-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Jun 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-06-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-04-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Apr 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-04-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-04-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Apr 2017 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "Pursuant to article 12 (1) of the Protocol, Switzerland recognizes the competence of the Committee to receive and consider communications under this provision."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2017-04-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "THA",
+   "name": "Thailand",
+   "signature": "2012-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Sep 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-09-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-12-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Dec 2018 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-12-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TUR",
+   "name": "Türkiye",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-12-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Dec 2017"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Republic of Turkey declares with regard to the competence of the Committee on the Rights of the Child as provided for by the Optional Protocol to the Convention on the Rights of the Child on a communications procedure, that the reservations and declarations it made to the Convention on the Rights of the Child, to the Optional Protocol to the Convention on the Rights of the Child on the Involvement of Children in armed conflict and to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography fully retain their validity."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2017-12-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": "2014-11-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-09-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Sep 2016"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "Ukraine states that for the period of temporary occupation of a part of the territory of Ukraine – the Autonomous Republic of Crimea and the city of Sevastopol – as a result of the armed aggression of the Russian Federation and until complete restoration of the constitutional order and effective control by Ukraine over such occupied territory, as well as over certain districts of the Donetsk and Luhansk oblasts of Ukraine, the application and/or implementation by Ukraine of the obligations under the Optional Protocol to the Convention on the Rights of the Child on a communications procedure, as applied to the aforementioned occupied and uncontrolled territory of Ukraine, is limited and is not guaranteed."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2016-09-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "2012-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-02-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Feb 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-02-23",
+    "type": "ratification"
+   }
+  }
+ ]
+}

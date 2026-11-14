@@ -1,0 +1,1383 @@
+{
+ "instrument": "un-crc-opic-rules",
+ "authority": "body",
+ "lang": "es",
+ "title": "Reglamento",
+ "source": {
+  "publisher": "Naciones Unidas",
+  "document": "Reglamento (CRC/C/158)",
+  "identifier": "CRC/C/158",
+  "url": "https://documents.un.org/api/symbol/access?s=CRC/C/158&l=es&t=pdf",
+  "retrieved": "2026-11-09",
+  "sha256": "2e696094efa6955cce1ee91dbf6b57f92bf4d1f0586e78ebf47f963f366c8e1d",
+  "method": "un-pdf"
+ },
+ "versions": [],
+ "preamble": [],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-parte-primera",
+   "level": 1,
+   "label": "Parte Primera",
+   "title": "Disposiciones generales",
+   "text": [
+    "Las disposiciones generales se aplicarán a todos los procedimientos, ya se trate de comunicaciones individuales, procedimientos de investigación o comunicaciones entre Estados."
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-i",
+   "level": 2,
+   "label": "I.",
+   "title": "Principios generales de funcionamiento del Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": "Principios generales",
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. En el cumplimiento de todas las funciones que le confiere el Protocolo Facultativo de la Convención sobre los Derechos del Niño relativo a un procedimiento de comunicaciones, el Comité se guiará por el principio del interés superior del niño. También tendrá en cuenta los derechos y las opiniones del niño o los niños interesados, y dará a esas opiniones el debido peso, en consonancia con la edad y la madurez del niño o los niños.",
+     "number": "1"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "2. A tal fin, el Comité tomará todas las medidas apropiadas para asegurar que el niño o los niños no sean objeto de presiones o incitaciones indebidas de quienes actúen en su nombre.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": "Principio de celeridad",
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "En el marco de las medidas emprendidas en virtud del Protocolo Facultativo y en todas las etapas del procedimiento, el Comité tramitará las comunicaciones con celeridad y evitará toda demora innecesaria. También alentará a las partes a que eviten toda demora innecesaria."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": "Privacidad",
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "La identidad de toda persona o grupo de personas afectadas por cualquier medida emprendida en virtud del Protocolo Facultativo no será revelada públicamente sin su consentimiento expreso."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": "Medidas de protección",
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "Si el Comité recibe información fidedigna que indique que un Estado parte no ha cumplido sus obligaciones dimanantes del artículo 4, párrafo 1, del Protocolo Facultativo de adoptar todas las medidas que procedan para que las personas sujetas a su jurisdicción no sean objeto de ninguna violación de sus derechos humanos, maltrato o intimidación como consecuencia de haberse comunicado con el Comité o de haber cooperado con él, podrá solicitar al Estado parte que adopte y tome con urgencia todas las medidas que procedan para poner fin al incumplimiento denunciado y presente por escrito al Comité explicaciones y aclaraciones al respecto. El cumplimiento de esa solicitud será vigilado. El Comité también podrá formular declaraciones públicas al respecto y tomar las medidas que procedan."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-ii",
+   "level": 2,
+   "label": "II.",
+   "title": "Métodos de trabajo"
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": "Registro de las actividades emprendidas en el marco del Protocolo Facultativo",
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "El Secretario General llevará un registro permanente de todas las comunicaciones individuales, la información que indique violaciones graves o sistemáticas por un Estado parte y las comunicaciones entre Estados señaladas a la atención del Comité y pondrá toda la información, en el idioma en que se haya presentado, a la disposición de cualquier miembro del Comité que lo solicite."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": "Grupos de trabajo y relatores/as",
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. El Comité podrá establecer grupos de trabajo y podrá nombrar a relatores/as para que le formulen recomendaciones y le presten asistencia en cualquier forma que el Comité decida.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. El reglamento del Comité será aplicable, cuando proceda, a las sesiones de los grupos de trabajo establecidos en virtud del presente artículo y a las actividades de los/las relatores/as nombrados/as.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": "Medidas provisionales",
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. En cualquier momento del procedimiento y antes de llegar a una decisión sobre el fondo de una comunicación individual o una comunicación entre Estados, o sobre las conclusiones de una investigación, el Comité podrá dirigir al Estado parte interesado, para que este la estudie con urgencia, la solicitud de que adopte las medidas provisionales que puedan ser necesarias en circunstancias excepcionales para evitar posibles daños irreparables a la víctima o las víctimas de la presunta violación.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. El Comité podrá designar a un/a relator/a o un grupo de trabajo que, en nombre del Comité, podrá solicitar al Estado parte interesado que adopte las medidas provisionales que el/la relator/a o el grupo de trabajo considere necesarias para evitar posibles daños irreparables a la víctima o las víctimas de la presunta violación. Posteriormente, el/la relator/a o el grupo de trabajo informará al Comité, a la mayor brevedad, de las medidas adoptadas en ese sentido.",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "3. Cuando el Comité solicite la adopción de medidas provisionales en virtud del párrafo 1 del presente artículo, en la solicitud constará que esa acción no entraña juicio alguno del Comité sobre la admisibilidad ni sobre el fondo de la comunicación individual o la comunicación entre Estados, o sobre las conclusiones del procedimiento de investigación.",
+     "number": "3"
+    },
+    {
+     "id": "art-7-p4",
+     "text": "4. El Comité, el/la relator/a o el grupo de trabajo vigilará el cumplimiento de su solicitud de medidas provisionales y podrá pedir al Estado parte que adopte y tome todas las medidas que procedan para dar cumplimiento a esa solicitud. El Comité, el/la relator/a o el grupo de trabajo también podrá formular declaraciones públicas en ese contexto.",
+     "number": "4"
+    },
+    {
+     "id": "art-7-p5",
+     "text": "5. En cualquier etapa de las actuaciones, el Estado parte interesado podrá aducir argumentos si considera que se debe retirar la solicitud de medidas provisionales o que esa solicitud ya no está justificada.",
+     "number": "5"
+    },
+    {
+     "id": "art-7-p6",
+     "text": "6. El Comité, el/la relator/a o el grupo de trabajo podrá retirar una solicitud de medidas provisionales, en cualquier etapa de las actuaciones, sobre la base de la información recibida de las partes interesadas en la comunicación individual, el procedimiento de investigación o la comunicación entre Estados.",
+     "number": "6"
+    },
+    {
+     "id": "art-7-p7",
+     "text": "7. Cuando el Comité, el/la relator/a o el grupo de trabajo haya solicitado medidas provisionales, el Comité agilizará el examen de la comunicación individual o la comunicación entre Estados, o la investigación.",
+     "number": "7"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": "Circunstancias en que un miembro no podrá participar en el procedimiento",
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. No participará, estará presente ni influirá en el procedimiento de modo alguno el miembro que:",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "a) Sea nacional del Estado contra el que se dirige el asunto;"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "b) Tenga un interés personal o profesional en el asunto, o cualquier otro conflicto de intereses real o supuesto;"
+    },
+    {
+     "id": "art-8-p4",
+     "text": "c) Haya participado, por cualquier concepto, en la preparación y adopción de cualquier decisión sobre la comunicación, a menos que sea con arreglo a los procedimientos aplicables al Protocolo Facultativo, la Convención o sus Protocolos Facultativos sustantivos."
+    },
+    {
+     "id": "art-8-p5",
+     "text": "2. El Comité adoptará las decisiones sobre cualquier cuestión que pueda plantearse en relación con el párrafo 1 del presente artículo sin la participación del miembro de que se trate.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": "Retirada de un miembro",
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "El miembro que, por cualquier razón, considere que no deba participar o seguir participando en el examen de una comunicación se retirará e informará al Presidente de esa decisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": "Consulta de expertos",
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. Cuando sea necesario, el Comité podrá consultar a expertos independientes por iniciativa propia.",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "2. El Comité también podrá consultar a expertos independientes a petición de cualquiera de las partes. Si una de las partes recomienda a un experto en concreto, la otra parte tendrá la oportunidad de proponer a un experto adicional o alternativo. El Comité decidirá en última instancia a qué experto consultar.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": "Presupuesto",
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "El Secretario General proporcionará los recursos financieros necesarios para las actividades del Comité en virtud del Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-segunda",
+   "level": 1,
+   "label": "Parte Segunda",
+   "title": "Procedimientos para el examen de las comunicaciones individuales recibidas en virtud del Protocolo Facultativo relativo a un procedimiento de comunicaciones"
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": "Autores de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "A los efectos del presente reglamento, por autor o autores de una comunicación individual se entiende la persona o las personas que presentan la comunicación individual, sean o no la presunta o las presuntas víctimas. El hecho de que la presunta o las presuntas víctimas estén representadas no significa que no puedan corresponderse directamente con el Comité."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": "Presentación de comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "1. Podrán presentar comunicaciones toda persona o todo grupo de personas sujetas a la jurisdicción de un Estado parte que afirmen ser víctimas de una violación por ese Estado parte de las disposiciones de la Convención o de sus Protocolos Facultativos sustantivos, independientemente de que el Estado parte contra el que se dirige la comunicación reconozca o no su capacidad jurídica.",
+     "number": "1"
+    },
+    {
+     "id": "art-13-p2",
+     "text": "2. También podrán presentar comunicaciones sus representantes designados u otras personas que actúen en nombre de las presuntas víctimas con su consentimiento expreso. Cuando exista la preocupación de que la representación, a pesar del consentimiento de la presunta o las presuntas víctimas, pueda deberse a presiones o incitaciones indebidas, el Comité podrá encargar al Secretario General que solicite más información o documentación, también de terceros, de conformidad con el artículo 23, párrafo 1, del presente reglamento, que muestre que la presentación de una comunicación en nombre de la presunta o las presuntas víctimas no se debe a presiones o incitaciones indebidas y redunda en el interés superior del niño. Toda solicitud de ese tipo tendrá carácter confidencial y no entrañará en modo alguno que dichos terceros pasen a ser parte en las actuaciones.",
+     "number": "2"
+    },
+    {
+     "id": "art-13-p3",
+     "text": "3. No obstante lo dispuesto en el párrafo 2 del presente artículo, podrán presentarse comunicaciones en nombre de la presunta o las presuntas víctimas sin tal consentimiento expreso, siempre que el autor o los autores puedan justificar sus actos y el Comité considere que la comunicación redunda en el interés superior del niño. Si es posible, la presunta o las presuntas víctimas en cuyo nombre se presenta la comunicación podrán ser informadas de la comunicación, y se tendrán debidamente en cuenta sus opiniones, en consonancia con su edad y madurez.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": "Principio de información",
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. El Comité, por conducto del Secretario General, proporcionará sin demora información suficiente a los autores sobre las etapas y la marcha de las actuaciones, así como sobre la decisión relativa a su caso, cuando sea necesario. La información se proporcionará en un formato adecuado y accesible al mismo tiempo para adultos y niños, adaptado, en la medida de lo posible, a la edad y madurez de los autores.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. Toda solicitud formulada por el Comité de aclaraciones e información complementarias, a lo largo de las actuaciones, se hará en un formato apropiado y accesible al mismo tiempo para adultos y niños, en la medida de lo posible, en consonancia con la edad y madurez del niño o los niños interesados, aunque este o estos últimos estén representados por un adulto.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": "Solicitud de aclaraciones o de información adicional",
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "1. El Secretario General podrá solicitar al autor o los autores de la comunicación, o a la presunta o las presuntas víctimas, que hagan las aclaraciones necesarias, en particular:",
+     "number": "1"
+    },
+    {
+     "id": "art-15-p2",
+     "text": "a) El nombre, el domicilio, la fecha de nacimiento del autor o los autores y la presunta o las presuntas víctimas, y la verificación de la identidad del autor o los autores y la presunta o las presuntas víctimas;"
+    },
+    {
+     "id": "art-15-p3",
+     "text": "b) La confirmación de la representación del autor o los autores si este o estos presentan la comunicación en nombre de la presunta o las presuntas víctimas;"
+    },
+    {
+     "id": "art-15-p4",
+     "text": "c) Información sobre la manera en que las acciones u omisiones de un Estado parte han tenido un efecto negativo en el niño o los niños;"
+    },
+    {
+     "id": "art-15-p5",
+     "text": "d) Si la comunicación redunda en el interés superior del niño;"
+    },
+    {
+     "id": "art-15-p6",
+     "text": "e) Si el autor o los autores o la presunta o las presuntas víctimas desean que su identidad sea revelada en la decisión final del Comité de conformidad con el artículo 4, párrafo 2, del Protocolo Facultativo;"
+    },
+    {
+     "id": "art-15-p7",
+     "text": "f) El nombre del Estado parte contra el que se dirige la comunicación;"
+    },
+    {
+     "id": "art-15-p8",
+     "text": "g) El objeto de la comunicación;"
+    },
+    {
+     "id": "art-15-p9",
+     "text": "h) Los hechos en que se basa la reclamación;"
+    },
+    {
+     "id": "art-15-p10",
+     "text": "i) Las medidas adoptadas para agotar todos los recursos internos disponibles, o información sobre por qué el autor o los autores consideran que la tramitación de esos recursos se prolonga injustificadamente o que es improbable que con ellos se logre una reparación efectiva;"
+    },
+    {
+     "id": "art-15-p11",
+     "text": "j) La medida en que la misma cuestión ha sido o está siendo examinada en virtud de otro procedimiento de investigación o arreglo internacional;"
+    },
+    {
+     "id": "art-15-p12",
+     "text": "k) La disposición o las disposiciones de la Convención o de sus Protocolos Facultativos sustantivos que presuntamente se han violado."
+    },
+    {
+     "id": "art-15-p13",
+     "text": "2. Cuando solicite aclaraciones o información adicional, el Secretario General indicará, en un formato adecuado y accesible, un plazo razonable para su presentación. Dicho plazo podrá prorrogarse en determinadas circunstancias.",
+     "number": "2"
+    },
+    {
+     "id": "art-15-p14",
+     "text": "3. El Comité podrá adoptar un formato adecuado y accesible, adaptado, en la medida de lo posible, a la edad y la madurez del niño, para facilitar las solicitudes de aclaraciones o información adicional del autor o los autores o de la presunta o las presuntas víctimas de una comunicación. Al elegir el formato, el Comité tendrá en cuenta los principios de los artículos 2 y 3 del Protocolo Facultativo, en particular para evitar que se ejerzan presiones o incitaciones indebidas sobre el niño. También podrá incluir una serie de preguntas específicas sobre si la comunicación redunda en el interés superior del niño.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": "Transmisión de comunicaciones al Comité",
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "1. El Secretario General señalará a la atención del Comité, de conformidad con el presente reglamento, las comunicaciones que se hayan presentado o parezcan haberse presentado para su examen por el Comité de acuerdo con el artículo 5 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-16-p2",
+     "text": "2. El Secretario General podrá pedir al autor o los autores de una comunicación que aclaren si la comunicación está destinada a ser examinada por el Comité de acuerdo con el artículo 5 del Protocolo Facultativo. Cuando haya dudas en cuanto al deseo del autor o los autores, el Secretario General señalará la comunicación a la atención del Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-16-p3",
+     "text": "3. El Comité no recibirá ninguna comunicación que:",
+     "number": "3"
+    },
+    {
+     "id": "art-16-p4",
+     "text": "a) Se refiera a un Estado que no sea parte en el Protocolo Facultativo;"
+    },
+    {
+     "id": "art-16-p5",
+     "text": "b) De conformidad con el artículo 1, párrafo 2, del Protocolo Facultativo, se refiera a la violación de los derechos establecidos en un instrumento en que el Estado no sea parte;"
+    },
+    {
+     "id": "art-16-p6",
+     "text": "c) Sea anónima;"
+    },
+    {
+     "id": "art-16-p7",
+     "text": "d) No se haya presentado por escrito. Esto no obsta para que se proporcione material no escrito para complementar las comunicaciones escritas;"
+    },
+    {
+     "id": "art-16-p8",
+     "text": "e) Constituya un abuso del derecho a presentar comunicaciones o sea incompatible con las disposiciones de la Convención o de sus Protocolos Facultativos sustantivos;"
+    },
+    {
+     "id": "art-16-p9",
+     "text": "f) Se refiera a una cuestión que ya haya sido examinada por el Comité o que haya sido o esté siendo examinada en virtud de otro procedimiento de investigación o arreglo internacional;"
+    },
+    {
+     "id": "art-16-p10",
+     "text": "g) Se haya presentado sin que se hayan agotado todos los recursos internos disponibles. Esta norma no se aplicará si la tramitación de esos recursos se prolonga injustificadamente o si es improbable que con ellos se logre una reparación efectiva;"
+    },
+    {
+     "id": "art-16-p11",
+     "text": "h) Sea manifiestamente infundada o no esté suficientemente fundamentada;"
+    },
+    {
+     "id": "art-16-p12",
+     "text": "i) Se refiera a hechos sucedidos antes de la fecha de entrada en vigor del Protocolo Facultativo para el Estado parte interesado, salvo que esos hechos hayan continuado produciéndose después de esa fecha;"
+    },
+    {
+     "id": "art-16-p13",
+     "text": "j) No se haya presentado en el plazo de un año tras el agotamiento de los recursos internos, salvo en los casos en que el autor o los autores puedan demostrar que no fue posible presentarla dentro de ese plazo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": "Orden de examen de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. En general, el Comité examinará las comunicaciones en el orden en que hayan sido recibidas por el Secretario General, a menos que el Comité decida otra cosa al respecto, teniendo en cuenta, entre otras cosas, la urgencia de las cuestiones planteadas.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. El Comité podrá decidir que dos o más comunicaciones se examinen conjuntamente.",
+     "number": "2"
+    },
+    {
+     "id": "art-17-p3",
+     "text": "3. El Comité podrá dividir una comunicación en varias partes y examinarlas por separado si en ella se exponen hechos distintos o si se refiere a más de una persona o a presuntas violaciones que hayan tenido lugar en fechas y lugares diferentes.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": "Procedimiento relativo a las comunicaciones recibidas",
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "1. A menos que considere que una comunicación es inadmisible sin remisión al Estado parte interesado, el Comité pondrá en conocimiento de ese Estado parte, de forma confidencial y a la mayor brevedad, toda comunicación que se le presente, y pedirá al Estado parte que formule observaciones y comentarios por escrito.",
+     "number": "1"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "2. Toda petición hecha con arreglo al párrafo 1 del presente artículo incluirá una declaración en el sentido de que esa petición no implica que se haya adoptado decisión alguna respecto de la admisibilidad o del fondo de la comunicación.",
+     "number": "2"
+    },
+    {
+     "id": "art-18-p3",
+     "text": "3. A la mayor brevedad y en el plazo de seis meses después de recibir la petición del Comité conforme al presente artículo, el Estado parte presentará por escrito al Comité explicaciones o declaraciones relativas a la admisibilidad y al fondo de la comunicación, así como sobre las medidas correctivas que haya adoptado al respecto.",
+     "number": "3"
+    },
+    {
+     "id": "art-18-p4",
+     "text": "4. El Comité podrá pedir explicaciones o declaraciones por escrito que se refieran solamente a la admisibilidad de la comunicación, pero, en tal caso, el Estado parte podrá presentar por escrito, a la mayor brevedad y en el plazo de seis meses después de recibir la petición del Comité, explicaciones o declaraciones que se refieran tanto a la admisibilidad como al fondo de la comunicación.",
+     "number": "4"
+    },
+    {
+     "id": "art-18-p5",
+     "text": "5. El Estado parte al que se haya pedido que presente por escrito una respuesta con arreglo al párrafo 1 del presente artículo podrá pedir por escrito que se declare inadmisible la comunicación, exponiendo las razones de la inadmisibilidad, siempre que esa petición se presente al Comité a la mayor brevedad y en el plazo de dos meses después de recibir la petición formulada con arreglo al párrafo 1.",
+     "number": "5"
+    },
+    {
+     "id": "art-18-p6",
+     "text": "6. Sobre la base de la información proporcionada por el Estado parte para apoyar la petición formulada con arreglo al párrafo 5 del presente artículo y de los comentarios del autor o los autores al respecto, el Comité podrá adoptar la decisión de examinar por separado la admisibilidad y el fondo de la comunicación.",
+     "number": "6"
+    },
+    {
+     "id": "art-18-p7",
+     "text": "7. La presentación de una petición del Estado parte con arreglo al párrafo 5 del presente artículo no prolongará el plazo de seis meses concedido al Estado parte para que presente por escrito explicaciones o declaraciones, a menos que el Comité decida examinar por separado la admisibilidad y el fondo de la comunicación.",
+     "number": "7"
+    },
+    {
+     "id": "art-18-p8",
+     "text": "8. Si el Estado parte en cuestión rechaza el argumento del autor o los autores, según lo dispuesto en el artículo 7 e), del Protocolo Facultativo, de que se han agotado todos los recursos internos efectivos y disponibles, explicará en detalle los recursos efectivos que existen a disposición de la presunta o las presuntas víctimas en las circunstancias particulares del caso.",
+     "number": "8"
+    },
+    {
+     "id": "art-18-p9",
+     "text": "9. El Comité podrá pedir al Estado parte o al autor o los autores de la comunicación que presenten por escrito, en un plazo determinado, explicaciones u observaciones adicionales que sean de interés para la admisibilidad o el fondo de una comunicación.",
+     "number": "9"
+    },
+    {
+     "id": "art-18-p10",
+     "text": "10. El Secretario General transmitirá a cada una de las partes las observaciones formuladas por la otra conforme al presente artículo, así como cualquier otra documentación presentada al Comité. Cada parte tendrá la oportunidad de formular, en el plazo establecido, observaciones respecto de la información proporcionada por la otra parte. En general, la falta de presentación de dichas observaciones en el plazo establecido no retrasará el examen de la comunicación.",
+     "number": "10"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": "Audiencias",
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "1. El Comité podrá decidir invitar al autor o los autores, a la presunta o las presuntas víctimas o a los representantes del Estado parte interesado, a proporcionar, en persona o por videoconferencia o teleconferencia, nuevas aclaraciones o a responder a preguntas relativas a la admisibilidad o al fondo de la comunicación, siempre que el Comité considere que ello redunda en el interés superior del niño o los niños afectados. El Comité también podrá decidir, después de consultar a las partes, invitar a un tercero a realizar una intervención. Toda audiencia se llevará a cabo a puerta cerrada, a menos que ambas partes estén de acuerdo en celebrar una sesión pública y el Comité considere que ello redunda en el interés superior del niño o los niños afectados. Las audiencias de la presunta o las presuntas víctimas no se realizarán en presencia de los representantes del Estado, a menos que la presunta o las presuntas víctimas así lo soliciten y que el Comité considere que ello redunda en su interés superior. El Comité garantizará que los procedimientos de las audiencias de la presunta o las presuntas víctimas estén adaptados a los niños y se asegurará de que se tengan debidamente en cuenta las opiniones de la presunta o las presuntas víctimas en consonancia con su edad y madurez. La no comparecencia de una parte no será obstáculo para el examen del caso.",
+     "number": "1"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "2. La información de que la audiencia tendrá o ha tenido lugar y el contenido de la misma se transmitirán a la otra parte, que podrá formular las observaciones oportunas.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": "Admisibilidad de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "1. El Comité, a la mayor brevedad, por mayoría simple y de conformidad con los artículos siguientes, decidirá si la comunicación es o no admisible con arreglo al Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "2. La decisión de declarar admisible una comunicación podrá ser adoptada por un grupo de trabajo establecido con arreglo al presente reglamento, siempre que todos sus miembros estén de acuerdo.",
+     "number": "2"
+    },
+    {
+     "id": "art-20-p3",
+     "text": "3. Un grupo de trabajo establecido con arreglo al presente reglamento podrá declarar inadmisible una comunicación si todos sus miembros así lo deciden. La decisión será transmitida al pleno del Comité, que podrá confirmarla sin debate oficial, a menos que un miembro del Comité lo solicite.",
+     "number": "3"
+    },
+    {
+     "id": "art-20-p4",
+     "text": "4. Cuando se presente al Comité una comunicación en nombre de un niño o un grupo de niños sin pruebas de que se haya obtenido su consentimiento, el Comité, después de estudiar las circunstancias particulares del caso y la información proporcionada, podrá decidir que el examen de la comunicación no redunda en el interés superior del niño o los niños.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": "Comunicaciones inadmisibles",
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "1. Si el Comité decide que una comunicación es inadmisible, notificará sin demora al autor o a los autores de la comunicación y al Estado parte interesado, por conducto del Secretario General y, en la medida de lo posible, en una forma adaptada y accesible, su decisión y los motivos en que se funda.",
+     "number": "1"
+    },
+    {
+     "id": "art-21-p2",
+     "text": "2. Toda decisión del Comité por la que se declare inadmisible una comunicación podrá ser revisada por el Comité si este recibe una solicitud por escrito del autor o los autores de la comunicación, o en su nombre, con información que indique que han dejado de existir las razones de la inadmisibilidad.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "Comunicaciones declaradas admisibles antes de que el Estado parte presente observaciones sobre el fondo"
+    },
+    {
+     "id": "art-22-p2",
+     "text": "1. Toda decisión por la que se declare admisible una comunicación antes de que el Estado parte presente observaciones sobre el fondo, conforme al artículo 18, párrafo 6, del presente reglamento, será transmitida, por conducto del Secretario General, al autor o los autores de la comunicación y al Estado parte interesado.",
+     "number": "1"
+    },
+    {
+     "id": "art-22-p3",
+     "text": "2. El Comité podrá revocar su decisión de que una comunicación es admisible a la luz de las explicaciones o declaraciones del Estado parte o del autor o los autores de la comunicación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": "Examen de las comunicaciones en cuanto al fondo",
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "1. En cualquier momento después de recibir una comunicación, y antes de decidir sobre el fondo de la cuestión, el Comité podrá consultar o recibir, según proceda, la documentación pertinente procedente de todos los demás órganos, organismos especializados, fondos, programas y mecanismos de las Naciones Unidas, incluidos los demás órganos creados en virtud de instrumentos internacionales y los procedimientos especiales de las Naciones Unidas, y la procedente de otras organizaciones internacionales, incluidos los sistemas regionales de derechos humanos, organizaciones no gubernamentales, instituciones nacionales de derechos humanos y otras instituciones especializadas encargadas de promover y proteger los derechos del niño, y de todas las instituciones, organismos u oficinas estatales pertinentes que puedan contribuir al examen de la comunicación.",
+     "number": "1"
+    },
+    {
+     "id": "art-23-p2",
+     "text": "2. El Comité formulará su dictamen sobre la comunicación teniendo en cuenta toda la documentación que le hayan proporcionado el autor o los autores de la comunicación, el Estado parte interesado o cualquier otra de las entidades mencionadas en el párrafo 1 del presente artículo, siempre que dicha información haya sido debidamente transmitida a las partes interesadas y que cada una de ellas haya tenido la oportunidad de formular observaciones en un plazo determinado.",
+     "number": "2"
+    },
+    {
+     "id": "art-23-p3",
+     "text": "3. El hecho de que el Comité examine, con arreglo al párrafo 2 de este artículo, la información presentada por terceros no implica en modo alguno que dichos terceros pasen a ser parte en las actuaciones.",
+     "number": "3"
+    },
+    {
+     "id": "art-23-p4",
+     "text": "4. El Comité podrá remitir cualquier comunicación a un grupo de trabajo para que le formule recomendaciones sobre el fondo de la cuestión.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": "Votos particulares",
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "Todo miembro del Comité que haya participado en la adopción de la decisión podrá pedir que el texto de su voto particular se adjunte a la decisión o al dictamen del Comité. El Comité podrá fijar plazos para la presentación de esos votos particulares."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": "Solución amigable",
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "1. A petición de cualquiera de las partes, de conformidad con el artículo 9 del Protocolo Facultativo, en cualquier momento tras la recepción de una comunicación, y antes de adoptar una decisión sobre el fondo de la cuestión, el Comité pondrá sus buenos oficios a disposición de las partes con miras a llegar a una solución amigable del asunto que supuestamente equivalga a una violación de la Convención o de sus Protocolos Facultativos sustantivos y se haya sometido a la consideración del Comité en virtud del Protocolo Facultativo, sobre la base del respeto de las obligaciones establecidas en la Convención y en sus Protocolos Facultativos sustantivos.",
+     "number": "1"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "2. El procedimiento de solución amigable se llevará a cabo con el consentimiento previo de las partes.",
+     "number": "2"
+    },
+    {
+     "id": "art-25-p3",
+     "text": "3. El Comité podrá designar a uno o más de sus miembros para que faciliten las negociaciones entre las partes.",
+     "number": "3"
+    },
+    {
+     "id": "art-25-p4",
+     "text": "4. El procedimiento de solución amigable será confidencial y se llevará a cabo sin perjuicio de la información presentada por las partes al Comité. Las comunicaciones escritas u orales, las ofertas y las concesiones hechas en el marco del intento de llegar a una solución amigable no podrán utilizarse contra la otra parte en el marco del examen de la comunicación por el Comité.",
+     "number": "4"
+    },
+    {
+     "id": "art-25-p5",
+     "text": "5. El Comité podrá dar por terminada su labor de facilitación del procedimiento de solución amigable si llega a la conclusión de que no es factible llegar a una solución o que cualquiera de las partes no consiente en su aplicación, decide interrumpir el procedimiento o no muestra la voluntad necesaria para llegar a una solución amigable basada en el respeto de las obligaciones establecidas en la Convención y en sus Protocolos Facultativos sustantivos.",
+     "number": "5"
+    },
+    {
+     "id": "art-25-p6",
+     "text": "6. Una vez que ambas partes hayan convenido expresamente en una solución amigable, el Comité adoptará una decisión en la que expondrá los hechos y la solución alcanzada. Antes de adoptar esa decisión, el Comité se cerciorará de que el autor o los autores de la comunicación han dado su consentimiento al acuerdo de solución amigable. En todos los casos, la solución amigable se basará en el respeto de las obligaciones establecidas en la Convención y en sus Protocolos Facultativos sustantivos. El Comité no aceptará ninguna solución amigable que no se base en el respeto de las obligaciones establecidas en la Convención y en sus Protocolos Facultativos sustantivos.",
+     "number": "6"
+    },
+    {
+     "id": "art-25-p7",
+     "text": "7. Si no se alcanza una solución amigable, el Comité proseguirá con el examen de la comunicación de conformidad con el presente reglamento.",
+     "number": "7"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": "Decisión de dar por concluido el examen de una comunicación",
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "El Comité podrá poner fin al examen de una comunicación cuando, entre otras razones, hayan desaparecido los motivos por los que, en virtud de la Convención o de sus Protocolos Facultativos sustantivos, se sometió a su consideración la comunicación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "Decisiones sobre la admisibilidad, decisiones por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable y dictámenes sobre el fondo de la cuestión"
+    },
+    {
+     "id": "art-27-p2",
+     "text": "1. Las decisiones del Comité sobre la admisibilidad de una comunicación, sus decisiones por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable y sus dictámenes sobre el fondo de la cuestión se escribirán en un lenguaje accesible, adaptado, en la medida de lo posible, a la edad y la madurez de la presunta o las presuntas víctimas.",
+     "number": "1"
+    },
+    {
+     "id": "art-27-p3",
+     "text": "2. El Comité no decidirá sobre el fondo de la comunicación sin haber considerado si se cumplen todos los criterios de admisibilidad indicados en el artículo 7 del Protocolo Facultativo.",
+     "number": "2"
+    },
+    {
+     "id": "art-27-p4",
+     "text": "3. Sin demora, el Comité transmitirá, por conducto del Secretario General, sus decisiones y dictámenes al Estado parte interesado y al autor o los autores de la comunicación. En sus decisiones o dictámenes, el Comité podrá indicar que se transmitan a terceros y que se publiquen.",
+     "number": "3"
+    },
+    {
+     "id": "art-27-p5",
+     "text": "4. Cuando el Comité dictamine que el Estado parte ha violado sus obligaciones dimanantes de la Convención o de los Protocolos Facultativos sustantivos de la misma en los que el Estado sea parte, formulará recomendaciones sobre los recursos que se deban otorgar a la presunta o las presuntas víctimas, que podrán incluir la rehabilitación, la reparación, la indemnización financiera, la garantía de no repetición y el enjuiciamiento del presunto o los presuntos culpables, e indicará el plazo correspondiente. Asimismo, el Comité podrá recomendar al Estado parte que adopte medidas legislativas, institucionales o cualquier otro tipo de medidas generales para evitar que se cometan violaciones semejantes.",
+     "number": "4"
+    },
+    {
+     "id": "art-27-p6",
+     "text": "5. El Comité incluirá resúmenes de sus decisiones sobre la admisibilidad de una comunicación, sus decisiones por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable y sus dictámenes sobre el fondo de la cuestión en el informe previsto en el artículo 44, párrafo 5, de la Convención y en el artículo 16 del Protocolo Facultativo.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": "Seguimiento de los dictámenes del Comité y de los acuerdos de solución amigable",
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "1. A la mayor brevedad, y en un plazo de seis meses a partir de la transmisión del dictamen del Comité sobre una comunicación o de su decisión por la que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable, el Estado parte presentará por escrito al Comité una respuesta en la que incluirá información sobre las medidas adoptadas, cuando proceda, a la luz del dictamen y las recomendaciones del Comité o del acuerdo de solución amigable.",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "2. Una vez transcurrido el plazo de seis meses indicado en el párrafo 1 del presente artículo, el Comité podrá invitar al Estado parte interesado, al autor o los autores o a cualquier otra parte interesada, a presentar más información sobre cualesquiera medidas que el Estado parte haya adoptado en respuesta al dictamen o las recomendaciones del Comité, o al acuerdo de solución amigable.",
+     "number": "2"
+    },
+    {
+     "id": "art-28-p3",
+     "text": "3. El Comité transmitirá, por conducto del Secretario General, la información recibida del Estado parte al autor o los autores de la comunicación.",
+     "number": "3"
+    },
+    {
+     "id": "art-28-p4",
+     "text": "4. El Comité podrá solicitar al Estado parte que incluya información sobre las medidas adoptadas en respuesta a su dictamen, sus recomendaciones o su decisión por la que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable en los informes que presente ulteriormente de conformidad con el artículo 44 de la Convención, el artículo 12 del Protocolo Facultativo relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía o el artículo 8 del Protocolo Facultativo relativo a la participación de niños en los conflictos armados.",
+     "number": "4"
+    },
+    {
+     "id": "art-28-p5",
+     "text": "5. El Comité designará, para el seguimiento de los dictámenes o las decisiones por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable, de conformidad con el artículo 11 del Protocolo Facultativo, a un/a relator/a o grupo de trabajo para que verifique las medidas adoptadas por el Estado parte para dar efecto a su dictamen, sus recomendaciones o su decisión por la que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable.",
+     "number": "5"
+    },
+    {
+     "id": "art-28-p6",
+     "text": "6. El/la relator/a o grupo de trabajo podrá establecer los contactos y adoptar las medidas que considere pertinentes para el debido desempeño de sus funciones, y recomendará al Comité la adopción de las medidas complementarias que sean necesarias.",
+     "number": "6"
+    },
+    {
+     "id": "art-28-p7",
+     "text": "7. El/la relator/a o grupo de trabajo, además de hacer declaraciones por escrito y de reunirse con representantes debidamente acreditados del Estado parte, podrá recabar información del autor o los autores de las comunicaciones y de otras fuentes pertinentes.",
+     "number": "7"
+    },
+    {
+     "id": "art-28-p8",
+     "text": "8. El/la relator/a o grupo de trabajo informará al Comité sobre las actividades de seguimiento en cada uno de los períodos de sesiones del Comité.",
+     "number": "8"
+    },
+    {
+     "id": "art-28-p9",
+     "text": "9. El Comité incluirá información sobre las actividades de seguimiento y, cuando corresponda, un resumen de las explicaciones y declaraciones del Estado parte interesado y las propias sugerencias y recomendaciones del Comité en el informe previsto en el artículo 44, párrafo 5, de la Convención y el artículo 16 del Protocolo Facultativo.",
+     "number": "9"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": "Confidencialidad de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "1. Las comunicaciones presentadas conforme al Protocolo Facultativo serán examinadas por el Comité en sesión privada.",
+     "number": "1"
+    },
+    {
+     "id": "art-29-p2",
+     "text": "2. Todos los documentos de trabajo preparados por el Secretario General para el Comité tendrán carácter confidencial, a menos que el Comité decida otra cosa al respecto.",
+     "number": "2"
+    },
+    {
+     "id": "art-29-p3",
+     "text": "3. El Secretario General o el Comité no harán pública ninguna comunicación, escrito o información relacionados con una comunicación antes de la fecha en que se dé a conocer una decisión de inadmisibilidad, un dictamen o una decisión por la que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable.",
+     "number": "3"
+    },
+    {
+     "id": "art-29-p4",
+     "text": "4. El Comité no publicará el nombre del autor o los autores o de la presunta o las presuntas víctimas de una comunicación en su decisión de inadmisibilidad, su dictamen o su decisión por la que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable, salvo cuando, en vista de la edad y la madurez de la víctima o las víctimas, pueda obtenerse su consentimiento expreso para publicar su nombre.",
+     "number": "4"
+    },
+    {
+     "id": "art-29-p5",
+     "text": "5. El Comité podrá pedir al autor o los autores de una comunicación o al Estado parte interesado que mantengan el carácter confidencial de la totalidad o de parte de cualquier escrito o información relacionados con las actuaciones.",
+     "number": "5"
+    },
+    {
+     "id": "art-29-p6",
+     "text": "6. Sin perjuicio de lo dispuesto en el artículo 4, párrafo 2, del Protocolo Facultativo y en los párrafos 4 y 5 del presente artículo, ninguna disposición de este afectará al derecho del autor o los autores o del Estado parte interesado a hacer público cualquier escrito o información relacionados con las actuaciones.",
+     "number": "6"
+    },
+    {
+     "id": "art-29-p7",
+     "text": "7. Sin perjuicio de lo dispuesto en el artículo 4, párrafo 2, del Protocolo Facultativo y en los párrafos 4 y 5 del presente artículo, el Comité publicará sus decisiones de inadmisibilidad, sus dictámenes y sus decisiones por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable. El Comité también podrá decidir hacer públicas sus decisiones de admisibilidad, aunque dichas decisiones no den por concluido el examen de un caso.",
+     "number": "7"
+    },
+    {
+     "id": "art-29-p8",
+     "text": "8. El Secretario General se encargará de transmitir, sin demora, al autor o los autores y al Estado parte interesado las decisiones sobre la admisibilidad, los dictámenes o las decisiones por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable.",
+     "number": "8"
+    },
+    {
+     "id": "art-29-p9",
+     "text": "9. A menos que el Comité decida otra cosa, y sin perjuicio de lo dispuesto en el artículo 4, párrafo 2, del Protocolo Facultativo, la información relacionada con el seguimiento de los dictámenes y las recomendaciones y decisiones del Comité por las que se dé por concluido el examen de la comunicación a raíz de un acuerdo de solución amigable no tendrá carácter confidencial.",
+     "number": "9"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-tercera",
+   "level": 1,
+   "label": "Parte Tercera",
+   "title": "Actuaciones en relación con el procedimiento de investigación del Protocolo Facultativo"
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": "Aplicabilidad",
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "Los artículos 30 a 42 del presente reglamento no se aplicarán al Estado parte que, de conformidad con el artículo 13, párrafo 7, del Protocolo Facultativo, al momento de la ratificación del Protocolo Facultativo, o de la adhesión a este, hubiese declarado que no reconocía la competencia del Comité establecida en el artículo 13, a menos que ese Estado parte haya retirado posteriormente su declaración, de conformidad con el artículo 13, párrafo 8, del Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": "Transmisión de información al Comité",
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "1. De conformidad con el presente reglamento, el Secretario General señalará a la atención del Comité la información fidedigna que se haya presentado o parezca haberse presentado para su examen por el Comité, de conformidad con el artículo 13, párrafo 1, del Protocolo Facultativo, que indique violaciones graves o sistemáticas por un Estado parte de cualquiera de los derechos proclamados en la Convención o en sus Protocolos Facultativos sustantivos.",
+     "number": "1"
+    },
+    {
+     "id": "art-31-p2",
+     "text": "2. Si recibe información fidedigna sobre la existencia de infracciones graves y sistemáticas contra niños en un Estado parte, el Comité podrá comenzar una investigación por iniciativa propia.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": "Resumen de la información",
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "El Secretario General preparará y distribuirá a los miembros del Comité, cuando proceda, un breve resumen de la información presentada de conformidad con el artículo 2 del presente reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": "Carácter confidencial de los documentos y procedimientos",
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "1. Todos los documentos y actuaciones del Comité relativos a la realización de la investigación tendrán carácter confidencial, sin perjuicio de lo dispuesto en el artículo 13, párrafo 6, del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-33-p2",
+     "text": "2. Las sesiones del Comité en las que se examinen las investigaciones realizadas de conformidad con el artículo 13 del Protocolo Facultativo serán privadas.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": "Examen preliminar de la información por el Comité",
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "1. El Comité podrá tratar de verificar, por conducto del Secretario General, la fiabilidad de la información o la fuente de información señaladas a su atención de conformidad con el artículo 13 del Protocolo Facultativo, y podrá solicitar la información adicional pertinente que corrobore los hechos de la situación.",
+     "number": "1"
+    },
+    {
+     "id": "art-34-p2",
+     "text": "2. El Comité determinará si considera que la información recibida contiene información fidedigna que indique violaciones graves o sistemáticas por el Estado parte interesado de los derechos proclamados en la Convención o en sus Protocolos Facultativos sustantivos.",
+     "number": "2"
+    },
+    {
+     "id": "art-34-p3",
+     "text": "3. El Comité podrá designar a uno o varios de sus miembros para que le presten asistencia en el desempeño de las funciones que se le encomiendan en virtud del presente artículo.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": "Examen de la información",
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "1. Si al Comité le consta que la información recibida es fidedigna y parece indicar violaciones graves o sistemáticas por el Estado parte interesado de derechos proclamados en la Convención o en sus Protocolos Facultativos sustantivos, invitará al Estado parte, por conducto del Secretario General, a que coopere en el examen y, con tal fin, presente, sin demora, observaciones con respecto a dicha información.",
+     "number": "1"
+    },
+    {
+     "id": "art-35-p2",
+     "text": "2. El Comité tendrá en cuenta cualesquiera observaciones presentadas por el Estado parte interesado, así como cualquier otra información pertinente.",
+     "number": "2"
+    },
+    {
+     "id": "art-35-p3",
+     "text": "3. El Comité podrá decidir solicitar información adicional de, entre otras, las siguientes fuentes:",
+     "number": "3"
+    },
+    {
+     "id": "art-35-p4",
+     "text": "a) Los representantes del Estado parte interesado;"
+    },
+    {
+     "id": "art-35-p5",
+     "text": "b) Organizaciones gubernamentales;"
+    },
+    {
+     "id": "art-35-p6",
+     "text": "c) Órganos, organismos especializados, fondos, programas y mecanismos de las Naciones Unidas;"
+    },
+    {
+     "id": "art-35-p7",
+     "text": "d) Organizaciones internacionales, incluidas las de los sistemas regionales de derechos humanos;"
+    },
+    {
+     "id": "art-35-p8",
+     "text": "e) Instituciones nacionales de derechos humanos y otras instituciones especializadas pertinentes encargadas de promover y proteger los derechos del niño;"
+    },
+    {
+     "id": "art-35-p9",
+     "text": "f) Organizaciones no gubernamentales;"
+    },
+    {
+     "id": "art-35-p10",
+     "text": "g) Particulares, incluidos niños."
+    },
+    {
+     "id": "art-35-p11",
+     "text": "4. El Comité decidirá de qué forma se obtendrá esta información adicional.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": "Apertura de una investigación",
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "1. Teniendo en cuenta las observaciones que haya formulado el Estado parte interesado, así como otra información fidedigna, el Comité podrá designar a uno o más de sus miembros para que lleven a cabo una investigación e informen urgentemente al Comité de los resultados.",
+     "number": "1"
+    },
+    {
+     "id": "art-36-p2",
+     "text": "2. La investigación se llevará a cabo con carácter confidencial y de conformidad con las modalidades que determine el Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-36-p3",
+     "text": "3. Teniendo en cuenta la Convención, sus Protocolos Facultativos y el presente reglamento, el miembro o los miembros designados por el Comité para llevar a cabo la investigación decidirán sus propios métodos de trabajo.",
+     "number": "3"
+    },
+    {
+     "id": "art-36-p4",
+     "text": "4. Durante la investigación, el Comité podrá aplazar el examen de cualquier informe que el Estado parte interesado haya presentado de conformidad con el artículo 44 de la Convención, el artículo 12 del Protocolo Facultativo relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía o el artículo 8 del Protocolo Facultativo relativo a la participación de niños en los conflictos armados.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": "Cooperación del Estado parte interesado",
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "1. El Comité solicitará la cooperación del Estado parte interesado en todas las fases de la investigación.",
+     "number": "1"
+    },
+    {
+     "id": "art-37-p2",
+     "text": "2. El Comité podrá pedir al Estado parte interesado que designe a un representante para reunirse con el miembro o los miembros designados por el Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-37-p3",
+     "text": "3. El Comité podrá pedir al Estado parte interesado que facilite al miembro o los miembros designados por el Comité cualquier información que estos o el Estado parte consideren de interés para la investigación.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-38",
+   "number": "38",
+   "label": "Artículo 38",
+   "heading": "Visitas",
+   "paragraphs": [
+    {
+     "id": "art-38-p1",
+     "text": "1. Cuando se justifique, y con el consentimiento del Estado parte, la investigación podrá incluir una visita al territorio del Estado parte interesado.",
+     "number": "1"
+    },
+    {
+     "id": "art-38-p2",
+     "text": "2. Si el Estado parte en cuestión acepta la visita, el Comité y el Estado parte colaborarán para determinar las modalidades y el Estado parte proporcionará al Comité todos los medios necesarios para el éxito de la visita, incluido el acceso libre a la información, las organizaciones, los lugares y las personas de interés.",
+     "number": "2"
+    },
+    {
+     "id": "art-38-p3",
+     "text": "3. El Comité informará al Estado parte interesado de sus deseos con respecto al momento de la visita y los medios necesarios para que el miembro o los miembros designados por el Comité para realizar la investigación puedan llevar a cabo su labor.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-39",
+   "number": "39",
+   "label": "Artículo 39",
+   "heading": "Audiencias",
+   "paragraphs": [
+    {
+     "id": "art-39-p1",
+     "text": "1. Durante las visitas, el miembro o los miembros designados por el Comité podrán realizar audiencias para determinar hechos o cuestiones de interés para la investigación.",
+     "number": "1"
+    },
+    {
+     "id": "art-39-p2",
+     "text": "2. Las condiciones y garantías con respecto a las audiencias celebradas de conformidad con el párrafo 1 del presente artículo serán determinadas por el miembro o los miembros designados por el Comité que visiten el Estado parte. Al hacerlo, el miembro o los miembros se guiarán por los principios del artículo 2 del Protocolo Facultativo.",
+     "number": "2"
+    },
+    {
+     "id": "art-39-p3",
+     "text": "3. Si escuchan a un niño o niños, el miembro o los miembros designados por el Comité garantizarán que se tengan en cuenta sus necesidades específicas, y en particular se asegurarán de que el niño o los niños sean escuchados por separado y de que se tengan debidamente en cuenta sus opiniones, en consonancia con su edad y madurez.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-40",
+   "number": "40",
+   "label": "Artículo 40",
+   "heading": "Asistencia prestada durante una investigación",
+   "paragraphs": [
+    {
+     "id": "art-40-p1",
+     "text": "1. Además del personal y los medios que facilite el Secretario General en relación con una investigación, también durante la visita al Estado parte interesado, el miembro o los miembros designados por el Comité podrán, por mediación del Secretario General, invitar a intérpretes o a las personas con conocimientos especializados en las esferas abarcadas por la Convención y sus Protocolos Facultativos que el Comité considere necesarias para que presten asistencia en todas las fases de la investigación.",
+     "number": "1"
+    },
+    {
+     "id": "art-40-p2",
+     "text": "2. Cuando estos intérpretes o personas con conocimientos especializados no estén obligados por el juramento de fidelidad a las Naciones Unidas, se les exigirá que declaren solemnemente que desempeñarán su trabajo con honradez, fidelidad e imparcialidad y que respetarán el carácter confidencial de las actuaciones.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-41",
+   "number": "41",
+   "label": "Artículo 41",
+   "heading": "Transmisión de las conclusiones, observaciones o recomendaciones",
+   "paragraphs": [
+    {
+     "id": "art-41-p1",
+     "text": "1. Después de examinar las conclusiones del miembro o los miembros designados presentadas de conformidad con el artículo 35 del presente reglamento, el Comité transmitirá esas conclusiones, por conducto del Secretario General, al Estado parte interesado, junto con las posibles observaciones y recomendaciones.",
+     "number": "1"
+    },
+    {
+     "id": "art-41-p2",
+     "text": "2. Dicha transmisión de las conclusiones, observaciones y recomendaciones se realizará sin perjuicio de lo dispuesto en el artículo 13, párrafo 6, del Protocolo Facultativo.",
+     "number": "2"
+    },
+    {
+     "id": "art-41-p3",
+     "text": "3. El Estado parte interesado presentará al Comité, por conducto del Secretario General, sus observaciones sobre las conclusiones, observaciones y recomendaciones a la mayor brevedad y en un plazo de seis meses a partir de la fecha en que se reciban.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-42",
+   "number": "42",
+   "label": "Artículo 42",
+   "heading": "Medidas de seguimiento",
+   "paragraphs": [
+    {
+     "id": "art-42-p1",
+     "text": "El Comité podrá, en caso necesario, después del plazo de seis meses previsto en el artículo 13, párrafo 5, del Protocolo Facultativo, invitar al Estado parte interesado, por conducto del Secretario General, a que lo informe sobre las medidas adoptadas o previstas en respuesta a una investigación y a que incluya en los informes que presente ulteriormente en virtud del artículo 44 de la Convención, el artículo 12 del Protocolo Facultativo relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía y el artículo 8 del Protocolo Facultativo relativo a la participación de niños en los conflictos armados, información detallada sobre las medidas adoptadas en respuesta a las conclusiones, observaciones y recomendaciones del Comité. El Comité podrá decidir obtener información complementaria de las fuentes enumeradas en el artículo 35 del presente reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-cuarta",
+   "level": 1,
+   "label": "Parte Cuarta",
+   "title": "Actuaciones en relación con el procedimiento de comunicaciones entre Estados del Protocolo Facultativo"
+  },
+  {
+   "kind": "article",
+   "id": "art-43",
+   "number": "43",
+   "label": "Artículo 43",
+   "heading": "Transmisión de comunicaciones entre Estados al Comité",
+   "paragraphs": [
+    {
+     "id": "art-43-p1",
+     "text": "1. El Secretario General señalará a la atención del Comité, de conformidad con el presente reglamento, las comunicaciones que se hayan presentado o parezcan haberse presentado para su examen por el Comité de acuerdo con el artículo 12 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-43-p2",
+     "text": "2. El Secretario General podrá pedir al Estado parte que haya presentado una comunicación que aclare si desea que la comunicación sea sometida al Comité para su examen con arreglo al artículo 12 del Protocolo Facultativo. Si hay dudas sobre el deseo del Estado parte que haya presentado la comunicación, el Secretario General la señalará a la atención del Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-43-p3",
+     "text": "3. Todo Estado parte que haya hecho una declaración con arreglo al artículo 12 del Protocolo Facultativo y que afirme que otro Estado parte no está cumpliendo las obligaciones que le impone la Convención o sus Protocolos Facultativos sustantivos podrá presentar una comunicación de conformidad con el artículo 12 del Protocolo Facultativo.",
+     "number": "3"
+    },
+    {
+     "id": "art-43-p4",
+     "text": "4. La comunicación incluirá la siguiente información:",
+     "number": "4"
+    },
+    {
+     "id": "art-43-p5",
+     "text": "a) El nombre del Estado parte contra el que se dirige la comunicación;"
+    },
+    {
+     "id": "art-43-p6",
+     "text": "b) La declaración hecha, con arreglo al artículo 12 del Protocolo Facultativo, por el Estado parte que presente la comunicación;"
+    },
+    {
+     "id": "art-43-p7",
+     "text": "c) La disposición o las disposiciones de la Convención o de sus Protocolos Facultativos sustantivos que presuntamente se han violado;"
+    },
+    {
+     "id": "art-43-p8",
+     "text": "d) El objeto de la comunicación;"
+    },
+    {
+     "id": "art-43-p9",
+     "text": "e) Los hechos en que se basa la reclamación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-44",
+   "number": "44",
+   "label": "Artículo 44",
+   "heading": "Información a los miembros del Comité",
+   "paragraphs": [
+    {
+     "id": "art-44-p1",
+     "text": "El Secretario General informará sin demora a los miembros del Comité de todas las comunicaciones entre Estados hechas con arreglo al artículo 43 del presente reglamento y les transmitirá sin demora copias de la comunicación en el idioma en que se presentó y la información pertinente."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-45",
+   "number": "45",
+   "label": "Artículo 45",
+   "heading": "Requisitos para el examen de las comunicaciones entre Estados",
+   "paragraphs": [
+    {
+     "id": "art-45-p1",
+     "text": "El Comité no examinará las comunicaciones entre Estados a menos que los dos Estados partes interesados hayan hecho sendas declaraciones con arreglo al artículo 12 del Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-46",
+   "number": "46",
+   "label": "Artículo 46",
+   "heading": "Sesiones",
+   "paragraphs": [
+    {
+     "id": "art-46-p1",
+     "text": "El Comité examinará las comunicaciones que reciba en virtud del artículo 12 del Protocolo Facultativo en sesiones privadas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-47",
+   "number": "47",
+   "label": "Artículo 47",
+   "heading": "Buenos oficios",
+   "paragraphs": [
+    {
+     "id": "art-47-p1",
+     "text": "1. Sin perjuicio de lo dispuesto en el artículo 45 del presente reglamento, el Comité pondrá sus buenos oficios a la disposición de los Estados partes interesados a fin de llegar a una solución amigable del asunto basada en el respeto de las obligaciones impuestas por la Convención y por sus Protocolos Facultativos sustantivos.",
+     "number": "1"
+    },
+    {
+     "id": "art-47-p2",
+     "text": "2. A los efectos del párrafo 1 del presente artículo, el Comité podrá establecer, cuando proceda, una comisión especial de conciliación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-48",
+   "number": "48",
+   "label": "Artículo 48",
+   "heading": "Solicitud de información",
+   "paragraphs": [
+    {
+     "id": "art-48-p1",
+     "text": "El Comité podrá pedir a los Estados partes interesados, o a uno de ellos, por conducto del Secretario General, que presenten por escrito información u observaciones complementarias. El Comité fijará un plazo para la presentación por escrito de tal información o de tales observaciones. El Comité decidirá otras modalidades para la presentación de escritos, tras consultar con los Estados partes en cuestión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-49",
+   "number": "49",
+   "label": "Artículo 49",
+   "heading": "Informe del Comité",
+   "paragraphs": [
+    {
+     "id": "art-49-p1",
+     "text": "1. El Comité podrá aprobar un informe sobre cualquier comunicación recibida con arreglo al artículo 12 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-49-p2",
+     "text": "2. Si se llega a una solución según lo dispuesto en el artículo 47 del presente reglamento, el Comité limitará su informe a una breve exposición de los hechos y de la solución alcanzada; si no se llega a tal solución, el Comité expondrá en su informe los hechos pertinentes relativos al asunto planteado entre los Estados partes interesados. Se adjuntarán al informe los escritos presentados por los Estados partes en cuestión. El Comité podrá también transmitir a los Estados partes interesados, y únicamente a ellos, cualquier consideración que entienda pertinente para la cuestión entre ellos planteada.",
+     "number": "2"
+    },
+    {
+     "id": "art-49-p3",
+     "text": "3. El informe del Comité será transmitido sin demora, por conducto del Secretario General, a los Estados partes interesados.",
+     "number": "3"
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 49,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "49 artículos (1–49)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ },
+ "body": "un-crc",
+ "kind": "rules",
+ "symbol": "CRC/C/158"
+}

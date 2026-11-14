@@ -1,0 +1,1023 @@
+{
+ "instrument": "un-icescr-op",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3-a&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "b7e51f6f5dcd1f08f022233d4435b682b5f13c81be82bc8ecf5797d34d2f9635"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Accession(a), Ratification"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon signature, accession or ratification.)",
+   "entries": 1
+  },
+  {
+   "key": "DecUnderArticle",
+   "title": "Declarations made under articles 10 and",
+   "intro": "(Unless otherwise indicated, the declarations were made upon ratification or accession.)",
+   "entries": 4
+  },
+  {
+   "key": "Notifications",
+   "title": "",
+   "intro": "",
+   "entries": 1
+  }
+ ],
+ "notes": {
+  "1": "1 Communication by the United Kingdom of Great Britain and Northern Ireland on 25 October 2012:\n“The United Kingdom Mission to the United Nations […] recalls the Declaration made by the Argentine Republic on its ratification of the Optional Protocol to the International Covenant on Economic, Social and Cultural Rights on 24 October 2011, and the subject of a depositary notification dated 27 October 2011 (reference C.N.702.2011.TREATIES-8).\nThe United Kingdom of Great Britain and Northern Ireland rejects the claims contained in the Declaration made by the Argentine Republic. In particular, the United Kingdom rejects the claim by the Argentine Republic to the territory of the Falkland Islands, South Georgia Islands and South Sandwich Islands and the surrounding maritime areas. The peaceful possession of these Islands and surrounding maritime areas by the United Kingdom cannot therefore be characterized as illegal occupation.\nThe United Kingdom of Great Britain and Northern Ireland has no doubt about its sovereignty over the Falkland Islands, South Georgia and the South Sandwich Islands and the surrounding maritime areas. The United Kingdom Government attaches great importance to the principle of self determination as set out in Article 1.2 of the Charter of the United Nations and Article 1 of the International Covenant on Economic, Social and Cultural Rights. That principle underlies our position on the Falkland Islands.\nThe United Kingdom Mission to the United Nations requests that the Secretary-General circulate copies of this Note to the States to whom the Declaration of the Argentine Republic was circulated.”"
+ },
+ "participants": [
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2025-02-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Feb 2025 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2025-02-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-10-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Oct 2011"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "1"
+     ],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "On the occasion of its ratification of the Optional Protocol to the International Covenant on Economic, Social and Cultural Rights, the Argentine Government recalls that on 3 October 1983 the Argentine Republic rejected the extension of the application of the International Covenant on Economic, Social and Cultural Rights to the Malvinas Islands, South Georgia Islands and South Sandwich Islands.\nThe Argentine Government recalls that the Malvinas Islands, South Georgia Islands and South Sandwich Islands and the surrounding maritime areas are an integral part of the Argentine national territory and, being illegally occupied by the United Kingdom of Great Britain and Northern Ireland, are the subject of a sovereignty dispute between the two countries which is recognized by the United Nations and other international organizations.\nIn this connection, the General Assembly of the United Nations has adopted resolutions 2065 (XX), 3160 (XXVIII), 31/49, 37/9, 38/12, 39/6, 40/21, 41/40, 42/19 and 43/25, in which the sovereignty dispute referred to as the “Question of the Malvinas Islands” is recognized and the Governments of the Argentine Republic and the United Kingdom of Great Britain and Northern Ireland are urged to resume negotiations in order to find as soon as possible a peaceful and lasting solution to the dispute. Concurrently, the Special Committee on Decolonization of the United Nations has repeatedly affirmed this view. Also, the General Assembly of the Organization of American States adopted, on 24 June 2010, a new pronouncement, in similar terms, on the question.\nIn ratifying the Optional Protocol to the International Covenant on Economic, Social and Cultural Rights, the Argentine Republic does so on the understanding that the system of communications provided for under that instrument does not apply to the right of peoples to self-determination in any context related to sovereignty disputes."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2011-10-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": "2009-09-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2020-10-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Oct 2020"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2020-10-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": "2009-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-05-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 May 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations made under articles 10 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "The Kingdom of Belgium recognizes the competence of the Committee on Economic, Social and Cultural Rights\n- to receive, in accordance with article 10 of the Optional Protocol, notifications from a State Party that another State Party is not fulfilling its obligations, or\n- to conduct, in accordance with articles 11 and 12 of the Optional Protocol, an inquiry regarding serious and systematic violations by another State Party of one of the Economic, Social and Cultural Rights described in the Covenant."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2014-05-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": "2010-02-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-01-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Jan 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-01-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2010-07-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-01-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Jan 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-01-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": "2011-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-06-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Jun 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-06-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-10-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Oct 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-10-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "COG",
+   "name": "Congo",
+   "signature": "2009-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "2011-04-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Sep 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-11-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Nov 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2024-11-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": "2021-01-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2021-01-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "COD",
+   "name": "Democratic Republic of the Congo",
+   "signature": "2010-09-23",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2010-09-23",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-06-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Jun 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-06-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "2009-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Sep 2011"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations made under articles 10 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 10\nWith respect to article 10, the Government of the Republic of El Salvador hereby declares that it recognizes the competence of the Committee on Economic, Social and Cultural Rights to receive and consider communications to the effect that a State party claims that another State party is not fulfilling its obligations under the Covenant.\nArticle 11\nWith respect to article 11, the Government of the Republic of El Salvador hereby declares that it recognizes the competence of the Committee on Economic, Social and Cultural Rights provided for under the article."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2011-09-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-01-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Jan 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations made under articles 10 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration:\n“The Republic of Finland declares that it recognizes the competence of the committee to receive and consider inter-state communications made against it provided for in article 10 of the Protocol and the competence of the committee concerning an inquiry procedure provided for in article 11 of the Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2014-01-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "2012-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-03-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Mar 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-03-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-04-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Apr 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-04-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-04-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Apr 2023 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2023-04-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2009-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-01-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Jan 2018 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-01-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": "2012-03-23",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-03-23",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "2009-09-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-02-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Feb 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-02-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": "2010-09-23",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2010-09-23",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-02-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Feb 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-02-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2009-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "signature": "2011-09-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2020-12-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Dec 2020"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2020-12-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": "2009-12-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-07-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Jul 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-07-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NER",
+   "name": "Niger",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-11-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Nov 2014 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-11-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": "2013-08-14",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-08-14",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "2009-10-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-10-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-01-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Jan 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Notifications",
+     "section_title": "",
+     "notes": [],
+     "label": null,
+     "kind": "notification",
+     "text": "Declaration:\n“With respect to article 10, the Portuguese Republic hereby declares that it recognizes the competence of the Committee on Economic, Social and Cultural Rights to receive and consider communications to the effect that a State Party claims that another State Party is not fulfilling its obligations under the Covenant.\nWith respect to article 11, the Portuguese Republic hereby declares that it recognizes the competence of the Committee on Economic, Social and Cultural Rights provided for under this article.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2013-01-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-08-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Aug 2015 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations made under articles 10 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "4 August 2015\nArticle 10\n“With respect to article 10, the Republic of San Marino hereby declares that it recognizes the competence of the Committee on Economic, Social and Cultural Rights to receive and consider communications to the effect that a State Party claims that another State Party is not fulfilling its obligations under the Covenant…”\n4 August 2015\nArticle 11\n“… With respect to article 11, the Republic of San Marino hereby declares that it recognizes the competence of the Committee on Economic, Social and Cultural Rights provided for under this article.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2015-08-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-09-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Sep 2023 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2023-09-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-03-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Mar 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-03-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SLB",
+   "name": "Solomon Islands",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SSD",
+   "name": "South Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-02-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Feb 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2024-02-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-09-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Sep 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "signature": "2009-09-28",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-28",
+    "type": null
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": "2009-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2009-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-02-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Feb 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-02-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": "2011-10-04",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-10-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Oct 2018"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-10-10",
+    "type": "ratification"
+   }
+  }
+ ]
+}

@@ -1,0 +1,609 @@
+{
+ "instrument": "oas-belem-do-para",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-61.html",
+  "retrieved": "2026-11-09",
+  "sha256": "991a735b5d7b71cb77a9c0ad6cdd4314f91ac43209fa6fbd950af6f876d03fe8"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": "A-61 CONVENCION INTERAMERICANA PARA PREVENIR,\nSANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LA MUJER\n\"CONVENCION DE BELEM DO PARA\"\nBAHAMAS: (Declaraci�n de Bahamas al firmar y adherirse a la Convenci�n)\nEn el instrumento de ratificaci�n el Gobierno de Bahamas declara:\nArt�culo 7(g) de la Convenci�n no implica ninguna obligaci�n del Gobierno del\nCommonwealth de las Bahamas a proporcionar ninguna forma de indemnizaci�n\nde fondos p�blicos a ninguna mujer que haya sido sujeta a violencia en\ncircunstancias en que �sta responsabilidad podr�a normalmente no haber sido\nincurrida bajo las leyes existentes en Bahamas.\nTEXTO\nDEL TRATADO",
+ "participants": [
+  {
+   "iso3": "ATG",
+   "name": "Antigua y Barbuda",
+   "signature": null,
+   "consent": {
+    "date": "1998-08-12",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1998-11-19",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-08-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "1996-04-09",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-07-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-04-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BHS",
+   "name": "Bahamas (Commonwealth",
+   "signature": "1995-05-16",
+   "consent": {
+    "date": "1995-05-03",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1995-05-16",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-05-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BRB",
+   "name": "Barbados",
+   "signature": "1995-05-16",
+   "consent": {
+    "date": "1995-02-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-05-16",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-02-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": "1996-11-15",
+   "consent": {
+    "date": "1996-11-25",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1996-11-25",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-11-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "signature": "1994-09-14",
+   "consent": {
+    "date": "1994-10-26",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1994-12-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-10-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": "1994-06-09",
+   "consent": {
+    "date": "1995-11-16",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-11-27",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-11-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": "2025-03-07",
+   "consent": {
+    "date": "2026-06-18",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2026-06-18",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2026-06-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "1994-10-17",
+   "consent": {
+    "date": "1996-10-24",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-11-15",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-10-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": null,
+   "consent": {
+    "date": "1996-10-03",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1996-11-15",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-10-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1994-06-09",
+   "consent": {
+    "date": "1995-07-05",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-07-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-07-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "signature": null,
+   "consent": {
+    "date": "1995-06-30",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-06-06",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-06-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1995-01-10",
+   "consent": {
+    "date": "1995-06-30",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-09-15",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-06-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "1995-08-14",
+   "consent": {
+    "date": "1995-11-13",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-01-26",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-11-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GRD",
+   "name": "Grenada",
+   "signature": null,
+   "consent": {
+    "date": "2000-11-29",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2001-02-15",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-11-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "1994-06-24",
+   "consent": {
+    "date": "1995-01-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-04-04",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-01-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GUY",
+   "name": "Guyana",
+   "signature": "1995-01-10",
+   "consent": {
+    "date": "1996-01-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-02-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-01-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": null,
+   "consent": {
+    "date": "1997-04-07",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": "1997-06-02",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1997-04-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "1995-07-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-07-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-07-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": "2005-12-14",
+   "consent": {
+    "date": "2005-11-11",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2005-12-14",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-11-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "M�xico",
+   "signature": "1995-06-04",
+   "consent": {
+    "date": "1998-06-19",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1998-11-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-06-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1994-06-09",
+   "consent": {
+    "date": "1995-10-06",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-12-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-10-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panam�",
+   "signature": "1994-10-05",
+   "consent": {
+    "date": "1995-04-26",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-07-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-04-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1995-10-17",
+   "consent": {
+    "date": "1995-09-29",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-10-18",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-09-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Per�",
+   "signature": "1995-07-12",
+   "consent": {
+    "date": "1996-04-02",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-06-04",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-04-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Rep�blica Dominicana",
+   "signature": "1994-06-09",
+   "consent": {
+    "date": "1996-01-10",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-03-07",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-01-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VCT",
+   "name": "San Vicente y las",
+   "signature": "1996-03-05",
+   "consent": {
+    "date": "1996-05-23",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-05-31",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-05-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LCA",
+   "name": "Santa Luc�a",
+   "signature": "1994-11-11",
+   "consent": {
+    "date": "1995-03-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-04-04",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-03-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KNA",
+   "name": "St. Kitts y Nevis",
+   "signature": "1994-06-09",
+   "consent": {
+    "date": "1995-03-17",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-06-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-03-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SUR",
+   "name": "Suriname",
+   "signature": null,
+   "consent": {
+    "date": "2002-02-19",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-03-08",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-02-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TTO",
+   "name": "Trinidad y Tobago",
+   "signature": "1995-11-03",
+   "consent": {
+    "date": "1996-01-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-05-08",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-01-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1994-06-30",
+   "consent": {
+    "date": "1996-01-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-04-02",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-01-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "signature": "1994-06-09",
+   "consent": {
+    "date": "1995-01-16",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1995-02-03",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-01-16",
+    "type": "ratification"
+   }
+  }
+ ]
+}

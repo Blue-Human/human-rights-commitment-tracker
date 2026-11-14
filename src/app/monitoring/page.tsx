@@ -1,76 +1,88 @@
 import type { Metadata } from "next";
-import { Box, Container, Divider, Stack, Typography } from "@mui/material";
-import { MonitoringList } from "@/components/MonitoringList";
+import Link from "next/link";
+import { Box, Container, Typography } from "@mui/material";
+import { MonitoringCard } from "@/components/MonitoringCard";
+import { MonitoringExplorer, type ExplorerItem } from "@/components/MonitoringExplorer";
+import { RecordDisclosure } from "@/components/RecordDisclosure";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { formatDate, getCommitments, getMonitoringStatus, getRecentMonitoringItems, groupByUrl, monitoringChannel, type MonitoringChannel } from "@/lib/hrct";
+import { getAllHumanSecurityDimensions, getCommitments, getMonitoringStatus, getRecentMonitoringItems, groupByUrl } from "@/lib/hrct";
 
 export const metadata: Metadata = {
-  title: "Live monitoring | Human Rights Commitment Tracker",
-  description: "Recent public reporting, official publications and legal changes matched to Spain's UPR recommendations.",
+  title: "Actualidad | Human Rights Commitment Institute",
+  description: "Noticias, publicaciones oficiales y cambios normativos recientes relacionados con las recomendaciones del EPU a España.",
 };
 
-const sections: { channel: MonitoringChannel; overline: string; title: string; intro: string; empty: string }[] = [
-  {
-    channel: "need",
-    overline: "Live context monitoring",
-    title: "Why these recommendations remain relevant",
-    intro: "Reporting, official statistics and public statements indicating that the problem addressed by a recommendation persists. These items are context. They are not proof of implementation or non-implementation.",
-    empty: "No public context items have been recorded yet.",
-  },
-  {
-    channel: "implementation",
-    overline: "Automated research queue",
-    title: "Potential implementation developments",
-    intro: "Laws, official gazette publications, plans and official actions matched to a recommendation. They remain candidates until a researcher reviews them and promotes them into the evidence record.",
-    empty: "No potential implementation developments are currently public.",
-  },
-  {
-    channel: "contradiction",
-    overline: "Automated research queue",
-    title: "Potential contrary developments",
-    intro: "Developments that may run against a recommendation. Like all automated items, they do not change an assessment until reviewed.",
-    empty: "No potential contrary developments are currently public.",
-  },
-];
+const section = { py: { xs: 5, md: 7 }, borderTop: "1px solid", borderColor: "divider" };
+
+function Heading({ id, overline, title }: { id: string; overline: string; title: string }) {
+  return (
+    <Box sx={{ mb: 3 }}>
+      <Typography variant="overline" color="text.secondary">{overline}</Typography>
+      <Typography id={id} variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>{title}</Typography>
+    </Box>
+  );
+}
 
 export default async function MonitoringPage() {
-  const [commitments, items, status] = await Promise.all([getCommitments(), getRecentMonitoringItems(), getMonitoringStatus()]);
+  const [commitments, items, status, dimensionLinks] = await Promise.all([getCommitments(), getRecentMonitoringItems(), getMonitoringStatus(), getAllHumanSecurityDimensions().catch(() => [])]);
   const numbers = Object.fromEntries(commitments.map((c) => [c.public_id, c.recommendation_number || c.public_id]));
+  const dimensionsById: Record<string, string[]> = {};
+  for (const d of dimensionLinks) (dimensionsById[d.public_id] ??= []).push(d.code);
   const developments = groupByUrl(items);
-  const lastScan = formatDate(status?.last_successful_run_at);
+  const [lead, ...rest] = developments;
+  const next = rest.slice(0, 3);
+
+  // Only what the cards and the filters use travels to the browser.
+  const explorer: ExplorerItem[] = developments.map((d) => ({
+    slug: d.slug, kind: d.kind, relation: d.relation, title: d.title, publisher: d.publisher, source_domain: d.source_domain, source_type: d.source_type,
+    published_at: d.published_at, summary: d.summary, excerpt: d.excerpt, status: d.status, public_ids: d.public_ids,
+    dimensions: [...new Set(d.public_ids.flatMap((id) => dimensionsById[id] || []))],
+    numbers: d.public_ids.map((id) => numbers[id] || id),
+  }));
 
   return (
     <>
       <SiteHeader />
       <Box component="main">
-        <Container maxWidth="lg" sx={{ py: { xs: 4.5, md: 6 } }}>
-          <Typography variant="overline" color="primary.main">Spain · UPR fourth cycle · Live monitoring</Typography>
-          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2rem", md: "2.8rem" }, maxWidth: 940, mt: 1.1 }}>Live monitoring</Typography>
-          <Typography color="text.secondary" sx={{ mt: 1.8, maxWidth: 860, lineHeight: 1.75 }}>
-            HRCT scans public sources for material related to each recommendation: national media, institutional and civil-society feeds, news search and the Boletín Oficial del Estado. Automated discovery keeps the record current; it never changes a Blue Human assessment on its own.
+        <Container maxWidth="lg" sx={{ pt: { xs: 4.5, md: 6 }, pb: { xs: 4, md: 5 } }}>
+          <Typography variant="overline" color="primary.main" sx={{ borderLeft: "3px solid", borderColor: "secondary.main", pl: 1.5 }}>España · EPU, cuarto ciclo</Typography>
+          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.2rem", md: "3rem" }, mt: 1 }}>Actualidad</Typography>
+          <Typography color="text.secondary" sx={{ mt: 2, maxWidth: 660, lineHeight: 1.7 }}>
+            Noticias, publicaciones oficiales y cambios normativos relacionados con las recomendaciones de derechos humanos que recibió España.
           </Typography>
-          <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 5 }} sx={{ mt: 3, pt: 2.5, borderTop: "1px solid", borderColor: "divider" }}>
-            <Box><Typography variant="overline" color="text.secondary">Recommendations monitored</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status?.recommendations_monitored ?? commitments.length}</Typography></Box>
-            <Box><Typography variant="overline" color="text.secondary">Public monitoring items</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{developments.length}</Typography></Box>
-            {!!status?.feeds_monitored && <Box><Typography variant="overline" color="text.secondary">Sources scanned</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{status.feeds_monitored} news, institutional and civil-society feeds, Google News and the BOE</Typography></Box>}
-            {lastScan && <Box><Typography variant="overline" color="text.secondary">Last source scan</Typography><Typography variant="body2" color="primary.main" sx={{ mt: .35 }}>{lastScan}</Typography></Box>}
-          </Stack>
         </Container>
 
-        <Divider />
+        {lead && (
+          <Container component="section" aria-labelledby="latest-heading" maxWidth="lg" sx={{ pb: { xs: 5, md: 7 } }}>
+            <Typography id="latest-heading" variant="overline" color="text.secondary" sx={{ display: "block", mb: 1.5 }}>Lo más reciente</Typography>
+            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", md: next.length ? "minmax(0,7fr) minmax(0,5fr)" : "minmax(0,1fr)" }, columnGap: 5, rowGap: 1 }}>
+              <MonitoringCard item={lead} variant="lead" heading="h2" />
+              {next.length > 0 && (
+                <Box sx={{ borderTop: { md: "1px solid" }, borderColor: { md: "divider" } }}>
+                  {next.map((item) => <MonitoringCard key={item.slug} item={item} variant="row" heading="h2" />)}
+                </Box>
+              )}
+            </Box>
+          </Container>
+        )}
 
-        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 6 } }}>
-          <Stack spacing={6}>
-            {sections.filter((section) => section.channel !== "contradiction" || developments.some((d) => monitoringChannel(d) === "contradiction")).map((section) => (
-              <Box component="section" key={section.channel}>
-                <Typography variant="overline" color="text.secondary">{section.overline}</Typography>
-                <Typography variant="h4" color="primary.main" sx={{ mt: .45, mb: 1.2 }}>{section.title}</Typography>
-                <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 840, lineHeight: 1.75, mb: 2.2 }}>{section.intro}</Typography>
-                <MonitoringList items={developments.filter((d) => monitoringChannel(d) === section.channel)} numbers={numbers} empty={section.empty} />
-              </Box>
-            ))}
-          </Stack>
+        <Container component="section" aria-labelledby="all-heading" maxWidth="lg" sx={section}>
+          <Heading id="all-heading" overline="Seguimiento de la actualidad" title="Todas las novedades" />
+          <MonitoringExplorer items={explorer} />
+        </Container>
+
+        <Container component="section" aria-label="Cómo se elabora esta página" maxWidth="lg" sx={{ pb: { xs: 5, md: 7 } }}>
+          <Box sx={{ borderBottom: "1px solid", borderColor: "divider", "& a": { color: "inherit" } }}>
+            <RecordDisclosure title="Cómo se elabora esta página">
+              <Typography variant="body2" sx={{ maxWidth: 860, lineHeight: 1.75 }}>
+                HRCT consulta fuentes públicas en busca de material relacionado con cada recomendación: medios de comunicación nacionales, canales de instituciones y de la sociedad civil, búsquedas de noticias y el Boletín Oficial del Estado{status?.feeds_monitored ? ` (${status.feeds_monitored} canales, además de Google News y el BOE)` : ""}. El seguimiento mantiene las fichas al día, pero nunca modifica por sí solo una valoración de Blue Human. Cada novedad se marca como revisada o pendiente de confirmación final.
+              </Typography>
+              <Typography variant="body2" sx={{ maxWidth: 860, lineHeight: 1.75, mt: 1.4 }}>
+                HRCT enlaza cada publicación en su fuente original y, como mucho, cita de ella un fragmento breve. Los criterios están en la <Link href="/methodology#seguimiento">metodología</Link>.
+              </Typography>
+            </RecordDisclosure>
+          </Box>
         </Container>
       </Box>
       <SiteFooter />

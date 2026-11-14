@@ -1,0 +1,2019 @@
+{
+ "generated": "2026-11-09",
+ "bodies": [
+  {
+   "id": "un-ccpr",
+   "system": "un",
+   "name_es": "Comité de Derechos Humanos",
+   "nature": "committee",
+   "rules": "un-ccpr-rules",
+   "instruments": [
+    "un-iccpr",
+    "un-iccpr-op1",
+    "un-iccpr-op2"
+   ],
+   "established_by": {
+    "i": "un-iccpr",
+    "a": "28",
+    "x": "Se establecerá un Comité de Derechos Humanos",
+    "p": "1",
+    "quote": "1. Se establecerá un Comité de Derechos Humanos (en adelante denominado el Comité). Se compondrá de dieciocho miembros, y desempeñará las funciones que se señalan más adelante.",
+    "lang": "es",
+    "anchor": "art-28",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1977-10733",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [
+    {
+     "i": "un-iccpr",
+     "a": "28",
+     "x": "dieciocho miembros",
+     "p": "1",
+     "quote": "1. Se establecerá un Comité de Derechos Humanos (en adelante denominado el Comité). Se compondrá de dieciocho miembros, y desempeñará las funciones que se señalan más adelante.",
+     "lang": "es",
+     "anchor": "art-28",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10733",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-iccpr",
+     "a": "32",
+     "x": "cuatro años",
+     "p": "1",
+     "quote": "1. Los miembros del Comité se elegirán por cuatro años. Podrán ser reelegidos si se presenta de nuevo su candidatura. Sin embargo, los mandatos de nueve de los miembros elegidos en la primera elección expirarán al cabo de dos años. Inmediatamente después de la primera elección, el Presidente de la reunión mencionada en el párrafo 4 del artículo 30 designará por sorteo los nombres de estos nueve miembros.",
+     "lang": "es",
+     "anchor": "art-32",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10733",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-iccpr",
+     "a": "40",
+     "x": "presentar informes",
+     "p": "1",
+     "quote": "1. Los Estados Partes en el presente Pacto se comprometen a presentar informes sobre las disposiciones que hayan adoptado y que den efecto a los derechos reconocidos en el Pacto y sobre el progreso que hayan realizado en cuanto al goce de esos derechos:\na) En el plazo de un año a contar de la fecha de entrada en vigor del presente Pacto con respecto a los Estados Partes interesados;\nb) En lo sucesivo, cada vez que el Comité lo pida.",
+     "lang": "es",
+     "anchor": "art-40",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10733",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones entre Estados (si ambos lo han declarado)",
+     "i": "un-iccpr",
+     "a": "41",
+     "x": "podrá declarar en cualquier momento",
+     "p": "1",
+     "quote": "1. Con arreglo al presente artículo, todo Estado Parte en el presente Pacto podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar las comunicaciones en que un Estado Parte alegue que otro Estado Parte no cumple las obligaciones que le impone este Pacto. Las comunicaciones hechas en virtud del presente artículo sólo se podrán admitir y examinar si son presentadas por un Estado Parte que haya hecho una declaración por la cual reconozca con respecto a sí mismo la competencia del Comité. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración. Las comunicaciones recibidas en virtud de este artículo se tramitarán de conformidad con el procedimiento siguiente:\na) Si un Estado Parte en el presente Pacto considera que otro Estado Parte no cumple las disposiciones del presente Pacto, podrá señalar el asunto a la atención de dicho Estado mediante una comunicación escrita. Dentro de un plazo de tres meses, contado desde la fecha de recibo de la comunicación, el Estado destinatario proporcionará al Estado que haya enviado la comunicación una explicación o cualquier otra declaración por escrito que aclare el asunto, la cual hará referencia, hasta donde sea posible y pertinente, a los procedimientos nacionales y a los recursos adoptados, en trámite o que puedan utilizarse al respecto.\nb) Si el asunto no se resuelve a satisfacción de los dos Estados Partes interesados en un plazo de seis meses, contado desde la fecha en que el Estado destinatario haya recibido la primera comunicación, cualquiera de ambos Estados Partes interesados tendrá derecho a someterlo al Comité, mediante notificación dirigida al Comité y al otro Estado.\nc) El Comité conocerá del asunto que se le someta después de haberse cerciorado de que se han interpuesto y agotado en tal asunto todos los recursos de la jurisdicción interna de que se pueda disponer, de conformidad con los principios del derecho internacional generalmente admitidos. No se aplicará esta regla cuando la tramitación de los mencionados recursos se prolongue injustificadamente.\nd) El Comité celebrará sus sesiones a puerta cerrada cuando examine las comunicaciones previstas en el presente artículo.\ne) A reserva de las disposiciones del inciso c), el Comité pondrá sus buenos oficios a disposición de los Estados Partes interesados, a fin de llegar a una solución amistosa del asunto, fundada en el respeto de los derechos humanos y de las libertades fundamentales reconocidos en el presente Pacto.\nf) En todo asunto que se le someta, el Comité podrá pedir a los Estados Partes interesados a que se hace referencia en el inciso b) que faciliten cualquier información pertinente.\ng) Los Estados Partes interesados a que se hace referencia en el inciso b) tendrán derecho a Estar representados cuando el asunto se examine en el Comité y a presentar exposiciones verbalmente, o por escrito, o de ambas maneras.\nh) El Comité, dentro de los doce meses siguientes a la fecha de recibo de la notificación mencionada en el inciso b), presentará un informe en el cual:\ni) Si se ha llegado a una solución con arreglo a lo dispuesto en el inciso e), se limitará a una breve exposición de los hechos y de la solución alcanzada.\nii) Si no se ha llegado a una solución con arreglo a lo dispuesto en el inciso e), se limitará a una breve exposición de los hechos, y agregará las exposiciones escritas y las actas de las exposiciones verbales que hayan hecho los Estados Partes interesados.\nEn cada asunto, se enviará el informe a los Estados Partes interesados",
+     "lang": "es",
+     "anchor": "art-41",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10733",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones individuales (Estados Partes en el Protocolo)",
+     "i": "un-iccpr-op1",
+     "a": "1",
+     "x": "comunicaciones de individuos",
+     "p": null,
+     "quote": "Todo Estado Parte en el Pacto que llegue a ser parte en el presente Protocolo reconoce la competencia del Comité para recibir y considerar comunicaciones de individuos que se hallen bajo la jurisdicción de ese Estado y que aleguen ser víctimas de una violación, por ese Estado Parte, de cualquiera de los derechos enunciados en el Pacto. El Comité no recibirá ninguna comunicación que concierna a un Estado Parte en el Pacto que no sea parte en el presente Protocolo.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 37,
+   "decisions": 139
+  },
+  {
+   "id": "un-cescr",
+   "system": "un",
+   "name_es": "Comité de Derechos Económicos, Sociales y Culturales",
+   "nature": "committee",
+   "established_by_note": "Creado por la resolución 1985/17 del Consejo Económico y Social (el Pacto confía el examen de los informes al Consejo, arts. 16 y 17).",
+   "rules": "un-cescr-op-rules",
+   "instruments": [
+    "un-icescr",
+    "un-icescr-op"
+   ],
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-icescr",
+     "a": "16",
+     "x": "presentar",
+     "p": "1",
+     "quote": "1. Los Estados Partes en el presente Pacto se comprometen a presentar, en conformidad con esta parte del Pacto, informes sobre las medidas que hayan adoptado, y los progresos realizados, con el fin de asegurar el respeto a los derechos reconocidos en el mismo.",
+     "lang": "es",
+     "anchor": "art-16",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10734",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10734",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones individuales (Estados Partes en el Protocolo)",
+     "i": "un-icescr-op",
+     "a": "1",
+     "x": "reconocerá la competencia del Comité",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el Pacto que se haga Parte en el presente Protocolo reconocerá la competencia del Comité para recibir y examinar comunicaciones conforme a lo dispuesto en el presente Protocolo.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": "Competencia del Comité para recibir y examinar comunicaciones",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones entre Estados (si lo han declarado)",
+     "i": "un-icescr-op",
+     "a": "10",
+     "x": "podrá declarar en cualquier momento",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el presente Protocolo podrá declarar en cualquier momento, en virtud del presente artículo, que reconoce la competencia del Comité para recibir y examinar comunicaciones en las que un Estado Parte alegue que otro Estado Parte no cumple sus obligaciones dimanantes del Pacto. Las comunicaciones presentadas conforme a este artículo sólo se recibirán y examinarán si las presenta un Estado Parte que haya reconocido con respecto a sí mismo la competencia del Comité en una declaración al efecto. El Comité no recibirá ninguna comunicación que se refiera a un Estado Parte que no haya hecho tal declaración. Las comunicaciones que se reciban conforme a este artículo quedarán sujetas al siguiente procedimiento:\na) Si un Estado Parte en el presente Protocolo considera que otro Estado Parte no está cumpliendo con sus obligaciones en virtud del Pacto, podrá, mediante comunicación por escrito, señalar el asunto a la atención de ese Estado Parte. El Estado Parte podrá también informar al Comité del asunto. En un plazo de tres meses contado desde la recepción de la comunicación, el Estado receptor ofrecerá al Estado que haya enviado la comunicación una explicación u otra declaración por escrito en la que aclare el asunto y, en la medida de lo posible y pertinente, haga referencia a los procedimientos y recursos internos hechos valer, pendientes o disponibles sobre la materia;\nb) Si el asunto no se resuelve a satisfacción de ambos Estados Partes interesados dentro de seis meses de recibida la comunicación inicial por el Estado receptor, cualquiera de ellos podrá remitir el asunto al Comité mediante notificación cursada al Comité y al otro Estado;\nc) El Comité examinará el asunto que se le haya remitido sólo después de haberse cerciorado de que se han hecho valer y se han agotado todos los recursos internos sobre la materia. No se aplicará esta norma cuando la tramitación de esos recursos se prolongue injustificadamente;\nd) Con sujeción a lo dispuesto en el apartado c) del presente párrafo, el Comité pondrá sus buenos oficios a disposición de los Estados Partes interesados con miras a llegar a una solución amigable de la cuestión sobre la base del respeto de las obligaciones establecidas en el Pacto;\ne) El Comité celebrará sesiones privadas cuando examine las comunicaciones a que se refiere el presente artículo;\nf) En todo asunto que se le remita de conformidad con el apartado b) del presente párrafo, el Comité podrá pedir a los Estados Partes interesados que se mencionan en el apartado b) que faciliten cualquier otra información pertinente;\ng) Los Estados Partes interesados que se mencionan en el apartado b) del presente párrafo tendrán derecho a estar representados cuando el asunto sea examinado por el Comité y a hacer declaraciones oralmente y/o por escrito;\nh) El Comité presentará, a la mayor brevedad posible a partir de la fecha de recepción de la notificación a que se refiere el apartado b) del presente párrafo, un informe, como se indica a continuación:\ni) Si se llega al tipo de solución previsto en el apartado d) del presente párrafo, el Comité limitará su informe a una breve exposición de los hechos y de la solución a que se haya llegado;\nii) Si no se llega al tipo de solución previsto en el apartado d), el Comité expondrá en su informe los hechos pertinentes al asunto entre los Estados Partes interesados. Se adjuntarán al informe las declaraciones por escrito y una relación de las declaraciones orales hechas por los Estados Partes interesados. El Comité podrá también transmitir únicamente a los Estados Partes interesados cualesquiera observaciones que considere pertinentes al asunto entre ambos.\nEn todos los casos, el informe se transmitirá a los Estados Partes interesados.",
+     "lang": "es",
+     "anchor": "art-10",
+     "heading": "Comunicaciones entre Estados",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Procedimiento de investigación (si lo han declarado)",
+     "i": "un-icescr-op",
+     "a": "11",
+     "x": "podrá en cualquier momento declarar",
+     "p": "1",
+     "quote": "1. Cualquier Estado Parte en el presente Protocolo podrá en cualquier momento declarar que reconoce la competencia del Comité prevista en el presente artículo.",
+     "lang": "es",
+     "anchor": "art-11",
+     "heading": "Procedimiento de investigación",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 29,
+   "decisions": 171
+  },
+  {
+   "id": "un-cerd",
+   "system": "un",
+   "name_es": "Comité para la Eliminación de la Discriminación Racial",
+   "nature": "committee",
+   "instruments": [
+    "un-icerd"
+   ],
+   "established_by": {
+    "i": "un-icerd",
+    "a": "8",
+    "x": null,
+    "p": null,
+    "quote": null,
+    "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-icerd",
+     "a": "9",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Comunicaciones entre Estados",
+     "i": "un-icerd",
+     "a": "11",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Comunicaciones individuales (si el Estado lo ha declarado)",
+     "i": "un-icerd",
+     "a": "14",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "members": null,
+   "interpretations": 44,
+   "decisions": 0
+  },
+  {
+   "id": "un-cedaw",
+   "system": "un",
+   "name_es": "Comité para la Eliminación de la Discriminación contra la Mujer",
+   "nature": "committee",
+   "rules": "un-cedaw-rules",
+   "instruments": [
+    "un-cedaw",
+    "un-cedaw-op"
+   ],
+   "established_by": {
+    "i": "un-cedaw",
+    "a": "17",
+    "x": "se establecerá un Comité",
+    "p": "1",
+    "quote": "1. Con el fin de examinar los progresos realizados en la aplicación de la presente Convención, se establecerá un Comité sobre la Eliminación de la Discriminación contra la Mujer (denominado en adelante el Comité), compuesto en el momento de la entrada en vigor de la Convención, de dieciocho y, después de su ratificación o adhesión por el trigésimo quinto Estado Parte, de veintitrés expertos de gran prestigio moral y competencia en la esfera abarcada por la Convención. Los expertos serán elegidos por los Estados Partes entre sus nacionales, y ejercerán sus funciones a título personal; se tendrán en cuenta una distribución geográfica equitativa y la representación de las diferentes formas de civilización, así como los principales sistemas jurídicos.",
+    "lang": "es",
+    "anchor": "art-17",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1984-6749",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-6749",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-cedaw",
+     "a": "18",
+     "x": "informe",
+     "p": "1",
+     "quote": "1. Los Estados Partes se comprometen a someter al Secretario General de las Naciones Unidas, para que lo examine el Comité, un informe sobre las medidas legislativas, judiciales, administrativas o de otra índole que hayan adoptado para hacer efectivas las disposiciones de la presente Convención y sobre los progresos realizados en este sentido:\na) En el plazo de un año a partir de la entrada en vigor de la Convención para el Estado de que se trate; y\nb) En lo sucesivo por lo menos cada cuatro años y, además, cuando el Comité lo solicite.",
+     "lang": "es",
+     "anchor": "art-18",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1984-6749",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-6749",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones individuales (Estados Partes en el Protocolo)",
+     "i": "un-cedaw-op",
+     "a": "2",
+     "x": "personas o grupos de personas",
+     "p": null,
+     "quote": "Las comunicaciones podrán ser presentadas por personas o grupos de personas que se hallen bajo la jurisdicción del Estado Parte y que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de los derechos enunciados en la Convención, o en nombre de esas personas o grupos de personas. Cuando se presente una comunicación en nombre de personas o grupos de personas, se requerirá su consentimiento, a menos que el autor pueda justificar el actuar en su nombre sin tal consentimiento.",
+     "lang": "es",
+     "anchor": "art-2",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Procedimiento de investigación",
+     "i": "un-cedaw-op",
+     "a": "8",
+     "x": "violaciones graves o sistemáticas",
+     "p": "1",
+     "quote": "1. Si el Comité recibe información fidedigna que revele violaciones graves o sistemáticas por un Estado Parte de los derechos enunciados en la Convención, el Comité invitará a ese Estado Parte a colaborar en el examen de la información y, a esos efectos, a presentar observaciones sobre dicha información.",
+     "lang": "es",
+     "anchor": "art-8",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 44,
+   "decisions": 9
+  },
+  {
+   "id": "un-cat",
+   "system": "un",
+   "name_es": "Comité contra la Tortura",
+   "nature": "committee",
+   "instruments": [
+    "un-cat"
+   ],
+   "established_by": {
+    "i": "un-cat",
+    "a": "17",
+    "x": null,
+    "p": null,
+    "quote": null,
+    "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-cat",
+     "a": "19",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Procedimiento de investigación",
+     "i": "un-cat",
+     "a": "20",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Comunicaciones entre Estados (si lo han declarado)",
+     "i": "un-cat",
+     "a": "21",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Comunicaciones individuales (si el Estado lo ha declarado)",
+     "i": "un-cat",
+     "a": "22",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "members": null,
+   "interpretations": 4,
+   "decisions": 16
+  },
+  {
+   "id": "un-spt",
+   "system": "un",
+   "name_es": "Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos o Degradantes",
+   "nature": "subcommittee",
+   "instruments": [
+    "un-opcat"
+   ],
+   "established_by": {
+    "i": "un-opcat",
+    "a": "2",
+    "x": "Se establecerá un Subcomité para la Prevención",
+    "p": "1",
+    "quote": "1. Se establecerá un Subcomité para la Prevención de la Tortura y Otros Tratos o Penas Crueles, Inhumanos, o Degradantes del Comité contra la Tortura (en adelante denominado el Subcomité para la Prevención) que desempeñará las funciones previstas en el presente Protocolo.",
+    "lang": "es",
+    "anchor": "art-2",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-2006-11128",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-11128",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Visitas a lugares de privación de libertad",
+     "i": "un-opcat",
+     "a": "11",
+     "x": "Visitar los lugares",
+     "p": "a",
+     "quote": "a) Visitar los lugares mencionados en el artículo 4 y hacer recomendaciones a los Estados Partes en cuanto a la protección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes;",
+     "lang": "es",
+     "anchor": "art-11",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2006-11128",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-11128",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 1,
+   "decisions": 0
+  },
+  {
+   "id": "un-crc",
+   "system": "un",
+   "name_es": "Comité de los Derechos del Niño",
+   "nature": "committee",
+   "rules": "un-crc-opic-rules",
+   "instruments": [
+    "un-crc",
+    "un-crc-opac",
+    "un-crc-opsc",
+    "un-crc-opic"
+   ],
+   "established_by": {
+    "i": "un-crc",
+    "a": "43",
+    "x": "se establecerá un Comité de los Derechos del Niño",
+    "p": "1",
+    "quote": "1. Con la finalidad de examinar los progresos realizados en el cumplimiento de las obligaciones contraídas por los Estados Partes en la presente Convención, se establecerá un Comité de los Derechos del Niño que desempeñará las funciones que a continuación se estipulan.",
+    "lang": "es",
+    "anchor": "art-43",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1990-31312",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-31312",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-crc",
+     "a": "44",
+     "x": "informes",
+     "p": "1",
+     "quote": "1. Los Estados Partes se comprometen a presentar al Comité, por conducto del Secretario general de las Naciones Unidas, informes sobre las medidas que hayan adoptado para dar efecto a los derechos reconocidos en la Convención y sobre el progreso que hayan realizado en cuanto al goce de esos derechos:\na) En el plazo de dos años a partir de la fecha en la que para cada Estado Parte haya entrado en vigor la presente Convención;\nb) En lo sucesivo, cada cinco años.",
+     "lang": "es",
+     "anchor": "art-44",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1990-31312",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-31312",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones individuales (Estados Partes en el Protocolo de 2011)",
+     "i": "un-crc-opic",
+     "a": "5",
+     "x": "Las comunicaciones podrán ser presentadas",
+     "p": "1",
+     "quote": "1. Las comunicaciones podrán ser presentadas por, o en nombre de, personas o grupos de personas sujetas a la jurisdicción de un Estado parte que afirmen ser víctimas de una violación por el Estado parte de cualquiera de los derechos enunciados en cualquiera de los siguientes instrumentos en que ese Estado sea parte:\na) La Convención;\nb) El Protocolo facultativo de la Convención relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía;\nc) El Protocolo facultativo de la Convención relativo a la participación de niños en los conflictos armados.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": "Comunicaciones individuales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones entre Estados (si lo han declarado)",
+     "i": "un-crc-opic",
+     "a": "12",
+     "x": "podrá declarar en cualquier momento",
+     "p": "1",
+     "quote": "1. Todo Estado parte en el presente Protocolo podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar comunicaciones en que un Estado parte alegue que otro Estado parte no cumple las obligaciones dimanantes de cualquiera de los siguientes instrumentos en que ese Estado sea parte:\na) La Convención;\nb) El Protocolo facultativo de la Convención relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía;\nc) El Protocolo facultativo de la Convención relativo a la participación de niños en los conflictos armados.",
+     "lang": "es",
+     "anchor": "art-12",
+     "heading": "Comunicaciones entre Estados",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Procedimiento de investigación",
+     "i": "un-crc-opic",
+     "a": "13",
+     "x": "violaciones graves o sistemáticas",
+     "p": "1",
+     "quote": "1. El Comité, si recibe información fidedigna que indique violaciones graves o sistemáticas por un Estado parte de los derechos enunciados en la Convención o en sus Protocolos facultativos relativos a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía o a la participación de niños en los conflictos armados, invitará a ese Estado a colaborar en el examen de la información y, a esos efectos, a presentar sin dilación sus observaciones al respecto.",
+     "lang": "es",
+     "anchor": "art-13",
+     "heading": "Procedimiento de investigación en caso de violaciones graves o sistemáticas",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 27,
+   "decisions": 65
+  },
+  {
+   "id": "un-cmw",
+   "system": "un",
+   "name_es": "Comité de Protección de los Derechos de Todos los Trabajadores Migratorios y de sus Familiares",
+   "nature": "committee",
+   "instruments": [
+    "un-cmw"
+   ],
+   "established_by": {
+    "i": "un-cmw",
+    "a": "72",
+    "x": null,
+    "p": null,
+    "quote": null,
+    "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-cmw",
+     "a": "73",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Comunicaciones entre Estados",
+     "i": "un-cmw",
+     "a": "76",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "label": "Comunicaciones individuales",
+     "i": "un-cmw",
+     "a": "77",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "members": null,
+   "interpretations": 8,
+   "decisions": 0
+  },
+  {
+   "id": "un-crpd",
+   "system": "un",
+   "name_es": "Comité sobre los Derechos de las Personas con Discapacidad",
+   "nature": "committee",
+   "rules": "un-crpd-rules",
+   "instruments": [
+    "un-crpd",
+    "un-crpd-op"
+   ],
+   "established_by": {
+    "i": "un-crpd",
+    "a": "34",
+    "x": "Se creará un Comité sobre los Derechos de las Personas con Discapacidad",
+    "p": "1",
+    "quote": "1. Se creará un Comité sobre los Derechos de las Personas con Discapacidad (en adelante, «el Comité») que desempeñará las funciones que se enuncian a continuación.",
+    "lang": "es",
+    "anchor": "art-34",
+    "heading": "Comité sobre los derechos de las personas con discapacidad",
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-2008-6963",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6963",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-crpd",
+     "a": "35",
+     "x": "informe exhaustivo",
+     "p": "1",
+     "quote": "1. Los Estados Partes presentarán al Comité, por conducto del Secretario General de las Naciones Unidas, un informe exhaustivo sobre las medidas que hayan adoptado para cumplir sus obligaciones conforme a la presente Convención y sobre los progresos realizados al respecto en el plazo de dos años, contado a partir de la entrada en vigor de la presente Convención en el Estado Parte de que se trate.",
+     "lang": "es",
+     "anchor": "art-35",
+     "heading": "Informes presentados por los Estados Partes",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6963",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6963",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones individuales (Estados Partes en el Protocolo)",
+     "i": "un-crpd-op",
+     "a": "1",
+     "x": "recibir y considerar las comunicaciones",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el presente Protocolo («Estado Parte» reconoce la competencia del Comité sobre los Derechos de las Personas con Discapacidad («el Comité») para recibir y considerar las comunicaciones presentadas por personas o grupos de personas sujetos a su jurisdicción que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de las disposiciones de la Convención, o en nombre de esas personas o grupos de personas.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Procedimiento de investigación",
+     "i": "un-crpd-op",
+     "a": "6",
+     "x": "violaciones graves o sistemáticas",
+     "p": "1",
+     "quote": "1. Si el Comité recibe información fidedigna que revele violaciones graves o sistemáticas por un Estado Parte de los derechos recogidos en la Convención, el Comité invitará a ese Estado Parte a colaborar en el examen de la información y, a esos efectos, a presentar observaciones sobre dicha información.",
+     "lang": "es",
+     "anchor": "art-6",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 19,
+   "decisions": 11
+  },
+  {
+   "id": "un-ced",
+   "system": "un",
+   "name_es": "Comité contra la Desaparición Forzada",
+   "nature": "committee",
+   "rules": "un-ced-rules",
+   "instruments": [
+    "un-ced"
+   ],
+   "established_by": {
+    "i": "un-ced",
+    "a": "26",
+    "x": "se constituirá un Comité contra la Desaparición Forzada",
+    "p": "1",
+    "quote": "1. Para la aplicación de las disposiciones de la presente Convención, se constituirá un Comité contra la Desaparición Forzada (denominado en lo sucesivo «el Comité») integrado por diez expertos de gran integridad moral, de reconocida competencia en materia de derechos humanos, independientes, que ejercerán sus funciones a título personal y actuarán con total imparcialidad. Los miembros del Comité serán elegidos por los Estados Partes teniendo en cuenta una distribución geográfica equitativa. Se tendrá en cuenta el interés que representa la participación en los trabajos del Comité de personas que tengan experiencia jurídica pertinente y de una representación equilibrada de los géneros.",
+    "lang": "es",
+    "anchor": "art-26",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-2011-3164",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [
+    {
+     "i": "un-ced",
+     "a": "26",
+     "x": "diez expertos",
+     "p": "1",
+     "quote": "1. Para la aplicación de las disposiciones de la presente Convención, se constituirá un Comité contra la Desaparición Forzada (denominado en lo sucesivo «el Comité») integrado por diez expertos de gran integridad moral, de reconocida competencia en materia de derechos humanos, independientes, que ejercerán sus funciones a título personal y actuarán con total imparcialidad. Los miembros del Comité serán elegidos por los Estados Partes teniendo en cuenta una distribución geográfica equitativa. Se tendrá en cuenta el interés que representa la participación en los trabajos del Comité de personas que tengan experiencia jurídica pertinente y de una representación equilibrada de los géneros.",
+     "lang": "es",
+     "anchor": "art-26",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "competences": [
+    {
+     "label": "Informes de los Estados Partes",
+     "i": "un-ced",
+     "a": "29",
+     "x": "informe",
+     "p": "1",
+     "quote": "1. Cada Estado Parte presentará al Comité, por conducto del Secretario General de las Naciones Unidas, un informe relativo a las medidas que hayan adoptado para cumplir con las obligaciones que han contraído en virtud de la presente Convención, dentro del plazo de dos años a contar desde la entrada en vigor de la Convención en el Estado Parte de que se trate.",
+     "lang": "es",
+     "anchor": "art-29",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Acción urgente",
+     "i": "un-ced",
+     "a": "30",
+     "x": "de manera urgente",
+     "p": "1",
+     "quote": "1. El Comité podrá examinar, de manera urgente, toda petición presentada por los allegados de una persona desaparecida, sus representantes legales, sus abogados o las personas autorizadas por ellos, así como todo aquel que tenga un interés legítimo, a fin de que se busque y localice a una persona desaparecida.",
+     "lang": "es",
+     "anchor": "art-30",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones individuales (si el Estado lo ha declarado)",
+     "i": "un-ced",
+     "a": "31",
+     "x": "podrá declarar",
+     "p": "1",
+     "quote": "1. Cada Estado Parte podrá declarar, en el momento de la ratificación o con posterioridad a ésta, que reconoce la competencia del Comité para recibir y examinar las comunicaciones presentadas por personas que se encuentren bajo su jurisdicción o en nombre de ellas, que alegaren ser víctima de violaciones por este Estado Parte de las disposiciones de la presente Convención. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración.",
+     "lang": "es",
+     "anchor": "art-31",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones entre Estados (si lo han declarado)",
+     "i": "un-ced",
+     "a": "32",
+     "x": "podrá declarar en cualquier momento",
+     "p": null,
+     "quote": "Cada Estado Parte en la presente Convención podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar las comunicaciones en que un Estado Parte alegue que otro Estado Parte no cumple con las obligaciones que le impone la presente Convención. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración, ni una comunicación presentada por un Estado Parte que no haya hecho dicha declaración.",
+     "lang": "es",
+     "anchor": "art-32",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Visitas",
+     "i": "un-ced",
+     "a": "33",
+     "x": "efectúen una visita",
+     "p": "1",
+     "quote": "1. Si el Comité recibe información fidedigna que revele violaciones graves de las disposiciones de la presente Convención por un Estado Parte podrá, después de consultar con dicho Estado, solicitar a uno o varios de sus miembros que efectúen una visita al mismo y le informen al respecto sin demora.",
+     "lang": "es",
+     "anchor": "art-33",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 2,
+   "decisions": 0
+  },
+  {
+   "id": "un-hrc",
+   "system": "un",
+   "name_es": "Consejo de Derechos Humanos",
+   "nature": "intergovernmental",
+   "instruments": [],
+   "established_by": {
+    "doc": "un-ga-60-251",
+    "p": "1",
+    "x": "Decide establecer el Consejo de Derechos Humanos",
+    "quote": "1. Decide establecer el Consejo de Derechos Humanos, con sede en Ginebra, en sustitución de la Comisión de Derechos Humanos, como órgano subsidiario de la Asamblea General; la Asamblea revisará la situación del Consejo a los cinco años de su creación;",
+    "lang": "es",
+    "source": {
+     "publisher": "Naciones Unidas",
+     "identifier": "A/RES/60/251",
+     "url": "https://documents.un.org/api/symbol/access?s=A/RES/60/251&l=es&t=pdf",
+     "retrieved": "2026-11-09"
+    },
+    "document_title": "Consejo de Derechos Humanos"
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Examen periódico universal",
+     "doc": "un-ga-60-251",
+     "p": "5.e",
+     "x": "examen periódico universal",
+     "quote": "5. Decide que, entre otras cosas, el Consejo:\ne) Realizará un examen periódico universal, basado en información objetiva y fidedigna, sobre el cumplimiento por cada Estado de sus obligaciones y compromisos en materia de derechos humanos de una forma que garantice la universalidad del examen y la igualdad de trato respecto de todos los Estados; el examen será un mecanismo cooperativo, basado en un diálogo interactivo, con la participación plena del país de que se trate y teniendo en consideración sus necesidades de fomento de la capacidad; dicho mecanismo complementará y no duplicará la labor de los órganos creados en virtud de tratados; el Consejo determinará las modalidades del mecanismo del examen periódico universal y el tiempo que se le asignará antes de que haya transcurrido un año desde la celebración de su primer período de sesiones;",
+     "lang": "es",
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "A/RES/60/251",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/60/251&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     },
+     "document_title": "Consejo de Derechos Humanos"
+    },
+    {
+     "label": "Procedimientos especiales",
+     "doc": "un-ga-60-251",
+     "p": "6",
+     "x": "procedimientos especiales",
+     "quote": "6. Decide también que el Consejo asumirá, examinará y, cuando sea necesario, perfeccionará y racionalizará todos los mandatos, mecanismos, funciones y responsabilidades de la Comisión de Derechos Humanos a fin de mantener un sistema de procedimientos especiales, asesoramiento especializado y un procedimiento de denuncia; el Consejo terminará ese examen en el plazo de un año desde la celebración de su primer período de sesiones;",
+     "lang": "es",
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "A/RES/60/251",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/60/251&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     },
+     "document_title": "Consejo de Derechos Humanos"
+    }
+   ],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-ecthr",
+   "system": "coe",
+   "name_es": "Tribunal Europeo de Derechos Humanos",
+   "nature": "court",
+   "instruments": [
+    "coe-echr",
+    "coe-echr-p1",
+    "coe-echr-p4",
+    "coe-echr-p6",
+    "coe-echr-p7",
+    "coe-echr-p12",
+    "coe-echr-p13",
+    "coe-echr-p16"
+   ],
+   "established_by": {
+    "i": "coe-echr",
+    "a": "19",
+    "x": "se instituye un Tribunal Europeo de Derechos Humanos",
+    "p": null,
+    "quote": "Con el fin de asegurar el respeto de los compromisos que resultan para las Altas Partes Contratantes del presente Convenio y sus protocolos, se instituye un Tribunal Europeo de Derechos Humanos, en lo sucesivo denominado «el Tribunal». Funcionará de manera permanente.",
+    "lang": "es",
+    "anchor": "art-19",
+    "heading": "Institución del Tribunal",
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1999-10148",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [
+    {
+     "i": "coe-echr",
+     "a": "20",
+     "x": "número de Jueces igual al de las Altas Partes Contratantes",
+     "p": null,
+     "quote": "El Tribunal se compondrá de un número de Jueces igual al de las Altas Partes Contratantes.",
+     "lang": "es",
+     "anchor": "art-20",
+     "heading": "Número de Jueces",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "coe-echr",
+     "a": "23",
+     "x": "nueve años",
+     "p": "1",
+     "quote": "1. Los jueces serán elegidos por un periodo de nueve años. No serán reelegibles.",
+     "lang": "es",
+     "anchor": "art-23",
+     "heading": "Duración del mandato y revocación",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "competences": [
+    {
+     "label": "Asuntos entre Estados",
+     "i": "coe-echr",
+     "a": "33",
+     "x": "Toda Alta Parte Contratante podrá someter",
+     "p": null,
+     "quote": "Toda Alta Parte Contratante podrá someter al Tribunal cualquier incumplimiento de lo dispuesto en el Convenio y sus protocolos que, a su juicio, pueda ser imputado a otra Alta Parte Contratante.",
+     "lang": "es",
+     "anchor": "art-33",
+     "heading": "Asuntos entre Estados",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Demandas individuales",
+     "i": "coe-echr",
+     "a": "34",
+     "x": "cualquier persona física, organización no gubernamental o grupo de particulares",
+     "p": null,
+     "quote": "El Tribunal podrá conocer de una demanda presentada por cualquier persona física, organización no gubernamental o grupo de particulares que se considere víctima de una violación, por una de las Altas Partes Contratantes, de los derechos reconocidos en el Convenio o sus protocolos. Las Altas Partes Contratantes se comprometen a no poner traba alguna al ejercicio eficaz de este derecho.",
+     "lang": "es",
+     "anchor": "art-34",
+     "heading": "Demandas individuales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Opiniones consultivas a solicitud del Comité de Ministros",
+     "i": "coe-echr",
+     "a": "47",
+     "x": "opiniones consultivas",
+     "p": "1",
+     "quote": "1. El Tribunal podrá emitir opiniones consultivas, a solicitud del Comité de Ministros, acerca de cuestiones jurídicas relativas a la interpretación del Convenio y de sus Protocolos.",
+     "lang": "es",
+     "anchor": "art-47",
+     "heading": "Opiniones consultivas",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Opiniones consultivas a solicitud de los más altos órganos jurisdiccionales (Protocolo n.º 16)",
+     "i": "coe-echr-p16",
+     "a": "1",
+     "x": "opiniones consultivas",
+     "p": "1",
+     "quote": "1. Los más altos órganos jurisdiccionales de las Altas Partes Contratantes, tal como hayan sido designados con arreglo al artículo 10, podrán cursar al Tribunal solicitudes de opiniones consultivas sobre cuestiones de principio relativas a la interpretación o a la aplicación de los derechos y libertades que definen el Convenio o sus Protocolos.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": {
+    "as_at": "2026-11-01",
+    "members": [
+     {
+      "name": "Mattias Guyomar",
+      "state": "France",
+      "function": "President"
+     },
+     {
+      "name": "Arnfinn Bårdsen",
+      "state": "Norway",
+      "function": "Vice-President"
+     },
+     {
+      "name": "Ivana Jelić",
+      "state": "Montenegro",
+      "function": "Vice-President"
+     },
+     {
+      "name": "Kateřina Šimáčková",
+      "state": "Czech Republic",
+      "function": "Section President"
+     },
+     {
+      "name": "Frédéric Krenc",
+      "state": "Belgium",
+      "function": "Section President"
+     },
+     {
+      "name": "Mykola Gnatovskyy",
+      "state": "Ukraine",
+      "function": "Section President"
+     },
+     {
+      "name": "Faris Vehabović",
+      "state": "Bosnia and Herzegovina",
+      "function": "Judge"
+     },
+     {
+      "name": "Lətif Hüseynov",
+      "state": "Azerbaijan",
+      "function": "Judge"
+     },
+     {
+      "name": "Jovan Ilievski",
+      "state": "North Macedonia",
+      "function": "Judge"
+     },
+     {
+      "name": "Péter Paczolay",
+      "state": "Hungary",
+      "function": "Judge"
+     },
+     {
+      "name": "Lado Chanturia",
+      "state": "Georgia",
+      "function": "Judge"
+     },
+     {
+      "name": "María Elósegui",
+      "state": "Spain",
+      "function": "Judge"
+     },
+     {
+      "name": "Gilberto Felici",
+      "state": "San Marino",
+      "function": "Judge"
+     },
+     {
+      "name": "Darian Pavli",
+      "state": "Albania",
+      "function": "Judge"
+     },
+     {
+      "name": "Erik Wennerström",
+      "state": "Sweden",
+      "function": "Judge"
+     },
+     {
+      "name": "Raffaele Sabato",
+      "state": "Italy",
+      "function": "Judge"
+     },
+     {
+      "name": "Saadet Yüksel",
+      "state": "Türkiye",
+      "function": "Judge"
+     },
+     {
+      "name": "Lorraine Schembri Orland",
+      "state": "Malta",
+      "function": "Judge"
+     },
+     {
+      "name": "Anja Seibert-Fohr",
+      "state": "Germany",
+      "function": "Judge"
+     },
+     {
+      "name": "Peeter Roosma",
+      "state": "Estonia",
+      "function": "Judge"
+     },
+     {
+      "name": "Ana Maria Guerra Martins",
+      "state": "Portugal",
+      "function": "Judge"
+     },
+     {
+      "name": "Ioannis Ktistakis",
+      "state": "Greece",
+      "function": "Judge"
+     },
+     {
+      "name": "Andreas Zünd",
+      "state": "Switzerland",
+      "function": "Judge"
+     },
+     {
+      "name": "Diana Sârcu",
+      "state": "Republic of Moldova",
+      "function": "Judge"
+     },
+     {
+      "name": "Davor Derenčinović",
+      "state": "Croatia",
+      "function": "Judge"
+     },
+     {
+      "name": "Oddný Mjöll Arnardóttir",
+      "state": "Iceland",
+      "function": "Judge"
+     },
+     {
+      "name": "Anne Louise Bormann",
+      "state": "Denmark",
+      "function": "Judge"
+     },
+     {
+      "name": "Sebastian Rădulețu",
+      "state": "Romania",
+      "function": "Judge"
+     },
+     {
+      "name": "Diana Kovatcheva",
+      "state": "Bulgaria",
+      "function": "Judge"
+     },
+     {
+      "name": "Gediminas Sagatys",
+      "state": "Lithuania",
+      "function": "Judge"
+     },
+     {
+      "name": "Stéphane Pisani",
+      "state": "Luxembourg",
+      "function": "Judge"
+     },
+     {
+      "name": "Úna Ní Raifeartaigh",
+      "state": "Ireland",
+      "function": "Judge"
+     },
+     {
+      "name": "Alain Chablais",
+      "state": "Liechtenstein",
+      "function": "Judge"
+     },
+     {
+      "name": "Artūrs Kučs",
+      "state": "Latvia",
+      "function": "Judge"
+     },
+     {
+      "name": "Mateja Đurović",
+      "state": "Serbia",
+      "function": "Judge"
+     },
+     {
+      "name": "András Jakab",
+      "state": "Austria",
+      "function": "Judge"
+     },
+     {
+      "name": "Anna Adamska-Gallant",
+      "state": "Poland",
+      "function": "Judge"
+     },
+     {
+      "name": "Juha Lavapuro",
+      "state": "Finland",
+      "function": "Judge"
+     },
+     {
+      "name": "Canòlic Mingorance Cairat",
+      "state": "Andorra",
+      "function": "Judge"
+     },
+     {
+      "name": "Vahe Grigoryan",
+      "state": "Armenia",
+      "function": "Judge"
+     },
+     {
+      "name": "Vasilka Sancin",
+      "state": "Slovenia",
+      "function": "Judge"
+     },
+     {
+      "name": "Sébastien Biancheri",
+      "state": "Monaco",
+      "function": "Judge"
+     },
+     {
+      "name": "Hugh Mercer",
+      "state": "United Kingdom",
+      "function": "Judge"
+     },
+     {
+      "name": "Nicholas Emiliou",
+      "state": "Cyprus",
+      "function": "Judge"
+     },
+     {
+      "name": "Corinna Wissels",
+      "state": "Netherlands",
+      "function": "Judge"
+     }
+    ],
+    "ref": {
+     "source": "echr",
+     "url": "https://www.echr.coe.int/composition-of-the-court",
+     "retrieved": "2026-11-09",
+     "sha256": "fa76ed0bee4970bd5211463d73f614296ad97d42a0b251c4f4d38d26eb51e687"
+    }
+   },
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-cm",
+   "system": "coe",
+   "name_es": "Comité de Ministros del Consejo de Europa",
+   "nature": "intergovernmental",
+   "instruments": [
+    "coe-echr",
+    "coe-fcnm"
+   ],
+   "composition": [],
+   "competences": [
+    {
+     "label": "Supervisión de la ejecución de las sentencias del Tribunal",
+     "i": "coe-echr",
+     "a": "46",
+     "x": "Comité de Ministros, que velará por su ejecución",
+     "p": "2",
+     "quote": "2. La sentencia definitiva del Tribunal será transmitida al Comité de Ministros, que velará por su ejecución.",
+     "lang": "es",
+     "anchor": "art-46",
+     "heading": "Fuerza obligatoria y ejecución de las sentencias",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Supervisión del Convenio Marco para la Protección de las Minorías Nacionales",
+     "i": "coe-fcnm",
+     "a": "24",
+     "x": "Comité de Ministros",
+     "p": "1",
+     "quote": "1. El Comité de Ministros del Consejo de Europa velará por la puesta en práctica del presente Convenio marco por las Partes Contratantes.",
+     "lang": "es",
+     "anchor": "art-24",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1998-1369",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-1369",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-ecsr",
+   "system": "coe",
+   "name_es": "Comité Europeo de Derechos Sociales",
+   "nature": "committee",
+   "name_note": "El Protocolo de 1995 lo denomina «Comité de Expertos Independientes».",
+   "instruments": [
+    "coe-esc-1961",
+    "coe-esc-revised",
+    "coe-esc-collective"
+   ],
+   "established_by": {
+    "i": "coe-esc-1961",
+    "a": "25",
+    "x": "Comité de expertos",
+    "p": "1",
+    "quote": "1. El Comité de expertos se compondrá de siete miembros como máximo designados por el Comité de Ministros de entre una lista de expertos independientes, de máxima integridad y de competencia reconocida en cuestiones sociales internacionales, propuestos por las Partes Contratantes.",
+    "lang": "es",
+    "anchor": "art-25",
+    "heading": "Comité de expertos",
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1980-13567",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-13567",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [
+    {
+     "label": "Reclamaciones colectivas (Estados Partes en el Protocolo de 1995)",
+     "i": "coe-esc-collective",
+     "a": "5",
+     "x": "Comité de Expertos Independientes",
+     "p": null,
+     "quote": "Toda reclamación se dirigirá al Secretario General, quien acusará recibo de la misma, la notificará a la Parte Contratante afectada y la remitirá inmediatamente al Comité de Expertos Independientes.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-cpt-committee",
+   "system": "coe",
+   "name_es": "Comité Europeo para la Prevención de la Tortura y de las Penas o Tratos Inhumanos o Degradantes",
+   "nature": "committee",
+   "instruments": [
+    "coe-cpt"
+   ],
+   "established_by": {
+    "i": "coe-cpt",
+    "a": "1",
+    "x": "Se crea un Comité europeo para la prevención de la tortura",
+    "p": null,
+    "quote": "Se crea un Comité europeo para la prevención de la tortura y de las penas o tratos inhumanos o degradantes (denominado a continuación: «el Comité»). Por medio de visitas, este Comité examinará el trato dado a las personas privadas de libertad para reforzar, llegado el caso, su protección contra la tortura y las penas o tratos inhumanos o degradantes.",
+    "lang": "es",
+    "anchor": "art-1",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1989-15618",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-15618",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-grevio",
+   "system": "coe",
+   "name_es": "Grupo de Expertos en la lucha contra la violencia contra la mujer y la violencia doméstica (GREVIO)",
+   "nature": "expert_group",
+   "instruments": [
+    "coe-istanbul"
+   ],
+   "established_by": {
+    "i": "coe-istanbul",
+    "a": "66",
+    "x": "GREVIO",
+    "p": "1",
+    "quote": "1. El Grupo de Expertos en la lucha contra la violencia contra la mujer y la violencia doméstica (en lo sucesivo denominado «GREVIO») se hará cargo de velar por la aplicación del presente Convenio por las Partes.",
+    "lang": "es",
+    "anchor": "art-66",
+    "heading": "Grupo de Expertos en la lucha contra la violencia contra la mujer y la violencia doméstica",
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-2014-5947",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-5947",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-greta",
+   "system": "coe",
+   "name_es": "Grupo de expertos en la lucha contra la trata de seres humanos (GRETA)",
+   "nature": "expert_group",
+   "instruments": [
+    "coe-trafficking"
+   ],
+   "established_by": {
+    "i": "coe-trafficking",
+    "a": "36",
+    "x": null,
+    "p": null,
+    "quote": null,
+    "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+   },
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-lanzarote-committee",
+   "system": "coe",
+   "name_es": "Comité de las Partes del Convenio de Lanzarote",
+   "nature": "committee_of_parties",
+   "instruments": [
+    "coe-lanzarote"
+   ],
+   "established_by": {
+    "i": "coe-lanzarote",
+    "a": "39",
+    "x": "Comité de las Partes",
+    "p": "1",
+    "quote": "1. El Comité de las Partes estará integrado por representantes de las Partes en el Convenio.",
+    "lang": "es",
+    "anchor": "art-39",
+    "heading": "Comité de las Partes",
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-2010-17392",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-17392",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "coe-fcnm-advisory",
+   "system": "coe",
+   "name_es": "Comité Consultivo del Convenio Marco para la Protección de las Minorías Nacionales",
+   "nature": "advisory_committee",
+   "instruments": [
+    "coe-fcnm"
+   ],
+   "established_by": {
+    "i": "coe-fcnm",
+    "a": "26",
+    "x": "comité consultivo",
+    "p": "1",
+    "quote": "1. Al evaluar la adecuación de las medidas adoptadas por una Parte para llevar a efecto los principios expresados en el presente Convenio marco, el Comité de Ministros estará asistido por un comité consultivo cuyos miembros poseerán una competencia reconocida en el campo de la protección de las minorías nacionales.",
+    "lang": "es",
+    "anchor": "art-26",
+    "heading": null,
+    "source": {
+     "publisher": "Boletín Oficial del Estado",
+     "identifier": "BOE-A-1998-1369",
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-1369",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "oas-iachr",
+   "system": "oas",
+   "name_es": "Comisión Interamericana de Derechos Humanos",
+   "nature": "commission",
+   "rules": "oas-iachr-rules",
+   "statute": "oas-iachr-statute",
+   "instruments": [
+    "oas-achr",
+    "oas-american-declaration"
+   ],
+   "established_by": {
+    "i": "oas-achr",
+    "a": "33",
+    "x": "la Comisión Interamericana de Derechos Humanos",
+    "p": "a",
+    "quote": "a) la Comisión Interamericana de Derechos Humanos, llamada en adelante la Comisión, y",
+    "lang": "es",
+    "anchor": "art-33",
+    "heading": null,
+    "source": {
+     "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+     "identifier": null,
+     "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [
+    {
+     "i": "oas-achr",
+     "a": "34",
+     "x": "siete miembros",
+     "p": null,
+     "quote": "La Comisión Interamericana de Derechos Humanos se compondrá de siete miembros, que deberán ser personas de alta autoridad moral y reconocida versación en materia de derechos humanos.",
+     "lang": "es",
+     "anchor": "art-34",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "oas-achr",
+     "a": "37",
+     "x": "cuatro años",
+     "p": "1",
+     "quote": "1. Los miembros de la Comisión serán elegidos por cuatro años y sólo podrán ser reelegidos una vez, pero el mandato de tres de los miembros designados en la primera elección expirará al cabo de dos años. Inmediatamente después de dicha elección se determinarán por sorteo en la Asamblea General los nombres de estos tres miembros.",
+     "lang": "es",
+     "anchor": "art-37",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "competences": [
+    {
+     "label": "Funciones y atribuciones",
+     "i": "oas-achr",
+     "a": "41",
+     "x": "promover la observancia y la defensa de los derechos humanos",
+     "p": null,
+     "quote": "La Comisión tiene la función principal de promover la observancia y la defensa de los derechos humanos, y en el ejercicio de su mandato tiene las siguientes funciones y atribuciones:\na) estimular la conciencia de los derechos humanos en los pueblos de América;\nb) formular recomendaciones, cuando lo estime conveniente, a los gobiernos de los Estados miembros para que adopten medidas progresivas en favor de los derechos humanos dentro del marco de sus leyes internas y sus preceptos constitucionales, al igual que disposiciones apropiadas para fomentar el debido respeto a esos derechos;\nc) preparar los estudios e informes que considere convenientes para el desempeño de sus funciones;\nd) solicitar de los gobiernos de los Estados miembros que le proporcionen informes sobre las medidas que adopten en materia de derechos humanos;\ne) atender las consultas que, por medio de la Secretaría General de la Organización de los Estados Americanos, le formulen los Estados miembros en cuestiones relacionadas con los derechos humanos y, dentro de sus posibilidades, les prestará el asesoramiento que éstos le soliciten;\nf) actuar respecto de las peticiones y otras comunicaciones en ejercicio de su autoridad de conformidad con lo dispuesto en los artículos 44 al 51 de esta Convención, y\ng) rendir un informe anual a la Asamblea General de la Organización de los Estados Americanos.",
+     "lang": "es",
+     "anchor": "art-41",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Peticiones individuales",
+     "i": "oas-achr",
+     "a": "44",
+     "x": "Cualquier persona o grupo de personas",
+     "p": null,
+     "quote": "Cualquier persona o grupo de personas, o entidad no gubernamental legalmente reconocida en uno o más Estados miembros de la Organización, puede presentar a la Comisión peticiones que contengan denuncias o quejas de violación de esta Convención por un Estado parte.",
+     "lang": "es",
+     "anchor": "art-44",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones entre Estados (si lo han declarado)",
+     "i": "oas-achr",
+     "a": "45",
+     "x": "declarar que reconoce la competencia de la Comisión",
+     "p": "1",
+     "quote": "1. Todo Estado parte puede, en el momento del depósito de su instrumento de ratificación o adhesión de esta Convención, o en cualquier momento posterior, declarar que reconoce la competencia de la Comisión para recibir y examinar las comunicaciones en que un Estado parte alegue que otro Estado parte ha incurrido en violaciones de los derechos humanos establecidos en esta Convención.",
+     "lang": "es",
+     "anchor": "art-45",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": {
+    "as_at": "2026-11-09",
+    "members": [
+     {
+      "name": "Edgar Stuardo Ralón Orellana",
+      "term_start": "2020-01-01",
+      "term_end": "2027-12-31"
+     },
+     {
+      "name": "Andrea Pochak",
+      "term_start": "2024-01-01",
+      "term_end": "2027-12-31"
+     },
+     {
+      "name": "José Luis Caballero Ochoa",
+      "term_start": "2023-09-05",
+      "term_end": "2029-12-31"
+     },
+     {
+      "name": "Gloria Monique de Mees",
+      "term_start": "2024-01-01",
+      "term_end": "2027-12-31"
+     },
+     {
+      "name": "Riyad Insanally",
+      "term_start": "2025-12-17",
+      "term_end": "2027-12-31"
+     },
+     {
+      "name": "Marion Bethel",
+      "term_start": "2026-01-01",
+      "term_end": "2029-12-31"
+     },
+     {
+      "name": "Rosa María Payá Acevedo",
+      "term_start": "2026-01-01",
+      "term_end": "2029-12-31"
+     }
+    ],
+    "officers": [
+     {
+      "function": "Presidente",
+      "name": "Edgar Stuardo Ralón Orellana"
+     },
+     {
+      "function": "Primera vicepresidenta",
+      "name": "Andrea Pochak"
+     },
+     {
+      "function": "Segundo vicepresidente",
+      "name": "José Luis Caballero Ochoa"
+     }
+    ],
+    "ref": {
+     "source": "oas",
+     "url": "https://www.oas.org/es/cidh/mandato/composicion.asp",
+     "retrieved": "2026-11-09",
+     "sha256": "d5f71b9c677fd96360200e3b1c2439bcf02bb42a79c400be13284e3015b6bd53"
+    }
+   },
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "oas-iacthr",
+   "system": "oas",
+   "name_es": "Corte Interamericana de Derechos Humanos",
+   "nature": "court",
+   "instruments": [
+    "oas-achr"
+   ],
+   "established_by": {
+    "i": "oas-achr",
+    "a": "33",
+    "x": "la Corte Interamericana de Derechos Humanos",
+    "p": "b",
+    "quote": "b) la Corte Interamericana de Derechos Humanos, llamada en adelante la Corte.",
+    "lang": "es",
+    "anchor": "art-33",
+    "heading": null,
+    "source": {
+     "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+     "identifier": null,
+     "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [
+    {
+     "i": "oas-achr",
+     "a": "52",
+     "x": "siete jueces",
+     "p": "1",
+     "quote": "1. La Corte se compondrá de siete jueces, nacionales de los Estados miembros de la Organización, elegidos a título personal entre juristas de la más alta autoridad moral, de reconocida competencia en materia de derechos humanos, que reúnan las condiciones requeridas para el ejercicio de las más elevadas funciones judiciales conforme a la ley del país del cual sean nacionales o del Estado que los proponga como candidatos.",
+     "lang": "es",
+     "anchor": "art-52",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "oas-achr",
+     "a": "54",
+     "x": "seis años",
+     "p": "1",
+     "quote": "1. Los jueces de la Corte serán elegidos para un período de seis años y sólo podrán ser reelegidos una vez. El mandato de tres de los jueces designados en la primera elección, expirará al cabo de tres años. Inmediatamente después de dicha elección, se determinarán por sorteo en la Asamblea General los nombres de estos tres jueces.",
+     "lang": "es",
+     "anchor": "art-54",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "competences": [
+    {
+     "label": "Casos contenciosos (solo Estados Partes y la Comisión pueden someterlos)",
+     "i": "oas-achr",
+     "a": "61",
+     "x": "Sólo los Estados Partes y la Comisión",
+     "p": "1",
+     "quote": "1. Sólo los Estados Partes y la Comisión tienen derecho a someter un caso a la decisión de la Corte.",
+     "lang": "es",
+     "anchor": "art-61",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Reconocimiento de su competencia por los Estados",
+     "i": "oas-achr",
+     "a": "62",
+     "x": "reconoce como obligatoria de pleno derecho",
+     "p": "1",
+     "quote": "1. Todo Estado parte puede, en el momento del depósito de su instrumento de ratificación o adhesión de esta Convención, o en cualquier momento posterior, declarar que reconoce como obligatoria de pleno derecho y sin convención especial, la competencia de la Corte sobre todos los casos relativos a la interpretación o aplicación de esta Convención.",
+     "lang": "es",
+     "anchor": "art-62",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Medidas provisionales",
+     "i": "oas-achr",
+     "a": "63",
+     "x": "medidas provisionales",
+     "p": "2",
+     "quote": "2. En casos de extrema gravedad y urgencia, y cuando se haga necesario evitar daños irreparables a las personas, la Corte, en los asuntos que esté conociendo, podrá tomar las medidas provisionales que considere pertinentes. Si se tratare de asuntos que aún no estén sometidos a su conocimiento, podrá actuar a solicitud de la Comisión.",
+     "lang": "es",
+     "anchor": "art-63",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Opiniones consultivas",
+     "i": "oas-achr",
+     "a": "64",
+     "x": "consultar a la Corte",
+     "p": "1",
+     "quote": "1. Los Estados miembros de la Organización podrán consultar a la Corte acerca de la interpretación de esta Convención o de otros tratados concernientes a la protección de los derechos humanos en los Estados americanos. Asimismo, podrán consultarla, en lo que les compete, los órganos enumerados en el capítulo X de la Carta de la Organización de los Estados Americanos, reformada por el Protocolo de Buenos Aires.",
+     "lang": "es",
+     "anchor": "art-64",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "au-achpr-commission",
+   "system": "au",
+   "name_es": "Comisión Africana de Derechos Humanos y de los Pueblos",
+   "name_en": "African Commission on Human and Peoples' Rights",
+   "nature": "commission",
+   "instruments": [
+    "au-achpr",
+    "au-maputo"
+   ],
+   "established_by": {
+    "i": "au-achpr",
+    "a": "30",
+    "x": "African Commission on Human and Peoples",
+    "p": null,
+    "quote": "An African Commission on Human and Peoples’ Rights, hereinafter called “the Commission”, shall be established within the Organisation of African Unity to promote human and peoples’ rights and ensure their protection in Africa.",
+    "lang": "en",
+    "anchor": "art-30",
+    "heading": null,
+    "source": {
+     "publisher": "African Commission on Human and Peoples' Rights",
+     "identifier": null,
+     "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+     "retrieved": "2026-11-09"
+    }
+   },
+   "composition": [
+    {
+     "i": "au-achpr",
+     "a": "31",
+     "x": "eleven members",
+     "p": null,
+     "quote": "The Commission shall consist of eleven members chosen from amongst African personalities of the highest reputation, known for their high morality, integrity, impartiality and competence in matters of human and peoples’ rights; particular consideration being given to personshaving legal experience.\nThe members of the Commission shall serve in their personal capacity.",
+     "lang": "en",
+     "anchor": "art-31",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "au-achpr",
+     "a": "36",
+     "x": "six year period",
+     "p": null,
+     "quote": "The members of the Commission shall be elected for a six year period and shall be eligible for re-election. However, the term of office of four of the members elected at the first election shall terminate after two years and the term of office of three others, at the end of four years.",
+     "lang": "en",
+     "anchor": "art-36",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "competences": [
+    {
+     "label": "Funciones",
+     "i": "au-achpr",
+     "a": "45",
+     "x": "The functions of the Commission",
+     "p": null,
+     "quote": "The functions of the Commission shall be:\nTo promote human and peoples’ rights and in particular:\nto collect documents, undertake studies and researches on African problems in the field of human and peoples’ rights, organise seminars, symposia and conferences, disseminate information, encourage national and local institutions concerned with human and peoples’ rights and, should the case arise, give its views or make recommendations to Governments.\nto formulae and lay down, principles and rules aimed at solving legal problems relating to human and peoples’ rights and fundamental freedoms upon which African Governments may base their legislation.\ncooperate with other African and international institutions concerned with the promotion and protection of human and peoples’ rights.\nEnsure the protection of human and peoples’ rights under conditions laid down by the present Charter.\nInterpret all the provisions of the present Charter at the request of a State Party, an institution of the OAU or an African Organisation recognised by the OAU.\nPerform any other tasks which may be entrusted to it by the Assembly of Heads of State and Government.",
+     "lang": "en",
+     "anchor": "art-45",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Comunicaciones de Estados",
+     "i": "au-achpr",
+     "a": "47",
+     "x": "State Party",
+     "p": null,
+     "quote": "If a State Party to the present Charter has good reasons to believe that another State Party to this Charter has violated the provisions of the Charter, it may draw, by written communication, the attention of that State to the matter. This Communication shall also be addressed to the Secretary General of the OAU and to the Chairman of the Commission. Within three months of the receipt of the Communication, the State to which the Communication is addressed shall give the enquiring State, written explanation or statement elucidating the matter. This should include as much as possible, relevant information relating to the laws and rules of procedure applied and applicable and the redress already given or course of action available.",
+     "lang": "en",
+     "anchor": "art-47",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Otras comunicaciones",
+     "i": "au-achpr",
+     "a": "55",
+     "x": "Communications other than those of State Parties",
+     "p": null,
+     "quote": "Before each Session, the Secretary of the Commission shall make a list of the Communications other than those of State Parties to the present Charter and transmit them to Members of the Commission, who shall indicate which Communications should be considered by the Commission.\nA Communication shall be considered by the Commission if a simple majority of its members so decide.",
+     "lang": "en",
+     "anchor": "art-55",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "members": {
+    "as_at": "2026-11-09",
+    "members": [
+     {
+      "name": "Idrissa Sow",
+      "function": "Chairperson",
+      "state": "Senegal"
+     },
+     {
+      "name": "Hatem Essaiem",
+      "function": "Vice-Chairperson",
+      "state": "Tunisia"
+     },
+     {
+      "name": "Solomon Ayele Dersso",
+      "function": "Commissioner",
+      "state": "Ethiopia"
+     },
+     {
+      "name": "Maria Teresa Manuela",
+      "function": "Commissioner",
+      "state": "Angola"
+     },
+     {
+      "name": "Rémy Ngoy Lumbu",
+      "function": "Commissioner",
+      "state": "DR Congo"
+     },
+     {
+      "name": "Mudford Zachariah Mwandenga",
+      "function": "Commissioner",
+      "state": "Zambia"
+     },
+     {
+      "name": "Marie Louise Abomo",
+      "function": "Commissioner",
+      "state": "Cameroon"
+     },
+     {
+      "name": "Janet Ramatoulie Sallah-Njie",
+      "function": "Commissioner",
+      "state": "Gambia"
+     },
+     {
+      "name": "Ourveena Geereesha Topsy-Sonoo",
+      "function": "Commissioner",
+      "state": "Mauritius"
+     },
+     {
+      "name": "Dr. Litha Musyimi-Ogana",
+      "function": "Commissioner",
+      "state": "Kenya"
+     },
+     {
+      "name": "Commissioner Salma SASSI-SAFER",
+      "function": "Commissioner",
+      "state": "Algeria"
+     }
+    ],
+    "ref": {
+     "source": "achpr",
+     "url": "https://achpr.au.int/en/commission/commissioners",
+     "retrieved": "2026-11-09",
+     "sha256": "574d22174919b9990f7c6c53a690e643ec8d95c3efb9cea1d9581bb4b9ce86eb"
+    }
+   },
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "au-afchpr",
+   "system": "au",
+   "name_es": "Corte Africana de Derechos Humanos y de los Pueblos",
+   "name_en": "African Court on Human and Peoples' Rights",
+   "nature": "court",
+   "established_by_note": "Creada por el Protocolo a la Carta Africana relativo a su establecimiento (1998).",
+   "instruments": [
+    "au-court-protocol",
+    "au-achpr"
+   ],
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  },
+  {
+   "id": "au-acerwc",
+   "system": "au",
+   "name_es": "Comité Africano de Expertos sobre los Derechos y el Bienestar del Niño",
+   "name_en": "African Committee of Experts on the Rights and Welfare of the Child",
+   "nature": "committee",
+   "established_by_note": "Creado por la Carta Africana sobre los Derechos y el Bienestar del Niño.",
+   "instruments": [
+    "au-acrwc"
+   ],
+   "composition": [],
+   "competences": [],
+   "members": null,
+   "interpretations": 0,
+   "decisions": 0
+  }
+ ]
+}

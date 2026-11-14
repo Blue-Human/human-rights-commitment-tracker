@@ -1,0 +1,866 @@
+{
+ "instrument": "coe-fcnm",
+ "authority": "official_es",
+ "lang": "es",
+ "title": "CONVENIO MARCO PARA LA PROTECCIÓN DE LAS MINORÍAS NACIONALES",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de ratificación del Convenio-marco para la protección de las Minorías Nacionales (número 157 del Consejo de Europa), hecho en Estrasburgo el 1 de febrero de 1995.",
+  "identifier": "BOE-A-1998-1369",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-1369",
+  "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1998-1369",
+  "eli": "https://www.boe.es/eli/es/ai/1995/02/01/(1)",
+  "published": "1998-01-23",
+  "retrieved": "2026-11-09",
+  "sha256": "8d0297d9c6201fa84e4bf3b86d478598abf6d28332b5d71312e12a210037f252",
+  "method": "boe-gazette"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Miembros del Consejo de Europa y los demás Estados, signatarios del presente Convenio marco,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Considerando que la finalidad del Consejo de Europa es realizar una unión más estrecha entre sus miembros con el fin de salvaguardar y promover los ideales y principios que constituyen su patrimonio común;"
+  },
+  {
+   "id": "pre-3",
+   "text": "Considerando que uno de los medios para alcanzar esta finalidad es la protección y el desarrollo de los derechos humanos y de las libertades fundamentales;"
+  },
+  {
+   "id": "pre-4",
+   "text": "Deseando desarrollar la Declaración de los Jefes de Estado y de Gobierno de los Estados miembros del Consejo de Europa, adoptada en Viena el 9 de octubre de 1993;"
+  },
+  {
+   "id": "pre-5",
+   "text": "Resueltos a proteger dentro de sus territorios respectivos la existencia de minorías nacionales;"
+  },
+  {
+   "id": "pre-6",
+   "text": "Considerando que los trastornos de la historia europea han demostrado que la protección de las minorías nacionales es esencial para la estabilidad, la seguridad democrática y la paz del continente;"
+  },
+  {
+   "id": "pre-7",
+   "text": "Considerando que una sociedad pluralista y genuinamente democrática no sólo debe respetar la identidad étnica, cultural, lingüística y religiosa de cada persona perteneciente a una minoría nacional, sino también crear las condiciones apropiadas que permitan expresar, preservar y desarrollar esa identidad;"
+  },
+  {
+   "id": "pre-8",
+   "text": "Considerando que es necesaria la creación de un clima de tolerancia y diálogo para permitir que la diversidad cultural sea una fuente y un factor, no de división, sino de enriquecimiento de cada sociedad;"
+  },
+  {
+   "id": "pre-9",
+   "text": "Considerando que la consecución de una Europa tolerante y próspera no depende solamente de la cooperación entre los Estados, sino que exige también la cooperación transfronteriza entre las entidades locales y regionales, sin perjuicio de la constitución y de la integridad territorial de cada Estado;"
+  },
+  {
+   "id": "pre-10",
+   "text": "Teniendo en cuenta el Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales y sus Protocolos;"
+  },
+  {
+   "id": "pre-11",
+   "text": "Teniendo en cuenta los compromisos relativos a la protección de las minorías nacionales contenidos en los convenios y declaraciones de las Naciones Unidas y en los documentos de la Conferencia sobre Seguridad y Cooperación en Europa, en particular en el Documento de Copenhague de 29 de junio de 1990;"
+  },
+  {
+   "id": "pre-12",
+   "text": "Resueltos a definir los principios que deben respetarse y las obligaciones que de ellos se derivan, con el fin de garantizar, en los Estados miembros y en los demás Estados que puedan llegar a ser partes en el presente instrumento, la protección efectiva de las minorías nacionales y de los derechos y libertades de las personas pertenecientes a dichas minorías, dentro del imperio de la ley y del respeto hacia la integridad territorial y la soberanía nacional de los Estados;"
+  },
+  {
+   "id": "pre-13",
+   "text": "Resueltos a poner en práctica los principios enunciados en el presente Convenio-marco, por medio de las legislaciones nacionales y de las apropiadas políticas gubernamentales,"
+  },
+  {
+   "id": "pre-14",
+   "text": "Han convenido en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-titulo-i",
+   "level": 1,
+   "label": "Título I",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "La protección de las minorías nacionales y de los derechos y libertades de las personas pertenecientes a esas minorías es parte integrante de la protección internacional de los derechos humanos y, en cuanto tal, se encuentra dentro del campo de la cooperación internacional."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "Las disposiciones del presente Convenio marco se aplicarán de buena fe, en un espíritu de comprensión y de tolerancia y de conformidad con los principios de buena vecindad, de relaciones amistosas y de cooperación entre los Estados,"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "1. Toda persona perteneciente a una minoría nacional tendrá derecho a elegir libremente ser o no tratada como tal y el ejercicio de esa opción y de los derechos relacionados con la misma no dará lugar a ninguna desventaja.",
+     "number": "1"
+    },
+    {
+     "id": "art-3-p2",
+     "text": "2. Las personas pertenecientes a minorías nacionales podrán ejercitar, tanto individualmente como conjuntamente con otras, los derechos y libertades derivados de los principios consagrados del presente Convenio marco.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-ii",
+   "level": 1,
+   "label": "Título II",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Las Partes se comprometen a garantizar a las personas pertenecientes a minorías nacionales el derecho a la igualdad ante la ley y a una protección igual por parte de la ley. A este respecto, se prohibirá toda discriminación fundada sobre la pertenencia a una minoría nacional.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. Las partes se comprometen a adoptar, cuando sea necesario, medidas adecuadas con el fin de promover, en todos los campos de la vida económica, social, política y cultural, una plena y efectiva igualdad entre las personas pertenecientes a una minoría nacional y las pertenecientes a la mayoría. A este respecto, tendrán debidamente en cuenta las condiciones específicas de las personas pertenecientes a las minorías nacionales.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. Las medidas adoptadas de conformidad con el apartado 2 no se considerarán un acto de discriminación.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. Las Partes se comprometen a promover las condiciones necesarias para permitir a las personas pertenecientes a minorías nacionales mantener y desarrollar su cultura, así como preservar los elementos esenciales de su identidad, a saber, su religión, lengua, tradiciones y patrimonio cultural.",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "2. Sin perjuicio de las medidas adoptadas de conformidad con su política general de integración, las Partes se abstendrán de toda política o práctica encaminada a la asimilación contra su voluntad de personas pertenecientes a minorías nacionales y protegerán a esas personas contra toda acción destinada a dicha asimilación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. Las Partes promoverán un espíritu de tolerancia y de diálogo intercultural, y tomarán medidas eficaces para favorecer el respeto y la comprensión mutuas entre todas las personas que vivan en su territorio, sea cual fuere su identidad étnica, cultural, lingüística o religiosa, en particular, en los campos de la educación, de la cultura y de los medios de comunicación.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. Las Partes se comprometen a tomar las medidas apropiadas para proteger a las personas que puedan ser objeto de amenazas o de actos de discriminación, de hostilidad o de violencia a consecuencia de su identidad étnica, cultural, lingüística o religiosa.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "Las Partes asegurarán a toda persona perteneciente a una minoría nacional el respeto de los derechos de libertad de reunión pacífica, de libertad de asociación, de libertad de expresión y de libertad de pensamiento, de conciencia o de religión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "Las Partes se comprometen a reconocer que toda persona perteneciente a una minoría nacional tiene el derecho a manifestar su religión o creencias, así como el derecho a crear instituciones religiosas, organizaciones y asociaciones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "1. Las Partes se comprometen a reconocer que el derecho a la libertad de expresión de toda persona perteneciente a una minoría nacional comprende la libertad de opinión y la libertad de recibir y comunicar informaciones e ideas en la lengua minoritaria sin injerencia de las autoridades públicas y sin consideración de las fronteras. Las Partes asegurarán, en el marco de su ordenamiento jurídico, que las personas pertenecientes a una minoría nacional no sean discriminadas en su acceso a los medios de comunicación.",
+     "number": "1"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "2. El primer apartado no impedirá que las Partes sometan a un régimen de autorización, no discriminatorio y fundado en criterios objetivos, las empresas de radio sonora, televisión o cinematografía.",
+     "number": "2"
+    },
+    {
+     "id": "art-9-p3",
+     "text": "3. Las Partes no obstaculizarán la creación y utilización de medios escritos por personas pertenecientes a minorías nacionales. En el marco legal de la radio sonora y de la televisión velarán, en la medida de lo posible y habida cuenta de las disposiciones del apartado 1, por la concesión, a las personas pertenecientes a minorías nacionales, de la posibilidad de crear y utilizar sus propios medios de comunicación.",
+     "number": "3"
+    },
+    {
+     "id": "art-9-p4",
+     "text": "4. En el marco de sus ordenamientos jurídicos, las Partes adoptarán medidas adecuadas con el fin de facilitar el acceso a los medios de comunicación a las personas pertenecientes a minorías nacionales y con el fin de promover la tolerancia y de permitir el pluralismo cultural.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. Las Partes se comprometen a reconocer que toda persona perteneciente a una minoría nacional tiene derecho a utilizar libremente y sin trabas su lengua minoritaria tanto en privado como en público, oralmente y por escrito.",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "2. En las zonas geográficas habitadas tradicionalmente o en número considerable por personas pertenecientes a minorías nacionales, cuando estas personas lo soliciten y dicha solicitud corresponda a una necesidad real, las Partes se esforzarán por asegurar, en la medida de lo posible, unas condiciones que permitan la utilización de la lengua minoritaria en las relaciones entre esas personas y las autoridades administrativas.",
+     "number": "2"
+    },
+    {
+     "id": "art-10-p3",
+     "text": "3. Las Partes se comprometen a garantizar el derecho de toda persona perteneciente a una minoría nacional a ser informada, en el plazo más breve y en una lengua que comprenda, de las razones de su detención, de la naturaleza y la causa de la acusación contra ella, así como a defenderse en esa lengua, en caso necesario con asistencia gratuita de un intérprete.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "1. Las Partes se comprometen a reconocer a toda persona perteneciente a una minoría el derecho a utilizar su apellido y sus nombres de pila en la lengua minoritaria, así como el derecho al reconocimiento oficial de aquéllos, según las modalidades previstas en su ordenamiento jurídico.",
+     "number": "1"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. Las Partes se comprometen a reconocer a toda persona perteneciente a una minoría nacional el derecho a exponer en su lengua minoritaria signos, inscripciones y demás información de carácter privado a la vista del público.",
+     "number": "2"
+    },
+    {
+     "id": "art-11-p3",
+     "text": "3. En las regiones tradicionalmente habitadas por un número considerable de personas pertenecientes a una minoría nacional, las Partes se esforzarán, en el marco de su ordenamiento jurídico, incluidos, en su caso, los acuerdos con otros Estados, y teniendo en cuenta sus condiciones específicas, por exponer las denominaciones locales tradicionales, nombres de calles y demás indicaciones topográficas destinadas al público también en la lengua minoritaria cuando exista una demanda suficiente de dichas indicaciones.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "1. En caso necesario, las Partes tomarán medidas en los campos de la educación y de la investigación para fomentar el conocimiento de la cultura, la historia, la lengua y la religión de sus minorías nacionales así como de la mayoría.",
+     "number": "1"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "2. En este contexto, las Partes ofrecerán en particular oportunidades suficientes para la formación del profesorado y de acceso a los libros de texto y facilitarán los contactos entre los alumnos y profesores de diferentes comunidades.",
+     "number": "2"
+    },
+    {
+     "id": "art-12-p3",
+     "text": "3. Las Partes se comprometen a promover la igualdad de oportunidades en el acceso a la educación a todos los niveles para las personas pertenecientes a minorías nacionales.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "1. Dentro del marco de su sistema educativo, las Partes reconocerán a las personas pertenecientes a una minoría nacional el derecho a crear y dirigir sus propios centros privados de enseñanza y de formación.",
+     "number": "1"
+    },
+    {
+     "id": "art-13-p2",
+     "text": "2. El ejercicio de este derecho no implicará ninguna obligación financiera para las Partes.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. Las Partes se comprometen a reconocer a toda persona perteneciente a una minoría nacional el derecho a aprender su lengua minoritaria.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. En las zonas geográficas habitadas tradicionalmente o en número considerable por personas pertenecientes a minorías nacionales, si existe una demanda suficiente, las Partes se esforzarán por asegurar, en la medida de lo posible y en el marco de su sistema educativo, que las personas pertenecientes a esas minorías tengan la posibilidad de aprender la lengua minoritaria o de recibir enseñanza en esa lengua.",
+     "number": "2"
+    },
+    {
+     "id": "art-14-p3",
+     "text": "3. El apartado 3 del presente artículo se aplicará sin perjuicio del aprendizaje de la lengua oficial o de la enseñanza en esa lengua.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "Las Partes establecerán las condiciones necesarias para la participación efectiva de las personas pertenecientes a minorías nacionales en la vida cultural, social y económica, así como en los asuntos públicos, en particular los que les afecten."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "Las Partes se abstendrán de tomar medidas que, al modificar las proporciones de la población en zonas geográficas habitadas por personas pertenecientes a minorías nacionales, tengan como finalidad restringir los derechos y libertades dimanantes de los principios consagrados en el presente Convenio-marco."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. Las Partes se comprometen a no obstaculizar el derecho de las personas pertenecientes a minorías nacionales a establecer y mantener contactos libres y pacíficos a través de las fronteras con personas lícitamente establecidas en otros Estados, en particular con aquellas con las que compartan una identidad étnica, cultural, lingüística o religiosa, o un patrimonio cultural común.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. Las Partes se comprometen a no obstaculizar el derecho de las personas pertenecientes a minorías nacionales a participar en las actividades de las organizaciones no gubernamentales, tanto a nivel nacional como internacional.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "1. Las Partes se esforzarán por concluir, en caso necesario, acuerdos bilaterales y multilaterales con otros Estados, en particular Estados vecinos, con el fin de asegurar la protección de las personas pertenecientes a las minorías nacionales en cuestión.",
+     "number": "1"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "2. En su caso, las Partes tomarán medidas para fomentar la cooperación transfronteriza.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "Las partes se comprometen a respetar y poner en práctica los principios consagrados en el presente Convenio marco introduciendo en ellos, en caso necesario, únicamente aquellas limitaciones, restricciones o excepciones que estén previstas en los instrumentos jurídicos internacionales, en particular en el Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales en la medida en que sean pertenecientes para los derechos y libertades dimanantes de dichos principios."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-iii",
+   "level": 1,
+   "label": "Título III",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "En el ejercicio de los derechos y libertades dimanantes de los principios consagrados en el presente Convenio marco, toda persona perteneciente a una minoría nacional respetará la legislación nacional y los derechos de los otros, en particular los de las personas pertenecientes a la mayoría o a otras minorías nacionales."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "Ninguna de las disposiciones del presente Convenio marco se interpretará en el sentido de que implique el derecho a ejercer cualquier actividad o realizar cualquier acto contrario a los principios fundamentales del derecho internacional y, en particular, de la igualdad soberana territorial e independencia política de los Estados."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "Ninguna de las disposiciones del presente Convenio marco se interpretará en el sentido de que introduzca limitaciones o excepciones a cualquiera de los derechos humanos y libertades fundamentales que estén reconocidos según las leyes de cualquier Parte Contratante o de conformidad con cualquier otro acuerdo en el que ésta sea parte."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "Los derechos y libertades derivados de los principios consagrados en el presente Convenio marco, en la medida en que sean objeto de una disposición correspondiente en el Convenio para la Protección de los Derechos Humanos y de las Libertades Fundamentales o en los Protocolos al mismo, se entenderán de conformidad con estas últimas disposiciones."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-iv",
+   "level": 1,
+   "label": "Título IV",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "1. El Comité de Ministros del Consejo de Europa velará por la puesta en práctica del presente Convenio marco por las Partes Contratantes.",
+     "number": "1"
+    },
+    {
+     "id": "art-24-p2",
+     "text": "2. Las Partes que no sean miembros del Consejo de Europa participarán en el mecanismo puesta en práctica según las modalidades que se determinen.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "1. En el plazo de un año a partir desde la entrada en vigor del presente Convenio marco con respecto a una Parte Contratante, ésta última transmitirá al Secretario general del Consejo de Europa información completa sobre las medidas legislativas y de otra índole que haya tomado para llevar a efecto los principios expresados en el presente Convenio marco.",
+     "number": "1"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "2. Posteriormente, cada Parte transmitirá al Secretario general, periódicamente y cada vez que el Comité de Ministros así lo solicite, cualquier otra información pertinente respecto de la aplicación del presente Convenio marco.",
+     "number": "2"
+    },
+    {
+     "id": "art-25-p3",
+     "text": "3. El Secretario general transmitirá al Comité de Ministros toda la información comunicada de conformidad con lo dispuesto en el presente artículo.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "1. Al evaluar la adecuación de las medidas adoptadas por una Parte para llevar a efecto los principios expresados en el presente Convenio marco, el Comité de Ministros estará asistido por un comité consultivo cuyos miembros poseerán una competencia reconocida en el campo de la protección de las minorías nacionales.",
+     "number": "1"
+    },
+    {
+     "id": "art-26-p2",
+     "text": "2. La composición de este comité consultivo así como sus procedimientos serán determinados por el Comité de Ministros dentro del plazo de un año a partir de la fecha de entrada en vigor del presente Convenio marco.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-titulo-v",
+   "level": 1,
+   "label": "Título V",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "El presente Convenio marco estará abierto a la firma de los Estados miembros del Consejo de Europa. Hasta la fecha de su entrada en vigor, estará también abierto a la firma de cualquier otro Estado invitado a firmarlo por el Comité de Ministros. Estará sujeto a ratificación, aceptación o aprobación. Los instrumentos de ratificación, aceptación o aprobación serán depositados en poder del Secretario general del Consejo de Europa."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "1. El presente Convenio marco entrará en vigor el primer día del mes siguiente a la expiración de un plazo de tres meses después de la fecha en que doce Estados miembros del Consejo de Europa hayan expresado su consentimiento a quedar vinculados por el Convenio marco de conformidad con lo dispuesto en el artículo 27.",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "2. Respecto de cualquier Estado miembro que exprese posteriormente su consentimiento a quedar vinculado por el Convenio marco, éste entrará en vigor el primer día del mes siguiente a la expiración de un plazo de tres meses a partir de la fecha del depósito del instrumento de ratificación, aceptación o aprobación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "1. Después de la entrada en vigor del presente Convenio marco y una vez consultados los Estados contratantes, el Comité de Ministros del Consejo de Europa podrá invitar a adherirse al presente Convenio, mediante decisión tomada por la mayoría prevista en el artículo 20.d) del Estatuto del Consejo de Europa, a cualquier Estado no miembro del Consejo de Europa que, invitado a firmarlo de conformidad con lo dispuesto en el artículo 27, todavía no lo haya hecho, así como a cualquier otro Estado no miembro.",
+     "number": "1"
+    },
+    {
+     "id": "art-29-p2",
+     "text": "2. Con respecto a cualquier Estado que se adhiera, el Convenio marco entrará en vigor el primera día del mes siguiente a la expiración de un plazo de tres meses a partir de la fecha del depósito del instrumento de adhesión en poder del Secretario general del Consejo de Europa.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "1. En el momento de la firma o del depósito de su instrumento de ratificación, aceptación, aprobación o adhesión, cualquier Estado podrá designar aquel territorio o territorios de cuyas relaciones internacionales sea responsable a los que se aplicará el presente Convenio marco.",
+     "number": "1"
+    },
+    {
+     "id": "art-30-p2",
+     "text": "2. En cualquier otro momento posterior, todo Estado podrá, mediante una declaración dirigida al Secretario general del Consejo de Europa, hacer extensiva la aplicación del presente Convenio marco a cualquier otro territorio designado en esa declaración. El Convenio marco entrará en vigor respecto de ese territorio el primer día del mes siguiente a la expiración de un plazo de tres meses a partir de la fecha de recepción de la declaración por el Secretario general.",
+     "number": "2"
+    },
+    {
+     "id": "art-30-p3",
+     "text": "3. Toda declaración formulada en virtud de los dos apartados precedentes podrá ser retirada, por lo que respecta a cualquier territorio designado en esa declaración, mediante notificación dirigida al Secretario general. La retirada surtirá efecto el primer día del mes siguiente a la expiración de un plazo de tres meses a partir de la fecha de recepción de la notificación por el Secretario general.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "1. Cualquier parte podrá, en cualquier momento, denunciar el presente Convenio marco dirigiendo una notificación al Secretario general del Consejo de Europa.",
+     "number": "1"
+    },
+    {
+     "id": "art-31-p2",
+     "text": "2. La denuncia surtirá efecto el primer día del mes siguiente a la expiración de un período de seis meses a partir de la fecha de recepción de la notificación por el Secretario general.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "El Secretario general del Consejo de Europa notificará a los Estados miembros del Consejo, a los demás Estados signatarios y a cualquier Estado que se haya adherido al presente Convenio marco:"
+    },
+    {
+     "id": "art-32-p2",
+     "text": "a) Toda firma;"
+    },
+    {
+     "id": "art-32-p3",
+     "text": "b) El depósito de todo instrumento de ratificación, aceptación, aprobación o adhesión;"
+    },
+    {
+     "id": "art-32-p4",
+     "text": "c) Toda fecha de entrada en vigor del presente Convenio marco de conformidad con sus artículos 28, 29 y 30;"
+    },
+    {
+     "id": "art-32-p5",
+     "text": "d) Todo otro acto, notificación o comunicación que se refiera al presente Convenio marco."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "En fe de lo cual, los abajo firmantes, debidamente autorizados al efecto, firman el presente Convenio marco."
+  },
+  {
+   "text": "Hecho en Estrasburgo, el 1 de febrero de 1995, en francés e inglés, siendo los dos textos igualmente auténticos, en un ejemplar único que será depositado en los archivos del Consejo de Europa. El Secretario general del Consejo de Europa transmitirá copia certificada conforme a cada uno de los Estados miembros del Consejo de Europa y a cualquier Estado invitado a firmar o a adherirse al presente Convenio-marco."
+  }
+ ],
+ "spain_instrument": [
+  "JUAN CARLOS I",
+  "REY DE ESPAÑA",
+  "Por cuanto el día 1 de febrero de 1995, el Plenipotenciario de España, nombrado en buena y debida forma al efecto, firmó en Estrasburgo el Convenio-marco para la protección de las Minorías Nacionales (número 157 del Consejo de Europa), hecho en el mismo lugar y fecha,",
+  "Vistos y examinados los treinta y dos artículos de dicho Convenio,",
+  "Concedida por las Cortes Generales la autorización prevista en el artículo 94.1 de la Constitución,",
+  "Vengo en aprobar y ratificar cuanto en él se dispone, como en virtud del presente, lo apruebo y ratifico, prometiendo cumplirlo, observarlo y hacer que se cumpla y observe puntualmente en todas sus partes, a cuyo fin, para su mayor validación y firmeza, mando expedir este Instrumento de Ratificación firmado por Mí, debidamente sellado y refrendado por el infrascrito Ministro de Asuntos Exteriores.",
+  "Dado en Madrid a 20 de julio de 1995.",
+  "JUAN CARLOS R.",
+  "El Ministro de Asuntos Exteriores,",
+  "JAVIER SOLANA MADARIAGA"
+ ],
+ "publication_notes": [
+  "ESTADOS PARTE",
+  "Fecha depósito",
+  "Instrumento / Estado / Fecha/firma",
+  "Albania / 29- 6-1995 /",
+  "Alemania, Rep. Fed. de / 11- 5-1995 / 10- 9-1997 D",
+  "Armenia / 25- 7-1997 /",
+  "Austria / 1- 2-1995 /",
+  "Bulgaria / 9-11-1997 /",
+  "Chipre / 1- 2-1995 / 4- 6-1996 D",
+  "Croacia / 6-11-1996 / 11- 2-1997 D",
+  "Dinamarca / 1- 2-1995 / 22- 9-1997 D",
+  "Eslovaquia / 1- 2-1995 / 14- 9-1995 D",
+  "Eslovenia / 1- 2-1995 /",
+  "España / 1- 2-1995 / 1- 9-1995 D",
+  "Estonia / 2- 2-1995 / 6- 1-1997 D",
+  "Finlandia / 1- 2-1995 / 3-10-1997 D",
+  "Grecia / 22- 9-1997 /",
+  "Hungría / 1- 2-1995 / 25- 9-1995 D",
+  "Irlanda / 1- 2-1995 /",
+  "Islandia / 1- 2-1995 /",
+  "Italia / 1- 2-1995 / 3-11-1997 D",
+  "Letonia / 11- 5-1995 /",
+  "Liechtenstein / 1- 2-1995 /",
+  "Lituania / 1- 2-1995 /",
+  "Luxemburgo / 20- 7-1995 / D",
+  "Macedonia, Ex ant. R. Yug. de / 25- 7-1996 / 10- 4-1997 D",
+  "Malta / 11- 5-1995 /",
+  "Moldavia / 13- 7-1995 / 20-11-1996 D",
+  "Noruega / 1- 2-1995 /",
+  "Países Bajos / 1- 2-1995 /",
+  "Polonia / 1- 2-1995 /",
+  "Portugal / 1- 2-1995 /",
+  "Reino Unido / 1- 2-1995 /",
+  "Rep. Checa / 28- 4-1995 /",
+  "Rumania / 1- 2-1995 / 11- 5-1995 D",
+  "Rusia, Federación de / 28- 2-1996 /",
+  "San Marino / 11- 5-1995 / 5-12-1996 D",
+  "Suecia / 1- 2-1995 /",
+  "Suiza / 1- 2-1995 /",
+  "Ucrania / 15- 9-1995 /",
+  "D: Declaraciones",
+  "Alemania",
+  "Declaración consignada en una carta del Representante Permanente de Alemania, fechada el 11 de mayo de 1995, remitida al Secretario general con ocasión de la firma, el 11 de mayo de 1995.",
+  "El Convenio marco no contiene definición alguna de la noción de minorías nacionales. Corresponde pues a cada Parte Contratante determinar los grupos a los cuales la misma se aplicará tras la ratificación. En la República Federal de Alemania se consideran minorías nacionales los daneses de nacionalidad alemana y los miembros del pueblo zorbo de nacionalidad alemana. El Convenio-marco se aplicará también a los grupos étnicos que residen tradicionalmente en Alemania es decir a los frisones, sintis y gitanos de nacionalidad alemana.",
+  "Dinamarca",
+  "Declaración contenida en una Nota Verbal del 22 de septiembre de 1997, remitida al Secretario general con ocasión del depósito del Instrumento de Ratificación el 22 de septiembre de 1997.",
+  "En relación con el depósito del Instrumento de Ratificación por Dinamarca del Convenio marco para la protección de las minorías nacionales se declara por la presente que el Convenio marco se aplicará a la minoría alemana en la Jutlandia meridional, que forma parte del Reino de Dinamarca.",
+  "Estonia",
+  "Declaración contenida en el Instrumento de Ratificación, depositado el 6 de enero de 1997.",
+  "La República de Estonia considera el término «minorías nacionales», que no está definido en el Convenio marco para la protección de minorías nacionales, en este sentido: Se consideran «minoría nacional» los ciudadanos de Estonia que:",
+  "Residen en territorio de Estonia;",
+  "Mantienen vínculos antiguos firmes y duraderos con Estonia;",
+  "Se distinguen de los estonianos por sus características étnicas, culturales, religiosas o lingüísticas;",
+  "Están motivados por la preocupación de conservar en su seno sus tradiciones culturales, su religión o su lengua, que constituyen las base de su identidad común.",
+  "Luxemburgo",
+  "Declaración consignada en una carta de la Representante Permanente de Luxemburgo, fechada el 18 de julio de 1995, remitida al Secretario general con ocasión de la firma, el 20 de julio de 1995.",
+  "El Gran Ducado de Luxemburgo entiende como «minoría nacional» en el sentido del Convenio marco un grupo de personas instaladas desde hace muchas generaciones en su territorio, que tienen la nacionalidad luxemburguesa y que han conservado características distintas en el ámbito étnico y lingüístico.",
+  "Basándose en esta definición, el Gran Ducado de Luxemburgo quiere hacer constar que en su territorio no existen «minorías nacionales».",
+  "La Ex-República Yugoslava de Macedonia",
+  "Declaraciones contenidas en el Instrumento de Ratificación, depositado el 10 de abril de 1997.",
+  "La República de Macedonia declara que:",
+  "1. El término minorías nacionales empleado en el Convenio marco para la protección de minorías nacio nales se considera idéntico al término «nacionalidades» usado en la Constitución y las Leyes de la República de Macedonia.",
+  "2. Las disposiciones del Convenio marco para la protección de las minorías nacionales serán aplicadas a las minorías nacionales albanesa, turca, valaca, gitana y serbia que viven en el territorio de la República de Macedonia.",
+  "El presente Convenio entrará en vigor, de forma general y para España, el 1 de febrero de 1998, de conformidad con lo establecido en su artículo 28.",
+  "Lo que se hace público para conocimiento general.",
+  "Madrid, 13 de enero de 1998.-El Secretario general técnico del Ministerio de Asuntos Exteriores, Julio Núñez Montesinos."
+ ],
+ "authentic_clause": {
+  "article": null,
+  "paragraph": null,
+  "text": "Hecho en Estrasburgo, el 1 de febrero de 1995, en francés e inglés, siendo los dos textos igualmente auténticos, en un ejemplar único que será depositado en los archivos del Consejo de Europa. El Secretario general del Consejo de Europa transmitirá copia certificada conforme a cada uno de los Estados miembros del Consejo de Europa y a cualquier Estado invitado a firmar o a adherirse al presente Convenio-marco."
+ },
+ "quality": {
+  "articles": 32,
+  "stated_articles": 32,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "32 artículos (1–32)"
+   },
+   {
+    "check": "recuento_declarado",
+    "ok": true,
+    "detail": "el instrumento declara 32; extraídos 32"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null,
+    "exceptions": [
+     {
+      "article": "2",
+      "reason": "La publicación del BOE (BOE-A-1998-1369) cierra este artículo con una coma."
+     }
+    ]
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

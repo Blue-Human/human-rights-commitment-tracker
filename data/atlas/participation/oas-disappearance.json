@@ -1,0 +1,299 @@
+{
+ "instrument": "oas-disappearance",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-60.html",
+  "retrieved": "2026-11-09",
+  "sha256": "0997680bc6090af3f86905f66c7d8a2a92c28a6f55da1d57f9109fe14004432e"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": "A-60: CONVENCION INTERAMERICANA SOBRE DESAPARICION FORZADA DE PERSONAS\n1.\nGUATEMALA\n.-\nDe conformidad con el art�culo XIX de la Convenci�n, la Rep�blica de\nGuatemala, al ratificarla, formula reserva en cuanto a la aplicaci�n del\nart�culo V de la misma, desde el momento que el art�culo 27 de su\nConstituci�n Pol�tica establece que \"por delitos pol�ticos no se\nintentar� la extradici�n de guatemaltecos, quienes en ning�n caso ser�n\nentregados a gobierno extranjero, salvo lo dispuesto en tratados y convenios\ncon respecto a delitos de lesa humanidad o contra el derecho\ninternacional\", y que por el momento, no existe legislaci�n\nguatemalteca interna que rija lo relativo a extradici�n.\nRetiro de la reserva hecha al ratificar la Convenci�n relativa a la\naplicaci�n del articulo V (7 de septiembre de 2001).\n-\nMEXICO.-\nReserva hecha al momento del deposito del instrumento de ratificaci�n (9\nde abril de 2002)\n\"El Gobierno de los Estados Unidos Mexicanos al\nratificar la Convenci�n Interamericana sobre Desaparici�n Forzada de\nPersonas, adoptada en la Ciudad de Belem, Brasil el 9 de junio de 1994,\nformula reserva expresa al Articulo IX, toda vez que la Constituci�n\nPol�tica reconoce el fuero de guerra, cuando el militar haya cometido\nalg�n il�cito encontr�ndose en servicio. El fuero de guerra no\nconstituye jurisdicci�n especial en el sentido de la Convenci�n, toda\nvez que conforme al articulo 14 de la Constituci�n mexicana nadie podr�\nser privado de la vida, de la libertad o de sus propiedades, posesiones o\nderechos, sino mediante juicio seguido ante los tribunales previamente\nestablecidos, en el que se cumplan las formalidades esenciales del\nprocedimiento y conforme a las leyes expedidas con anterioridad al\nhecho\".\nDeclaraci�n interpretativa hecha al momento del deposito del instrumento\nde ratificaci�n (9 de abril de 2002)\n\"Con fundamento en el articulo 14 de la\nConstituci�n Pol�tica de los Estados Unidos Mexicanos, el gobierno de\nM�xico, al ratificar la Convenci�n Interamericana sobre Desaparici�n\nForzada de Personas, adoptada en la ciudad de Belem, Brasil, el 9 de junio\nde 1994, se entender� que las disposiciones de dicha Convenci�n se\naplicaran a los hechos que constituyan desaparici�n forzada de personas,\nse ordenen, ejecuten o cometan con posteridad a la entrada en vigor de la\npresente Convenci�n\"\nEl\n11 de julio de 2014\n, la Secretar�a General\nacus� recibo de la nota del Gobierno de los Estados Unidos Mexicanos\nnotificando al depositario el\nretiro de la reserva\nal art�culo IX de la Convenci�n Interamericana\nsobre Desaparici�n Forzada de Personas, suscrita en Bel�m do Par�, Brasil, el\n9 de junio de 1994.\n[\nTexto\ndel Tratado\n]",
+ "participants": [
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "1995-10-31",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-02-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-10-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia",
+   "signature": "1994-09-14",
+   "consent": {
+    "date": "1996-09-19",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1999-05-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-09-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "2013-07-26",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2014-02-03",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-07-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "2010-01-13",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2010-01-26",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-01-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "1994-08-05",
+   "consent": {
+    "date": "2005-04-01",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2005-04-12",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-04-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "1996-03-20",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-06-02",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-03-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2000-02-08",
+   "consent": {
+    "date": "2006-07-07",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2006-07-27",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-07-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "1994-06-24",
+   "consent": {
+    "date": "1999-07-27",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2000-02-25",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-07-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "2005-04-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2005-07-11",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-04-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "2001-05-04",
+   "consent": {
+    "date": "2002-02-28",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-04-09",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-02-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1994-06-10",
+   "consent": null,
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1994-06-10",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panam�",
+   "signature": "1994-10-05",
+   "consent": {
+    "date": "1995-07-31",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-02-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-07-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1995-11-08",
+   "consent": {
+    "date": "1996-08-26",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-11-26",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-08-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "2001-01-08",
+   "consent": {
+    "date": "2002-02-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2002-02-13",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-02-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1994-06-30",
+   "consent": {
+    "date": "1996-02-06",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-04-02",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-02-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "signature": "1994-06-10",
+   "consent": {
+    "date": "1998-07-06",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1999-01-19",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-07-06",
+    "type": "ratification"
+   }
+  }
+ ]
+}

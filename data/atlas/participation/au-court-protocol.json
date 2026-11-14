@@ -1,0 +1,831 @@
+{
+ "instrument": "au-court-protocol",
+ "register": "au",
+ "as_of": "2023-02-14",
+ "ref": {
+  "source": "au",
+  "url": "https://au.int/sites/default/files/treaties/36393-sl-PROTOCOL_TO_THE_AFRICAN_CHARTER_ON_HUMAN_AND_PEOPLESRIGHTS_ON_THE_ESTABLISHMENT_OF_AN_AFRICAN_COURT_ON_HUMAN_AND_PEOPLES_RIGHTS_0.pdf",
+  "retrieved": "2026-11-09",
+  "sha256": "a46f7dda98dbf78f8ecba8506dfb24e6c83c345c0c12dc57bb7566473b11a7d8"
+ },
+ "legend": "La lista de la Unión Africana recoge la fecha de firma, la de ratificación o adhesión (sin distinguirlas) y la de depósito.",
+ "participants": [
+  {
+   "iso3": "DZA",
+   "name": "Algeria",
+   "signature": "1999-07-13",
+   "consent": {
+    "date": "2003-04-22",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-06-03",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-04-22",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": "2007-01-22",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2007-01-22",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2014-06-10",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2014-08-22",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-06-10",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "BWA",
+   "name": "Botswana",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "1998-12-31",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "1999-02-23",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-12-31",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-04-02",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-05-12",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-04-02",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "CMR",
+   "name": "Cameroon",
+   "signature": "2006-07-25",
+   "consent": {
+    "date": "2014-12-09",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2015-08-17",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-12-09",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "CAF",
+   "name": "Central African Rep.",
+   "signature": "2002-03-04",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2002-03-04",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cape Verde",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "TCD",
+   "name": "Chad",
+   "signature": "2004-12-06",
+   "consent": {
+    "date": "2016-01-27",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2016-02-08",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-01-27",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d’Ivoire",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-01-07",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-03-21",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-01-07",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "COM",
+   "name": "Comoros",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-12-23",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-12-26",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-12-23",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "COG",
+   "name": "Congo",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2010-08-10",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2010-10-06",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-08-10",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "signature": "2005-11-15",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2005-11-15",
+    "type": null
+   }
+  },
+  {
+   "iso3": "COD",
+   "name": "Democratic Rep. of Congo",
+   "signature": "1999-09-09",
+   "consent": {
+    "date": "2017-01-31",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2020-12-08",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-01-31",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "EGY",
+   "name": "Egypt",
+   "signature": "1999-02-17",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1999-02-17",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GNQ",
+   "name": "Equatorial Guinea",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ERI",
+   "name": "Eritrea",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "ETH",
+   "name": "Ethiopia",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2000-08-14",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2004-06-29",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-08-14",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "GMB",
+   "name": "Gambia",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "1999-06-30",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "1999-10-15",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-06-30",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2004-08-25",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2005-08-16",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-08-25",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2021-10-14",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2021-11-02",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-10-14",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "GIN",
+   "name": "Guinea",
+   "signature": "2003-07-08",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2003-07-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "KEN",
+   "name": "Kenya",
+   "signature": "2003-07-07",
+   "consent": {
+    "date": "2004-02-04",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2005-02-18",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-02-04",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "LBY",
+   "name": "Libya",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-11-19",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-12-08",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-11-19",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "signature": "1999-10-29",
+   "consent": {
+    "date": "2003-10-28",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-12-23",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-10-28",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2021-10-12",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2022-01-12",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2021-10-12",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2000-05-10",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2000-06-20",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-05-10",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "MWI",
+   "name": "Malawi",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2008-09-09",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2008-10-09",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-09",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": null,
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "listed",
+    "date": null,
+    "type": null
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": "2003-05-23",
+   "consent": {
+    "date": "2004-07-17",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2004-07-20",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-07-17",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "MRT",
+   "name": "Mauritania",
+   "signature": "1999-03-22",
+   "consent": {
+    "date": "2005-05-19",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2005-12-14",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-05-19",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-03-03",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-03-24",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-03-03",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "signature": "2004-06-09",
+   "consent": {
+    "date": "2004-05-20",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2004-06-09",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-05-20",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "NER",
+   "name": "Niger",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2004-05-17",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2004-06-26",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-05-17",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-05-05",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-05-06",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-05-05",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": "1999-06-09",
+   "consent": {
+    "date": "2002-07-03",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2002-07-03",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-07-03",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": null,
+   "name": "Sahrawi Arab Democratic Republic",
+   "signature": "2010-07-25",
+   "consent": {
+    "date": "2013-11-27",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2014-01-27",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-11-27",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "1998-09-29",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "1998-10-30",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-09-29",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SOM",
+   "name": "Somalia",
+   "signature": "2006-02-23",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2006-02-23",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SSD",
+   "name": "South Sudan",
+   "signature": "2013-01-24",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2013-01-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "STP",
+   "name": "Sao Tome & Principe",
+   "signature": "2010-02-01",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2010-02-01",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SDN",
+   "name": "Sudan",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SWZ",
+   "name": "Eswatini",
+   "signature": "2004-12-07",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2004-12-07",
+    "type": null
+   }
+  },
+  {
+   "iso3": "TZA",
+   "name": "Tanzania",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2006-02-07",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2006-02-10",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-02-07",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2003-06-23",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2003-07-06",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-06-23",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2007-08-21",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2007-10-05",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-08-21",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "UGA",
+   "name": "Uganda",
+   "signature": "2001-02-01",
+   "consent": {
+    "date": "2001-02-16",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2001-06-06",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-02-16",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": "1998-06-09",
+   "consent": {
+    "date": "2022-12-28",
+    "type": "ratification_or_accession"
+   },
+   "deposit": "2023-01-10",
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-12-28",
+    "type": "ratification_or_accession"
+   }
+  },
+  {
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "signature": "1998-06-09",
+   "consent": null,
+   "deposit": null,
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1998-06-09",
+    "type": null
+   }
+  }
+ ]
+}

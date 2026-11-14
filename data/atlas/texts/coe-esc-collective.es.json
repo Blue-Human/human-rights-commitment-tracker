@@ -1,0 +1,434 @@
+{
+ "instrument": "coe-esc-collective",
+ "authority": "official_es",
+ "lang": "es",
+ "title": null,
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Aplicación provisional del Protocolo Adicional a la Carta Social Europea en el que se establece un sistema de reclamaciones colectivas, hecho en Estrasburgo el 9 de noviembre de 1995.",
+  "identifier": "BOE-A-2021-10683",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+  "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-10683",
+  "eli": "https://www.boe.es/eli/es/ai/1995/11/09/(1)",
+  "published": "2021-06-28",
+  "retrieved": "2026-11-09",
+  "sha256": "51ba4e0c3f78732414badc2b8e9b5fff5c14c57f8b7442743488c4959ab63b41",
+  "method": "boe-gazette"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados miembros del Consejo de Europa, signatarios del presente Protocolo a la Carta Social Europea, abierta a la firma en Turín el 18 de octubre de 1961 (en adelante denominada «la Carta»);"
+  },
+  {
+   "id": "pre-2",
+   "text": "Resueltos a adoptar nuevas medidas para mejorar la aplicación efectiva de los derechos sociales garantizados por la Carta;"
+  },
+  {
+   "id": "pre-3",
+   "text": "Considerando que dicho objetivo puede conseguirse, en particular, mediante el establecimiento de un procedimiento de reclamaciones colectivas que, entre otros aspectos, reforzaría la participación de los empresarios y trabajadores, así como de las organizaciones no gubernamentales,"
+  },
+  {
+   "id": "pre-4",
+   "text": "Convienen en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "Las Partes Contratantes en el presente Protocolo reconocen el derecho de las siguientes organizaciones a presentar reclamaciones en las que se denuncie la aplicación insatisfactoria de la Carta:"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "a) Las organizaciones internacionales de empleadores y de trabajadores a que se refiere el apartado 2 del artículo 27 de la Carta;"
+    },
+    {
+     "id": "art-1-p3",
+     "text": "b) otras organizaciones internacionales no gubernamentales reconocidas como entidades consultivas por el Consejo de Europa y que figuren en la lista elaborada a tal fin por el Comité Gubernamental;"
+    },
+    {
+     "id": "art-1-p4",
+     "text": "c) las organizaciones nacionales representativas de empleadores y de trabajadores sometidas a la jurisdicción de la Parte Contratante contra la que se dirige la reclamación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. Asimismo, cuando manifieste su consentimiento a quedar vinculado por el presente Protocolo, de conformidad con lo dispuesto en el artículo 13, o en cualquier momento posterior todo Estado Contratante podrá declarar que reconoce el derecho a presentar reclamaciones contra dicho Estado a cualquier otra organización nacional no gubernamental representativa dentro de su jurisdicción que tenga especial competencia en las materias reguladas por la Carta.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. Dichas declaraciones podrán formularse por un plazo determinado.",
+     "number": "2"
+    },
+    {
+     "id": "art-2-p3",
+     "text": "3. Las declaraciones se depositarán ante el Secretario General del Consejo de Europa, quien remitirá copias de las mismas a las Partes Contratantes y se encargará de su publicación.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Las organizaciones internacionales no gubernamentales y las organizaciones nacionales no gubernamentales mencionadas en el artículo 1.b) y en el artículo 2, respectivamente, podrán presentar reclamaciones de conformidad con el procedimiento establecido en dichas disposiciones únicamente respecto de las materias en las que se les haya reconocido especial competencia."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "La reclamación se presentará por escrito, se referirá a una disposición de la Carta aceptada por la Parte Contratante afectada y especificará en qué medida dicha Parte no ha garantizado la aplicación satisfactoria de dicha disposición."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "Toda reclamación se dirigirá al Secretario General, quien acusará recibo de la misma, la notificará a la Parte Contratante afectada y la remitirá inmediatamente al Comité de Expertos Independientes."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "El Comité de Expertos Independientes podrá solicitar de la Parte Contratante afectada y de la organización que presentó la reclamación que presenten por escrito, dentro del plazo que el Comité establezca, información y sus observaciones sobre la admisibilidad de la reclamación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. Si resuelve que la reclamación es admisible, el Comité de Expertos Independientes lo notificará a las Partes Contratantes en la Carta a través del Secretario General. Solicitará de la Parte Contratante afectada y de la organización que presentó la reclamación que presenten, dentro del plazo que el Comité establezca, todas las aclaraciones o informaciones escritas que procedan, e instará a las demás Partes Contratantes en el presente Protocolo a presentar las observaciones que deseen formular dentro del mismo plazo.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. Cuando la reclamación haya sido presentada por una organización nacional de empleadores o de trabajadores u otra organización nacional o internacional no gubernamental, el Comité de Expertos Independientes lo notificará a las organizaciones internacionales de empleadores y de trabajadores mencionadas en el apartado 2 del artículo 27 de la Carta, a través del Secretario General, invitándoles a presentar sus observaciones dentro del plazo que el Comité establezca.",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "3. Sobre la base de las aclaraciones, informaciones u observaciones presentadas en virtud de los anteriores apartados 1 y 2, la Parte Contratante afectada y la organización que presentó la reclamación podrán presentar otras informaciones u observaciones escritas en el plazo que establezca el Comité de Expertos Independientes.",
+     "number": "3"
+    },
+    {
+     "id": "art-7-p4",
+     "text": "4. Cuando proceda a examinar la reclamación, el Comité de Expertos Independientes podrá organizar una audiencia con los representantes de las partes.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. El Comité de Expertos Independientes elaborará un informe en el que expondrá las medidas adoptadas para examinar la reclamación y presentará sus conclusiones sobre si la Parte Contratante afectada ha garantizado o no la aplicación satisfactoria de la disposición de la Carta a que se refiere la reclamación.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. El informe se remitirá al Comité de Ministros. Se remitirá también a la organización que presentó la reclamación y a las Partes Contratantes en la Carta, que no estarán facultadas para publicarlo.",
+     "number": "2"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "El informe se remitirá a la Asamblea Parlamentaria y se hará público simultáneamente a la resolución mencionada en el artículo 9 o antes de que transcurran cuatro meses desde su remisión al Comité de Ministros."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "1. Sobre la base del informe del Comité de Expertos Independientes, el Comité de Ministros adoptará una resolución por mayoría de los votantes. Si el Comité de Expertos Independientes concluye que la Carta no se ha aplicado de forma satisfactoria, el Comité de Ministros adoptará, por mayoría de dos tercios de los votantes, una recomendación dirigida a la Parte Contratante afectada. En ambos casos, el derecho de voto se limitará a las Partes Contratantes en la Carta.",
+     "number": "1"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "2. A solicitud de la Parte Contratante afectada, el Comité de Ministros podrá decidir, por mayoría de dos tercios de las Partes Contratantes en la Carta, consultar al Comité Gubernamental cuando el informe del Comité de Expertos Independientes plantee nuevas cuestiones.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "La Parte Contratante afectada informará sobre las medidas que haya adoptado para poner en práctica la recomendación del Comité de Ministros en el siguiente informe que presente al Secretario General de conformidad con el artículo 21 de la Carta."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "Los artículos 1 a 10 del presente Protocolo serán también de aplicación a los artículos de la Parte II del primer Protocolo Adicional a la Carta respecto de los Estados Partes en dicho Protocolo, en la medida en que se hayan aceptado dichos artículos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "Los Estados Partes en el presente Protocolo consideran que el primer apartado del anexo a la Carta, relativo a la parte III, ha de interpretarse como sigue:"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "«Se entiende que la Carta contiene obligaciones jurídicas de carácter internacional cuya aplicación está sometida únicamente al control establecido en la parte IV de la misma y en las disposiciones del presente Protocolo.»"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "1. El presente Protocolo quedará abierto a la firma por los Estados miembros del Consejo de Europa signatarios de la Carta, que podrán expresar su consentimiento a quedar vinculados mediante:",
+     "number": "1"
+    },
+    {
+     "id": "art-13-p2",
+     "text": "a) La firma sin reserva de ratificación, aceptación o aprobación; o"
+    },
+    {
+     "id": "art-13-p3",
+     "text": "b) la firma con reserva de ratificación, aceptación o aprobación, seguida de la ratificación, aceptación o aprobación."
+    },
+    {
+     "id": "art-13-p4",
+     "text": "2. Los Estados miembros del Consejo de Europa no podrán manifestar su consentimiento a quedar vinculados por el presente Protocolo sin haber ratificado previa o simultáneamente la Carta.",
+     "number": "2"
+    },
+    {
+     "id": "art-13-p5",
+     "text": "3. Los instrumentos de ratificación, aceptación o aprobación se depositarán ante el Secretario General del Consejo de Europa.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. El presente Protocolo entrará en vigor el primer día del mes siguiente a la expiración de un plazo de un mes a partir de la fecha en que cinco Estados miembros del Consejo de Europa hayan expresado su consentimiento a quedar vinculados por el Protocolo, de conformidad con lo dispuesto en el artículo 13.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. Respecto de los Estados miembros que expresen con posterioridad su consentimiento a quedar vinculados por el Protocolo, éste entrará en vigor el primer día del mes siguiente a la expiración de un plazo de un mes a partir de la fecha del depósito del instrumento de ratificación, aceptación o aprobación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "1. Cualquier Parte Contratante podrá denunciar el presente Protocolo, en cualquier momento, mediante notificación dirigida al Secretario General del Consejo de Europa.",
+     "number": "1"
+    },
+    {
+     "id": "art-15-p2",
+     "text": "2. Dicha denuncia surtirá efecto el primer día del mes siguiente a la expiración de un plazo de doce meses a partir de la fecha en que el Secretario General reciba dicha notificación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "El Secretario General del Consejo de Europa notificará a todos los Estados miembros del Consejo:"
+    },
+    {
+     "id": "art-16-p2",
+     "text": "a) Cualquier firma;"
+    },
+    {
+     "id": "art-16-p3",
+     "text": "b) el depósito de cualquier instrumento de ratificación, aceptación o aprobación;"
+    },
+    {
+     "id": "art-16-p4",
+     "text": "c) la fecha de entrada en vigor del presente Protocolo, de conformidad con el artículo 14;"
+    },
+    {
+     "id": "art-16-p5",
+     "text": "d) cualquier otro acto, notificación o declaración relativos al presente Protocolo."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "En fe de lo cual, los infrascritos, debidamente autorizados al efecto, firman el presente Protocolo."
+  },
+  {
+   "text": "Hecho en Estrasburgo, el 9 de noviembre de 1995, en inglés y francés, siendo ambos textos igualmente auténticos, en un ejemplar único que se depositará en los archivos del Consejo de Europa. El Secretario General del Consejo de Europa remitirá copias certificadas a todos los Estados miembros del Consejo de Europa."
+  },
+  {
+   "text": "* * *"
+  },
+  {
+   "text": "El presente Protocolo se aplicará provisionalmente por España desde el 1 de julio de 2021, fecha de entrada en vigor de la Carta Social Europea (revisada)."
+  },
+  {
+   "text": "Madrid, 24 de junio de 2021.–El Secretario General Técnico, José María Muriel Palomino."
+  }
+ ],
+ "spain_instrument": [],
+ "publication_notes": [],
+ "authentic_clause": {
+  "article": null,
+  "paragraph": null,
+  "text": "Hecho en Estrasburgo, el 9 de noviembre de 1995, en inglés y francés, siendo ambos textos igualmente auténticos, en un ejemplar único que se depositará en los archivos del Consejo de Europa. El Secretario General del Consejo de Europa remitirá copias certificadas a todos los Estados miembros del Consejo de Europa."
+ },
+ "quality": {
+  "articles": 16,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "16 artículos (1–16)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

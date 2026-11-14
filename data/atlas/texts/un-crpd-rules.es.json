@@ -1,0 +1,2376 @@
+{
+ "instrument": "un-crpd-rules",
+ "authority": "body",
+ "lang": "es",
+ "title": "Reglamento",
+ "source": {
+  "publisher": "Naciones Unidas",
+  "document": "Reglamento (CRPD/C/1/Rev.1)",
+  "identifier": "CRPD/C/1/Rev.1",
+  "url": "https://documents.un.org/api/symbol/access?s=CRPD/C/1/Rev.1&l=es&t=pdf",
+  "retrieved": "2026-11-09",
+  "sha256": "a13ae8496cf41a18cb4be9ec8375e849922974bc4e9ef7d5e303b04b8b5b8d4b",
+  "method": "un-pdf"
+ },
+ "versions": [],
+ "preamble": [],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-parte-primera",
+   "level": 1,
+   "label": "Parte Primera",
+   "title": "Normas generales"
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-i",
+   "level": 2,
+   "label": "I.",
+   "title": "Períodos de sesiones"
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": "Sesiones del Comité",
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. El Comité sobre los Derechos de las Personas con Discapacidad celebrará las sesiones que sean necesarias para el desempeño eficaz de las funciones que le incumben de conformidad con la Convención sobre los Derechos de las Personas con Discapacidad y su Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "2. Las sesiones del Comité tendrán como guía los principios de inclusión y accesibilidad enunciados en el artículo 3 de la Convención.",
+     "number": "2"
+    },
+    {
+     "id": "art-1-p3",
+     "text": "3. El Secretario General proporcionará el personal y las instalaciones que sean necesarios para el efectivo desempeño de las funciones del Comité en virtud de la Convención y su Protocolo Facultativo y convocará su sesión inaugural.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": "Períodos de sesiones",
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. El Comité celebrará como mínimo dos períodos ordinarios de sesiones cada año.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. Los períodos de sesiones del Comité se celebrarán en las fechas que decida el Comité en consulta con el Secretario General, teniendo en cuenta el calendario de conferencias aprobado por la Asamblea General.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": "Lugar de celebración de los períodos de sesiones",
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Los períodos de sesiones del Comité se celebrarán normalmente en la Oficina de las Naciones Unidas en Ginebra. El Comité podrá designar otro lugar para celebrar un período de sesiones, en consulta con el Secretario General y teniendo en cuenta las normas aplicables de las Naciones Unidas al respecto."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": "Períodos extraordinarios de sesiones del Comité",
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. Se convocará a períodos extraordinarios de sesiones del Comité por decisión de este. Cuando el Comité no esté reunido, el Presidente podrá convocar a períodos extraordinarios de sesiones del Comité en consulta con los demás miembros de la Mesa del Comité. El Presidente del Comité también convocará a un período extraordinario de sesiones:",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "a) A solicitud de la mayoría de los miembros del Comité;"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "b) A solicitud de un Estado parte en la Convención."
+    },
+    {
+     "id": "art-4-p4",
+     "text": "2. Los períodos extraordinarios de sesiones se celebrarán lo antes posible en la fecha que fije el Presidente, en consulta con el Secretario General y con los demás miembros de la Mesa del Comité, teniendo en cuenta el calendario de conferencias aprobado por la Asamblea General.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": "Grupo de trabajo anterior al período de sesiones",
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. Normalmente se reunirá antes de cada período ordinario de sesiones un grupo de trabajo integrado por un máximo de cinco miembros del Comité que el Presidente nombrará en consulta con el Comité durante un período ordinario de sesiones con arreglo al principio de la distribución geográfica equitativa.",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "2. El grupo de trabajo anterior al período de sesiones preparará una lista de cuestiones y preguntas sobre cuestiones sustantivas que surjan de los informes presentados por los Estados partes de conformidad con el artículo 35 de la Convención y presentará esa lista de cuestiones y preguntas a los Estados partes de que se trate.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": "Notificación de la fecha de apertura de los períodos de sesiones",
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "El Secretario General notificará lo antes posible a los miembros del Comité la fecha y el lugar de la primera sesión de cada período de sesiones. La notificación se enviará al menos con seis semanas de antelación."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": "Accesibilidad",
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. Se facilitará la utilización de lenguas de señas, el braille y la comunicación táctil, el lenguaje sencillo, medios aumentativos y alternativos de comunicación y otros medios de comunicación accesibles que elijan las personas con discapacidad, incluso con la ayuda de asistentes, con respecto a las actividades relacionadas con el Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. Se permitirá la participación, incluso en las sesiones privadas, de asistentes personales de los miembros del Comité para que faciliten su acceso a la información.",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "3. Para que todos los miembros del Comité puedan participar en los trabajos en pie de igualdad es necesario garantizar:",
+     "number": "3"
+    },
+    {
+     "id": "art-7-p4",
+     "text": "a) Que los miembros del Comité que necesiten formatos accesibles puedan acceder a la información al mismo tiempo que los demás miembros;"
+    },
+    {
+     "id": "art-7-p5",
+     "text": "b) Que el sitio web de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos sea accesible para las personas con discapacidad."
+    },
+    {
+     "id": "art-7-p6",
+     "text": "4. Las reuniones y los períodos de sesiones, tanto públicos como privados, se celebrarán en locales que ofrezcan una accesibilidad plena (tanto física como a la comunicación y la información). Eso supone la existencia de baños accesibles, el suministro de medios especiales para el acceso a la información y la comunicación, como escáneres, impresoras de braille, subtítulos y audífonos, y la adopción de cualquier otra disposición general en materia de accesibilidad.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-ii",
+   "level": 2,
+   "label": "II.",
+   "title": "Programa"
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": "Programa provisional",
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "El Secretario General preparará el programa provisional de cada período ordinario de sesiones en consulta con el Presidente del Comité, de conformidad con las disposiciones aplicables de la Convención. En el programa provisional figurarán:"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "a) Los temas cuya inclusión haya decidido el Comité en un período de sesiones anterior;"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "b) Los temas propuestos por el Presidente del Comité;"
+    },
+    {
+     "id": "art-8-p4",
+     "text": "c) Los temas propuestos por algún miembro del Comité;"
+    },
+    {
+     "id": "art-8-p5",
+     "text": "d) Los temas propuestos por algún Estado parte en la Convención;"
+    },
+    {
+     "id": "art-8-p6",
+     "text": "e) Los temas propuestos por el Secretario General en relación con las funciones que se le encomiendan en la Convención o el presente reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": "Aprobación del programa",
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "El primer tema del programa provisional de cada período de sesiones será la aprobación del programa, salvo cuando en virtud del artículo 20 del presente reglamento deban elegirse los miembros de la Mesa, en cuyo caso esa elección será el primer tema del programa provisional a menos que el Comité decida otra cosa."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": "Revisión del programa",
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "Durante un período de sesiones, el Comité podrá revisar el programa y, según proceda, añadir, aplazar o suprimir temas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": "Comunicación del programa provisional",
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "1. El Secretario General comunicará el programa provisional a los miembros del Comité en el momento en que les notifique la apertura del período de sesiones, es decir, por los menos seis semanas antes del período de sesiones.",
+     "number": "1"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. El programa provisional se comunicará a los miembros del Comité en formatos accesibles.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-iii",
+   "level": 2,
+   "label": "III.",
+   "title": "Miembros del Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": "Duración del mandato",
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "1. El mandato de los miembros del Comité comenzará el 1 de enero del año siguiente a su elección y, conforme al artículo 34, párrafo 7, de la Convención, expirará cuatro años después, el 31 de diciembre, salvo en el caso de los miembros elegidos en la primera elección y en la elección celebrada inmediatamente después de la entrada en vigor de la Convención para el octogésimo primer Estado parte y que hayan sido designados por sorteo para un período de dos años, cuyo mandato expirará el 31 de diciembre al cabo de dos años de su elección.",
+     "number": "1"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "2. Los miembros podrán ser reelegidos una sola vez.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": "Provisión de vacantes imprevistas",
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "Conforme al artículo 34, párrafo 9, de la Convención, si un miembro del Comité fallece, renuncia o declara que, por alguna otra causa, no puede seguir desempeñando sus funciones, el Estado parte que lo propuso designará otro experto que posea las cualificaciones y reúna los requisitos previstos en las disposiciones pertinentes de la Convención para ocupar el puesto durante el resto del mandato."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": "Declaración solemne",
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "Antes de asumir sus funciones, cada miembro del Comité deberá hacer en sesión pública del Comité la siguiente declaración solemne: “Declaro solemnemente que desempeñaré mis funciones y ejerceré mis atribuciones como miembro del Comité sobre los Derechos de las Personas con Discapacidad en forma honorable, fiel, imparcial y concienzuda.”"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-iv",
+   "level": 2,
+   "label": "IV.",
+   "title": "Mesa del Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": "Elecciones",
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "El Comité elegirá entre sus miembros 1 presidente, 3 vicepresidentes y 1 relator; estos miembros constituirán la Mesa del Comité, que se reunirá periódicamente."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": "Procedimiento para las elecciones",
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "1. Cuando haya un solo candidato para la elección de un miembro de la Mesa, el Comité podrá decidir que sea elegido por aclamación.",
+     "number": "1"
+    },
+    {
+     "id": "art-16-p2",
+     "text": "2. Cuando haya dos o más candidatos para la elección de un miembro de la Mesa o el Comité decida por otra razón proceder a votación, resultará elegido quien obtenga la mayoría simple de los votos emitidos.",
+     "number": "2"
+    },
+    {
+     "id": "art-16-p3",
+     "text": "3. Si ningún candidato obtiene la mayoría de los votos emitidos, los miembros del Comité procurarán llegar a un consenso antes de proceder a una nueva votación.",
+     "number": "3"
+    },
+    {
+     "id": "art-16-p4",
+     "text": "4. Las elecciones se realizarán por votación secreta.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": "Duración del mandato",
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. Los miembros de la Mesa del Comité serán elegidos por un período de dos años y podrán ser reelegidos siempre que se respete el principio de rotación.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. Ningún miembro de la Mesa del Comité podrá ejercer sus funciones como tal si deja de ser miembro del Comité.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": "Posición del Presidente en relación con el Comité",
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "1. El Presidente ejercerá las funciones que le encomiendan la Convención y su Protocolo Facultativo y el presente reglamento.",
+     "number": "1"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "2. En el ejercicio de sus funciones, el Presidente continuará estando sometido a la autoridad del Comité.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": "Presidente interino",
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "1. El Presidente, si durante un período de sesiones no puede estar presente en una sesión o en parte de ella, designará a un vicepresidente para que ejerza la Presidencia en su lugar. A falta de tal designación, lo reemplazará otro miembro de la Mesa.",
+     "number": "1"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "2. El miembro que ejerza la Presidencia tendrá las mismas atribuciones y obligaciones que el Presidente.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": "Sustitución de miembros de la Mesa",
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "Si alguno de los miembros de la Mesa del Comité deja de ejercer sus funciones o declara que no está en condiciones de seguir ejerciéndolas, se elegirá a un nuevo miembro de la Mesa por el resto del período del mandato de su predecesor."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-v",
+   "level": 2,
+   "label": "V.",
+   "title": "Secretaría"
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": "Declaraciones",
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "El Secretario General o un representante suyo asistirán a todos los períodos de sesiones del Comité. El Secretario General o su representante podrán hacer declaraciones orales o escritas en las sesiones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": "Consecuencias financieras de las propuestas",
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "Antes de que el Comité apruebe una propuesta que implique gastos, el Secretario General preparará y comunicará por escrito a los miembros, lo antes posible, una estimación de esos gastos. El Presidente deberá señalar a los miembros esa estimación e invitarlos a expresar su opinión cuando el Comité examine la propuesta."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": "Secretaría",
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "1. A solicitud del Comité o por decisión de este y con la aprobación de la Asamblea General:",
+     "number": "1"
+    },
+    {
+     "id": "art-23-p2",
+     "text": "a) El Secretario General proporcionará los servicios de secretaría del Comité y los órganos subsidiarios que el Comité establezca;"
+    },
+    {
+     "id": "art-23-p3",
+     "text": "b) El Secretario General proporcionará al Comité el personal y los servicios necesarios para el desempeño eficaz de las funciones que le encomiendan la Convención y su Protocolo Facultativo;"
+    },
+    {
+     "id": "art-23-p4",
+     "text": "c) El Secretario General tendrá a su cargo todos los arreglos necesarios para garantizar, con arreglo al artículo 7 del presente reglamento, la accesibilidad en las reuniones del Comité y sus órganos subsidiarios."
+    },
+    {
+     "id": "art-23-p5",
+     "text": "2. El Secretario General estará encargado de informar sin demora a los miembros del Comité de las cuestiones que puedan presentarse para su examen o de cualquier otro asunto que pueda ser de importancia para el Comité.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-vi",
+   "level": 2,
+   "label": "VI.",
+   "title": "Comunicación e idiomas"
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": "Métodos de comunicación",
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "Los métodos de comunicación que utilizará el Comité serán, entre otros, los idiomas, la visualización de textos, el braille, la comunicación táctil, los macrotipos y los dispositivos multimedia de fácil acceso, así como el lenguaje escrito, los sistemas auditivos, el lenguaje sencillo, los medios de voz digitalizada y otros modos, medios y formatos aumentativos o alternativos de comunicación, incluidos los formatos accesibles de que se disponga en el futuro gracias a los avances de la tecnología de la información y de las comunicaciones. El Comité aprobará una lista normalizada de métodos de comunicación accesibles."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": "Tipos de lenguaje",
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "1. Los lenguajes utilizados por el Comité incluirán idiomas hablados y no hablados, como las lenguas de señas. El Comité aprobará una lista normalizada de tipos de lenguaje, de conformidad con las necesidades de comunicación del Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "2. Los miembros o los participantes en sesiones públicas del Comité podrán dirigirse al Comité o participar en la sesión pública en cualquiera de los modos, medios o formatos de comunicación especificados en el artículo 24 del presente reglamento.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": "Idiomas oficiales",
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "1. El árabe, el chino, el español, el francés, el inglés y el ruso serán los idiomas oficiales del Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-26-p2",
+     "text": "2. Todas las decisiones oficiales del Comité se publicarán en los idiomas oficiales y en formatos accesibles.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": "Actas",
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "1. El Secretario General hará levantar actas resumidas de las sesiones del Comité, que se pondrán a disposición de los miembros en los idiomas oficiales, así como en formatos accesibles.",
+     "number": "1"
+    },
+    {
+     "id": "art-27-p2",
+     "text": "2. Las actas resumidas estarán sujetas a correcciones, que los participantes en las sesiones remitirán a la secretaría en los idiomas en que se publique el acta resumida correspondiente. Las correcciones que se introduzcan en las actas de las sesiones se agruparán en un documento único que se publicará poco después de finalizar el período de sesiones.",
+     "number": "2"
+    },
+    {
+     "id": "art-27-p3",
+     "text": "3. Las actas resumidas de las sesiones públicas serán documentos de distribución general, a menos que, en circunstancias excepcionales, el Comité decida otra cosa.",
+     "number": "3"
+    },
+    {
+     "id": "art-27-p4",
+     "text": "4. Se harán grabaciones sonoras de las sesiones del Comité, que se conservarán de conformidad con la práctica habitual de las Naciones Unidas, así como en formatos accesibles.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": "Días de debate general",
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "El Comité, con el fin de que se comprendan más a fondo el contenido y las consecuencias de la Convención, podrá dedicar una o más sesiones de sus períodos ordinarios de sesiones a un debate general sobre un artículo concreto de la Convención o un tema conexo."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-vii",
+   "level": 2,
+   "label": "VII.",
+   "title": "Sesiones públicas y privadas"
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": "Sesiones públicas y privadas",
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "Las sesiones del Comité y sus grupos de trabajo serán públicas a menos que el Comité decida otra cosa o que de las disposiciones pertinentes de la Convención o su Protocolo Facultativo se desprenda que deban celebrarse a puerta cerrada."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": "Participación en las sesiones",
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "1. De conformidad con el artículo 38 de la Convención, los representantes de organismos especializados y otros órganos de las Naciones Unidas podrán estar representados en el examen de la aplicación de las disposiciones de la Convención comprendidas en el mandato de dichas entidades. Los representantes de los organismos especializados y otros órganos de las Naciones Unidas podrán participar en sesiones privadas del Comité o sus órganos subsidiarios previa invitación del Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-30-p2",
+     "text": "2. Los representantes de otros órganos competentes interesados que no figuren entre los mencionados en el párrafo 1 del presente artículo podrán participar en las sesiones públicas o privadas del Comité o sus órganos subsidiarios previa invitación del Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-30-p3",
+     "text": "3. El Comité podrá invitar a organismos especializados y órganos de las Naciones Unidas, así como a organizaciones intergubernamentales, instituciones nacionales de derechos humanos (en particular órganos nacionales de supervisión establecidos en virtud del artículo 16, párrafo 3, y el artículo 33, párrafo 2, de la Convención), organizaciones no gubernamentales, incluidas las que representan a personas con discapacidad, y otros órganos o expertos a título personal, a que le presenten, para su examen, información escrita respecto de las cuestiones a que se refiere la Convención que estén comprendidas en el ámbito de sus actividades.",
+     "number": "3"
+    },
+    {
+     "id": "art-30-p4",
+     "text": "4. Las directrices sobre la participación de organizaciones de personas con discapacidad y de organizaciones de la sociedad civil en la labor del Comité (véase CRPD/C/11/2, anexo II) y las directrices sobre los marcos independientes de supervisión y su participación en la labor del Comité (véase el anexo), así como sus modificaciones y revisiones, forman parte integrante del reglamento del Comité.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-viii",
+   "level": 2,
+   "label": "VIII.",
+   "title": "Distribución de los informes y de otros documentos oficiales del Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": "Distribución de los documentos oficiales",
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "1. Los documentos del Comité, incluidos los informes y la información presentados por los Estados partes con arreglo a los artículos 35 y 36 de la Convención y los proporcionados al Comité por los organismos especializados, otros órganos de las Naciones Unidas y otros órganos competentes con arreglo al artículo 38 a), de la Convención, serán documentos de distribución general a menos que el Comité decida otra cosa.",
+     "number": "1"
+    },
+    {
+     "id": "art-31-p2",
+     "text": "2. Todos los documentos del Comité estarán disponibles en formatos accesibles.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-ix",
+   "level": 2,
+   "label": "IX.",
+   "title": "Dirección de los debates"
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": "Quorum",
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "El quorum para la adopción de las decisiones oficiales del Comité será de 8 miembros. Cuando el número de miembros del Comité aumente a 18 de conformidad con lo dispuesto en el artículo 34, párrafo 8, de la Convención, el quorum será de 12 miembros."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": "Atribuciones del Presidente",
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "1. El Presidente, además de ejercer las atribuciones que le confieren la Convención y otros artículos del presente reglamento, abrirá y levantará cada período de sesiones del Comité, dirigirá los debates, cuidará de la aplicación del presente reglamento, concederá la palabra, someterá a votación las cuestiones y proclamará las decisiones adoptadas.",
+     "number": "1"
+    },
+    {
+     "id": "art-33-p2",
+     "text": "2. Con sujeción al presente reglamento, el Presidente dirigirá las actuaciones del Comité y mantendrá el orden en las sesiones.",
+     "number": "2"
+    },
+    {
+     "id": "art-33-p3",
+     "text": "3. Durante el examen de un tema del programa, el Presidente podrá proponer al Comité que se limite la duración de las intervenciones y el número de intervenciones de cada orador sobre una misma cuestión y que se cierre la lista de oradores.",
+     "number": "3"
+    },
+    {
+     "id": "art-33-p4",
+     "text": "4. El Presidente dirimirá las cuestiones de orden.",
+     "number": "4"
+    },
+    {
+     "id": "art-33-p5",
+     "text": "5. El Presidente también podrá proponer el aplazamiento o el cierre del debate o la suspensión o el levantamiento de la sesión. Los debates se limitarán al asunto que esté examinando el Comité y el Presidente podrá llamar al orden al orador cuyas observaciones no sean pertinentes a esa cuestión.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-x",
+   "level": 2,
+   "label": "X.",
+   "title": "Decisiones"
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": "Adopción de decisiones",
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "1. El Comité tratará de adoptar sus decisiones por consenso. Si no se puede lograr el consenso, las decisiones se someterán a votación.",
+     "number": "1"
+    },
+    {
+     "id": "art-34-p2",
+     "text": "2. Teniendo presente el párrafo 1 supra, en cualquier sesión el Presidente podrá someter a votación la propuesta, y deberá hacerlo si lo solicita cualquiera de los miembros.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": "Derecho de voto",
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "1. Cada miembro del Comité tendrá un voto.",
+     "number": "1"
+    },
+    {
+     "id": "art-35-p2",
+     "text": "2. Toda propuesta o moción que se someta a votación será aprobada por el Comité si cuenta con el apoyo de la mayoría simple de los miembros presentes y votantes. A los efectos del presente reglamento, por “miembros presentes y votantes” se entenderá todos los miembros que emitan un voto afirmativo o negativo. Los miembros que se abstengan de votar serán considerados no votantes.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": "Empates",
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "En caso de empate en una votación cuyo objeto no sea una elección, se considerará rechazada la propuesta."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": "Procedimiento de votación",
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "A menos que el Comité decida otra cosa, las votaciones serán nominales y se efectuarán según el orden alfabético inglés de los nombres de los miembros del Comité, comenzando por el miembro cuyo nombre sea sacado a suerte por el Presidente."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-xi",
+   "level": 2,
+   "label": "XI.",
+   "title": "Informes del Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-38",
+   "number": "38",
+   "label": "Artículo 38",
+   "heading": "Informes a la Asamblea General y el Consejo Económico y Social",
+   "paragraphs": [
+    {
+     "id": "art-38-p1",
+     "text": "El Comité presentará informes cada dos años a la Asamblea General y al Consejo Económico y Social sobre las actividades que realice en virtud de la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-38-bis",
+   "number": "38 bis",
+   "label": "Artículo 38 bis",
+   "heading": "Informes sobre los períodos de sesiones",
+   "paragraphs": [
+    {
+     "id": "art-38-bis-p1",
+     "text": "En los informes de períodos de sesiones del Comité se incluirá, entre otras cosas, una descripción de las actividades realizadas por el Comité en sus períodos ordinarios de sesiones, sus períodos extraordinarios de sesiones (si los hubiere) y las reuniones de los grupos de trabajo anteriores a los períodos de sesiones abarcados por el informe. Se detallarán todas las actividades realizadas por el Comité en el desempeño de las funciones que le incumben en virtud de la Convención, el Protocolo Facultativo, su reglamento y sus métodos de trabajo. En los informes de períodos de sesiones se incluirá también información sobre las actividades realizadas por los grupos de trabajo, relatores y coordinadores del Comité, una lista de las decisiones adoptadas por el Comité y la situación de los informes presentados al Comité. El Comité podrá aplazar la adopción de un informe al siguiente período de sesiones, como medida de ajuste razonable, si las circunstancias lo exigen."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-segunda",
+   "level": 1,
+   "label": "Parte Segunda",
+   "title": "Funciones del Comité"
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-xii",
+   "level": 2,
+   "label": "XII.",
+   "title": "Informes e información presentados en virtud de los artículos 35 y 36 de la Convención"
+  },
+  {
+   "kind": "article",
+   "id": "art-39",
+   "number": "39",
+   "label": "Artículo 39",
+   "heading": "Informes de los Estados partes",
+   "paragraphs": [
+    {
+     "id": "art-39-p1",
+     "text": "El Comité elaborará directrices sobre el contenido de los informes que los Estados partes han de presentar en virtud del artículo 35 de la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-40",
+   "number": "40",
+   "label": "Artículo 40",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-40-p1",
+     "text": "No presentación de informes"
+    },
+    {
+     "id": "art-40-p2",
+     "text": "1. En cada período de sesiones, el Secretario General notificará por escrito al Comité todos los casos en que no se hayan presentado los informes o la información adicional que debían presentarse en virtud de los artículos 35 y 36 de la Convención. En tales casos, el Comité transmitirá al Estado parte de que se trate, por conducto del Secretario General, un recordatorio sobre la presentación del informe o la información adicional y hará otras posibles gestiones, manteniendo un espíritu de diálogo entre el Estado de que se trate y el Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-40-p3",
+     "text": "2. Si un Estado parte se ha demorado considerablemente en la presentación de un informe, el Comité, conforme al artículo 36, párrafo 2, de la Convención, podrá notificarle que será necesario examinar la aplicación de la Convención en ese Estado parte sobre la base de la información fiable de que disponga el Comité, si no se presenta el informe en un plazo de tres meses contados a partir de la notificación. El Comité invitará al Estado parte de que se trate a participar en ese examen. Si el Estado parte responde presentando el informe, se aplicará lo dispuesto en el artículo 35 y en el artículo 36, párrafo 1, de la Convención.",
+     "number": "2"
+    },
+    {
+     "id": "art-40-p4",
+     "text": "3. Si, aun después del recordatorio y de las gestiones a que se hace referencia en el presente artículo, el Estado parte no presenta el informe o la información complementaria requeridos, el Comité considerará la situación como crea procedente e incluirá una referencia a tal efecto en su informe a la Asamblea General.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-41",
+   "number": "41",
+   "label": "Artículo 41",
+   "heading": "Notificación a los Estados partes que presenten informes",
+   "paragraphs": [
+    {
+     "id": "art-41-p1",
+     "text": "El Comité, por conducto del Secretario General, notificará por escrito a los Estados partes, lo antes posible, la fecha de apertura, la duración y el lugar de celebración del período de sesiones en que hayan de examinarse sus informes respectivos. Se invitará a representantes de los Estados partes a asistir a las sesiones del Comité en que hayan de examinarse esos informes. El Comité podrá comunicar también a un Estado parte al que haya decidido solicitar información complementaria que podrá autorizar a un representante para que esté presente en una sesión; dicho representante deberá estar en condiciones de responder a las preguntas que le haga el Comité y formular declaraciones acerca de los informes ya presentados por su Estado, y podrá asimismo presentar nueva información de ese Estado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-42",
+   "number": "42",
+   "label": "Artículo 42",
+   "heading": "Examen de los informes",
+   "paragraphs": [
+    {
+     "id": "art-42-p1",
+     "text": "1. El Comité examinará, conforme al procedimiento establecido en el artículo 36 de la Convención, los informes presentados por los Estados partes en virtud del artículo 35 de la Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-42-p2",
+     "text": "2. El Comité podrá hacer las sugerencias y las recomendaciones de carácter general sobre el informe de un Estado parte que considere procedentes y las transmitirá al Estado parte.",
+     "number": "2"
+    },
+    {
+     "id": "art-42-p3",
+     "text": "3. El Comité podrá adoptar directrices más detalladas sobre la presentación y el examen de los informes de los Estados partes en virtud de la Convención, en particular sobre la información complementaria que solicite a los Estados partes respecto de la aplicación de la Convención.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-43",
+   "number": "43",
+   "label": "Artículo 43",
+   "heading": "Inhabilitación de un miembro para participar en el examen de un informe",
+   "paragraphs": [
+    {
+     "id": "art-43-p1",
+     "text": "1. Un miembro no participará en parte alguna del examen de un informe si es nacional del Estado parte que lo presenta.",
+     "number": "1"
+    },
+    {
+     "id": "art-43-p2",
+     "text": "2. No obstante cualquier conflicto de intereses, de conformidad con las directrices sobre la independencia y la imparcialidad de los miembros de los órganos creados en virtud de tratados de derechos humanos (directrices de Addis Abeba), los miembros que sean ciudadanos de una organización de integración regional que sea parte en la Convención no podrán ser designados relatores para dicha organización, pero participarán en el examen del informe presentado por esta.",
+     "number": "2"
+    },
+    {
+     "id": "art-43-p3",
+     "text": "3. Las cuestiones que se planteen en relación con el presente artículo serán dirimidas por el Comité sin la participación del miembro de que se trate.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-44",
+   "number": "44",
+   "label": "Artículo 44",
+   "heading": "Solicitud de informes o información complementarios",
+   "paragraphs": [
+    {
+     "id": "art-44-p1",
+     "text": "El Comité podrá pedir a cualquier Estado parte que proporcione un informe complementario o más información con arreglo al artículo 36 de la Convención, indicando el plazo dentro del cual se debe presentar el informe o la información complementarios."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-45",
+   "number": "45",
+   "label": "Artículo 45",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-45-p1",
+     "text": "Transmisión de los informes de los Estados partes que contengan una solicitud o indiquen la necesidad de asesoramiento técnico o de asistencia"
+    },
+    {
+     "id": "art-45-p2",
+     "text": "1. Conforme al artículo 36, párrafo 5, de la Convención, el Comité transmitirá, según estime apropiado, a los organismos especializados, fondos y programas de las Naciones Unidas y a otros órganos competentes, incluidas las organizaciones no gubernamentales, los informes de los Estados partes, a fin de atender una solicitud o una indicación de necesidad de asesoramiento técnico o asistencia que figure en ellos.",
+     "number": "1"
+    },
+    {
+     "id": "art-45-p3",
+     "text": "2. Los informes y la información recibidos de los Estados partes conforme al párrafo 1 del presente artículo serán transmitidos junto con las observaciones y recomendaciones del Comité, si las hubiera, sobre esas solicitudes o indicaciones.",
+     "number": "2"
+    },
+    {
+     "id": "art-45-p4",
+     "text": "3. Cuando lo considere procedente, el Comité podrá pedir información sobre el asesoramiento técnico o la asistencia proporcionados y sobre los progresos realizados.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-46",
+   "number": "46",
+   "label": "Artículo 46",
+   "heading": "Recomendaciones generales",
+   "paragraphs": [
+    {
+     "id": "art-46-p1",
+     "text": "1. El Comité podrá formular otras recomendaciones generales sobre la base de la información que reciba con arreglo a los artículos 35 y 36 de la Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-46-p2",
+     "text": "2. El Comité incluirá esas recomendaciones generales en sus informes a la Asamblea General.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-47",
+   "number": "47",
+   "label": "Artículo 47",
+   "heading": "Observaciones generales y obligaciones de presentación de informes",
+   "paragraphs": [
+    {
+     "id": "art-47-p1",
+     "text": "1. El Comité podrá preparar observaciones generales sobre la base de los artículos y las disposiciones de la Convención con miras a promover su mejor aplicación y ayudar a los Estados partes a cumplir sus obligaciones de presentación de informes.",
+     "number": "1"
+    },
+    {
+     "id": "art-47-p2",
+     "text": "2. El Comité incluirá esas observaciones generales en su informe a la Asamblea General.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-48",
+   "number": "48",
+   "label": "Artículo 48",
+   "heading": "Cooperación entre los Estados partes y el Comité",
+   "paragraphs": [
+    {
+     "id": "art-48-p1",
+     "text": "El Comité, conforme al artículo 4, párrafo 3, el artículo 33, párrafo 3, y el artículo 37 de la Convención, asesorará y ayudará a los Estados partes, cuando sea necesario, con respecto a los medios de aumentar la capacidad nacional para aplicar la Convención y formulará recomendaciones y observaciones con miras a reforzar la capacidad y el mandato de los mecanismos nacionales de aplicación y de supervisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-48-bis",
+   "number": "48 bis",
+   "label": "Artículo 48 bis",
+   "heading": "Lista de cuestiones sobre los informes iniciales y periódicos presentados por los Estados partes",
+   "paragraphs": [
+    {
+     "id": "art-48-bis-p1",
+     "text": "El Comité formulará por adelantado una lista de cuestiones en relación con los informes iniciales presentados por los Estados partes. También formulará por adelantado una lista de cuestiones en relación con los informes periódicos presentados por los Estados que no hayan optado por el procedimiento simplificado de presentación de informes. El Comité establecerá un límite para el número de preguntas planteadas y centrará sus preguntas en las esferas que se consideren prioritarias. Se pedirá a los Estados partes que proporcionen respuestas breves y precisas en 30 páginas como máximo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-48-ter",
+   "number": "48 ter",
+   "label": "Artículo 48 ter",
+   "heading": "Procedimiento simplificado de presentación de informes",
+   "paragraphs": [
+    {
+     "id": "art-48-ter-p1",
+     "text": "El Comité ofrecerá a los Estados partes la posibilidad de presentar sus informes periódicos mediante un procedimiento simplificado. En virtud de dicho procedimiento, el Comité establecerá una lista de cuestiones a la atención de los Estados partes por lo menos un año antes de la fecha en que cada Estado parte deba presentar su informe periódico o sus informes periódicos combinados. Las respuestas del Estado parte a esa lista de cuestiones constituirán el informe periódico o los informes periódicos combinados del Estado parte. El Comité establecerá un límite para el número de preguntas incluidas en la lista de cuestiones."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-xiii",
+   "level": 2,
+   "label": "XIII.",
+   "title": "Participación de organismos especializados y órganos de las Naciones Unidas y otros órganos competentes en los trabajos del Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-49",
+   "number": "49",
+   "label": "Artículo 49",
+   "heading": "Participación de organismos especializados y órganos de las Naciones Unidas",
+   "paragraphs": [
+    {
+     "id": "art-49-p1",
+     "text": "1. Conforme al artículo 38 a), de la Convención, los organismos especializados y otros órganos de las Naciones Unidas tendrán derecho a estar representados en el examen de la aplicación de las disposiciones de la Convención comprendidas en su mandato. El Comité podrá autorizar a los representantes de esos organismos especializados u otros órganos de las Naciones Unidas a que formulen declaraciones orales o escritas y proporcionen la información apropiada en relación con las actividades que realice el Comité en virtud de la Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-49-p2",
+     "text": "2. Conforme al artículo 38 a), de la Convención, el Comité podrá invitar a organismos especializados y a otros órganos de las Naciones Unidas a que presenten informes sobre la aplicación de la Convención en las esferas que entren dentro de su ámbito de actividades. El Comité también podrá invitar a los organismos especializados a que presten asesoramiento especializado sobre la aplicación de la Convención en las esferas que entren dentro de su ámbito de actividades.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-50",
+   "number": "50",
+   "label": "Artículo 50",
+   "heading": "Organizaciones intergubernamentales y organizaciones de integración regional",
+   "paragraphs": [
+    {
+     "id": "art-50-p1",
+     "text": "El Comité podrá invitar a representantes de organizaciones intergubernamentales y de organizaciones de integración regional a que formulen en sus sesiones declaraciones orales o escritas y proporcionen información o documentación sobre cuestiones comprendidas en el ámbito de las actividades que incumben al Comité en virtud de la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-51",
+   "number": "51",
+   "label": "Artículo 51",
+   "heading": "Instituciones nacionales de derechos humanos",
+   "paragraphs": [
+    {
+     "id": "art-51-p1",
+     "text": "El Comité podrá invitar a representantes de instituciones nacionales de derechos humanos a que formulen en sus sesiones declaraciones orales o escritas y proporcionen información o documentación sobre cuestiones comprendidas en el ámbito de las actividades que incumben al Comité en virtud de la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-52",
+   "number": "52",
+   "label": "Artículo 52",
+   "heading": "Organizaciones no gubernamentales",
+   "paragraphs": [
+    {
+     "id": "art-52-p1",
+     "text": "El Comité podrá invitar a organizaciones no gubernamentales a que formulen en sus sesiones declaraciones orales o escritas y proporcionen información o documentación sobre cuestiones comprendidas en el ámbito de las actividades que incumben al Comité en virtud de la Convención."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-53",
+   "number": "53",
+   "label": "Artículo 53",
+   "heading": "Cooperación con órganos instituidos por tratados internacionales de derechos humanos",
+   "paragraphs": [
+    {
+     "id": "art-53-p1",
+     "text": "El Comité consultará, en el desempeño de su mandato, según proceda y conforme al artículo 38 b), de la Convención, con otros órganos pertinentes instituidos en virtud de tratados internacionales de derechos humanos, con miras a garantizar la coherencia de sus respectivas directrices de presentación de informes, sugerencias y recomendaciones generales, y a evitar la duplicación y la superposición de tareas en el ejercicio de sus funciones."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-54",
+   "number": "54",
+   "label": "Artículo 54",
+   "heading": "Establecimiento de órganos subsidiarios",
+   "paragraphs": [
+    {
+     "id": "art-54-p1",
+     "text": "1. El Comité podrá establecer órganos subsidiarios especiales y decidir su composición y su mandato.",
+     "number": "1"
+    },
+    {
+     "id": "art-54-p2",
+     "text": "2. Cada órgano subsidiario elegirá su propia Mesa y, mutatis mutandis, aplicará el presente reglamento.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-xiv",
+   "level": 2,
+   "label": "XIV.",
+   "title": "Procedimiento para el examen de las comunicaciones recibidas en virtud del Protocolo Facultativo"
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-a",
+   "level": 3,
+   "label": "A.",
+   "title": "Transmisión de comunicaciones al Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-55",
+   "number": "55",
+   "label": "Artículo 55",
+   "heading": "Transmisión de comunicaciones al Comité",
+   "paragraphs": [
+    {
+     "id": "art-55-p1",
+     "text": "1. El Secretario General señalará a la atención del Comité, conforme al presente reglamento, las comunicaciones que se hayan presentado o parezcan haberse presentado para su examen por el Comité en virtud del artículo 1 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-55-p2",
+     "text": "2. El Secretario General podrá pedir al autor o los autores de una comunicación que aclaren si desean o no que la comunicación sea sometida al Comité para su examen en virtud del Protocolo Facultativo. En caso de duda sobre la intención del autor o los autores, el Secretario General señalará la comunicación a la atención del Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-55-p3",
+     "text": "3. El Comité podrá recibir comunicaciones en formatos alternativos, de conformidad con el artículo 24 del presente reglamento.",
+     "number": "3"
+    },
+    {
+     "id": "art-55-p4",
+     "text": "4. El Comité no recibirá comunicación alguna que concierna a un Estado que no sea parte en el Protocolo Facultativo.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-56",
+   "number": "56",
+   "label": "Artículo 56",
+   "heading": "Registro de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-56-p1",
+     "text": "1. El Secretario General llevará un registro permanente de todas las comunicaciones presentadas para su examen por el Comité en virtud del artículo 1 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-56-p2",
+     "text": "2. Todo miembro del Comité que lo solicite tendrá a su disposición, en el idioma en que haya sido presentado, el texto completo de las comunicaciones señaladas a la atención del Comité que cumplan todos los criterios preliminares para ser registradas.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-57",
+   "number": "57",
+   "label": "Artículo 57",
+   "heading": "Solicitud de aclaraciones o de información adicional",
+   "paragraphs": [
+    {
+     "id": "art-57-p1",
+     "text": "1. El Secretario General podrá pedir al autor de una comunicación que proporcione aclaraciones relativas a la aplicabilidad del Protocolo Facultativo a esa comunicación, en particular sobre:",
+     "number": "1"
+    },
+    {
+     "id": "art-57-p2",
+     "text": "a) La identidad de la víctima o del autor, como su nombre, dirección, fecha de nacimiento y ocupación, u otro tipo de datos o detalles que permitan su identificación;"
+    },
+    {
+     "id": "art-57-p3",
+     "text": "b) El nombre del Estado parte contra el que se dirija la comunicación;"
+    },
+    {
+     "id": "art-57-p4",
+     "text": "c) El objeto de la comunicación;"
+    },
+    {
+     "id": "art-57-p5",
+     "text": "d) La disposición o las disposiciones de la Convención cuya infracción se denuncie;"
+    },
+    {
+     "id": "art-57-p6",
+     "text": "e) Los hechos relativos a la reclamación;"
+    },
+    {
+     "id": "art-57-p7",
+     "text": "f) Las medidas adoptadas por el autor o la presunta víctima para agotar los recursos internos;"
+    },
+    {
+     "id": "art-57-p8",
+     "text": "g) La medida en que el mismo asunto esté siendo examinado en virtud de otro procedimiento de investigación o arreglo internacionales."
+    },
+    {
+     "id": "art-57-p9",
+     "text": "2. El Secretario General, cuando solicite aclaraciones o información, indicará al autor o los autores de la comunicación el plazo dentro del cual deben presentarlas.",
+     "number": "2"
+    },
+    {
+     "id": "art-57-p10",
+     "text": "3. El Comité podrá aprobar un cuestionario para facilitar las solicitudes de aclaración o información de la presunta víctima o del autor de una comunicación.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-58",
+   "number": "58",
+   "label": "Artículo 58",
+   "heading": "Información a los miembros del Comité",
+   "paragraphs": [
+    {
+     "id": "art-58-p1",
+     "text": "El Secretario General pondrá periódicamente a disposición de los miembros del Comité la información relativa a las comunicaciones registradas."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-b",
+   "level": 3,
+   "label": "B.",
+   "title": "Disposiciones generales sobre el examen de las comunicaciones por el Comité"
+  },
+  {
+   "kind": "article",
+   "id": "art-59",
+   "number": "59",
+   "label": "Artículo 59",
+   "heading": "Sesiones públicas y sesiones privadas",
+   "paragraphs": [
+    {
+     "id": "art-59-p1",
+     "text": "1. Las sesiones del Comité o de sus grupos de trabajo en que se examinen comunicaciones presentadas en virtud del Protocolo Facultativo serán privadas. Las sesiones en que el Comité examine cuestiones generales, como los procedimientos para la aplicación del Protocolo Facultativo, podrán ser públicas si el Comité así lo decide.",
+     "number": "1"
+    },
+    {
+     "id": "art-59-p2",
+     "text": "2. El Comité, por conducto del Secretario General, podrá emitir comunicados para uso de los medios de información y para el público en general sobre las actuaciones de sus sesiones privadas.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-60",
+   "number": "60",
+   "label": "Artículo 60",
+   "heading": "Inhabilitación de un miembro para participar en el examen de una comunicación",
+   "paragraphs": [
+    {
+     "id": "art-60-p1",
+     "text": "1. No tomará parte en el examen de una comunicación por el Comité el miembro que:",
+     "number": "1"
+    },
+    {
+     "id": "art-60-p2",
+     "text": "a) Tenga algún interés personal en el asunto;"
+    },
+    {
+     "id": "art-60-p3",
+     "text": "b) Haya participado por cualquier concepto en la adopción de cualquier decisión sobre el asunto objeto de la comunicación, a menos que sea con arreglo a los procedimientos establecidos en el Protocolo Facultativo;"
+    },
+    {
+     "id": "art-60-p4",
+     "text": "c) Sea nacional del Estado parte contra el que se dirija la comunicación."
+    },
+    {
+     "id": "art-60-p5",
+     "text": "2. Las cuestiones que se planteen en relación con el párrafo precedente serán dirimidas por el Comité sin la participación del miembro de que se trate.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-61",
+   "number": "61",
+   "label": "Artículo 61",
+   "heading": "Excusa de un miembro",
+   "paragraphs": [
+    {
+     "id": "art-61-p1",
+     "text": "El miembro que, por cualquier razón, considere que no debería participar o no debería seguir participando en el examen de una comunicación informará al Presidente de que se retira."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-62",
+   "number": "62",
+   "label": "Artículo 62",
+   "heading": "Participación de los miembros",
+   "paragraphs": [
+    {
+     "id": "art-62-p1",
+     "text": "Los miembros que participen en una decisión deberán firmar una hoja de asistencia en la que dejen constancia de su participación o indiquen que no pueden participar o que se retiran del examen de una comunicación. La información registrada en la hoja de asistencia deberá consignarse en la decisión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-63",
+   "number": "63",
+   "label": "Artículo 63",
+   "heading": "Establecimiento de grupos de trabajo y nombramiento de relatores",
+   "paragraphs": [
+    {
+     "id": "art-63-p1",
+     "text": "1. El Comité podrá establecer uno o más grupos de trabajo y podrá nombrar a uno o varios relatores para que le formulen recomendaciones y le presten asistencia en cualquier forma que decida el Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-63-p2",
+     "text": "2. El reglamento del Comité será aplicable, en toda la medida de lo posible, a las sesiones de sus grupos de trabajo.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-64",
+   "number": "64",
+   "label": "Artículo 64",
+   "heading": "Medidas provisionales",
+   "paragraphs": [
+    {
+     "id": "art-64-p1",
+     "text": "1. En cualquier momento después de recibida una comunicación y antes de adoptar una decisión sobre el fondo de la cuestión, el Comité podrá transmitir al Estado parte de que se trate, para su examen urgente, la solicitud de que adopte las medidas provisionales que el Comité considere necesarias para evitar un daño irreparable a la víctima o a las víctimas de la infracción denunciada.",
+     "number": "1"
+    },
+    {
+     "id": "art-64-p2",
+     "text": "2. Cuando el Comité o el Relator Especial sobre las comunicaciones presentadas en virtud del Protocolo Facultativo, actuando en nombre del Comité, pida que se adopten medidas provisionales en virtud del presente artículo, en la solicitud se indicará que ello no entraña decisión alguna sobre el fondo de la comunicación.",
+     "number": "2"
+    },
+    {
+     "id": "art-64-p3",
+     "text": "3. El Estado parte podrá presentar argumentos para que se retire la solicitud de adopción de medidas provisionales.",
+     "number": "3"
+    },
+    {
+     "id": "art-64-p4",
+     "text": "4. Sobre la base de las explicaciones o declaraciones que presente el Estado parte, el Comité o el Relator Especial sobre las comunicaciones presentadas en virtud del Protocolo Facultativo, actuando en nombre del Comité, podrán retirar la solicitud de adopción de medidas provisionales.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-65",
+   "number": "65",
+   "label": "Artículo 65",
+   "heading": "Tramitación de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-65-p1",
+     "text": "1. El Comité decidirá, por mayoría simple y conforme a los artículos siguientes, si la comunicación es admisible o inadmisible en virtud del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-65-p2",
+     "text": "2. Un grupo de trabajo establecido en virtud del artículo 63, párrafo 1, del presente reglamento podrá declarar que una comunicación es admisible en virtud del Protocolo Facultativo si todos sus miembros así lo deciden.",
+     "number": "2"
+    },
+    {
+     "id": "art-65-p3",
+     "text": "3. Un grupo de trabajo establecido en virtud del artículo 63, párrafo 1, del presente reglamento podrá declarar inadmisible una comunicación si todos sus miembros así lo deciden. La decisión será transmitida al Pleno del Comité, que podrá confirmarla sin debate oficial. Si un miembro del Comité solicita un debate plenario, el Pleno examinará la comunicación y adoptará una decisión.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-66",
+   "number": "66",
+   "label": "Artículo 66",
+   "heading": "Orden de examen de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-66-p1",
+     "text": "Las comunicaciones se examinarán en el orden en que hayan sido recibidas por la secretaría, a menos que el Secretario General, el Comité o un grupo de trabajo decidan otra cosa."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-67",
+   "number": "67",
+   "label": "Artículo 67",
+   "heading": "Examen conjunto de comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-67-p1",
+     "text": "El Comité, el Relator Especial o un grupo de trabajo establecido en virtud del artículo 63, párrafo 1, del presente reglamento podrán decidir que dos o más comunicaciones se examinen conjuntamente si lo consideran procedente."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-68",
+   "number": "68",
+   "label": "Artículo 68",
+   "heading": "Condiciones de admisibilidad de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-68-p1",
+     "text": "1. Para decidir si una comunicación es admisible, el Comité o un grupo de trabajo aplicarán los criterios establecidos en los artículos 1 y 2 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-68-p2",
+     "text": "2. Para decidir si una comunicación es admisible, el Comité aplicará los criterios establecidos en el artículo 12 de la Convención para reconocer la capacidad jurídica del autor o la víctima ante el Comité, independientemente de que la reconozca o no el Estado parte contra el que se dirige la comunicación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-69",
+   "number": "69",
+   "label": "Artículo 69",
+   "heading": "Autores de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-69-p1",
+     "text": "Las comunicaciones podrán ser presentadas por personas o grupos de personas y en nombre de personas o grupos de personas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-70",
+   "number": "70",
+   "label": "Artículo 70",
+   "heading": "Procedimiento relativo a las comunicaciones recibidas",
+   "paragraphs": [
+    {
+     "id": "art-70-p1",
+     "text": "1. Tan pronto como sea posible después de registrarse la comunicación, y siempre que la persona o el grupo de personas consientan en que se revelen su identidad u otros detalles o datos identificativos al Estado parte de que se trate, requisito previo para el registro, el Relator Especial sobre las comunicaciones presentadas en virtud del Protocolo Facultativo, actuando en nombre del Comité, señalará a título confidencial la comunicación a la atención del Estado parte y le pedirá que responda a ella por escrito.",
+     "number": "1"
+    },
+    {
+     "id": "art-70-p2",
+     "text": "2. La solicitud que se haga conforme al párrafo 1 del presente artículo deberá incluir una declaración en el sentido de que la solicitud no implica que se haya tomado decisión alguna sobre la admisibilidad de la comunicación.",
+     "number": "2"
+    },
+    {
+     "id": "art-70-p3",
+     "text": "3. El Estado parte, dentro de los seis meses siguientes a la fecha en que se reciba la solicitud formulada por el Comité en virtud del presente artículo, le presentará por escrito explicaciones o declaraciones tanto sobre la admisibilidad de la comunicación como sobre su fondo, y sobre las medidas correctivas que hubiera adoptado.",
+     "number": "3"
+    },
+    {
+     "id": "art-70-p4",
+     "text": "4. El Comité podrá, en razón del carácter excepcional de una comunicación, pedir explicaciones o declaraciones por escrito que se refieran exclusivamente a la admisibilidad de una comunicación. El Estado parte al cual se haya pedido que presente por escrito una respuesta que se refiera exclusivamente a la cuestión de la admisibilidad podrá no obstante presentar por escrito, dentro de los seis meses siguientes a la solicitud, una respuesta que se refiera tanto a la admisibilidad como al fondo de la comunicación.",
+     "number": "4"
+    },
+    {
+     "id": "art-70-p5",
+     "text": "5. El Estado parte al cual, en virtud del párrafo 1 del presente artículo, se haya pedido que presente por escrito una respuesta podrá solicitar por escrito que la comunicación sea rechazada por inadmisible, exponiendo las razones de la inadmisibilidad, y pedir que la admisibilidad de la comunicación se examine por separado del fondo de la cuestión. La solicitud deberá presentarse al Comité dentro de los dos meses siguientes a la solicitud formulada en virtud del párrafo 1.",
+     "number": "5"
+    },
+    {
+     "id": "art-70-p6",
+     "text": "6. Si el Estado parte impugna la afirmación del autor o de los autores de que, conforme al artículo 2 d), del Protocolo Facultativo, se han agotado todos los recursos internos disponibles, deberá explicar detalladamente los recursos de que disponen la víctima o las víctimas presuntas en las circunstancias particulares del caso.",
+     "number": "6"
+    },
+    {
+     "id": "art-70-p7",
+     "text": "7. Si el Estado parte impugna la capacidad jurídica del autor o los autores en virtud del artículo 12 de la Convención, deberá explicar detalladamente las leyes aplicables y los recursos de que disponen la víctima o las víctimas presuntas en las circunstancias particulares del caso.",
+     "number": "7"
+    },
+    {
+     "id": "art-70-p8",
+     "text": "8. Sobre la base de la información proporcionada por el Estado parte en apoyo de su solicitud de que se rechace la comunicación y de que se examine por separado la admisibilidad, el Comité, un grupo de trabajo o el Relator Especial sobre las comunicaciones presentadas en virtud del Protocolo Facultativo, actuando en nombre del Comité, podrán decidir que han de considerar la admisibilidad de la comunicación por separado del fondo de la cuestión.",
+     "number": "8"
+    },
+    {
+     "id": "art-70-p9",
+     "text": "9. La presentación por el Estado parte de una solicitud de conformidad con el párrafo 5 del presente artículo no prorrogará el plazo de seis meses dado al Estado parte para que presente por escrito explicaciones o declaraciones sobre el fondo, a menos que el Comité, un grupo de trabajo o el Relator Especial sobre las comunicaciones presentadas en virtud del Protocolo Facultativo, actuando en nombre del Comité, decidan prorrogarlo por el tiempo que el Comité juzgue apropiado.",
+     "number": "9"
+    },
+    {
+     "id": "art-70-p10",
+     "text": "10. El Comité, un grupo de trabajo o el Relator Especial sobre las comunicaciones presentadas en virtud del Protocolo Facultativo, actuando en nombre del Comité, podrán pedir al Estado parte o al autor o autores de la comunicación que presenten por escrito, dentro de un plazo determinado, explicaciones o declaraciones complementarias sobre la admisibilidad o el fondo de una comunicación.",
+     "number": "10"
+    },
+    {
+     "id": "art-70-p11",
+     "text": "11. El Comité, un grupo de trabajo o el Relator Especial, actuando en nombre del Comité, transmitirán a cada una de las partes las observaciones formuladas por la otra parte conforme a este artículo y darán a cada una la oportunidad de formular comentarios sobre las observaciones dentro de un plazo determinado.",
+     "number": "11"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-71",
+   "number": "71",
+   "label": "Artículo 71",
+   "heading": "Comunicaciones inadmisibles",
+   "paragraphs": [
+    {
+     "id": "art-71-p1",
+     "text": "1. El Comité, si decide que una comunicación es inadmisible en virtud del artículo 2 d), del Protocolo Facultativo, comunicará lo antes posible su decisión y los motivos en que se funda, por conducto del Secretario General, al autor o los autores de la comunicación y al Estado parte de que se trate.",
+     "number": "1"
+    },
+    {
+     "id": "art-71-p2",
+     "text": "2. La decisión del Comité por la que se declare inadmisible una comunicación en virtud del artículo 2 d), del Protocolo Facultativo podrá ser revisada posteriormente por el Comité si recibe una solicitud, presentada por escrito por el interesado o en su nombre, que contenga información de la que se desprenda que las causales de inadmisibilidad que se indican en el artículo 2 d), han dejado de existir.",
+     "number": "2"
+    },
+    {
+     "id": "art-71-p3",
+     "text": "3. Cualquier miembro del Comité que haya participado en la decisión sobre la admisibilidad podrá pedir que se agregue un resumen de su voto particular a la decisión del",
+     "number": "3"
+    },
+    {
+     "id": "art-71-p4",
+     "text": "Comité por la que se declare inadmisible una comunicación. A este respecto será también aplicable el artículo 73, párrafo 6, del reglamento, relativo a los votos particulares."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-72",
+   "number": "72",
+   "label": "Artículo 72",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-72-p1",
+     "text": "Procedimiento complementario aplicable en el caso de que la admisibilidad se examine en forma separada del fondo"
+    },
+    {
+     "id": "art-72-p2",
+     "text": "1. En el caso de que el Comité o un grupo de trabajo adopten una decisión sobre la admisibilidad antes de que se hayan recibido por escrito explicaciones o declaraciones del Estado parte sobre el fondo de la comunicación, si se decide que la comunicación es admisible se transmitirán la decisión y toda otra información pertinente, por conducto del Secretario General, al Estado parte de que se trate. También se informará de la decisión, por conducto del Secretario General, al autor de la comunicación.",
+     "number": "1"
+    },
+    {
+     "id": "art-72-p3",
+     "text": "2. Cualquier miembro del Comité que haya participado en la decisión por la que se declare admisible una comunicación podrá pedir que se agregue a la decisión un resumen de su voto particular. A este respecto será también aplicable el artículo 73, párrafo 6, del reglamento, relativo a los votos particulares.",
+     "number": "2"
+    },
+    {
+     "id": "art-72-p4",
+     "text": "3. El Comité, un grupo de trabajo o el Relator Especial sobre las comunicaciones podrán aceptar en todo momento, en el curso del examen de una comunicación, intervenciones de terceros relativas a la comunicación. La intervención de terceros irá acompañada de la autorización escrita de una de las partes en la comunicación. Si se acepta una comunicación de terceros, el Comité dará a cada parte la oportunidad de formular observaciones sobre dicha intervención dentro de un plazo determinado.",
+     "number": "3"
+    },
+    {
+     "id": "art-72-p5",
+     "text": "4. El Comité, al proceder al examen del fondo de la cuestión, podrá revocar su decisión de que una comunicación es admisible basándose en las explicaciones o declaraciones que presente el Estado parte.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-73",
+   "number": "73",
+   "label": "Artículo 73",
+   "heading": "Dictamen del Comité",
+   "paragraphs": [
+    {
+     "id": "art-73-p1",
+     "text": "1. Cuando las partes hayan presentado información tanto sobre la admisibilidad como sobre el fondo de una comunicación, o cuando ya se haya adoptado una decisión sobre la admisibilidad y las partes hayan presentado información sobre el fondo de esa comunicación, el Comité considerará y formulará su dictamen sobre la comunicación teniendo en cuenta toda la información que le hayan presentado por escrito el autor o los autores de la comunicación y el Estado parte de que se trate, siempre que esa información se haya transmitido a la otra parte.",
+     "number": "1"
+    },
+    {
+     "id": "art-73-p2",
+     "text": "2. El Comité o un grupo de trabajo podrán en todo momento, en el curso del examen de una comunicación, obtener por conducto del Secretario General toda la documentación de las organizaciones del sistema de las Naciones Unidas o de otros organismos que pueda ser útil para ese examen, en cuyo caso el Comité deberá dar a cada una de las partes la oportunidad de formular observaciones sobre tal documentación o información dentro de un plazo determinado.",
+     "number": "2"
+    },
+    {
+     "id": "art-73-p3",
+     "text": "3. El Comité podrá remitir cualquier comunicación a un grupo de trabajo para que le formule recomendaciones sobre el fondo.",
+     "number": "3"
+    },
+    {
+     "id": "art-73-p4",
+     "text": "4. El Comité no decidirá sobre el fondo de la comunicación sin haber considerado si se cumplen todos los criterios de admisibilidad indicados en los artículos 1 y 2 del Protocolo Facultativo.",
+     "number": "4"
+    },
+    {
+     "id": "art-73-p5",
+     "text": "5. El Secretario General transmitirá el dictamen del Comité, aprobado por mayoría simple, junto con las recomendaciones que este haya formulado, al autor o a los autores de la comunicación y al Estado parte de que se trate.",
+     "number": "5"
+    },
+    {
+     "id": "art-73-p6",
+     "text": "6. Cualquier miembro del Comité que haya participado en la decisión podrá pedir que se agregue al dictamen del Comité un resumen de su voto particular. El miembro o los miembros interesados deberán presentar el voto particular dentro de las dos semanas siguientes a la fecha en que hayan recibido, en su idioma de trabajo, el texto definitivo de la decisión o el dictamen.",
+     "number": "6"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-74",
+   "number": "74",
+   "label": "Artículo 74",
+   "heading": "Decisión de dar por concluido el examen de una comunicación",
+   "paragraphs": [
+    {
+     "id": "art-74-p1",
+     "text": "El Comité podrá dar por concluido el examen de una comunicación en determinadas circunstancias, en particular cuando hayan dejado de existir las razones por las que se había presentado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-75",
+   "number": "75",
+   "label": "Artículo 75",
+   "heading": "Seguimiento de los dictámenes del Comité",
+   "paragraphs": [
+    {
+     "id": "art-75-p1",
+     "text": "1. Dentro de los seis meses siguientes a la fecha en que el Comité le transmita su dictamen sobre una comunicación, el Estado parte de que se trate presentará al Comité una respuesta por escrito, que incluirá información sobre las medidas que haya adoptado en vista del dictamen y de las recomendaciones del Comité.",
+     "number": "1"
+    },
+    {
+     "id": "art-75-p2",
+     "text": "2. Posteriormente, el Comité podrá invitar al Estado parte a presentar más información sobre las medidas que haya adoptado en atención al dictamen o a las recomendaciones.",
+     "number": "2"
+    },
+    {
+     "id": "art-75-p3",
+     "text": "3. El Comité podrá pedir al Estado parte que en los informes que presente en virtud del artículo 35 de la Convención incluya información sobre las medidas que haya adoptado en atención a su dictamen o sus recomendaciones.",
+     "number": "3"
+    },
+    {
+     "id": "art-75-p4",
+     "text": "4. El Comité designará, para el seguimiento de los dictámenes aprobados en virtud del artículo 5 del Protocolo Facultativo, un Relator Especial o un grupo de trabajo que comprueben que los Estados partes han adoptado medidas para dar efecto a los dictámenes.",
+     "number": "4"
+    },
+    {
+     "id": "art-75-p5",
+     "text": "5. El Relator Especial o el grupo de trabajo podrán entablar los contactos y adoptar las medidas que correspondan para el debido desempeño de sus funciones y recomendarán al Comité las medidas ulteriores que sean necesarias.",
+     "number": "5"
+    },
+    {
+     "id": "art-75-p6",
+     "text": "6. El Relator Especial o el grupo de trabajo encargados del seguimiento, con la aprobación del Comité y del Estado parte de que se trate, podrán hacer las visitas a ese Estado que sean necesarias.",
+     "number": "6"
+    },
+    {
+     "id": "art-75-p7",
+     "text": "7. El Relator Especial o el grupo de trabajo informarán periódicamente al Comité sobre las actividades de seguimiento.",
+     "number": "7"
+    },
+    {
+     "id": "art-75-p8",
+     "text": "8. El Comité incluirá información sobre las actividades de seguimiento en el informe que presente en virtud del artículo 39 de la Convención.",
+     "number": "8"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-76",
+   "number": "76",
+   "label": "Artículo 76",
+   "heading": "Confidencialidad de las comunicaciones",
+   "paragraphs": [
+    {
+     "id": "art-76-p1",
+     "text": "1. Las comunicaciones presentadas en virtud del Protocolo Facultativo serán examinadas por el Comité o un grupo de trabajo en sesión privada.",
+     "number": "1"
+    },
+    {
+     "id": "art-76-p2",
+     "text": "2. Todos los documentos de trabajo que prepare la secretaría para el Comité, los grupos de trabajo o los relatores, incluidos los resúmenes de las comunicaciones preparados con anterioridad al registro y la lista de los resúmenes de las comunicaciones, tendrán carácter confidencial a menos que el Comité decida otra cosa.",
+     "number": "2"
+    },
+    {
+     "id": "art-76-p3",
+     "text": "3. El Secretario General, el Comité, los grupos de trabajo y los relatores se abstendrán de hacer público cualquier escrito o información que guarde relación con una comunicación pendiente.",
+     "number": "3"
+    },
+    {
+     "id": "art-76-p4",
+     "text": "4. Lo dispuesto en el párrafo 1 del presente artículo se entenderá sin perjuicio del derecho del autor o los autores de una comunicación, de la víctima o las víctimas presuntas o del Estado parte de que se trate a dar publicidad a cualquier escrito o información relativos a las actuaciones. Sin embargo, el Comité, los grupos de trabajo o los relatores, si lo consideran procedente, podrán pedir al autor o los autores de una comunicación, a la víctima o las víctimas presuntas o al Estado parte de que se trate que mantengan el carácter confidencial de la totalidad o parte de cualquiera de esos escritos o informaciones.",
+     "number": "4"
+    },
+    {
+     "id": "art-76-p5",
+     "text": "5. Las decisiones del Comité por las que se declare la inadmisibilidad de las comunicaciones y aquellas referidas al fondo del asunto o por las que se declare concluido el examen de una comunicación se harán públicas. Las decisiones sobre la admisibilidad adoptadas por separado (véase el artículo 72 supra) no se harán públicas hasta que el Comité haya examinado el fondo de la comunicación.",
+     "number": "5"
+    },
+    {
+     "id": "art-76-p6",
+     "text": "6. El Comité podrá decidir que los nombres y los datos de identidad del autor o los autores de una comunicación o de la víctima o las víctimas presuntas de una infracción de las disposiciones de la Convención no se revelen en las decisiones de inadmisibilidad de las comunicaciones o en las decisiones sobre el fondo del asunto o por las que se declare concluido el examen. El Comité adoptará tales decisiones por iniciativa propia o a petición del autor o los autores, la víctima o las víctimas presuntas o el Estado parte.",
+     "number": "6"
+    },
+    {
+     "id": "art-76-p7",
+     "text": "7. La secretaría estará encargada de notificar las decisiones definitivas del Comité. No estará encargada de reproducir y distribuir los escritos presentados en relación con las comunicaciones.",
+     "number": "7"
+    },
+    {
+     "id": "art-76-p8",
+     "text": "8. A menos que el Comité decida otra cosa, la información proporcionada en relación con el seguimiento de los dictámenes y recomendaciones emitidos por el Comité en el marco del artículo 5 de la Convención no tendrá carácter confidencial. A menos que el Comité decida otra cosa, sus decisiones sobre las actividades de seguimiento no tendrán carácter confidencial.",
+     "number": "8"
+    },
+    {
+     "id": "art-76-p9",
+     "text": "9. El Comité incluirá, en el informe que presente con arreglo al artículo 39 de la Convención, información sobre las actividades que realice en virtud de los artículos 1 a 5 del Protocolo Facultativo.",
+     "number": "9"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-77",
+   "number": "77",
+   "label": "Artículo 77",
+   "heading": "Difusión de información sobre las actividades del Comité",
+   "paragraphs": [
+    {
+     "id": "art-77-p1",
+     "text": "El Comité podrá publicar comunicados sobre las actividades que realice en virtud de los artículos 1 a 5 del Protocolo Facultativo. El Secretario General dará difusión a esos comunicados en los formatos más accesibles."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-seccion-xv",
+   "level": 2,
+   "label": "XV.",
+   "title": "Actuaciones relativas al procedimiento de investigación del Protocolo Facultativo"
+  },
+  {
+   "kind": "article",
+   "id": "art-78",
+   "number": "78",
+   "label": "Artículo 78",
+   "heading": "Transmisión de información al Comité",
+   "paragraphs": [
+    {
+     "id": "art-78-p1",
+     "text": "1. El Secretario General señalará a la atención del Comité la información que se haya presentado o parezca haberse presentado para su examen por el Comité conforme al artículo 6, párrafo 1, del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-78-p2",
+     "text": "2. El Secretario General llevará un registro permanente de la información señalada a la atención del Comité conforme al presente artículo y pondrá esa información a disposición del miembro del Comité que lo solicite.",
+     "number": "2"
+    },
+    {
+     "id": "art-78-p3",
+     "text": "3. El Secretario General preparará y distribuirá a los miembros del Comité, cuando sea necesario, un breve resumen de la información presentada de conformidad con el presente artículo.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-79",
+   "number": "79",
+   "label": "Artículo 79",
+   "heading": "Recopilación de información por el Comité",
+   "paragraphs": [
+    {
+     "id": "art-79-p1",
+     "text": "El Comité podrá, por iniciativa propia, recopilar la información que esté a su disposición, en particular la procedente de órganos de las Naciones Unidas, para examinarla en virtud del artículo 6, párrafo 1, del Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-80",
+   "number": "80",
+   "label": "Artículo 80",
+   "heading": "Confidencialidad",
+   "paragraphs": [
+    {
+     "id": "art-80-p1",
+     "text": "Todos los documentos y actuaciones del Comité relativos a la realización de una investigación en virtud del artículo 6 del Protocolo Facultativo tendrán carácter confidencial, a reserva de lo dispuesto en el artículo 7 del Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-81",
+   "number": "81",
+   "label": "Artículo 81",
+   "heading": "Sesiones relativas a las actuaciones en virtud del artículo 6",
+   "paragraphs": [
+    {
+     "id": "art-81-p1",
+     "text": "Las sesiones del Comité en que se examinen las investigaciones realizadas en virtud del artículo 6 del Protocolo Facultativo serán privadas."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-82",
+   "number": "82",
+   "label": "Artículo 82",
+   "heading": "Examen preliminar de la información por el Comité",
+   "paragraphs": [
+    {
+     "id": "art-82-p1",
+     "text": "1. El Comité, por conducto del Secretario General, podrá verificar la fiabilidad de la información o de las fuentes de la información que se señale a su atención en virtud del artículo 6 del Protocolo Facultativo y podrá obtener información complementaria pertinente que corrobore los hechos.",
+     "number": "1"
+    },
+    {
+     "id": "art-82-p2",
+     "text": "2. El Comité determinará si la información recibida o recopilada por iniciativa propia contiene indicaciones fidedignas de que el Estado parte de que se trate ha cometido violaciones graves o sistemáticas de los derechos enunciados en la Convención.",
+     "number": "2"
+    },
+    {
+     "id": "art-82-p3",
+     "text": "3. El Comité podrá pedir a un grupo de trabajo que le preste asistencia en el desempeño de las funciones que le incumben en virtud del presente artículo.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-83",
+   "number": "83",
+   "label": "Artículo 83",
+   "heading": "Presentación y examen de información",
+   "paragraphs": [
+    {
+     "id": "art-83-p1",
+     "text": "1. El Comité, si se ha cerciorado de que la información recibida o recopilada por iniciativa propia es fiable y revela que el Estado parte de que se trate ha cometido violaciones graves o sistemáticas de los derechos enunciados en la Convención, invitará al Estado parte, por conducto del Secretario General, a formular observaciones sobre esa información dentro de un plazo determinado.",
+     "number": "1"
+    },
+    {
+     "id": "art-83-p2",
+     "text": "2. El Comité tendrá en cuenta todas las observaciones que haya formulado el Estado parte, así como cualquier otra información pertinente.",
+     "number": "2"
+    },
+    {
+     "id": "art-83-p3",
+     "text": "3. El Comité podrá decidir que solicitará información complementaria de:",
+     "number": "3"
+    },
+    {
+     "id": "art-83-p4",
+     "text": "a) Representantes del Estado parte de que se trate;"
+    },
+    {
+     "id": "art-83-p5",
+     "text": "b) Organizaciones de integración regional;"
+    },
+    {
+     "id": "art-83-p6",
+     "text": "c) Organizaciones gubernamentales;"
+    },
+    {
+     "id": "art-83-p7",
+     "text": "d) Instituciones nacionales de derechos humanos;"
+    },
+    {
+     "id": "art-83-p8",
+     "text": "e) Organizaciones no gubernamentales;"
+    },
+    {
+     "id": "art-83-p9",
+     "text": "f) Particulares, incluidos expertos."
+    },
+    {
+     "id": "art-83-p10",
+     "text": "4. El Comité decidirá en qué forma y de qué manera se obtendrá esa información complementaria.",
+     "number": "4"
+    },
+    {
+     "id": "art-83-p11",
+     "text": "5. El Comité, por conducto del Secretario General, podrá pedir información o documentación pertinente del sistema de las Naciones Unidas.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-84",
+   "number": "84",
+   "label": "Artículo 84",
+   "heading": "Apertura de una investigación",
+   "paragraphs": [
+    {
+     "id": "art-84-p1",
+     "text": "1. Teniendo en cuenta las observaciones que haya formulado el Estado parte de que se trate, así como cualquier otra información fiable, el Comité podrá designar a uno o varios de sus miembros para que realicen una investigación y presenten un informe dentro de un plazo determinado.",
+     "number": "1"
+    },
+    {
+     "id": "art-84-p2",
+     "text": "2. La investigación tendrá carácter confidencial y se realizará según las modalidades que determine el Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-84-p3",
+     "text": "3. Los miembros designados por el Comité para realizar la investigación decidirán sus propios métodos de trabajo, teniendo en cuenta la Convención, el Protocolo Facultativo y el presente reglamento.",
+     "number": "3"
+    },
+    {
+     "id": "art-84-p4",
+     "text": "4. Mientras esté en curso la investigación, el Comité podrá aplazar el examen de cualquier informe que el Estado parte haya presentado conforme al artículo 35 de la Convención.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-85",
+   "number": "85",
+   "label": "Artículo 85",
+   "heading": "Cooperación del Estado parte",
+   "paragraphs": [
+    {
+     "id": "art-85-p1",
+     "text": "1. El Comité recabará la cooperación del Estado parte de que se trate en todas las fases de la investigación.",
+     "number": "1"
+    },
+    {
+     "id": "art-85-p2",
+     "text": "2. El Comité podrá pedir al Estado parte que nombre a un representante para que se reúna con el miembro o los miembros designados por el Comité.",
+     "number": "2"
+    },
+    {
+     "id": "art-85-p3",
+     "text": "3. El Comité podrá pedir al Estado parte que facilite al miembro o los miembros designados por el Comité cualquier información que, a juicio de ellos o del Estado parte, guarde relación con la investigación.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-86",
+   "number": "86",
+   "label": "Artículo 86",
+   "heading": "Visitas",
+   "paragraphs": [
+    {
+     "id": "art-86-p1",
+     "text": "1. Si el Comité lo considera justificado, la investigación podrá incluir una visita al territorio del Estado parte de que se trate.",
+     "number": "1"
+    },
+    {
+     "id": "art-86-p2",
+     "text": "2. El Comité, si determina que, a los efectos de su investigación, debería hacerse una visita al Estado parte, solicitará, por conducto del Secretario General, que el Estado parte dé su consentimiento.",
+     "number": "2"
+    },
+    {
+     "id": "art-86-p3",
+     "text": "3. El Comité comunicará al Estado parte las fechas en que desearía hacer la visita y los medios que necesitaría a fin de que los miembros designados por el Comité para realizar la investigación puedan desempeñar su cometido.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-87",
+   "number": "87",
+   "label": "Artículo 87",
+   "heading": "Audiencias",
+   "paragraphs": [
+    {
+     "id": "art-87-p1",
+     "text": "1. Las visitas podrán incluir audiencias que permitan a los miembros designados por el Comité determinar hechos o cuestiones referentes a la investigación.",
+     "number": "1"
+    },
+    {
+     "id": "art-87-p2",
+     "text": "2. Las condiciones y garantías aplicables a toda audiencia que se celebre conforme al párrafo 1 del presente artículo serán determinadas por los miembros designados por el Comité que visiten el Estado parte en el marco de una investigación y por ese Estado parte.",
+     "number": "2"
+    },
+    {
+     "id": "art-87-p3",
+     "text": "3. Quienquiera que comparezca para prestar testimonio ante los miembros designados por el Comité deberá declarar solemnemente que su testimonio es verídico y que respetará el carácter confidencial de las actuaciones.",
+     "number": "3"
+    },
+    {
+     "id": "art-87-p4",
+     "text": "4. El Comité informará al Estado parte de que debe adoptar todas las medidas necesarias para que las personas sujetas a su jurisdicción no sean objeto de malos tratos o de intimidación por el hecho de participar en audiencias celebradas en el marco de una investigación o de reunirse con los miembros designados por el Comité que realicen la investigación.",
+     "number": "4"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-88",
+   "number": "88",
+   "label": "Artículo 88",
+   "heading": "Asistencia durante una investigación",
+   "paragraphs": [
+    {
+     "id": "art-88-p1",
+     "text": "1. Además del personal y de los medios, incluido el personal auxiliar, que proporcione el Secretario General a los miembros designados por el Comité para una investigación, incluso durante una visita al Estado parte de que se trate, los miembros designados por el Comité podrán invitar, por conducto del Secretario General, a intérpretes o a personas que tengan especial competencia en las cuestiones a que se refiere la Convención y que el Comité considere necesarias para que presten asistencia en todas las fases de la investigación.",
+     "number": "1"
+    },
+    {
+     "id": "art-88-p2",
+     "text": "2. Los intérpretes o las personas a que se refiere el párrafo precedente que no estén obligados por el juramento de fidelidad a las Naciones Unidas tendrán que declarar solemnemente que desempeñarán sus funciones con honestidad, fidelidad e imparcialidad y que respetarán el carácter confidencial de las actuaciones.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-89",
+   "number": "89",
+   "label": "Artículo 89",
+   "heading": "Transmisión de las conclusiones, observaciones o sugerencias",
+   "paragraphs": [
+    {
+     "id": "art-89-p1",
+     "text": "1. Después de examinar las conclusiones que los miembros encargados de la investigación le hayan sometido conforme al artículo 84 del presente reglamento, el Comité las transmitirá, por conducto del Secretario General, al Estado parte de que se trate, junto con los comentarios y recomendaciones del caso.",
+     "number": "1"
+    },
+    {
+     "id": "art-89-p2",
+     "text": "2. El Estado parte de que se trate transmitirá al Comité, por conducto del Secretario General, sus observaciones sobre las conclusiones, los comentarios y las recomendaciones dentro de los seis meses siguientes a su recepción.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-90",
+   "number": "90",
+   "label": "Artículo 90",
+   "heading": "Medidas de seguimiento del Estado parte",
+   "paragraphs": [
+    {
+     "id": "art-90-p1",
+     "text": "1. El Comité, por conducto del Secretario General, podrá invitar a un Estado parte que haya sido objeto de una investigación a incluir en el informe que ha de presentar en virtud del artículo 35 de la Convención, y conforme al artículo 39 del presente reglamento, información sobre las medidas adoptadas en atención a la investigación realizada en virtud del artículo 6 del Protocolo Facultativo.",
+     "number": "1"
+    },
+    {
+     "id": "art-90-p2",
+     "text": "2. Al expirar el plazo de seis meses a que se refiere el párrafo 2 del artículo 89 supra, el Comité podrá invitar al Estado parte de que se trate, por conducto del Secretario General, a que lo informe de las medidas adoptadas en atención a la investigación.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-91",
+   "number": "91",
+   "label": "Artículo 91",
+   "heading": "Aplicabilidad",
+   "paragraphs": [
+    {
+     "id": "art-91-p1",
+     "text": "Los artículos 78 a 90 del presente reglamento no se aplicarán a los Estados partes que, de conformidad con el artículo 8 del Protocolo Facultativo, hayan declarado, en el momento de ratificar el Protocolo Facultativo o de adherirse a él, que no reconocen la competencia del Comité establecida en los artículos 6 y 7 del Protocolo Facultativo, a menos que posteriormente hayan retirado su declaración."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-tercera",
+   "level": 1,
+   "label": "Parte Tercera",
+   "title": "Interpretación y enmiendas"
+  },
+  {
+   "kind": "article",
+   "id": "art-92",
+   "number": "92",
+   "label": "Artículo 92",
+   "heading": "Títulos",
+   "paragraphs": [
+    {
+     "id": "art-92-p1",
+     "text": "A los efectos de la interpretación del presente reglamento, no se tendrán en cuenta los títulos, que tienen carácter puramente indicativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-93",
+   "number": "93",
+   "label": "Artículo 93",
+   "heading": "Interpretación del reglamento",
+   "paragraphs": [
+    {
+     "id": "art-93-p1",
+     "text": "Para interpretar su reglamento, el Comité podrá tomar como orientación la práctica, los procedimientos y la interpretación de otros órganos creados en virtud de tratados que tengan reglamentos similares."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-94",
+   "number": "94",
+   "label": "Artículo 94",
+   "heading": "Suspensión",
+   "paragraphs": [
+    {
+     "id": "art-94-p1",
+     "text": "La aplicación de cualquiera de los artículos del presente reglamento podrá suspenderse por decisión del Comité, adoptada por mayoría de dos tercios de los miembros presentes y votantes, siempre que la suspensión no sea incompatible con la Convención ni con el Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-95",
+   "number": "95",
+   "label": "Artículo 95",
+   "heading": "Enmiendas",
+   "paragraphs": [
+    {
+     "id": "art-95-p1",
+     "text": "El presente reglamento podrá ser enmendado por decisión del Comité, adoptada por mayoría de dos tercios de los miembros presentes y votantes, y al menos 24 horas después de que se haya distribuido la propuesta de enmienda, siempre que la enmienda no sea incompatible con la Convención ni con el Protocolo Facultativo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-96",
+   "number": "96",
+   "label": "Artículo 96",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-96-p1",
+     "text": "Directrices sobre la independencia y la imparcialidad de los miembros de los órganos creados en virtud de tratados de derechos humanos (directrices de Addis Abeba)"
+    },
+    {
+     "id": "art-96-p2",
+     "text": "Las directrices sobre la independencia y la imparcialidad de los miembros de los órganos creados en virtud de tratados de derechos humanos (directrices de Addis Abeba) (véase A/67/222, anexo I) forman parte integrante del presente reglamento."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-97",
+   "number": "97",
+   "label": "Artículo 97",
+   "heading": "Métodos de trabajo del Comité",
+   "paragraphs": [
+    {
+     "id": "art-97-p1",
+     "text": "Los métodos de trabajo del Comité (CRPD/C/5/4), y sus posteriores enmiendas y revisiones, complementan y forman parte del reglamento del Comité, y deben leerse conjuntamente con este."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "anexo-1",
+   "level": 1,
+   "annex": true,
+   "label": "Anexo",
+   "title": "Directrices sobre los marcos independientes de supervisión y su participación en la labor del Comité sobre los Derechos de las Personas con Discapacidad",
+   "text": [
+    "I. Introducción",
+    "1. Desde 2009, año de su establecimiento, el Comité sobre los Derechos de las Personas con Discapacidad ha interactuado de forma asidua con los marcos independientes de supervisión, como las instituciones nacionales de derechos humanos que supervisan la aplicación de la Convención sobre los Derechos de las Personas con Discapacidad, los cuales han realizado aportaciones efectivas a los procedimientos de presentación de informes y de investigación del Comité. En septiembre de 2014, el Comité celebró su primera reunión con marcos independientes de supervisión para examinar el modo en que las medidas orientadas a fortalecer las actividades de promoción de la aplicación de la Convención a nivel nacional e internacional podrían reforzarse mutuamente. Entre septiembre de 2014 y noviembre de 2015, se celebraron varias consultas oficiosas y una consulta oficial con el propósito de recabar las opiniones de los marcos independientes de supervisión acerca de un conjunto de directrices para esa colaboración, el cronograma relativo a la elaboración de las directrices y las modalidades del proceso de consulta.",
+    "2. Junto con el Protocolo Facultativo de la Convención contra la Tortura y Otros Tratos o Penas Crueles, Inhumanos o Degradantes, la Convención sobre los Derechos de las Personas con Discapacidad es uno de los tratados de derechos humanos que solicita expresamente a los Estados partes que establezcan un marco para supervisar sus disposiciones a nivel nacional. La Convención va más lejos que el Protocolo Facultativo y, en ese sentido, no tiene paralelo entre los tratados de derechos humanos puesto que exige que, cuando establezcan un marco de supervisión, los Estados partes tengan en cuenta los principios relativos al estatuto de las instituciones nacionales de promoción y protección de los derechos humanos (Principios de París), y que los miembros de la sociedad civil, en particular las personas con discapacidad y las organizaciones que las representan, participen plenamente en el proceso de seguimiento.",
+    "3. Se exhorta a los Estados partes a que supervisen la aplicación de la Convención tanto a nivel internacional como nacional. A nivel internacional, la aplicación se supervisa a través de los procedimientos de presentación de informes, de comunicaciones y de investigación del Comité. A nivel nacional, en virtud de lo dispuesto en el artículo 33, párrafo 2, de la Convención, los Estados partes, de conformidad con sus sistemas jurídicos y administrativos, mantendrán, reforzarán, designarán o establecerán, en el plano interno, un marco, que constará de uno o varios mecanismos independientes, para promover, proteger y supervisar la aplicación de la presente Convención. Cuando designen o establezcan esos mecanismos o ese marco, los Estados partes tendrán en cuenta los Principios de París. El artículo 33, párrafo 3, de la Convención establece que la sociedad civil, y en particular las personas con discapacidad y las organizaciones que las representan, estarán integradas y participarán plenamente en todos los niveles del proceso de seguimiento.",
+    "4. El Comité reconoce la importancia de establecer, mantener y fomentar una interacción y relación estrechas con los marcos independientes de supervisión y las instituciones nacionales de derechos humanos en todas las etapas y todos los aspectos de la labor del Comité. La supervisión en los planos nacional e internacional debería ser complementaria y reforzarse mutuamente a fin de hacer efectivos los derechos humanos en consonancia con los instrumentos internacionales de derechos humanos. Las actividades para supervisar la aplicación de la Convención deben reflejar los principios, el objeto y el propósito de la Convención e incluir un cambio de paradigma en favor del modelo de la discapacidad basado en los derechos humanos, según el cual se considera a las personas con discapacidad como titulares de derechos y se reconocen, promueven y protegen plenamente su dignidad y su contribución a la sociedad.",
+    "5. El Comité reconoce el importante papel que desempeñan las instituciones nacionales de derechos humanos que, entre otras cosas, promueven la armonización de las leyes y políticas nacionales con la Convención y la ratificación de esta, dan a conocer sus disposiciones y asesoran a las autoridades encargadas de aplicarlas y, cuando lo permite la legislación vigente, investigan y tramitan denuncias individuales y colectivas de presuntas violaciones de los derechos amparados por la Convención. El Comité reconoce el importante papel de las instituciones nacionales de derechos humanos en la supervisión de la aplicación de la Convención para promover el cumplimiento a nivel nacional. El Comité reconoce el papel de las instituciones nacionales de derechos humanos en el establecimiento de puentes entre las entidades nacionales, lo cual incluye a las instituciones públicas y la sociedad civil, en particular a las personas con discapacidad y las organizaciones que las representan, y el sistema internacional para la protección y la promoción de los derechos humanos. El Comité reconoce la importancia de las instituciones nacionales de derechos humanos establecidas, acreditadas y reforzadas en cumplimiento de los Principios de París. El Comité suscribe plenamente los esfuerzos realizados por los órganos creados en virtud de tratados de derechos humanos para aumentar y garantizar la participación efectiva de las instituciones nacionales de derechos humanos en todas las etapas pertinentes de su labor. El Comité se compromete a hacer que esa participación sea genuina y a velar por la contribución más efectiva posible de las instituciones nacionales de derechos humanos. El Comité acoge con satisfacción la recomendación de la Asamblea General de que los órganos creados en virtud de tratados armonicen su colaboración con las instituciones nacionales de derechos humanos (véase la resolución 70/163 de la Asamblea General).",
+    "6. El Comité apoya y alienta aún más a todos los órganos creados en virtud de tratados para que adopten un enfoque común orientado a la promoción de la participación efectiva, en todas las etapas de su labor, de las instituciones nacionales de derechos humanos que cumplan los Principios de París. Las referencias en las presentes directrices a las instituciones nacionales de derechos humanos se basan en observaciones generales, directrices y orientaciones aprobadas por otros órganos creados en virtud de tratados, en especial el Comité de Derechos Humanos (CCPR/C/106/3), el Comité de los Derechos del Niño (observación general núm. 2 (2002) sobre el papel de las instituciones nacionales independientes de derechos humanos en la promoción y la protección de los derechos del niño), el Comité contra la Desaparición Forzada (CED/C/6), el Comité de Derechos Económicos, Sociales y Culturales (observación general núm. 10 (1998) sobre la función de las instituciones nacionales de derechos humanos en la protección de los derechos económicos, sociales y culturales) y el Comité para la Eliminación de la Discriminación Racial (recomendación general núm. 17 (1993) relativa al establecimiento de instituciones nacionales para facilitar la aplicación de la Convención).",
+    "7. Las presentes directrices se aplican tanto a los marcos de supervisión designados oficialmente, ya estén compuestos por una institución nacional de derechos humanos o incluyan a una institución de ese tipo, como a las instituciones nacionales de derechos humanos que, conforme a su respectivo mandato tal como está definido en la legislación nacional e interna, supervisan la aplicación de la Convención, independientemente de que hayan sido o no designadas de manera oficial teniendo en cuenta lo dispuesto en el artículo 33, párrafo 2, de la Convención.",
+    "II. Alcance del artículo 33, párrafos 2 y 3, de la Convención",
+    "8. En el artículo 33 se pide a los Estados partes que no lo hayan hecho antes de la entrada en vigor de la Convención que designen o establezcan un marco independiente que comprenda uno o varios mecanismos competentes para promover, proteger y supervisar la aplicación de la Convención. La designación o el establecimiento del marco independiente de supervisión deben tener lugar a la mayor brevedad posible tras la entrada en vigor de la Convención. En el artículo 33 se exige a los Estados partes que realicen un proceso amplio e inclusivo de consultas con las organizaciones de la sociedad civil, en particular con las personas con discapacidad y las organizaciones que las representan, a fin de designar o establecer un marco independiente de supervisión.",
+    "9. Aunque no existe una obligación formal de designar o establecer un marco de ese tipo, y los Estados partes pueden designarlo o establecerlo de conformidad con sus sistemas jurídicos y administrativos, en el artículo 33 se pide a los Estados partes que velen por que los marcos de supervisión sean independientes de los organismos designados con arreglo al artículo 33, párrafo 1, de la Convención.",
+    "10. En el caso de que exista un marco de supervisión en el momento de la entrada en vigor de la Convención, el artículo 33 exige a los Estados partes que lo mantengan y refuercen.",
+    "11. En el artículo 33 se pide también a todos los Estados partes que mantengan y fortalezcan su marco de supervisión, deber que comprende la obligación de asegurar que el marco tenga una base institucional estable que le permita funcionar de manera adecuada a lo largo del tiempo y que disponga de suficientes fondos y recursos (tanto técnicos como humanos) mediante asignaciones del presupuesto nacional.",
+    "12. El deber de mantener y reforzar también obliga a los Estados partes a velar por que el marco independiente de supervisión pueda desempeñar correctamente sus funciones. Esto significa que el marco debe tener un acceso rápido y pleno a la información, las bases de datos, los registros, las instalaciones y los locales, tanto en las zonas urbanas como en las rurales o remotas; que ha de tener acceso expedito a las personas, las entidades, las organizaciones y los órganos gubernamentales con los que necesite estar en contacto y poder interactuar libremente con ellos; que sus solicitudes deben ser tramitadas de forma adecuada y oportuna por los órganos de aplicación; y que su personal ha de tener acceso a formación permanente.",
+    "13. El artículo 33 debe interpretarse en el sentido de que los Estados partes se abstendrán de restringir, limitar o interferir directa o indirectamente en las actividades que realice el marco independiente de supervisión para promover, proteger y supervisar la aplicación de la Convención. Las actividades de promoción incluyen crear conciencia; fortalecer la capacidad y la formación; examinar periódicamente la legislación, los reglamentos y las prácticas nacionales vigentes, así como los proyectos de ley y otras propuestas, a fin de verificar su conformidad con los requisitos de la Convención; estudiar los efectos de la Convención en la legislación nacional o facilitar la realización de ese tipo de estudios; prestar asesoramiento técnico a las autoridades públicas y otras entidades sobre la aplicación de la Convención; preparar informes por iniciativa de los propios marcos cuando lo solicite un tercero o una autoridad pública; alentar la ratificación de instrumentos internacionales de derechos humanos; realizar aportaciones para los informes que deben presentar los Estados a los órganos y comités de las Naciones Unidas; y cooperar con organizaciones internacionales, regionales y otras instituciones nacionales del ámbito de los derechos humanos. Las actividades de protección incluyen examinar denuncias individuales o colectivas de presuntas violaciones de la Convención; llevar a cabo investigaciones; remitir los casos a los tribunales; participar en procedimientos judiciales; y emitir informes sobre las denuncias recibidas y tramitadas. Las actividades de supervisión incluyen crear un sistema para evaluar los efectos de la aplicación de las leyes y políticas; elaborar indicadores y parámetros de referencia; y mantener bases de datos que contengan información sobre prácticas relacionadas con la aplicación de la Convención.",
+    "14. Los Estados partes tienen un margen de apreciación para decidir si su marco independiente de supervisión está formado por uno o varios mecanismos de supervisión. Cuando se designe a una única entidad como mecanismo de supervisión, deberá ser independiente del poder ejecutivo del Estado y cumplir los Principios de París. Si el marco de supervisión consiste en uno o más mecanismos, todos deben ser independientes del poder ejecutivo y al menos uno de ellos debe cumplir los Principios de París. Cuando el marco de supervisión esté integrado por dos o más mecanismos, el artículo 33 exige que los Estados partes aseguren una cooperación estrecha y adecuada entre todas las entidades que componen el marco de supervisión.",
+    "15. Los Estados partes deben respetar tanto la independencia funcional como la independencia sustantiva de los marcos de supervisión. A fin de respetar la independencia sustantiva, los Estados partes deben asegurar que el mandato de los marcos se defina de manera suficientemente amplia y adecuada de modo que englobe la promoción, la protección y la supervisión de todos los derechos consagrados en la Convención, y que se plasme en un texto constitucional o legislativo; deben asegurar también que se encomiende y asigne a los marcos una amplia gama de responsabilidades, como las que se mencionan en el párrafo 14 supra. A fin de respetar la independencia funcional de los marcos de supervisión, los Estados partes deben velar por que cada mecanismo que lo constituya sea independiente del poder ejecutivo del Estado parte y que los marcos de supervisión: a) estén integrados por miembros designados de manera pública, democrática, transparente y participativa; b) dispongan de financiación y recursos técnicos y humanos cualificados en cantidad suficiente; c) puedan administrar su presupuesto con autonomía; d) puedan decidir y examinar de forma autónoma las cuestiones de su incumbencia; e) puedan mantener y desarrollar sus relaciones con otros órganos y consultar con ellos; y f) puedan recibir y examinar las denuncias presentadas por personas o grupos en relación con presuntas violaciones de los derechos enunciados en la Convención.",
+    "16. Los Estados partes darán la debida consideración a las recomendaciones formuladas por el marco de supervisión en sus informes anuales, temáticos o específicos y a las decisiones y los dictámenes del marco en relación con casos individuales. Deberá realizarse un seguimiento adecuado de las recomendaciones del marco de supervisión, entre otras cosas mediante la puntual presentación de informes de seguimiento cuando se soliciten o llegue la fecha de su presentación. Se alienta a los Estados partes a aplicar las recomendaciones de manera efectiva y oportuna.",
+    "17. También se alienta a los Estados partes a que designen a sus instituciones nacionales de derechos humanos conformes con los Principios de París como marco de supervisión o mecanismo integrante del marco de supervisión y las doten de medios presupuestarios y recursos humanos cualificados adicionales y suficientes para desempeñar adecuadamente su mandato con arreglo al artículo 33, párrafo 2, de la Convención.",
+    "18. Los Estados partes con una administración federal o descentralizada deberán asegurarse de que el marco de supervisión central pueda desempeñar adecuadamente sus funciones a nivel federal, estatal, provincial, regional y local. Cuando existan marcos de supervisión a esos niveles, los Estados partes se asegurarán de que el marco de supervisión federal o nacional pueda comunicarse y coordinar sus actividades correctamente con los marcos estatal, provincial, regional, local o municipal de supervisión. Si un marco independiente de supervisión no está integrado por una única institución nacional de derechos humanos que cumple los Principios de París, se alienta a los Estados partes a que encomienden a la institución la tarea de facilitar y coordinar las relaciones entre el marco de supervisión y sus homólogos regionales y locales.",
+    "19. En los casos en que el marco esté compuesto por uno o varios mecanismos de supervisión, los Estados partes facilitarán un apoyo apropiado, previa solicitud del marco, para que este pueda operar y desempeñar sus funciones de manera continua y adecuada.",
+    "20. El marco independiente de supervisión debe velar por la integración y participación plenas de las personas con discapacidad y las organizaciones que las representan en todos los ámbitos de su labor. El Comité considera que las organizaciones de personas con discapacidad son organizaciones en que la mayoría de los miembros son personas con discapacidad (al menos la mitad de los miembros) y están gobernadas, dirigidas y administradas por personas con discapacidad. La integración y la participación deben ser genuinas y tener lugar en todas las etapas del proceso de supervisión, que debe ser accesible, respetar la diversidad de personas con discapacidad y tener en cuenta la edad y género. El artículo 33, párrafo 3, de la Convención, leído conjuntamente con el artículo 4, párrafo 3, exige a los Estados partes que proporcionen a las personas con discapacidad y a las organizaciones que las representan, incluidas las organizaciones de mujeres con discapacidad y las organizaciones de niños con discapacidad, la financiación y los recursos suficientes para posibilitar una participación efectiva y genuina de las personas con discapacidad en el marco de supervisión.",
+    "21. Los Estados partes han de asegurar que los marcos de supervisión puedan interactuar, de manera frecuente, efectiva y oportuna, con las entidades de enlace y los mecanismos de coordinación designados con arreglo al artículo 33, párrafo 1, de la Convención en relación con la aplicación de las disposiciones de esta, a fin de garantizar que se tengan debidamente en cuenta sus opiniones y recomendaciones en los procesos de adopción de decisiones. Se alienta a los Estados partes a formalizar el proceso de colaboración entre las entidades establecidas con arreglo al artículo 33, párrafos 1 y 2, ya sea mediante leyes, reglamentos o un acuerdo y una directriz ejecutivos debidamente autorizados. Cuando se haya designado un mecanismo nacional encargado de presentar informes a los mecanismos internacionales de derechos humanos y hacer el seguimiento de las recomendaciones que estos formulen, los Estados partes deberán velar por que los marcos independientes de supervisión intervengan y participen de manera efectiva, en calidad de órganos independientes, en las actividades de esos mecanismos nacionales.",
+    "22. Los órganos asesores, como los consejos o los comités de discapacidad, integrados por representantes de departamentos y dependencias que se ocupen de la aplicación de la Convención no deben intervenir ni participar en modo alguno en las actividades del marco de supervisión. Los Estados partes deben garantizar que existan procedimientos eficaces para prevenir, regular y resolver los posibles conflictos de intereses o influencia indebida resultantes de la interacción de los organismos mencionados supra y el marco de supervisión.",
+    "III. Participación de los marcos independientes de supervisión en las actuaciones del Comité",
+    "A. Procedimiento de presentación de informes",
+    "23. El Comité alienta a los marcos independientes de supervisión a participar activamente y realizar contribuciones, tan pronto como sea posible y en todas las etapas del procedimiento de presentación de informes, entre otras cosas:",
+    "a) Dando a conocer las obligaciones que emanan de la Convención para los Estados, incluidas las relativas a la presentación de informes.",
+    "b) Alentando la puntual presentación de informes de los Estados partes.",
+    "c) Alentando a los Estados a consultar ampliamente con los marcos independientes de supervisión, la sociedad civil y las organizaciones de personas con discapacidad cuando elaboren sus informes inicial y periódicos. Los marcos de supervisión pueden contribuir al proceso de redacción de los informes inicial y periódicos, entre otras cosas, divulgando oportunamente información en formatos accesibles entre las partes interesadas a nivel nacional en relación con los exámenes previstos por el Comité de las obligaciones que incumben a los Estados partes en virtud de la Convención; alentando a los departamentos o las dependencias encargados de elaborar los informes a llevar a cabo procesos de consulta participativos y transparentes; realizando aportaciones por escrito cuando proceda; informando a las organizaciones de la sociedad civil, incluidas las organizaciones de personas con discapacidad, de las posibilidades que tienen de participar en el proceso de redacción oficial y la opción de preparar y presentar informes paralelos; y prestando apoyo a las organizaciones de la sociedad civil y las organizaciones de personas con discapacidad para la elaboración de esos informes paralelos.",
+    "d) Presentando al Comité un informe paralelo cuya extensión no supere las 10.700 palabras. En el caso de los informes iniciales de los Estados partes, los informes paralelos deben constar de un resumen y de información sobre cada uno de los primeros 33 artículos de la Convención. En el caso de los informes periódicos, los informes paralelos deben incluir también un resumen y tratar: las medidas de seguimiento adoptadas para aplicar las observaciones finales anteriores; los nuevos acontecimientos que se hayan producido en el Estado parte desde el examen anterior; las deficiencias en la aplicación y posibles medidas para subsanarlas; e información sobre la situación de las mujeres, los niños, las personas de edad, las personas pertenecientes a grupos minoritarios, los desplazados internos, los migrantes, los refugiados, las personas indígenas, las personas con albinismo o cualquier otra categoría de personas con discapacidad.",
+    "e) Proporcionando, en la mayor medida posible, a las partes interesadas que participen en el proceso de presentación de informes datos estadísticos recopilados por las autoridades competentes del Estado parte y/o datos reunidos e investigaciones realizadas por el marco de supervisión acerca del marco institucional y normativo para garantizar la aplicación de la Convención, de las políticas, los programas y de las actividades existentes para lograr la aplicación y sus efectos. Cuando sea factible, los datos deberán estar desglosados por sexo, edad, tipo de deficiencia, origen étnico y cualquier otra categoría pertinente.",
+    "f) Contribuyendo a la preparación de listas de cuestiones, para los procedimientos tanto general como simplificado de presentación de informes, entre otras cosas facilitando información actualizada y fidedigna sobre los progresos realizados por el Estado parte en la aplicación de la Convención y determinando y analizando las principales deficiencias en la aplicación, así como proponiendo preguntas y cuestiones concretas que el Comité podría abordar con miras a mejorar la calidad del diálogo con el Estado parte. Los marcos independientes de supervisión podrán realizar aportaciones por escrito cuya extensión no superará las 5.000 palabras y participar en reuniones privadas con el Comité ya sea durante el período de sesiones o durante la reunión de un grupo de trabajo anterior a los períodos de sesiones, ya sea por iniciativa propia o previo acuerdo con las organizaciones de la sociedad civil.",
+    "g) Realizando aportaciones independientes por escrito en las que se comenten las respuestas del Estado parte a las listas de cuestiones, en los procedimientos tanto general como simplificado de presentación de informes, a fin de completar la información facilitada por el Estado parte.",
+    "h) Participando en el diálogo entre el Comité y la delegación del Estado parte. El Comité ofrece a los marcos de supervisión la posibilidad de realizar una declaración de apertura inmediatamente después de la declaración de apertura de la delegación y una declaración de clausura tras la declaración de clausura de la delegación, así como responder a las preguntas que les formule el Comité. A tal efecto, los marcos independientes de supervisión deberán ponerse en contacto con el Comité antes del período de sesiones en que se examinará el informe del Estado parte y solicitar su participación, en calidad de organismo independiente, durante el diálogo con la delegación del Estado parte. El Presidente del Comité decidirá si atiende esa solicitud. Las instituciones nacionales de derechos humanos que cumplan los Principios de París podrán participar también en el diálogo, en calidad de organismo independiente, según las modalidades indicadas supra, tras cursar la correspondiente solicitud al Comité.",
+    "i) Solicitando un diálogo privado a puerta cerrada con el Comité en preparación del diálogo con el Estado parte.",
+    "j) Alentando a las autoridades competentes del Estado parte a que traduzcan las observaciones finales del Comité, según proceda, y las divulguen en formatos accesibles y utilizando medios y modos de comunicación alternativos entre la gama más amplia posible de interesados a nivel nacional, y en particular entre las personas con discapacidad y las organizaciones que las representan.",
+    "k) Realizando actividades de promoción y concienciación dirigidas, entre otros, a los departamentos y las dependencias encargados de aplicar la Convención acerca de la importancia de prestar la debida atención a las observaciones finales del Comité y reflejar, integrar e incorporar las recomendaciones del Comité en las políticas, los programas y las actividades nacionales relativas a la aplicación de la Convención.",
+    "l) Contribuyendo al procedimiento de seguimiento de las recomendaciones formuladas por el Comité en su procedimiento de presentación de informes. Esto podría conseguirse, entre otras cosas, divulgando información sobre la existencia del procedimiento entre una amplia gama de interesados a nivel nacional; organizando consultas de seguimiento; apoyando a las organizaciones de personas con discapacidad para que se familiaricen con el procedimiento y realicen contribuciones oportunas; y haciendo aportaciones por escrito en las que se determine de si se han atendido adecuadamente las recomendaciones del Comité y si el Estado parte las ha puesto en práctica.",
+    "m) Presentando información por escrito o dirigiéndose al Comité en reuniones informativas de carácter privado cuando el Comité decida examinar a un Estado parte sin que exista un informe, en virtud de lo dispuesto en el artículo 36, párrafo 2, de la Convención.",
+    "n) Facilitando y promoviendo la participación genuina de las organizaciones de personas con discapacidad en el proceso de presentación de informes.",
+    "B. Días de debate general y observaciones generales",
+    "24. El Comité alienta a los marcos independientes de supervisión a que contribuyan a los días de debate general organizados por el Comité y participen en los procesos de consulta relativos a la preparación de observaciones generales del Comité.",
+    "25. El Comité recomienda también a los marcos independientes de supervisión que alienten a las autoridades competentes del Estado parte a traducir, según proceda, las observaciones generales del Comité y a divulgarlas en formatos accesibles y utilizando medios y modos de comunicación alternativos y aumentativos. Se alienta a los marcos independientes de supervisión a utilizar las observaciones generales en su labor de apoyo a la promoción y la protección de los derechos de las personas con discapacidad.",
+    "C. Procedimiento de comunicaciones (Protocolo Facultativo)",
+    "26. El Comité alienta a los marcos independientes de supervisión a que:",
+    "a) Brinden apoyo y asistencia, incluido asesoramiento jurídico, cuando sea factible, a los particulares, grupos de personas y organizaciones de personas con discapacidad que denuncien una violación de los derechos amparados por la Convención y deseen presentar una comunicación al Comité;",
+    "b) Se acojan a la posibilidad de que terceras partes realicen intervenciones con arreglo a lo dispuesto en el artículo 72, párrafo 3, del reglamento o promuevan y proporcionen asesoramiento a otras partes que realicen ese tipo de intervenciones;",
+    "c) Alienten a las autoridades competentes del Estado parte a traducir los dictámenes del Comité y a divulgarlos en formatos accesibles y utilizando medios y modos de comunicación alternativos y aumentativos, en particular entre las organizaciones de personas con discapacidad;",
+    "d) Hagan un seguimiento de las víctimas y les presten asistencia en la supervisión de la aplicación de los dictámenes del Comité por el Estado parte, lo cual incluye ofrecer asesoramiento al Estado parte sobre medidas o reformas legislativas, administrativas o de otro tipo;",
+    "e) Presenten información de seguimiento sobre la aplicación de los dictámenes del Comité, cuando proceda, en los 180 días siguientes a su aprobación.",
+    "D. Procedimiento de investigación (Protocolo Facultativo)",
+    "27. El Comité alienta a los marcos independientes de supervisión a que:",
+    "a) Se pongan en contacto con el Comité cuando dispongan de información fidedigna que revele violaciones graves o sistemáticas por el Estado parte de los derechos enunciados en la Convención;",
+    "b) Faciliten información cuando lo solicite el Comité en virtud del artículo 83, párrafo 3, del reglamento del Comité;",
+    "c) Cooperen con el Comité, en especial cuando el procedimiento de investigación incluya una visita al territorio del Estado parte;",
+    "d) Cuando proceda, proporcionen información de seguimiento sobre la aplicación de las recomendaciones formuladas por el Comité en su informe relativo a la investigación.",
+    "E. Actividades de fomento de la capacidad (art. 37, párr. 2, de la Convención)",
+    "28. Cuando los marcos independientes de supervisión lo consideren apropiado para mejorar la capacidad nacional de aplicación de la Convención, pueden considerar la posibilidad de pedir al Comité que les brinde asesoramiento sobre la compatibilidad del proyecto de ley, política o programa con la Convención.",
+    "29. Las solicitudes se presentarán por escrito, indicando el valor añadido de los servicios de asesoramiento prestados por el Comité. Cuando realicen la solicitud, los marcos independientes de supervisión deberán proporcionar también el texto de proyecto de ley, política o programa, en inglés, en formatos accesibles.",
+    "F. Represalias",
+    "30. El Comité alienta a los marcos independientes de supervisión a que:",
+    "a) Hagan un seguimiento de las respuestas dadas por los Estados partes a las denuncias de represalias contra particulares, grupos u organizaciones de personas con discapacidad que hayan contribuido a la labor del Comité o interactuado con este;",
+    "b) Cuando sea viable, compartan con el Comité, con regularidad, las buenas prácticas de los Estados partes en relación con la detección temprana, la evaluación de riesgos y los planes de asistencia y protección adoptados o fomentados en los casos de represalias, intimidación, acoso o persecución contra particulares, grupos u organizaciones de personas con discapacidad que hayan contribuido a la labor del Comité o interactuado con este;",
+    "c) Ayuden a las presuntas víctimas de represalias a ponerse en contacto con el Comité o con otros mecanismos de derechos humanos que se ocupen de las denuncias de represalias y a interactuar con ellos;",
+    "d) Hagan un seguimiento de las medidas adoptadas por los Estados partes para dar cumplimiento a las recomendaciones del Comité y de otros mecanismos de derechos humanos que se ocupen de las denuncias de represalias en casos concretos.",
+    "31. El Comité reconoce que las instituciones nacionales de derechos humanos y sus respectivos miembros y personal no deberían enfrentarse a ninguna forma de represalia o intimidación, entre otras la presión política, la intimidación física, el acoso o las limitaciones presupuestarias injustificables, como resultado de las actividades llevadas a cabo en virtud de sus respectivos mandatos, incluso cuando se ocupen de casos individuales o informen sobre violaciones graves o sistemáticas en sus países (véanse las resoluciones 68/171 y 70/163 de la Asamblea General sobre las instituciones nacionales de promoción y protección de los derechos humanos).",
+    "32. El Comité reconoce también el papel que pueden desempeñar las instituciones nacionales de derechos humanos en la prevención y el tratamiento de los casos de represalias como parte de las iniciativas para prestar apoyo a la cooperación entre el respectivo Estado parte y las Naciones Unidas en la promoción de los derechos humanos, entre otras cosas, contribuyendo a las medidas de seguimiento, según proceda, de las recomendaciones formuladas por los mecanismos internacionales de derechos humanos.",
+    "33. El Comité destaca que todos los casos de presuntas represalias o intimidación contra instituciones nacionales de derechos humanos y sus miembros o personal respectivos, o contra personas que cooperen o traten de cooperar con instituciones nacionales de derechos humanos, deberían ser investigados rápida y exhaustivamente, y los autores sometidos a la acción de la justicia.",
+    "IV. Seguimiento de la aplicación de la Convención a nivel nacional",
+    "34. El Comité reconoce la importancia de la función que desempeñan los marcos independientes de supervisión en la promoción, la protección y el seguimiento de la aplicación de la Convención a nivel nacional. A diferencia del Comité, los marcos de supervisión están integrados o formados por mecanismos que funcionan de manera permanente y tienen una estrecha relación con el entorno nacional, regional y local en el que se aplica la Convención.",
+    "35. El Comité reconoce también las dificultades que entraña el seguimiento de la aplicación de la Convención a nivel nacional, como la escasa disponibilidad de datos fiables por las instituciones del Estado parte; la falta de datos desglosados por sexo, edad o tipo de discapacidad; la diversidad de métodos y sistemas para evaluar la discapacidad en diferentes regiones, estados y provincias y en ministerios, departamentos y dependencias distintos; la falta de participación o la participación insuficiente de las personas con discapacidad y las organizaciones que las representan en el diseño y la realización de los censos nacionales y las encuestas de hogares; y la prevalencia de sistemas inapropiados para recopilar los datos y el hecho de que esos sistemas se basen a menudo en enfoques desfasados de la discapacidad, como el modelo médico de la discapacidad. Estos factores han impedido con frecuencia a los encargados de la elaboración de las políticas evaluar adecuadamente la situación de las personas con discapacidad e incluir a esas personas en el diseño y la aplicación de políticas y programas de carácter general o en materia de discapacidad.",
+    "36. El Comité reconoce las iniciativas adoptadas a nivel internacional, regional y nacional con miras a elaborar indicadores y parámetros de referencia para medir la aplicación de la Convención. El Comité acoge favorablemente el hecho de que los datos relativos a la aplicación de la Agenda 2030 para el Desarrollo Sostenible, incluidos los Objetivos de Desarrollo Sostenible, estarán desglosados, entre otras cosas, por discapacidad. El Comité reconoce también que varios organismos de las Naciones Unidas han elaborado o están elaborando indicadores, y acoge con satisfacción, en especial, la elaboración de indicadores de derechos humanos que tienen en cuenta la discapacidad a fin de hacer un seguimiento de la aplicación de la Convención con la participación y contribución activas de la sociedad civil y, en particular, de las personas con discapacidad y las organizaciones que las representan.",
+    "37. El Comité observa que los sistemas estadísticos nacionales no han recopilado de forma sistemática y periódica datos relativos a la situación de las personas con discapacidad y que los valores iniciales, los indicadores y los parámetros de referencia no se han utilizado ni reflejado con regularidad en las actividades de recopilación y análisis de datos a nivel nacional.",
+    "38. El Comité considera necesario que las comisiones estadísticas nacionales, las entidades de enlace y los mecanismos de coordinación designados con arreglo al artículo 33, párrafo 1, de la Convención, los organismos de las Naciones Unidas, las entidades de cooperación internacionales, las organizaciones regionales, los marcos independientes de supervisión, las organizaciones de la sociedad civil y las personas con discapacidad, a través de las organizaciones que las representan, lleven a cabo actividades colectivas, coordinadas y continuas a fin de mejorar los sistemas de recopilación y análisis de datos y, en consecuencia, la supervisión de la aplicación de los derechos enunciados en la Convención.",
+    "39. El Comité considera que el diseño, la aplicación y la evaluación de las políticas y los programas nacionales por órganos designados con arreglo al artículo 33, párrafo 1, de la Convención, así como las actividades de seguimiento realizadas con arreglo al artículo 33, párrafo 2, deben guiarse por los siguientes principios:",
+    "a) La Convención, que es un instrumento de derechos humanos y un instrumento de desarrollo a la vez, es el marco jurídico que debe tenerse en cuenta en el diseño, la aplicación, la evaluación y el seguimiento de todas las políticas y programas de desarrollo que se enmarquen en la Agenda 2030 para el Desarrollo Sostenible, incluidos los Objetivos de Desarrollo Sostenible.",
+    "b) La aplicación de la Agenda 2030 para el Desarrollo Sostenible, incluidos los Objetivos de Desarrollo Sostenible, en lo que respecta a las personas con discapacidad, debería tener en cuenta el marco internacional de derechos humanos pertinente y, en especial, la Convención.",
+    "c) Las políticas y los programas deberían diseñarse, aplicarse, evaluarse y supervisarse teniendo en cuenta el modelo de la discapacidad basado en los derechos humanos consagrado en la Convención y deberían estar orientados a detectar y subsanar las deficiencias que impiden que las personas con discapacidad, como titulares de derechos, disfruten plenamente de sus derechos, así como las deficiencias que impiden a los garantes de los derechos atender plenamente sus obligaciones jurídicas de respetar, proteger y hacer efectivos los derechos de las personas con discapacidad.",
+    "d) El doble enfoque de la discapacidad debería reflejarse en la supervisión de las políticas y los programas. Las actividades de supervisión deberían tener por objeto medir los efectos de las políticas y los programas generales en las personas con discapacidad, así como los efectos de las políticas orientadas concretamente a la discapacidad. El doble enfoque combina la utilización de políticas en materia de discapacidad orientadas a apoyar y empoderar a las personas con discapacidad con la incorporación de los derechos de las personas con discapacidad en la totalidad de las políticas y los programas de carácter general.",
+    "e) Las personas con discapacidad, a través de las organizaciones que las representan y en calidad de expertos a título individual, deberían participar de forma significativa e intervenir en el diseño, la aplicación, la evaluación y la supervisión de las políticas y los programas.",
+    "f) Los datos deberían desglosarse por sexo, edad y tipo de discapacidad a fin de asegurar que no se excluya a nadie en ninguna de las etapas de planificación, aplicación y supervisión de las políticas.",
+    "g) Las actividades de supervisión no deberían centrarse solamente en los resultados o los efectos de las políticas y los programas, sino tener también en cuenta los marcos y procesos estructurales y de políticas existentes para alcanzar esos resultados. A ese respecto, el Comité alienta a los marcos independientes de supervisión a que tengan en cuenta el enfoque de derechos humanos en los indicadores que elabore la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos.",
+    "40. El Comité alienta a los marcos independientes de supervisión a que, en el desempeño de su labor de seguimiento, tengan en cuenta lo siguiente:",
+    "a) Las recomendaciones formuladas por el Comité en sus observaciones finales y sus dictámenes relativos a comunicaciones, que periódicamente se recopilan en forma resumida en los informes bienales para la Asamblea General y el Consejo Económico y Social;",
+    "b) Las recomendaciones que figuren en los informes relativos a las investigaciones realizadas por el Comité, cuando se disponga de ellas;",
+    "c) Las observaciones generales y las directrices del Comité en relación con disposiciones de la Convención;",
+    "d) Las directrices sobre el procedimiento simplificado de presentación de informes, que reflejan la evolución de la jurisprudencia del Comité y tienen en cuenta las actividades realizadas por las Naciones Unidas y a nivel regional para elaborar valores iniciales, indicadores y parámetros de referencia para medir la aplicación de la Convención.",
+    "41. Los marcos de supervisión pueden utilizar los instrumentos mencionados supra para, entre otras cosas, elaborar y poner en práctica planes de seguimiento, a fin de evaluar en qué medida la legislación, las políticas y los programas de los Estados partes son conformes con la Convención y llevar a cabo actividades de defensa, creación de conciencia y fomento de la capacidad.",
+    "42. El Comité alienta a la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos a que, en cooperación con los marcos independientes de supervisión, las instituciones nacionales de derechos humanos y sus redes mundiales y regionales, establezca y mantenga una base de datos sobre las buenas prácticas internacionales, regionales y nacionales para elaborar indicadores y parámetros de referencia que permitan medir la aplicación de la Convención."
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 100,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "100 artículos (1–97)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ },
+ "body": "un-crpd",
+ "kind": "rules",
+ "symbol": "CRPD/C/1/Rev.1"
+}

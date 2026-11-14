@@ -1,0 +1,3101 @@
+{
+ "instrument": "un-iccpr-op2",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-12&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "192f9df322b71d0633bf40b209e0711407a5ccbd38d3373b6c98150eaabd0640"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Ratification, Accession(a), Succession(d)"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, accession or succession.)",
+   "entries": 10
+  },
+  {
+   "key": "Obj",
+   "title": "Objections",
+   "intro": "(Unless otherwise indicated, the objections were made upon ratification, accession or succession.)",
+   "entries": 14
+  }
+ ],
+ "notes": {
+  "1": "1 Official Records of the General Assembly, Forty-fourth Session, Supplement No. 49 (A/44/49) , p. 206.",
+  "2": "2On 20 June 2003, the Government of Cyprus informed the Secretary-General that it had decided to withdraw its reservation made upon accession to the Optional Protocol. The reservation reads as follows:\n“The Republic of Cyprus in accordance with article 2.1 of the [...] Protocol reserves the right to apply the Death Penalty in time of war pursuant to a conviction of a most serious crime of a military nature committed during wartime.”",
+  "3": "3The German Democratic Republic signed and ratified the Protocol on 7 March 1990 and 16 August 1990, respectively. See also note 2 under “Germany” in the “Historical Information” section in the front matter of this volume.",
+  "4": "4In a communication received on 15 June 2000, the Government of Malta informed the Secretary-General that it had decided to withdraw its reservation made upon accession. For the text of the reservation, see United Nations, Treaty Series, vol. 1844, p. 318",
+  "5": "5See note 1 under \"Montenegro\" in the \"Historical Information\" section in the front matter of this volume.",
+  "6": "6For the Kingdom in Europe, the Netherlands Antilles and Aruba. See also note 2 under “Netherlands” regarding Netherlands Antilles in the “Historical Information” section in the front matter of this volume.",
+  "7": "7See also note 1 under “New Zealand” regarding Tokelau in the “Historical Information” section in the front matter of this volume.",
+  "8": "8On 13 January 1998, the Government of Spain notified the Secretary-General that it had decided to withdraw its reservation made upon ratification. The reservation reads as follows:\nPursuant to article 2, Spain reserves the right to apply the death penalty in the exceptional and extremely serious cases provided for in Fundamental Act No. 13/1985 of 9 December 1985 regulating the Military Criminal Code, in wartime as defined in article 25 of that Act.",
+  "9": "9The reservation made upon accession read as follows:\n\"The Republic of Azerbaijan, adopting the [said Protocol], in exceptional cases, adopting the special law, allows the application of death penalty for the grave crimes, committed during the war or in condition of the threat of war.\"\nWith regard to the reservation made by Azerbaijain upon accession, the Secretary-General received communications from the following States on the dates indicated hereinafter:\nFrance (8 february 2000):\nThe Government of the French Republic has taken note of the reservation made by Azerbaijan to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, which was adopted on 15 December 1989. This reservation, in allowing the application of the death penalty for grave crimes committed during war or ‘in condition of the threat of war', exceeds the scope of the reservations permitted under article 2, paragraph 1, of the Protocol. Under this article, only a reservation made ‘at the time of ratification or accession that provides for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime' is admissible. Consequently, the Government of the French Republic expresses its objection to this reservation, without prejudice to the entry into force of the Protocol between Azerbaijan and France.\nFinland (17 March 2000):\n\"The Government of Finland notes that, according to Article 2 of the Second Optional Protocol, a reservation other than the kind referred to in the same Article is not acceptable. The reservation made by the Government of Azerbaijan is partly in contradiction with Article 2 as it does not limit theapplication of death penalty to the most serious crimes of a military nature committed during the time of war.\nThe Government of Finland therefore objects to the reservation made by the Government of Azerbaijan to the said Protocol.\nThis objection does not preclude the entry into force of the Second Optional Protocol between Azerbaijan and Finland. The Optional Protocol will thus become operative between the two states without Azerbaijan benefitting from the reservation.\"\nGermanyMarch 2000):\n\"The reservation allows the application of the death penalty for grave crimes committed during war ‘or in condition of the threat of war’. Thus the reservation is partly in contradiction of article 2 of the Protocol since it does not limit the application of the death penalty to the most serious crimes of a military nature committed during the time of war.\nThe Government of the Federal Republic of Germany therefore objects to the reservation by the Government of Azerbaijan. This objection does not preclude the entry into force of the Protocol between Azerbaijan and Germany.\"\nSweden (27 April 2000):\n“The Government of Sweden recalls that reservations other than the kind referred to in Article 2 of the Protocol are not permitted. The reservation made by the Government of Azerbaijan goes beyond the limit of Article 2 of the Protocol, as it does not limit the application of the death penalty to the most serious crimes of a military nature committed during the time of war.\nThe Government of Sweden therefore objects to the aforesaid reservation made by the Government of Azerbaijan to the Second Optional Protocol to the International Covenant on Civil and Political Rights.\nThis shall not preclude the entry into force of the Second Optional Protocol to the International Covenant on Civil and Political Rights between the Republic of Azerbaijan and the Kingdom of Sweden, without Azerbaijan benefiting from the reservation.\"\nNetherlands (17 July 2000)\n“ The Government of the Kingdom of the Netherlands notes that, according to Article 2 of the Second Optional Protocol, a reservation other than the kind referred to in the same Article is not acceptable. The reservation made by the Government of Azerbaijan is in contradiction with Article 2 as it does not limit the application of death penalty to the most serious crimes of a military nature committed during the time of war.\nThe Government of the Kingdom of the Netherlands therefore objehe aforesaid reservation made by the Government of Azerbaijan.\nThis objection shall not preclude the entry into force of the Convention between the Kingdom of the Netherlands and Azerbaijan.\"\nSubsequently, on 28 September 2000, the Government of Azerbaijan communicated to the Secretary-General a modification to its reservation made upon accession. Within a period of 12 months from the date of its circulation, i.e. on 5 October 2000, none of the Contracting States to the Protocol notified the Secretary-General of an objection. Consequently, the modified reservation was deemed to have been accepted for deposit upon the expiration of the 12 month period, i.e., on 5 October 2001."
+ },
+ "participants": [
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-10-17",
+    "type": "accession",
+    "code": "a",
+    "raw": "17 Oct 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-01-17",
+    "denunciation": null,
+    "consent": "2007-10-17",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=2&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "d10688a56343dd3508808a8742aa515b11c722809c6a984f23836360cfd1575f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-10-17",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AND",
+   "name": "Andorra",
+   "signature": "2002-08-05",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Sep 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-12-22",
+    "denunciation": null,
+    "consent": "2006-09-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=4&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "80bdbcafe5d9d73ec566e5ec35880ec794771b360f02d6664e98301b46040daa"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-09-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-10-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Oct 2019"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2020-01-02",
+    "denunciation": null,
+    "consent": "2019-10-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=5&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "bfe036612c3222f0c118c6efff09c982318d6506b7808d52853c75b258f79663"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2019-10-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2006-12-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Sep 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-12-02",
+    "denunciation": null,
+    "consent": "2008-09-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=7&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "9de2ef213457a7a7cdfd3acefedb1c1314a20bc2e7b2ad7fecd49a353ff07c6c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-09-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": "2019-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-03-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Mar 2021"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2021-06-18",
+    "denunciation": null,
+    "consent": "2021-03-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=8&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "2fac18ba79ba4f7fee345ee07acaae9f44aab4a1fa1eac476ed556568501c55b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2021-03-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1990-10-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Oct 1990 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1990-10-02",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=9&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "02622eecea19ec13f8af24eff46da737f8b2c08ab1832ea62c4f7db128ee4e0e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1990-10-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": "1991-04-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-03-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Mar 1993"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "7 April 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Government of Austria has examined the reservation made by the Republic of El Salvador upon accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, adopted on 15 December 1989.\nThe Government of Austria recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and that no reservations are permitted other than reservations made within the limits of Article 2 of the Protocol. In the light of the wording of Article 2 (1), a reservation to the Protocol is allowed to the extent that it concerns the application of the death penalty in times of war pursuant to a conviction for a most serious crime of a military nature committed during wartime. According to Article 2 (2), the State Party making such a reservation shall at the time of ratification or accession communicate to the Secretary-General of the United Nations the relevant provisions of its national legislation applicable during wartime.\nAccording to the information available, the applicable provisions of the national legislation of El Salvador specifying the application of the death penalty to the most serious crimes of a military nature in wartime were not communicated to the Secretary-General.\nThe Government of Austria therefore objects to this reservation.\nThis objection shall not preclude the entry into force of the Protocol between Austria and the Republic of El Salvador.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1993-06-02",
+    "denunciation": null,
+    "consent": "1993-03-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=10&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "ff70ca960b1516c61832ddf2741a60ca926471e66768067f913c03d77fd161de"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-03-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-01-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Jan 1999 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "9"
+     ],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "28 September 2000\n“It is provided for the application of the death penalty in time of war pursuant to a conviction of a person for a most serious crime of a military nature committed during wartime.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1999-04-22",
+    "denunciation": null,
+    "consent": "1999-01-22",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=11&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "a649e829539bb5f79bb5c52623fc3774849e99bc563f87bcac4ecb1d8f2c7ba5"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1999-01-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "1990-07-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-12-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Dec 1998"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1999-03-08",
+    "denunciation": null,
+    "consent": "1998-12-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=17&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "fcef2edac27a28e8e0aff1e269c4ee8ea57db50dbe81d71764577ee693e288aa"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1998-12-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-07-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Jul 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-10-05",
+    "denunciation": null,
+    "consent": "2012-07-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=19&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "7fa19e41977efb7111346596e0d697452891e8e61ec33da31443d177c47d22f6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-07-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-07-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Jul 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2013-07-12",
+    "denunciation": null,
+    "consent": "2013-07-12",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=21&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "2378ecc8d86a82b550a8b3457fa25e3120098d1dfc8d7446f928377bc0556439"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-07-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-03-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 Mar 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2001-06-16",
+    "denunciation": null,
+    "consent": "2001-03-16",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=22&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "f23be6fb4dbddf8728136dd8ca2c2a78e17d39b36112c8c9fce71416c520e7f3"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-03-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-09-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Sep 2009 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "... with an express reservation to article 2."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2009-12-25",
+    "denunciation": null,
+    "consent": "2009-09-25",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=24&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "b71c88ebfccf08a5e9f969bcc53e24150712c3c485cf4eb371b0a44603eca049"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-09-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": "1999-03-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-08-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Aug 1999"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1999-11-10",
+    "denunciation": null,
+    "consent": "1999-08-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=26&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "dd6800dc5406846f8824bcafe7bb64948fca2ce9f42417d35ca4ee93a62cd197"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1999-08-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-05-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 May 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2000-08-19",
+    "denunciation": null,
+    "consent": "2000-05-19",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=32&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "733da1e6cb4e567d5817e09e1504f5ff8cbc96005d2c013833000ba47ee5b622"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2000-05-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-11-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Nov 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-02-25",
+    "denunciation": null,
+    "consent": "2005-11-25",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=31&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "0db7a5946ebefb5a831cb2736c84d0a0f976ff455d6791f50da54557d571c3d7"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-11-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2001-11-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Sep 2008"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "The State of Chile formulates the reservation authorised under article 2, paragraph 1, of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, and may in consequence apply the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2008-12-26",
+    "denunciation": null,
+    "consent": "2008-09-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=35&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "fafb7cecd523f232e8a5886f620845763c9dc5e469efbf109ec95be2df93d55a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-09-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1997-08-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Aug 1997 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1997-11-04",
+    "denunciation": null,
+    "consent": "1997-08-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=37&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "98a5a615cb9813b904def81fa515c485c31f1209b860ec9151c779f035bcad8b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1997-08-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1990-02-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-06-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Jun 1998"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1998-09-05",
+    "denunciation": null,
+    "consent": "1998-06-05",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=41&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "2768f16167b0ed943371ab663e60f86e3cd7fe38c288970253b8d500cefc575c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1998-06-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-05-03",
+    "type": "accession",
+    "code": "a",
+    "raw": "3 May 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2024-08-03",
+    "denunciation": null,
+    "consent": "2024-05-03",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=42&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "103b143f4c466f5164d20b965ec37ca6367d2f23212e4b5b5ba79f3ee4702696"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-05-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-10-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Oct 1995 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1996-01-12",
+    "denunciation": null,
+    "consent": "1995-10-12",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=43&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "938ecfcadc58074fe608b7eb07587d19828d8a1c9d6e6e124007a47e6426a569"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1995-10-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-09-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Sep 1999 a"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1999-12-10",
+    "denunciation": null,
+    "consent": "1999-09-10",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=45&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "6f7a87c80cee46f9f71eff7f677b737c16c21dd78df5388e75e65b387bd2e5d4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1999-09-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-06-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Jun 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-09-15",
+    "denunciation": null,
+    "consent": "2004-06-15",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=46&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "1427b0e174f311a97baaf5d59ae1b9032e6b3bafd96858eb841612f63415c830"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-06-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-02-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Feb 1994"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1994-05-24",
+    "denunciation": null,
+    "consent": "1994-02-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=49&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "e6e358839fbcc37147c6903a767e3945a9c30a8e601433437155bbe81e44d5a4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-02-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-11-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Nov 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-02-05",
+    "denunciation": null,
+    "consent": "2002-11-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=50&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "44280ac8a20dab63d3cc3974e21b8ad32896503add42ff328ee67fcf5221ab85"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-11-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-09-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Sep 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2016-12-21",
+    "denunciation": null,
+    "consent": "2016-09-21",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=52&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "dc88a82aed2dd222b611c7b9b27079bc237573614ab093f33d94415453786bd0"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-09-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-02-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Feb 1993 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1993-05-23",
+    "denunciation": null,
+    "consent": "1993-02-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=53&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "7a8371dd2c1bebfee9a3a18aff4c1847810ffe03adb7a75f5470d7d0f38d409f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-02-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-04-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 Apr 2014 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "The Government of the Republic of El Salvador accedes to the Second Optional Protocol to the International Covenant on Civil and Political Rights aiming at the abolition of the death penalty with an express reservation permitted to States under article 2 of the Protocol, which consists on the application of the death penalty in accordance with article 27 of the Constitution of the Republic of El Salvador, which reads as follows: ‘The death penalty may be imposed only in the cases provided by the military laws during an international state of war’."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2014-07-08",
+    "denunciation": null,
+    "consent": "2014-04-08",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=55&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "a787e416b7d0a20cc11d5099df7268f6cd14e3f22bd33fb690ddc4a98d92bf77"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-04-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-01-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Jan 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-04-30",
+    "denunciation": null,
+    "consent": "2004-01-30",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=58&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "6c0fcbae20f4e94dfbcea8231799f3f8b123a9c1fc78892db84bfd2ab1216ada"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-01-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-04-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Apr 1991"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "27 September 2010\nWith regard to the reservation made by Brazil upon accession:\n“The Government of Finland welcomes the accession of Brazil to the Second Optional Protocol to the International Covenant on Civil and Political Rights, and has taken note of the reservation made by Brazil to Article 2 thereof upon accession.\nThe Government of Finland recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and reservations are, as a main rule, not admissible. This object of aiming at the complete abolition of the death penalty enjoys the full support of Finland. However, the Government observes that, in the light of the wording of Article 2(1), a reservation to the Protocol is allowed to the extent it concerns the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime. The acceptability of such a reservation requires that the State Party making the reservation communicates, at the time of ratification or accession, to the Secretary-General of the United Nations the relevant provisions of its national legislation applicable during wartime.\nAccordingly, the Government of Finland would find the reservation made by Brazil acceptable, provided it meets the requirements set out in Article 2(1) and (2). According to information available to the Government, the applicable provisions of the national legislation of Brazil were not communicated to the Secretary-General at the time of accession. Therefore, the Government of Finland objects to the reservation. Should, to the contrary, Brazil have communicated the provisions to the Secretary-General pursuant to Article 2(2), this objection may be considered null and void.\nThis objection shall not preclude the entry into force of the Protocol between Brazil and Finland. The Protocol will thus become operative between the two states without Brazil benefiting from its reservation.\"\n7 April 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Permanent Mission of Finland to the United Nations presents its compliments to the Secretary-General of the United Nations and, referring to the Depositary Notification C.N.201.2014.TREATIES-IV.12 of 8 April 2014 concerning the accession of the Republic of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, has the honour to communicate the following statement:\nThe Government of Finland has carefully examined the reservation made by the Republic of El Salvador to Article 2 of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty.\nThe Government of Finland recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and reservations are, as a main rule, not admissible. This object of aiming at the complete abolition of the death penalty enjoys the full support of Finland. However, the Government observes that, in light of the wording of Article 2(1), a reservation to the Protocol is allowed to the extent it concerns the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime. The acceptability of such a reservation requires that the State Party making the reservation communicates, at the time of ratification or accession, to the Secretary-General of the United Nations the relevant provisions of its national legislation applicable during wartime.\nAccordingly, the Government of Finland would find the reservation made by the Republic of El Salvador acceptable provided it meets the requirements set out in Article 2(1) and (2). According to information available to the Government, the applicable provisions of the national legislation of the Republic of El Salvador were not communicated to the Secretary-General at the time of accession. Therefore, the Government of Finland objects to the reservation.\nThis objection shall not preclude the entry into force of the Protocol between Finland and the Republic of El Salvador. The Protocol will thus become operative between the two States without the Republic of El Salvador benefitting from its reservation.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1991-04-04",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=61&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "6bffee7eb6ab5c86ed187c71ca21f1d6252020b7a36a79a654dee55697b4788a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1991-04-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-10-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Oct 2007 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "6 April 2015\nWith regard to the reservation made by El Salvador upon accession:\nThe Government of the French Republic has examined the reservation made by the Government of the Republic of El Salvador upon accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty.\nIn that reservation, the Government of the Republic of El Salvador states that it intends to make use of the right contained in article 2, paragraph 1 of the Protocol, providing for application of the death penalty in certain situations, pursuant to article 27 of the Constitution of El Salvador, according to which “The death penalty may be imposed only in the cases provided by the military laws during an international state of war”.\nArticle 2, paragraph 1 of the Protocol, however, requires that application of the death penalty be limited, “in time of war” to cases in which there is a “conviction for a most serious crime of a military nature committed during wartime”.\nThe absence of a specific restriction on the reservation to the “most serious” crimes committed during wartime seems not to meet the requirements of article 2, paragraph 1 of the Protocol.\nIn that regard, the reservation made by the Government of the Republic of El Salvador is inadmissible pursuant to the very provisions of the Protocol. Thus, the Government of the French Republic objects to the reservation made by the Government of the Republic of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty. This objection does not preclude the entry into force of this Protocol between France and El Salvador."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2008-01-02",
+    "denunciation": null,
+    "consent": "2007-10-02",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=62&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "686bd678e4aa8454a1810149ca7c947fb44ca8425e1e1deb92e5fde8352b4d89"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-10-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-04-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Apr 2014 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-07-02",
+    "denunciation": null,
+    "consent": "2014-04-02",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=63&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "1218f5122c30ec4ee6d1425b8d0dda1eebfa4f0d0630d9261c910f06c53e00db"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-04-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GMB",
+   "name": "Gambia",
+   "signature": "2017-09-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-09-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Sep 2018"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2018-12-28",
+    "denunciation": null,
+    "consent": "2018-09-28",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=64&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "28aa8663fc5f6d12fe3f70ab8693beaf9591039bcd7190a2721674058aff0c5b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2018-09-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-03-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Mar 1999 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1999-06-22",
+    "denunciation": null,
+    "consent": "1999-03-22",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=65&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "356e532bbd0c129c0351082a3d98f4f524e96bb2071307a0ea2079d701edb70f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1999-03-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-08-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Aug 1992"
+   },
+   "notes": [
+    "3"
+   ],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "31 March 2015\nWith regard to the reservation made by El Salvador upon accession:\nThe Permanent Mission of the Federal Republic of Germany to the United Nations presents its compliments to the Treaty Section and, with reference to depositary notification C.N.201.2014.TREATIES-IV.l2 dated April 8, 2014 regarding the reservation made by the Republic of El Salvador upon its accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the Abolition of the Death penalty of 15 December 1989, has the honour to communicate the following:\nThe Government of the Federal Republic of Germany has carefully examined the reservation made by the Republic of El Salvador upon its accession to the Second Optional Protocol.\nIt recalls, that the complete abolition of the death penalty is the object and purpose of the Second Optional Protocol, and that according to Article 2 reservations are not permissible with the one exception of a reservation that provides for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during war time. The Government of the Federal Republic of Germany believes that the reservation made by the Republic of El Salvador goes beyond the limits of Article 2 of the Optional Protocol, as it does not explicitly limit the application of the death penalty to the most serious crimes of a military nature. The Government of the Federal Republic of Germany therefore considers the reservation made by the Republic of El Salvador to be incompatible with the object and purpose of the Second Optional Protocol and that it consequently has to be considered impermissible.\nThe Government of the Federal Republic of Germanytherefore objects to this reservation. This objection shall not preclude the entry into force of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the Abolition of the Death Penalty of 15 December 1989 between the Federal Republic of Germany and the Republic of El Salvador."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1992-11-18",
+    "denunciation": null,
+    "consent": "1992-08-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=66&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "936bd27d95264bd035db04df40bd57df3f1c449ab10e86be6c548508753e8b3b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1992-08-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GRC",
+   "name": "Greece",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1997-05-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 May 1997 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "Subject to article 2 for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1997-08-05",
+    "denunciation": null,
+    "consent": "1997-05-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=68&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "7fe0ade97c74ca931d2760c2531e6783e314dd3696b2f1c37f6cc0eefc5f1df3"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1997-05-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2000-09-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Declaration\nHereby declare that the declaration the Government has made in accordance with Article 41 of the International Covenant on Civil and Political Rights to recognize the competence of the Human Rights Committee to receive and consider communications when a State Party claims that another State Party is not fulfilling its obligations do not extend to the provisions of the Second Optional Protocol, as provided in Article 4 thereof.\nAlso, declare that the competence that the Government of Guinea-Bissau recognizes for the Human Rights Committee to receive and consider communications from individuals subject to its jurisdiction does not extend to the provisions of the Second Optional Protocol, in accordance with the option provided in Article 5 thereof."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2013-12-24",
+    "denunciation": null,
+    "consent": "2013-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=72&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "0b62d8d46c1cf6de502f8a02096131f1acab266bb0731cd926f701e4f80c223f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "1990-05-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-04-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Apr 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-07-01",
+    "denunciation": null,
+    "consent": "2008-04-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=76&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "f3a12e5cbe9ed69f72538adfaa49fd7ce8deb791e60d6b4a371652bdd4bc334e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-04-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HUN",
+   "name": "Hungary",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-02-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Feb 1994 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1994-05-24",
+    "denunciation": null,
+    "consent": "1994-02-24",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=77&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "c864654e64a55aacc876cf184288e2b1010cbcb8dff7d7b98c86986da775cf73"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-02-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": "1991-01-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-04-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Apr 1991"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1991-04-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=78&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "ef94c9fcc7ab207fc136bd23056cd9a34018323ef14096a01c2a018825cbb914"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1991-04-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-06-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Jun 1993 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "7 April 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Government of Ireland welcomes the accession by the Republic of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty.\nThe Government of Ireland has examined the reservation made by the Government of the Republic of El Salvador to Article 2 thereof upon accession and recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and that no reservations are permitted other than reservations made in strict accordance with Article 2 of the Protocol.\nThe Government of Ireland considers that the reservation made by the Government of the Republic of El Salvador goes beyond the strict limits of Article 2 of the Protocol, as it neither explicitly limits the application of the death penalty to the most serious crimes of a military nature committed during wartime nor indicates the relevant provisions of the Republic of El Salvador's national legislation applicable during wartime, which must be communicated, at the time of accession, to the Secretary-General of the United Nations. Should, however, the Government of the Republic of El Salvador have communicated clarification regarding these provisions to the Secretary-General pursuant to Article 2(2), this objection may be considered null and void.\nThe Government of Ireland recalls that, according to customary international law, as codified in the Vienna Convention on the Law of Treaties, a reservation incompatible with the object and purpose of a treaty shall not be permitted.\nThe Government of Ireland therefore objects to the aforesaid reservation made bythe Government of the Republic of El Salvador to Article 2 of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty.\nThis objection shall not preclude the entry into force of the Protocol between Ireland and the Republic of El Salvador.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1993-09-18",
+    "denunciation": null,
+    "consent": "1993-06-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=83&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "a88ef0b7777953a0d27b6fcfe18e9c6c44145a43676fe97f578813db6251532d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-06-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-02-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Feb 1995"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "2 April 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Permanent Mission of Italy to the United Nations presents its compliments to the Secretary-General of the United Nations in his capacity as depositary of the 1989 Second Optional Protocol to the International Covenant on Civil and Political Rights aiming at the abolition of the death penalty.\nThe Government of Italy has examined the reservation made by the Republic of El Salvador upon accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights aiming at the abolition of the death penalty, adopted in New York on December 15, 1989.\nThe Government of Italy recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and that no reservations are permitted other than reservations made in strict accordance with Article 2 of the Protocol. The reservation made by the Government of El Salvador goes beyond the limit of Article 2 of the Protocol, as it does not explicitly limit the application of the death penalty to the most serious crimes of a military nature committed during wartime, which must be specified.\nAccording to customary international law, as codified in the Vienna Convention on the Law of Treaties, a reservation incompatible with the object and purpose of a treaty shall not be permitted.\nThe Government of Italy therefore objects to the aforesaid reservation made by El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights and considers the reservation null and void.\nThis objection shall not preclude the entry into force of the Protocol between El Salvador and Italy. The Convention will enter into force between El Salvador and Italy without El Salvador [benefiting from the reservation.]”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1995-05-14",
+    "denunciation": null,
+    "consent": "1995-02-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=85&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "f8cf819f8e1811272cac5d7ded4aed018231d1a5875453311af085fda7d674f6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1995-02-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": "2020-09-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-03-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Mar 2022"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2022-06-24",
+    "denunciation": null,
+    "consent": "2022-03-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=89&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "0c962039bec12d56abc8620dcdfbb4b0b9560290bf590202b220cd192aa079ca"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2022-03-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KGZ",
+   "name": "Kyrgyzstan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-12-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Dec 2010 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-03-06",
+    "denunciation": null,
+    "consent": "2010-12-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=93&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "5c579640246e00d7d10a0fb9b8f373d64a9555ff7c0b4ada6fddc200b53c2866"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-12-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LVA",
+   "name": "Latvia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-04-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Apr 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2013-07-19",
+    "denunciation": null,
+    "consent": "2013-04-19",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=95&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "972c804134cdb635b9ac58fc178c4aabefcd668fbc7e8d0e2acae55b1d76a375"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-04-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-09-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Sep 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-12-16",
+    "denunciation": null,
+    "consent": "2005-09-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=98&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "1e2d9255c9c304583bba7625ef9aa4a92bd4776cfd37a9f8cef8b59099678df6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-09-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-12-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Dec 1998 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1999-03-10",
+    "denunciation": null,
+    "consent": "1998-12-10",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=100&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "4323a1b8e7e02622df085a31bf8267e408207917e32270157603984593c6e712"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1998-12-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Mar 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-27",
+    "denunciation": null,
+    "consent": "2002-03-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=101&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "ce8d1d32de9d77edd23d881025cd612f1c08c2682bd1b0b9b8ad0dfb3c180a27"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-03-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-02-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Feb 1992"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1992-05-12",
+    "denunciation": null,
+    "consent": "1992-02-12",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=102&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "20a7b4dd52f300d789b737593074cf323a7832c5674968ce455d97b5df8989b8"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1992-02-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2012-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-09-21",
+    "type": "ratification",
+    "code": null,
+    "raw": "21 Sep 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2017-12-21",
+    "denunciation": null,
+    "consent": "2017-09-21",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=103&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "f2f4fca0f1f6434da0fdf6c16fdd6c9149fe013b0e0c95bd24d7efa9af393f0c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-09-21",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-12-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Dec 1994 a"
+   },
+   "notes": [
+    "4"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1995-03-29",
+    "denunciation": null,
+    "consent": "1994-12-29",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=108&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "9b2c77e01bf12cbde5ed529575e44bba7d39544c5b021233cb5f77a6469c0360"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-12-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-09-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Sep 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-12-26",
+    "denunciation": null,
+    "consent": "2007-09-26",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=112&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "66d4d93cdb5fe7e7319b12edc715cfab8f5bceecfa2f9b2af2250e76c1717d17"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-09-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-03-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Mar 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2000-06-28",
+    "denunciation": null,
+    "consent": "2000-03-28",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=114&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "f69d1cd98782cc5e4134c61e6d0fbcfc0ca6d01b37788f8a123df1635c9dafc3"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2000-03-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-03-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Mar 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-06-13",
+    "denunciation": null,
+    "consent": "2012-03-13",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=115&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "273419e307ab9736edb4799b02f2603d6fb4ace27d48f7fec8999357fe96a64f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-03-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-10-23",
+    "type": "succession",
+    "code": "d",
+    "raw": "23 Oct 2006 d"
+   },
+   "notes": [
+    "5"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-10-23",
+    "denunciation": null,
+    "consent": "2006-10-23",
+    "consent_code": "d",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=116&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "40ff71407a7796d4b0978eaa43d9c6996c11f6f01623df710b3e4b463c6c931d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-10-23",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-07-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Jul 1993 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1993-10-21",
+    "denunciation": null,
+    "consent": "1993-07-21",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=118&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "7342c65019975cae95edacaf096d1caa8907c3f0e836f366411cf198dff4de2b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-07-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-11-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Nov 1994 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1995-02-28",
+    "denunciation": null,
+    "consent": "1994-11-28",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=120&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "57560f09c8176bcdc59d516e57dbcdc9abd77e07ddca05b2487a01dc809dc078"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-11-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-03-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Mar 1998 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1998-06-04",
+    "denunciation": null,
+    "consent": "1998-03-04",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=122&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "4ef96ff790e02893bd90b8a725c2305e8b718b9560584a6f5b6599bae457ef27"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1998-03-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": "1990-08-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-03-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Mar 1991"
+   },
+   "notes": [
+    "6"
+   ],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "2 April 2015\nWith regard to the reservation made by El Salvador upon accession:\n\"The Government of the Kingdom of the Netherlands welcomes the accession of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights, and has taken note of the reservation made by El Salvador with respect to Article 2 thereof upon accession.\nThe Government of the Kingdom of the Netherlands recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and reservations are, as a main rule, not admissible. This object of aiming at the complete abolition of the death penalty enjoys the full support of the Kingdom of the Netherlands. However, the Government observes that, in the light of the wording of Article 2(1), a reservation to the Protocol is allowed to the extent that it concerns the application of the death penalty in times of war pursuant to a conviction for a most serious crime of a military nature committed during wartime. The acceptability of such a reservation requires that the State Party making the reservation communicates, at the time of ratification or accession, to the Secretary-General of the United Nations the relevant provisions of its national legislation applicable during wartime.\nAccordingly, the Government of the Kingdom of the Netherlands would find the reservation made by El Salvador acceptable, provided that it meets the requirements set out in Article 2(1) and (2). However, according to information available to the Government, the applicable provisions of the national legislation of El Salvador specifying the application of the death penalty to the most serious crimes of a military nature in wartime were not communicated to the Secretary-General at the time of accession. Therefore, the Government of the Kingdom of the Netherlands objects to the reservation.\nThis objection shall not preclude the entry into force of the Protocol [between the Kingdom of the Netherlands and El Salvador].\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1991-03-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=123&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "0abcc8ec9e4c04bb87a264a922b7db4a58f5be950842c185102c56936019fa9a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1991-03-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": "1990-02-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1990-02-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Feb 1990"
+   },
+   "notes": [
+    "7"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1990-02-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=124&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "fe1c8c143e03859b1301628e73191fe93e329192166529a14f13c1d700ea2896"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1990-02-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1990-02-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-02-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Feb 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-05-25",
+    "denunciation": null,
+    "consent": "2009-02-25",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=125&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "197a34bc5a0f95b4e6acde9241c1ffeefce7e79adb0a4599a1610f3397c321c6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-02-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-01-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Jan 1995 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1995-04-26",
+    "denunciation": null,
+    "consent": "1995-01-26",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=173&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "7b257374180a4cc49278c1f6377c452a751bee6f6abdf8d8fd512c4bbd1c9dfc"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1995-01-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NOR",
+   "name": "Norway",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-09-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Sep 1991"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "30 March 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Permanent Mission of Norway to the United Nations presents its compliments to the Secretary-General of the United Nations, and, with reference to Depositary Notification C.N.201.2014.TREATIES-IV.12, has the honour to inform that the Government of Norway has examined the reservation made by the Government of El Salvador upon its accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty.\nThe Government of Norway recalls that, pursuant to paragraph 1 of article 2, of the Optional Protocol, no reservation is permitted except for a reservation that provides for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime. The Government of Norway notes that the reservation made by El Salvador goes beyond those situations where a reservation is permitted in accordance with paragraph 1 of article 2 of the Optional Protocol as the reservation does not explicitly limit the application of the death penalty to the most serious crimes of a military nature committed during wartime.\nThe Government of Norway therefore objects to the reservation made by the Republic of El Salvador. This objection does not preclude the entry into force of the Second Optional Protocol, in its entirety, between Norway and El Salvador. The Second Optional Protocol thus becomes operative between Norway and the Republic of El Salvador without El Salvador benefiting from the aforesaid reservation.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1991-12-05",
+    "denunciation": null,
+    "consent": "1991-09-05",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=129&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "fa9ddf760cf368f5c755b73030e99b1951891f09ec8da7b17dd6a4f8a8580139"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1991-09-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-01-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Jan 1993 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1993-04-21",
+    "denunciation": null,
+    "consent": "1993-01-21",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=133&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "62711a739a1b1796a34b9db03b7c81858ba2d49fd41a99f9a860297f8a50d8fb"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-01-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-08-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Aug 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-11-18",
+    "denunciation": null,
+    "consent": "2003-08-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=135&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "dda77bf5ab37241c7ae5a8e2c2ece8d60b9c4bf276d1d62fb94ff834dcee9cac"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-08-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PHL",
+   "name": "Philippines",
+   "signature": "2006-09-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-11-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Nov 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-02-20",
+    "denunciation": null,
+    "consent": "2007-11-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=137&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "9b8a6f580bb62b1be3fa0bd3c2074143fd61027f8bb28348e94ca3b1ca463ce1"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-11-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": "2000-03-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-04-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Apr 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "27 March 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Government of the Republic of Poland has examined the reservation made by [the] Republic of El Salvador upon accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights aiming at the abolition of the death penalty, adopted in New York on December 15, 1989.\nThe Government of the Republic of Poland notes that the purpose and object of the Protocol is the complete abolition of the death penalty and that no reservation is admissible, except for a reservation which provides for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime.\nWhile making the reservation [the] Republic of El Salvador invoked the article 27 of its Constitution, which refers to unspecified military laws. The Government of the Republic of Poland notes that [the] Republic of El Salvador refers in its reservation to the domestic legislation possibly affecting the application of the Protocol, including the admissibility of application of death penalty, without specifying the exact content of this legislation. As a result, it is impossible to clearly define the extent to which the reserving State will accept the application of the death penalty and if such an application will be limited to the most serious crimes of a military nature committed during wartime. Thus the reservation is not compatible with the art. 2 of the Protocol and it is incompatible with the object and purpose of the Protocol. According to customary international law as codified in the Vienna Convention on the Law of Treaties, a reservation that is incompatible with the object and purposeof a treaty shall not be permitted.\nTherefore, the Government of the Republic of Poland objects to the reservation made by [the] Republic of El Salvador upon accession to the Second Optional Protocol to the International Covenant on Civil and Political Rights aiming at the abolition of the death penalty and considers the reservation null and void.\nThis objection does not preclude the entry into force of the Covenant between the Republic of El Salvador and [the] Republic of Poland.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2014-07-25",
+    "denunciation": null,
+    "consent": "2014-04-25",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=138&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "a1fb1eb20639482bd2e62aa5f74678e2d7582dec080e9c960a3709c412f00002"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-04-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1990-10-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Oct 1990"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "1 April 2015\nWith regard to the reservation made by El Salvador upon accession:\n“The Government of the Portuguese Republic has examined the reservation made by the Republic of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, New York, 15 December 1989.\nUnder Article 2, paragraph 1 of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, New York, 15 December 1989, no reservation is admissible to the present Protocol, except for a reservation made at the time of ratification or accession that provides for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime.\nThe Government of the Portuguese Republic considers that the reservation made by the Republic of El Salvador goes beyond the limit of the exception foreseen in Article 2, paragraph 1, since its scope is unclear and does not clarify the cases in which the death penalty will be applicable.\nThe Government of the Portuguese Republic therefore objects to the aforesaid reservation made by the Republic of El Salvador to Article 2 of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, New York, 15 December 1989.\nHowever, this objection shall not preclude the entry into force of the Convention between the Portuguese Republic and the Republic of El Salvador.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1990-10-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=139&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "729aaa9199bfe565434ba665b2cbe8d6cd70a653090d41e1ad7ee9e30256d17e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1990-10-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Sep 2006 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\"Until the full re-establishment of the territorial integrity of the Republic of Moldova, the provisions of the Convention shall be applied only on the territory controlled effectively by the authorities of the Republic of Moldova. \""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2006-12-20",
+    "denunciation": null,
+    "consent": "2006-09-20",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=142&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "f848a473d1a85f27418b358d2a8ddc9cd116bd7026274b544ea6095cc634d7fa"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-09-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": "1990-03-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-02-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Feb 1991"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1991-02-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=143&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "d0a10e20071623389e9a84ccdbb02811398da98735f6a3dc131aebcc77dac41c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1991-02-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Dec 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-03-17",
+    "denunciation": null,
+    "consent": "2008-12-15",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=145&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "8115d5dee1a2970c5583a43c75425a5e23d164ddba833262e9d6d638476c8fd6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-12-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": "2003-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-08-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Aug 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-11-17",
+    "denunciation": null,
+    "consent": "2004-08-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=150&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "8cd6dfe283970aa6b08349708d4b3ea4a038b9b0fc761db19573aeeb57829c67"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-08-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "STP",
+   "name": "Sao Tome and Principe",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-01-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Jan 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2017-04-10",
+    "denunciation": null,
+    "consent": "2017-01-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=151&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "e0ce1719c1fd74d848085a0ee1acc743d9d67f03aceba015e80be7c834a2aa47"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-01-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-09-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Sep 2001 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2001-12-06",
+    "denunciation": null,
+    "consent": "2001-09-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=154&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "395b5a7a2d6226faf61993b92a510aab74d00b1e115d3185d18bf5ccd768f181"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-09-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-12-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Dec 1994 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1995-03-15",
+    "denunciation": null,
+    "consent": "1994-12-15",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=155&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "b67e2ebb32b3fdcea3af27b7c5167ed6c9a182ed7b1baafd31d1957f33a4a894"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-12-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "1998-09-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-06-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Jun 1999"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1999-09-22",
+    "denunciation": null,
+    "consent": "1999-06-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=158&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "67b49fc08f60653d19c588c1cc30ce9516be28bee9c7502365b6fcf257aed96f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1999-06-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "1993-09-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-03-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Mar 1994"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1994-06-10",
+    "denunciation": null,
+    "consent": "1994-03-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=159&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "2f5d2b36b84ed9d05ea78b984a5fb1488054b8ee9f8af4f542600315b262a40d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-03-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Aug 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-11-28",
+    "denunciation": null,
+    "consent": "2002-08-28",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=162&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "65e984e22fa922d0932c8dca90a383a197eda377a682d44f99b4999e31f46a0f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-08-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "1990-02-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-04-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Apr 1991"
+   },
+   "notes": [
+    "8"
+   ],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "7 April 2015\nWith regard to the reservation made by El Salvador upon accession:\nThe Permanent Mission of Spain to the United Nations presents its compliments to the Secretariat of the United Nations and has the honour to communicate that the Kingdom of Spain declares that it objects to the reservation made by the Government of the Republic of El Salvador to article 2 of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty (New York, 15 December 1989).\nThe Kingdom of Spain has examined the reservation made by the Republic of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights and considers that it does not fall within the limits of the exception provided for in article 2, paragraph 1, of that Optional Protocol. The Government of the Kingdom of Spain considers that the reservation made by the Republic of El Salvador goes beyond those limits, since it does not specify its scope or the cases in which the death penalty would be applicable.\nAccordingly, the Kingdom of Spain objects to the aforementioned reservation made by the Republic of El Salvador to article 2 of the Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, without prejudice to the entry into force of the [Protocol] as between the Kingdom of Spain and the Republic of El Salvador."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1991-04-11",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=163&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "cad5ee6f98724662100962c582d03fe701938b5263a6fe790e17fbebf451ea55"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1991-04-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-03-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Mar 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2019-06-18",
+    "denunciation": null,
+    "consent": "2019-03-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=217&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "073bee0e3f8519361c4ff681d4b6cb3a5ccb2ee916a2ac14dfb77ee8fc49a3c4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2019-03-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1990-05-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 May 1990"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "25 August 2014\nWith regard to the reservation made by El Salvador upon accession:\n“The Government of Sweden welcomes the accession of El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights, and has examined the reservation made by El Salvador to Article 2 thereof upon accession.\nThe Government of Sweden recalls that it is the object and purpose of the Second Optional Protocol to abolish the death penalty in all circumstances and that no reservations are permitted other than reservations made in strict accordance with Article 2 of the Protocol. The reservation made by the Government of El Salvador goes beyond the limit of Article 2 of the Protocol, as it does not explicitly limit the application of the death penalty to the most serious crimes of a military nature committed during wartime, which must be specified.\nAccording to customary international law, as codified in the Vienna Convention on the Law of Treaties, a reservation incompatible with the object and purpose of a treaty shall not be permitted. It is in the common interest of States that treaties to which they have chosen to become parties are respected as to their object and purpose, by all parties, and that States are prepared to undertake any legislative changes necessary to comply with their obligations under the treaties.\nThe Government of Sweden therefore objects to the aforesaid reservation made by El Salvador to the Second Optional Protocol to the International Covenant on Civil and Political Rights and considers the reservation null and void. This objection shall not preclude the entry into force of the Protocol between El Salvador and Sweden. The Protocol will enter into force between El Salvador and Sweden without El Salvador benefiting from this reservation.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1991-07-11",
+    "denunciation": null,
+    "consent": "1990-05-11",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=168&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "344d26a5e3d86d19d73ca356e44bf90df593f7898a0f231ab1dbba0f34da3af4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1990-05-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-06-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Jun 1994 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "6 March 2015\nWith regard to the reservation made by El Salvador upon accession:\nThe Swiss Federal Council has examined the reservation made by the Government of the Republic of El Salvador upon ratification of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty, adopted on 15 December 1989.\nThe Federal Council recalls that, pursuant to article 2, paragraph 1, of the Protocol, no reservation is admissible except for a reservation that provides for the application of the death penalty in time of war pursuant to a conviction for a most serious crime of a military nature committed during wartime. The Swiss Federal Council believes that the reservation does not meet those conditions of validity as it does not limit the death penalty in time of war to the most serious crimes. Neither the article of the constitution quoted in the reservation nor the military laws to which it refers indicate such a limitation.\nIt is in the common interest of States that treaties to which they have chosen to become parties are respected by all parties, and that States are prepared to undertake any legislative changes necessary to comply with their treaty obligations.\nThe Swiss Federal Council objects to the reservation made by the Republic of El Salvador. This objection does not preclude the entry into force of the Protocol, in its entirety, between the Republic of El Salvador and Switzerland."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "1994-09-16",
+    "denunciation": null,
+    "consent": "1994-06-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=169&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "239ef34ec56bda0d10cdd37e538a420368c174491edf918712115b87e3a2ee69"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1994-06-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-09-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Sep 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-12-18",
+    "denunciation": null,
+    "consent": "2003-09-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=174&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "3a38b34a9ca09db51cf2ec4d0eb195b12f3c3406b23706a6b3d2e737f6ec2a70"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-09-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-09-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Sep 2016 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "With regard to the reservation made by El Salvador upon accession:\nThe Togolese Government, which has chosen to be unreservedly abolitionist, has examined the reservation made by the Government of El Salvador to article 2 of the Second Optional Protocol to the International Covenant on Civil and Political Rights, aiming at the abolition of the death penalty. The Togolese Government recalls that article 1, paragraph 1, of the Second Optional Protocol, by stipulating that “no one within the jurisdiction of a State Party to the present Protocol shall be executed”, specifically and unambiguously commits States Parties to abolish the death penalty under all circumstances and without exceptions.\nHowever, by not explicitly limiting the application of the death penalty to the most serious crimes of a military nature committed during wartime or indicating the relevant provisions of El Salvador’s national legislation applicable during wartime, which must be communicated, at the time of accession, to the Secretary-General of the United Nations, as required by the provisions of article 2 of the Protocol, the reservation made by the Government of El Salvador is incompatible with the spirit and letter of the Protocol.\nThe Togolese Government therefore objects to the aforesaid reservation. However, this objection shall not preclude the entry into force of the Protocol between the Togolese Republic and the Republic of El Salvador."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2016-12-14",
+    "denunciation": null,
+    "consent": "2016-09-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=175&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "4bed76bf90fe4ea2b89b1723a4b5f976947d1ed661a43216beefb83694262c2d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-09-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TUR",
+   "name": "Türkiye",
+   "signature": "2004-04-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-03-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Mar 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-06-02",
+    "denunciation": null,
+    "consent": "2006-03-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=179&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "c43add7b6798348ec749483e4fbd2e9ceb5cf19b8872eb3503f3c4e10b7ef227"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-03-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-01-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Jan 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2000-04-11",
+    "denunciation": null,
+    "consent": "2000-01-11",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=180&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "d273dc820749e88dd2e4fee3b818b7b4766c0c7a01f745dca5182390955cb7ba"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2000-01-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-07-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Jul 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-10-25",
+    "denunciation": null,
+    "consent": "2007-07-25",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=183&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "bd86e1ad90d1e1b605f747d079e54716bf5e11578e9407f7ccd88c298f00dcad"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-07-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GBR",
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "signature": "1999-03-31",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-12-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Dec 1999"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2000-03-10",
+    "denunciation": null,
+    "consent": "1999-12-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=185&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "d403c34657e59bfd8d836bc24f8d15bb4ac73a98391e9b2455cab0a43913d0db"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1999-12-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1990-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-01-21",
+    "type": "ratification",
+    "code": null,
+    "raw": "21 Jan 1993"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1993-04-21",
+    "denunciation": null,
+    "consent": "1993-01-21",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=188&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "5accb3ed0101a738531a0d71e4598515497dca5ce5c3d42fac893c360a4ba3d8"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-01-21",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "UZB",
+   "name": "Uzbekistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Dec 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-03-23",
+    "denunciation": null,
+    "consent": "2008-12-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=189&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "0b8709bd8bb0bd6acf2ab604d42ec0bfbd2ce0113166ca8739408b8d9a401fff"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-12-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": "1990-06-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-02-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Feb 1993"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "1993-05-22",
+    "denunciation": null,
+    "consent": "1993-02-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=191&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "ea59607866bf9e5d915d0b00c9a87f72abe7c0a55c5b06f15da384671ba78ee5"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "1993-02-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-12-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Dec 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2025-03-19",
+    "denunciation": null,
+    "consent": "2024-12-19",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=194&Lang=SP",
+     "retrieved": "2026-11-09",
+     "sha256": "e8ef843401b0843577802b0144c39c220cc9572a52e48b0f767bcde4a7fe66be"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-12-19",
+    "type": "accession"
+   }
+  }
+ ]
+}

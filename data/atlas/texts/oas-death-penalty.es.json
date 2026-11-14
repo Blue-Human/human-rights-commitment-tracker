@@ -1,0 +1,189 @@
+{
+ "instrument": "oas-death-penalty",
+ "authority": "depositary",
+ "lang": "es",
+ "title": null,
+ "source": {
+  "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+  "document": "Texto del tratado A-53",
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
+  "retrieved": "2026-11-09",
+  "sha256": "e2c29c0a9bbb906e7b1a9928fab8731b533d3b91a278e7d0ef4b96f71baad01c",
+  "method": "html:container"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "LOS ESTADOS PARTES EN EL PRESENTE PROTOCOLO;"
+  },
+  {
+   "id": "pre-2",
+   "text": "CONSIDERANDO:"
+  },
+  {
+   "id": "pre-3",
+   "text": "Que el artículo 4 de la Convención Americana sobre Derechos Humanos reconoce el derecho a la vida y restringe la aplicación de la pena de muerte;"
+  },
+  {
+   "id": "pre-4",
+   "text": "Que toda persona tiene el derecho inalienable a que se le respete su vida sin que este derecho pueda ser suspendido por ninguna causa;"
+  },
+  {
+   "id": "pre-5",
+   "text": "Que la tendencia en los Estados americanos es favorable a la abolición de la pena de muerte;"
+  },
+  {
+   "id": "pre-6",
+   "text": "Que la aplicación de la pena de muerte produce consecuencias irreparables que impiden subsanar el error judicial y eliminar toda posibilidad de enmienda y rehabilitación del procesado;"
+  },
+  {
+   "id": "pre-7",
+   "text": "Que la abolición de la pena de muerte contribuye a asegurar una protección más efectiva del derecho a la vida;"
+  },
+  {
+   "id": "pre-8",
+   "text": "Que es necesario alcanzar un acuerdo internacional que signifique un desarrollo progresivo de la Convención Americana sobre Derechos Humanos, y"
+  },
+  {
+   "id": "pre-9",
+   "text": "Que Estados Partes en la Convención Americana sobre Derechos Humanos han expresado su propósito de comprometerse mediante un acuerdo internacional, con el fin de consolidar la práctica de la no aplicación de la pena de muerte dentro del continente americano,"
+  },
+  {
+   "id": "pre-10",
+   "text": "HAN CONVENIDO en suscribir el siguiente"
+  },
+  {
+   "id": "pre-11",
+   "text": "PROTOCOLO A LA CONVENCIÓN AMERICANA SOBRE DERECHOS HUMANOS RELATIVO A LA ABOLICIÓN DE LA PENA DE MUERTE"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "Los Estados Partes en el presente Protocolo no aplicarán en su territorio la pena de muerte a ninguna persona sometida a su jurisdicción."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. No se admitirá ninguna reserva al presente Protocolo. No obstante, en el momento de la ratificación o adhesión, los Estados Partes en este instrumento podrán declarar que se reservan el derecho de aplicar la pena de muerte en tiempo de guerra conforme al derecho internacional por delitos sumamente graves de carácter militar.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. El Estado Parte que formule esa reserva deberá comunicar al Secretario General de la Organización de los Estados Americanos, en el momento de la ratificación o la adhesión las disposiciones pertinentes de su legislación nacional aplicables en tiempo de guerra a la que se refiere el párrafo anterior.",
+     "number": "2"
+    },
+    {
+     "id": "art-2-p3",
+     "text": "3. Dicho Estado Parte notificará al Secretario General de la Organización de los Estados Americanos de todo comienzo o fin de un estado de guerra aplicable a su territorio.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "El presente Protocolo queda abierto a la firma y la ratificación o adhesión de todo Estado Parte en la Convención Americana sobre Derechos Humanos."
+    },
+    {
+     "id": "art-3-p2",
+     "text": "La ratificación de este Protocolo o la adhesión al mismo se efectuará mediante el depósito de un instrumento de ratificación o de adhesión en la Secretaría General de la Organización de los Estados Americanos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "El presente Protocolo entrará en vigencia, para los Estados que lo ratifiquen o se adhieran a él, a partir del depósito del correspondiente instrumento de ratificación o adhesión en la Secretaría General de la Organización de los Estados Americanos (OEA)."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 4,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "4 artículos (1–4)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

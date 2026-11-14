@@ -1,0 +1,2473 @@
+{
+ "instrument": "un-cedaw-op",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-b&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "937964cdafea6c51b80fa45ab232a4ea75c9fb3cb2fb2009800b69cc2350138d"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Ratification, Accession(a), Succession(d)"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, accession or succession.)",
+   "entries": 7
+  }
+ ],
+ "notes": {
+  "1": "1With the following :\nThe Argentine Republic wishes to reiterate the content of its notes of 3 April 1989 and 18 January 2005, by which it rejected the extension of the territorial application of the Convention on the Elimination of All Forms of Discrimination against Women and of the Optional Protocol thereto, respectively, to the Malvinas Islands, notified by the United Kingdom of Great Britain and Northern Ireland.\nThe Argentine Republic recalls that the Malvinas Islands, South Georgia and the South Sandwich Islands and surrounding maritime areas are an integral part of the territory of the Argentine Republic and are illegally occupied by the United Kingdom of Great Britain and Northern Ireland, being the subject of a sovereignty dispute.\nBecause of the illegal occupation by the United Kingdom of Great Britain and Northern Ireland, the General Assembly of the United Nations adopted resolutions 2065 (XX), 316[0] (XXVIII), 31/49, 37/9, 38/12, 39/6, 40/21, 41/40, 42/19 and 43/25, in which a sovereignty dispute regarding the \"Question of the Malvinas Islands\" is recognized and the Governments of the Argentine Republic and the United Kingdom of Great Britain and Northern Ireland are urged to resume negotiations in order to find as soon as possible a peaceful and lasting solution to the dispute.\nThe United Nations Special Political and Decolonization Committee has repeatedly affirmed this view, most recently in its resolution of 15 June 2006.",
+  "2": "2See note 1 under \"Montenegro\" in the \"Historical Information\" section in the front matter of this volume.",
+  "3": "3For the Kingdom in Europe and the Netherlands Antilles and Aruba. See also note 2 under “Netherlands” regarding Netherlands Antilles in the “Historical Information” section in the front matter of this volume.",
+  "4": "4With a declaration to the effect that “consistent with the constitutional status of Tokelau and taking into account its commitment to the development of self-government through an act of self-determination under the Charter of the United Nations, this ratification shall not extend to Tokelau unless and until a Declaration to this effect is lodged by the Government of New Zealand with the depositary on the basis of appropriate consultation with that territory.”",
+  "5": "5With a territorial application to the Falkland Islands (Malvinas) and the Isle of Man.\nOn 18 January 2005, the Secretary-General received, from the Government of Argentina, the following communication:\nThe Argentine Republic wishes to reiterate the content of its note of 3 April 1989, by which it rejected the extension of the territorial application of the Convention on the Elimination of All Forms of Discrimination against Women to the Malvinas (Falkland) Islands, South Georgia and the South Sandwich Islands, notified by the Government of the United Kingdom upon its ratification of that instrument on 7 April 1986.\nThe Argentine Republic similarly rejects the declaration of territorial application made by the United Kingdom of Great Britain and Northern Ireland upon its accession to the 1999 Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women, with respect to the Malvinas (Falkland) Islands. The Government of Argentina wishes to reiterate that the Malvinas (Falkland) Islands, South Georgia and the South Sandwich Islands and surrounding maritime areas are an integral part of the territory of the Argentine Republic and are illegally occupied by the United Kingdom of Great Britain and Northern Ireland, being the subject of a sovereignty dispute.\nBecause of the illegal occupation by the United Kingdom of Great Britain and Northern Ireland, the General Assembly of the United Nations adopted resolutions 2065 (XX), 3160 (XXVIII), 31/49, 37/9, 38/12, 39/6, 40/21, 41/40, 42/19 and 43/25, in which a sovereignty dispute regarding the \"Question of the Malvinas (Falkland) Islands\" is recognized and the Governments of the Argentine Republic and the United Kingdom of Great Britain and Northern Ireland are urged to resume negotiations in order to find as soon as possible a peaceful and lasting solution to the dispute.\nThe United Nations Special Political and Decolonization Committee has repeatedly affirmed this view, most recently inits resolution of 18 June 2004 (A/59/23).",
+  "6": "6On 22 November 2022, the Government of Colombia notified the Secretary-General of its decision to partially withdraw the following declarations it made upon ratification (refer to depositary notification C.N.81.2007.TREATIES-IV.8.b of 31 January 2007 (Ratification: Colombia)). The text of the declarations being withdrawn reads as follows:\nThe Government of Colombia, exercising the discretion provided for in article 10 of the Optional Protocol, and subject to the conditions set out therein, declares that it does not recognize the competence of the Committee provided for in articles 8 and 9 of the Protocol.\nThe Government of Colombia declares that no provision of the Optional Protocol and no recommendation of the Committee may be interpreted as requiring Colombia to decriminalize offences against life or personal integrity.\nOn 8 February 2023, the Government of Colombia notified the Secretary-General of its decision to withdraw the remaining declaration it made upon ratification, which text reads as follows:\nThe Government of Colombia understands article 5 of the Protocol to mean that interim measures not only preclude “a determination on admissibility or on the merits of the communication”, as established in article 5, paragraph 2, but that any measures involving the enjoyment of economic, social and cultural rights shall be applied in keeping with the progressive nature of these rights."
+ },
+ "participants": [
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-06-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Jun 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-06-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AND",
+   "name": "Andorra",
+   "signature": "2001-07-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-10-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Oct 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-10-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-11-01",
+    "type": "accession",
+    "code": "a",
+    "raw": "1 Nov 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-11-01",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ATG",
+   "name": "Antigua and Barbuda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-06-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Jun 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-06-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2000-02-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-03-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Mar 2007"
+   },
+   "notes": [
+    "1"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-03-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Sep 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-09-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Dec 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-12-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Sep 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": "2000-06-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-06-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Jun 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-06-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Sep 2000"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“The Government of the People’s Republic of Bangladesh declares in accordance with Article 10 (1) thereof, that it would not undertake the obligations arising out of Articles 8 and 9 of the said Optional Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLR",
+   "name": "Belarus",
+   "signature": "2002-04-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-02-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Feb 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-02-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-06-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Jun 2004"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Upon signature"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Flemish, French and German-speaking Communities of Belgium are equally bound by this signature."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2004-06-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-12-09",
+    "type": "accession",
+    "code": "a",
+    "raw": "9 Dec 2002 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\"WHEREAS, Article 10 of the Optional Protocol declares that at the time of acceding to the Optional Protocol, a State Party may declare that it does not recognize the competence of the Committee provided for in Articles 8 and 9 of the Optional Protocol\nNOW THEREFORE, BELIZE, after having carefully considered Articles 8 and 9 of the Optional Protocol, hereby declares that it does not recognize the competence of the Committee provided for in Articles 8 and 9.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2002-12-09",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "2000-05-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-09-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Sep 2019"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-09-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Sep 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-09-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Sep 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-09-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BWA",
+   "name": "Botswana",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-02-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Feb 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-02-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": "2001-03-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-06-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Jun 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-06-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": "2000-06-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Sep 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-09-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "2001-11-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-10-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Oct 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-10-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "signature": "2001-11-13",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2001-11-13",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-10-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Oct 2011 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-10-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "signature": "2001-11-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-10-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Oct 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2010-10-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CMR",
+   "name": "Cameroon",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-01-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Jan 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-01-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-10-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Oct 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-10-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-10-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Oct 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-10-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TCD",
+   "name": "Chad",
+   "signature": "2012-09-26",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2012-09-26",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2020-03-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Mar 2020"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Interpretative declarations",
+     "kind": "declaration",
+     "text": "(1) The Republic of Chile, in ratifying this Optional Protocol, reaffirms its ongoing commitment to the promotion and protection of women’s human rights and gender equality, which are objectives that are provided for in the legal system of the Republic of Chile.\n(2) The Republic of Chile interprets article 5 of the Optional Protocol as meaning that any request for interim measures as referred to therein, and made with respect to the economic, social and cultural rights enshrined in the Convention, will be examined and applied, in keeping with the progressive nature of these rights.\n(3) The Republic of Chile ratifies the present Optional Protocol on the understanding that the special procedure provided for in articles 8 and 9 thereof may not be used to address situations that, given their particular nature, could be the subject of an individual communication. Accordingly, this special procedure cannot be used to circumvent the requirements of article 4 for the submission of individual communications, such as the exhaustion of domestic remedies or the need for the facts giving rise to the case to fall within the temporal scope of the Optional Protocol.\n(4) The Republic of Chile declares that recognition of the competence of the Committee as established under articles 8 and 9 of the Optional Protocol shall in no way infringe upon the right to life of the unborn child."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2020-03-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-01-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Jan 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-01-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COG",
+   "name": "Congo",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-09-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "COK",
+   "name": "Cook Islands",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-11-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Nov 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-11-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-09-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Sep 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-09-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-01-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Jan 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-01-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": "2000-06-05",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-03-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Mar 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-03-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CUB",
+   "name": "Cuba",
+   "signature": "2000-03-17",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Upon signature:"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Government of the Republic of Cuba declares that it does not recognize the competence of the committee established by virtue of articles 8 and 9 of the Protocol."
+    }
+   ],
+   "status": {
+    "code": "signature",
+    "date": "2000-03-17",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": "2001-02-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-04-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Apr 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-04-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-02-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Feb 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-02-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-05-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 May 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-05-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "signature": "2000-03-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-08-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Aug 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-08-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-02-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Feb 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-02-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "2001-04-04",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2001-04-04",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GNQ",
+   "name": "Equatorial Guinea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-10-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Oct 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-10-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2025-07-17",
+    "type": "accession",
+    "code": "a",
+    "raw": "17 Jul 2025 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2025-07-17",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-12-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Dec 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-12-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-06-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Jun 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-06-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-11-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Nov 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-11-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-01",
+    "type": "accession",
+    "code": "a",
+    "raw": "1 Aug 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-08-01",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-01-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Jan 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-01-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "2000-02-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-02-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Feb 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-02-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GRC",
+   "name": "Greece",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-01-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jan 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-01-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-05-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2000-09-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-08-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Aug 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-08-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HUN",
+   "name": "Hungary",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-12-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Dec 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-12-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-03-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Mar 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-03-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IDN",
+   "name": "Indonesia",
+   "signature": "2000-02-28",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2000-02-28",
+    "type": null
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Sep 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Sep 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-08-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Aug 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-08-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KGZ",
+   "name": "Kyrgyzstan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-07-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Jul 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-07-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": "2004-09-22",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2004-09-22",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LBY",
+   "name": "Libya",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-06-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Jun 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-06-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-10-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Oct 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-10-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-08-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Aug 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-08-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-07-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Jul 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-07-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2000-09-07",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MWI",
+   "name": "Malawi",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2000-09-07",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-03-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Mar 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-03-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-12-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Dec 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-12-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-03-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Mar 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-03-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MHL",
+   "name": "Marshall Islands",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-01-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Jan 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-01-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "signature": "2001-11-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-10-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Oct 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-10-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Mar 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-03-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-05-03",
+    "type": "accession",
+    "code": "a",
+    "raw": "3 May 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2016-05-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Mar 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-03-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-10-23",
+    "type": "succession",
+    "code": "d",
+    "raw": "23 Oct 2006 d"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-10-23",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-04-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Apr 2022 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-04-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-11-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Nov 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-11-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "signature": "2000-05-19",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-05-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 May 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-05-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "signature": "2001-12-18",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-06-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Jun 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-06-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 May 2002"
+   },
+   "notes": [
+    "3"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-05-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Sep 2000"
+   },
+   "notes": [
+    "4"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NER",
+   "name": "Niger",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Sep 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-09-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-11-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Nov 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-11-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": "2000-04-03",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-10-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Oct 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-10-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NOR",
+   "name": "Norway",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Mar 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-03-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "2000-06-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-05-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 May 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-05-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1999-12-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-05-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 May 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-05-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "2000-12-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-04-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Apr 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-04-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PHL",
+   "name": "Philippines",
+   "signature": "2000-03-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-11-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Nov 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-11-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-12-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Dec 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-12-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "2000-02-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-04-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Apr 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-04-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KOR",
+   "name": "Republic of Korea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-10-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Oct 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-10-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-02-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Feb 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-02-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-08-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Aug 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-08-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "RUS",
+   "name": "Russian Federation",
+   "signature": "2001-05-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-07-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Jul 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-07-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Dec 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-12-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-09-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Sep 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-09-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "STP",
+   "name": "Sao Tome and Principe",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-03-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Mar 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-03-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-05-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 May 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-05-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-07-31",
+    "type": "accession",
+    "code": "a",
+    "raw": "31 Jul 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-07-31",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": "2002-07-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-03-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Mar 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-03-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2000-09-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "2000-06-05",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-11-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Nov 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-11-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Sep 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLB",
+   "name": "Solomon Islands",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 May 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-05-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-10-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Oct 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-10-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SSD",
+   "name": "South Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-04-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Apr 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-04-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "2000-03-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-07-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Jul 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-07-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LKA",
+   "name": "Sri Lanka",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-10-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Oct 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-10-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KNA",
+   "name": "St. Kitts and Nevis",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-01-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Jan 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-01-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-04-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Apr 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-04-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": "1999-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-04-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Apr 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-04-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": "2007-02-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Sep 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TJK",
+   "name": "Tajikistan",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-07-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Jul 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“… the Majlisi Oli (Parliament) of the Republic of Tajikistan ratified the Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women from 6 October 1999, without recognizing the competence of the United Nations Committee on the Elimination of Discrimination against Women, provided in Articles 8 and 9 of the Protocol.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2014-07-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "THA",
+   "name": "Thailand",
+   "signature": "2000-06-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-06-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Jun 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-06-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-04-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Apr 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-04-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Sep 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-09-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TUR",
+   "name": "Türkiye",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-10-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Oct 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-10-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-05-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 May 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-05-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-09-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Sep 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-09-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GBR",
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-12-17",
+    "type": "accession",
+    "code": "a",
+    "raw": "17 Dec 2004 a"
+   },
+   "notes": [
+    "5"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-12-17",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TZA",
+   "name": "United Republic of Tanzania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-01-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Jan 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-01-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "2000-05-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-07-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Jul 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-07-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VUT",
+   "name": "Vanuatu",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-05-17",
+    "type": "accession",
+    "code": "a",
+    "raw": "17 May 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-05-17",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": "2000-03-17",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-05-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "2008-09-29",
+    "type": null
+   }
+  }
+ ]
+}

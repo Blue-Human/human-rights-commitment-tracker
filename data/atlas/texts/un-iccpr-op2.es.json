@@ -1,0 +1,355 @@
+{
+ "instrument": "un-iccpr-op2",
+ "authority": "authentic",
+ "lang": "es",
+ "title": "SEGUNDO PROTOCOLO FACULTATIVO DEL PACTO INTERNACIONAL DE DERECHOS CIVILES Y POLÍTICOS DESTINADO A ABOLIR LA PENA DE MUERTE",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de ratificación de España del Segundo Protocolo Facultativo del Pacto Internacional de Derechos Civiles y Políticos destinado a abolir la pena de muerte adoptado por la Asamblea General de las Naciones Unidas el 15 de diciembre de 1989.",
+  "identifier": "BOE-A-1991-17792",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-17792",
+  "data_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1991-17792",
+  "eli": "https://www.boe.es/eli/es/ai/1989/12/15/(1)",
+  "published": "1991-07-10",
+  "retrieved": "2026-11-09",
+  "sha256": "bffe0be0248c91bc41333781f7960805925c8c1d9c35d6c5789b4f495801d762",
+  "method": "boe-gazette"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Partes en el presente Protocolo,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Considerando que la abolición de la pena de muerte contribuye a elevar la dignidad humana y desarrollar progresivamente los derechos humanos,"
+  },
+  {
+   "id": "pre-3",
+   "text": "Recordando el artículo 3.º de la Declaración Universal de Derechos Humanos aprobada el 10 de diciembre de 1948 y el artículo 6 del Pacto Internacional de Derechos Civiles y Políticos, aprobado el 16 de diciembre de 1966,"
+  },
+  {
+   "id": "pre-4",
+   "text": "Observando que el artículo 6 del Pacto Internacional de Derechos Civiles y Políticos se refiere a la abolición de la pena de muerte en términos que indican claramente que dicha abolición es deseable,"
+  },
+  {
+   "id": "pre-5",
+   "text": "Convencidos de que todas las medidas de abolición de la pena de muerte deberían ser consideradas un adelanto en el goce del derecho a la vida,"
+  },
+  {
+   "id": "pre-6",
+   "text": "Deseosos de contraer por el presente Protocolo un compromiso internacional para abolir la pena de muerte,"
+  },
+  {
+   "id": "pre-7",
+   "text": "Han convenido en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. No se ejecutará a ninguna persona sometida a la jurisdicción de un Estado Parte en el presente Protocolo.",
+     "number": "1"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "2. Cada uno de los Estados Partes adoptará todas las medidas necesarias para abolir la pena de muerte en su jurisdicción.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. No se admitirá ninguna reserva al presente Protocolo, con excepción de una reserva formulada en el momento de la ratificación o la adhesión en la que se prevea la aplicación de la pena de muerte en tiempo de guerra como consecuencia de una condena por un delito sumamente grave de carácter militar cometido en tiempo de guerra.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. El Estado Parte que formule esa reserva deberá comunicar al Secretario general de las Naciones Unidas, en el momento de la ratificación o la adhesión, las disposiciones pertinentes de su legislación nacional aplicables en tiempo de guerra.",
+     "number": "2"
+    },
+    {
+     "id": "art-2-p3",
+     "text": "3. El Estado Parte que haya formulado esa reserva notificará al Secretario general de las Naciones Unidas de todo comienzo o fin de un estado de guerra aplicable a su territorio.",
+     "number": "3"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Los Estados Partes en el presente Protocolo deberán incluir en los informes que presenten al Comité de Derechos Humanos, en virtud del artículo 40 del Pacto, información sobre las medidas que han adoptado para poner en vigor el presente Protocolo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "Respecto de los Estados Partes en el Pacto que hayan hecho una declaración en virtud del artículo 41, la competencia del Comité de Derechos Humanos para recibir y considerar comunicaciones en las que un Estado Parte alegue que otro Estado Parte no cumple con sus obligaciones se hará extensiva a las disposiciones del presente Protocolo, a menos que el Estado Parte interesado haya hecho una declaración en sentido contrario en el momento de la ratificación o la adhesión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "Respecto de los Estados Partes en el primer Protocolo Facultativo del Pacto Internacional de Derechos Civiles y Políticos, aprobado el 16 de diciembre de 1966, la competencia del Comité de Derechos Humanos para recibir y considerar comunicaciones de personas que estén sujetas a su jurisdicción se hará extensiva a las disposiciones del presente Protocolo, a menos que el Estado Parte interesado haya hecho una declaración en sentido contrario en el momento de la ratificación o la adhesión."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. Las disposiciones del presente Protocolo serán aplicables en carácter de disposiciones adicionales del Pacto.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. Sin perjuicio de la posibilidad de formular una reserva con arreglo al artículo 2 del presente Protocolo, el derecho garantizado en el párrafo 1 del artículo 1 del presente Protocolo no estará sometido a ninguna suspensión en virtud del artículo 4 del Pacto.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "1. El presente Protocolo está abierto a la firma de cualquier Estado que haya firmado el Pacto.",
+     "number": "1"
+    },
+    {
+     "id": "art-7-p2",
+     "text": "2. El presente Protocolo está sujeto a ratificación por cualquier Estado que haya ratificado el Pacto o se haya adherido a él. Los instrumentos de ratificación se depositarán en poder del Secretario general de las Naciones Unidas.",
+     "number": "2"
+    },
+    {
+     "id": "art-7-p3",
+     "text": "3. El presente Protocolo quedará abierto a la adhesión de cualquier Estado que haya ratificado el Pacto o se haya adherido a él.",
+     "number": "3"
+    },
+    {
+     "id": "art-7-p4",
+     "text": "4. La adhesión se efectuará mediante el depósito del instrumento correspondiente en poder del Secretario general de las Naciones Unidas.",
+     "number": "4"
+    },
+    {
+     "id": "art-7-p5",
+     "text": "5. El Secretario general de las Naciones Unidas informará a todos los Estados que hayan firmado el presente Protocolo o se hayan adherido a él, del depósito de cada uno de los instrumentos de ratificación o adhesión.",
+     "number": "5"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. El presente Protocolo entrará en vigor transcurridos tres meses a partir de la fecha en que haya sido depositado el décimo instrumento de ratificación o de adhesión en poder del Secretario general de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. Respecto de cada Estado que ratifique el presente Protocolo o se adhiera a él después de haber sido depositado el décimo instrumento de ratificación o adhesión, el presente Protocolo entrará en vigor una vez transcurridos tres meses a partir de la fecha en que tal Estado haya depositado su propio instrumento de ratificación o de adhesión.",
+     "number": "2"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "Las disposiciones del presente Protocolo serán aplicables a todas las partes componentes de los Estados federales, sin limitación ni excepción alguna."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "El Secretario general de las Naciones Unidas comunicará a todos los Estados mencionados en el párrafo 1 del artículo 48 del Pacto:"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "a) Las reservas, comunicaciones y notificaciones conforme a lo dispuesto en el artículo 2 del presente Protocolo;"
+    },
+    {
+     "id": "art-10-p3",
+     "text": "b) Las declaraciones hechas conforme a lo dispuesto en los artículos 4 ó 5 del presente Protocolo;"
+    },
+    {
+     "id": "art-10-p4",
+     "text": "c) Las firmas, ratificaciones y adhesiones conformes a lo dispuesto en el artículo 7 del presente Protocolo;"
+    },
+    {
+     "id": "art-10-p5",
+     "text": "d) La fecha en que entre en vigor el presente Protocolo conforme a lo dispuesto en el artículo 8 del mismo."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "1. El presente Protocolo, cuyos textos en árabe, chino, español, francés, inglés y ruso son igualmente auténticos, será depositado en los archivos de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-11-p2",
+     "text": "2. El Secretario general de las Naciones Unidas enviará copias certificadas del presente Protocolo a todos los Estados mencionados en el artículo 48 del Pacto.",
+     "number": "2"
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "spain_instrument": [
+  "JUAN CARLOS I,",
+  "REY DE ESPAÑA",
+  "Por cuanto el día 23 de febrero de 1990, el plenipotenciario de España, nombrado en buena y debida forma al efecto, firmó en Nueva York el Segundo Protocolo Facultativo del Pacto Internacional de Derechos Civiles y Políticos destinado a abolir la pena de muerte adoptado por la Asamblea General de las Naciones Unidas el 15 de diciembre de 1989.",
+  "Vistos y examinados los once artículos de dicho Protocolo,",
+  "Concedida por las Cortes Generales la autorización prevista en el artículo 94.1 de la Constitución,",
+  "Vengo en aprobar y ratificar cuanto en él se dispone, como en virtud del presente lo apruebo y ratifico, prometiendo cumplirlo, observarlo y hacer que se cumpla y observe puntualmente en todas sus partes, a cuyo fin, para su mayor validación y firmeza Mando expedir este Instrumento de Ratificación firmado por Mí, debidamente sellado y refrendado por el infrascrito Ministro de Asuntos Exteriores, con la siguiente reserva:",
+  "«De conformidad con el artículo 2, España se reserva el derecho de aplicar la pena de muerte en los casos excepcionales y sumamente graves, previstos en la Ley Orgánica 13/1985, de 9 de diciembre, del Código Penal Militar, en tiempo de guerra, tal y como se define en el artículo 25 de la citada Ley Orgánica.»",
+  "Dado en Madrid a 22 de marzo de 1991.",
+  "JUAN CARLOS R.",
+  "El Ministro de Asuntos Exteriores,",
+  "FRANCISCO FERNÁNDEZ ORDÓÑEZ"
+ ],
+ "publication_notes": [
+  "ESTADOS PARTE",
+  "AD: Adhesion; R: Ratificacion.",
+  "[Entrada en vigor]",
+  "El presente Protocolo entrará en vigor de forma general y para España el día 11 de julio de 1991, de conformidad con lo establecido en el artículo 8 del mismo.",
+  "Lo que se hace público para conocimiento general.",
+  "Madrid, 3 de julio de 1991.–El Secretario general técnico, Aurelio Pérez Giralda."
+ ],
+ "authentic_clause": {
+  "article": "11",
+  "paragraph": "art-11-p1",
+  "text": "1. El presente Protocolo, cuyos textos en árabe, chino, español, francés, inglés y ruso son igualmente auténticos, será depositado en los archivos de las Naciones Unidas."
+ },
+ "quality": {
+  "articles": 11,
+  "stated_articles": 11,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "11 artículos (1–11)"
+   },
+   {
+    "check": "recuento_declarado",
+    "ok": true,
+    "detail": "el instrumento declara 11; extraídos 11"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

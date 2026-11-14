@@ -1,0 +1,2365 @@
+{
+ "generated": "2026-11-09",
+ "procedures": [
+  {
+   "id": "un-ccpr-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-ccpr",
+   "name_es": "Comunicaciones individuales ante el Comité de Derechos Humanos",
+   "acceptance": {
+    "party": "un-iccpr-op1",
+    "tb": "CCPR-OP1"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-iccpr-op1",
+     "a": "1",
+     "x": "reconoce la competencia del Comité",
+     "p": null,
+     "quote": "Todo Estado Parte en el Pacto que llegue a ser parte en el presente Protocolo reconoce la competencia del Comité para recibir y considerar comunicaciones de individuos que se hallen bajo la jurisdicción de ese Estado y que aleguen ser víctimas de una violación, por ese Estado Parte, de cualquiera de los derechos enunciados en el Pacto. El Comité no recibirá ninguna comunicación que concierna a un Estado Parte en el Pacto que no sea parte en el presente Protocolo.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "un-iccpr-op1",
+     "a": "2",
+     "x": "todo individuo que alegue una violación",
+     "p": null,
+     "quote": "Con sujeción a lo dispuesto en el artículo 1, todo individuo que alegue una violación de cualquiera de sus derechos enumerados en el Pacto y que haya agotado todos los recursos internos disponibles podrá someter a la consideración del Comité una comunicación escrita.",
+     "lang": "es",
+     "anchor": "art-2",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [
+    {
+     "i": "un-iccpr-op1",
+     "a": "1",
+     "x": "Estado Parte en el Pacto que no sea parte en el presente Protocolo",
+     "p": null,
+     "quote": "Todo Estado Parte en el Pacto que llegue a ser parte en el presente Protocolo reconoce la competencia del Comité para recibir y considerar comunicaciones de individuos que se hallen bajo la jurisdicción de ese Estado y que aleguen ser víctimas de una violación, por ese Estado Parte, de cualquiera de los derechos enunciados en el Pacto. El Comité no recibirá ninguna comunicación que concierna a un Estado Parte en el Pacto que no sea parte en el presente Protocolo.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "interim": [
+    {
+     "i": "un-ccpr-rules",
+     "a": "94",
+     "x": "medidas provisionales",
+     "p": "1",
+     "quote": "1. En cualquier momento después de registrar una comunicación y antes de que se haya llegado a una decisión sobre el fondo, el Comité podrá solicitar al Estado parte interesado que adopte con carácter urgente las medidas provisionales que el Comité considere necesarias para evitar posibles actos que pudieran tener consecuencias irreparables para los derechos invocados por el autor.",
+     "lang": "es",
+     "anchor": "art-94",
+     "heading": null,
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "CCPR/C/3/Rev.12",
+      "url": "https://documents.un.org/api/symbol/access?s=CCPR/C/3/Rev.12&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [
+    {
+     "i": "un-ccpr-rules",
+     "a": "106",
+     "x": "seguimiento",
+     "p": "1",
+     "quote": "1. El Comité designará a un Relator Especial para el seguimiento de los dictámenes aprobados en virtud del artículo 5, párrafo 4, del Protocolo Facultativo, a fin de cerciorarse de que los Estados partes han tomado medidas para dar efecto a los dictámenes del Comité.",
+     "lang": "es",
+     "anchor": "art-106",
+     "heading": null,
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "CCPR/C/3/Rev.12",
+      "url": "https://documents.un.org/api/symbol/access?s=CCPR/C/3/Rev.12&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "requirements": [
+    {
+     "label": "Agotamiento de los recursos internos",
+     "i": "un-iccpr-op1",
+     "a": "5",
+     "x": "agotado todos los recursos",
+     "p": "2.b",
+     "quote": "b) El individuo ha agotado todos los recursos de la jurisdicción interna. No se aplicará esta norma cuando la tramitación de los recursos se prolongue injustificadamente.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Que el asunto no esté sometido a otro procedimiento internacional",
+     "i": "un-iccpr-op1",
+     "a": "5",
+     "x": "otro procedimiento de examen o arreglo internacionales",
+     "p": "2.a",
+     "quote": "a) El mismo asunto no ha sido sometido ya a otro procedimiento de examen o arreglo internacionales.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Causas de inadmisibilidad",
+     "i": "un-iccpr-op1",
+     "a": "3",
+     "x": "inadmisible",
+     "p": null,
+     "quote": "El Comité considerará inadmisible toda comunicación presentada de acuerdo con el presente Protocolo que sea anónima o que, a su juicio, constituya un abuso del derecho a presentar tales comunicaciones o sea incompatible con las disposiciones del Pacto.",
+     "lang": "es",
+     "anchor": "art-3",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Requisitos que comprueba el Comité (reglamento)",
+     "i": "un-ccpr-rules",
+     "a": "99",
+     "x": "admisibilidad",
+     "p": null,
+     "quote": "Para adoptar una decisión sobre la admisibilidad de una comunicación, el Comité o un grupo de trabajo establecido con arreglo al artículo 107, párrafo 1, del presente reglamento comprobarán:\na) Que la comunicación no es anónima y que procede de una o varias personas que se hallan bajo la jurisdicción de un Estado parte en el Protocolo Facultativo;\nb) Que la persona alega, de modo suficientemente fundamentado, que es víctima de una violación por ese Estado parte de cualquiera de los derechos enunciados en el Pacto. Normalmente la comunicación deberá ser presentada por la propia persona o por un representante suyo. No obstante, se podrá aceptar una comunicación presentada en nombre de una presunta víctima cuando sea evidente que esta no está en condiciones de presentar personalmente la comunicación;\nc) Que la comunicación no constituye un abuso del derecho a presentar comunicaciones. En principio, la demora en presentar una comunicación no puede invocarse como base de una decisión de inadmisibilidad ratione temporis fundada en el abuso del derecho a presentar comunicaciones. No obstante, podrá constituir abuso de ese derecho la presentación de una comunicación cinco años después del agotamiento de los recursos internos por su autor o, en su caso, tres años después de la conclusión de otro procedimiento de examen o arreglo internacionales, a menos que la demora esté justificada habida cuenta de todas las circunstancias de la comunicación;\nd) Que la comunicación no es incompatible con las disposiciones del Pacto;\ne) Que el mismo asunto no está siendo examinado en el marco de otro procedimiento de examen o arreglo internacionales;\nf) Que la persona ha agotado todos los recursos de la jurisdicción interna disponibles.",
+     "lang": "es",
+     "anchor": "art-99",
+     "heading": null,
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "CCPR/C/3/Rev.12",
+      "url": "https://documents.un.org/api/symbol/access?s=CCPR/C/3/Rev.12&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [
+    {
+     "label": "Plazo (reglamento del Comité, art. 99 c)",
+     "i": "un-ccpr-rules",
+     "a": "99",
+     "x": "abuso",
+     "p": "c",
+     "quote": "c) Que la comunicación no constituye un abuso del derecho a presentar comunicaciones. En principio, la demora en presentar una comunicación no puede invocarse como base de una decisión de inadmisibilidad ratione temporis fundada en el abuso del derecho a presentar comunicaciones. No obstante, podrá constituir abuso de ese derecho la presentación de una comunicación cinco años después del agotamiento de los recursos internos por su autor o, en su caso, tres años después de la conclusión de otro procedimiento de examen o arreglo internacionales, a menos que la demora esté justificada habida cuenta de todas las circunstancias de la comunicación;",
+     "lang": "es",
+     "anchor": "art-99",
+     "heading": null,
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "CCPR/C/3/Rev.12",
+      "url": "https://documents.un.org/api/symbol/access?s=CCPR/C/3/Rev.12&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "steps": [
+    {
+     "label": "Examen de la comunicación",
+     "i": "un-iccpr-op1",
+     "a": "5",
+     "x": "tomando en cuenta toda la información escrita",
+     "p": "1",
+     "quote": "1. El Comité examinará las comunicaciones recibidas de acuerdo con el presente Protocolo tomando en cuenta toda la información escrita que le hayan facilitado el individuo y el Estado Parte interesado.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Dictamen",
+     "i": "un-iccpr-op1",
+     "a": "5",
+     "x": "presentará sus observaciones",
+     "p": "4",
+     "quote": "4. El Comité presentará sus observaciones al Estado Parte interesado y al individuo.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1985-5259",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5259",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 12,
+   "unquoted": 0
+  },
+  {
+   "id": "un-cedaw-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-cedaw",
+   "name_es": "Comunicaciones individuales ante el Comité para la Eliminación de la Discriminación contra la Mujer",
+   "acceptance": {
+    "party": "un-cedaw-op",
+    "tb": "CEDAW-OP"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-cedaw-op",
+     "a": "1",
+     "x": "reconoce la competencia del Comité",
+     "p": null,
+     "quote": "Todo Estado Parte en el presente Protocolo («Estado Parte») reconoce la competencia del Comité para la Eliminación de la Discriminación contra la Mujer («el Comité») para recibir y considerar las comunicaciones presentadas de conformidad con el artículo 2.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "un-cedaw-op",
+     "a": "2",
+     "x": "personas o grupos de personas",
+     "p": null,
+     "quote": "Las comunicaciones podrán ser presentadas por personas o grupos de personas que se hallen bajo la jurisdicción del Estado Parte y que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de los derechos enunciados en la Convención, o en nombre de esas personas o grupos de personas. Cuando se presente una comunicación en nombre de personas o grupos de personas, se requerirá su consentimiento, a menos que el autor pueda justificar el actuar en su nombre sin tal consentimiento.",
+     "lang": "es",
+     "anchor": "art-2",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [
+    {
+     "i": "un-cedaw-op",
+     "a": "5",
+     "x": "medidas provisionales",
+     "p": "1",
+     "quote": "1. Tras haber recibido una comunicación y antes de llegar a una conclusión sobre sus fundamentos, en cualquier momento el Comité podrá dirigir al Estado Parte interesado, a los fines de su examen urgente, una solicitud para que adopte las medidas provisionales necesarias para evitar posibles daños irreparables a la víctima o las víctimas de la supuesta violación.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [
+    {
+     "i": "un-cedaw-op",
+     "a": "7",
+     "x": "seis meses",
+     "p": "4",
+     "quote": "4. El Estado Parte dará la debida consideración a las opiniones del Comité, así como a sus recomendaciones, si las hubiere, y enviará al Comité, en un plazo de seis meses, una respuesta por escrito, especialmente información sobre toda medida que se hubiera adoptado en función de las opiniones y recomendaciones del Comité.",
+     "lang": "es",
+     "anchor": "art-7",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "requirements": [
+    {
+     "label": "Por escrito y no anónima",
+     "i": "un-cedaw-op",
+     "a": "3",
+     "x": "no podrán ser anónimas",
+     "p": null,
+     "quote": "Las comunicaciones se presentarán por escrito y no podrán ser anónimas. El Comité no recibirá comunicación alguna que concierna a un Estado Parte en la Convención que no sea parte en el presente Protocolo.",
+     "lang": "es",
+     "anchor": "art-3",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Agotamiento de los recursos internos",
+     "i": "un-cedaw-op",
+     "a": "4",
+     "x": "agotado todos los recursos",
+     "p": "1",
+     "quote": "1. El Comité no examinará una comunicación a menos que se haya cerciorado de que se han agotado todos los recursos de la jurisdicción interna, salvo que la tramitación de esos recursos se prolongue injustificadamente o no sea probable que brinde por resultado un remedio efectivo.",
+     "lang": "es",
+     "anchor": "art-4",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Causas de inadmisibilidad",
+     "i": "un-cedaw-op",
+     "a": "4",
+     "x": "declarará inadmisible",
+     "p": "2",
+     "quote": "2. El Comité declarará inadmisible toda comunicación que:\na) Se refiera a una cuestión que ya ha sido examinada por el Comité o ya ha sido o esté siendo examinada con arreglo a otro procedimiento de examen o arreglo internacionales;\nb) Sea incompatible con las disposiciones de la Convención;\nc) Sea manifiestamente infundada o esté insuficientemente sustanciada;\nd) Constituya un abuso del derecho a presentar una comunicación;\ne) Los hechos objeto de la comunicación hayan sucedido antes de la fecha de entrada en vigor del presente Protocolo para el Estado Parte interesado, salvo que esos hechos continúen produciéndose después de esa fecha.",
+     "lang": "es",
+     "anchor": "art-4",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [
+    {
+     "label": "Examen y dictamen",
+     "i": "un-cedaw-op",
+     "a": "7",
+     "x": "examinará las comunicaciones",
+     "p": "1",
+     "quote": "1. El Comité examinará las comunicaciones que reciba en virtud del presente Protocolo a la luz de toda la información puesta a su disposición por personas o grupos de personas, o en su nombre, y por el Estado Parte interesado, siempre que esa información sea transmitida a las partes interesadas.",
+     "lang": "es",
+     "anchor": "art-7",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 8,
+   "unquoted": 0
+  },
+  {
+   "id": "un-cescr-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-cescr",
+   "name_es": "Comunicaciones individuales ante el Comité de Derechos Económicos, Sociales y Culturales",
+   "acceptance": {
+    "party": "un-icescr-op",
+    "tb": "CESCR-OP"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-icescr-op",
+     "a": "1",
+     "x": "reconocerá la competencia del Comité",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el Pacto que se haga Parte en el presente Protocolo reconocerá la competencia del Comité para recibir y examinar comunicaciones conforme a lo dispuesto en el presente Protocolo.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": "Competencia del Comité para recibir y examinar comunicaciones",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "un-icescr-op",
+     "a": "2",
+     "x": "personas o grupos de personas",
+     "p": null,
+     "quote": "Las comunicaciones podrán ser presentadas por personas o grupos de personas que se hallen bajo la jurisdicción de un Estado Parte y que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de los derechos económicos, sociales y culturales enunciados en el Pacto. Para presentar una comunicación en nombre de personas o grupos de personas se requerirá su consentimiento, a menos que el autor pueda justificar que actúa en su nombre sin tal consentimiento.",
+     "lang": "es",
+     "anchor": "art-2",
+     "heading": "Comunicaciones",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [
+    {
+     "i": "un-icescr-op",
+     "a": "5",
+     "x": "medidas provisionales",
+     "p": "1",
+     "quote": "1. Tras haber recibido una comunicación y antes de pronunciarse sobre su fondo, en cualquier momento el Comité podrá dirigir al Estado Parte interesado, a los fines de su examen urgente, una solicitud para que adopte las medidas provisionales que sean necesarias en circunstancias excepcionales a fin de evitar posibles daños irreparables a la víctima o las víctimas de la supuesta violación.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": "Medidas provisionales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [
+    {
+     "i": "un-icescr-op",
+     "a": "9",
+     "x": "seis meses",
+     "p": "2",
+     "quote": "2. El Estado Parte dará la debida consideración al dictamen del Comité, así como a sus recomendaciones, si las hubiere, y enviará al Comité, en un plazo de seis meses, una respuesta por escrito que incluya información sobre toda medida que haya adoptado a la luz del dictamen y las recomendaciones del Comité.",
+     "lang": "es",
+     "anchor": "art-9",
+     "heading": "Seguimiento de las observaciones del Comité",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "requirements": [
+    {
+     "label": "Agotamiento de los recursos internos",
+     "i": "un-icescr-op",
+     "a": "3",
+     "x": "agotado todos los recursos",
+     "p": "1",
+     "quote": "1. El Comité no examinará una comunicación sin antes haberse cerciorado de que se han agotado todos los recursos disponibles en la jurisdicción interna. No se aplicará esta norma cuando la tramitación de esos recursos se prolongue injustificadamente.",
+     "lang": "es",
+     "anchor": "art-3",
+     "heading": "Admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Causas de inadmisibilidad",
+     "i": "un-icescr-op",
+     "a": "3",
+     "x": "declarará inadmisible",
+     "p": "2",
+     "quote": "2. El Comité declarará inadmisible toda comunicación que:\na) No se haya presentado en el plazo de un año tras el agotamiento de los recursos internos, salvo en los casos en que el autor pueda demostrar que no fue posible presentarla dentro de ese plazo;\nb) Se refiera a hechos sucedidos antes de la fecha de entrada en vigor del presente Protocolo para el Estado Parte interesado, salvo que esos hechos hayan continuado después dé esa fecha;\nc) Se refiera a una cuestión que ya haya sido examinada por el Comité o haya sido o esté siendo examinada con arreglo a otro procedimiento de examen o arreglo internacional;\nd) Sea incompatible con las disposiciones del Pacto;\ne) Sea manifiestamente infundada, no esté suficientemente fundamentada o se base exclusivamente en informes difundidos por los medios de comunicación;\nf) Constituya un abuso del derecho a presentar una comunicación, o\ng) Sea anónima o no se haya presentado por escrito.",
+     "lang": "es",
+     "anchor": "art-3",
+     "heading": "Admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [
+    {
+     "label": "Plazo",
+     "i": "un-icescr-op",
+     "a": "3",
+     "x": "plazo de un año",
+     "p": "2.a",
+     "quote": "a) No se haya presentado en el plazo de un año tras el agotamiento de los recursos internos, salvo en los casos en que el autor pueda demostrar que no fue posible presentarla dentro de ese plazo;",
+     "lang": "es",
+     "anchor": "art-3",
+     "heading": "Admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "steps": [
+    {
+     "label": "Dictamen",
+     "i": "un-icescr-op",
+     "a": "9",
+     "x": "dictamen",
+     "p": "1",
+     "quote": "1. Tras examinar una comunicación, el Comité hará llegar a las partes interesadas su dictamen sobre la comunicación, junto con sus recomendaciones, si las hubiere.",
+     "lang": "es",
+     "anchor": "art-9",
+     "heading": "Seguimiento de las observaciones del Comité",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 8,
+   "unquoted": 0
+  },
+  {
+   "id": "un-crpd-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-crpd",
+   "name_es": "Comunicaciones individuales ante el Comité sobre los Derechos de las Personas con Discapacidad",
+   "acceptance": {
+    "party": "un-crpd-op",
+    "tb": "CRPD-OP"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-crpd-op",
+     "a": "1",
+     "x": "reconoce la competencia del Comité",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el presente Protocolo («Estado Parte» reconoce la competencia del Comité sobre los Derechos de las Personas con Discapacidad («el Comité») para recibir y considerar las comunicaciones presentadas por personas o grupos de personas sujetos a su jurisdicción que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de las disposiciones de la Convención, o en nombre de esas personas o grupos de personas.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "un-crpd-op",
+     "a": "1",
+     "x": "personas o grupos de personas",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el presente Protocolo («Estado Parte» reconoce la competencia del Comité sobre los Derechos de las Personas con Discapacidad («el Comité») para recibir y considerar las comunicaciones presentadas por personas o grupos de personas sujetos a su jurisdicción que aleguen ser víctimas de una violación por ese Estado Parte de cualquiera de las disposiciones de la Convención, o en nombre de esas personas o grupos de personas.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [
+    {
+     "i": "un-crpd-op",
+     "a": "4",
+     "x": "medidas provisionales",
+     "p": "1",
+     "quote": "1. Tras haber recibido una comunicación y antes de llegar a una conclusión sobre el fondo de ésta, el Comité podrá remitir en cualquier momento al Estado Parte interesado, a los fines de su examen urgente, una solicitud para que adopte las medidas provisionales necesarias a fin de evitar posibles daños irreparables a la víctima o las víctimas de la supuesta violación.",
+     "lang": "es",
+     "anchor": "art-4",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Causas de inadmisibilidad (incluido el agotamiento de los recursos internos)",
+     "i": "un-crpd-op",
+     "a": "2",
+     "x": "inadmisible",
+     "p": null,
+     "quote": "El Comité considerará inadmisible una comunicación cuando:\na) Sea anónima;\nb) Constituya un abuso del derecho a presentar una comunicación o sea incompatible con las disposiciones de la Convención;\nc) Se refiera a una cuestión que ya haya sido examinada por el Comité o ya haya sido o esté siendo examinada de conformidad con otro procedimiento de investigación o arreglo internacionales;\nd) No se hayan agotado todos los recursos internos disponibles, salvo que la tramitación de esos recursos se prolongue injutificadamente o sea improbable que con ellos se logre un remedio efectivo;\ne) Sea manifiestamente infundada o esté insuficientemente sustanciada; o\nf) Los hechos objeto de la comunicación hubieran sucedido antes de la fecha de entrada en vigor del presente Protocolo para el Estado Parte interesado, salvo que esos hechos continuasen produciéndose después de esa fecha.",
+     "lang": "es",
+     "anchor": "art-2",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [
+    {
+     "label": "Examen y recomendaciones",
+     "i": "un-crpd-op",
+     "a": "5",
+     "x": "sugerencias y recomendaciones",
+     "p": null,
+     "quote": "El Comité examinará en sesiones privadas las comunicaciones que reciba en virtud del presente Protocolo. Tras examinar una comunicación, el Comité hará llegar sus sugerencias y recomendaciones, si las hubiere, al Estado Parte interesado y al comunicante.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 5,
+   "unquoted": 0
+  },
+  {
+   "id": "un-crc-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-crc",
+   "name_es": "Comunicaciones individuales ante el Comité de los Derechos del Niño",
+   "acceptance": {
+    "party": "un-crc-opic",
+    "tb": "CRC-OP-IC"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-crc-opic",
+     "a": "5",
+     "x": "podrán ser presentadas",
+     "p": "1",
+     "quote": "1. Las comunicaciones podrán ser presentadas por, o en nombre de, personas o grupos de personas sujetas a la jurisdicción de un Estado parte que afirmen ser víctimas de una violación por el Estado parte de cualquiera de los derechos enunciados en cualquiera de los siguientes instrumentos en que ese Estado sea parte:\na) La Convención;\nb) El Protocolo facultativo de la Convención relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía;\nc) El Protocolo facultativo de la Convención relativo a la participación de niños en los conflictos armados.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": "Comunicaciones individuales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "un-crc-opic",
+     "a": "5",
+     "x": "personas o grupos de personas",
+     "p": "1",
+     "quote": "1. Las comunicaciones podrán ser presentadas por, o en nombre de, personas o grupos de personas sujetas a la jurisdicción de un Estado parte que afirmen ser víctimas de una violación por el Estado parte de cualquiera de los derechos enunciados en cualquiera de los siguientes instrumentos en que ese Estado sea parte:\na) La Convención;\nb) El Protocolo facultativo de la Convención relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía;\nc) El Protocolo facultativo de la Convención relativo a la participación de niños en los conflictos armados.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": "Comunicaciones individuales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [
+    {
+     "i": "un-crc-opic",
+     "a": "6",
+     "x": "medidas provisionales",
+     "p": "1",
+     "quote": "1. El Comité, tras recibir una comunicación y antes de pronunciarse sobre la cuestión de fondo, podrá en cualquier momento dirigir al Estado parte de que se trate, para que este la estudie con urgencia, la solicitud de que adopte las medidas provisionales que puedan ser necesarias en circunstancias excepcionales para evitar posibles daños irreparables a la víctima o las víctimas de la presunta violación.",
+     "lang": "es",
+     "anchor": "art-6",
+     "heading": "Medidas provisionales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Causas de inadmisibilidad",
+     "i": "un-crc-opic",
+     "a": "7",
+     "x": "inadmisible",
+     "p": null,
+     "quote": "El Comité declarará inadmisible toda comunicación que:\na) Sea anónima;\nb) No se presente por escrito;\nc) Constituya un abuso del derecho a presentar tales comunicaciones o sea incompatible con las disposiciones de la Convención y/o de sus Protocolos facultativos;\nd) Se refiera a una cuestión que ya haya sido examinada por el Comité o que haya sido o esté siendo examinada en virtud de otro procedimiento de investigación o arreglo internacional;\ne) Se presente sin que se hayan agotado todos los recursos internos disponibles, salvo que la tramitación de esos recursos se prolongue injustificadamente o que sea improbable que con ellos se logre una reparación efectiva;\nf) Sea manifiestamente infundada o no esté suficientemente fundamentada;\ng) Se refiera a hechos sucedidos antes de la fecha de entrada en vigor del presente Protocolo para el Estado parte de que se trate, salvo que esos hechos hayan continuado produciéndose después de esa fecha;\nh) No se haya presentado en el plazo de un año tras el agotamiento de los recursos internos, salvo en los casos en que el autor pueda demostrar que no fue posible presentarla dentro de ese plazo.",
+     "lang": "es",
+     "anchor": "art-7",
+     "heading": "Admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [
+    {
+     "label": "Plazo",
+     "i": "un-crc-opic",
+     "a": "7",
+     "x": "un año",
+     "p": "h",
+     "quote": "h) No se haya presentado en el plazo de un año tras el agotamiento de los recursos internos, salvo en los casos en que el autor pueda demostrar que no fue posible presentarla dentro de ese plazo.",
+     "lang": "es",
+     "anchor": "art-7",
+     "heading": "Admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "steps": [
+    {
+     "label": "Examen de la comunicación",
+     "i": "un-crc-opic",
+     "a": "10",
+     "x": "examinará las comunicaciones",
+     "p": "1",
+     "quote": "1. El Comité examinará las comunicaciones que reciba en virtud del presente Protocolo con la mayor celeridad posible y a la luz de toda la documentación que se haya puesto a su disposición, siempre que esa documentación sea transmitida a las partes interesadas.",
+     "lang": "es",
+     "anchor": "art-10",
+     "heading": "Examen de las comunicaciones",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 6,
+   "unquoted": 0
+  },
+  {
+   "id": "un-ced-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-ced",
+   "name_es": "Comunicaciones individuales ante el Comité contra la Desaparición Forzada",
+   "acceptance": {
+    "tb": "CED, artículo 31"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-ced",
+     "a": "31",
+     "x": "reconoce la competencia del Comité",
+     "p": "1",
+     "quote": "1. Cada Estado Parte podrá declarar, en el momento de la ratificación o con posterioridad a ésta, que reconoce la competencia del Comité para recibir y examinar las comunicaciones presentadas por personas que se encuentren bajo su jurisdicción o en nombre de ellas, que alegaren ser víctima de violaciones por este Estado Parte de las disposiciones de la presente Convención. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración.",
+     "lang": "es",
+     "anchor": "art-31",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Declaración del Estado y condiciones de admisibilidad",
+     "i": "un-ced",
+     "a": "31",
+     "x": "declarará inadmisible",
+     "p": "2",
+     "quote": "2. El Comité declarará inadmisible cualquier comunicación si:\na) Es anónima;\nb) Constituye un abuso del derecho a presentar tales comunicaciones o es incompatible con las disposiciones de la presente Convención;\nc) La misma cuestión está siendo tratada en otra instancia internacional de examen o arreglo de la misma naturaleza; o si\nd) Los recursos internos efectivos disponibles no han sido agotados. Esta regla no se aplica si los procedimientos de recurso exceden plazos razonables.",
+     "lang": "es",
+     "anchor": "art-31",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [],
+   "quoted": 2,
+   "unquoted": 0
+  },
+  {
+   "id": "un-ced-urgent",
+   "kind": "urgent_action",
+   "system": "un",
+   "body": "un-ced",
+   "name_es": "Acción urgente del Comité contra la Desaparición Forzada",
+   "acceptance": {
+    "party": "un-ced"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-ced",
+     "a": "30",
+     "x": "de manera urgente",
+     "p": "1",
+     "quote": "1. El Comité podrá examinar, de manera urgente, toda petición presentada por los allegados de una persona desaparecida, sus representantes legales, sus abogados o las personas autorizadas por ellos, así como todo aquel que tenga un interés legítimo, a fin de que se busque y localice a una persona desaparecida.",
+     "lang": "es",
+     "anchor": "art-30",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "un-ced",
+     "a": "30",
+     "x": "allegados de una persona desaparecida",
+     "p": "1",
+     "quote": "1. El Comité podrá examinar, de manera urgente, toda petición presentada por los allegados de una persona desaparecida, sus representantes legales, sus abogados o las personas autorizadas por ellos, así como todo aquel que tenga un interés legítimo, a fin de que se busque y localice a una persona desaparecida.",
+     "lang": "es",
+     "anchor": "art-30",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Condiciones de la petición",
+     "i": "un-ced",
+     "a": "30",
+     "x": "Si el Comité considera",
+     "p": "2",
+     "quote": "2. Si el Comité considera que la petición de actuar de manera urgente presentada en virtud del párrafo 1 del presente artículo:\na) No carece manifiestamente de fundamento;\nb) No es un abuso del derecho a presentar tales peticiones;\nc) Se ha presentado previamente y en la forma debida a los órganos competentes del Estado Parte interesado, tales como las autoridades encargadas de efectuar las investigaciones, cuando tal posibilidad existe;\nd) No es incompatible con las disposiciones de esta Convención; y\ne) No está siendo tratada en otra instancia internacional de examen o arreglo de la misma naturaleza;\nsolicitará al Estado Parte interesado que le proporcione, en el plazo que el Comité determine, información sobre la situación de dicha persona.",
+     "lang": "es",
+     "anchor": "art-30",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [],
+   "quoted": 3,
+   "unquoted": 0
+  },
+  {
+   "id": "un-cat-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-cat",
+   "name_es": "Comunicaciones individuales ante el Comité contra la Tortura",
+   "acceptance": {
+    "tb": "CAT, artículo 22"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-cat",
+     "a": "22",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 0,
+   "unquoted": 1
+  },
+  {
+   "id": "un-cerd-individual",
+   "kind": "individual_communication",
+   "system": "un",
+   "body": "un-cerd",
+   "name_es": "Comunicaciones individuales ante el Comité para la Eliminación de la Discriminación Racial",
+   "acceptance": {
+    "tb": "CERD, artículo 14"
+   },
+   "submission": {
+    "label": "Presentación de comunicaciones a los órganos de tratados (ACNUDH)",
+    "url": "https://complaints.ohchr.org/"
+   },
+   "basis": [
+    {
+     "i": "un-icerd",
+     "a": "14",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 0,
+   "unquoted": 1
+  },
+  {
+   "id": "un-inquiry",
+   "kind": "inquiry",
+   "system": "un",
+   "body": null,
+   "name_es": "Procedimientos de investigación de los órganos de tratados",
+   "acceptance": {
+    "tb_kind": "inquiry"
+   },
+   "basis": [
+    {
+     "i": "un-cedaw-op",
+     "a": "8",
+     "x": "violaciones graves o sistemáticas",
+     "p": "1",
+     "quote": "1. Si el Comité recibe información fidedigna que revele violaciones graves o sistemáticas por un Estado Parte de los derechos enunciados en la Convención, el Comité invitará a ese Estado Parte a colaborar en el examen de la información y, a esos efectos, a presentar observaciones sobre dicha información.",
+     "lang": "es",
+     "anchor": "art-8",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2001-15664",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-15664",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-icescr-op",
+     "a": "11",
+     "x": "violaciones graves o sistemáticas",
+     "p": "2",
+     "quote": "2. Si el Comité recibe información fidedigna que da cuenta de violaciones graves o sistemáticas por un Estado Parte de cualesquiera de los derechos económicos, sociales y culturales enunciados en el Pacto, el Comité invitará a ese Estado Parte a colaborar en el examen de la información y, a esos efectos, a presentar sus observaciones sobre dicha información.",
+     "lang": "es",
+     "anchor": "art-11",
+     "heading": "Procedimiento de investigación",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-crpd-op",
+     "a": "6",
+     "x": "violaciones graves o sistemáticas",
+     "p": "1",
+     "quote": "1. Si el Comité recibe información fidedigna que revele violaciones graves o sistemáticas por un Estado Parte de los derechos recogidos en la Convención, el Comité invitará a ese Estado Parte a colaborar en el examen de la información y, a esos efectos, a presentar observaciones sobre dicha información.",
+     "lang": "es",
+     "anchor": "art-6",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6996",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-crc-opic",
+     "a": "13",
+     "x": "violaciones graves o sistemáticas",
+     "p": "1",
+     "quote": "1. El Comité, si recibe información fidedigna que indique violaciones graves o sistemáticas por un Estado parte de los derechos enunciados en la Convención o en sus Protocolos facultativos relativos a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía o a la participación de niños en los conflictos armados, invitará a ese Estado a colaborar en el examen de la información y, a esos efectos, a presentar sin dilación sus observaciones al respecto.",
+     "lang": "es",
+     "anchor": "art-13",
+     "heading": "Procedimiento de investigación en caso de violaciones graves o sistemáticas",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-ced",
+     "a": "33",
+     "x": "violaciones graves",
+     "p": "1",
+     "quote": "1. Si el Comité recibe información fidedigna que revele violaciones graves de las disposiciones de la presente Convención por un Estado Parte podrá, después de consultar con dicho Estado, solicitar a uno o varios de sus miembros que efectúen una visita al mismo y le informen al respecto sin demora.",
+     "lang": "es",
+     "anchor": "art-33",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-cat",
+     "a": "20",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 5,
+   "unquoted": 1
+  },
+  {
+   "id": "un-interstate",
+   "kind": "interstate",
+   "system": "un",
+   "body": null,
+   "name_es": "Comunicaciones entre Estados ante los órganos de tratados",
+   "acceptance": {
+    "tb_kind": "interstate"
+   },
+   "basis": [
+    {
+     "i": "un-iccpr",
+     "a": "41",
+     "x": "otro Estado Parte no cumple",
+     "p": "1",
+     "quote": "1. Con arreglo al presente artículo, todo Estado Parte en el presente Pacto podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar las comunicaciones en que un Estado Parte alegue que otro Estado Parte no cumple las obligaciones que le impone este Pacto. Las comunicaciones hechas en virtud del presente artículo sólo se podrán admitir y examinar si son presentadas por un Estado Parte que haya hecho una declaración por la cual reconozca con respecto a sí mismo la competencia del Comité. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración. Las comunicaciones recibidas en virtud de este artículo se tramitarán de conformidad con el procedimiento siguiente:\na) Si un Estado Parte en el presente Pacto considera que otro Estado Parte no cumple las disposiciones del presente Pacto, podrá señalar el asunto a la atención de dicho Estado mediante una comunicación escrita. Dentro de un plazo de tres meses, contado desde la fecha de recibo de la comunicación, el Estado destinatario proporcionará al Estado que haya enviado la comunicación una explicación o cualquier otra declaración por escrito que aclare el asunto, la cual hará referencia, hasta donde sea posible y pertinente, a los procedimientos nacionales y a los recursos adoptados, en trámite o que puedan utilizarse al respecto.\nb) Si el asunto no se resuelve a satisfacción de los dos Estados Partes interesados en un plazo de seis meses, contado desde la fecha en que el Estado destinatario haya recibido la primera comunicación, cualquiera de ambos Estados Partes interesados tendrá derecho a someterlo al Comité, mediante notificación dirigida al Comité y al otro Estado.\nc) El Comité conocerá del asunto que se le someta después de haberse cerciorado de que se han interpuesto y agotado en tal asunto todos los recursos de la jurisdicción interna de que se pueda disponer, de conformidad con los principios del derecho internacional generalmente admitidos. No se aplicará esta regla cuando la tramitación de los mencionados recursos se prolongue injustificadamente.\nd) El Comité celebrará sus sesiones a puerta cerrada cuando examine las comunicaciones previstas en el presente artículo.\ne) A reserva de las disposiciones del inciso c), el Comité pondrá sus buenos oficios a disposición de los Estados Partes interesados, a fin de llegar a una solución amistosa del asunto, fundada en el respeto de los derechos humanos y de las libertades fundamentales reconocidos en el presente Pacto.\nf) En todo asunto que se le someta, el Comité podrá pedir a los Estados Partes interesados a que se hace referencia en el inciso b) que faciliten cualquier información pertinente.\ng) Los Estados Partes interesados a que se hace referencia en el inciso b) tendrán derecho a Estar representados cuando el asunto se examine en el Comité y a presentar exposiciones verbalmente, o por escrito, o de ambas maneras.\nh) El Comité, dentro de los doce meses siguientes a la fecha de recibo de la notificación mencionada en el inciso b), presentará un informe en el cual:\ni) Si se ha llegado a una solución con arreglo a lo dispuesto en el inciso e), se limitará a una breve exposición de los hechos y de la solución alcanzada.\nii) Si no se ha llegado a una solución con arreglo a lo dispuesto en el inciso e), se limitará a una breve exposición de los hechos, y agregará las exposiciones escritas y las actas de las exposiciones verbales que hayan hecho los Estados Partes interesados.\nEn cada asunto, se enviará el informe a los Estados Partes interesados",
+     "lang": "es",
+     "anchor": "art-41",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10733",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-icescr-op",
+     "a": "10",
+     "x": "otro Estado Parte no cumple",
+     "p": "1",
+     "quote": "1. Todo Estado Parte en el presente Protocolo podrá declarar en cualquier momento, en virtud del presente artículo, que reconoce la competencia del Comité para recibir y examinar comunicaciones en las que un Estado Parte alegue que otro Estado Parte no cumple sus obligaciones dimanantes del Pacto. Las comunicaciones presentadas conforme a este artículo sólo se recibirán y examinarán si las presenta un Estado Parte que haya reconocido con respecto a sí mismo la competencia del Comité en una declaración al efecto. El Comité no recibirá ninguna comunicación que se refiera a un Estado Parte que no haya hecho tal declaración. Las comunicaciones que se reciban conforme a este artículo quedarán sujetas al siguiente procedimiento:\na) Si un Estado Parte en el presente Protocolo considera que otro Estado Parte no está cumpliendo con sus obligaciones en virtud del Pacto, podrá, mediante comunicación por escrito, señalar el asunto a la atención de ese Estado Parte. El Estado Parte podrá también informar al Comité del asunto. En un plazo de tres meses contado desde la recepción de la comunicación, el Estado receptor ofrecerá al Estado que haya enviado la comunicación una explicación u otra declaración por escrito en la que aclare el asunto y, en la medida de lo posible y pertinente, haga referencia a los procedimientos y recursos internos hechos valer, pendientes o disponibles sobre la materia;\nb) Si el asunto no se resuelve a satisfacción de ambos Estados Partes interesados dentro de seis meses de recibida la comunicación inicial por el Estado receptor, cualquiera de ellos podrá remitir el asunto al Comité mediante notificación cursada al Comité y al otro Estado;\nc) El Comité examinará el asunto que se le haya remitido sólo después de haberse cerciorado de que se han hecho valer y se han agotado todos los recursos internos sobre la materia. No se aplicará esta norma cuando la tramitación de esos recursos se prolongue injustificadamente;\nd) Con sujeción a lo dispuesto en el apartado c) del presente párrafo, el Comité pondrá sus buenos oficios a disposición de los Estados Partes interesados con miras a llegar a una solución amigable de la cuestión sobre la base del respeto de las obligaciones establecidas en el Pacto;\ne) El Comité celebrará sesiones privadas cuando examine las comunicaciones a que se refiere el presente artículo;\nf) En todo asunto que se le remita de conformidad con el apartado b) del presente párrafo, el Comité podrá pedir a los Estados Partes interesados que se mencionan en el apartado b) que faciliten cualquier otra información pertinente;\ng) Los Estados Partes interesados que se mencionan en el apartado b) del presente párrafo tendrán derecho a estar representados cuando el asunto sea examinado por el Comité y a hacer declaraciones oralmente y/o por escrito;\nh) El Comité presentará, a la mayor brevedad posible a partir de la fecha de recepción de la notificación a que se refiere el apartado b) del presente párrafo, un informe, como se indica a continuación:\ni) Si se llega al tipo de solución previsto en el apartado d) del presente párrafo, el Comité limitará su informe a una breve exposición de los hechos y de la solución a que se haya llegado;\nii) Si no se llega al tipo de solución previsto en el apartado d), el Comité expondrá en su informe los hechos pertinentes al asunto entre los Estados Partes interesados. Se adjuntarán al informe las declaraciones por escrito y una relación de las declaraciones orales hechas por los Estados Partes interesados. El Comité podrá también transmitir únicamente a los Estados Partes interesados cualesquiera observaciones que considere pertinentes al asunto entre ambos.\nEn todos los casos, el informe se transmitirá a los Estados Partes interesados.",
+     "lang": "es",
+     "anchor": "art-10",
+     "heading": "Comunicaciones entre Estados",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2013-2081",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-2081",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-crc-opic",
+     "a": "12",
+     "x": "otro Estado parte no cumple",
+     "p": "1",
+     "quote": "1. Todo Estado parte en el presente Protocolo podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar comunicaciones en que un Estado parte alegue que otro Estado parte no cumple las obligaciones dimanantes de cualquiera de los siguientes instrumentos en que ese Estado sea parte:\na) La Convención;\nb) El Protocolo facultativo de la Convención relativo a la venta de niños, la prostitución infantil y la utilización de niños en la pornografía;\nc) El Protocolo facultativo de la Convención relativo a la participación de niños en los conflictos armados.",
+     "lang": "es",
+     "anchor": "art-12",
+     "heading": "Comunicaciones entre Estados",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2014-966",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-966",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-ced",
+     "a": "32",
+     "x": "otro Estado Parte no cumple",
+     "p": null,
+     "quote": "Cada Estado Parte en la presente Convención podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar las comunicaciones en que un Estado Parte alegue que otro Estado Parte no cumple con las obligaciones que le impone la presente Convención. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración, ni una comunicación presentada por un Estado Parte que no haya hecho dicha declaración.",
+     "lang": "es",
+     "anchor": "art-32",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-cat",
+     "a": "21",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    },
+    {
+     "i": "un-icerd",
+     "a": "11",
+     "x": null,
+     "p": null,
+     "quote": null,
+     "unavailable": "El texto de este instrumento no está incorporado (no hay una versión digital fiable)."
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 4,
+   "unquoted": 2
+  },
+  {
+   "id": "un-reporting",
+   "kind": "state_reporting",
+   "system": "un",
+   "body": null,
+   "name_es": "Informes periódicos de los Estados Partes a los órganos de tratados",
+   "acceptance": {
+    "party_any": [
+     "un-iccpr",
+     "un-icescr",
+     "un-cedaw",
+     "un-crc",
+     "un-crpd",
+     "un-ced",
+     "un-cat",
+     "un-icerd",
+     "un-cmw"
+    ]
+   },
+   "basis": [
+    {
+     "i": "un-iccpr",
+     "a": "40",
+     "x": "presentar informes",
+     "p": "1",
+     "quote": "1. Los Estados Partes en el presente Pacto se comprometen a presentar informes sobre las disposiciones que hayan adoptado y que den efecto a los derechos reconocidos en el Pacto y sobre el progreso que hayan realizado en cuanto al goce de esos derechos:\na) En el plazo de un año a contar de la fecha de entrada en vigor del presente Pacto con respecto a los Estados Partes interesados;\nb) En lo sucesivo, cada vez que el Comité lo pida.",
+     "lang": "es",
+     "anchor": "art-40",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10733",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-icescr",
+     "a": "16",
+     "x": "presentar",
+     "p": "1",
+     "quote": "1. Los Estados Partes en el presente Pacto se comprometen a presentar, en conformidad con esta parte del Pacto, informes sobre las medidas que hayan adoptado, y los progresos realizados, con el fin de asegurar el respeto a los derechos reconocidos en el mismo.",
+     "lang": "es",
+     "anchor": "art-16",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1977-10734",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10734",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-cedaw",
+     "a": "18",
+     "x": "informe",
+     "p": "1",
+     "quote": "1. Los Estados Partes se comprometen a someter al Secretario General de las Naciones Unidas, para que lo examine el Comité, un informe sobre las medidas legislativas, judiciales, administrativas o de otra índole que hayan adoptado para hacer efectivas las disposiciones de la presente Convención y sobre los progresos realizados en este sentido:\na) En el plazo de un año a partir de la entrada en vigor de la Convención para el Estado de que se trate; y\nb) En lo sucesivo por lo menos cada cuatro años y, además, cuando el Comité lo solicite.",
+     "lang": "es",
+     "anchor": "art-18",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1984-6749",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-6749",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-crc",
+     "a": "44",
+     "x": "informes",
+     "p": "1",
+     "quote": "1. Los Estados Partes se comprometen a presentar al Comité, por conducto del Secretario general de las Naciones Unidas, informes sobre las medidas que hayan adoptado para dar efecto a los derechos reconocidos en la Convención y sobre el progreso que hayan realizado en cuanto al goce de esos derechos:\na) En el plazo de dos años a partir de la fecha en la que para cada Estado Parte haya entrado en vigor la presente Convención;\nb) En lo sucesivo, cada cinco años.",
+     "lang": "es",
+     "anchor": "art-44",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1990-31312",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-31312",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-crpd",
+     "a": "35",
+     "x": "informe exhaustivo",
+     "p": "1",
+     "quote": "1. Los Estados Partes presentarán al Comité, por conducto del Secretario General de las Naciones Unidas, un informe exhaustivo sobre las medidas que hayan adoptado para cumplir sus obligaciones conforme a la presente Convención y sobre los progresos realizados al respecto en el plazo de dos años, contado a partir de la entrada en vigor de la presente Convención en el Estado Parte de que se trate.",
+     "lang": "es",
+     "anchor": "art-35",
+     "heading": "Informes presentados por los Estados Partes",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2008-6963",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2008-6963",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-ced",
+     "a": "29",
+     "x": "informe",
+     "p": "1",
+     "quote": "1. Cada Estado Parte presentará al Comité, por conducto del Secretario General de las Naciones Unidas, un informe relativo a las medidas que hayan adoptado para cumplir con las obligaciones que han contraído en virtud de la presente Convención, dentro del plazo de dos años a contar desde la entrada en vigor de la Convención en el Estado Parte de que se trate.",
+     "lang": "es",
+     "anchor": "art-29",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2011-3164",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-3164",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 6,
+   "unquoted": 0
+  },
+  {
+   "id": "un-spt-visits",
+   "kind": "visits",
+   "system": "un",
+   "body": "un-spt",
+   "name_es": "Visitas del Subcomité para la Prevención de la Tortura",
+   "acceptance": {
+    "party": "un-opcat"
+   },
+   "basis": [
+    {
+     "i": "un-opcat",
+     "a": "4",
+     "x": "permitirá las visitas",
+     "p": "1",
+     "quote": "1. Cada Estado Parte permitirá las visitas, de conformidad con el presente Protocolo, de los mecanismos mencionados en los artículos 2 y 3 a cualquier lugar bajo su jurisdicción y control donde se encuentren o pudieran encontrarse personas privadas de su libertad, bien por orden de una autoridad pública o a instigación suya o con su consentimiento expreso o tácito (en adelante denominado lugar de detención). Estas visitas se llevarán a cabo con el fin de fortalecer, si fuera necesario, la protección de estas personas contra la tortura y otros tratos o penas crueles, inhumanos o degradantes.",
+     "lang": "es",
+     "anchor": "art-4",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2006-11128",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-11128",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "un-opcat",
+     "a": "11",
+     "x": "Visitar los lugares",
+     "p": "a",
+     "quote": "a) Visitar los lugares mencionados en el artículo 4 y hacer recomendaciones a los Estados Partes en cuanto a la protección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes;",
+     "lang": "es",
+     "anchor": "art-11",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2006-11128",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-11128",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 2,
+   "unquoted": 0
+  },
+  {
+   "id": "un-upr",
+   "kind": "upr",
+   "system": "un",
+   "body": "un-hrc",
+   "name_es": "Examen Periódico Universal",
+   "acceptance": {
+    "member": "un"
+   },
+   "official_pages": [
+    {
+     "label": "Documentación del EPU de España en el HRCI",
+     "url": "/commitments"
+    }
+   ],
+   "basis": [
+    {
+     "doc": "un-ga-60-251",
+     "p": "5.e",
+     "x": "examen periódico universal",
+     "quote": "5. Decide que, entre otras cosas, el Consejo:\ne) Realizará un examen periódico universal, basado en información objetiva y fidedigna, sobre el cumplimiento por cada Estado de sus obligaciones y compromisos en materia de derechos humanos de una forma que garantice la universalidad del examen y la igualdad de trato respecto de todos los Estados; el examen será un mecanismo cooperativo, basado en un diálogo interactivo, con la participación plena del país de que se trate y teniendo en consideración sus necesidades de fomento de la capacidad; dicho mecanismo complementará y no duplicará la labor de los órganos creados en virtud de tratados; el Consejo determinará las modalidades del mecanismo del examen periódico universal y el tiempo que se le asignará antes de que haya transcurrido un año desde la celebración de su primer período de sesiones;",
+     "lang": "es",
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "A/RES/60/251",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/60/251&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     },
+     "document_title": "Consejo de Derechos Humanos"
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 1,
+   "unquoted": 0
+  },
+  {
+   "id": "un-special-procedures",
+   "kind": "special_procedures",
+   "system": "un",
+   "body": "un-hrc",
+   "name_es": "Comunicaciones a los procedimientos especiales del Consejo de Derechos Humanos",
+   "acceptance": {
+    "member": "un"
+   },
+   "submission": {
+    "label": "Formulario oficial de presentación a los procedimientos especiales (ACNUDH)",
+    "url": "https://spsubmission.ohchr.org/"
+   },
+   "basis": [
+    {
+     "doc": "un-ga-60-251",
+     "p": "6",
+     "x": "procedimientos especiales",
+     "quote": "6. Decide también que el Consejo asumirá, examinará y, cuando sea necesario, perfeccionará y racionalizará todos los mandatos, mecanismos, funciones y responsabilidades de la Comisión de Derechos Humanos a fin de mantener un sistema de procedimientos especiales, asesoramiento especializado y un procedimiento de denuncia; el Consejo terminará ese examen en el plazo de un año desde la celebración de su primer período de sesiones;",
+     "lang": "es",
+     "source": {
+      "publisher": "Naciones Unidas",
+      "identifier": "A/RES/60/251",
+      "url": "https://documents.un.org/api/symbol/access?s=A/RES/60/251&l=es&t=pdf",
+      "retrieved": "2026-11-09"
+     },
+     "document_title": "Consejo de Derechos Humanos"
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 1,
+   "unquoted": 0
+  },
+  {
+   "id": "coe-ecthr-individual",
+   "kind": "individual_application",
+   "system": "coe",
+   "body": "coe-ecthr",
+   "name_es": "Demanda individual ante el Tribunal Europeo de Derechos Humanos",
+   "acceptance": {
+    "party": "coe-echr"
+   },
+   "submission": {
+    "label": "Cómo presentar una demanda (Tribunal Europeo de Derechos Humanos)",
+    "url": "https://www.echr.coe.int/apply-to-the-court"
+   },
+   "not_quoted": [
+    "El formulario oficial y el artículo 47 del Reglamento del Tribunal (contenido de la demanda) y el artículo 39 (medidas provisionales) no se citan: el sitio del Tribunal no permite su descarga automatizada."
+   ],
+   "basis": [
+    {
+     "i": "coe-echr",
+     "a": "34",
+     "x": "El Tribunal podrá conocer de una demanda",
+     "p": null,
+     "quote": "El Tribunal podrá conocer de una demanda presentada por cualquier persona física, organización no gubernamental o grupo de particulares que se considere víctima de una violación, por una de las Altas Partes Contratantes, de los derechos reconocidos en el Convenio o sus protocolos. Las Altas Partes Contratantes se comprometen a no poner traba alguna al ejercicio eficaz de este derecho.",
+     "lang": "es",
+     "anchor": "art-34",
+     "heading": "Demandas individuales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "coe-echr",
+     "a": "34",
+     "x": "cualquier persona física, organización no gubernamental o grupo de particulares",
+     "p": null,
+     "quote": "El Tribunal podrá conocer de una demanda presentada por cualquier persona física, organización no gubernamental o grupo de particulares que se considere víctima de una violación, por una de las Altas Partes Contratantes, de los derechos reconocidos en el Convenio o sus protocolos. Las Altas Partes Contratantes se comprometen a no poner traba alguna al ejercicio eficaz de este derecho.",
+     "lang": "es",
+     "anchor": "art-34",
+     "heading": "Demandas individuales",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [],
+   "follow_up": [
+    {
+     "i": "coe-echr",
+     "a": "46",
+     "x": "Comité de Ministros, que velará por su ejecución",
+     "p": "2",
+     "quote": "2. La sentencia definitiva del Tribunal será transmitida al Comité de Ministros, que velará por su ejecución.",
+     "lang": "es",
+     "anchor": "art-46",
+     "heading": "Fuerza obligatoria y ejecución de las sentencias",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "requirements": [
+    {
+     "label": "Agotamiento de las vías de recurso internas",
+     "i": "coe-echr",
+     "a": "35",
+     "x": "agotar las vías de recursos internas",
+     "p": "1",
+     "quote": "1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de cuatro meses a partir de la fecha de la resolución interna definitiva.",
+     "lang": "es",
+     "anchor": "art-35",
+     "heading": "Condiciones de admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Demandas no admitidas",
+     "i": "coe-echr",
+     "a": "35",
+     "x": "no admitirá ninguna demanda individual",
+     "p": "2",
+     "quote": "2. El Tribunal no admitirá ninguna demanda individual entablada en aplicación del artículo 34, cuando:\na) Sea anónima, o\nb) Sea esencialmente la misma que una demanda examinada anteriormente por el Tribunal o ya sometida a otra instancia internacional de investigación o de arreglo, y no contenga hechos nuevos.",
+     "lang": "es",
+     "anchor": "art-35",
+     "heading": "Condiciones de admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Causas de inadmisibilidad",
+     "i": "coe-echr",
+     "a": "35",
+     "x": "declarará inadmisible",
+     "p": "3",
+     "quote": "3. El Tribunal declarará inadmisible cualquier demanda individual presentada en virtud del artículo 34 si considera que:\na) la demanda es incompatible con las disposiciones del Convenio o de sus Protocolos, manifiestamente mal fundada o abusiva; o\nb) el demandante no ha sufrido un perjuicio importante, a menos que el respeto de los derechos humanos garantizados por el Convenio y por sus Protocolos exija un examen del fondo de la demanda.",
+     "lang": "es",
+     "anchor": "art-35",
+     "heading": "Condiciones de admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [
+    {
+     "label": "Plazo",
+     "i": "coe-echr",
+     "a": "35",
+     "x": "cuatro meses",
+     "p": "1",
+     "quote": "1. Al Tribunal no podrá recurrirse sino después de agotar las vías de recursos internas, tal como se entiende según los principios de derecho internacional generalmente reconocidos y en el plazo de cuatro meses a partir de la fecha de la resolución interna definitiva.",
+     "lang": "es",
+     "anchor": "art-35",
+     "heading": "Condiciones de admisibilidad",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "steps": [
+    {
+     "label": "Satisfacción equitativa",
+     "i": "coe-echr",
+     "a": "41",
+     "x": "satisfacción equitativa",
+     "p": null,
+     "quote": "Si el Tribunal declara que ha habido violación del Convenio o de sus protocolos y si el derecho interno de la Alta Parte Contratante sólo permite de manera imperfecta reparar las consecuencias de dicha violación, el Tribunal concederá a la parte perjudicada, si así procede, una satisfacción equitativa.",
+     "lang": "es",
+     "anchor": "art-41",
+     "heading": "Arreglo equitativo",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Fuerza obligatoria de las sentencias",
+     "i": "coe-echr",
+     "a": "46",
+     "x": "acatar las sentencias definitivas",
+     "p": "1",
+     "quote": "1. Las Altas Partes Contratantes se comprometen a acatar las sentencias definitivas del Tribunal en los litigios en que sean partes.",
+     "lang": "es",
+     "anchor": "art-46",
+     "heading": "Fuerza obligatoria y ejecución de las sentencias",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 9,
+   "unquoted": 0
+  },
+  {
+   "id": "coe-ecthr-interstate",
+   "kind": "interstate",
+   "system": "coe",
+   "body": "coe-ecthr",
+   "name_es": "Asuntos entre Estados ante el Tribunal Europeo de Derechos Humanos",
+   "acceptance": {
+    "party": "coe-echr"
+   },
+   "basis": [
+    {
+     "i": "coe-echr",
+     "a": "33",
+     "x": "Toda Alta Parte Contratante podrá someter",
+     "p": null,
+     "quote": "Toda Alta Parte Contratante podrá someter al Tribunal cualquier incumplimiento de lo dispuesto en el Convenio y sus protocolos que, a su juicio, pueda ser imputado a otra Alta Parte Contratante.",
+     "lang": "es",
+     "anchor": "art-33",
+     "heading": "Asuntos entre Estados",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 1,
+   "unquoted": 0
+  },
+  {
+   "id": "coe-ecthr-advisory",
+   "kind": "advisory",
+   "system": "coe",
+   "body": "coe-ecthr",
+   "name_es": "Opiniones consultivas del Tribunal Europeo de Derechos Humanos",
+   "acceptance": {
+    "party": "coe-echr-p16"
+   },
+   "basis": [
+    {
+     "i": "coe-echr",
+     "a": "47",
+     "x": "opiniones consultivas",
+     "p": "1",
+     "quote": "1. El Tribunal podrá emitir opiniones consultivas, a solicitud del Comité de Ministros, acerca de cuestiones jurídicas relativas a la interpretación del Convenio y de sus Protocolos.",
+     "lang": "es",
+     "anchor": "art-47",
+     "heading": "Opiniones consultivas",
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "coe-echr-p16",
+     "a": "1",
+     "x": "solicitudes de opiniones consultivas",
+     "p": "1",
+     "quote": "1. Los más altos órganos jurisdiccionales de las Altas Partes Contratantes, tal como hayan sido designados con arreglo al artículo 10, podrán cursar al Tribunal solicitudes de opiniones consultivas sobre cuestiones de principio relativas a la interpretación o a la aplicación de los derechos y libertades que definen el Convenio o sus Protocolos.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-1999-10148",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-10148",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 2,
+   "unquoted": 0
+  },
+  {
+   "id": "coe-ecsr-collective",
+   "kind": "collective_complaint",
+   "system": "coe",
+   "body": "coe-ecsr",
+   "name_es": "Reclamaciones colectivas ante el Comité Europeo de Derechos Sociales",
+   "acceptance": {
+    "party": "coe-esc-collective"
+   },
+   "basis": [
+    {
+     "i": "coe-esc-collective",
+     "a": "1",
+     "x": "presentar reclamaciones",
+     "p": null,
+     "quote": "Las Partes Contratantes en el presente Protocolo reconocen el derecho de las siguientes organizaciones a presentar reclamaciones en las que se denuncie la aplicación insatisfactoria de la Carta:\na) Las organizaciones internacionales de empleadores y de trabajadores a que se refiere el apartado 2 del artículo 27 de la Carta;\nb) otras organizaciones internacionales no gubernamentales reconocidas como entidades consultivas por el Consejo de Europa y que figuren en la lista elaborada a tal fin por el Comité Gubernamental;\nc) las organizaciones nacionales representativas de empleadores y de trabajadores sometidas a la jurisdicción de la Parte Contratante contra la que se dirige la reclamación.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "coe-esc-collective",
+     "a": "1",
+     "x": "organizaciones internacionales de empleadores y de trabajadores",
+     "p": "a",
+     "quote": "a) Las organizaciones internacionales de empleadores y de trabajadores a que se refiere el apartado 2 del artículo 27 de la Carta;",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "coe-esc-collective",
+     "a": "1",
+     "x": "organizaciones internacionales no gubernamentales",
+     "p": "b",
+     "quote": "b) otras organizaciones internacionales no gubernamentales reconocidas como entidades consultivas por el Consejo de Europa y que figuren en la lista elaborada a tal fin por el Comité Gubernamental;",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "coe-esc-collective",
+     "a": "1",
+     "x": "organizaciones nacionales representativas",
+     "p": "c",
+     "quote": "c) las organizaciones nacionales representativas de empleadores y de trabajadores sometidas a la jurisdicción de la Parte Contratante contra la que se dirige la reclamación.",
+     "lang": "es",
+     "anchor": "art-1",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "coe-esc-collective",
+     "a": "2",
+     "x": "organización nacional no gubernamental representativa",
+     "p": "1",
+     "quote": "1. Asimismo, cuando manifieste su consentimiento a quedar vinculado por el presente Protocolo, de conformidad con lo dispuesto en el artículo 13, o en cualquier momento posterior todo Estado Contratante podrá declarar que reconoce el derecho a presentar reclamaciones contra dicho Estado a cualquier otra organización nacional no gubernamental representativa dentro de su jurisdicción que tenga especial competencia en las materias reguladas por la Carta.",
+     "lang": "es",
+     "anchor": "art-2",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Contenido de la reclamación",
+     "i": "coe-esc-collective",
+     "a": "4",
+     "x": "por escrito",
+     "p": null,
+     "quote": "La reclamación se presentará por escrito, se referirá a una disposición de la Carta aceptada por la Parte Contratante afectada y especificará en qué medida dicha Parte no ha garantizado la aplicación satisfactoria de dicha disposición.",
+     "lang": "es",
+     "anchor": "art-4",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [
+    {
+     "label": "Remisión al Comité",
+     "i": "coe-esc-collective",
+     "a": "5",
+     "x": "Comité de Expertos Independientes",
+     "p": null,
+     "quote": "Toda reclamación se dirigirá al Secretario General, quien acusará recibo de la misma, la notificará a la Parte Contratante afectada y la remitirá inmediatamente al Comité de Expertos Independientes.",
+     "lang": "es",
+     "anchor": "art-5",
+     "heading": null,
+     "source": {
+      "publisher": "Boletín Oficial del Estado",
+      "identifier": "BOE-A-2021-10683",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-10683",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 7,
+   "unquoted": 0
+  },
+  {
+   "id": "oas-iachr-petition",
+   "kind": "petition",
+   "system": "oas",
+   "body": "oas-iachr",
+   "name_es": "Peticiones individuales ante la Comisión Interamericana de Derechos Humanos",
+   "acceptance": {
+    "member": "oas",
+    "party_optional": "oas-achr"
+   },
+   "submission": {
+    "label": "Sistema de peticiones en línea de la CIDH",
+    "url": "https://www.oas.org/es/cidh/portal/"
+   },
+   "basis": [
+    {
+     "i": "oas-achr",
+     "a": "44",
+     "x": "Cualquier persona o grupo de personas",
+     "p": null,
+     "quote": "Cualquier persona o grupo de personas, o entidad no gubernamental legalmente reconocida en uno o más Estados miembros de la Organización, puede presentar a la Comisión peticiones que contengan denuncias o quejas de violación de esta Convención por un Estado parte.",
+     "lang": "es",
+     "anchor": "art-44",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "i": "oas-iachr-rules",
+     "a": "23",
+     "x": "Cualquier persona o grupo de personas",
+     "p": null,
+     "quote": "Cualquier persona o grupo de personas, o entidad no gubernamental legalmente reconocida en uno o más Estados miembros de la OEA puede presentar a la Comisión peticiones en su propio nombre o en el de terceras personas, referentes a la presunta violación de alguno de los derechos humanos reconocidos, según el caso, en la Declaración Americana de los Derechos y Deberes del Hombre, la Convención Americana sobre Derechos Humanos “Pacto de San José de Costa Rica”, el Protocolo Adicional a la Convención Americana sobre Derechos Humanos en Materia de Derechos Económicos, Sociales y Culturales “Protocolo de San Salvador”, el Protocolo a la Convención Americana sobre Derechos Humanos Relativo a la Abolición de la Pena de Muerte, la Convención Interamericana para Prevenir y Sancionar la Tortura, la Convención Interamericana sobre Desaparición Forzada de Personas y la Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer “Convención de Belém do Pará”, conforme a sus respectivas disposiciones, el Estatuto de la Comisión y el presente Reglamento. El peticionario podrá designar en la propia petición, o en otro escrito, a un abogado u a otra persona para representarlo ante la Comisión.",
+     "lang": "es",
+     "anchor": "art-23",
+     "heading": "Presentación de peticiones",
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+      "identifier": null,
+      "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "oas-iachr-rules",
+     "a": "23",
+     "x": "entidad no gubernamental legalmente reconocida",
+     "p": null,
+     "quote": "Cualquier persona o grupo de personas, o entidad no gubernamental legalmente reconocida en uno o más Estados miembros de la OEA puede presentar a la Comisión peticiones en su propio nombre o en el de terceras personas, referentes a la presunta violación de alguno de los derechos humanos reconocidos, según el caso, en la Declaración Americana de los Derechos y Deberes del Hombre, la Convención Americana sobre Derechos Humanos “Pacto de San José de Costa Rica”, el Protocolo Adicional a la Convención Americana sobre Derechos Humanos en Materia de Derechos Económicos, Sociales y Culturales “Protocolo de San Salvador”, el Protocolo a la Convención Americana sobre Derechos Humanos Relativo a la Abolición de la Pena de Muerte, la Convención Interamericana para Prevenir y Sancionar la Tortura, la Convención Interamericana sobre Desaparición Forzada de Personas y la Convención Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer “Convención de Belém do Pará”, conforme a sus respectivas disposiciones, el Estatuto de la Comisión y el presente Reglamento. El peticionario podrá designar en la propia petición, o en otro escrito, a un abogado u a otra persona para representarlo ante la Comisión.",
+     "lang": "es",
+     "anchor": "art-23",
+     "heading": "Presentación de peticiones",
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+      "identifier": null,
+      "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [
+    {
+     "i": "oas-iachr-rules",
+     "a": "25",
+     "x": "medidas cautelares",
+     "p": "1",
+     "quote": "1. Con fundamento en los artículos 106 de la Carta de la Organización de los Estados Americanos, 41.b de la Convención Americana sobre Derechos Humanos, 18.b del Estatuto de la Comisión y XIII de la Convención Interamericana sobre Desaparición Forzada de Personas, la Comisión podrá, a iniciativa propia o a solicitud de parte, solicitar que un Estado adopte medidas cautelares. Tales medidas, ya sea que guarden o no conexidad con una petición o caso, se relacionarán con situaciones de gravedad y urgencia que presenten un riesgo de daño irreparable a las personas o al objeto de una petición o caso pendiente ante los órganos del Sistema Interamericano.",
+     "lang": "es",
+     "anchor": "art-25",
+     "heading": "Medidas Cautelares",
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+      "identifier": null,
+      "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Requisitos de admisibilidad (Convención Americana)",
+     "i": "oas-achr",
+     "a": "46",
+     "x": "agotado los recursos de jurisdicción interna",
+     "p": "1",
+     "quote": "1. Para que una petición o comunicación presentada conforme a los artículos 44 ó 45 sea admitida por la Comisión, se requerirá:\na) que se hayan interpuesto y agotado los recursos de jurisdicción interna, conforme a los principios del Derecho Internacional generalmente reconocidos;\nb) que sea presentada dentro del plazo de seis meses, a partir de la fecha en que el presunto lesionado en sus derechos haya sido notificado de la decisión definitiva;\nc) que la materia de la petición o comunicación no esté pendiente de otro procedimiento de arreglo internacional, y\nd) que en el caso del artículo 44 la petición contenga el nombre, la nacionalidad, la profesión, el domicilio y la firma de la persona o personas o del representante legal de la entidad que somete la petición.",
+     "lang": "es",
+     "anchor": "art-46",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Excepciones al agotamiento y al plazo",
+     "i": "oas-achr",
+     "a": "46",
+     "x": "no se aplicarán cuando",
+     "p": "2",
+     "quote": "2. Las disposiciones de los incisos 1.a. y 1.b. del presente artículo no se aplicarán cuando:\na) no exista en la legislación interna del Estado de que se trata el debido proceso legal para la protección del derecho o derechos que se alega han sido violados;\nb) no se haya permitido al presunto lesionado en sus derechos el acceso a los recursos de la jurisdicción interna, o haya sido impedido de agotarlos, y\nc) haya retardo injustificado en la decisión sobre los mencionados recursos.",
+     "lang": "es",
+     "anchor": "art-46",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Causas de inadmisibilidad",
+     "i": "oas-achr",
+     "a": "47",
+     "x": "inadmisible",
+     "p": null,
+     "quote": "La Comisión declarará inadmisible toda petición o comunicación presentada de acuerdo con los artículos 44 ó 45 cuando:\na) falte alguno de los requisitos indicados en el artículo 46;\nb) no exponga hechos que caractericen una violación de los derechos garantizados por esta Convención;\nc) resulte de la exposición del propio peticionario o del Estado manifiestamente infundada la petición o comunicación o sea evidente su total improcedencia, y\nd) sea sustancialmente la reproducción de petición o comunicación anterior ya examinada por la Comisión u otro organismo internacional.",
+     "lang": "es",
+     "anchor": "art-47",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Contenido de la petición (Reglamento de la Comisión)",
+     "i": "oas-iachr-rules",
+     "a": "28",
+     "x": "deberán contener la siguiente información",
+     "p": null,
+     "quote": "[3]\nLas peticiones dirigidas a la Comisión deberán contener la siguiente información:\n1. El nombre de la persona o personas denunciantes o, en el caso de que el peticionario sea una entidad no gubernamental, su representante o representantes legales y el Estado miembro en el que esté legalmente reconocida;\n2. Si el peticionario desea que su identidad sea mantenida en reserva frente al Estado, y las razones respectivas;\n3. La dirección de correo electrónico para recibir correspondencia de la Comisión y, en su caso, número de teléfono, facsímil y dirección postal;\n4. Una relación del hecho o situación denunciada, con especificación del lugar y fecha de las violaciones alegadas;\n5. De ser posible, el nombre de la víctima, así como de cualquier autoridad pública que haya tomado conocimiento del hecho o situación denunciada;\n6. La indicación del Estado que el peticionario considera responsable, por acción o por omisión, de la violación de alguno de los derechos humanos consagrados en la Convención Americana sobre Derechos Humanos y otros instrumentos aplicables, aunque no se haga una referencia específica al/os artículo(s) presuntamente violado(s);\n7. El cumplimiento con el plazo previsto en el artículo 32 del presente Reglamento;\n8. Las gestiones emprendidas para agotar los recursos de la jurisdicción interna o la imposibilidad de hacerlo conforme al artículo 31 del presente Reglamento; y\n9. La indicación de si la denuncia ha sido sometida a otro procedimiento de arreglo internacional conforme al artículo 33 del presente Reglamento.",
+     "lang": "es",
+     "anchor": "art-28",
+     "heading": "Requisitos para la consideración de peticiones",
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+      "identifier": null,
+      "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [
+    {
+     "label": "Plazo (Convención Americana)",
+     "i": "oas-achr",
+     "a": "46",
+     "x": "seis meses",
+     "p": "1.b",
+     "quote": "b) que sea presentada dentro del plazo de seis meses, a partir de la fecha en que el presunto lesionado en sus derechos haya sido notificado de la decisión definitiva;",
+     "lang": "es",
+     "anchor": "art-46",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Plazo (Reglamento de la Comisión)",
+     "i": "oas-iachr-rules",
+     "a": "32",
+     "x": "seis meses",
+     "p": "1",
+     "quote": "1. La Comisión considerará las peticiones presentadas dentro de los seis meses contados a partir de la fecha en que la presunta víctima haya sido notificada de la decisión que agota los recursos internos.",
+     "lang": "es",
+     "anchor": "art-32",
+     "heading": "Plazo para la presentación de peticiones",
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+      "identifier": null,
+      "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "steps": [
+    {
+     "label": "Tramitación",
+     "i": "oas-achr",
+     "a": "48",
+     "x": "procederá en los siguientes términos",
+     "p": "1",
+     "quote": "1. La Comisión, al recibir una petición o comunicación en la que se alegue la violación de cualquiera de los derechos que consagra esta Convención, procederá en los siguientes términos:\na) si reconoce la admisibilidad de la petición o comunicación solicitará informaciones al Gobierno del Estado al cual pertenezca la autoridad señalada como responsable de la violación alegada, transcribiendo las partes pertinentes de la petición o comunicación. Dichas informaciones deben ser enviadas dentro de un plazo razonable, fijado por la Comisión al considerar las circunstancias de cada caso;\nb) recibidas las informaciones o transcurrido el plazo fijado sin que sean recibidas, verificará si existen o subsisten los motivos de la petición o comunicación. De no existir o subsistir, mandará archivar el expediente;\nc) podrá también declarar la inadmisibilidad o la improcedencia de la petición o comunicación, sobre la base de una información o prueba sobrevinientes;\nd) si el expediente no se ha archivado y con el fin de comprobar los hechos, la Comisión realizará, con conocimiento de las partes, un examen del asunto planteado en la petición o comunicación. Si fuere necesario y conveniente, la Comisión realizará una investigación para cuyo eficaz cumplimiento solicitará, y los Estados interesados le proporcionarán, todas las facilidades necesarias;\ne) podrá pedir a los Estados interesados cualquier información pertinente y recibirá, si así se le solicita, las exposiciones verbales o escritas que presenten los interesados;\nf) se pondrá a disposición de las partes interesadas, a fin de llegar a una solución amistosa del asunto fundada en el respeto a los derechos humanos reconocidos en esta Convención.",
+     "lang": "es",
+     "anchor": "art-48",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 11,
+   "unquoted": 0
+  },
+  {
+   "id": "oas-iacthr-contentious",
+   "kind": "contentious",
+   "system": "oas",
+   "body": "oas-iacthr",
+   "name_es": "Casos contenciosos ante la Corte Interamericana de Derechos Humanos",
+   "acceptance": {
+    "declaration": "oas-62"
+   },
+   "basis": [
+    {
+     "i": "oas-achr",
+     "a": "62",
+     "x": "reconoce como obligatoria de pleno derecho",
+     "p": "1",
+     "quote": "1. Todo Estado parte puede, en el momento del depósito de su instrumento de ratificación o adhesión de esta Convención, o en cualquier momento posterior, declarar que reconoce como obligatoria de pleno derecho y sin convención especial, la competencia de la Corte sobre todos los casos relativos a la interpretación o aplicación de esta Convención.",
+     "lang": "es",
+     "anchor": "art-62",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [
+    {
+     "i": "oas-achr",
+     "a": "61",
+     "x": "Sólo los Estados Partes y la Comisión",
+     "p": "1",
+     "quote": "1. Sólo los Estados Partes y la Comisión tienen derecho a someter un caso a la decisión de la Corte.",
+     "lang": "es",
+     "anchor": "art-61",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "against": [],
+   "interim": [
+    {
+     "i": "oas-achr",
+     "a": "63",
+     "x": "medidas provisionales",
+     "p": "2",
+     "quote": "2. En casos de extrema gravedad y urgencia, y cuando se haga necesario evitar daños irreparables a las personas, la Corte, en los asuntos que esté conociendo, podrá tomar las medidas provisionales que considere pertinentes. Si se tratare de asuntos que aún no estén sometidos a su conocimiento, podrá actuar a solicitud de la Comisión.",
+     "lang": "es",
+     "anchor": "art-63",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Agotamiento previo del procedimiento ante la Comisión",
+     "i": "oas-achr",
+     "a": "61",
+     "x": "agotados los procedimientos previstos en los artículos 48 a 50",
+     "p": "2",
+     "quote": "2. Para que la Corte pueda conocer de cualquier caso, es necesario que sean agotados los procedimientos previstos en los artículos 48 a 50.",
+     "lang": "es",
+     "anchor": "art-61",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [
+    {
+     "label": "Reparaciones",
+     "i": "oas-achr",
+     "a": "63",
+     "x": "se reparen las consecuencias",
+     "p": "1",
+     "quote": "1. Cuando decida que hubo violación de un derecho o libertad protegidos en esta Convención, la Corte dispondrá que se garantice al lesionado en el goce de su derecho o libertad conculcados. Dispondrá asimismo, si ello fuera procedente, que se reparen las consecuencias de la medida o situación que ha configurado la vulneración de esos derechos y el pago de una justa indemnización a la parte lesionada.",
+     "lang": "es",
+     "anchor": "art-63",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    },
+    {
+     "label": "Cumplimiento del fallo",
+     "i": "oas-achr",
+     "a": "68",
+     "x": "se comprometen a cumplir la decisión de la Corte",
+     "p": "1",
+     "quote": "1. Los Estados Partes en la Convención se comprometen a cumplir la decisión de la Corte en todo caso en que sean partes.",
+     "lang": "es",
+     "anchor": "art-68",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 6,
+   "unquoted": 0
+  },
+  {
+   "id": "oas-iacthr-advisory",
+   "kind": "advisory",
+   "system": "oas",
+   "body": "oas-iacthr",
+   "name_es": "Opiniones consultivas de la Corte Interamericana de Derechos Humanos",
+   "acceptance": {
+    "member": "oas"
+   },
+   "basis": [
+    {
+     "i": "oas-achr",
+     "a": "64",
+     "x": "consultar a la Corte",
+     "p": "1",
+     "quote": "1. Los Estados miembros de la Organización podrán consultar a la Corte acerca de la interpretación de esta Convención o de otros tratados concernientes a la protección de los derechos humanos en los Estados americanos. Asimismo, podrán consultarla, en lo que les compete, los órganos enumerados en el capítulo X de la Carta de la Organización de los Estados Americanos, reformada por el Protocolo de Buenos Aires.",
+     "lang": "es",
+     "anchor": "art-64",
+     "heading": null,
+     "source": {
+      "publisher": "Organización de los Estados Americanos, Departamento de Derecho Internacional",
+      "identifier": null,
+      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 1,
+   "unquoted": 0
+  },
+  {
+   "id": "au-achpr-communications",
+   "kind": "communication",
+   "system": "au",
+   "body": "au-achpr-commission",
+   "name_es": "Comunicaciones ante la Comisión Africana de Derechos Humanos y de los Pueblos",
+   "acceptance": {
+    "party": "au-achpr"
+   },
+   "submission": {
+    "label": "Procedimiento de comunicaciones (Comisión Africana)",
+    "url": "https://achpr.au.int/en/communications-procedure"
+   },
+   "basis": [
+    {
+     "i": "au-achpr",
+     "a": "55",
+     "x": "Communications other than those of State Parties",
+     "p": null,
+     "quote": "Before each Session, the Secretary of the Commission shall make a list of the Communications other than those of State Parties to the present Charter and transmit them to Members of the Commission, who shall indicate which Communications should be considered by the Commission.\nA Communication shall be considered by the Commission if a simple majority of its members so decide.",
+     "lang": "en",
+     "anchor": "art-55",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [
+    {
+     "label": "Condiciones para que se examine la comunicación",
+     "i": "au-achpr",
+     "a": "56",
+     "x": "shall be considered if they",
+     "p": null,
+     "quote": "Communications relating to Human and Peoples’ rights referred to in Article 55 received by the Commission, shall be considered if they:\nIndicate their authors even if the latter requests anonymity,\nAre compatible with the Charter of the Organisation of Afri- can Unity or with the present Charter,\nAre not written in disparaging or insulting language directed against the State concerned and its institutions or to the Organisation of African Unity,\nAre not based exclusively on news disseminated through the mass media,\nAre sent after exhausting local remedies, if any, unless it is obvious that this procedure is unduly prolonged,\nAre submitted within a reasonable period from the time local remedies are exhausted or from the date the Commission is seized with the matter, and\nDo not deal with cases which have been settled by those States involved in accordance with the principles of the Charter of the United Nations, or the Charter of the Or- ganisation of African Unity or the provisions of the present Charter.",
+     "lang": "en",
+     "anchor": "art-56",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "deadline": [],
+   "steps": [
+    {
+     "label": "Situaciones de violaciones graves o masivas",
+     "i": "au-achpr",
+     "a": "58",
+     "x": "serious or massive violations",
+     "p": null,
+     "quote": "When it appears after deliberations of the Commission that one or more Communications apparently relate to special cases which reveal the existence of a series of serious or massive violations of human and peoples’ rights, the Commission shall draw the attention of the Assembly of Heads of State and Government to these special cases.\nThe Assembly of Heads of State and Government may then request the Commission to undertake an in-depth study of these cases and make a factual report, accompanied by its finding and recommendations.\nA case of emergency duly noticed by the Commission shall be submitted by the latter to the Chairman of the Assembly of Heads of State and Government who may request an in-depth study.",
+     "lang": "en",
+     "anchor": "art-58",
+     "heading": null,
+     "source": {
+      "publisher": "African Commission on Human and Peoples' Rights",
+      "identifier": null,
+      "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+      "retrieved": "2026-11-09"
+     }
+    }
+   ],
+   "quoted": 3,
+   "unquoted": 0
+  },
+  {
+   "id": "au-afchpr-individual",
+   "kind": "contentious",
+   "system": "au",
+   "body": "au-afchpr",
+   "name_es": "Demandas de particulares y ONG ante la Corte Africana de Derechos Humanos y de los Pueblos",
+   "acceptance": {
+    "declaration": "au-34-6"
+   },
+   "basis_note": "Artículos 5.3 y 34.6 del Protocolo de la Corte (texto no incorporado al lector).",
+   "submission": {
+    "label": "Declaraciones del artículo 34.6 (Corte Africana)",
+    "url": "https://www.african-court.org/afchpr/declarations-2/"
+   },
+   "basis": [],
+   "who": [],
+   "against": [],
+   "interim": [],
+   "follow_up": [],
+   "requirements": [],
+   "deadline": [],
+   "steps": [],
+   "quoted": 0,
+   "unquoted": 0
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "instrument": "oas-death-penalty",
+ "register": "oas",
+ "as_of": null,
+ "ref": {
+  "source": "oas",
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-53.html",
+  "retrieved": "2026-11-09",
+  "sha256": "9f1296ef62af7c20d2c9f7c8cf6300a9b1a21d26618726e289d3d2e0b9ff001b"
+ },
+ "legend": "Códigos del depositario (Secretaría General de la OEA): RA = ratificación, AD = adhesión, AC = aceptación. Fechas publicadas en formato mes/día/año.",
+ "statements_text": "*DECLARACIONES/RESERVAS/DENUNCIAS/RETIROS\nA-53 PROTOCOLO A LA CONVENCION AMERICANA SOBRE DERECHOS HUMANOS\nRELATIVO A LA ABOLICION DE LA PENA DE MUERTE\n1.\nBrasil\n:\n\"Al ratificar el Protocolo sobre la Abolición de la Pena de Muerte, adoptado en Asunción,\nel 8 de junio de 1990, declaro, debido a imperativos constitucionales, que consigno la reserva,\nen los términos establecidos en el Artículo II del Protocolo en cuestión, en el cual se asegura\na los Estados Partes el derecho de aplicar la pena de muerte en tiempo de guerra,\nde acuerdo al derecho internacional, por delitos sumamente graves de carácter militar\".\n2.\nChile\n:\n\"El Estado de Chile formula la reserva autorizada por el Artículo 2,\npárrafo 1, del Protocolo a la Convención Americana sobro Derechos Humanos\nRelativo a la Abolición de la Pena de Muerte y, en consecuencia podrá\naplicar la pena de muerte en tiempo de guerra conforme al Derecho\nInternacional por delitos sumamente graves de carácter militar\"\n[\nTexto\ndel Tratado\n]",
+ "participants": [
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2006-12-12",
+   "consent": {
+    "date": "2008-06-18",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2008-09-05",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2008-06-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brasil",
+   "signature": "1994-06-07",
+   "consent": {
+    "date": "1996-07-31",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1996-08-13",
+   "date_reading": null,
+   "statements": [
+    {
+     "section": "oas",
+     "section_title": "Declaraciones, reservas, denuncias y retiros",
+     "label": null,
+     "kind": "other",
+     "text": "1.\nBrasil\n:\n\"Al ratificar el Protocolo sobre la Abolición de la Pena de Muerte, adoptado en Asunción,\nel 8 de junio de 1990, declaro, debido a imperativos constitucionales, que consigno la reserva,\nen los términos establecidos en el Artículo II del Protocolo en cuestión, en el cual se asegura\na los Estados Partes el derecho de aplicar la pena de muerte en tiempo de guerra,\nde acuerdo al derecho internacional, por delitos sumamente graves de carácter militar\"."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1996-07-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2001-09-10",
+   "consent": {
+    "date": "2008-08-04",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2008-10-16",
+   "date_reading": null,
+   "statements": [
+    {
+     "section": "oas",
+     "section_title": "Declaraciones, reservas, denuncias y retiros",
+     "label": null,
+     "kind": "other",
+     "text": "2.\nChile\n:\n\"El Estado de Chile formula la reserva autorizada por el Artículo 2,\npárrafo 1, del Protocolo a la Convención Americana sobro Derechos Humanos\nRelativo a la Abolición de la Pena de Muerte y, en consecuencia podrá\naplicar la pena de muerte en tiempo de guerra conforme al Derecho\nInternacional por delitos sumamente graves de carácter militar\"\n[\nTexto\ndel Tratado\n]"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2008-08-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "1991-10-28",
+   "consent": {
+    "date": "1998-03-30",
+    "type": "unknown",
+    "code": null
+   },
+   "deposit": "1998-05-26",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-03-30",
+    "type": "unknown"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1990-08-27",
+   "consent": {
+    "date": "1998-02-05",
+    "type": "unknown",
+    "code": null
+   },
+   "deposit": "1998-04-15",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-02-05",
+    "type": "unknown"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "2011-09-14",
+   "consent": {
+    "date": "2011-11-10",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-11-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "México",
+   "signature": "2007-06-28",
+   "consent": {
+    "date": "2007-08-20",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2007-08-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": "1990-08-30",
+   "consent": {
+    "date": "1999-03-24",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1999-11-09",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-03-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "1990-11-26",
+   "consent": {
+    "date": "1991-06-27",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1991-08-28",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1991-06-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1999-06-08",
+   "consent": {
+    "date": "2000-10-31",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "2000-12-07",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-10-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "República Dominicana",
+   "signature": "2011-12-19",
+   "consent": {
+    "date": "2012-01-27",
+    "type": "accession",
+    "code": "AD"
+   },
+   "deposit": null,
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2012-01-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1990-10-02",
+   "consent": {
+    "date": "1994-02-08",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1994-04-04",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-02-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela",
+   "signature": "1990-09-25",
+   "consent": {
+    "date": "1994-04-06",
+    "type": "ratification",
+    "code": "RA"
+   },
+   "deposit": "1994-07-09",
+   "date_reading": null,
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-04-06",
+    "type": "ratification"
+   }
+  }
+ ]
+}

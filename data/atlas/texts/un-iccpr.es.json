@@ -1,0 +1,1807 @@
+{
+ "instrument": "un-iccpr",
+ "authority": "authentic",
+ "lang": "es",
+ "title": "PACTO INTERNACIONAL DE DERECHOS CIVILES Y POLÍTICOS",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de Ratificación de España del Pacto Internacional de Derechos Civiles y Políticos, hecho en Nueva York el 19 de diciembre de 1966.",
+  "identifier": "BOE-A-1977-10733",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1977-10733",
+  "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/texto",
+  "eli": "https://www.boe.es/eli/es/ai/1966/12/19/(1)",
+  "published": "1977-04-30",
+  "retrieved": "2026-11-09",
+  "sha256": "20bee5332be8803c223f26551257fd4e1fbe2bbfd4b5d5574c45dd226a2c05a7",
+  "method": "boe-consolidated"
+ },
+ "versions": [
+  {
+   "norm": "BOE-A-1977-10733",
+   "published": "1977-04-30"
+  }
+ ],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Partes en el presente Pacto,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Considerando que, conforme a los principios enunciados en la Carta de las Naciones Unidas, la libertad, la justicia y la paz en el mundo tienen por base el reconocimiento de la dignidad inherente a todos los miembros de la familia humana y de sus derechos iguales e inalienables,"
+  },
+  {
+   "id": "pre-3",
+   "text": "Reconociendo que estos derechos se derivan de la dignidad inherente a la persona humana,"
+  },
+  {
+   "id": "pre-4",
+   "text": "Reconociendo que, con arreglo a la Declaración Universal de Derechos Humanos, no puede realizarse el ideal del ser humano libre, en el disfrute de las libertades civiles y políticas y liberado del temor y de la miseria, a menos que se creen condiciones que permitan a cada persona gozar de sus derechos civiles y políticos, tanto como de sus derechos económicos, sociales y culturales,"
+  },
+  {
+   "id": "pre-5",
+   "text": "Considerando que la Carta de las Naciones Unidas impone a los Estados la obligación de promover el respeto universal y efectivo de los derechos y libertades humanos,"
+  },
+  {
+   "id": "pre-6",
+   "text": "Comprendiendo que el individuo, por tener deberes respecto de otros individuos y de la comunidad a que pertenece, tiene la obligación de esforzarse por la consecución y la observancia de los derechos reconocidos en este Pacto,"
+  },
+  {
+   "id": "pre-7",
+   "text": "Convienen en los artículos siguientes:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-parte-i",
+   "level": 1,
+   "label": "Parte I",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-1",
+   "number": "1",
+   "label": "Artículo 1",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-1-p1",
+     "text": "1. Todos los pueblos tienen el derecho de libre determinación. En virtud de este derecho establecen libremente su condición política y proveen asimismo a su desarrollo económico, social y cultural.",
+     "number": "1"
+    },
+    {
+     "id": "art-1-p2",
+     "text": "2. Para el logro de sus fines, todos los pueblos pueden disponer libremente de sus riquezas y recursos naturales, sin perjuicio de las obligaciones que derivan de la cooperación económica internacional basada en el principio de beneficio recíproco, así como del derecho internacional. En ningún caso podría privarse a un pueblo de sus propios medios de subsistencia.",
+     "number": "2"
+    },
+    {
+     "id": "art-1-p3",
+     "text": "3. Los Estados Partes en el presente Pacto, incluso los que tienen la responsabilidad de administrar territorios no autónomos y territorios en fideicomiso, promoverán el ejercicio del derecho de libre determinación, y respetarán este derecho de conformidad con las disposiciones de la Carta de las Naciones Unidas.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1"
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-ii",
+   "level": 1,
+   "label": "Parte II",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-2",
+   "number": "2",
+   "label": "Artículo 2",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-2-p1",
+     "text": "1. Cada uno de los Estados Partes en el presente Pacto se compromete a respetar y a garantizar a todos los individuos que se encuentren en su territorio y estén sujetos a su jurisdicción los derechos reconocidos en el presente Pacto, sin distinción alguna de raza, color, sexo, idioma, religión, opinión política o de otra índole, origen nacional o social, posición económica, nacimiento o cualquier otra condición social.",
+     "number": "1"
+    },
+    {
+     "id": "art-2-p2",
+     "text": "2. Cada Estado Parte se compromete a adoptar, con arreglo a sus procedimientos constitucionales y a las disposiciones del presente Pacto, las medidas oportunas para dictar las disposiciones legislativas o de otro carácter que fueren necesarias para hacer efectivos los derechos reconocidos en el presente Pacto y que no estuviesen ya garantizados por disposiciones legislativas o de otro carácter.",
+     "number": "2"
+    },
+    {
+     "id": "art-2-p3",
+     "text": "3. Cada uno de los Estados Partes en el presente Pacto se compromete a garantizar que:",
+     "number": "3"
+    },
+    {
+     "id": "art-2-p4",
+     "text": "a) Toda persona cuyos derechos o libertades reconocidos en el presente Pacto hayan sido violados podrá interponer un recurso efectivo, aun cuando tal violación hubiera sido cometida por personas que actuaban en ejercicio de sus funciones oficiales;"
+    },
+    {
+     "id": "art-2-p5",
+     "text": "b) La autoridad competente, judicial, administrativa o legislativa, o cualquiera otra autoridad competente prevista por el sistema legal del Estado, decidirá sobre los derechos de toda persona que interponga tal recurso, y a desarrollar las posibilidades de recurso judicial;"
+    },
+    {
+     "id": "art-2-p6",
+     "text": "c) Las autoridades competentes cumplirán toda decisión en que se haya estimado procedente el recurso."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2"
+  },
+  {
+   "kind": "article",
+   "id": "art-3",
+   "number": "3",
+   "label": "Artículo 3",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-3-p1",
+     "text": "Los Estados Partes en el presente Pacto se comprometen a garantizar a hombres y mujeres la igualdad en el goce de todos los derechos civiles y políticos enunciados en el presente Pacto."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3"
+  },
+  {
+   "kind": "article",
+   "id": "art-4",
+   "number": "4",
+   "label": "Artículo 4",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-4-p1",
+     "text": "1. En situaciones excepcionales que pongan en peligro la vida de la nación y cuya existencia haya sido proclamada oficialmente, los Estados Partes en el presente Pacto podrán adoptar disposiciones que en la medida estrictamente limitada a las exigencias de la situación, suspendan las obligaciones contraídas en virtud de este Pacto, siempre que tales disposiciones no sean incompatibles con las demás obligaciones que les impone el derecho internacional y no entrañen discriminación alguna fundada únicamente en motivos de raza, color, sexo, idioma, religión u origen social.",
+     "number": "1"
+    },
+    {
+     "id": "art-4-p2",
+     "text": "2. La disposición precedente no autoriza suspensión alguna de los artículos 6, 7 y 8 (párrafos 1 y 2), 11, 15, 16 y 18.",
+     "number": "2"
+    },
+    {
+     "id": "art-4-p3",
+     "text": "3. Todo Estado Parte en el presente Pacto que haga uso del derecho de suspensión deberá informar inmediatamente a los demás Estados Partes en el presente Pacto, por conducto del Secretario general de las Naciones Unidas, de las disposiciones cuya aplicación haya suspendido y de los motivos que hayan suscitado la suspensión. Se hará una nueva comunicación por el mismo conducto en la fecha en que haya dado por terminada tal suspensión.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4"
+  },
+  {
+   "kind": "article",
+   "id": "art-5",
+   "number": "5",
+   "label": "Artículo 5",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-5-p1",
+     "text": "1. Ninguna disposición del presente Pacto podrá ser interpretada en el sentido de conceder derecho alguno a un Estado, grupo o individuo para emprender actividades o realizar actos encaminados a la destrucción de cualquiera de los derechos y libertades reconocidos en el Pacto o a su limitación en mayor medida que la prevista en él.",
+     "number": "1"
+    },
+    {
+     "id": "art-5-p2",
+     "text": "2. No podrá admitirse restricción o menoscabo de ninguno de los derechos humanos fundamentales reconocidos o vigentes en un Estado Parte en virtud de leyes, convenciones, reglamentos o costumbres, salvo pretexto de que el presente Pacto no los reconoce o los reconoce en menor grado.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a5"
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-iii",
+   "level": 1,
+   "label": "Parte III",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-6",
+   "number": "6",
+   "label": "Artículo 6",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-6-p1",
+     "text": "1. El derecho a la vida es inherente a la persona humana. Este derecho estará protegido por la ley. Nadie podrá ser privado de la vida arbitrariamente.",
+     "number": "1"
+    },
+    {
+     "id": "art-6-p2",
+     "text": "2. En los países que no hayan abolido la pena capital sólo podrá imponerse la pena de muerte por los más graves delitos y de conformidad con leyes que estén en vigor en el momento de cometerse el delito y que no sean contrarias a las disposiciones del presente Pacto ni a la Convención para la prevención y la sanción del delito de genocidio. Esta pena sólo podrá imponerse en cumplimiento de sentencia definitiva de un tribunal competente.",
+     "number": "2"
+    },
+    {
+     "id": "art-6-p3",
+     "text": "3. Cuando la privación de la vida constituya delito de genocidio se tendrá entendido que nada de lo dispuesto en este artículo excusará en modo alguno a los Estados Partes del cumplimiento de ninguna de las obligaciones asumidas en virtud de las disposiciones de la Convención para la prevención y la sanción del delito de genocidio.",
+     "number": "3"
+    },
+    {
+     "id": "art-6-p4",
+     "text": "4. Toda persona condenada a muerte tendrá derecho a solicitar el indulto o la conmutación de la pena. La amnistía, el indulto o la conmutación de la pena capital podrán ser concedidos en todos los casos.",
+     "number": "4"
+    },
+    {
+     "id": "art-6-p5",
+     "text": "5. No se impondrá la pena de muerte por delitos cometidos por personas de menos de dieciocho años de edad, ni se la aplicará a las mujeres en estado de gravidez.",
+     "number": "5"
+    },
+    {
+     "id": "art-6-p6",
+     "text": "6. Ninguna disposición de este artículo podrá ser invocada por un Estado Parte en el presente Pacto para demorar o impedir la abolición de la pena capital.",
+     "number": "6"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a6"
+  },
+  {
+   "kind": "article",
+   "id": "art-7",
+   "number": "7",
+   "label": "Artículo 7",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-7-p1",
+     "text": "Nadie será sometido a torturas ni a penas o tratos crueles, inhumanos o degradantes. En particular, nadie será sometido sin su libre consentimiento a experimentos médicos o científicos."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a7"
+  },
+  {
+   "kind": "article",
+   "id": "art-8",
+   "number": "8",
+   "label": "Artículo 8",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-8-p1",
+     "text": "1. Nadie estará sometido a esclavitud. La esclavitud y la trata de esclavos estarán prohibidas en todas sus formas.",
+     "number": "1"
+    },
+    {
+     "id": "art-8-p2",
+     "text": "2. Nadie estará sometido a servidumbre.",
+     "number": "2"
+    },
+    {
+     "id": "art-8-p3",
+     "text": "3. a) Nadie será constreñido a ejecutar un trabajo forzoso u obligatorio;",
+     "number": "3"
+    },
+    {
+     "id": "art-8-p4",
+     "text": "b) El inciso precedente no podrá ser interpretado en el sentido de que prohíbe, en los países en los cuales ciertos delitos pueden ser castigados con la pena de prisión acompañada de trabajos forzados, el cumplimiento de una pena de trabajos forzados impuesta por un tribunal competente;"
+    },
+    {
+     "id": "art-8-p5",
+     "text": "c) No se considerarán como «trabajo forzoso u obligatorio», a los efectos de este párrafo:"
+    },
+    {
+     "id": "art-8-p6",
+     "text": "i) Los trabajos o servicios que, aparte de los mencionados en el inciso b), se exijan normalmente de una persona presa en virtud de una decisión judicial legalmente dictada, o de una persona que habiendo sido presa en virtud de tal decisión se encuentre en libertad condicional;"
+    },
+    {
+     "id": "art-8-p7",
+     "text": "ii) El servicio de carácter militar y, en los países donde se admite la exención por razones de conciencia, el servicio nacional que deben prestar conforme a la ley quienes se opongan al servicio militar por razones de conciencia;"
+    },
+    {
+     "id": "art-8-p8",
+     "text": "iii) El servicio impuesto en casos de peligro o calamidad que amenace la vida o el bienestar de la comunidad;"
+    },
+    {
+     "id": "art-8-p9",
+     "text": "iv) El trabajo o servicio que forme parte de las obligaciones cívicas normales."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a8"
+  },
+  {
+   "kind": "article",
+   "id": "art-9",
+   "number": "9",
+   "label": "Artículo 9",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-9-p1",
+     "text": "1. Todo individuo tiene derecho a la libertad y a la seguridad personales. Nadie podrá ser sometido a detención o prisión arbitrarias. Nadie podrá ser privado de su libertad, salvo por las causas fijadas por ley y con arreglo al procedimiento establecido en ésta.",
+     "number": "1"
+    },
+    {
+     "id": "art-9-p2",
+     "text": "2. Toda persona detenida será informada, en el momento de su detención, de las razones de la misma, y notificada, sin demora, de la acusación formulada contra ella.",
+     "number": "2"
+    },
+    {
+     "id": "art-9-p3",
+     "text": "3. Toda persona detenida o presa a causa de una infracción penal será llevada sin demora ante un juez o otro funcionario autorizado por la ley para ejercer funciones judiciales, y tendrá derecho a ser juzgada dentro de un plazo razonable o a ser puesta en libertad. La prisión preventiva de las personas que hayan de ser juzgadas no debe ser la regla general, pero su libertad podrá estar subordinada a garantías que aseguren la comparecencia del acusado en el acto del juicio, o en cualquier otro momento de las diligencias procesales y, en su caso, para la ejecución del fallo.",
+     "number": "3"
+    },
+    {
+     "id": "art-9-p4",
+     "text": "4. Toda persona que sea privada de libertad en virtud de detención o prisión tendrá derecho a recurrir ante un tribunal, a fin de que éste decida a la brevedad posible sobre la legalidad de su prisión y ordene su libertad si la prisión fuera ilegal.",
+     "number": "4"
+    },
+    {
+     "id": "art-9-p5",
+     "text": "5. Toda persona que haya sido ilegalmente detenida o presa, tendrá el derecho efectivo a obtener reparación.",
+     "number": "5"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a9"
+  },
+  {
+   "kind": "article",
+   "id": "art-10",
+   "number": "10",
+   "label": "Artículo 10",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-10-p1",
+     "text": "1. Toda persona privada de libertad será tratada humanamente y con el respeto debido a la dignidad inherente al ser humano.",
+     "number": "1"
+    },
+    {
+     "id": "art-10-p2",
+     "text": "2. a) Los procesados estarán separados de los condenados, salvo en circunstancias excepcionales, y serán sometidos a un tratamiento distinto, adecuado a su condición de personas no condenadas;",
+     "number": "2"
+    },
+    {
+     "id": "art-10-p3",
+     "text": "b) Los menores procesados estarán separados de los adultos y deberán ser llevados ante los tribunales de justicia con la mayor celeridad posible para su enjuiciamiento."
+    },
+    {
+     "id": "art-10-p4",
+     "text": "3. El régimen penitenciario consistirá en un tratamiento cuya finalidad esencial será la reforma y la readaptación social de los penados. Los menores delincuentes estarán separados de los adultos y serán sometidos a un tratamiento adecuado a su edad y condición jurídica.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-11",
+   "number": "11",
+   "label": "Artículo 11",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-11-p1",
+     "text": "Nadie será encarcelado por el solo hecho de no poder cumplir una obligación contractual."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-12",
+   "number": "12",
+   "label": "Artículo 12",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-12-p1",
+     "text": "1. Toda persona que se halle legalmente en el territorio de un Estado tendrá derecho a circular libremente por él y a escoger libremente en él su residencia.",
+     "number": "1"
+    },
+    {
+     "id": "art-12-p2",
+     "text": "2. Toda persona tendrá derecho a salir libremente de cualquier país, incluso del propio.",
+     "number": "2"
+    },
+    {
+     "id": "art-12-p3",
+     "text": "3. Los derechos antes mencionados no podrán ser objeto de restricciones salvo cuando éstas se hallen previstas en la ley, sean necesarias para proteger la seguridad nacional, el orden publico, la salud o la moral públicas o los derechos y libertades de terceros, y sean compatibles con los demás derechos reconocidos en el presente Pacto.",
+     "number": "3"
+    },
+    {
+     "id": "art-12-p4",
+     "text": "4. Nadie podrá ser arbitrariamente privado del derecho a entrar en su propio país.",
+     "number": "4"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-13",
+   "number": "13",
+   "label": "Artículo 13",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-13-p1",
+     "text": "El extranjero que se halle legalmente en el territorio de un Estado Parte en el presente Pacto sólo podrá ser expulsado de él en cumplimiento de una decisión adoptada conforme a la ley; y, a menos que razones imperiosas de seguridad nacional se opongan a ello, se permitirá a tal extranjero exponer las razones que lo asistan en contra de su expulsión, así como someter su caso a revisión ante la autoridad competente, o bien, ante la persona o personas designadas especialmente por dicha autoridad competente. y hacerse representar con tal fin ante ellas."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-14",
+   "number": "14",
+   "label": "Artículo 14",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-14-p1",
+     "text": "1. Todas las personas son iguales ante los tribunales y cortes de justicia. Toda persona tendrá derecho a ser oída públicamente y con las debidas garantías por un tribunal competente, independiente e imparcial, establecido por la ley, en la sustanciación de cualquier acusación de carácter penal formulada contra ella o para la determinación de sus derechos u obligaciones de carácter civil. La prensa y el público podrán ser excluidos de la totalidad o parte de los juicios por consideraciones de moral, orden público o seguridad nacional en una sociedad democrática, o cuando lo exija el interés de la vida privada de las partes o, en la medida estrictamente necesaria en opinión del tribunal, cuando por circunstancias especiales del asunto la publicidad pudiera perjudicar a los intereses de la justicia; pero toda sentencia en materia penal o contenciosa será pública, excepto en los casos en que el interés de menores de edad exija lo contrario, o en las actuaciones referentes a pleitos matrimoniales o a la tutela de menores.",
+     "number": "1"
+    },
+    {
+     "id": "art-14-p2",
+     "text": "2. Toda persona acusada de un delito tiene derecho a que se presuma su inocencia mientras no se pruebe su culpabilidad conforme a la ley.",
+     "number": "2"
+    },
+    {
+     "id": "art-14-p3",
+     "text": "3. Durante el proceso, toda persona acusada de un delito tendrá derecho, en plena igualdad, a las siguientes garantías mínimas:",
+     "number": "3"
+    },
+    {
+     "id": "art-14-p4",
+     "text": "a) A ser informada sin demora, en un idioma que comprenda y en forma detallada, de la naturaleza y causas de la acusación formulada contra ella,"
+    },
+    {
+     "id": "art-14-p5",
+     "text": "b) A disponer del tiempo y de los medios adecuados para la preparación de su defensa y a comunicarse con un defensor de su elección;"
+    },
+    {
+     "id": "art-14-p6",
+     "text": "c) A ser juzgada sin dilaciones indebidas;"
+    },
+    {
+     "id": "art-14-p7",
+     "text": "d) A hallarse presente en el proceso y a defenderse personalmente o ser asistida por un defensor de su elección; a ser informada, si no tuviera defensor, del derecho que le asiste a tenerlo y, siempre que el interés de la justicia lo exija, a que se le nombre defensor de oficio, gratuitamente, si careciere de medios suficientes para pagarlo;"
+    },
+    {
+     "id": "art-14-p8",
+     "text": "e) A interrogar o hacer interrogar a los testigos de cargo y a obtener la comparecencia de los testigos de descargo y que éstos sean interrogados en las mismas condiciones que los testigos de cargo;"
+    },
+    {
+     "id": "art-14-p9",
+     "text": "f) A ser asistida gratuitamente por un intérprete, si no comprende o no habla el idioma empleado en el tribunal;"
+    },
+    {
+     "id": "art-14-p10",
+     "text": "g) A no ser obligada a declarar contra sí misma ni a confesarse culpable."
+    },
+    {
+     "id": "art-14-p11",
+     "text": "4. En el procedimiento aplicable a los menores de edad a efectos penales se tendrá en cuenta esta circunstancia y la importancia de estimular su readaptación social.",
+     "number": "4"
+    },
+    {
+     "id": "art-14-p12",
+     "text": "5. Toda persona declarada culpable de un delito tendrá derecho a que el fallo condenatorio y la pena que se le haya impuesto sean sometidos a un tribunal superior, conforme a lo prescrito por la ley.",
+     "number": "5"
+    },
+    {
+     "id": "art-14-p13",
+     "text": "6. Cuando una sentencia condenatoria firme haya sido ulteriormente revocada, o el condenado haya sido indultado por haberse producido o descubierto un hecho plenamente probatorio de la comisión de un error judicial, la persona que haya sufrido una pena como resultado de tal sentencia deberá ser indemnizada, conforme a la ley, a menos que se demuestre que le es imputable en todo o en parte el no haberse revelado oportunamente el hecho desconocido.",
+     "number": "6"
+    },
+    {
+     "id": "art-14-p14",
+     "text": "7. Nadie podrá ser juzgado ni sancionado por un delito por el cual haya sido ya condenado o absuelto por una sentencia firme de acuerdo con la ley y el procedimiento penal de cada país.",
+     "number": "7"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-15",
+   "number": "15",
+   "label": "Artículo 15",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-15-p1",
+     "text": "1. Nadie será condenado por actos u omisiones que en el momento de cometerse no fueran delictivos según el derecho nacional o internacional. Tampoco se impondrá pena más grave que la aplicable en el momento de la comisión del delito. Si con posterioridad a la comisión del delito la ley dispone la imposición de una pena más leve, el delincuente se beneficiará de ello.",
+     "number": "1"
+    },
+    {
+     "id": "art-15-p2",
+     "text": "2. Nada de lo dispuesto en este artículo se opondrá al juicio ni a la condena de una persona por actos u omisiones que, en el momento de cometerse, fueran delictivos según los principios generales del derecho reconocidos por la comunidad internacional.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-16",
+   "number": "16",
+   "label": "Artículo 16",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-16-p1",
+     "text": "Todo ser humano tiene derecho en todas partes al reconocimiento de su personalidad jurídica."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-17",
+   "number": "17",
+   "label": "Artículo 17",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-17-p1",
+     "text": "1. Nadie será objeto de injerencias arbitrarias o ilegales en su vida privada, su familia, su domicilio o su correspondencia, ni de ataques ilegales a su honra y reputación.",
+     "number": "1"
+    },
+    {
+     "id": "art-17-p2",
+     "text": "2. Toda persona tiene derecho a la protección de la ley contra esas injerencias o esos ataques.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-18",
+   "number": "18",
+   "label": "Artículo 18",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-18-p1",
+     "text": "1. Toda persona tiene derecho a la libertad de pensamiento, de conciencia y de religión; este derecho incluye la libertad de tener o adoptar la religión o las creencias de su elección, así como la libertad de manifestar su religión o sus creencias, individual o colectivamente, tanto en público como en privado, mediante el culto, la celebración de los ritos, las prácticas y la enseñanza.",
+     "number": "1"
+    },
+    {
+     "id": "art-18-p2",
+     "text": "2. Nadie será objeto de medidas coercitivas que puedan menoscabar su libertad de tener o de adoptar la religión o las creencias de su elección.",
+     "number": "2"
+    },
+    {
+     "id": "art-18-p3",
+     "text": "3. La libertad de manifestar la propia religión o las propias creencias estará sujeta únicamente a las limitaciones prescritas por la ley que sean necesarias para proteger la seguridad, el orden, la salud o la moral públicos, o los derechos y libertades fundamentales de los demás.",
+     "number": "3"
+    },
+    {
+     "id": "art-18-p4",
+     "text": "4. Los Estados Partes en el presente Pacto se comprometen a respetar la libertad de los padres y, en su caso, de los tutores legales, para garantizar que los hijos reciban la educación religiosa y moral que esté de acuerdo con sus propias convicciones.",
+     "number": "4"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-19",
+   "number": "19",
+   "label": "Artículo 19",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-19-p1",
+     "text": "1. Nadie podrá ser molestado a causa de sus opiniones.",
+     "number": "1"
+    },
+    {
+     "id": "art-19-p2",
+     "text": "2. Toda persona tiene derecho a la libertad de expresión; este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole, sin consideración de fronteras, ya sea oralmente, por escrito o en forma impresa o artística, o por cualquier otro procedimiento de su elección.",
+     "number": "2"
+    },
+    {
+     "id": "art-19-p3",
+     "text": "3. El ejercicio del derecho previsto en el párrafo 2 de este artículo entraña deberes y responsabilidades especiales. Por consiguiente, puede estar sujeto a ciertas restricciones que deberán, sin embargo, estar expresamente fijadas por la ley y ser necesaria para:",
+     "number": "3"
+    },
+    {
+     "id": "art-19-p4",
+     "text": "a) Asegurar el respeto a los derechos o a la reputación de los demás;"
+    },
+    {
+     "id": "art-19-p5",
+     "text": "b) La protección de la seguridad nacional, el orden público o la salud o la moral públicas."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a1-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-20",
+   "number": "20",
+   "label": "Artículo 20",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-20-p1",
+     "text": "1. Toda propaganda en favor de la guerra estará prohibida por la ley.",
+     "number": "1"
+    },
+    {
+     "id": "art-20-p2",
+     "text": "2. Toda apología del odio nacional, racial o religioso que constituya incitación a la discriminación, la hostilidad o la violencia estará prohibida por la ley.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-21",
+   "number": "21",
+   "label": "Artículo 21",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-21-p1",
+     "text": "Se reconoce el derecho de reunión pacífica. El ejercicio de tal derecho sólo podrá estar sujeto a las restricciones previstas por le ley que sean necesarias en una sociedad democrática, en interés de la seguridad nacional, de la seguridad pública o del orden público, o para proteger la salud o la moral públicas o los derechos y libertades de los demás."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-22",
+   "number": "22",
+   "label": "Artículo 22",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-22-p1",
+     "text": "1. Toda persona tiene derecho a asociarse libremente con otras, incluso el derecho a fundar sindicatos y afiliarse a ellos para la protección de sus intereses.",
+     "number": "1"
+    },
+    {
+     "id": "art-22-p2",
+     "text": "2. El ejercicio de tal derecho sólo podrá estar sujeto a las restricciones previstas por la ley que sean necesarias en una sociedad democrática, en interés de la seguridad nacional, de la seguridad pública o del orden público, o para proteger la salud o la moral públicas o los derechos y libertades de los demás. El presente artículo no impedirá la imposición de restricciones legales al ejercicio de tal derecho cuando se trate de miembros de las fuerzas armadas y de la policía.",
+     "number": "2"
+    },
+    {
+     "id": "art-22-p3",
+     "text": "3. Ninguna disposición de este artículo autoriza a los Estados Partes en el Convenio de la Organización Internacional del Trabajo de 1948 relativo a la libertad sindical y a la protección del derecho de sindicación a adoptar medidas legislativas que puedan menoscabar las garantías previstas en él ni a aplicar la ley de tal manera que pueda menoscabar esas garantías.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-23",
+   "number": "23",
+   "label": "Artículo 23",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-23-p1",
+     "text": "1. La familia es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado.",
+     "number": "1"
+    },
+    {
+     "id": "art-23-p2",
+     "text": "2. Se reconoce el derecho del hombre y de la mujer a contraer matrimonio y a fundar una familia si tienen edad para ello.",
+     "number": "2"
+    },
+    {
+     "id": "art-23-p3",
+     "text": "3. El matrimonio no podrá celebrarse sin el libre y pleno consentimiento de los contrayentes.",
+     "number": "3"
+    },
+    {
+     "id": "art-23-p4",
+     "text": "4. Los Estados Partes en el presente Pacto tomarán las medidas apropiadas para asegurar la igualdad de derechos y de responsabilidades de ambos esposos en cuanto al matrimonio, durante el matrimonio y en caso de disolución del mismo. En caso de disolución, se adoptarán disposiciones que aseguren la protección necesaria a los hijos.",
+     "number": "4"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-24",
+   "number": "24",
+   "label": "Artículo 24",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-24-p1",
+     "text": "1. Todo niño tiene derecho, sin discriminación alguna por motivos de raza, color, sexo, idioma, religión, origen nacional o social, posición económica o nacimiento, a las medidas de protección que su condición de menor requiere, tanto por parte de su familia como de la sociedad y del Estado.",
+     "number": "1"
+    },
+    {
+     "id": "art-24-p2",
+     "text": "2. Todo niño será inscrito inmediatamente después de su nacimiento y deberá tener un nombre.",
+     "number": "2"
+    },
+    {
+     "id": "art-24-p3",
+     "text": "3. Todo niño tiene derecho a adquirir una nacionalidad.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-25",
+   "number": "25",
+   "label": "Artículo 25",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-25-p1",
+     "text": "Todos los ciudadanos gozarán, sin ninguna de las distinciones mencionadas en el artículo 2, y sin restricciones indebidas, de los siguientes derechos y oportunidades:"
+    },
+    {
+     "id": "art-25-p2",
+     "text": "a) Participar en la dirección de los asuntos públicos, directamente o por medio de representantes libremente elegidos;"
+    },
+    {
+     "id": "art-25-p3",
+     "text": "b) Votar y ser elegidos en elecciones periódicas, auténticas, realizadas por sufragio universal e igual y por voto secreto que garantice la libre expresión de la voluntad de los electores;"
+    },
+    {
+     "id": "art-25-p4",
+     "text": "c) Tener acceso, en condiciones generales de igualdad, a las funciones públicas de su país."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-26",
+   "number": "26",
+   "label": "Artículo 26",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-26-p1",
+     "text": "Todas las personas son iguales ante la ley y tienen derecho sin discriminación a igual protección de la ley. A este respecto, la ley prohibirá toda discriminación y garantizará a todas las personas protección igual y efectiva contra cualquier discriminación por motivos de raza, color, sexo, idioma, religión, opiniones políticas o de cualquier índole, origen nacional o social, posición económica, nacimiento o cualquier otra condición social."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-27",
+   "number": "27",
+   "label": "Artículo 27",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-27-p1",
+     "text": "En los Estados en que existan minorías étnicas, religiosas o lingüísticas, no se negará a las personas que pertenezcan a dichas minorías el derecho que les corresponde, en común con los demás miembros de su grupo, a tener su propia vida cultural, a profesar y practicar su propia religión y a emplear su propio idioma."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-9"
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-iv",
+   "level": 1,
+   "label": "Parte IV",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-28",
+   "number": "28",
+   "label": "Artículo 28",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-28-p1",
+     "text": "1. Se establecerá un Comité de Derechos Humanos (en adelante denominado el Comité). Se compondrá de dieciocho miembros, y desempeñará las funciones que se señalan más adelante.",
+     "number": "1"
+    },
+    {
+     "id": "art-28-p2",
+     "text": "2. El Comité estará compuesto de nacionales de los Estados Partes en el presente Pacto, que deberán ser personas de gran integridad moral, con reconocida competencia en materia de derechos humanos. Se tomará en consideración la utilidad de la participación de algunas personas que tengan experiencia jurídica.",
+     "number": "2"
+    },
+    {
+     "id": "art-28-p3",
+     "text": "3. Los miembros del Comité serán elegidos y ejercerán sus funciones a título personal.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-29",
+   "number": "29",
+   "label": "Artículo 29",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-29-p1",
+     "text": "1. Los miembros del Comité serán elegidos por votación secreta de una lista de personas que reúnan las condiciones previstas en el artículo 28 y que sean propuestas al efecto por los Estados Partes en el presente Pacto.",
+     "number": "1"
+    },
+    {
+     "id": "art-29-p2",
+     "text": "2. Cada Estado Parte en el presente Pacto podrá proponer hasta dos personas. Estas personas serán nacionales del Estado que las proponga.",
+     "number": "2"
+    },
+    {
+     "id": "art-29-p3",
+     "text": "3. La misma persona podrá ser propuesta más de una vez.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a2-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-30",
+   "number": "30",
+   "label": "Artículo 30",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-30-p1",
+     "text": "1. La elección inicial se celebrará a más tardar seis meses después de la fecha de entrada en vigor del presente Pacto.",
+     "number": "1"
+    },
+    {
+     "id": "art-30-p2",
+     "text": "2. Por lo menos cuatro meses antes de la fecha de la elección del Comité, siempre que no se trate de una elección para llenar una vacante declarada de conformidad con el artículo 34, el Secretario general de las Naciones Unidas invitará por escrito a los Estados Partes en el presente Pacto a presentar sus candidatos para el Comité en el término de tres meses.",
+     "number": "2"
+    },
+    {
+     "id": "art-30-p3",
+     "text": "3. El Secretario general de las Naciones Unidas preparará una lista por orden alfabético de los candidatos que hubieren sido presentados, con indicación de los Estados Partes que los hubieren designado, y la comunicará a los Estados Partes en el presente Pacto a más tardar un mes antes de la fecha de cada elección.",
+     "number": "3"
+    },
+    {
+     "id": "art-30-p4",
+     "text": "4. La elección de los miembros del Comité se celebrará en una reunión de los Estados Partes convocada por el Secretario general de las Naciones Unidas en la sede de la Organización. En esa reunión, para la cual el quórum estará constituido por dos tercios de los Estados Partes, quedarán elegidos miembros del Comité los candidatos que obtengan el mayor número de votos y la mayoría absoluta de los votos de los representantes de los Estados Partes presentes y votantes.",
+     "number": "4"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-31",
+   "number": "31",
+   "label": "Artículo 31",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-31-p1",
+     "text": "1. El Comité no podrá comprender más de un nacional de un mismo Estado.",
+     "number": "1"
+    },
+    {
+     "id": "art-31-p2",
+     "text": "2. En la elección del Comité se tendrá en cuenta una distribución geográfica equitativa de los miembros y la representación de las diferentes formas de civilización y de los principales sistemas jurídicos.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-32",
+   "number": "32",
+   "label": "Artículo 32",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-32-p1",
+     "text": "1. Los miembros del Comité se elegirán por cuatro años. Podrán ser reelegidos si se presenta de nuevo su candidatura. Sin embargo, los mandatos de nueve de los miembros elegidos en la primera elección expirarán al cabo de dos años. Inmediatamente después de la primera elección, el Presidente de la reunión mencionada en el párrafo 4 del artículo 30 designará por sorteo los nombres de estos nueve miembros.",
+     "number": "1"
+    },
+    {
+     "id": "art-32-p2",
+     "text": "2. Las elecciones que se celebren al expirar el mandato se harán con arreglo a los artículos precedentes de esta parte del presente Pacto.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-33",
+   "number": "33",
+   "label": "Artículo 33",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-33-p1",
+     "text": "1. Si los demás miembros estiman, por unanimidad, que un miembro del Comité ha dejado de desempeñar sus funciones por otra causa que la de ausencia temporal, el Presidente del Comité notificará este hecho al Secretario general de las Naciones Unidas, quien declarará vacante el puesto de dicho miembro.",
+     "number": "1"
+    },
+    {
+     "id": "art-33-p2",
+     "text": "2. En caso de muerte o renuncia de un miembro del Comité, el Presidente lo notificará inmediatamente al Secretario general de las Naciones Unidas, quien declarará vacante el puesto desde la fecha del fallecimiento o desde la fecha en que sea efectiva la renuncia.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-34",
+   "number": "34",
+   "label": "Artículo 34",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-34-p1",
+     "text": "1. Si se declara una vacante de conformidad con el artículo 33, y si el mandato del miembro que ha de ser sustituido no expira dentro de los seis meses que sigan a la declaración de dicha vacante, el Secretario general de las Naciones Unidas lo notificará a cada uno de los Estados Partes en el presente Pacto, los cuales, para llenar la vacante, podrán presentar candidatos en el plazo de dos meses, de acuerdo con lo dispuesto en el párrafo 2 del artículo 29.",
+     "number": "1"
+    },
+    {
+     "id": "art-34-p2",
+     "text": "2. El Secretario general de las Naciones Unidas preparará una lista por orden alfabético de los candidatos así designados y la comunicará a los Estados Partes en el presente Pacto. La elección para llenar la vacante se verificará de conformidad con las disposiciones pertinentes de esta parte del presente Pacto.",
+     "number": "2"
+    },
+    {
+     "id": "art-34-p3",
+     "text": "3. Todo miembro del Comité que haya sido elegido para llenar una vacante declarada de conformidad con el artículo 33 ocupará el cargo por el resto del mandato del miembro que dejó vacante el puesto en el Comité conforme a lo dispuesto en ese artículo.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-35",
+   "number": "35",
+   "label": "Artículo 35",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-35-p1",
+     "text": "Los miembros del Comité, previa aprobación de la Asamblea General de las Naciones Unidas, percibirán emolumentos de los fondos de las Naciones Unidas en la forma y condiciones que la Asamblea General determine, teniendo en cuenta la importancia de las funciones del Comité."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-7"
+  },
+  {
+   "kind": "article",
+   "id": "art-36",
+   "number": "36",
+   "label": "Artículo 36",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-36-p1",
+     "text": "El Secretario general de las Naciones Unidas proporcionará el personal y los servicios necesarios para el desempeño eficaz de las funciones del Comité en virtud del presente Pacto."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-37",
+   "number": "37",
+   "label": "Artículo 37",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-37-p1",
+     "text": "1. El Secretario general de las Naciones Unidas convocará la primera reunión del Comité en la sede de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-37-p2",
+     "text": "2. Después de su primera reunión el Comité se reunirá en las ocasiones que se prevean en su reglamento.",
+     "number": "2"
+    },
+    {
+     "id": "art-37-p3",
+     "text": "3. El Comité se reunirá normalmente en la sede de las Naciones Unidas o en la Oficina de las Naciones Unidas en Ginebra.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-9"
+  },
+  {
+   "kind": "article",
+   "id": "art-38",
+   "number": "38",
+   "label": "Artículo 38",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-38-p1",
+     "text": "Antes de entrar en funciones, los miembros del Comité declararán solemnemente en sesión pública del Comité que desempeñarán su cometido con toda imparcialidad y conciencia."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-39",
+   "number": "39",
+   "label": "Artículo 39",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-39-p1",
+     "text": "1. El Comité elegirá su Mesa por un período de dos años Los miembros de la Mesa podrán ser reelegidos.",
+     "number": "1"
+    },
+    {
+     "id": "art-39-p2",
+     "text": "2. El Comité establecerá su propio reglamento, en el cual se dispondrá, entre otras cosas, que;",
+     "number": "2"
+    },
+    {
+     "id": "art-39-p3",
+     "text": "a) Doce miembros constituirán quórum."
+    },
+    {
+     "id": "art-39-p4",
+     "text": "b) Las decisiones del Comité se tomarán por mayoría de votos de los miembros presentes."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a3-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-40",
+   "number": "40",
+   "label": "Artículo 40",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-40-p1",
+     "text": "1. Los Estados Partes en el presente Pacto se comprometen a presentar informes sobre las disposiciones que hayan adoptado y que den efecto a los derechos reconocidos en el Pacto y sobre el progreso que hayan realizado en cuanto al goce de esos derechos:",
+     "number": "1"
+    },
+    {
+     "id": "art-40-p2",
+     "text": "a) En el plazo de un año a contar de la fecha de entrada en vigor del presente Pacto con respecto a los Estados Partes interesados;"
+    },
+    {
+     "id": "art-40-p3",
+     "text": "b) En lo sucesivo, cada vez que el Comité lo pida."
+    },
+    {
+     "id": "art-40-p4",
+     "text": "2. Todos los informes se presentarán al Secretario general de las Naciones Unidas, quien los transmitirá al Comité para examen. Los informes señalarán los factores y las dificultades, si los hubiere, que afecten a la aplicación del presente Pacto.",
+     "number": "2"
+    },
+    {
+     "id": "art-40-p5",
+     "text": "3. El Secretario general de las Naciones Unidas, después de celebrar consultas con el Comité, podrá transmitir a los organismos especializados interesados copias de las partes de los informes que caigan dentro de sus esferas de competencia.",
+     "number": "3"
+    },
+    {
+     "id": "art-40-p6",
+     "text": "4. El Comité estudiará los informes presentados por los Estados Partes en el presente Pacto. Transmitirá sus informes, y los comentarios generales que estime oportunos, a los Estados Partes. El Comité también podrá transmitir al Consejo Económico y Social esos comentarios, junto con copia de los informes que haya recibido de los Estados Partes en el Pacto.",
+     "number": "4"
+    },
+    {
+     "id": "art-40-p7",
+     "text": "5. Los Estados Partes podrán presentar al Comité observaciones sobre cualquier comentario que se haga con arreglo al párrafo 4 del presente artículo.",
+     "number": "5"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-41",
+   "number": "41",
+   "label": "Artículo 41",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-41-p1",
+     "text": "1. Con arreglo al presente artículo, todo Estado Parte en el presente Pacto podrá declarar en cualquier momento que reconoce la competencia del Comité para recibir y examinar las comunicaciones en que un Estado Parte alegue que otro Estado Parte no cumple las obligaciones que le impone este Pacto. Las comunicaciones hechas en virtud del presente artículo sólo se podrán admitir y examinar si son presentadas por un Estado Parte que haya hecho una declaración por la cual reconozca con respecto a sí mismo la competencia del Comité. El Comité no admitirá ninguna comunicación relativa a un Estado Parte que no haya hecho tal declaración. Las comunicaciones recibidas en virtud de este artículo se tramitarán de conformidad con el procedimiento siguiente:",
+     "number": "1"
+    },
+    {
+     "id": "art-41-p2",
+     "text": "a) Si un Estado Parte en el presente Pacto considera que otro Estado Parte no cumple las disposiciones del presente Pacto, podrá señalar el asunto a la atención de dicho Estado mediante una comunicación escrita. Dentro de un plazo de tres meses, contado desde la fecha de recibo de la comunicación, el Estado destinatario proporcionará al Estado que haya enviado la comunicación una explicación o cualquier otra declaración por escrito que aclare el asunto, la cual hará referencia, hasta donde sea posible y pertinente, a los procedimientos nacionales y a los recursos adoptados, en trámite o que puedan utilizarse al respecto."
+    },
+    {
+     "id": "art-41-p3",
+     "text": "b) Si el asunto no se resuelve a satisfacción de los dos Estados Partes interesados en un plazo de seis meses, contado desde la fecha en que el Estado destinatario haya recibido la primera comunicación, cualquiera de ambos Estados Partes interesados tendrá derecho a someterlo al Comité, mediante notificación dirigida al Comité y al otro Estado."
+    },
+    {
+     "id": "art-41-p4",
+     "text": "c) El Comité conocerá del asunto que se le someta después de haberse cerciorado de que se han interpuesto y agotado en tal asunto todos los recursos de la jurisdicción interna de que se pueda disponer, de conformidad con los principios del derecho internacional generalmente admitidos. No se aplicará esta regla cuando la tramitación de los mencionados recursos se prolongue injustificadamente."
+    },
+    {
+     "id": "art-41-p5",
+     "text": "d) El Comité celebrará sus sesiones a puerta cerrada cuando examine las comunicaciones previstas en el presente artículo."
+    },
+    {
+     "id": "art-41-p6",
+     "text": "e) A reserva de las disposiciones del inciso c), el Comité pondrá sus buenos oficios a disposición de los Estados Partes interesados, a fin de llegar a una solución amistosa del asunto, fundada en el respeto de los derechos humanos y de las libertades fundamentales reconocidos en el presente Pacto."
+    },
+    {
+     "id": "art-41-p7",
+     "text": "f) En todo asunto que se le someta, el Comité podrá pedir a los Estados Partes interesados a que se hace referencia en el inciso b) que faciliten cualquier información pertinente."
+    },
+    {
+     "id": "art-41-p8",
+     "text": "g) Los Estados Partes interesados a que se hace referencia en el inciso b) tendrán derecho a Estar representados cuando el asunto se examine en el Comité y a presentar exposiciones verbalmente, o por escrito, o de ambas maneras."
+    },
+    {
+     "id": "art-41-p9",
+     "text": "h) El Comité, dentro de los doce meses siguientes a la fecha de recibo de la notificación mencionada en el inciso b), presentará un informe en el cual:"
+    },
+    {
+     "id": "art-41-p10",
+     "text": "i) Si se ha llegado a una solución con arreglo a lo dispuesto en el inciso e), se limitará a una breve exposición de los hechos y de la solución alcanzada."
+    },
+    {
+     "id": "art-41-p11",
+     "text": "ii) Si no se ha llegado a una solución con arreglo a lo dispuesto en el inciso e), se limitará a una breve exposición de los hechos, y agregará las exposiciones escritas y las actas de las exposiciones verbales que hayan hecho los Estados Partes interesados."
+    },
+    {
+     "id": "art-41-p12",
+     "text": "En cada asunto, se enviará el informe a los Estados Partes interesados"
+    },
+    {
+     "id": "art-41-p13",
+     "text": "2. Las disposiciones del presente artículo entrarán en vigor cuando diez Estados Partes en el presente Pacto hayan hecho las declaraciones a que se hace referencia en el párrafo 1 del presente artículo. Tales declaraciones serán depositadas por los Estados Partes en poder del Secretario general de las Naciones Unidas, quien remitirá copia de las mismas a los demás Estados Partes. Toda declaración podrá retirarse en cualquier momento mediante notificación dirigida al Secretario general. Tal retiro no será obstáculo para que se examine cualquier asunto que sea objeto de una comunicación ya transmitida en virtud de este artículo; no se admitirá ninguna nueva comunicación de un Estado Parte una vez que el Secretario general de las Naciones Unidas haya recibido la notificación de retiro de la declaración, a menos que el Estado Parte interesado haya hecho una nueva declaración.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "notes": [
+    "Téngase en cuenta la Declaración del Gobierno español relativa a este artículo:",
+    "\"El Gobierno español declara, con arreglo a lo dispuesto en el artículo 41 del Pacto Internacional de Derechos Civiles y Políticos, que reconoce la competencia del Comité de Derechos Humanos para recibir y examinar las comunicaciones en que un Estado Parte alegue que otro Estado Parte no cumple las obligaciones que le impone este Pacto\". Ref. BOE-A-2001-22621"
+   ],
+   "block": "a4-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-42",
+   "number": "42",
+   "label": "Artículo 42",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-42-p1",
+     "text": "1. a) Si un asunto remitido al Comité con arreglo al artículo 41 no se resuelve a satisfacción de los Estados Partes interesados, el Comité, con el previo consentimiento de los Estados Partes interesados, podrá designar una Comisión Especial de Conciliación (denominada en adelante la Comisión). Los buenos oficios de la Comisión se pondrán a disposición de los Estados Partes interesados, a fin de llegar a una solución amistosa del asunto, basada en el respeto al presente Pacto.",
+     "number": "1"
+    },
+    {
+     "id": "art-42-p2",
+     "text": "b) La Comisión estará integrada por cinco personas aceptables para los Estados Partes interesados. Si, transcurridos tres mes, los Estados Partes interesados no se ponen de acuerdo sobre la composición, en todo o en parte, de la Comisión, los miembros de la Comisión sobre los que no haya habido acuerdo serán elegidos por el Comité, de entre sus propios miembros, en votación secreta y por mayoría de dos tercios."
+    },
+    {
+     "id": "art-42-p3",
+     "text": "2. Los miembros de la Comisión ejercerán sus funciones a título personal. No serán nacionales de los Estados Partes interesados, de ningún Estado que no sea parte en el presente Pacto, ni de ningún Estado Parte que no haya hecho la declaración prevista en el artículo 40.",
+     "number": "2"
+    },
+    {
+     "id": "art-42-p4",
+     "text": "3. La Comisión elegirá su propio Presidente y aprobará su propio reglamento.",
+     "number": "3"
+    },
+    {
+     "id": "art-42-p5",
+     "text": "4. Las reuniones de la Comisión se celebrarán normalmente en la Sede de las Naciones Unidos o en la oficina de las Naciones Unidas en Ginebra. Sin embargo, podrán celebrarse en cualquier otro lugar conveniente que la Comisión acuerde en consulta con el Secretario general de las Naciones Unidas y los Estados Partes interesados.",
+     "number": "4"
+    },
+    {
+     "id": "art-42-p6",
+     "text": "5. La Secretaría prevista en el artículo 36 prestará también servicios a las comisiones que se establezcan en virtud del presente artículo.",
+     "number": "5"
+    },
+    {
+     "id": "art-42-p7",
+     "text": "6. La información recibida y estudiada por el Comité se facilitará a la Comisión, y ésta podrá pedir a los Estados Partes interesados que faciliten cualquier otra información pertinente.",
+     "number": "6"
+    },
+    {
+     "id": "art-42-p8",
+     "text": "7. Cuando la Comisión haya examinado el asunto en todos sus aspectos, y en todo caso en un plazo no mayor de doce meses después de haber tomado conocimiento del mismo, presentará al Presidente del Comité un informe para su transmisión a los Estados Partes interesados:",
+     "number": "7"
+    },
+    {
+     "id": "art-42-p9",
+     "text": "a) Si la Comisión no puede completar su examen del asunto dentro de los doce meses, limitará su informe a una breve exposición de la situación en que se halle su examen del asunto."
+    },
+    {
+     "id": "art-42-p10",
+     "text": "b) Si se alcanza una solución amistosa del asunto basada en el respeto a los derechos humanos reconocidos en el presente Pacto, la Comisión limitará su informe a una breve exposición de los hechos y de la solución alcanzada."
+    },
+    {
+     "id": "art-42-p11",
+     "text": "c) Si no se alcanza una solución en el sentido del inciso b), el informe de la Comisión incluirá sus conclusiones sobre todas las cuestiones de hecho pertinentes al asunto planteado entre los Estados Partes interesados, y sus observaciones acerca de las posibilidades de solución amistosa del asunto; dicho informe contendrá también las exposiciones escritas y una reseña de las exposiciones orales hechas por los Estados Partes interesados."
+    },
+    {
+     "id": "art-42-p12",
+     "text": "d) Si el informe de la Comisión se presenta en virtud del inciso c), los Estados Partes interesados notificarán al Presidente del Comité, dentro de los tres meses siguientes a la recepción del informe, si aceptan o no los términos del informe de la Comisión."
+    },
+    {
+     "id": "art-42-p13",
+     "text": "8. Las disposiciones de este artículo no afectan a las funciones del Comité previstas en el artículo 41.",
+     "number": "8"
+    },
+    {
+     "id": "art-42-p14",
+     "text": "9. Los Estados Partes interesados compartirán por igual todos los gastos de los miembros de la Comisión, de acuerdo con el cálculo que haga el Secretario general de las Naciones Unidas.",
+     "number": "9"
+    },
+    {
+     "id": "art-42-p15",
+     "text": "10. El Secretario general de las Naciones Unidas podrá sufragar, en caso necesario, los gastos de los miembros de la Comisión, antes de que los Estados Partes interesados reembolsen esos gastos conforme al párrafo 9 del presente artículo.",
+     "number": "10"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-43",
+   "number": "43",
+   "label": "Artículo 43",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-43-p1",
+     "text": "Los miembros del Comité y los miembros de las comisiones especiales de conciliación designados conforme al artículo 42 tendrán derecho a las facilidades, privilegios e inmunidades que se conceden a los expertos que desempeñan misiones para las Naciones Unidas, con arreglo a lo dispuesto en las secciones pertinentes de la Convención sobre los privilegios e inmunidades de las Naciones Unidas."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-5"
+  },
+  {
+   "kind": "article",
+   "id": "art-44",
+   "number": "44",
+   "label": "Artículo 44",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-44-p1",
+     "text": "Las disposiciones de aplicación del presente Pacto se aplicarán sin perjuicio de los procedimientos previstos en materia de derechos humanos por los instrumentos constitutivos y las convenciones de las Naciones Unidas y de los organismos especializados o en virtud de los mismos, y no impedirán que los Estados Partes recurran a otros procedimientos para resolver una controversia, de conformidad con convenios internacionales generales o especiales vigentes entre ellos."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-6"
+  },
+  {
+   "kind": "article",
+   "id": "art-45",
+   "number": "45",
+   "label": "Artículo 45",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-45-p1",
+     "text": "El Comité presentará a la Asamblea General de las Naciones Unidas, por conducto del Consejo Económico y Social, un informe anual sobre sus actividades."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-7"
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-v",
+   "level": 1,
+   "label": "Parte V",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-46",
+   "number": "46",
+   "label": "Artículo 46",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-46-p1",
+     "text": "Ninguna disposición del presente Pacto deberá interpretarse en menoscabo de las disposiciones de la Carta de las Naciones Unidas o de las constituciones de los organismos especializados que definen las atribuciones de los diversos órganos de las Naciones Unidas y de los organismos especializados en cuanto a las materias a que se refiere el presente Pacto."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-8"
+  },
+  {
+   "kind": "article",
+   "id": "art-47",
+   "number": "47",
+   "label": "Artículo 47",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-47-p1",
+     "text": "Ninguna disposición del presente Pacto deberá interpretarse en menoscabo del derecho inherente de todos los pueblos a disfrutar y utilizar plena y libremente sus riquezas y recursos naturales."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-9"
+  },
+  {
+   "kind": "heading",
+   "id": "h-parte-vi",
+   "level": 1,
+   "label": "Parte VI",
+   "title": null
+  },
+  {
+   "kind": "article",
+   "id": "art-48",
+   "number": "48",
+   "label": "Artículo 48",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-48-p1",
+     "text": "1. El presente Pacto estará abierto a la firma de todos los Estados miembros de las Naciones Unidas o miembros de algún organismo especializado, así como de todo Estado Parte en el Estatuto de la Corte Internacional de Justicia y de cualquier otro Estado invitado por la Asamblea General de las Naciones Unidas a ser parte en el presente Pacto.",
+     "number": "1"
+    },
+    {
+     "id": "art-48-p2",
+     "text": "2. El presente Pacto está sujeto a ratificación. Los instrumentos de ratificación se depositarán en poder del Secretario general de las Naciones Unidas.",
+     "number": "2"
+    },
+    {
+     "id": "art-48-p3",
+     "text": "3. El presente Pacto quedará abierto a la adhesión de cualquiera de los Estados mencionados en el párrafo 1 del presente artículo.",
+     "number": "3"
+    },
+    {
+     "id": "art-48-p4",
+     "text": "4. La adhesión se efectuará mediante el depósito de un instrumento de adhesión en poder del Secretario general de las Naciones Unidas.",
+     "number": "4"
+    },
+    {
+     "id": "art-48-p5",
+     "text": "5. El Secretario general de las Naciones Unidas informará a todos los Estados que hayan firmado el presente Pacto, o se hayan adherido a él, del depósito de cada uno de los instrumentos de ratificación o de adhesión.",
+     "number": "5"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-10"
+  },
+  {
+   "kind": "article",
+   "id": "art-49",
+   "number": "49",
+   "label": "Artículo 49",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-49-p1",
+     "text": "1. El presente Pacto entrará en vigor transcurridos tres meses, a partir de la fecha en que haya sido depositado el trigésimo quinto instrumento de ratificación o de adhesión en poder del Secretario general de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-49-p2",
+     "text": "2. Para cada Estado que ratifique el presente Pacto o se adhiera a él después de haber sido depositado el trigésimo quinto instrumento de ratificación o de adhesión, el Pacto entrará en vigor transcurridos tres meses, a partir de la fecha en que tal Estado haya depositado su instrumento de ratificación o de adhesión.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a4-11"
+  },
+  {
+   "kind": "article",
+   "id": "art-50",
+   "number": "50",
+   "label": "Artículo 50",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-50-p1",
+     "text": "Las disposiciones del presente Pacto serán aplicables a todas las partes componentes de los Estados federales, sin limitación ni excepción alguna."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a5-2"
+  },
+  {
+   "kind": "article",
+   "id": "art-51",
+   "number": "51",
+   "label": "Artículo 51",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-51-p1",
+     "text": "1. Todo Estado Parte en el presente Pacto podrá proponer enmiendas y depositarlas en poder del Secretario general de las Naciones Unidas. El Secretario general comunicará las enmiendas propuestas a los Estados Partes en el presente Pacto, pidiéndoles que le notifiquen si desean que se convoque a una conferencia de Estados Partes con el fin de examinar las propuestas y someterlas a votación. Si un tercio al menos de los Estados se declara en favor de tal convocatoria, el Secretario general convocará una conferencia bajo los auspicios de las Naciones Unidas. Toda enmienda adoptada por la mayoría de Estados presentes y votantes en la conferencia se someterá a la aprobación de la Asamblea General de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-51-p2",
+     "text": "2. Tales enmiendas entrarán en vigor cuando hayan sido aprobadas por la Asamblea General de las Naciones Unidas y aceptadas por una mayoría de dos tercios de los Estados Partes en el presente Pacto, de conformidad con sus respectivos procedimientos constitucionales.",
+     "number": "2"
+    },
+    {
+     "id": "art-51-p3",
+     "text": "3. Cuando tales enmiendas entren en vigor, serán obligatorias para los Estados Partes que las hayan aceptado, en tanto que los demás Estados Partes seguirán obligados por las disposiciones del presente Pacto y por toda enmienda anterior que hayan aceptado.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a5-3"
+  },
+  {
+   "kind": "article",
+   "id": "art-52",
+   "number": "52",
+   "label": "Artículo 52",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-52-p1",
+     "text": "Independientemente de las notificaciones previstas en el párrafo 5 del artículo 48, el Secretario general de las Naciones Unidas comunicará a todos los Estados mencionados en el párrafo 1 del mismo artículo:"
+    },
+    {
+     "id": "art-52-p2",
+     "text": "a) Las firmas, ratificaciones y adhesiones conformes con lo dispuesto en el artículo 48."
+    },
+    {
+     "id": "art-52-p3",
+     "text": "b) La fecha en que entre en vigor el presente Pacto conforme a lo dispuesto en el artículo 49, y la fecha en que entren en vigor las enmiendas a que hace referencia el artículo 51."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a5-4"
+  },
+  {
+   "kind": "article",
+   "id": "art-53",
+   "number": "53",
+   "label": "Artículo 53",
+   "heading": null,
+   "paragraphs": [
+    {
+     "id": "art-53-p1",
+     "text": "1. El presente Pacto, cuyos textos en chino, español, francés, inglés y ruso son igualmente auténticos, será depositado en los archivos de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-53-p2",
+     "text": "2. El Secretario general de las Naciones Unidas enviará copias certificadas del presente Pacto a todos los Estados mencionados en el artículo 48.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1977-10733",
+    "published": "1977-04-30",
+    "in_force": "1977-07-27"
+   },
+   "block": "a5-5"
+  }
+ ],
+ "final_clauses": [
+  {
+   "text": "En fe de lo cual, los infrascritos, debidamente autorizados para ello por sus respectivos Gobiernos, han firmado el presente Pacto, el cual ha sido abierto a la firma en Nueva York, el decimonoveno día del mes de diciembre de mil novecientos sesenta y seis."
+  }
+ ],
+ "spain_instrument": [
+  "Por cuanto el día 28 de septiembre de 1976, el Plenipotenciario de España, nombrado en buena y debida forma al efecto, firmó en Nueva York el Pacto Internacional de Derechos Civiles y Políticos,",
+  "Vistos y examinados los 53 artículos que integran dicho Pacto Internacional,",
+  "Oída la Comisión de Asuntos Exteriores de las Cortes Españolas, en cumplimiento de lo prevenido en el artículo 14 de su Ley Constitutiva,",
+  "Vengo en aprobar y ratificar cuanto en él se dispone, como en virtud del presente lo apruebo y ratifico, prometiendo cumplirlo, observarlo y hacer que se cumpla y observe puntualmente en todas sus partes, a cuyo fin, para su mayor validación y firmeza, mando expedir este Instrumento de Ratificación firmado por Mí, debidamente sellado y refrendado por el infrascrito Ministro de Asuntos Exteriores.",
+  "Dado en Madrid a trece de abril de mil novecientos setenta y siete.",
+  "JUAN CARLOS",
+  "El Ministro de Asuntos Exteriores,",
+  "MARCELINO OREJA AGUIRRE"
+ ],
+ "publication_notes": [],
+ "authentic_clause": {
+  "article": "53",
+  "paragraph": "art-53-p1",
+  "text": "1. El presente Pacto, cuyos textos en chino, español, francés, inglés y ruso son igualmente auténticos, será depositado en los archivos de las Naciones Unidas."
+ },
+ "quality": {
+  "articles": 53,
+  "stated_articles": 53,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "53 artículos (1–53)"
+   },
+   {
+    "check": "recuento_declarado",
+    "ok": true,
+    "detail": "el instrumento declara 53; extraídos 53"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

@@ -1,10 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useId, useMemo, useState } from "react";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import SearchIcon from "@mui/icons-material/Search";
 import { Box, Button, Divider, FormControl, InputAdornment, InputLabel, MenuItem, Paper, Select, Stack, TextField, Typography } from "@mui/material";
-import type { Commitment } from "@/lib/hrct";
+import { acceptanceLabels, dimensionNames, statusLabels, type Commitment } from "@/lib/hrct";
+import { useDimensionFilter } from "./DimensionFilter";
+import { PriorityTag } from "./PriorityTag";
 import { StatusChip } from "./StatusChip";
 
 type Props = {
@@ -15,94 +19,128 @@ type Props = {
   monitoringCounts?: Record<string, number>;
 };
 
-const dimensionNames: Record<string, string> = {
-  economic: "Economic security",
-  food: "Food security",
-  health: "Health security",
-  environmental: "Environmental security",
-  personal: "Personal security",
-  community: "Community security",
-  political: "Political security",
-};
+// The full catalogue is long: the list grows on request instead of rendering every record at once.
+const PAGE_SIZE = 20;
+
+// A priority row keeps its text aligned, with a restrained brand accent in the gutter.
+const priorityRow = { mx: -2, px: 2, bgcolor: "rgba(0,163,224,.04)", boxShadow: "inset 3px 0 0 #00a3e0" };
+
+// On a phone the whole row opens the record: the link stretches over it and the row answers to the touch.
+const tappableRow = { position: "relative", "&:has(a:active)": { bgcolor: { xs: "rgba(0,163,224,.09)", md: "transparent" } } };
+const stretchedLink = { position: { xs: "static", md: "relative" }, px: { xs: 0, md: 1.25 }, "& .MuiButton-endIcon": { display: { md: "none" } }, "&::after": { content: '""', position: "absolute", inset: 0, display: { md: "none" } } };
 
 export function CommitmentExplorer({ commitments, dimensionsById = {}, monitoringCounts = {} }: Props) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
   const [acceptance, setAcceptance] = useState("all");
-  const [dimension, setDimension] = useState("all");
+  const { dimension, setDimension } = useDimensionFilter();
+  const [priorityOnly, setPriorityOnly] = useState(false);
+  // On a phone the three selects fold away. Until the reader decides, they show whenever one is in use,
+  // for instance when the human-security panel sets the dimension.
+  const [filtersOpen, setFiltersOpen] = useState<boolean | null>(null);
+  const filtersId = useId();
+  const activeFilters = [status, acceptance, dimension].filter((value) => value !== "all").length;
+  const filtersShown = filtersOpen ?? activeFilters > 0;
+  const filterKey = `${query}|${status}|${acceptance}|${dimension}|${priorityOnly}`;
+  const [expanded, setExpanded] = useState({ key: filterKey, count: PAGE_SIZE });
+  const shown = expanded.key === filterKey ? expanded.count : PAGE_SIZE;
 
+  const priorityCount = useMemo(() => commitments.filter((c) => c.is_priority).length, [commitments]);
+
+  // Priorities come first; within each group the catalogue order is kept.
   const visible = useMemo(() => commitments.filter((c) => {
     const text = `${c.public_id} ${c.recommendation_number ?? ""} ${c.title} ${c.original_text} ${c.country_name}`.toLowerCase();
-    return text.includes(query.toLowerCase()) && (status === "all" || c.assessment_status === status) && (acceptance === "all" || c.acceptance_status === acceptance) && (dimension === "all" || (dimensionsById[c.public_id] || []).includes(dimension));
-  }), [commitments, query, status, acceptance, dimension, dimensionsById]);
+    return text.includes(query.toLowerCase()) && (status === "all" || c.assessment_status === status) && (acceptance === "all" || c.acceptance_status === acceptance) && (dimension === "all" || (dimensionsById[c.public_id] || []).includes(dimension)) && (!priorityOnly || !!c.is_priority);
+  }).sort((a, b) => Number(!!b.is_priority) - Number(!!a.is_priority)), [commitments, query, status, acceptance, dimension, priorityOnly, dimensionsById]);
 
   return (
     <Stack spacing={2.25}>
       <Paper variant="outlined" square sx={{ p: { xs: 2, md: 2.25 }, bgcolor: "#fff" }}>
-        <Stack direction={{ xs: "column", md: "row" }} spacing={1.25}>
+        <Stack direction={{ xs: "column", md: "row" }} spacing={1.25} useFlexGap>
           <TextField
             fullWidth
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search recommendation number or keyword"
-            InputProps={{ startAdornment: <InputAdornment position="start"><SearchIcon fontSize="small" /></InputAdornment> }}
+            // "Go" on a phone keyboard puts the keyboard away: the list filters as the reader types.
+            onKeyDown={(e) => { if (e.key === "Enter") (e.target as HTMLElement).blur(); }}
+            placeholder="Buscar por número de recomendación o palabra clave"
+            slotProps={{
+              input: { startAdornment: <InputAdornment position="start"><SearchIcon fontSize="small" /></InputAdornment> },
+              htmlInput: { "aria-label": "Buscar por número de recomendación o palabra clave", inputMode: "search", enterKeyHint: "search", autoCapitalize: "none", autoCorrect: "off", sx: { textOverflow: "ellipsis" } },
+            }}
           />
+          <Button
+            variant="outlined"
+            color="primary"
+            aria-expanded={filtersShown}
+            aria-controls={filtersId}
+            onClick={() => setFiltersOpen(!filtersShown)}
+            endIcon={<ExpandMoreRoundedIcon sx={{ transform: filtersShown ? "rotate(180deg)" : "none" }} />}
+            sx={{ display: { md: "none" }, justifyContent: "space-between" }}
+          >
+            {activeFilters ? `Filtros · ${activeFilters} ${activeFilters === 1 ? "activo" : "activos"}` : "Filtros"}
+          </Button>
+          <Box id={filtersId} sx={{ display: { xs: filtersShown ? "contents" : "none", md: "contents" } }}>
           <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
-            <InputLabel id="status-filter">Implementation</InputLabel>
-            <Select labelId="status-filter" label="Implementation" value={status} onChange={(e) => setStatus(e.target.value)}>
-              <MenuItem value="all">All statuses</MenuItem>
-              <MenuItem value="not_assessed">Assessment pending</MenuItem>
-              <MenuItem value="implemented">Implemented</MenuItem>
-              <MenuItem value="substantially_implemented">Substantial progress</MenuItem>
-              <MenuItem value="limited_progress">Limited progress</MenuItem>
-              <MenuItem value="not_implemented">No implementation</MenuItem>
-              <MenuItem value="regressed">Regressed</MenuItem>
-              <MenuItem value="unable_to_assess">Insufficient evidence</MenuItem>
+            <InputLabel id="status-filter">Cumplimiento</InputLabel>
+            <Select labelId="status-filter" label="Cumplimiento" value={status} onChange={(e) => setStatus(e.target.value)}>
+              <MenuItem value="all">Todos los estados</MenuItem>
+              {["not_assessed", "implemented", "substantially_implemented", "limited_progress", "not_implemented", "regressed", "unable_to_assess"].map((code) => <MenuItem key={code} value={code}>{statusLabels[code]}</MenuItem>)}
             </Select>
           </FormControl>
           <FormControl sx={{ minWidth: { xs: "100%", md: 175 } }}>
-            <InputLabel id="acceptance-filter">State response</InputLabel>
-            <Select labelId="acceptance-filter" label="State response" value={acceptance} onChange={(e) => setAcceptance(e.target.value)}>
-              <MenuItem value="all">All responses</MenuItem>
-              <MenuItem value="accepted">Accepted</MenuItem>
-              <MenuItem value="partially_accepted">Partially accepted</MenuItem>
-              <MenuItem value="noted">Noted</MenuItem>
+            <InputLabel id="acceptance-filter">Respuesta del Estado</InputLabel>
+            <Select labelId="acceptance-filter" label="Respuesta del Estado" value={acceptance} onChange={(e) => setAcceptance(e.target.value)}>
+              <MenuItem value="all">Todas las respuestas</MenuItem>
+              {Object.entries(acceptanceLabels).map(([code, name]) => <MenuItem key={code} value={code}>{name}</MenuItem>)}
             </Select>
           </FormControl>
           <FormControl sx={{ minWidth: { xs: "100%", md: 210 } }}>
-            <InputLabel id="dimension-filter">Human security</InputLabel>
-            <Select labelId="dimension-filter" label="Human security" value={dimension} onChange={(e) => setDimension(e.target.value)}>
-              <MenuItem value="all">All dimensions</MenuItem>
+            <InputLabel id="dimension-filter">Seguridad humana</InputLabel>
+            <Select labelId="dimension-filter" label="Seguridad humana" value={dimension} onChange={(e) => setDimension(e.target.value)}>
+              <MenuItem value="all">Todas las dimensiones</MenuItem>
               {Object.entries(dimensionNames).map(([code, name]) => <MenuItem key={code} value={code}>{name}</MenuItem>)}
             </Select>
           </FormControl>
+          </Box>
         </Stack>
       </Paper>
 
-      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" spacing={.5}>
-        <Typography variant="body2" color="text.secondary">{visible.length} recommendation{visible.length === 1 ? "" : "s"}</Typography>
-        <Typography variant="caption" color="text.secondary">UN Human Rights Council · A/HRC/60/8</Typography>
+      <Stack direction={{ xs: "column", sm: "row" }} justifyContent="space-between" alignItems={{ sm: "center" }} spacing={1}>
+        <Stack direction="row" spacing={2} alignItems="center" flexWrap="wrap" useFlexGap>
+          <Typography variant="body2" color="text.secondary">{visible.length} {visible.length === 1 ? "recomendación" : "recomendaciones"}</Typography>
+          {priorityCount > 0 && (
+            <Button size="small" variant={priorityOnly ? "contained" : "outlined"} aria-pressed={priorityOnly} onClick={() => setPriorityOnly(!priorityOnly)}>
+              Solo prioritarias ({priorityCount})
+            </Button>
+          )}
+        </Stack>
+        <Typography variant="caption" color="text.secondary">Consejo de Derechos Humanos de la ONU · A/HRC/60/8</Typography>
       </Stack>
 
       <Box sx={{ borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
-        {visible.map((c, index) => (
+        {visible.slice(0, shown).map((c, index) => (
           <Box key={c.id}>
             {index > 0 && <Divider />}
-            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1.5, md: 3 }} sx={{ py: { xs: 2.25, md: 2.75 } }}>
-              <Box sx={{ width: { md: 92 }, flexShrink: 0 }}>
-                <Typography variant="caption" color="text.secondary">Recommendation</Typography>
-                <Typography color="primary.main" sx={{ mt: .25, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
+            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 1, md: 3 }} sx={{ py: { xs: 2, md: 2.75 }, ...tappableRow, ...(c.is_priority && priorityRow) }}>
+              <Box sx={{ width: { md: 92 }, flexShrink: 0, display: { xs: "flex", md: "block" }, alignItems: "baseline", gap: .75 }}>
+                <Typography variant="caption" color="text.secondary">Recomendación</Typography>
+                <Typography color="primary.main" sx={{ mt: { md: .25 }, fontWeight: 500 }}>{c.recommendation_number || c.public_id}</Typography>
               </Box>
 
               <Box sx={{ flex: 1, minWidth: 0 }}>
-                <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mb: .9 }}>
+                <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap" useFlexGap sx={{ mb: .9 }}>
+                  {c.is_priority && <PriorityTag />}
                   <StatusChip status={c.assessment_status} />
                   <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
-                    {c.acceptance_status === "accepted" ? "Accepted by Spain" : c.acceptance_status === "noted" ? "Noted by Spain" : (c.acceptance_status || "State response pending")}
+                    {c.acceptance_status ? `${acceptanceLabels[c.acceptance_status] || c.acceptance_status} por España` : "Respuesta del Estado pendiente"}
                   </Typography>
+                  {c.assessment_provisional && c.assessment_status !== "not_assessed" && (
+                    <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>Pendiente de confirmación final</Typography>
+                  )}
                   {monitoringCounts[c.public_id] > 0 && (
                     <Typography variant="caption" color="text.secondary" sx={{ py: .35 }}>
-                      {monitoringCounts[c.public_id]} live monitoring item{monitoringCounts[c.public_id] === 1 ? "" : "s"}
+                      {monitoringCounts[c.public_id]} {monitoringCounts[c.public_id] === 1 ? "novedad" : "novedades"} en seguimiento
                     </Typography>
                   )}
                 </Stack>
@@ -113,8 +151,8 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
               </Box>
 
               <Box sx={{ width: { md: 115 }, flexShrink: 0, display: "flex", alignItems: { md: "center" }, justifyContent: { md: "flex-end" } }}>
-                <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} color="primary">
-                  View record
+                <Button component={Link} href={`/commitments/${encodeURIComponent(c.public_id)}`} color="primary" endIcon={<ArrowForwardRoundedIcon />} sx={stretchedLink}>
+                  Ver ficha
                 </Button>
               </Box>
             </Stack>
@@ -123,11 +161,20 @@ export function CommitmentExplorer({ commitments, dimensionsById = {}, monitorin
 
         {!visible.length && (
           <Box sx={{ textAlign: "center", py: 7, px: 2 }}>
-            <Typography variant="h6" color="primary.main">No recommendations match these filters</Typography>
-            <Typography variant="body2" color="text.secondary" sx={{ mt: .75 }}>Try a broader search or clear one of the filters.</Typography>
+            <Typography variant="h6" color="primary.main">Ninguna recomendación coincide con estos filtros</Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mt: .75 }}>Prueba con una búsqueda más amplia o quita alguno de los filtros.</Typography>
           </Box>
         )}
       </Box>
+
+      {visible.length > shown && (
+        <Stack direction={{ xs: "column", sm: "row" }} alignItems={{ sm: "center" }} spacing={1.5}>
+          <Button variant="outlined" color="primary" onClick={() => setExpanded({ key: filterKey, count: shown + PAGE_SIZE })}>
+            Mostrar más recomendaciones
+          </Button>
+          <Typography variant="caption" color="text.secondary">Se muestran {shown} de {visible.length}</Typography>
+        </Stack>
+      )}
     </Stack>
   );
 }

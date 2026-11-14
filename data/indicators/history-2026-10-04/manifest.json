@@ -1,0 +1,2163 @@
+{
+  "version": "official-history-2026-10-04",
+  "country_iso2": "ES",
+  "retrieved_at": "2026-10-04T11:46:07.510Z",
+  "components": [
+    {
+      "indicator_code": "EDU-001",
+      "component_code": "default",
+      "label": "Abandono educativo temprano · 18–24 años",
+      "unit": "%",
+      "definition": "Personas de 18–24 años con estudios como máximo de secundaria inferior, sin educación o formación en las cuatro semanas anteriores. Encuesta de población activa (EU-LFS).",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "EDU-002",
+      "component_code": "default",
+      "label": "Brecha de abandono educativo por país de nacimiento",
+      "unit": "p.p.",
+      "definition": "Diferencia en abandono temprano entre personas nacidas en el extranjero y el total de residentes de 18–24 años. No identifica etnia ni prueba discriminación.",
+      "formula": "Tasa nacidos en el extranjero − tasa total, en puntos porcentuales.",
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "LAB-001",
+      "component_code": "default",
+      "label": "Desempleo juvenil · serie armonizada Eurostat",
+      "unit": "%",
+      "definition": "Desempleados sobre la población activa joven. Grupo armonizado Y15-24; en España el límite inferior de la encuesta es 16 años. Media anual EU-LFS, sin mezclar con tasas mensuales.",
+      "formula": "100 × desempleados / población activa del grupo de edad.",
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "LAB-002",
+      "component_code": "component-1",
+      "label": "Brecha de empleo entre hombres y mujeres · 20–64 años",
+      "unit": "p.p.",
+      "definition": "Diferencia de tasas de empleo de hombres y mujeres de 20–64 años, total de ocupados. Serie oficial EU-LFS.",
+      "formula": "Tasa de empleo de hombres − tasa de empleo de mujeres.",
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "LAB-002",
+      "component_code": "component-2",
+      "label": "Brecha salarial de género sin ajustar",
+      "unit": "%",
+      "definition": "Diferencia de salario bruto por hora respecto al de hombres; empresas de al menos diez trabajadores, sectores B–S excepto administración pública (O). No equivale a igual salario por igual trabajo.",
+      "formula": "100 × (salario horario hombres − salario horario mujeres) / salario horario hombres.",
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "POV-001",
+      "component_code": "default",
+      "label": "Riesgo de pobreza o exclusión social · AROPE",
+      "unit": "%",
+      "definition": "AROPE según la definición Europa 2030: riesgo de pobreza, privación material y social severa o muy baja intensidad laboral. EU-SILC; no se mezcla con la antigua definición Europa 2020.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "POV-002",
+      "component_code": "default",
+      "label": "Riesgo de pobreza o exclusión social · menores de 18 años",
+      "unit": "% menores",
+      "definition": "AROPE Europa 2030 entre residentes menores de 18 años. EU-SILC; no es exclusivamente pobreza monetaria.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "INEQ-001",
+      "component_code": "component-1",
+      "label": "Desigualdad de renta · Gini (0–100)",
+      "unit": "Gini",
+      "definition": "Coeficiente Gini de renta disponible equivalente después de transferencias sociales, escala 0–100. EU-SILC.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "INEQ-001",
+      "component_code": "component-2",
+      "label": "Desigualdad de renta · razón S80/S20",
+      "unit": "S80-S20",
+      "definition": "Cociente de renta disponible equivalente del 20 % de mayor renta sobre la del 20 % de menor renta, después de transferencias. EU-SILC.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "HEA-001",
+      "component_code": "default",
+      "label": "Necesidad médica no atendida · coste, distancia o espera",
+      "unit": "% población",
+      "definition": "Población residente de 16 años o más con necesidad médica no atendida por coste, distancia o lista de espera. Denominador: toda la población de 16+, no solo quienes necesitan atención. EU-SILC.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "CLIM-001",
+      "component_code": "component-1",
+      "label": "Emisiones de GEI · sin uso de suelo ni partidas informativas",
+      "unit": "MtCO2e",
+      "definition": "Emisiones del inventario nacional, excluidos uso de suelo, cambio de uso de suelo y silvicultura (LULUCF) y partidas informativas. Total de gases en millones de toneladas de CO₂ equivalente.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "CLIM-001",
+      "component_code": "component-2",
+      "label": "Emisiones de GEI · índice 1990 = 100",
+      "unit": "índice",
+      "definition": "Índice oficial del mismo inventario, sin LULUCF ni partidas informativas, con 1990 = 100. El año de referencia del índice no es una meta ni una baseline aprobada de la recomendación.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "DEV-001",
+      "component_code": "default",
+      "label": "Ayuda oficial al desarrollo · porcentaje de RNB",
+      "unit": "% RNB",
+      "definition": "AOD a todos los receptores CAD como porcentaje de RNB. OECD-CAD difundido por Eurostat; desde 2018 cambia de flujos netos a equivalente de donación, con ruptura explícita.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "GEN-001",
+      "component_code": "default",
+      "label": "Mujeres en Parlamento y Gobierno nacionales",
+      "unit": "%",
+      "definition": "Proporción de mujeres en cada institución, con ámbitos separados. Datos EIGE del cuarto trimestre; Parlamento comprende ambas cámaras cuando existen.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "DIS-001",
+      "component_code": "default",
+      "label": "Brecha de empleo por limitación de actividad · 20–64 años",
+      "unit": "p.p.",
+      "definition": "Diferencia de empleo entre personas sin limitación de actividad y con alguna limitación o limitación severa, 20–64 años. Definición EU-SILC basada en limitación declarada; no equivale a certificado administrativo de discapacidad.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "DIG-003",
+      "component_code": "default",
+      "label": "Brecha en competencias digitales al menos básicas · 16–74 años",
+      "unit": "p.p.",
+      "definition": "Diferencia entre hombres y mujeres en competencias digitales básicas o superiores. Indicador DSI 2.0 desde 2021; observaciones bienales, sin interpolar años.",
+      "formula": "Porcentaje de hombres − porcentaje de mujeres; ambos sobre individuos de 16–74 años.",
+      "frequency": "biennial",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "RAC-005",
+      "component_code": "default",
+      "label": "Brecha de empleo por país de nacimiento · 20–64 años",
+      "unit": "puntos porcentuales",
+      "definition": "Diferencia en empleo entre el total de residentes y quienes nacieron en el extranjero, 20–64 años. EU-LFS; país de nacimiento no identifica etnia ni prueba discriminación.",
+      "formula": "Tasa de empleo total − tasa de empleo nacidos en el extranjero.",
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "INST-001",
+      "component_code": "component-1",
+      "label": "Presupuesto ejecutado del Defensor del Pueblo",
+      "unit": "EUR",
+      "definition": "Obligaciones reconocidas totales al cierre de cada ejercicio. Euros nominales, sin ajuste por inflación. No se utiliza la dotación aprobada ni los pagos como sustitutos de ejecución.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "bar"
+    },
+    {
+      "indicator_code": "RAC-001",
+      "component_code": "default",
+      "label": "Delitos e incidentes de odio conocidos · tasa oficial",
+      "unit": "tasa por 100.000",
+      "definition": "Hechos conocidos por las fuerzas de seguridad: delitos, infracciones administrativas y otros incidentes de odio por 100.000 habitantes. Tasa publicada por Interior; no mide prevalencia real.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "line"
+    },
+    {
+      "indicator_code": "RAC-001",
+      "component_code": "known-count",
+      "label": "Delitos e incidentes de odio conocidos · número",
+      "unit": "nº",
+      "definition": "Total nacional anual de hechos conocidos: delitos, infracciones administrativas y otros incidentes de odio. Incluye infradenuncia; no mide prevalencia real.",
+      "formula": null,
+      "frequency": "annual",
+      "visualization": "bar"
+    }
+  ],
+  "sources": [
+    {
+      "file": "sources/eurostat-1.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/edat_lfse_14?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&wstatus=POP&age=Y18-24&unit=PC",
+      "sha256": "b21a818e96c83d79f4f25824f5ef7ec252d319e5d8c9a6985af22f6f60eb1caf",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · edat_lfse_14",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-2.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/edat_lfse_14?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=F&wstatus=POP&age=Y18-24&unit=PC",
+      "sha256": "2de1232d86ef34e2552b722da7a05601b5863ba6850578de14975d60cb4f9778",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · edat_lfse_14",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-3.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/edat_lfse_14?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=M&wstatus=POP&age=Y18-24&unit=PC",
+      "sha256": "428ee059844a636ac87543c666eca7a537bd2884e09ec920740bac9a90d003fd",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · edat_lfse_14",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-4.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/edat_lfse_02?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&wstatus=POP&age=Y18-24&unit=PC",
+      "sha256": "7954d61392f7bbdeb88df98347e723edbf54d45bcce34b863d716d26e33eab92",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · edat_lfse_02",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/edat1_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-5.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&age=Y15-24&unit=PC_ACT",
+      "sha256": "d910baee12744fa098993d320d35fd8c8223829e2f35d1c5e2ffb394a31d0a3d",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · une_rt_a",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/lfsi_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-6.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=F&age=Y15-24&unit=PC_ACT",
+      "sha256": "09cb5f42aa25c11494de423bc27e31a43dbef8f7880156a175e80f7c9593ced1",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · une_rt_a",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/lfsi_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-7.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=M&age=Y15-24&unit=PC_ACT",
+      "sha256": "edc3f3e92a857bd945215043827389869f4b46c1ecb6347b6f42be4957bcd377",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · une_rt_a",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/lfsi_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-8.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_05_30?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&wstatus=EMP&age=Y20-64&unit=PC_PNT",
+      "sha256": "131f7003c93f65bb8d50afdee3f0cd0f7e8132038f2b2723df0151c45eabc0ae",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · sdg_05_30",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_05_30_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-9.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_05_20?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&unit=PC&nace_r2=B-S_X_O",
+      "sha256": "6407999134fa5cb5cc1b47adbb3dbecc79be4597f6bf6ffcf3acddeb1a3212a0",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-02-26",
+      "title": "Eurostat · sdg_05_20",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_05_20_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-10.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_peps01n?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&age=TOTAL&unit=PC",
+      "sha256": "c90b7b79e8bc0cb92383240a7455b424c673e2b24a11b9ea59cfa0530b0da18c",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-17",
+      "title": "Eurostat · ilc_peps01n",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm"
+    },
+    {
+      "file": "sources/eurostat-11.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_peps01n?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&age=Y_LT18&unit=PC",
+      "sha256": "6c08c1f930f9744f7984cce28203f72a2bf311a9907d2ea28fdfd7742779937b",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-17",
+      "title": "Eurostat · ilc_peps01n",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm"
+    },
+    {
+      "file": "sources/eurostat-12.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_di12?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&age=TOTAL&statinfo=GINI_HND",
+      "sha256": "08096ca611a46544d1b2ac24a70ac749c3cd57427237676294ede93df36921a2",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-17",
+      "title": "Eurostat · ilc_di12",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm"
+    },
+    {
+      "file": "sources/eurostat-13.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_di11?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&age=TOTAL&unit=RAT",
+      "sha256": "832ec8c33a55f963f5b9139acb36c2b54eb6c8a963b0fe5a482957a1d148a9bc",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-17",
+      "title": "Eurostat · ilc_di11",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm"
+    },
+    {
+      "file": "sources/eurostat-14.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_silc_08?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&age=Y_GE16&unit=PC&quant_inc=TOTAL&reason=TXP_TFAR_WLIST",
+      "sha256": "fd03dd60291443e50ec785506e36e238b6db64efec82d64bfc5afac5495e9de2",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-17",
+      "title": "Eurostat · hlth_silc_08",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/hlth_silc_01_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-15.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_13_10?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&src_crf=TOTX4_MEMO&unit=MTCO2E",
+      "sha256": "df56d28b0176f0f55f50a10196940bf2f5058a798da98c9c16eef6b5ecbe1926",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-04-22",
+      "title": "Eurostat · sdg_13_10",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_13_10_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-16.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_13_10?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&src_crf=TOTX4_MEMO&unit=I90",
+      "sha256": "e5eb70d6b07421cf3ac76e7221cf66dc2ba7f7c4c6ce0e4a3def2eba32d4cab5",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-04-22",
+      "title": "Eurostat · sdg_13_10",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_13_10_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-17.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_17_10?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&partner=ODA&unit=PC_GNI",
+      "sha256": "124c6ca316d28c8dbad57ffc8a5728522bca7b4082ab71d98da1aa697dcb0a09",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-03-12",
+      "title": "Eurostat · sdg_17_10",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_17_10_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-18.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_05_50?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&org_inst=PARL_NAT&sex=F&unit=PC_WMN",
+      "sha256": "932ea1d7549499fc510f542797fa48410cb1994875a0acf0c0897cc54909e5c6",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-02-17",
+      "title": "Eurostat · sdg_05_50",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_05_50_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-19.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sdg_05_50?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&org_inst=GOV_NAT&sex=F&unit=PC_WMN",
+      "sha256": "9ea0f3079a87cc4274aeae3aadf6bfb3c4b05461a11f386ecbfaf10b615eb998",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-02-17",
+      "title": "Eurostat · sdg_05_50",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/sdg_05_50_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-20.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_dlm200?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&unit=PC_PNT&lev_limit=SM_SEV&sex=T",
+      "sha256": "b7b36e3eb395de74c158ea87a6c89b4630da362d163fc505c72b0518a5d52981",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-17",
+      "title": "Eurostat · hlth_dlm200",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/hlth_silc_01_esms.htm"
+    },
+    {
+      "file": "sources/eurostat-21.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_sk_dskl_i21?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&indic_is=I_DSK2_BAB&unit=PC_IND",
+      "sha256": "0500d378cc1c0c77816119d1e08207e7a76d0d97b057ec9d2363adedb883ce82",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-04-17",
+      "title": "Eurostat · isoc_sk_dskl_i21",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/isoc_sk_dskl_i21_esmsip2.htm"
+    },
+    {
+      "file": "sources/eurostat-22.json",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsa_ergacob?lang=EN&sinceTimePeriod=2015&freq=A&geo=ES&sex=T&age=Y20-64&unit=PC",
+      "sha256": "ec743499655a071339cef24f360e6f009153999d130512b477c873074b049c3a",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-09-10",
+      "title": "Eurostat · lfsa_ergacob",
+      "metadata_url": "https://ec.europa.eu/eurostat/cache/metadata/en/lfsa_esms.htm"
+    },
+    {
+      "file": "sources/defensor-2020.json",
+      "url": "https://www.defensordelpueblo.es/transparencia/informacion-economica-presupuestaria-y-contractual/presupuestos/ejecucion-2020/",
+      "sha256": "931be0489c83d6bc064e6bc65017d3f8882372fda5f854f5bfec575ca8dae696",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2021-03-01",
+      "title": "Defensor del Pueblo · ejecución presupuestaria",
+      "original_html_sha256": "9b9b8f911456f72133998eac2bdb7cc5ed03a5143aa908c6f3ab47599310b0b2"
+    },
+    {
+      "file": "sources/defensor-2022.json",
+      "url": "https://www.defensordelpueblo.es/transparencia/informacion-economica-presupuestaria-y-contractual/presupuestos/ejecucion-2022/",
+      "sha256": "2bbfcb68f3f597e27926fbebd1c1697dc555de678c9fe4773bf2000c537139ef",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2023-02-27",
+      "title": "Defensor del Pueblo · ejecución presupuestaria",
+      "original_html_sha256": "fdfbf87b54fa671c14776e8af2d1d2eeeda8ad44e71d872d2a4b91fb10f78a1c"
+    },
+    {
+      "file": "sources/defensor-2023.json",
+      "url": "https://www.defensordelpueblo.es/transparencia/informacion-economica-presupuestaria-y-contractual/presupuestos/ejecucion-2023/",
+      "sha256": "57ef65d1969ad2c657d6557afa03a437837b4d3c301ab2ec1799cc64673ee542",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2024-03-13",
+      "title": "Defensor del Pueblo · ejecución presupuestaria",
+      "original_html_sha256": "969cc5c071fea97a4fc0d5a0420fffd267070e134baaa38f592caa16cc6d2923"
+    },
+    {
+      "file": "sources/defensor-2024.json",
+      "url": "https://www.defensordelpueblo.es/transparencia/informacion-economica-presupuestaria-y-contractual/presupuestos/ejecucion-2024/",
+      "sha256": "1b5316dc1f358605b0541c0f4fb67c5b6fc7c7e779accac28b0cc8c04560b547",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2025-03-28",
+      "title": "Defensor del Pueblo · ejecución presupuestaria",
+      "original_html_sha256": "4d3b766b0d38717b793971abfd1d36a66cfb2449062fb403f0e8dd2d32e3065e"
+    },
+    {
+      "file": "sources/defensor-2025.json",
+      "url": "https://www.defensordelpueblo.es/transparencia/informacion-economica-presupuestaria-y-contractual/presupuestos/ejecucion-2025/",
+      "sha256": "222bb57103081547678dadaf056edc5ca711d62f51270cb17b55b8a8c846785f",
+      "retrieved_at": "2026-10-04T11:46:07.510Z",
+      "publication_date": "2026-03-18",
+      "title": "Defensor del Pueblo · ejecución presupuestaria",
+      "original_html_sha256": "92991e5d3fd461358afe183f3b091da5d050894e9e6ce7f714b507320b15d9ff"
+    },
+    {
+      "file": "sources/interior-known-count.json",
+      "url": "https://www.interior.gob.es/opencms/export/sites/default/.galleries/galeria-de-prensa/documentos-y-multimedia/balances-e-informes/2025/Informe-sobre-la-evolucion-de-los-delitos-e-incidentes-de-odio-en-Espana-2025.pdf",
+      "sha256": "b9f122bd40fbb3ece2d57d3be4e17502585e6c4a23f366d05643f232f57dfc1b",
+      "retrieved_at": "2026-10-04T11:43:00Z",
+      "publication_date": "2026-06-03",
+      "title": "Ministerio del Interior · informe de odio 2025 · p. 9"
+    },
+    {
+      "file": "sources/interior-default.json",
+      "url": "https://www.interior.gob.es/opencms/export/sites/default/.galleries/galeria-de-prensa/documentos-y-multimedia/balances-e-informes/2025/Informe-sobre-la-evolucion-de-los-delitos-e-incidentes-de-odio-en-Espana-2025.pdf",
+      "sha256": "b76d990bb28c471af10ad7e707e130cba2fd168b2338514263d7a681773d8c7c",
+      "retrieved_at": "2026-10-04T11:43:00Z",
+      "publication_date": "2026-06-03",
+      "title": "Ministerio del Interior · informe de odio 2025 · p. 11"
+    }
+  ],
+  "series": [
+    {
+      "indicator_code": "EDU-001",
+      "component_code": "default",
+      "dataset": "edat_lfse_14",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "wstatus": "POP",
+        "age": "Y18-24",
+        "unit": "PC"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all",
+        "age": "18–24 años"
+      },
+      "source": "sources/eurostat-1.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 20,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 19,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 18.3,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 17.9,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 17.3,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 16,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 13.3,
+          "flags": "bd"
+        },
+        {
+          "year": 2022,
+          "value": 13.9,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 13.7,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 13,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 12.8,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "EDU-001",
+      "component_code": "default",
+      "dataset": "edat_lfse_14",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "F",
+        "wstatus": "POP",
+        "age": "Y18-24",
+        "unit": "PC"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "women",
+        "age": "18–24 años"
+      },
+      "source": "sources/eurostat-2.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 15.8,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 15.1,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 14.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 14,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 13,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 11.6,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 9.7,
+          "flags": "bd"
+        },
+        {
+          "year": 2022,
+          "value": 11.1,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 11.3,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 10,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 9.5,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "EDU-001",
+      "component_code": "default",
+      "dataset": "edat_lfse_14",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "M",
+        "wstatus": "POP",
+        "age": "Y18-24",
+        "unit": "PC"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "men",
+        "age": "18–24 años"
+      },
+      "source": "sources/eurostat-3.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 24,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 22.7,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 21.8,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 21.7,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 21.4,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 20.2,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 16.7,
+          "flags": "bd"
+        },
+        {
+          "year": 2022,
+          "value": 16.7,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 16,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 15.8,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 15.9,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "EDU-002",
+      "component_code": "default",
+      "dataset": "edat_lfse_02",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "wstatus": "POP",
+        "c_birth": "FOR",
+        "age": "Y18-24",
+        "unit": "PC"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Nacidos en el extranjero",
+        "age": "18–24 años",
+        "comparison": "Total de residentes"
+      },
+      "subtract": {
+        "c_birth": "TOTAL"
+      },
+      "source": "sources/eurostat-4.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 13.3,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 13.9,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 13.6,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 14.1,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 13.8,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 13,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 9.3,
+          "flags": "bd"
+        },
+        {
+          "year": 2022,
+          "value": 13.9,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 15.2,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 12.5,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 14.6,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "LAB-001",
+      "component_code": "default",
+      "dataset": "une_rt_a",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "age": "Y15-24",
+        "unit": "PC_ACT"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "youth",
+        "sex": "Todos",
+        "age": "16–24 años en España (Y15-24 armonizado)"
+      },
+      "source": "sources/eurostat-5.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 48.3,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 44.4,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 38.6,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 34.3,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 32.5,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 38.3,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 35,
+          "flags": "d"
+        },
+        {
+          "year": 2022,
+          "value": 29.7,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 28.7,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 26.5,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 24.9,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "LAB-001",
+      "component_code": "default",
+      "dataset": "une_rt_a",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "F",
+        "age": "Y15-24",
+        "unit": "PC_ACT"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "youth",
+        "sex": "Mujeres",
+        "age": "16–24 años en España (Y15-24 armonizado)"
+      },
+      "source": "sources/eurostat-6.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 48,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 44.9,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 37.4,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 33.3,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 34.5,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 39.7,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 36.2,
+          "flags": "d"
+        },
+        {
+          "year": 2022,
+          "value": 30.9,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 28.5,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 27.1,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 25.8,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "LAB-001",
+      "component_code": "default",
+      "dataset": "une_rt_a",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "M",
+        "age": "Y15-24",
+        "unit": "PC_ACT"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "youth",
+        "sex": "Hombres",
+        "age": "16–24 años en España (Y15-24 armonizado)"
+      },
+      "source": "sources/eurostat-7.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 48.6,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 44,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 39.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 35.2,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 30.9,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 37.1,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 34,
+          "flags": "d"
+        },
+        {
+          "year": 2022,
+          "value": 28.7,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 28.8,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 26,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 24.1,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "LAB-002",
+      "component_code": "component-1",
+      "dataset": "sdg_05_30",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "wstatus": "EMP",
+        "age": "Y20-64",
+        "unit": "PC_PNT"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all",
+        "age": "20–64 años",
+        "comparison": "Hombres − mujeres"
+      },
+      "source": "sources/eurostat-8.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 11.2,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 11.5,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 11.9,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 12.1,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 11.9,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 11.4,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 10.8,
+          "flags": "d"
+        },
+        {
+          "year": 2022,
+          "value": 11.2,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 10.3,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 9.8,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 9.5,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "LAB-002",
+      "component_code": "component-2",
+      "dataset": "sdg_05_20",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "unit": "PC",
+        "nace_r2": "B-S_X_O"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Personas asalariadas",
+        "sector": "B–S excepto O",
+        "comparison": "Hombres − mujeres"
+      },
+      "source": "sources/eurostat-9.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 14.1,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 14.8,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 13.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 11.9,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 9.6,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 9.3,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 9.3,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 9.2,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 7.3,
+          "flags": "p"
+        },
+        {
+          "year": 2024,
+          "value": 7.3,
+          "flags": "p"
+        }
+      ]
+    },
+    {
+      "indicator_code": "POV-001",
+      "component_code": "default",
+      "dataset": "ilc_peps01n",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "age": "TOTAL",
+        "unit": "PC"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all"
+      },
+      "source": "sources/eurostat-10.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 28.7,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 28.8,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 27.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 27.3,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 26.2,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 27,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 27.8,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 26,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 26.5,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 25.8,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 25.7,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "POV-002",
+      "component_code": "default",
+      "dataset": "ilc_peps01n",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "age": "Y_LT18",
+        "unit": "PC"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "children",
+        "age": "Menores de 18 años"
+      },
+      "source": "sources/eurostat-11.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 34,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 33.7,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 31.9,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 30.5,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 31,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 31.6,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 33.4,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 32.2,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 34.5,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 34.6,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 33.8,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "INEQ-001",
+      "component_code": "component-1",
+      "dataset": "ilc_di12",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "age": "TOTAL",
+        "statinfo": "GINI_HND"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all"
+      },
+      "source": "sources/eurostat-12.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 34.6,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 34.5,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 34.1,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 33.2,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 33,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 32.1,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 33,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 32,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 31.5,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 31.2,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 30.8,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "INEQ-001",
+      "component_code": "component-2",
+      "dataset": "ilc_di11",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "age": "TOTAL",
+        "unit": "RAT"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all"
+      },
+      "source": "sources/eurostat-13.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 6.87,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 6.6,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 6.59,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 6.03,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 5.94,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 5.77,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 6.19,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 5.63,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 5.5,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 5.39,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 5.24,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "HEA-001",
+      "component_code": "default",
+      "dataset": "hlth_silc_08",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "age": "Y_GE16",
+        "unit": "PC",
+        "quant_inc": "TOTAL",
+        "reason": "TXP_TFAR_WLIST"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all",
+        "age": "16 años o más",
+        "reason": "Coste, distancia o espera"
+      },
+      "source": "sources/eurostat-14.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 0.6,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 0.5,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 0.1,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 0.2,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 0.2,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 0.4,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 1.1,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 1.2,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 1.8,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 1.8,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 1.6,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "CLIM-001",
+      "component_code": "component-1",
+      "dataset": "sdg_13_10",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "src_crf": "TOTX4_MEMO",
+        "unit": "MTCO2E"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Inventario nacional",
+        "coverage": "Sin LULUCF ni partidas informativas"
+      },
+      "source": "sources/eurostat-15.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 332.2,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 321,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 334.2,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 328.7,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 310.3,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 271.7,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 288.5,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 292.3,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 270,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 267.7,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "CLIM-001",
+      "component_code": "component-2",
+      "dataset": "sdg_13_10",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "src_crf": "TOTX4_MEMO",
+        "unit": "I90"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Inventario nacional",
+        "coverage": "Sin LULUCF ni partidas informativas"
+      },
+      "source": "sources/eurostat-16.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 116.8,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 112.9,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 117.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 115.6,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 109.1,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 95.5,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 101.4,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 102.8,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 94.9,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 94.1,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "DEV-001",
+      "component_code": "default",
+      "dataset": "sdg_17_10",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "partner": "ODA",
+        "unit": "PC_GNI"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Receptores CAD"
+      },
+      "source": "sources/eurostat-17.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 0.12,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 0.34,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 0.19,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 0.2,
+          "flags": "b"
+        },
+        {
+          "year": 2019,
+          "value": 0.21,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 0.23,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 0.26,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 0.3,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 0.24,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 0.25,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "GEN-001",
+      "component_code": "default",
+      "dataset": "sdg_05_50",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "org_inst": "PARL_NAT",
+        "sex": "F",
+        "unit": "PC_WMN"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "women",
+        "institution": "Parlamento nacional"
+      },
+      "source": "sources/eurostat-18.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 39.9,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 38.3,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 38.8,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 39.5,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 41.9,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 42.2,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 41.1,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 41,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 43.4,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 43.7,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 43.3,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "GEN-001",
+      "component_code": "default",
+      "dataset": "sdg_05_50",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "org_inst": "GOV_NAT",
+        "sex": "F",
+        "unit": "PC_WMN"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "women",
+        "institution": "Gobierno nacional"
+      },
+      "source": "sources/eurostat-19.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 26.3,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 25.7,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 31.6,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 51.2,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 50,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 46.9,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 46.9,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 48,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 46,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 44.7,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 42.9,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "DIS-001",
+      "component_code": "default",
+      "dataset": "hlth_dlm200",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "unit": "PC_PNT",
+        "lev_limit": "SM_SEV",
+        "sex": "T"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Personas con limitación de actividad",
+        "age": "20–64 años",
+        "comparison": "Sin limitación − con limitación"
+      },
+      "source": "sources/eurostat-20.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 22.5,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 24,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 27.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 26.5,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 30.1,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 21.6,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 15.9,
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 14.6,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 13.8,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 23.4,
+          "flags": "b"
+        },
+        {
+          "year": 2025,
+          "value": 22.6,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "DIG-003",
+      "component_code": "default",
+      "dataset": "isoc_sk_dskl_i21",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "ind_type": "M_Y16_74",
+        "indic_is": "I_DSK2_BAB",
+        "unit": "PC_IND"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "all",
+        "age": "16–74 años",
+        "comparison": "Hombres − mujeres"
+      },
+      "subtract": {
+        "ind_type": "F_Y16_74"
+      },
+      "source": "sources/eurostat-21.json",
+      "observations": [
+        {
+          "year": 2021,
+          "value": 3.04,
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 0.62,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 3.19,
+          "flags": ""
+        }
+      ]
+    },
+    {
+      "indicator_code": "RAC-005",
+      "component_code": "default",
+      "dataset": "lfsa_ergacob",
+      "filters": {
+        "freq": "A",
+        "geo": "ES",
+        "sex": "T",
+        "age": "Y20-64",
+        "unit": "PC",
+        "c_birth": "TOTAL"
+      },
+      "scope": {
+        "territory": "national",
+        "population": "Nacidos en el extranjero",
+        "age": "20–64 años",
+        "comparison": "Total de residentes"
+      },
+      "subtract": {
+        "c_birth": "FOR"
+      },
+      "source": "sources/eurostat-22.json",
+      "observations": [
+        {
+          "year": 2015,
+          "value": 3.3,
+          "flags": ""
+        },
+        {
+          "year": 2016,
+          "value": 2.9,
+          "flags": ""
+        },
+        {
+          "year": 2017,
+          "value": 2.5,
+          "flags": ""
+        },
+        {
+          "year": 2018,
+          "value": 2.2,
+          "flags": ""
+        },
+        {
+          "year": 2019,
+          "value": 2.3,
+          "flags": ""
+        },
+        {
+          "year": 2020,
+          "value": 5.6,
+          "flags": ""
+        },
+        {
+          "year": 2021,
+          "value": 4.3,
+          "flags": "bd"
+        },
+        {
+          "year": 2022,
+          "value": 3.6,
+          "flags": "d"
+        },
+        {
+          "year": 2023,
+          "value": 2.9,
+          "flags": "d"
+        },
+        {
+          "year": 2024,
+          "value": 3.1,
+          "flags": "d"
+        },
+        {
+          "year": 2025,
+          "value": 2.8,
+          "flags": "d"
+        }
+      ]
+    },
+    {
+      "indicator_code": "INST-001",
+      "component_code": "component-1",
+      "scope": {
+        "territory": "national",
+        "population": "Defensor del Pueblo"
+      },
+      "observations": [
+        {
+          "year": 2020,
+          "value": 14785974.7,
+          "source": "sources/defensor-2020.json",
+          "flags": ""
+        },
+        {
+          "year": 2022,
+          "value": 18351851.99,
+          "source": "sources/defensor-2022.json",
+          "flags": ""
+        },
+        {
+          "year": 2023,
+          "value": 19850785.82,
+          "source": "sources/defensor-2023.json",
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 19808692.39,
+          "source": "sources/defensor-2024.json",
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 21082664.49,
+          "source": "sources/defensor-2025.json",
+          "flags": ""
+        }
+      ],
+      "comparability_notes": "Misma clasificación presupuestaria y obligaciones reconocidas al cierre anual; páginas oficiales distintas por ejercicio. Euros nominales. No se enlaza el salto por ausencia de 2021."
+    },
+    {
+      "indicator_code": "RAC-001",
+      "component_code": "known-count",
+      "scope": {
+        "territory": "national",
+        "population": "all"
+      },
+      "source": "sources/interior-known-count.json",
+      "observations": [
+        {
+          "year": 2023,
+          "value": 2268,
+          "flags": ""
+        },
+        {
+          "year": 2024,
+          "value": 1955,
+          "flags": ""
+        },
+        {
+          "year": 2025,
+          "value": 2417,
+          "flags": ""
+        }
+      ],
+      "comparability_notes": "Hechos conocidos, incluidos delitos, infracciones e incidentes. Las categorías registradas evolucionan; más detección o denuncia no prueba mayor prevalencia."
+    },
+    {
+      "indicator_code": "RAC-001",
+      "component_code": "default",
+      "scope": {
+        "territory": "national",
+        "population": "all"
+      },
+      "source": "sources/interior-default.json",
+      "observations": [
+        {
+          "year": 2025,
+          "value": 4.92,
+          "flags": ""
+        }
+      ],
+      "comparability_notes": "Hechos conocidos, incluidos delitos, infracciones e incidentes. Las categorías registradas evolucionan; más detección o denuncia no prueba mayor prevalencia."
+    }
+  ]
+}

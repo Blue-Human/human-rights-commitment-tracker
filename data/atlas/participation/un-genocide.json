@@ -1,0 +1,3512 @@
+{
+ "instrument": "un-genocide",
+ "register": "untc",
+ "as_of": "2026-11-09",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-1&chapter=4&clang=_en",
+  "retrieved": "2026-11-09",
+  "sha256": "8eed640fcda242e17457b85a52a63969de7e2133a38dc252f9c4125fd2d3582e"
+ },
+ "columns": [
+  "Participant 2",
+  "Signature",
+  "Accession(a), Succession(d), Ratification"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, accession or succession. For objections thereto and territorial applications see hereinafter.)",
+   "entries": 32
+  },
+  {
+   "key": "Obj",
+   "title": "Objections",
+   "intro": "(Unless otherwise indicated, the objections were made upon ratification, accession or succession.)",
+   "entries": 19
+  }
+ ],
+ "notes": {
+  "1": "1Resolution 260 (III), Official Records of the General Assembly, Third Session , Part I (A/810), p. 174.",
+  "2": "2The former Yugoslavia had signed and ratified the Convention on 11 December 1948 and 29 August 1950, respectively. See also note 1 under \"Bosnia and Herzegovina\", \"Croatia\", \"former Yugoslavia\", \"Slovenia\", \"The Former Yugoslav Republic of Macedonia\" and \"Yugoslavia\" in the \"Historical Information\" section (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "3": "3On 3 October 1983, the Secretary-General received from the Government of Argentina the following objection:\n[The Government of Argentina makes a] formal objection to the declaration of territorial extension issued by the United Kingdom with regard to the Malvinas Islands (and dependencies), which that country is illegally occupying and refers to as the \"Falkland Islands\". The Argentine Republic rejects and considers null and void the [said declaration] of territorial extension.\nWith reference to the above-mentioned objection the Secretary-General received, on 28 February 1985, from the Government of the United Kingdom of Great Britain and Northern Ireland the following declaration:\n\"The Government of the United Kingdom of Great Britain and Northern Ireland have no doubt as to their right, by notification to the Depositary under the relevant provisions of the above-mentioned Convention, to extend the application of the Convention in question to the Falkland Islands or to the Falkland Islands Dependencies, as the case may be.\nFor this reason alone, the Government of the United Kingdom are unable to regard the Argentine [communication] under reference as having any legal effect.\"",
+  "4": "4The following communication, received by the Secretary-General on 15 June 1993, was transmitted prior to Yugoslavia’s admission to membership in the United Nations by General Assembly resolution A/55/12 on 1 November 2000, and its accession to the Convention, deposited with the Secretary-General on 12 March 2001:\n\"Considering the fact that the replacement of sovereignty on the part of the territory of the Socialist Federal Republic of Yugoslavia previously comprising the Republic of Bosnia and Herzegovina was carried out contrary to the rules of international law, the Government of the Federal Republic of Yugoslavia herewith states that it does not consider the so-called Republic of Bosnia and Herzegovina a party to the Convention on the Prevention and Punishment of the Crime of Genocide, but does consider that the so-called Republic of Bosnia and Herzegovina is bound by the obligation to respect the norms on preventing and punishing the crime of genocide in accordance with general international law irrespective of the Convention on the Prevention and Punishment of the Crime of Genocide.\nSee also note 2 in this chapter and note 1 under “former Yugoslavia” in the “Historical Information” section (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "5": "5On 6 and 10 June 1997, the Secretary-General received communications concerning the status of Hong Kong from the Governments of the United Kingdom and China (see also note 2 under “China” and note 2 under “United Kingdom of Great Britain and Northern Ireland” regarding Hong Kong in the “Historical Information” section (click on the tab \"Status of Treaties\" and then on \"Historical Information\")). Upon resuming the exercise of sovereignty over Hong Kong, China notified the Secretary-General that the Convention with the reservation made by China will also apply to the Hong Kong Special Administrative Region.",
+  "6": "6Ratified on behalf of the Republic of China on 19 July 1951. See note 1 under “China” in the “Historical Information” (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "7": "7On 16 September 1999, the Government of Portugal informed the Secretary-General that the Convention would apply to Macao. Subsequently, the Secretary-General received communications regarding the status of Macao from Portugal and China (see note 3 under “China” and note 1 under “Portgual” in the “Historical Information” section (click on the tab \"Status of Treaties\" and then on \"Historical Information\")). Upon resuming the exercise of sovereignty over Macao, China notified the Secretary-General that the Convention with the reservation made by China will also apply to the Macao Special Administrative Region.",
+  "8": "8By a notification received by the Secretary-General on 29 January 1982, the Government of Cuba withdrew the declaration made on its behalf upon ratification of the said Convention with respect to the reservations to articles IX and XII by Bulgaria, the Byelorussian Soviet Socialist Republic, Czechoslovakia, Poland, Romania, the Ukrainian Soviet Socialist Republic and the Union of Soviet Socialist Republics.",
+  "9": "9On 18 May 1998, the Government of Cyprus notified the Secretary-General of the following:\n“The Government of the Republic of Cyprus has taken note of the reservations made by a number of countries when acceding to the [Convention] and wishes to state that in its view these are not the kind of reservations which intending parties to the Convention have the right to make.\nAccordingly, the Government of the Republic of Cyprus does not accept any reservations entered by any Government with regard to any of the Articles of the Convention.”",
+  "10": "10Czechoslovakia had signed and ratified the Convention on 28 December 1949 and 21 December 1950, respectively, with a reservation. Subsequently, by a notification received on 26 April 1991, the Government of Czechoslovakia notified the Secretary-General of its decision to withdraw the reservation to article IX made upon signature and confirmed upon ratification. For the text of the reservation, see United Nations, Treaty Series , vol. 78, p. 303. See also note 1 under “Czech Republic” and note 1 under “Slovakia” in the “Historical Information” section (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "11": "11On 11 January 1990, the Secretary-General received from the Government of the Federal Republic of Germany the following declaration:\n\"The Government of the Federal Republic of Germany has taken note of the declarations made under the heading \"Reservations\" by the Government of the United States of America upon ratification of the Convention on the Prevention and Punishment of the Crime of Genocide adopted by the General Assembly of the United Nations on 9 December 1948. The Government of the Federal Republic of Germany interprets paragraph (2) of the said declarations as a reference to article V of the Convention and therefore as not in any way affecting the obligations of the United States of America as a State Party to the Convention.\".",
+  "12": "12The German Democratic Republic had acceded to the Convention with reservation and declaration on 27 March 1973. For the text of the reservation and the declarations see United Nations, Treaty Series , vol. 861, p. 200. See also note 2 under “Germany” in the “Historical Information” section in the front matter of this volume.",
+  "13": "13See note 1 under “Germany” regarding Berlin (West) in the “Historical Information” (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "14": "14See note 1 under \"Montenegro\" in the \"Historical Information\" section (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "15": "15See note 1 under \"New Zealand\" regarding Tokelau in the \"Historical Information\" section (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "16": "16The Secretary-General received communications from the following States on the dates indicated hereinafter regarding the accession of Yugoslavia to the Convention:\nCroatia (18 May 2001):\n\"The Government of the Republic of Croatia objects to the deposition of the instrument of accession of the Federal Republic of Yugoslavia to the Convention on the Prevention and Punishment of the Crime of Genocide, due to the fact that the Federal Republic of Yugoslavia is already bound by the Convention since its emergence as one of the five equal successor states to the former Socialist Federal Republic of Yugoslavia.\nThis fact was confirmed by the Federal Republic of Yugoslavia in its Declaration of 27 April 1992, as communicated to the Secretary-General (UN doc. A/46/915). Notwithstanding the political reasoning behind it, in its 1992 Declaration the Federal Republic of Yugoslavia stated that it \"shall strictly abide by all the commitments that the former Socialist Federal Republic of Yugoslavia assumed internationally\".\nIn this regard the Republic of Croatia notes in particular the decision of the International Court of Justice in its Judgement of 11 July 1996 that the Federal Republic of Yugoslavia \"was bound by provisions of the [Genocide] Convention on the date of the filing of [the Application by Bosnia and Herzegovina], namely on 20 March 1993\" (ICJ Reports 1996, p. 595, at para. 17).\nThe Government of the Republic of Croatia further objects to the reservation made by the Federal Republic of Yugoslavia in respect of Article IX of the Convention on the Prevention and Punishment of the Crime of Genocide, and considers it to be incompatible with the object and purpose of the Convention. The Government of the Republic of Croatia considers the Convention on the Prevention and Punishment of the Crime of Genocide to be fully in force and applicable between the Republic of Croatia and the Federal Republic of Yugoslavia, including Article IX.\nThe Government of the Republi of Croatia deems that neither the purported way of becoming a party to the Genocide Convention ex nunc by the Federal Republic of Yugoslavia, nor its purported reservation, have any legal effect regarding the jurisdiction of the International Court of Justice with respect to the pending proceedings initiated before the International Court of Justice by the Republic of Croatia against the Federal Republic of Yugoslavia pursuant to the Genocide Convention.\"\nBosnia-Herzegovina (27 December 2001):\nOn 21 March 2001 the Secretary-General of the United Nations confirmed to the Permanent Representative of Yugoslavia to the United Nations the receipt of a ‘Notification of Accession to the Convention on the Prevention and Punishment of the Crime of Genocide (1948). The note of the Secretary -General carries reference as: LA 41 TR/221/1(4-1).\nThe Presidency of Bosnia and Herzegovina objects to the deposition of this instrument of accession.\nOn 29 June 2001, Bosnia and Herzegovina, the Republic of Croatia, the Republic of Macedonia, the Republic of Slovenia and the Federal Republic of Yugoslavia signed an \"Agreement on Succession Issues\" in which these States, among other things, declare that they are \"in sovereign equality the five successor States to the former Socialist Federal Republic of Yugoslavia\". A copy of the Agreement is enclosed. [Copy not reproduced herein.] For this reason, there can be no question of \"accession\", but rather there is an issue of succession. This, in itself, implies that the Federal Republic of Yugoslavia has effectively succeeded the former Socialist Federal Republic of Yugoslavia as of 27 April 1992 (the date of the proclamation of the FRY) as a Party to the Genocide Convention.\nApart from that, the Federal Republic of Yugoslavia upon its proclamation on 27 April 1992 declared - and communicated this to the Secretary-General that it would \"strictly abide by all the commitments that the Socialist Federal Republic of Yugoslavia assumed internationally\"(UN Doc. A/46/915).\nFor these two reasons it is not possible for the FRY to effectively lay down a reservation with regards to part of the Genocide Convention (i.e. Article IX of the Convention) several years after 27 April 1992, the day on which FRY became bound to the Genocide Convention in its entirety. Bosnia and Herzegovina refers to Articles 2 (1) (d) and 19 of the 1969 Vienna Convention on the Law of Treaties, which explicitly states that a reservation may only be formulated \"when signing, ratifying, accepting, approving or acceding to a treaty\".\nThe Presidency of Bosnia and Herzegovina therefore deems the so-called \"Notification of Accession to the Convention on the Prevention and Punishment of the Crime of Genocide (1948)\" submitted by the Government of the Federal Republic of Yugoslavia to be null and void. Moreover, the International Court of Justice declared in its Judgement of 11 July 1996, \"Yugoslavia was bound by the provisions of the Convention\" at least at the date of the filing of the Application in the case introduced by Bosnia and Herzegovina on 20 March 1993/ICJ Rep. 1996, p.610, para. 17). The Federal Republic of Yugoslavia continues to be bound under the same conditions, that is without any reservation.\"",
+  "17": "17The Secretary-General received on 9 November 1981 from the Government of the Democratic Republic of Kampuchea the following objection with regard to the accession by Viet Nam:\nThe Government of Democratic Kampuchea, as a party to the Convention on the Prevention and Punishment of the Crime of Genocide, considers that the signing of that Convention by the Government of the Socialist Republic of Viet Nam has no legal force, because it is no more than a cynical, macabre charade intended to camouflage the foul crimes of genocide committed by the 250,000 soldiers of the Vietnamese invasion army in Kampuchea. It is an odious insult to the memory of the more than 2,500,000 Kampucheans who have been massacred by these same Vietnamese armed forces using conventional weapons, chemical weapons and the weapon of famine, created deliberately by them for the purpose of eliminating all national resistance at its source.\nIt is also a gross insult to hundreds of thousands of Laotians who have been massacred or compelled to take refuge abroad since the occupation of Laos by the Socialist Republic of Viet Nam, to the Hmong national minority in Laos, exterminated by Vietnamese conventional and chemical weapons and, finally, to over a million Vietnamese \"boat people\" who died at sea or sought refuge abroad in their flight to escape the repression carried out in Viet Nam by the Government of the Socialist Republic of Viet Nam.\nThis shameless accession by the Socialist Republic of Viet Nam violates and discredits the noble principles and ideals of the United Nations and jeopardizes the prestige and moral authority of our world Organization. It represents an arrogant challenge to the international community, which is well aware of these crimes of genocide committed by the Vietnamese army in Kampuchea, has constantly denounced and condemned them since 25 December 1978, the date on which the Vietnamese invasion of Kampuchea began, and demands that these Vietnamese crimes of genocideght to an end by the total withdrawal of the Vietnamese forces from Kampuchea and the restoration of the inalienable right of the people of Kampuchea to decide its own destiny without any foreign interference, as provided in United Nations resolutions 34/22, 35/6 and 36/5.",
+  "18": "18Accession on behalf of the Republic of Viet-Nam on 11 August 1950 (See C.N.134.1950 ). (For the text of objections to some of the reservations made upon the said accession, see publication, Multilateral Treaties for which the Secretary-General acts as Depositary (ST/LEG/SER.D/13, p. 91). See also note 1 under “Viet Nam” in the “Historical Information” section Accession on behalf of the Republic of Viet-Nam.",
+  "19": "19The Yemen Arab Republic had acceded to the Convention on 6 April 1989. See also note 1 under “Yemen” in the “Historical Information” section (click on the tab \"Status of Treaties\" and then on \"Historical Information\").",
+  "20": "20On 19 July 1999, the Government of Albania informed the Secretary-General that it had decided to withdraw its reservation regarding article IX made upon accession. For the text of the reservation, see United Nations, Treaty Series , vol. 210, p. 332.",
+  "21": "21On 8 July 2021, the Government of Bahrain notified the Secretary-General of its withdrawal of the following reservation made upon accession:\n“[T]he accession by the State of Bahrain to the said Convention shall in no way constitute recognition of Israel or be a cause for the establishment of any relations of any kind therewith.”",
+  "22": "22On 25 June 1990, the Secretary-General received from the Government of Israel the following objection:\n\"The Government of the State of Israel has noted that the instrument of accession of Bahrain to the [said] Convention contains a declaration in respect of Israel.\nIn the view of the Government of the State of Israel, such declaration, which is explicitly of a political character, is incompatible with the purpose and objectives of this Convention and cannot in any way affect whatever obligations are binding upon Bahrain under general International Law or under particular Conventions.\nThe Government of the State of Israel will, in so far as concerns the substance of the matter, adopt towards Bahrain an attitude of complete reciprocity\".",
+  "23": "23In communications received on 8 March, 19 and 20 April 1989, respectively, the Governments of the Union of Soviet Socialist Republics, the Byelorussian Soviet Socialist Republic and the Ukrainian Soviet Socialist Republic notified the Secretary-General that they had decided to withdraw the reservation relating to article IX. For the texts of the reservations, see United Nations, Treaty Series , vol. 190, p. 381, vol.196, p. 345 and vol. 201, p. 368, respectively.",
+  "24": "24On 24 June 1992, the Government of Bulgaria notified the Secretary-General its decision to withdraw the reservation to article IX of the Convention, made upon accession. For the text of the reservation, see United Nations, Treaty Series , vol. 78, p. 318.",
+  "25": "25On 5 January 1998, the Government of Finland notified the Secretary-General that it had decided to withdraw its reservation made upon accession to the Convention. For the text of the reservation, see United Nations, Treaty Series , vol. 346, p. 324.",
+  "26": "26In a communication received on 8 December 1989, the Government of Hungary notified the Secretary-General that it had decided to withdraw the reservation relating to article IX made upon accession. For the text of the reservation, see United Nations, Treaty Series , vol. 118, p. 306.",
+  "27": "27In this regard, on 14 October 1996, the Secretary-General received from the Government of Norway, the following communication:\n\"... In [the view of the Government of Norway], reservations in respect of article IX of the Convention are incompatible with the object and purpose of the said Convention. Accordingly, the Government of Norway does not accept the reservations entered by the Governments of Singapore and Malaysia to article IX of the Convention.\"",
+  "28": "28In a communication received on 19 July 1990, the Government of Mongolia notified the Secretary-General of its decision to withdraw the reservation relating to article IX made upon accession. For the text of the reservation see United Nations, Treaty Series , vol. 587, p. 326.",
+  "29": "29On 16 October 1997, the Government of Poland notified the Secretary-General that it had decided to withdraw its reservation with regard to article IX of the Convention made upon accession. For the text of the reservation see United Nations, Treaty Series , vol. 78, p. 277.",
+  "30": "30On 2 April 1997, the Government of Romania informed the Secretary-General that it had decided to withdraw its reservation with regard to article IX of the Convention. For the text of the reservation, see United Nations, Treaty Series , vol. 78, p. 314.",
+  "31": "31In a communication received on 15 December 2008, the Government of Rwanda notified the Secretary-General that it had decided to withdraw the reservation relating to article IX made upon accession to the Convention. The text of the reservation reads as follows:\nThe Rwandese Republic does not consider itself as bound by article IX of the Convention.",
+  "32": "32With regard to the reservation made by the Government of Yugoslavia upon accession, the Secretary-General received from the following State, a communication on the date indicated hereinafter:\nSweden (2 April 2002):\n\"The Government of Sweden has taken note of the Secretary-General’s circular notification 164.2001.TREATIES-.1 of 15 March 2001, stating the intent of the Federal Republic of Yugoslavia to accede, with a reservation, to the 1948 Convention on the Prevention and Punishment of the Crime of Genocide. The Government of Sweden regards the Federal Republic of Yugoslavia as one successor state to the Socialist Federal Republic of Yugoslavia and, as such, a Party to the Convention from the date of the entering into force of the Convention for the Socialist Federal Republic of Yugoslavia. The Government of Sweden hereby communicates that it considers the said reservation as having been made too late, according to article 19 of the 1969 Vienna Convention on the Law of Treaties, and thus null and void.\"",
+  "33": "33On 24 September 2009, the Government of Spain informed the Secretary-General that it had decided to withdraw the reservation in respect of the whole article IX (Jurisdiction of the International Court of Justice) made upon accession to the Convention.",
+  "34": "34For the Advisory Opinion of the International Court of Justice of 28 May 1951, see I.C.J., Report 1951 , p. 15.",
+  "35": "35For the resolution adopted on 12 January 1952 by the sixth session of the General Assembly concerning reservations to multilateral conventions, see Resolution 598 (VI); Official Records of the General Assembly, Sixth Session, Supplement No. 20 (A/2119) , p. 84."
+ },
+ "participants": [
+  {
+   "iso3": "AFG",
+   "name": "Afghanistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1956-03-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Mar 1956 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1956-03-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1955-05-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 May 1955 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "20"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "...\nAs regards article XII: The People's Republic of Albania declares that it is not in agreement with article XII of the Convention and considers that all the provisions of the Convention should extend to Non-Self-Governing Territories, including Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1955-05-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DZA",
+   "name": "Algeria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1963-10-31",
+    "type": "accession",
+    "code": "a",
+    "raw": "31 Oct 1963 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "The Democratic and Popular Republic of Algeria does not consider itself bound by article IX of the Convention, which confers on the International Court of Justice jurisdiction in all disputes relating to the said Convention.\nThe Democratic and Popular Republic of Algeria declares that no provision of article VI of the said Convention shall be interpreted as depriving its tribunals of jurisdiction in cases of genocide or other acts enumerated in article III which have been committed in its territory or as conferring such jurisdiction on foreign tribunals.\nInternational tribunals may, as an exceptional measure, be recognized as having jurisdiction, in cases in which the Algerian Government has given its express approval.\nThe Democratic and Popular Republic of Algeria declares that it does not accept the terms of article XII of the Convention and considers that all the provisions of the said Convention should apply to Non-Self-Governing Territories, including Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1963-10-31",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AND",
+   "name": "Andorra",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Sep 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2006-09-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ATG",
+   "name": "Antigua and Barbuda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1988-10-25",
+    "type": "succession",
+    "code": "d",
+    "raw": "25 Oct 1988 d"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1988-10-25",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1956-06-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Jun 1956 a"
+   },
+   "notes": [
+    "3"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Ad article IX: The Argentine Government reserves the right not to submit to the procedure laid down in this article any dispute relating directly or indirectly to the territories referred to in its reservation to article XII.\nAd article XII: If any other Contracting Party extends the application of the Convention to territories under the sovereignty of the Argentine Republic, this extension shall in no way affect the rights of the Republic."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1956-06-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-06-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Jun 1993 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-06-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1949-07-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Jul 1949"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "15 November 1950\n\"The Australian Government does not accept any of the reservations contained in the instrument of accession of the People's Republic of Bulgaria, or in the instrument of ratification of the Republic of the Philippines.\n\"The Australian Government does not accept any of the reservations made at the time of signature of the Convention by the Byelorussian Soviet Socialist Republic, Czechoslovakia, the Ukrainian Soviet Socialist Republic and the Union of Soviet Socialist Republics.\"\n19 January 1951\n\"The Australian Government does not accept the reservations contained in the instruments of accession of the Governments of Poland and Romania.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1949-07-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1958-03-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Mar 1958 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1958-03-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1996-08-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Aug 1996 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-08-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BHS",
+   "name": "Bahamas (The)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1975-08-05",
+    "type": "succession",
+    "code": "d",
+    "raw": "5 Aug 1975 d"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1975-08-05",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "BHR",
+   "name": "Bahrain",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1990-03-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Mar 1990 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "21, 22"
+     ],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"With reference to article IX of the Convention the Government of the State of Bahrain declares that, for the submission of any dispute in terms of this article to the jurisdiction of the International Court of Justice, the express consent of all the parties to the dispute is required in each case.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1990-03-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-10-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Oct 1998 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“Article IX: For the submission of any dispute in terms of this article to the jurisdiction of the International Court of Justice, the consent of all parties to the dispute will be required in each case.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1998-10-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BRB",
+   "name": "Barbados",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1980-01-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Jan 1980 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1980-01-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BLR",
+   "name": "Belarus",
+   "signature": "1949-12-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1954-08-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Aug 1954"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "23"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "The Byelorussian SSR declares that it is not in agreement with article XII of the Convention and considers that all the provisions of the Convention should extend to non-self-governing territories, including trust territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1954-08-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "1949-12-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1951-09-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Sep 1951"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "The Government of Belgium does not accept the reservations made by Bulgaria, Byelorussian Soviet Socialist Republic, Czechoslovakia, Poland, Romania, the Ukrainian Soviet Socialist Republic and the Union of Soviet Socialist Republics."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1951-09-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-03-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Mar 1998 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-03-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-11-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Nov 2017 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-11-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-06-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Jun 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2005-06-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-12-29",
+    "type": "succession",
+    "code": "d",
+    "raw": "29 Dec 1992 d"
+   },
+   "notes": [
+    "2, 4"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-12-29",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-04-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Apr 1952"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [
+      "34, 35"
+     ],
+     "label": null,
+     "kind": "objection",
+     "text": "The Government of Brazil objects to the reservations made to the Convention by Bulgaria, the Byelorussian Soviet Socialist Republic, Czechoslovakia, the Philippines, Poland, Romania, the Ukrainian Soviet Socialist Republic and the Union of Soviet Socialist Republics. The Brazilian Government considers the said reservations as incompatible with the object and purpose of the Convention.\nThe position taken by the Government of Brazil is founded on the Advisory Opinion of the International Court of Justice of 28 May 1951 and on the resolution adopted by the sixth session of the General Assembly on 12 January 1952, on reservations to multilateral conventions.\nThe Brazilian Government reserves the right to draw any such legal consequences as it may deem fit from its formal objection to the above-mentioned reservations."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1952-04-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-07-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Jul 1950 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "24"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "As regards article XII: The People's Republic of Bulgaria declares that it is not in agreement with article XII of the Convention and considers that all the provisions of the Convention should extend to Non-Self-Governing Territories, including Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1950-07-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1965-09-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Sep 1965 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1965-09-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1997-01-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Jan 1997 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1997-01-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-10-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Oct 2011 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2011-10-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-10-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Oct 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-10-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": "1949-11-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-09-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Sep 1952"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1952-09-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1953-06-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Jun 1953"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1953-06-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHN",
+   "name": "China",
+   "signature": "1949-07-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1983-04-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Apr 1983"
+   },
+   "notes": [
+    "5, 6, 7"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "1. The ratification to the said Convention by the Taiwan local authorities on 19 July 1951 in the name of China is illegal and therefore null and void."
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "2. The People's Republic of China does not consider itself bound by article IX of the said Convention."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1983-04-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "1949-08-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1959-10-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Oct 1959"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1959-10-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COM",
+   "name": "Comoros",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Sep 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2004-09-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-10-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Oct 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-10-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-12-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Dec 1995 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-12-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-10-12",
+    "type": "succession",
+    "code": "d",
+    "raw": "12 Oct 1992 d"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-10-12",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "CUB",
+   "name": "Cuba",
+   "signature": "1949-12-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1953-03-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Mar 1953"
+   },
+   "notes": [
+    "8"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1953-03-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1982-03-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Mar 1982 a"
+   },
+   "notes": [
+    "9"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1982-03-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-02-22",
+    "type": "succession",
+    "code": "d",
+    "raw": "22 Feb 1993 d"
+   },
+   "notes": [
+    "10"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-02-22",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1989-01-31",
+    "type": "accession",
+    "code": "a",
+    "raw": "31 Jan 1989 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1989-01-31",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "COD",
+   "name": "Democratic Republic of the Congo",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1962-05-31",
+    "type": "succession",
+    "code": "d",
+    "raw": "31 May 1962 d"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1962-05-31",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": "1949-09-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1951-06-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Jun 1951"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "22 December 1989\nWith regard to reservation (2) made by the United States of America:\n\"In the view of the Government of Denmark this reservation is subject to general principle of treaty interpretation according to which a party may not invoke the provisions of its internal law as justification for failure to perform a treaty.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1951-06-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2026-02-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Feb 2026 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2026-02-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-05-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 May 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-05-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "signature",
+    "date": "1948-12-11",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1949-12-21",
+    "type": "ratification",
+    "code": null,
+    "raw": "21 Dec 1949"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "31 March 1950\nThe Government of is not in agreement with the reservations made to article IX and XII of the Convention by the Governments of the Byelorussian Soviet Socialist Republic, Czechoslovakia, the Ukrainian Soviet Socialist Republic and the Union of Soviet Socialist Republics and, therefore, they do not apply to Ecuador which accepted without any modifications the integral text of the Convention.\n21 August 1950\n[Same communication, mutatis mutandis, in respect of the reservations made by Bulgaria.]\n9 January 1951\nThe Government of Ecuador does not accept the reservations made by the Governments of Poland and Romania to articles IX and XII of the Convention."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1949-12-21",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "EGY",
+   "name": "Egypt",
+   "signature": "1948-12-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-02-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Feb 1952"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1952-02-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "1949-04-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-09-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Sep 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-09-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-10-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Oct 1991 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "With regard to reservation (2) made by the United States of America:\n\"The Estonian Government objects to this reservation on the grounds that it creates uncertainty, as to the extent of the obligations the Government of the United States of America is prepared to assume with regard to the Convention. According to article 27 of the Vienna Convention on the Law of Treaties, no party may invoke the provisions of its domestic law as justification for failure to perform a treaty.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1991-10-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ETH",
+   "name": "Ethiopia",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1949-07-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Jul 1949"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1949-07-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FJI",
+   "name": "Fiji",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1973-01-11",
+    "type": "succession",
+    "code": "d",
+    "raw": "11 Jan 1973 d"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1973-01-11",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1959-12-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Dec 1959 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "22 December 1989\nWith respect to reservation (2) made by the United States of America:\n\"In the view of the Government of Finland this reservation is subject to the general principle of treaty interpretation according to which a party may not invoke the provisions of its internal law as justification for failure to perform a treaty.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1959-12-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-10-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Oct 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-10-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1983-01-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Jan 1983 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1983-01-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GMB",
+   "name": "Gambia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1978-12-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Dec 1978 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1978-12-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-10-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Oct 1993 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-10-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1954-11-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Nov 1954 a"
+   },
+   "notes": [
+    "11, 12, 13"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1954-11-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1958-12-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Dec 1958 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1958-12-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GRC",
+   "name": "Greece",
+   "signature": "1949-12-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1954-12-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Dec 1954"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "We further declare that we have not accepted and do not accept any reservation which has already been made or which may hereafter be made by the countries signatory to this instrument or by countries which have acceded or may hereafter accede thereto.\n26 January 1990\nThe Government of the Hellenic Republic cannot accept the first reservation entered by the United States of America upon ratifying the Agreement on the Prevention and Punishment of the Crime of Genocide, for it considers such a reservation to be in compatible with the Convention.\nIn respect of the second reservation formulated by the United States of America:\n[Same objection mutatis mutandis, as the one made by Denmark.]"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1954-12-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "1949-06-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-01-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Jan 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-01-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GIN",
+   "name": "Guinea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Sep 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Sep 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-10-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Oct 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-10-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "1949-04-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-03-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Mar 1952"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1952-03-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HUN",
+   "name": "Hungary",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-01-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Jan 1952 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "26"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "The Hungarian People's Republic reserves its rights with regard to the provisions of article XII which do not define the obligations of countries having colonies with regard to questions of colonial exploitation and to acts which might be described as genocide."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1952-01-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": "1949-05-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1949-08-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Aug 1949"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1949-08-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IND",
+   "name": "India",
+   "signature": "1949-11-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1959-08-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Aug 1959"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "\"With reference to article IX of the Convention, the Government of India declares that, for the submission of any dispute in terms of this article to the jurisdiction of the International Court of Justice, the consent of all the parties to the dispute is required in each case.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1959-08-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IRN",
+   "name": "Iran (Islamic Republic of)",
+   "signature": "1949-12-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1956-08-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Aug 1956"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1956-08-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1959-01-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Jan 1959 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1959-01-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1976-06-22",
+    "type": "accession",
+    "code": "a",
+    "raw": "22 Jun 1976 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "22 December 1989\n\"The Government of Ireland is unable to accept the second reservation made by the United States of America on the occasion of its ratification of the [said] Convention on the grounds that as a generally accepted rule of international law a party to an international agreement may not, by invoking the terms of its internal law, purport to override the provisions of the Agreement.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1976-06-22",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ISR",
+   "name": "Israel",
+   "signature": "1949-08-17",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-03-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Mar 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-03-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-06-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Jun 1952 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "29 December 1989\nThe Government of the Republic of Italy objects to the second reservation entered by the United States of America. It creates uncertainty as to the extent of the obligations which the Government of the United States of America is prepared to assume with regard to the Convention.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1952-06-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1968-09-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Sep 1968 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1968-09-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "JOR",
+   "name": "Jordan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-04-03",
+    "type": "accession",
+    "code": "a",
+    "raw": "3 Apr 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-04-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-08-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Aug 1998 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-08-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KWT",
+   "name": "Kuwait",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-03-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Mar 1995 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-03-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KGZ",
+   "name": "Kyrgyzstan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1997-09-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Sep 1997 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1997-09-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LAO",
+   "name": "Lao People's Democratic Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-12-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 Dec 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-12-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LVA",
+   "name": "Latvia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-04-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Apr 1992 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-04-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LBN",
+   "name": "Lebanon",
+   "signature": "1949-12-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1953-12-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Dec 1953"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1953-12-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1974-11-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Nov 1974 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1974-11-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-06-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Jun 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-06-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LBY",
+   "name": "Libya",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1989-05-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 May 1989 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1989-05-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-03-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Mar 1994 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-03-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1996-02-01",
+    "type": "accession",
+    "code": "a",
+    "raw": "1 Feb 1996 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1996-02-01",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1981-10-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Oct 1981 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1981-10-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MWI",
+   "name": "Malawi",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-07-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Jul 2017 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2017-07-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MYS",
+   "name": "Malaysia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-12-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Dec 1994 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "27"
+     ],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"That with reference to article IX of the Convention, before any dispute to which Malaysia is a party may be submitted to the jurisdiction of the International Court of Justice under this article, the specific consent of Malaysia is required in each case.\""
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "27"
+     ],
+     "label": "Understanding",
+     "kind": "declaration",
+     "text": "\"That the pledge to grant extradition in accordance with a state's laws and treaties in force found in article VII extends only to acts which are criminal under the law of both the requesting and the requested state.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1994-12-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1984-04-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Apr 1984 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1984-04-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1974-07-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Jul 1974 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1974-07-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-06-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Jun 2014 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-06-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-07-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 Jul 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2019-07-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "1948-12-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-07-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Jul 1952"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "4 June 1990\nThe Government of Mexico believes that the reservation made by the United States Government to article IX of the aforesaid Convention should be considered invalid because it is not in keeping with the object and purpose of the Convention, nor with the principle governing the interpretation of treaties whereby no State can invoke provisions of its domestic law as a reason for not complying with a treaty.\nIf the aforementioned reservation were applied, it would give rise to a situation of uncertainty as to the scope of the obligations which the United States Government would assume with respect to the Convention.\nMexico's objection to the reservation in question should not be interpreted as preventing the entry into force of the 1948 Convention between the [Mexican] Government and the United States Government."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1952-07-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-03-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Mar 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-03-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1967-01-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Jan 1967 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "28"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "The Government of the Mongolian People's Republic declares that it is not in a position to agree with article XII of the Convention and considers that the provisions of the said article should be extended to non-self-governing territories, including trust territories.\nThe Government of the Mongolian People's Republic deems it appropriate to draw attention to the discriminatory character of article XI of the Convention, under the terms of which a number of States are precluded from acceding to the Convention and declares that the Convention deals with matters which affect the interests of all States and it should, therefore, be open for accession by all States."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1967-01-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-10-23",
+    "type": "succession",
+    "code": "d",
+    "raw": "23 Oct 2006 d"
+   },
+   "notes": [
+    "14"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "14"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Confirmed upon succession:"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "14"
+     ],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"The Federal Republic of Yugoslavia does not consider itself bound by Article IX of the Convention on the Prevention and Punishment of the Crime of Genocide and, therefore, before any dispute to which the Federal Republic of Yugoslavia is a party may be validly submitted to the jurisdiction of the International Court of Justice under this Article, the specific and explicit consent of the FRY is required in each case.”"
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2006-10-23",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1958-01-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Jan 1958 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "With reference to article VI, the Government of His Majesty the King considers that Moroccan courts and tribunals alone have jurisdiction with respect to acts of genocide committed within the territory of the Kingdom of Morocco.\nThe competence of international courts may be admitted exceptionally in cases with respect to which the Moroccan Government has given its specific agreement.\nWith reference to article IX, the Moroccan Government states that no dispute relating to the interpretation, application or fulfilment of the present Convention can be brought before the International Court of Justice, without the prior agreement of the parties to the dispute."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1958-01-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1983-04-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Apr 1983 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1983-04-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MMR",
+   "name": "Myanmar",
+   "signature": "1949-12-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1956-03-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Mar 1956"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "\"(1) With reference to article VI, the Union of Burma makes the reservation that nothing contained in the said Article shall be construed as depriving the Courts and Tribunals of the Union of jurisdiction or as giving foreign Courts and tribunals jurisdiction over any cases of genocide or any of the other acts enumerated in article III committed within the Union territory.\n\"(2) With reference to article VIII, the Union of Burma makes the reservation that the said article shall not apply to the Union.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1956-03-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-11-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Nov 1994 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-11-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1969-01-17",
+    "type": "accession",
+    "code": "a",
+    "raw": "17 Jan 1969 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1969-01-17",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1966-06-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Jun 1966 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "\"The Government of the Kingdom of the Netherlands declares that it considers the reservations made by Albania, Algeria, Bulgaria, the Byelorussian Soviet Socialist Republic, Czechoslovakia, Hungary, India, Morocco, Poland, Romania, the Ukrainian Soviet Socialist Republic and the Union of Soviet Socialist Republics in respect of article IX of the Convention on the Prevention and Punishment of the Crime of Genocide, opened for signature at Paris on 9 December 1948, to be incompatible with the object and purpose of the Convention. The Government of the Kingdom of the Netherlands therefore does not deem any State which has made or which will make such reservation a party to the Convention.\"\n27 December 1989\nWith regard to the reservations made by the United States of America:\n\"As concerns the first reservation, the Government of the Kingdom of the Netherlands recalls its declaration, made on 20 June 1966 on the occasion of the accession of the Kingdom of the Netherlands to the Convention [...] stating that in its opinion the reservations in respect of article IX of the Convention, made at that time by a number of states, were incompatible with the object and purpose of the Convention, and that the Government of the Kingdom of the Netherlands did not consider states making such reservations parties to the Convention. Accordingly, the Government of the Kingdom of the Netherlands does not consider the United States of America a party to the Convention. Similarly, the Government of the Kingdom of the Netherlands does not consider parties to the Convention other states which have made such reservations, i.e., in addition to the states mentioned in the aforementioned declaration, the People's Republic of China, Democratic Yemen, the German Democratic Republic, the Mongolian People's Republic, the Philippines, Rwanda, Spain, Venezuela, and Viet Nam, on the other hand, the Government of the Kingdom of the Netherlands does consider parties to theConvention those states that have since withdrawn their reservations, i.e., the Union of Soviet Socialist Republics, the Byelorussian Soviet Socialist Republic, and the Ukrainian Soviet Socialist Republic.\nAs the Convention may come into force between the Kingdom of the Netherlands and the United States of America as a result of the latter withdrawing its reservation in respect of article IX, the Government of the Kingdom of the Netherlands deems it useful to express the following position on the second reservation of the United States of America:\nThe Government of the Kingdom of the Netherlands objects to this reservation on the ground that it creates uncertainty as to the extent of the obligations the Government of the United States of America is prepared to assume with regard to the Convention. Moreover, any failure by the United States of America to act upon the obligations contained in the Convention on the ground that such action would be prohibited by the constitution of the United States would be contrary to the generally accepted rule of international law, as laid down in article 27 of the Vienna Convention on the law of treaties (Vienna, 23 May 1969)\".\n23 February 1996\nWith regard to the reservations made by Malaysia and Singapore made upon accession:\n\"The Government of the Kingdom of the Netherlands recalls its declaration made on 20 June 1966 on the occasion of the accession [to the said Convention].\n[See declaration made under \" Netherlands \"]\nAccordingly, the Government of the Netherlands declares that it considers the reservations made by Malaysia and Singapore in respect of article IX of the Convention incompatible with the object and purpose of the Convention. The Government of the Kingdom of the Netherlands does not consider Malaysia and Singapore Parties to the Convention.\nOn the other hand, the Government of the Kingdom of the Netherlands does consider Parties to the Convention those States that have since withdrawn their reservations in respect of article IX of the Convention, i.e., Hungary, Bulgaria and Mongolia.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1966-06-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": "1949-11-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1978-12-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Dec 1978"
+   },
+   "notes": [
+    "15"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1978-12-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-01-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Jan 1952 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1952-01-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Jul 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2009-07-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1994-01-18",
+    "type": "succession",
+    "code": "d",
+    "raw": "18 Jan 1994 d"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1994-01-18",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "NOR",
+   "name": "Norway",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1949-07-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Jul 1949"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "10 April 1952\n\"The Norwegian Government does not accept the reservations made to the Convention by the Government of the Philippines at the time of ratification.\"\n22 December 1989\nWith regard to reservation (2) made by the United States of America:\n\"In the view of the Government of Norway this reservation is subject to the general principle of treaty interpretation according to which a party may not invoke the provisions of its internal law as justification for failure to perform a treaty.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1949-07-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAK",
+   "name": "Pakistan",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1957-10-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Oct 1957"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1957-10-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-01-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Jan 1950"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-01-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PNG",
+   "name": "Papua New Guinea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1982-01-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Jan 1982 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1982-01-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-10-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Oct 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2001-10-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1960-02-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Feb 1960"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1960-02-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PHL",
+   "name": "Philippines",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-07-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Jul 1950"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "\"l. With reference to article IV of the Convention, the Philippine Government cannot sanction any situation which would subject its Head of State, who is not a ruler, to conditions less favorable than those accorded other Heads of State, whether constitutionally responsible rulers or not. The Philippine Government does not consider said article, therefore, as overriding the existing immunities from judicial processes guaranteed certain public officials by the Constitution of the Philippines.\n\"2. With reference to article VII of the Convention, the Philippine Government does not undertake to give effect to said article until the Congress of the Philippines has enacted the necessary legislation defining and punishing the crime of genocide, which legislation, under the Constitution of the Philippines, cannot have any retroactive effect.\n\"3. With reference to articles VI and IX of the Convention, the Philippine Government takes the position that nothing contained in said articles shall be construed as depriving Philippine courts of jurisdiction over all cases of genocide committed within Philippine territory save only in those cases where the Philippine Government consents to have the decision of the Philippine courts reviewed by either of the international tribunals referred to in said articles. With further reference to article IX of the Convention, the Philippine Government does not consider said article to extend the concept of State responsibility beyond that recognized by the generally accepted principles of international law.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1950-07-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-11-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Nov 1950 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "29"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "As regards article XII: Poland does not accept the provisions of this article, considering that the Convention should apply to Non-Self-Governing Territories, including Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1950-11-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-02-09",
+    "type": "accession",
+    "code": "a",
+    "raw": "9 Feb 1999 a"
+   },
+   "notes": [
+    "7"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-02-09",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KOR",
+   "name": "Republic of Korea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-10-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Oct 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-10-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-01-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Jan 1993 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-01-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-11-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Nov 1950 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "30"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "As regards article XII: The People's Republic of Romania declares that it is not in agreement with article XII of the Convention, and considers that all the provisions of the Convention should apply to the Non-Self-Governing Territories, including the Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1950-11-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "RUS",
+   "name": "Russian Federation",
+   "signature": "1949-12-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1954-05-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 May 1954"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "23"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "The Union of Soviet Socialist Republics declares that it is not in agreement with article XII of the Convention and considers that all the provisions of the Convention should extend to Non-Self-Governing Territories, including Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1954-05-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1975-04-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Apr 1975 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1975-04-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-11-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 Nov 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2013-11-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SAU",
+   "name": "Saudi Arabia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-07-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Jul 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-07-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1983-08-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Aug 1983 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1983-08-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-03-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Mar 2001 a"
+   },
+   "notes": [
+    "4, 16"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "16, 32"
+     ],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"The Federal Republic of Yugoslavia does not consider itself bound by Article IX of the Convention on the Prevention and Punishment of the Crime of Genocide and, therefore, before any dispute to which the Federal Republic of Yugoslavia is a party may be validly submitted to the jurisdiction of the International Court of Justice under this Article, the specific and explicit consent of the FRY is required in each case.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2001-03-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-05-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 May 1992 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-05-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SGP",
+   "name": "Singapore",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-08-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Aug 1995 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "27"
+     ],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"That with reference to article IX of the Convention, before any dispute to which the Republic of Singapore is a party may be submitted to the jurisdiction of the International Court of Justice under this article, the specific consent of the Republic of Singapore is required in each case.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1995-08-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1993-05-28",
+    "type": "succession",
+    "code": "d",
+    "raw": "28 May 1993 d"
+   },
+   "notes": [
+    "10"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1993-05-28",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1992-07-06",
+    "type": "succession",
+    "code": "d",
+    "raw": "6 Jul 1992 d"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1992-07-06",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1998-12-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Dec 1998 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1998-12-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1968-09-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Sep 1968 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "29 December 1989\nWith regard to reservation (2) made by the United States of America:\nSpain interprets the reservation entered by the United States of America to the Convention on the Prevention and Punishment of the Crime of Genocide adopted by the General Assembly of the United Nations on 9 December 1948 [...] to mean that legislation or other action by the United States of America will continue to be in accordance with the provisions of the Convention on the Prevention and Punishment of the Crime of Genocide."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1968-09-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LKA",
+   "name": "Sri Lanka",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-10-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Oct 1950 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "6 February 1951\n\"The Government of Ceylon does not accept the reservations made by Romania to the Convention.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1950-10-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VCT",
+   "name": "St. Vincent and the Grenadines",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1981-11-09",
+    "type": "accession",
+    "code": "a",
+    "raw": "9 Nov 1981 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1981-11-09",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-04-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Apr 2014 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2014-04-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SDN",
+   "name": "Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-10-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Oct 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2003-10-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": "1949-12-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1952-05-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 May 1952"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "22 December 1989\nWith regard to reservation (2) made by the United States of America:\n\"The Government of Sweden is of the view that a State party to the Convention may not invoke the provisions of its national legislation, including the Constitution, to justify that it does not fulfil its obligations under the Convention and therefore objects to the reservation.\nThis objection does not constitute an obstacle to the entry into force of the Convention between Sweden and the United States of America.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1952-05-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Sep 2000 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2000-09-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SYR",
+   "name": "Syrian Arab Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1955-06-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Jun 1955 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1955-06-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TJK",
+   "name": "Tajikistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-11-03",
+    "type": "accession",
+    "code": "a",
+    "raw": "3 Nov 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2015-11-03",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1984-05-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 May 1984 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1984-05-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TON",
+   "name": "Tonga",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1972-02-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Feb 1972 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1972-02-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TTO",
+   "name": "Trinidad and Tobago",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-12-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Dec 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2002-12-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1956-11-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Nov 1956 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1956-11-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TUR",
+   "name": "Türkiye",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1950-07-31",
+    "type": "accession",
+    "code": "a",
+    "raw": "31 Jul 1950 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1950-07-31",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-12-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Dec 2018 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2018-12-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UGA",
+   "name": "Uganda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1995-11-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Nov 1995 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1995-11-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": "1949-12-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1954-11-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Nov 1954"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "23"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "The Ukrainian SSR declares that it is not in agreement with article XII of the Convention and considers that all the provisions of the Convention should extend to Non-Self-Governing Territories, including Trust Territories."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1954-11-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-11-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Nov 2005 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "The Government of the State of the United Arab Emirates, having considered the aforementioned Convention and approved the contents thereof, formally declares its accession to the Convention and makes a reservation with respect to article 9 thereof concerning the submission of disputes arising between the Contracting Parties relating to the interpretation, application or fulfilment of this Convention, to the International Court of Justice, at the request of any of the parties to the dispute."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "2005-11-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GBR",
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1970-01-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Jan 1970 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "\"The Government of the United Kingdom do not accept the reservations to articles IV, VII, VIII, IX or XII of the Convention made by Albania, Algeria, Argentina, Bulgaria, Burma, the Byelorussian Soviet Socialist Republic, Czechoslovakia, Hungary, India, Mongolia, Morocco, the Philippines, Poland, Romania, Spain, the Ukrainian Soviet Socialist Republic, the Union of Soviet Socialist Republics or Venezuela.\"\n21 November 1975\n\" The Government of the United Kingdom of Great Britain and Northern Ireland have consistently stated that they are unable to accept reservations in respect of article IX of the said Convention; in their view this is not the kind of reservation which intending parties to the Convention have the right to make.\nAccordingly, the Government of the United Kingdom do not accept the reservation entered by the Republic of Rwanda against article IX of the Convention. They also wish to place on record that they take the same view of the similar reservation made by the German Democratic Republic as notified by the circular letter [...] of 25 April 1973.\"\n26 August 1983\nWith regard to statements made by Viet Nam concerning articles IX and XII and reservation made by China concerning article IX:\n\"The Government of the United Kingdom have [...] consistently stated that they are unable to accept reservations to [article IX]. Likewise, in conformity with the attitude adopted by them in previous cases, the Government of the United Kingdom do not accept the reservation entered by Viet Nam relating to article XII.\"\n30 December 1987\nWith regard to a reservation made by Democratic Yemen concerning article IX:\n\"The Government of the United Kingdom of Great Britain and Northern Ireland have consistently stated that they are unable to accept reservations in respect of article IX of the said Convention; in their view this is not the kind of reservation which intending parties to the Convention hve the right to make.\nAccordingly the Government of the United Kingdom of Great Britain and Northern Ireland do not accept the reservation entered by the People's Democratic Republic of Yemen against article IX of the Convention.\"\n22 December 1989\n\"The Government of the United Kingdom have consistently stated that they are unable to accept reservations to article IX. Accordingly, in conformity with the attitude adopted by them in previous cases, the Government of the United Kingdom do not accept the first reservation entered by the United States of America.\nThe Government of the United Kingdom object to the second reservation entered by the United States of America. It creates uncertainty as to the extent of the obligations which the Government of the United States of America is prepared to assume with regard to the Convention.\"\n20 March 1996\nWith regard to reservations to article IX made by Malaysia and Singapore upon accession:\n\"The Government of the United Kingdom of Great Britain and Northern Ireland have consistently stated that they are unable to accept reservations to article IX. In their view, these are not the kind of reservations which intending parties to the Convention have the right to make.\nAccordingly, the Government of the United Kingdom do not accept the reservations entered by the Government of Singapore and Malaysia to article IX of the Convention.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1970-01-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TZA",
+   "name": "United Republic of Tanzania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1984-04-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Apr 1984 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1984-04-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "USA",
+   "name": "United States of America",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1988-11-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Nov 1988"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "11"
+     ],
+     "label": "Reservations",
+     "kind": "reservation",
+     "text": "\"(1) That with reference to article IX of the Convention, be fore any dispute to which the United States is a party may be submitted to the jurisdiction of the International Court of Justice under this article, the specific consent of the United States is required in each case.\n(2) That nothing in the Convention requires or authorizes legislation or other action by the United States of America prohibited by the Constitution of the United States as interpreted by the United States.\""
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "11"
+     ],
+     "label": "Understandings",
+     "kind": "declaration",
+     "text": "\"(1) That the term `intent to destroy, in whole or in part, a national, ethnical, racial, or religious group as such' appearing in article II means the specific intent to destroy, in whole or in substantial part, a national, ethnical, racial or religious group as such by the acts specified in article II.\n(2) That the term `mental harm' in article II (b) means permanent impairment of mental faculties through drugs, torture or similar techniques.\n(3) That the pledge to grant extradition in accordance with a state's laws and treaties in force found in article VII extends only to acts which are criminal under the laws of both the requesting and the requested state and nothing in article VI affects the right of any state to bring to trial before its own tribunals any of its nationals for acts committed outside a state.\n(4) That acts in the course of armed conflicts committed without the specific intent required by article II are not sufficient to constitute genocide as defined by this Convention.\n(5) That with regard to the reference to an international penal tribunal in article VI of the Convention, the United States declares that it reserves the right to effect its participation in any such tribunal only by a treaty entered into specifically for that purpose with the advice and consent of the Senate.\""
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1988-11-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "1948-12-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1967-07-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Jul 1967"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1967-07-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "UZB",
+   "name": "Uzbekistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1999-09-09",
+    "type": "accession",
+    "code": "a",
+    "raw": "9 Sep 1999 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1999-09-09",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1960-07-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Jul 1960 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "With reference to article VI, notice is given that any proceedings to which Venezuela may be a party before an international penal tribunal would be invalid without Venezuela's prior express acceptance of the jurisdiction of such international tribunal.\nWith reference to article VII, notice is given that the laws in force in Venezuela do not permit the extradition of Venezuelan nationals.\nWith reference to article IX, the reservation is made that the submission of a dispute to the International Court of Justice shall be regarded as valid only when it takes place with Venezuela's approval, signified by the express conclusion of a prior agreement in each case."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1960-07-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VNM",
+   "name": "Viet Nam",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1981-06-09",
+    "type": "accession",
+    "code": "a",
+    "raw": "9 Jun 1981 a"
+   },
+   "notes": [
+    "17, 18"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "1. The Socialist Republic of Viet Nam does not consider itself bound by article IX of the Convention which provides the jurisdiction of the International Court of Justice in solving disputes between the Contracting Parties relating to the interpretation, application or fulfilment of the Convention at the request of any of the parties to disputes. The Socialist Republic of Viet Nam is of the view that, regarding the jurisdiction of the International Court of Justice in solving disputes referred to in article IX of the Convention, the consent of the parties to the disputes except the criminals is diametrically necessary for the submission of a given dispute to the International Court of Justice for decision.\n2. The Socialist Republic of Viet Nam does not accept article XII of the Convention and considers that all provisions of the Convention should also extend to Non-Self-Governing Territories, including Trust Territories.\n3. The Socialist Republic of Viet Nam considers that article XI is of a discriminatory nature, depriving a number of States of the opportunity to become parties to the Convention, and holds that the Convention should be open for accession by all States."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1981-06-09",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "YEM",
+   "name": "Yemen",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1989-04-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Apr 1989 a"
+   },
+   "notes": [
+    "19"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "19"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "In acceding to this Convention, the People's Democratic Republic of Yemen does not consider itself bound by article IX of the Convention, which provides that disputes between the Contracting Parties relating to the interpretation, application or fulfilment of the Convention shall be submitted to the International Court of Justice at the request of any of the parties to the dispute. It declares that the competence of the International Court of Justice with respect to disputes concerning the interpretation, application or fulfilment of the Convention shall in each case be subject to the express consent of all parties to the dispute."
+    }
+   ],
+   "status": {
+    "code": "consent",
+    "date": "1989-04-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-04-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Apr 2022 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "2022-04-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "1991-05-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 May 1991 a"
+   },
+   "notes": [],
+   "statements": [],
+   "status": {
+    "code": "consent",
+    "date": "1991-05-13",
+    "type": "accession"
+   }
+  }
+ ]
+}

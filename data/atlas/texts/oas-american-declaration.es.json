@@ -1,0 +1,651 @@
+{
+ "instrument": "oas-american-declaration",
+ "authority": "body",
+ "lang": "es",
+ "title": null,
+ "source": {
+  "publisher": "Organización de los Estados Americanos, Comisión Interamericana de Derechos Humanos",
+  "document": "Declaración Americana de los Derechos y Deberes del Hombre",
+  "url": "https://www.oas.org/es/cidh/mandato/Basicos/declaracion.asp",
+  "retrieved": "2026-11-09",
+  "sha256": "0da665b88adaa90c27931fcaf0c359192315c2c8f0d7ba4449406ae09110e1ff",
+  "method": "html:container"
+ },
+ "versions": [],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Todos los hombres nacen libres e iguales en dignidad y derechos y, dotados como están por naturaleza de razón y conciencia, deben conducirse fraternalmente los unos con los otros."
+  },
+  {
+   "id": "pre-2",
+   "text": "El cumplimiento del deber de cada uno es exigencia del derecho de todos. Derechos y deberes se integran correlativamente en toda actividad social y política del hombre. Si los derechos exaltan la libertad individual, los deberes expresan la dignidad de esa libertad."
+  },
+  {
+   "id": "pre-3",
+   "text": "Los deberes de orden jurídico presuponen otros, de orden moral, que los apoyan conceptualmente y los fundamentan."
+  },
+  {
+   "id": "pre-4",
+   "text": "Es deber del hombre servir al espíritu con todas sus potencias y recursos porque el espíritu es la finalidad suprema de la existencia humana y su máxima categoría."
+  },
+  {
+   "id": "pre-5",
+   "text": "Es deber del hombre ejercer, mantener y estimular por todos los medios a su alcance la cultura, porque la cultura es la máxima expresión social e histórica del espíritu."
+  },
+  {
+   "id": "pre-6",
+   "text": "Y puesto que la moral y buenas maneras constituyen la floración más noble de la cultura, es deber de todo hombre acatarlas siempre."
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "heading",
+   "id": "h-capitulo-primero",
+   "level": 2,
+   "label": "Capítulo PRIMERO",
+   "title": "Derechos"
+  },
+  {
+   "kind": "article",
+   "id": "art-i",
+   "number": "I",
+   "label": "Artículo I",
+   "heading": "Derecho a la vida, a la libertad, a la seguridad e integridad de la persona",
+   "paragraphs": [
+    {
+     "id": "art-i-p1",
+     "text": "Todo ser humano tiene derecho a la vida, a la libertad y a la seguridad de su persona."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-ii",
+   "number": "II",
+   "label": "Artículo II",
+   "heading": "Derecho de igualdad ante la Ley",
+   "paragraphs": [
+    {
+     "id": "art-ii-p1",
+     "text": "Todas las personas son iguales ante la Ley y tienen los derechos y deberes consagrados en esta declaración sin distinción de raza, sexo, idioma, credo ni otra alguna."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-iii",
+   "number": "III",
+   "label": "Artículo III",
+   "heading": "Derecho de libertad religiosa y de culto",
+   "paragraphs": [
+    {
+     "id": "art-iii-p1",
+     "text": "Toda persona tiene el derecho de profesar libremente una creencia religiosa y de manifestarla y practicarla en público y en privado."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-iv",
+   "number": "IV",
+   "label": "Artículo IV",
+   "heading": "Derecho de libertad de investigación, opinión, expresión y difusión",
+   "paragraphs": [
+    {
+     "id": "art-iv-p1",
+     "text": "Toda persona tiene derecho a la libertad de investigación, de opinión y de expresión y difusión del pensamiento por cualquier medio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-v",
+   "number": "V",
+   "label": "Artículo V",
+   "heading": "Derecho a la protección a la honra, la reputación personal y la vida privada y familiar",
+   "paragraphs": [
+    {
+     "id": "art-v-p1",
+     "text": "Toda persona tiene derecho a la protección de la Ley contra los ataques abusivos a su honra, a su reputación y a su vida privada y familiar."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-vi",
+   "number": "VI",
+   "label": "Artículo VI",
+   "heading": "Derecho a la constitución y a la protección de la familia",
+   "paragraphs": [
+    {
+     "id": "art-vi-p1",
+     "text": "Toda persona tiene derecho a constituir familia, elemento fundamental de la sociedad, y a recibir protección para ella."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-vii",
+   "number": "VII",
+   "label": "Artículo VII",
+   "heading": "Derecho de protección a la maternidad y a la infancia",
+   "paragraphs": [
+    {
+     "id": "art-vii-p1",
+     "text": "Toda mujer en estado de gravidez o en época de lactancia, así como todo niño, tienen derecho a protección, cuidados y ayuda especiales."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-viii",
+   "number": "VIII",
+   "label": "Artículo VIII",
+   "heading": "Derecho de residencia y tránsito",
+   "paragraphs": [
+    {
+     "id": "art-viii-p1",
+     "text": "Toda persona tiene el derecho de fijar su residencia en el territorio del Estado de que es nacional, de transitar por él libremente y no abandonarlo sino por su voluntad."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-ix",
+   "number": "IX",
+   "label": "Artículo IX",
+   "heading": "Derecho a la inviolabilidad del domicilio",
+   "paragraphs": [
+    {
+     "id": "art-ix-p1",
+     "text": "Toda persona tiene el derecho a la inviolabilidad de su domicilio."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-x",
+   "number": "X",
+   "label": "Artículo X",
+   "heading": "Derecho a la inviolabilidad y circulación de la correspondencia",
+   "paragraphs": [
+    {
+     "id": "art-x-p1",
+     "text": "Toda persona tiene derecho a la inviolabilidad y circulación de su correspondencia."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xi",
+   "number": "XI",
+   "label": "Artículo XI",
+   "heading": "Derecho a la preservación de la salud y al bienestar",
+   "paragraphs": [
+    {
+     "id": "art-xi-p1",
+     "text": "Toda persona tiene derecho a que su salud sea preservada por medidas sanitarias y sociales, relativas a la alimentación, el vestido, la vivienda y la asistencia médica, correspondientes al nivel que permitan los recursos públicos y los de la comunidad."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xii",
+   "number": "XII",
+   "label": "Artículo XII",
+   "heading": "Derecho a la educación",
+   "paragraphs": [
+    {
+     "id": "art-xii-p1",
+     "text": "Toda persona tiene derecho a la educación, la que debe estar inspirada en los principios de libertad, moralidad y solidaridad humanas."
+    },
+    {
+     "id": "art-xii-p2",
+     "text": "Asimismo tiene el derecho de que, mediante esa educación, se le capacite para lograr una digna subsistencia, en mejoramiento del nivel de vida y para ser útil a la sociedad."
+    },
+    {
+     "id": "art-xii-p3",
+     "text": "El derecho de educación comprende el de igualdad de oportunidades en todos los casos, de acuerdo con las dotes naturales, los méritos y el deseo de aprovechar los recursos que puedan proporcionar la comunidad y el Estado."
+    },
+    {
+     "id": "art-xii-p4",
+     "text": "Toda persona tiene derecho a recibir gratuitamente la educación primaria, por lo menos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xiii",
+   "number": "XIII",
+   "label": "Artículo XIII",
+   "heading": "Derecho a los beneficios de la cultura",
+   "paragraphs": [
+    {
+     "id": "art-xiii-p1",
+     "text": "Toda persona tiene el derecho de participar en la vida cultural de la comunidad, gozar de las artes y disfrutar de los beneficios que resulten de los progresos intelectuales y especialmente de los descubrimientos científicos."
+    },
+    {
+     "id": "art-xiii-p2",
+     "text": "Tiene asimismo derecho a la protección de los intereses morales y materiales que le correspondan por razón de los inventos, obras literarias, científicas y artísticas de que sea autor."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xiv",
+   "number": "XIV",
+   "label": "Artículo XIV",
+   "heading": "Derecho al trabajo y a una justa retribución",
+   "paragraphs": [
+    {
+     "id": "art-xiv-p1",
+     "text": "Toda persona tiene derecho al trabajo en condiciones dignas y a seguir libremente su vocación, en cuanto lo permitan las oportunidades existentes de empleo."
+    },
+    {
+     "id": "art-xiv-p2",
+     "text": "Toda persona que trabaja tiene derecho de recibir una remuneración que, en relación con su capacidad y destreza le asegure un nivel de vida conveniente para sí misma y su familia."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xv",
+   "number": "XV",
+   "label": "Artículo XV",
+   "heading": "Derecho al descanso y a su aprovechamiento",
+   "paragraphs": [
+    {
+     "id": "art-xv-p1",
+     "text": "Toda persona tiene derecho a descanso, a honesta recreación y a la oportunidad de emplear útilmente el tiempo libre en beneficio de su mejoramiento espiritual, cultural y físico."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xvi",
+   "number": "XVI",
+   "label": "Artículo XVI",
+   "heading": "Derecho a la seguridad social",
+   "paragraphs": [
+    {
+     "id": "art-xvi-p1",
+     "text": "Toda persona tiene derecho a la seguridad social que le proteja contra las consecuencias de la desocupación, de la vejez y de la incapacidad que, proveniente de cualquier otra causa ajena a su voluntad, la imposibilite física o mentalmente para obtener los medios de subsistencia."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xvii",
+   "number": "XVII",
+   "label": "Artículo XVII",
+   "heading": "Derecho de reconocimiento de la personalidad jurídica y de los derechos civiles",
+   "paragraphs": [
+    {
+     "id": "art-xvii-p1",
+     "text": "Toda persona tiene derecho a que se le reconozca en cualquier parte como sujeto de derechos y obligaciones, y a gozar de los derechos civiles fundamentales."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xviii",
+   "number": "XVIII",
+   "label": "Artículo XVIII",
+   "heading": "Derecho de justicia",
+   "paragraphs": [
+    {
+     "id": "art-xviii-p1",
+     "text": "Toda persona puede ocurrir a los tribunales para hacer valer sus derechos. Asimismo debe disponer de un procedimiento sencillo y breve por el cual la justicia lo ampare contra actos de la autoridad que violen, en perjuicio suyo, alguno de los derechos fundamentales consagrados constitucionalmente."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xix",
+   "number": "XIX",
+   "label": "Artículo XIX",
+   "heading": "Derecho de nacionalidad",
+   "paragraphs": [
+    {
+     "id": "art-xix-p1",
+     "text": "Toda persona tiene derecho a la nacionalidad que legalmente le corresponda y el de cambiarla, si así lo desea, por la de cualquier otro país que esté dispuesto a otorgársela."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xx",
+   "number": "XX",
+   "label": "Artículo XX",
+   "heading": "Derecho de sufragio y de participación en el gobierno",
+   "paragraphs": [
+    {
+     "id": "art-xx-p1",
+     "text": "Toda persona, legal- mente capacitada, tiene el derecho de tomar parte en el gobierno de su país, directamente o por medio de sus representantes, y de participar en las elecciones populares, que serán de voto secreto, genuinas, periódicas y libres."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxi",
+   "number": "XXI",
+   "label": "Artículo XXI",
+   "heading": "Derecho de reunión",
+   "paragraphs": [
+    {
+     "id": "art-xxi-p1",
+     "text": "Toda persona tiene el derecho de reunirse pacíficamente con otras, en manifestación pública o en asamblea transitoria, en relación con sus intereses comunes de cualquier índole."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxii",
+   "number": "XXII",
+   "label": "Artículo XXII",
+   "heading": "Derecho de asociación",
+   "paragraphs": [
+    {
+     "id": "art-xxii-p1",
+     "text": "Toda persona tiene el derecho de asociarse con otras para promover, ejercer y proteger sus intereses legítimos de orden político, económico, religioso, social, cultural, profesional, sindical o de cualquier otro orden."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxiii",
+   "number": "XXIII",
+   "label": "Artículo XXIII",
+   "heading": "Derecho a la propiedad",
+   "paragraphs": [
+    {
+     "id": "art-xxiii-p1",
+     "text": "Toda persona tiene derecho a la propiedad privada correspondiente a las necesidades esenciales de una vida decorosa, que contribuya a mantener la dignidad de la persona y del hogar."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxiv",
+   "number": "XXIV",
+   "label": "Artículo XXIV",
+   "heading": "Derecho de petición",
+   "paragraphs": [
+    {
+     "id": "art-xxiv-p1",
+     "text": "Toda persona tiene derecho de presentar peticiones respetuosas a cualquiera autoridad competente, ya sea por motivo de interés general, ya de interés particular, y el de obtener pronta resolución."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxv",
+   "number": "XXV",
+   "label": "Artículo XXV",
+   "heading": "Derecho de protección contra la detención arbitraria",
+   "paragraphs": [
+    {
+     "id": "art-xxv-p1",
+     "text": "Nadie puede ser privado de su libertad sino en los casos y según las formas establecidas por leyes preexistentes."
+    },
+    {
+     "id": "art-xxv-p2",
+     "text": "Nadie puede ser detenido por incumplimiento de obligaciones de carácter netamente civil."
+    },
+    {
+     "id": "art-xxv-p3",
+     "text": "Todo individuo que haya sido privado de su libertad tiene derecho a que el juez verifique sin demora la legalidad de la medida y a ser juzgado sin dilación injustificada, o, de lo contrario, a ser puesto en libertad. Tiene derecho también a un tratamiento humano durante la privación de su libertad."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxvi",
+   "number": "XXVI",
+   "label": "Artículo XXVI",
+   "heading": "Derecho a proceso regular",
+   "paragraphs": [
+    {
+     "id": "art-xxvi-p1",
+     "text": "Se presume que todo acusado es inocente, hasta que se pruebe que es culpable."
+    },
+    {
+     "id": "art-xxvi-p2",
+     "text": "Toda persona acusada de delito tiene derecho a ser oída en forma imparcial y pública, a ser juzgada por tribunales anteriormente establecidos de acuerdo con leyes preexistentes y a que no se le imponga penas crueles, infamantes o inusitadas"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxvii",
+   "number": "XXVII",
+   "label": "Artículo XXVII",
+   "heading": "Derecho de asilo",
+   "paragraphs": [
+    {
+     "id": "art-xxvii-p1",
+     "text": "Toda persona tiene el derecho de buscar y recibir asilo en territorio extranjero, en caso de persecución que no sea motivada por delitos de derecho común y de acuerdo con la legislación de cada país y con los convenios internacionales."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxviii",
+   "number": "XXVIII",
+   "label": "Artículo XXVIII",
+   "heading": "Alcance de los derechos del hombre",
+   "paragraphs": [
+    {
+     "id": "art-xxviii-p1",
+     "text": "Los derechos de cada hombre están limitados por los derechos de los demás, por la seguridad de todos y por las justas exigencias del bienestar general y del desenvolvimiento democrático."
+    }
+   ]
+  },
+  {
+   "kind": "heading",
+   "id": "h-capitulo-segundo",
+   "level": 2,
+   "label": "Capítulo SEGUNDO",
+   "title": "Deberes"
+  },
+  {
+   "kind": "article",
+   "id": "art-xxix",
+   "number": "XXIX",
+   "label": "Artículo XXIX",
+   "heading": "Deberes ante la sociedad",
+   "paragraphs": [
+    {
+     "id": "art-xxix-p1",
+     "text": "Toda persona tiene el deber de convivir con las demás de manera que todas y cada una puedan formar y desenvolver integralmente su personalidad."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxx",
+   "number": "XXX",
+   "label": "Artículo XXX",
+   "heading": "Deberes para con los hijos y los padres",
+   "paragraphs": [
+    {
+     "id": "art-xxx-p1",
+     "text": "Toda persona tiene el deber de asistir, alimentar, educar y amparar a sus hijos menores de edad, y los hijos tienen el deber de honrar siempre a sus padres y el de asistirlos, alimentarlos y ampararlos cuando éstos lo necesiten."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxi",
+   "number": "XXXI",
+   "label": "Artículo XXXI",
+   "heading": "Deberes de instrucción",
+   "paragraphs": [
+    {
+     "id": "art-xxxi-p1",
+     "text": "Toda persona tiene el deber de adquirir a lo menos la instrucción primaria."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxii",
+   "number": "XXXII",
+   "label": "Artículo XXXII",
+   "heading": "Deber de sufragio",
+   "paragraphs": [
+    {
+     "id": "art-xxxii-p1",
+     "text": "Toda persona tiene el deber de votar en las elecciones populares del país de que sea nacional, cuando esté legalmente capacitada para ello."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxiii",
+   "number": "XXXIII",
+   "label": "Artículo XXXIII",
+   "heading": "Deber de obediencia a la Ley",
+   "paragraphs": [
+    {
+     "id": "art-xxxiii-p1",
+     "text": "Toda persona tiene el deber de obedecer a la Ley y demás mandamientos legítimos de las autoridades de su país y de aquél en que se encuentre."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxiv",
+   "number": "XXXIV",
+   "label": "Artículo XXXIV",
+   "heading": "Deber de servir a la comunidad y a la nación",
+   "paragraphs": [
+    {
+     "id": "art-xxxiv-p1",
+     "text": "Toda persona hábil tiene el deber de prestar los servicios civiles y militares que la Patria requiera para su defensa y conservación, y en caso de calamidad pública, los servicios de que sea capaz."
+    },
+    {
+     "id": "art-xxxiv-p2",
+     "text": "Asimismo tiene el deber de desempeñar los cargos de elección popular que le correspondan en el Estado de que sea nacional."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxv",
+   "number": "XXXV",
+   "label": "Artículo XXXV",
+   "heading": "Deberes de asistencia y seguridad sociales",
+   "paragraphs": [
+    {
+     "id": "art-xxxv-p1",
+     "text": "Toda persona tiene el deber de cooperar con el Estado y con la comunidad en la asistencia y seguridad sociales de acuerdo con sus posibilidades y con las circunstancias"
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxvi",
+   "number": "XXXVI",
+   "label": "Artículo XXXVI",
+   "heading": "Deber de pagar impuestos",
+   "paragraphs": [
+    {
+     "id": "art-xxxvi-p1",
+     "text": "Toda persona tiene el deber de pagar los impuestos establecidos por la Ley para el sostenimiento de los servicios públicos."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxvii",
+   "number": "XXXVII",
+   "label": "Artículo XXXVII",
+   "heading": "Deber de trabajo",
+   "paragraphs": [
+    {
+     "id": "art-xxxvii-p1",
+     "text": "Toda persona tiene el deber de trabajar, dentro de su capacidad y posibilidades, a fin de obtener los recursos para su subsistencia o en beneficio de la comunidad."
+    }
+   ]
+  },
+  {
+   "kind": "article",
+   "id": "art-xxxviii",
+   "number": "XXXVIII",
+   "label": "Artículo XXXVIII",
+   "heading": "Deber de abstenerse de actividades políticas en país extranjero",
+   "paragraphs": [
+    {
+     "id": "art-xxxviii-p1",
+     "text": "Toda persona tiene el deber de no intervenir en las actividades políticas que, de conformidad con la Ley, sean privativas de los ciudadanos del Estado en que sea extranjero."
+    }
+   ]
+  }
+ ],
+ "final_clauses": [],
+ "authentic_clause": null,
+ "quality": {
+  "articles": 38,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "38 artículos (I–XXXVIII)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null,
+    "exceptions": [
+     {
+      "article": "XXVI",
+      "reason": "La Comisión Interamericana publica este artículo sin punto final."
+     },
+     {
+      "article": "XXXV",
+      "reason": "La Comisión Interamericana publica este artículo sin punto final."
+     }
+    ]
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}

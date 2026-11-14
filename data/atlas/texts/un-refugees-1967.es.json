@@ -1,0 +1,401 @@
+{
+ "instrument": "un-refugees-1967",
+ "authority": "authentic",
+ "lang": "es",
+ "title": "PROTOCOLO SOBRE EL ESTATUTO DE LOS REFUGIADOS",
+ "source": {
+  "publisher": "Boletín Oficial del Estado",
+  "document": "Instrumento de Adhesión de España a la Convención sobre el Estatuto de los Refugiados, hecha en Ginebra el 28 de julio de 1951, y al Protocolo sobre el Estatuto de los Refugiados, hecho en Nueva York el 31 de enero de 1967.",
+  "identifier": "BOE-A-1978-26331",
+  "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-26331",
+  "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/texto",
+  "eli": "https://www.boe.es/eli/es/ai/1951/07/28/(1)",
+  "published": "1978-10-21",
+  "retrieved": "2026-11-09",
+  "sha256": "db35630310c324620a8b195a74c906e2f77c08e2a69c60a4f17406d650cb231f",
+  "method": "boe-consolidated"
+ },
+ "versions": [
+  {
+   "norm": "BOE-A-1978-28211",
+   "published": "1978-10-21"
+  },
+  {
+   "norm": "BOE-A-1978-26331",
+   "published": "1978-10-21"
+  }
+ ],
+ "preamble": [
+  {
+   "id": "pre-1",
+   "text": "Los Estados Partes en el presente Protocolo,"
+  },
+  {
+   "id": "pre-2",
+   "text": "Considerando que la Convención sobre el Estatuto de los Refugiados, hecha en Ginebra el 28 de julio de 1951 (denominada en lo sucesivo la Convención), sólo se aplica a los refugiados que han pasado a tener tal condición como resultado de acontecimientos ocurridos antes del 1 de enero de 1951;"
+  },
+  {
+   "id": "pre-3",
+   "text": "Considerando que han surgido nuevas situaciones de refugiados desde que la Convención fue adoptada y que hay la posibilidad, por consiguiente, de que los refugiados interesados no queden comprendidos en el ámbito de la Convención;"
+  },
+  {
+   "id": "pre-4",
+   "text": "Considerando conveniente que gocen de igual Estatuto todos los refugiados comprendidos en la definición de la Convención, independientemente de la fecha límite del 1 de enero de 1951;"
+  },
+  {
+   "id": "pre-5",
+   "text": "Han convenido en lo siguiente:"
+  }
+ ],
+ "nodes": [
+  {
+   "kind": "article",
+   "id": "art-i",
+   "number": "I",
+   "label": "Artículo I",
+   "heading": "Disposiciones generales",
+   "paragraphs": [
+    {
+     "id": "art-i-p1",
+     "text": "1. Los Estados Partes en el presente Protocolo se obligan a aplicar los artículos 2 a 34, inclusive, de la Convención a los refugiados que por el presente se definen.",
+     "number": "1"
+    },
+    {
+     "id": "art-i-p2",
+     "text": "2. A los efectos del presente Protocolo, y salvo en lo que respecta a la aplicación del párrafo 3 de este artículo, el término «refugiado» denotará toda persona comprendida en la definición del artículo 1 de la Convención, en la que se darán por omitidas las palabras «como resultado de acontecimientos ocurridos antes del 1 de enero de 1951 y ....» y las palabras «.... a consecuencia de tales acontecimientos», que figuran en el párrafo 2 de la sección A del artículo 1.",
+     "number": "2"
+    },
+    {
+     "id": "art-i-p3",
+     "text": "3. El presente Protocolo será aplicado por los Estados Partes en el mismo sin ninguna limitación geográfica; no obstante, serán aplicables también en virtud del presente Protocolo las declaraciones vigentes hechas por Estados que ya sean Partes en la Convención, de conformidad con el inciso a) del párrafo 1 de la sección B del artículo 1 de la Convención, salvo que se hayan ampliado conforme al párrafo 2 de la sección B del artículo 2.",
+     "number": "3"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "ai"
+  },
+  {
+   "kind": "article",
+   "id": "art-ii",
+   "number": "II",
+   "label": "Artículo II",
+   "heading": "Cooperación de las autoridades nacionales con las Naciones Unidas",
+   "paragraphs": [
+    {
+     "id": "art-ii-p1",
+     "text": "1. Los Estados Partes en el presente Protocolo se obligan a cooperar en el ejercicio de sus funciones con la Oficina del Alto Comisionado de las Naciones Unidas para los Refugiados, o cualquier otro organismo de las Naciones Unidas que le sucediere; en especial le ayudarán en su tarea de vigilar la aplicación de las disposiciones del presente Protocolo.",
+     "number": "1"
+    },
+    {
+     "id": "art-ii-p2",
+     "text": "2. A fin de permitir a la Oficina del Alto Comisionado, o cualquier otro organismo de las Naciones Unidas que le sucediere, presentar informes a los órganos competentes de las Naciones Unidas, los Estados Partes en el presente Protocolo se obligan a suministrarle en forma adecuada las informaciones y los datos estadísticos que soliciten acerca de:",
+     "number": "2"
+    },
+    {
+     "id": "art-ii-p3",
+     "text": "a) La condición de los refugiados;"
+    },
+    {
+     "id": "art-ii-p4",
+     "text": "b) La ejecución del presente Protocolo;"
+    },
+    {
+     "id": "art-ii-p5",
+     "text": "c) Las leyes, reglamentos y decretos que estén o entraren en vigor, concernientes a los refugiados."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "aii"
+  },
+  {
+   "kind": "article",
+   "id": "art-iii",
+   "number": "III",
+   "label": "Artículo III",
+   "heading": "Información sobre legislación nacional",
+   "paragraphs": [
+    {
+     "id": "art-iii-p1",
+     "text": "Los Estados Partes en el presente Protocolo comunicarán al Secretario general de las Naciones Unidas el texto de las leyes y los reglamentos que promulgaren para garantizar la aplicación del presente Protocolo."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "aiii"
+  },
+  {
+   "kind": "article",
+   "id": "art-iv",
+   "number": "IV",
+   "label": "Artículo IV",
+   "heading": "Solución de controversias",
+   "paragraphs": [
+    {
+     "id": "art-iv-p1",
+     "text": "Toda controversia entre Estados Partes en el presente Protocolo relativa a su interpretación o aplicación que no haya podido ser resuelta por otros medios, será sometida a la Corte Internacional de Justicia a petición de cualquiera de las partos en la controversia."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "aiv"
+  },
+  {
+   "kind": "article",
+   "id": "art-v",
+   "number": "V",
+   "label": "Artículo V",
+   "heading": "Adhesión",
+   "paragraphs": [
+    {
+     "id": "art-v-p1",
+     "text": "El presente Protocolo estará abierto a la adhesión de todos los Estados Partes en la Convención y de cualquier otro Estado miembro de las Naciones Unidas, miembro de algún Organismo especializado o que haya sido invitado por la Asamblea General de las Naciones Unidas a adherirse al mismo. La adhesión se efectuará mediante el depósito de un instrumento de adhesión en poder del Secretaria general de las Naciones Unidas."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "av"
+  },
+  {
+   "kind": "article",
+   "id": "art-vi",
+   "number": "VI",
+   "label": "Artículo VI",
+   "heading": "Cláusula federal",
+   "paragraphs": [
+    {
+     "id": "art-vi-p1",
+     "text": "Con respecto a los Estados federales o no unitarios, se aplicarán las disposiciones siguientes:"
+    },
+    {
+     "id": "art-vi-p2",
+     "text": "a) En lo concerniente a los artículos de la Convención que han de aplicarse conforme al párrafo 1 del artículo 1 del presente Protocolo, y cuya aplicación dependa de la acción legislativa del poder legislativo federal, las obligaciones del Gobierno federal serán en esta medida las mismas que las de los Estados Partes que no son Estados federales;"
+    },
+    {
+     "id": "art-vi-p3",
+     "text": "b) En lo concerniente a los artículos de la Convención que han de aplicarse conforme al párrafo 1 del artículo 1 del presente Protocolo, y cuya aplicación dependa de la acción legislativa de cada uno de los Estados, provincias o cantones constituyentes que, en virtud del régimen constitucional de la federación, no estén obligados a adoptar medidas legislativas, el Gobierno federal, a la mayor brevedad posible y con su recomendación favorable, comunicará el texto de dichos artículos a las autoridades competentes de las Estados, provincias o cantones;"
+    },
+    {
+     "id": "art-vi-p4",
+     "text": "c) Todo Estado federal que sea Parte en el presente Protocolo proporcionará, a petición de cualquier otro Estado Parte en el mismo que le haya sido transmitida por conducto del Secretario general de las Naciones Unidas, una exposición de la legislación y de las prácticas vigentes en la Federación y en sus unidades constituyentes en lo concerniente a determinada disposición de la Convención que haya de aplicarse conforme al párrafo 1 del artículo I del presento Protocolo, indicando en qué medida, por acción legislativa o de otra índole, se ha dado efectividad a tal disposición."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "avi"
+  },
+  {
+   "kind": "article",
+   "id": "art-vii",
+   "number": "VII",
+   "label": "Artículo VII",
+   "heading": "Reservas y declaraciones",
+   "paragraphs": [
+    {
+     "id": "art-vii-p1",
+     "text": "1. Al tiempo de su adhesión, todo Estado podrá formular reservas con respecto al artículo IV del presente Protocolo, y en lo que respecta a la aplicación conforme al artículo I del presente Protocolo, de cualesquiera disposiciones de la Convención que no sean las contenidas en los artículos 1, 3, 4, 16, párrafo 1), y 33; no obstante, en el caso de un Estado Parte en la Convención, las reservas formuladas al amparo de este artículo no se harán extensivas a los refugiados respecto a los cuales se aplica la Convención.",
+     "number": "1"
+    },
+    {
+     "id": "art-vii-p2",
+     "text": "2. Las reservas formuladas por los Estados Partes en la Convención conforme al artículo 12 de la misma serán aplicables, a menos que sean retiradas, en relación con las obligaciones contraídas en virtud del presente Protocolo.",
+     "number": "2"
+    },
+    {
+     "id": "art-vii-p3",
+     "text": "3. Todo Estado que haya formulado una reserva con arreglo al párrafo 1 del presente artículo podrá retirarla en cualquier momento mediante comunicación al efecto dirigida al Secretario general de las Naciones Unidas.",
+     "number": "3"
+    },
+    {
+     "id": "art-vii-p4",
+     "text": "4. La declaración hecha conforme a los párrafos 1 y 2 del artículo 40 de la Convención por un Estado Parte en la misma que se adhiera al presente Protocolo se considerará aplicable con respecto al presente Protocolo, a menos que, al efectuarse la adhesión, se dirija una notificación en contrario por el Estado Parte interesado al Secretario general de las Naciones Unidas. Las disposiciones de los párrafos 2 y 3 del artículo 40 y del párrafo 3 del artículo 44 de la Convención se considerarán aplicables «mutatis mutandis» al presente Protocolo.",
+     "number": "4"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "avii"
+  },
+  {
+   "kind": "article",
+   "id": "art-viii",
+   "number": "VIII",
+   "label": "Artículo VIII",
+   "heading": "Entrada en vigor",
+   "paragraphs": [
+    {
+     "id": "art-viii-p1",
+     "text": "1. El presente Protocolo entrará en vigor en la fecha en que se deposite el sexto instrumento de adhesión.",
+     "number": "1"
+    },
+    {
+     "id": "art-viii-p2",
+     "text": "2. Respecto a cada Estado que se adhiera al Protocolo después del sexto instrumento de adhesión, el Protocolo entrará en vigor en la fecha del depósito por ese Estado de su instrumento de adhesión.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "aviii"
+  },
+  {
+   "kind": "article",
+   "id": "art-ix",
+   "number": "IX",
+   "label": "Artículo IX",
+   "heading": "Denuncia",
+   "paragraphs": [
+    {
+     "id": "art-ix-p1",
+     "text": "1. Todo Estado Parte en el presente Protocolo podrá denunciarlo en cualquier momento mediante notificación dirigida al Secretario general de las Naciones Unidas.",
+     "number": "1"
+    },
+    {
+     "id": "art-ix-p2",
+     "text": "2. La denuncia surtirá efecto para el Estado Parte interesado un año después de la fecha en que el Secretario general de las Naciones Unidas la haya recibido.",
+     "number": "2"
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "aix"
+  },
+  {
+   "kind": "article",
+   "id": "art-x",
+   "number": "X",
+   "label": "Artículo X",
+   "heading": "Notificaciones del Secretario general de las Naciones Unidas",
+   "paragraphs": [
+    {
+     "id": "art-x-p1",
+     "text": "El Secretario general de las Naciones Unidas informará a los Estados mencionados en el artículo V «supra» acerca de la fecha de entrada en vigor, adhesiones, reservas formuladas y retiradas y denuncias del presente Protocolo, así como acerca de las declaraciones y notificaciones relativas a éste."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "block": "ax"
+  },
+  {
+   "kind": "article",
+   "id": "art-xi",
+   "number": "XI",
+   "label": "Artículo XI",
+   "heading": "Depósito en los archivos de la Secretaría de las Naciones Unidas",
+   "paragraphs": [
+    {
+     "id": "art-xi-p1",
+     "text": "Un ejemplar del presente Protocolo, cuyos textos chino, español, francés, inglés y ruso son igualmente auténticos, firmado por el Presidente de la Asamblea General y por el Secretario general de las Naciones Unidas, quedará depositado en los archivos de la Secretaría de las Naciones Unidas. El Secretario general transmitirá copias certificadas del mismo a todos los Estados miembros de las Naciones Unidas y a los demás Estados mencionados en el artículo V «supra»."
+    }
+   ],
+   "version": {
+    "norm": "BOE-A-1978-26331",
+    "published": "1978-10-21",
+    "in_force": "1978-11-12"
+   },
+   "notes": [
+    "Redactado conforme a la corrección de errores publicada en BOE núm. 272, de 14 de noviembre de 1978. Ref. BOE-A-1978-28211"
+   ],
+   "block": "axi"
+  }
+ ],
+ "final_clauses": [],
+ "spain_instrument": [],
+ "publication_notes": [
+  "Incluye la corrección de errores publicada en BOE núm. 272, de 14 de noviembre de 1978. Ref. BOE-A-1978-28211",
+  "El instrumento de Adhesión de España fue depositado ante el Secretario general de las Naciones Unidas el 14 de agosto de 1978."
+ ],
+ "authentic_clause": {
+  "article": "XI",
+  "paragraph": "art-xi-p1",
+  "text": "Un ejemplar del presente Protocolo, cuyos textos chino, español, francés, inglés y ruso son igualmente auténticos, firmado por el Presidente de la Asamblea General y por el Secretario general de las Naciones Unidas, quedará depositado en los archivos de la Secretaría de las Naciones Unidas. El Secretario general transmitirá copias certificadas del mismo a todos los Estados miembros de las Naciones Unidas y a los demás Estados mencionados en el artículo V «supra»."
+ },
+ "quality": {
+  "articles": 11,
+  "stated_articles": null,
+  "checks": [
+   {
+    "check": "sin_duplicados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "numeracion_consecutiva",
+    "ok": true,
+    "detail": "11 artículos (I–XI)"
+   },
+   {
+    "check": "articulos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "anexos_con_texto",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_texto_en_mayusculas",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "sin_errores_de_reconocimiento",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "termina_con_clausulas_finales",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_completos",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "articulos_bien_separados",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "check": "codificacion",
+    "ok": true,
+    "detail": null
+   }
+  ],
+  "complete": true
+ }
+}
