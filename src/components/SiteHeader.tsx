@@ -8,6 +8,7 @@ import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import { AppBar, Box, Button, Container, Drawer, IconButton, Menu, MenuItem, Stack, Toolbar, Typography } from "@mui/material";
+import { BrandLogo } from "./BrandLogo";
 import { SiteSearch } from "./SiteSearch";
 
 const sections = [
@@ -83,6 +84,7 @@ export function SiteHeader() {
             ref={logo}
             component={Link}
             href="/"
+            aria-label="Human Rights Commitments Institute · HRCI"
             spacing={0.35}
             alignItems="flex-start"
             justifyContent="center"
@@ -98,22 +100,8 @@ export function SiteHeader() {
               ...(searching && { "@media (max-width:899.95px)": covered }),
             }}
           >
-            <Box
-              component="img"
-              src="/images/blue%20human%20(11).png"
-              alt="HRCI · Human Rights Commitment Institute"
-              width={1483}
-              height={249}
-              sx={{
-                display: "block",
-                height: { xs: 40, sm: 46, md: 34, lg: 52 },
-                "@media (max-width:359.95px)": { height: 32 },
-                width: "auto",
-                maxWidth: "100%",
-                objectFit: "contain",
-                flexShrink: 0,
-              }}
-            />
+            {/* The logo is real text: its size follows the room the bar leaves at each width. */}
+            <BrandLogo sx={{ fontSize: { xs: 13.5, sm: 15, md: 13, lg: 17 }, "@media (max-width:359.95px)": { fontSize: 11 } }} />
           </Stack>
 
           <Box sx={{ display: "flex", alignItems: "center", gap: { xs: .5, md: .25, lg: 1 } }}>

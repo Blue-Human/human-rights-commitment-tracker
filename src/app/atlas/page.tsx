@@ -7,7 +7,7 @@ import MenuBookRounded from "@mui/icons-material/MenuBookRounded";
 import PublicRounded from "@mui/icons-material/PublicRounded";
 import ShieldRounded from "@mui/icons-material/ShieldRounded";
 import { Box, Button, Container, Typography } from "@mui/material";
-import { brand } from "@/brand";
+import { brand, displayFont } from "@/brand";
 import { AtlasShell } from "@/components/atlas/AtlasShell";
 import { AtlasSearchBox } from "@/components/atlas/AtlasSearchBox";
 import { CommitmentTiles } from "@/components/atlas/CommitmentTiles";
@@ -68,7 +68,7 @@ export default async function AtlasHome() {
         <Graticule />
         <Container maxWidth="lg" sx={{ position: "relative", pt: { xs: 5, md: 8 }, pb: { xs: 9, md: 12 } }}>
           <Typography variant="overline" sx={{ color: "rgba(255,255,255,.72)", letterSpacing: ".16em" }}>Human Rights Atlas</Typography>
-          <Typography variant="h1" sx={{ mt: 1, maxWidth: 820, fontFamily: "var(--font-serif), Georgia, serif", fontWeight: 400, fontSize: { xs: "2.2rem", sm: "2.8rem", md: "3.6rem" }, lineHeight: 1.08, letterSpacing: "-.01em" }}>
+          <Typography variant="h1" sx={{ mt: 1, maxWidth: 820, fontFamily: displayFont, fontWeight: 400, fontSize: { xs: "2.2rem", sm: "2.8rem", md: "3.6rem" }, lineHeight: 1.08, letterSpacing: "-.01em" }}>
             Los derechos humanos, de la norma a la protección
           </Typography>
           <Typography sx={{ mt: 2.25, maxWidth: 640, lineHeight: 1.7, color: "rgba(255,255,255,.82)", fontSize: { md: "1.1rem" } }}>

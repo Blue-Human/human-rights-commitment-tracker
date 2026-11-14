@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import { Box, Container, InputBase } from "@mui/material";
-import { brand } from "@/brand";
+import { brand, displayFont } from "@/brand";
 import { areaOf, atlasAreas, pageOf } from "@/lib/atlas/sections";
 import { AtlasMark } from "./AtlasMark";
 
@@ -27,7 +27,7 @@ export function AtlasNav() {
             <AtlasMark size={30} />
             <Box sx={{ lineHeight: 1 }}>
               <Box component="span" sx={{ display: "block", fontSize: ".62rem", fontWeight: 600, letterSpacing: ".16em", textTransform: "uppercase", color: brand.muted }}>Human Rights</Box>
-              <Box component="span" sx={{ display: "block", fontFamily: "var(--font-serif), Georgia, serif", fontSize: "1.45rem", mt: "2px" }}>Atlas</Box>
+              <Box component="span" sx={{ display: "block", fontFamily: displayFont, fontWeight: 500, fontSize: "1.4rem", letterSpacing: "-.01em", mt: "2px" }}>Atlas</Box>
             </Box>
           </Box>
 

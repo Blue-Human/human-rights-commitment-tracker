@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Box, Breadcrumbs, Container, Typography } from "@mui/material";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { brand } from "@/brand";
+import { brand, displayFont } from "@/brand";
 import { atlasAbout, atlasAreas } from "@/lib/atlas/sections";
 import { AtlasMark } from "./AtlasMark";
 import { AtlasNav } from "./AtlasNav";
@@ -72,7 +72,7 @@ function AtlasFooter() {
           <Box sx={{ gridColumn: { xs: "1 / -1", md: "auto" } }}>
             <Box component={Link} href="/atlas" sx={{ display: "inline-flex", alignItems: "center", gap: 1.25, color: "#fff", textDecoration: "none" }}>
               <AtlasMark size={30} color="#fff" />
-              <Box component="span" sx={{ fontFamily: "var(--font-serif), Georgia, serif", fontSize: "1.35rem" }}>Human Rights Atlas</Box>
+              <Box component="span" sx={{ fontFamily: displayFont, fontWeight: 500, fontSize: "1.3rem", letterSpacing: "-.01em" }}>Human Rights Atlas</Box>
             </Box>
             <Typography variant="body2" sx={{ mt: 1.5, color: "rgba(255,255,255,.7)", lineHeight: 1.65, maxWidth: 300 }}>
               Texto oficial, registros de los depositarios y normas de procedimiento. Cada dato enlaza con su fuente.

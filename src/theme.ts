@@ -1,7 +1,7 @@
 "use client";
 
 import { createTheme } from "@mui/material/styles";
-import { brand } from "./brand";
+import { brand, displayFont } from "./brand";
 
 export { brand };
 
@@ -21,11 +21,12 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: '"IBM Plex Sans", Arial, sans-serif',
-    h1: { fontWeight: 500, letterSpacing: "-0.025em", lineHeight: 1.08 },
-    h2: { fontWeight: 500, letterSpacing: "-0.018em", lineHeight: 1.12 },
-    h3: { fontWeight: 500, letterSpacing: "-0.012em" },
-    h4: { fontWeight: 500, [phone]: { fontSize: "1.5rem", lineHeight: 1.25 } },
-    h5: { fontWeight: 500, [phone]: { fontSize: "1.25rem" } },
+    // Titles are set in TWK Everett. h6 stays in IBM Plex: it carries long titles in lists and cards.
+    h1: { fontFamily: displayFont, fontWeight: 500, letterSpacing: "-0.025em", lineHeight: 1.08 },
+    h2: { fontFamily: displayFont, fontWeight: 500, letterSpacing: "-0.018em", lineHeight: 1.12 },
+    h3: { fontFamily: displayFont, fontWeight: 500, letterSpacing: "-0.012em" },
+    h4: { fontFamily: displayFont, fontWeight: 500, letterSpacing: "-0.01em", [phone]: { fontSize: "1.5rem", lineHeight: 1.25 } },
+    h5: { fontFamily: displayFont, fontWeight: 500, letterSpacing: "-0.005em", [phone]: { fontSize: "1.25rem" } },
     h6: { fontWeight: 500, [phone]: { fontSize: "1.0625rem", lineHeight: 1.4 } },
     overline: { fontWeight: 600, letterSpacing: ".09em", fontSize: ".7rem" },
     button: { fontWeight: 500, textTransform: "none" },

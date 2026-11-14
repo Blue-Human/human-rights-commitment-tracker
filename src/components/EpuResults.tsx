@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Box, Button, Container, Typography } from "@mui/material";
+import { displayFont } from "@/brand";
 import { formatShare, type DimensionCode } from "@/lib/hrct";
 import { FrameworkCrossing } from "./FrameworkCrossing";
 
@@ -37,8 +38,6 @@ const AROUND = { compact: 283, short: 255 };
 
 const hairline = "rgba(255,255,255,.16)";
 const quiet = "rgba(255,255,255,.72)";
-// The headline is set in the serif of the same family as the rest of the site.
-const serif = 'var(--font-serif), Georgia, "Times New Roman", serif';
 
 // What the tracker holds, in one view: what Spain received and how it responded, and how the
 // recommendations cross with human security and the 2030 Agenda.
@@ -74,7 +73,7 @@ export function EpuResults({ total, accepted, partiallyAccepted, noted, classifi
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1, pt: { xs: 4.5, md: 5, lg: 4 }, pb: { xs: 3.5, lg: 3 }, [COMPACT]: { pt: 3, pb: 2.5 }, [SHORT]: { pt: 2, pb: 2 } }}>
         <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", lg: crossing ? "minmax(0,5fr) minmax(0,7fr)" : "minmax(0,1fr)" }, columnGap: 8, rowGap: { xs: 5, md: 6 } }}>
           <Box sx={{ display: "flex", flexDirection: "column", maxWidth: crossing ? { xs: 720, lg: "none" } : 860 }}>
-            <Typography id="results-heading" variant="h1" sx={{ fontFamily: serif, fontWeight: 400, fontSize: { xs: "2.45rem", sm: "3.1rem", lg: "3.5rem" }, lineHeight: 1.08, letterSpacing: "-.02em", [COMPACT]: { fontSize: "2.9rem", textWrap: "balance" }, [SHORT]: { fontSize: "2.45rem" } }}>
+            <Typography id="results-heading" variant="h1" sx={{ fontWeight: 400, fontSize: { xs: "2.25rem", sm: "2.85rem", lg: "3.15rem" }, lineHeight: 1.08, letterSpacing: "-.03em", textWrap: "balance", [COMPACT]: { fontSize: "2.7rem" }, [SHORT]: { fontSize: "2.3rem" } }}>
               Seguimiento de los compromisos de derechos humanos de España
             </Typography>
             <Typography sx={{ mt: { xs: 2, md: 2.5, lg: 2 }, fontSize: { xs: "1.02rem", md: "1.1rem" }, lineHeight: 1.65, color: "rgba(255,255,255,.86)", [COMPACT]: { mt: 1.5, fontSize: "1rem", lineHeight: 1.55 }, [SHORT]: { mt: 1.25, fontSize: ".95rem", lineHeight: 1.5 } }}>
@@ -96,7 +95,7 @@ export function EpuResults({ total, accepted, partiallyAccepted, noted, classifi
                   <Box key={r.label}>
                     <Box sx={{ display: "flex", alignItems: "baseline", gap: 1 }}>
                       <Box aria-hidden sx={{ width: 10, height: 10, bgcolor: r.color, flexShrink: 0 }} />
-                      <Typography sx={{ fontSize: { xs: "1.7rem", md: "2rem" }, fontWeight: 500, lineHeight: 1, fontVariantNumeric: "tabular-nums" }}>{r.value}</Typography>
+                      <Typography sx={{ fontFamily: displayFont, fontSize: { xs: "1.7rem", md: "2rem" }, fontWeight: 500, lineHeight: 1, letterSpacing: "-.01em" }}>{r.value}</Typography>
                     </Box>
                     <Typography variant="body2" sx={{ mt: .75, lineHeight: 1.35 }}>{r.label}</Typography>
                     <Typography variant="caption" sx={{ color: quiet }}>{formatShare(r.value, total)}</Typography>
