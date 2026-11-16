@@ -1,12 +1,12 @@
 {
  "instrument": "un-crc-amend-43",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-a&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "a6ff3903fa8c4cac8281345a179b6d56daf1072b0fc04c217528b48d74a7ddee"
+  "retrieved": "2026-11-16",
+  "sha256": "8ead2bb6d9c6b7f87c1d4278c6608948b795872ff4f647c3d19258333951ea0e"
  },
  "columns": [
   "Participant",

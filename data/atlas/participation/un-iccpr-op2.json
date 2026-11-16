@@ -1,12 +1,12 @@
 {
  "instrument": "un-iccpr-op2",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-12&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "192f9df322b71d0633bf40b209e0711407a5ccbd38d3373b6c98150eaabd0640"
+  "retrieved": "2026-11-16",
+  "sha256": "40613889b1501c596e4da51b10bf544a066f0902c1ddb9194ec43d1e3c3b1929"
  },
  "columns": [
   "Participant",
@@ -61,7 +61,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=2&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "d10688a56343dd3508808a8742aa515b11c722809c6a984f23836360cfd1575f"
     }
    },
@@ -92,7 +92,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=4&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "80bdbcafe5d9d73ec566e5ec35880ec794771b360f02d6664e98301b46040daa"
     }
    },
@@ -123,7 +123,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=5&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "bfe036612c3222f0c118c6efff09c982318d6506b7808d52853c75b258f79663"
     }
    },
@@ -154,7 +154,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=7&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9de2ef213457a7a7cdfd3acefedb1c1314a20bc2e7b2ad7fecd49a353ff07c6c"
     }
    },
@@ -185,7 +185,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=8&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "2fac18ba79ba4f7fee345ee07acaae9f44aab4a1fa1eac476ed556568501c55b"
     }
    },
@@ -216,7 +216,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=9&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "02622eecea19ec13f8af24eff46da737f8b2c08ab1832ea62c4f7db128ee4e0e"
     }
    },
@@ -256,7 +256,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=10&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "ff70ca960b1516c61832ddf2741a60ca926471e66768067f913c03d77fd161de"
     }
    },
@@ -298,7 +298,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=11&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "a649e829539bb5f79bb5c52623fc3774849e99bc563f87bcac4ecb1d8f2c7ba5"
     }
    },
@@ -329,7 +329,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=17&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "fcef2edac27a28e8e0aff1e269c4ee8ea57db50dbe81d71764577ee693e288aa"
     }
    },
@@ -360,7 +360,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=19&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "7fa19e41977efb7111346596e0d697452891e8e61ec33da31443d177c47d22f6"
     }
    },
@@ -391,7 +391,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=21&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "2378ecc8d86a82b550a8b3457fa25e3120098d1dfc8d7446f928377bc0556439"
     }
    },
@@ -422,7 +422,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=22&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "f23be6fb4dbddf8728136dd8ca2c2a78e17d39b36112c8c9fce71416c520e7f3"
     }
    },
@@ -462,7 +462,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=24&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "b71c88ebfccf08a5e9f969bcc53e24150712c3c485cf4eb371b0a44603eca049"
     }
    },
@@ -493,7 +493,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=26&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "dd6800dc5406846f8824bcafe7bb64948fca2ce9f42417d35ca4ee93a62cd197"
     }
    },
@@ -524,7 +524,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=32&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "733da1e6cb4e567d5817e09e1504f5ff8cbc96005d2c013833000ba47ee5b622"
     }
    },
@@ -555,7 +555,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=31&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0db7a5946ebefb5a831cb2736c84d0a0f976ff455d6791f50da54557d571c3d7"
     }
    },
@@ -595,7 +595,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=35&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "fafb7cecd523f232e8a5886f620845763c9dc5e469efbf109ec95be2df93d55a"
     }
    },
@@ -626,7 +626,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=37&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "98a5a615cb9813b904def81fa515c485c31f1209b860ec9151c779f035bcad8b"
     }
    },
@@ -657,7 +657,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=41&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "2768f16167b0ed943371ab663e60f86e3cd7fe38c288970253b8d500cefc575c"
     }
    },
@@ -688,7 +688,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=42&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "103b143f4c466f5164d20b965ec37ca6367d2f23212e4b5b5ba79f3ee4702696"
     }
    },
@@ -719,7 +719,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=43&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "938ecfcadc58074fe608b7eb07587d19828d8a1c9d6e6e124007a47e6426a569"
     }
    },
@@ -752,7 +752,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=45&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "6f7a87c80cee46f9f71eff7f677b737c16c21dd78df5388e75e65b387bd2e5d4"
     }
    },
@@ -783,7 +783,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=46&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "1427b0e174f311a97baaf5d59ae1b9032e6b3bafd96858eb841612f63415c830"
     }
    },
@@ -814,7 +814,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=49&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "e6e358839fbcc37147c6903a767e3945a9c30a8e601433437155bbe81e44d5a4"
     }
    },
@@ -845,7 +845,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=50&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "44280ac8a20dab63d3cc3974e21b8ad32896503add42ff328ee67fcf5221ab85"
     }
    },
@@ -876,7 +876,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=52&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "dc88a82aed2dd222b611c7b9b27079bc237573614ab093f33d94415453786bd0"
     }
    },
@@ -907,7 +907,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=53&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "7a8371dd2c1bebfee9a3a18aff4c1847810ffe03adb7a75f5470d7d0f38d409f"
     }
    },
@@ -947,7 +947,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=55&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "a787e416b7d0a20cc11d5099df7268f6cd14e3f22bd33fb690ddc4a98d92bf77"
     }
    },
@@ -978,7 +978,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=58&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "6c0fcbae20f4e94dfbcea8231799f3f8b123a9c1fc78892db84bfd2ab1216ada"
     }
    },
@@ -1018,7 +1018,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=61&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "6bffee7eb6ab5c86ed187c71ca21f1d6252020b7a36a79a654dee55697b4788a"
     }
    },
@@ -1058,7 +1058,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=62&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "686bd678e4aa8454a1810149ca7c947fb44ca8425e1e1deb92e5fde8352b4d89"
     }
    },
@@ -1089,7 +1089,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=63&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "1218f5122c30ec4ee6d1425b8d0dda1eebfa4f0d0630d9261c910f06c53e00db"
     }
    },
@@ -1120,7 +1120,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=64&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "28aa8663fc5f6d12fe3f70ab8693beaf9591039bcd7190a2721674058aff0c5b"
     }
    },
@@ -1151,7 +1151,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=65&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "356e532bbd0c129c0351082a3d98f4f524e96bb2071307a0ea2079d701edb70f"
     }
    },
@@ -1193,7 +1193,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=66&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "936bd27d95264bd035db04df40bd57df3f1c449ab10e86be6c548508753e8b3b"
     }
    },
@@ -1233,7 +1233,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=68&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "7fe0ade97c74ca931d2760c2531e6783e314dd3696b2f1c37f6cc0eefc5f1df3"
     }
    },
@@ -1273,7 +1273,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=72&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0b62d8d46c1cf6de502f8a02096131f1acab266bb0731cd926f701e4f80c223f"
     }
    },
@@ -1304,7 +1304,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=76&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "f3a12e5cbe9ed69f72538adfaa49fd7ce8deb791e60d6b4a371652bdd4bc334e"
     }
    },
@@ -1335,7 +1335,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=77&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "c864654e64a55aacc876cf184288e2b1010cbcb8dff7d7b98c86986da775cf73"
     }
    },
@@ -1366,7 +1366,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=78&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "ef94c9fcc7ab207fc136bd23056cd9a34018323ef14096a01c2a018825cbb914"
     }
    },
@@ -1406,7 +1406,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=83&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "a88ef0b7777953a0d27b6fcfe18e9c6c44145a43676fe97f578813db6251532d"
     }
    },
@@ -1446,7 +1446,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=85&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "f8cf819f8e1811272cac5d7ded4aed018231d1a5875453311af085fda7d674f6"
     }
    },
@@ -1477,7 +1477,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=89&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0c962039bec12d56abc8620dcdfbb4b0b9560290bf590202b220cd192aa079ca"
     }
    },
@@ -1508,7 +1508,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=93&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "5c579640246e00d7d10a0fb9b8f373d64a9555ff7c0b4ada6fddc200b53c2866"
     }
    },
@@ -1539,7 +1539,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=95&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "972c804134cdb635b9ac58fc178c4aabefcd668fbc7e8d0e2acae55b1d76a375"
     }
    },
@@ -1570,7 +1570,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=98&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "1e2d9255c9c304583bba7625ef9aa4a92bd4776cfd37a9f8cef8b59099678df6"
     }
    },
@@ -1601,7 +1601,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=100&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "4323a1b8e7e02622df085a31bf8267e408207917e32270157603984593c6e712"
     }
    },
@@ -1632,7 +1632,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=101&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "ce8d1d32de9d77edd23d881025cd612f1c08c2682bd1b0b9b8ad0dfb3c180a27"
     }
    },
@@ -1663,7 +1663,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=102&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "20a7b4dd52f300d789b737593074cf323a7832c5674968ce455d97b5df8989b8"
     }
    },
@@ -1694,7 +1694,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=103&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "f2f4fca0f1f6434da0fdf6c16fdd6c9149fe013b0e0c95bd24d7efa9af393f0c"
     }
    },
@@ -1727,7 +1727,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=108&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9b2c77e01bf12cbde5ed529575e44bba7d39544c5b021233cb5f77a6469c0360"
     }
    },
@@ -1758,7 +1758,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=112&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "66d4d93cdb5fe7e7319b12edc715cfab8f5bceecfa2f9b2af2250e76c1717d17"
     }
    },
@@ -1789,7 +1789,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=114&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "f69d1cd98782cc5e4134c61e6d0fbcfc0ca6d01b37788f8a123df1635c9dafc3"
     }
    },
@@ -1820,7 +1820,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=115&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "273419e307ab9736edb4799b02f2603d6fb4ace27d48f7fec8999357fe96a64f"
     }
    },
@@ -1853,7 +1853,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=116&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "40ff71407a7796d4b0978eaa43d9c6996c11f6f01623df710b3e4b463c6c931d"
     }
    },
@@ -1884,7 +1884,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=118&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "7342c65019975cae95edacaf096d1caa8907c3f0e836f366411cf198dff4de2b"
     }
    },
@@ -1915,7 +1915,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=120&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "57560f09c8176bcdc59d516e57dbcdc9abd77e07ddca05b2487a01dc809dc078"
     }
    },
@@ -1946,7 +1946,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=122&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "4ef96ff790e02893bd90b8a725c2305e8b718b9560584a6f5b6599bae457ef27"
     }
    },
@@ -1988,7 +1988,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=123&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0abcc8ec9e4c04bb87a264a922b7db4a58f5be950842c185102c56936019fa9a"
     }
    },
@@ -2021,7 +2021,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=124&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "fe1c8c143e03859b1301628e73191fe93e329192166529a14f13c1d700ea2896"
     }
    },
@@ -2052,7 +2052,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=125&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "197a34bc5a0f95b4e6acde9241c1ffeefce7e79adb0a4599a1610f3397c321c6"
     }
    },
@@ -2083,7 +2083,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=173&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "7b257374180a4cc49278c1f6377c452a751bee6f6abdf8d8fd512c4bbd1c9dfc"
     }
    },
@@ -2123,7 +2123,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=129&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "fa9ddf760cf368f5c755b73030e99b1951891f09ec8da7b17dd6a4f8a8580139"
     }
    },
@@ -2154,7 +2154,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=133&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "62711a739a1b1796a34b9db03b7c81858ba2d49fd41a99f9a860297f8a50d8fb"
     }
    },
@@ -2185,7 +2185,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=135&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "dda77bf5ab37241c7ae5a8e2c2ece8d60b9c4bf276d1d62fb94ff834dcee9cac"
     }
    },
@@ -2216,7 +2216,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=137&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9b8a6f580bb62b1be3fa0bd3c2074143fd61027f8bb28348e94ca3b1ca463ce1"
     }
    },
@@ -2256,7 +2256,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=138&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "a1fb1eb20639482bd2e62aa5f74678e2d7582dec080e9c960a3709c412f00002"
     }
    },
@@ -2296,7 +2296,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=139&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "729aaa9199bfe565434ba665b2cbe8d6cd70a653090d41e1ad7ee9e30256d17e"
     }
    },
@@ -2336,7 +2336,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=142&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "f848a473d1a85f27418b358d2a8ddc9cd116bd7026274b544ea6095cc634d7fa"
     }
    },
@@ -2367,7 +2367,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=143&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "d0a10e20071623389e9a84ccdbb02811398da98735f6a3dc131aebcc77dac41c"
     }
    },
@@ -2398,7 +2398,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=145&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "8115d5dee1a2970c5583a43c75425a5e23d164ddba833262e9d6d638476c8fd6"
     }
    },
@@ -2429,7 +2429,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=150&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "8cd6dfe283970aa6b08349708d4b3ea4a038b9b0fc761db19573aeeb57829c67"
     }
    },
@@ -2460,7 +2460,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=151&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "e0ce1719c1fd74d848085a0ee1acc743d9d67f03aceba015e80be7c834a2aa47"
     }
    },
@@ -2491,7 +2491,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=154&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "395b5a7a2d6226faf61993b92a510aab74d00b1e115d3185d18bf5ccd768f181"
     }
    },
@@ -2522,7 +2522,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=155&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "b67e2ebb32b3fdcea3af27b7c5167ed6c9a182ed7b1baafd31d1957f33a4a894"
     }
    },
@@ -2553,7 +2553,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=158&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "67b49fc08f60653d19c588c1cc30ce9516be28bee9c7502365b6fcf257aed96f"
     }
    },
@@ -2584,7 +2584,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=159&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "2f5d2b36b84ed9d05ea78b984a5fb1488054b8ee9f8af4f542600315b262a40d"
     }
    },
@@ -2615,7 +2615,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=162&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "65e984e22fa922d0932c8dca90a383a197eda377a682d44f99b4999e31f46a0f"
     }
    },
@@ -2657,7 +2657,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=163&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "cad5ee6f98724662100962c582d03fe701938b5263a6fe790e17fbebf451ea55"
     }
    },
@@ -2688,7 +2688,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=217&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "073bee0e3f8519361c4ff681d4b6cb3a5ccb2ee916a2ac14dfb77ee8fc49a3c4"
     }
    },
@@ -2728,7 +2728,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=168&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "344d26a5e3d86d19d73ca356e44bf90df593f7898a0f231ab1dbba0f34da3af4"
     }
    },
@@ -2768,7 +2768,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=169&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "239ef34ec56bda0d10cdd37e538a420368c174491edf918712115b87e3a2ee69"
     }
    },
@@ -2799,7 +2799,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=174&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "3a38b34a9ca09db51cf2ec4d0eb195b12f3c3406b23706a6b3d2e737f6ec2a70"
     }
    },
@@ -2839,7 +2839,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=175&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "4bed76bf90fe4ea2b89b1723a4b5f976947d1ed661a43216beefb83694262c2d"
     }
    },
@@ -2870,7 +2870,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=179&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "c43add7b6798348ec749483e4fbd2e9ceb5cf19b8872eb3503f3c4e10b7ef227"
     }
    },
@@ -2901,7 +2901,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=180&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "d273dc820749e88dd2e4fee3b818b7b4766c0c7a01f745dca5182390955cb7ba"
     }
    },
@@ -2932,7 +2932,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=183&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "bd86e1ad90d1e1b605f747d079e54716bf5e11578e9407f7ccd88c298f00dcad"
     }
    },
@@ -2963,7 +2963,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=185&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "d403c34657e59bfd8d836bc24f8d15bb4ac73a98391e9b2455cab0a43913d0db"
     }
    },
@@ -2994,7 +2994,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=188&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "5accb3ed0101a738531a0d71e4598515497dca5ce5c3d42fac893c360a4ba3d8"
     }
    },
@@ -3025,7 +3025,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=189&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0b8709bd8bb0bd6acf2ab604d42ec0bfbd2ce0113166ca8739408b8d9a401fff"
     }
    },
@@ -3056,7 +3056,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=191&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "ea59607866bf9e5d915d0b00c9a87f72abe7c0a55c5b06f15da384671ba78ee5"
     }
    },
@@ -3087,7 +3087,7 @@
     "ref": {
      "source": "tbinternet",
      "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=194&Lang=SP",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "e8ef843401b0843577802b0144c39c220cc9572a52e48b0f767bcde4a7fe66be"
     }
    },

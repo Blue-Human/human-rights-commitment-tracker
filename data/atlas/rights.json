@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-16",
  "rights": [
   {
    "id": "vida",
@@ -11,27 +11,19 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "2",
-     "anchor": "art-2",
-     "basis": "article_heading",
-     "evidence": "Derecho a la vida",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "4",
-     "anchor": "art-4",
-     "basis": "article_heading",
-     "evidence": "Derecho a la Vida",
-     "lang": "es"
-    },
-    {
      "instrument": "oas-american-declaration",
      "article": "I",
      "anchor": "art-i",
      "basis": "article_heading",
      "evidence": "Derecho a la vida, a la libertad, a la seguridad e integridad de la persona",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "10",
+     "anchor": "art-10",
+     "basis": "article_heading",
+     "evidence": "Derecho a la vida",
      "lang": "es"
     },
     {
@@ -43,9 +35,17 @@
      "lang": "es"
     },
     {
-     "instrument": "un-crpd",
-     "article": "10",
-     "anchor": "art-10",
+     "instrument": "oas-achr",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Vida",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "2",
+     "anchor": "art-2",
      "basis": "article_heading",
      "evidence": "Derecho a la vida",
      "lang": "es"
@@ -95,19 +95,19 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "3",
-     "anchor": "art-3",
-     "basis": "article_heading",
-     "evidence": "Prohibición de la tortura",
-     "lang": "es"
-    },
-    {
      "instrument": "un-crpd",
      "article": "15",
      "anchor": "art-15",
      "basis": "article_heading",
      "evidence": "Protección contra la tortura y otros tratos o penas crueles, inhumanos o degradantes",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "3",
+     "anchor": "art-3",
+     "basis": "article_heading",
+     "evidence": "Prohibición de la tortura",
      "lang": "es"
     },
     {
@@ -173,11 +173,11 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "5",
-     "anchor": "art-5",
+     "instrument": "oas-older-persons",
+     "article": "13",
+     "anchor": "art-13",
      "basis": "article_heading",
-     "evidence": "Derecho a la libertad y a la seguridad",
+     "evidence": "Derecho a la libertad personal",
      "lang": "es"
     },
     {
@@ -189,11 +189,11 @@
      "lang": "es"
     },
     {
-     "instrument": "oas-older-persons",
-     "article": "13",
-     "anchor": "art-13",
+     "instrument": "coe-echr",
+     "article": "5",
+     "anchor": "art-5",
      "basis": "article_heading",
-     "evidence": "Derecho a la libertad personal",
+     "evidence": "Derecho a la libertad y a la seguridad",
      "lang": "es"
     },
     {
@@ -236,19 +236,11 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "6",
-     "anchor": "art-6",
+     "instrument": "oas-american-declaration",
+     "article": "XXVI",
+     "anchor": "art-xxvi",
      "basis": "article_heading",
-     "evidence": "Derecho a un proceso equitativo",
-     "lang": "es"
-    },
-    {
-     "instrument": "coe-echr",
-     "article": "7",
-     "anchor": "art-7",
-     "basis": "article_heading",
-     "evidence": "No hay pena sin ley",
+     "evidence": "Derecho a proceso regular",
      "lang": "es"
     },
     {
@@ -268,11 +260,19 @@
      "lang": "es"
     },
     {
-     "instrument": "oas-american-declaration",
-     "article": "XXVI",
-     "anchor": "art-xxvi",
+     "instrument": "coe-echr",
+     "article": "6",
+     "anchor": "art-6",
      "basis": "article_heading",
-     "evidence": "Derecho a proceso regular",
+     "evidence": "Derecho a un proceso equitativo",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "7",
+     "anchor": "art-7",
+     "basis": "article_heading",
+     "evidence": "No hay pena sin ley",
      "lang": "es"
     },
     {
@@ -303,19 +303,11 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
+     "instrument": "un-crpd",
      "article": "13",
      "anchor": "art-13",
      "basis": "article_heading",
-     "evidence": "Derecho a un recurso efectivo",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "25",
-     "anchor": "art-25",
-     "basis": "article_heading",
-     "evidence": "Protección Judicial",
+     "evidence": "Acceso a la justicia",
      "lang": "es"
     },
     {
@@ -327,11 +319,19 @@
      "lang": "es"
     },
     {
-     "instrument": "un-crpd",
+     "instrument": "oas-achr",
+     "article": "25",
+     "anchor": "art-25",
+     "basis": "article_heading",
+     "evidence": "Protección Judicial",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
      "article": "13",
      "anchor": "art-13",
      "basis": "article_heading",
-     "evidence": "Acceso a la justicia",
+     "evidence": "Derecho a un recurso efectivo",
      "lang": "es"
     }
    ],
@@ -350,22 +350,6 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "8",
-     "anchor": "art-8",
-     "basis": "article_heading",
-     "evidence": "Derecho al respeto a la vida privada y familiar",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "11",
-     "anchor": "art-11",
-     "basis": "article_heading",
-     "evidence": "Protección de la Honra y de la Dignidad",
-     "lang": "es"
-    },
-    {
      "instrument": "oas-american-declaration",
      "article": "V",
      "anchor": "art-v",
@@ -379,6 +363,22 @@
      "anchor": "art-16",
      "basis": "article_heading",
      "evidence": "Derecho a la privacidad y a la intimidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Protección de la Honra y de la Dignidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "8",
+     "anchor": "art-8",
+     "basis": "article_heading",
+     "evidence": "Derecho al respeto a la vida privada y familiar",
      "lang": "es"
     },
     {
@@ -408,11 +408,11 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "9",
-     "anchor": "art-9",
+     "instrument": "oas-american-declaration",
+     "article": "III",
+     "anchor": "art-iii",
      "basis": "article_heading",
-     "evidence": "Libertad de pensamiento, de conciencia y de religión",
+     "evidence": "Derecho de libertad religiosa y de culto",
      "lang": "es"
     },
     {
@@ -424,11 +424,11 @@
      "lang": "es"
     },
     {
-     "instrument": "oas-american-declaration",
-     "article": "III",
-     "anchor": "art-iii",
+     "instrument": "coe-echr",
+     "article": "9",
+     "anchor": "art-9",
      "basis": "article_heading",
-     "evidence": "Derecho de libertad religiosa y de culto",
+     "evidence": "Libertad de pensamiento, de conciencia y de religión",
      "lang": "es"
     },
     {
@@ -458,11 +458,11 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "10",
-     "anchor": "art-10",
+     "instrument": "un-crpd",
+     "article": "21",
+     "anchor": "art-21",
      "basis": "article_heading",
-     "evidence": "Libertad de expresión",
+     "evidence": "Libertad de expresión y de opinión y acceso a la información",
      "lang": "es"
     },
     {
@@ -474,11 +474,11 @@
      "lang": "es"
     },
     {
-     "instrument": "un-crpd",
-     "article": "21",
-     "anchor": "art-21",
+     "instrument": "coe-echr",
+     "article": "10",
+     "anchor": "art-10",
      "basis": "article_heading",
-     "evidence": "Libertad de expresión y de opinión y acceso a la información",
+     "evidence": "Libertad de expresión",
      "lang": "es"
     },
     {
@@ -518,22 +518,6 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "11",
-     "anchor": "art-11",
-     "basis": "article_heading",
-     "evidence": "Libertad de reunión y de asociación",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "15",
-     "anchor": "art-15",
-     "basis": "article_heading",
-     "evidence": "Derecho de Reunión",
-     "lang": "es"
-    },
-    {
      "instrument": "oas-american-declaration",
      "article": "XXI",
      "anchor": "art-xxi",
@@ -547,6 +531,22 @@
      "anchor": "art-28",
      "basis": "article_heading",
      "evidence": "Derecho de reunión y de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "15",
+     "anchor": "art-15",
+     "basis": "article_heading",
+     "evidence": "Derecho de Reunión",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Libertad de reunión y de asociación",
      "lang": "es"
     },
     {
@@ -576,25 +576,17 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "11",
-     "anchor": "art-11",
-     "basis": "article_heading",
-     "evidence": "Libertad de reunión y de asociación",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "16",
-     "anchor": "art-16",
-     "basis": "article_heading",
-     "evidence": "Libertad de Asociación",
-     "lang": "es"
-    },
-    {
      "instrument": "oas-american-declaration",
      "article": "XXII",
      "anchor": "art-xxii",
+     "basis": "article_heading",
+     "evidence": "Derecho de asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-refugees-1951",
+     "article": "15",
+     "anchor": "art-15",
      "basis": "article_heading",
      "evidence": "Derecho de asociación",
      "lang": "es"
@@ -608,11 +600,19 @@
      "lang": "es"
     },
     {
-     "instrument": "un-refugees-1951",
-     "article": "15",
-     "anchor": "art-15",
+     "instrument": "oas-achr",
+     "article": "16",
+     "anchor": "art-16",
      "basis": "article_heading",
-     "evidence": "Derecho de asociación",
+     "evidence": "Libertad de Asociación",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "11",
+     "anchor": "art-11",
+     "basis": "article_heading",
+     "evidence": "Libertad de reunión y de asociación",
      "lang": "es"
     }
    ],
@@ -634,35 +634,11 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "14",
-     "anchor": "art-14",
+     "instrument": "oas-american-declaration",
+     "article": "II",
+     "anchor": "art-ii",
      "basis": "article_heading",
-     "evidence": "Prohibición de discriminación",
-     "lang": "es"
-    },
-    {
-     "instrument": "coe-lanzarote",
-     "article": "2",
-     "anchor": "art-2",
-     "basis": "article_heading",
-     "evidence": "Principio de no discriminación",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-san-salvador",
-     "article": "3",
-     "anchor": "art-3",
-     "basis": "article_heading",
-     "evidence": "Obligación de no Discriminación",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "24",
-     "anchor": "art-24",
-     "basis": "article_heading",
-     "evidence": "Igualdad ante la Ley",
+     "evidence": "Derecho de igualdad ante la Ley",
      "lang": "es"
     },
     {
@@ -674,19 +650,27 @@
      "lang": "es"
     },
     {
-     "instrument": "oas-american-declaration",
-     "article": "II",
-     "anchor": "art-ii",
-     "basis": "article_heading",
-     "evidence": "Derecho de igualdad ante la Ley",
-     "lang": "es"
-    },
-    {
      "instrument": "coe-esc-revised",
      "article": "E",
      "anchor": "art-e",
      "basis": "article_heading",
      "evidence": "No discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-lanzarote",
+     "article": "2",
+     "anchor": "art-2",
+     "basis": "article_heading",
+     "evidence": "Principio de no discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "5",
+     "anchor": "art-5",
+     "basis": "article_heading",
+     "evidence": "Igualdad y no discriminación",
      "lang": "es"
     },
     {
@@ -698,11 +682,27 @@
      "lang": "es"
     },
     {
-     "instrument": "un-crpd",
-     "article": "5",
-     "anchor": "art-5",
+     "instrument": "oas-achr",
+     "article": "24",
+     "anchor": "art-24",
      "basis": "article_heading",
-     "evidence": "Igualdad y no discriminación",
+     "evidence": "Igualdad ante la Ley",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-san-salvador",
+     "article": "3",
+     "anchor": "art-3",
+     "basis": "article_heading",
+     "evidence": "Obligación de no Discriminación",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "14",
+     "anchor": "art-14",
+     "basis": "article_heading",
+     "evidence": "Prohibición de discriminación",
      "lang": "es"
     },
     {
@@ -745,19 +745,19 @@
    ],
    "articles": [
     {
-     "instrument": "oas-san-salvador",
-     "article": "13",
-     "anchor": "art-13",
-     "basis": "article_heading",
-     "evidence": "Derecho a la Educación",
-     "lang": "es"
-    },
-    {
      "instrument": "oas-american-declaration",
      "article": "XII",
      "anchor": "art-xii",
      "basis": "article_heading",
      "evidence": "Derecho a la educación",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crpd",
+     "article": "24",
+     "anchor": "art-24",
+     "basis": "article_heading",
+     "evidence": "Educación",
      "lang": "es"
     },
     {
@@ -769,11 +769,11 @@
      "lang": "es"
     },
     {
-     "instrument": "un-crpd",
-     "article": "24",
-     "anchor": "art-24",
+     "instrument": "oas-san-salvador",
+     "article": "13",
+     "anchor": "art-13",
      "basis": "article_heading",
-     "evidence": "Educación",
+     "evidence": "Derecho a la Educación",
      "lang": "es"
     },
     {
@@ -835,27 +835,11 @@
    ],
    "articles": [
     {
-     "instrument": "oas-san-salvador",
-     "article": "10",
-     "anchor": "art-10",
-     "basis": "article_heading",
-     "evidence": "Derecho a la Salud",
-     "lang": "es"
-    },
-    {
      "instrument": "coe-esc-revised",
      "article": "11",
      "anchor": "art-11",
      "basis": "article_heading",
      "evidence": "Derecho a la protección de la salud",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-older-persons",
-     "article": "19",
-     "anchor": "art-19",
-     "basis": "article_heading",
-     "evidence": "Derecho a la salud",
      "lang": "es"
     },
     {
@@ -872,6 +856,22 @@
      "anchor": "art-25",
      "basis": "article_heading",
      "evidence": "Salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "19",
+     "anchor": "art-19",
+     "basis": "article_heading",
+     "evidence": "Derecho a la salud",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-san-salvador",
+     "article": "10",
+     "anchor": "art-10",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Salud",
      "lang": "es"
     },
     {
@@ -902,14 +902,6 @@
    ],
    "exact": [],
    "articles": [
-    {
-     "instrument": "oas-san-salvador",
-     "article": "6",
-     "anchor": "art-6",
-     "basis": "article_heading",
-     "evidence": "Derecho al Trabajo",
-     "lang": "es"
-    },
     {
      "instrument": "oas-american-declaration",
      "article": "XIV",
@@ -943,14 +935,6 @@
      "lang": "es"
     },
     {
-     "instrument": "oas-older-persons",
-     "article": "18",
-     "anchor": "art-18",
-     "basis": "article_heading",
-     "evidence": "Derecho al trabajo",
-     "lang": "es"
-    },
-    {
      "instrument": "coe-esc-1961",
      "article": "1",
      "anchor": "art-1",
@@ -964,6 +948,22 @@
      "anchor": "art-2",
      "basis": "article_heading",
      "evidence": "Derecho a unas condiciones de trabajo equitativas",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-older-persons",
+     "article": "18",
+     "anchor": "art-18",
+     "basis": "article_heading",
+     "evidence": "Derecho al trabajo",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-san-salvador",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Derecho al Trabajo",
      "lang": "es"
     },
     {
@@ -991,14 +991,6 @@
    ],
    "exact": [],
    "articles": [
-    {
-     "instrument": "oas-san-salvador",
-     "article": "9",
-     "anchor": "art-9",
-     "basis": "article_heading",
-     "evidence": "Derecho a la Seguridad Social",
-     "lang": "es"
-    },
     {
      "instrument": "oas-american-declaration",
      "article": "XVI",
@@ -1048,14 +1040,6 @@
      "lang": "es"
     },
     {
-     "instrument": "oas-older-persons",
-     "article": "17",
-     "anchor": "art-17",
-     "basis": "article_heading",
-     "evidence": "Derecho a la seguridad social",
-     "lang": "es"
-    },
-    {
      "instrument": "coe-esc-1961",
      "article": "12",
      "anchor": "art-12",
@@ -1088,6 +1072,22 @@
      "lang": "es"
     },
     {
+     "instrument": "oas-older-persons",
+     "article": "17",
+     "anchor": "art-17",
+     "basis": "article_heading",
+     "evidence": "Derecho a la seguridad social",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-san-salvador",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "article_heading",
+     "evidence": "Derecho a la Seguridad Social",
+     "lang": "es"
+    },
+    {
      "instrument": "un-icescr",
      "article": "9",
      "anchor": "art-9",
@@ -1112,6 +1112,14 @@
    "exact": [],
    "articles": [
     {
+     "instrument": "un-refugees-1951",
+     "article": "21",
+     "anchor": "art-21",
+     "basis": "article_heading",
+     "evidence": "Vivienda",
+     "lang": "es"
+    },
+    {
      "instrument": "coe-esc-revised",
      "article": "31",
      "anchor": "art-31",
@@ -1125,14 +1133,6 @@
      "anchor": "art-24",
      "basis": "article_heading",
      "evidence": "Derecho a la vivienda",
-     "lang": "es"
-    },
-    {
-     "instrument": "un-refugees-1951",
-     "article": "21",
-     "anchor": "art-21",
-     "basis": "article_heading",
-     "evidence": "Vivienda",
      "lang": "es"
     },
     {
@@ -1174,38 +1174,6 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-lanzarote",
-     "article": "6",
-     "anchor": "art-6",
-     "basis": "article_heading",
-     "evidence": "Educación de los niños",
-     "lang": "es"
-    },
-    {
-     "instrument": "coe-lanzarote",
-     "article": "9",
-     "anchor": "art-9",
-     "basis": "article_heading",
-     "evidence": "Participación de los niños, el sector privado, los medios de comunicación y la sociedad civil",
-     "lang": "es"
-    },
-    {
-     "instrument": "oas-achr",
-     "article": "19",
-     "anchor": "art-19",
-     "basis": "article_heading",
-     "evidence": "Derechos del Niño",
-     "lang": "es"
-    },
-    {
-     "instrument": "un-crc-opic",
-     "article": "1",
-     "anchor": "art-1",
-     "basis": "article_heading",
-     "evidence": "Competencia del comité de los derechos del niño",
-     "lang": "es"
-    },
-    {
      "instrument": "coe-esc-revised",
      "article": "7",
      "anchor": "art-7",
@@ -1222,6 +1190,22 @@
      "lang": "es"
     },
     {
+     "instrument": "coe-lanzarote",
+     "article": "6",
+     "anchor": "art-6",
+     "basis": "article_heading",
+     "evidence": "Educación de los niños",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-lanzarote",
+     "article": "9",
+     "anchor": "art-9",
+     "basis": "article_heading",
+     "evidence": "Participación de los niños, el sector privado, los medios de comunicación y la sociedad civil",
+     "lang": "es"
+    },
+    {
      "instrument": "coe-esc-1961",
      "article": "7",
      "anchor": "art-7",
@@ -1235,6 +1219,22 @@
      "anchor": "art-7",
      "basis": "article_heading",
      "evidence": "Niños y niñas con discapacidad",
+     "lang": "es"
+    },
+    {
+     "instrument": "oas-achr",
+     "article": "19",
+     "anchor": "art-19",
+     "basis": "article_heading",
+     "evidence": "Derechos del Niño",
+     "lang": "es"
+    },
+    {
+     "instrument": "un-crc-opic",
+     "article": "1",
+     "anchor": "art-1",
+     "basis": "article_heading",
+     "evidence": "Competencia del comité de los derechos del niño",
      "lang": "es"
     },
     {
@@ -1588,19 +1588,19 @@
    "exact": [],
    "articles": [
     {
-     "instrument": "coe-echr",
-     "article": "4",
-     "anchor": "art-4",
-     "basis": "article_heading",
-     "evidence": "Prohibición de la esclavitud y del trabajo forzado",
-     "lang": "es"
-    },
-    {
      "instrument": "oas-achr",
      "article": "6",
      "anchor": "art-6",
      "basis": "article_heading",
      "evidence": "Prohibición de la Esclavitud y Servidumbre",
+     "lang": "es"
+    },
+    {
+     "instrument": "coe-echr",
+     "article": "4",
+     "anchor": "art-4",
+     "basis": "article_heading",
+     "evidence": "Prohibición de la esclavitud y del trabajo forzado",
      "lang": "es"
     }
    ],

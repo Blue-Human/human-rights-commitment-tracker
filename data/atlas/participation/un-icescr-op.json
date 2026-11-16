@@ -1,12 +1,12 @@
 {
  "instrument": "un-icescr-op",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3-a&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "b7e51f6f5dcd1f08f022233d4435b682b5f13c81be82bc8ecf5797d34d2f9635"
+  "retrieved": "2026-11-16",
+  "sha256": "fafda6c6d766744818d8d8c2047debba76257abd10bdc418397892f9f05dc668"
  },
  "columns": [
   "Participant",

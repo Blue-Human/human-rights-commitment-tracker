@@ -11,7 +11,7 @@
   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2021-9719/texto",
   "eli": "https://www.boe.es/eli/es/ai/1996/05/03/(2)",
   "published": "2021-06-11",
-  "retrieved": "2026-11-09",
+  "retrieved": "2026-11-16",
   "sha256": "4ac776f652331b8419655bfec8ad59ab4a489b88c678a3b1adb3c70a502c7645",
   "method": "boe-consolidated"
  },

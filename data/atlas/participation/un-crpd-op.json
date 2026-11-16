@@ -1,12 +1,12 @@
 {
  "instrument": "un-crpd-op",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15-a&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "2d8192c0b824e6d70bb504cb5880e56ee9bfc7ef38897d6aa17414ed5ae3a707"
+  "retrieved": "2026-11-16",
+  "sha256": "ff93be4e3d34d5659111dff72bfaf7d0f0eaa901a6064ffab1a7b7b44549864c"
  },
  "columns": [
   "Participant",

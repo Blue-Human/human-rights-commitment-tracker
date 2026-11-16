@@ -1,12 +1,12 @@
 {
  "instrument": "un-crc-opic",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "27c896a5b8203275ba9f7899a8403931c02d7d1792536c21231ab123d2ad16ce"
+  "retrieved": "2026-11-16",
+  "sha256": "ece9e93403b9ea4cf6e57f92f39e3cbc93c2cc638fc06dfec0f40c08fca67da0"
  },
  "columns": [
   "Participant",

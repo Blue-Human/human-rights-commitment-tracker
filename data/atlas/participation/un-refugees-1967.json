@@ -1,12 +1,12 @@
 {
  "instrument": "un-refugees-1967",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-5&chapter=5&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "a1d98561f3dfb07a888ae0be95d25490640d966d4d5ce0f0c16ce3f0a034eea8"
+  "retrieved": "2026-11-16",
+  "sha256": "29ec0d63cf4805f8e41de77c55763275a699d62ba3f7e34c362fb24728a3d5a5"
  },
  "columns": [
   "Participant",

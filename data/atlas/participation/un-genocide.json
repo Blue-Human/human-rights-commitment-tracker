@@ -1,12 +1,12 @@
 {
  "instrument": "un-genocide",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-1&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "8eed640fcda242e17457b85a52a63969de7e2133a38dc252f9c4125fd2d3582e"
+  "retrieved": "2026-11-16",
+  "sha256": "d0452f3fc1289434e22dfc018d5143b4a86296b52628ae0a78615f50d5de874f"
  },
  "columns": [
   "Participant 2",

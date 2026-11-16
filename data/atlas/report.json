@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T17:21:05+00:00",
+ "run_at": "2026-11-16T12:33:34+00:00",
  "steps": {
   "Países y nombres oficiales (M49)": {
    "ok": true
@@ -33,7 +33,8 @@
    "ok": true
   },
   "Composición coe-ecthr": {
-   "ok": true
+   "ok": false,
+   "unavailable": "https://www.echr.coe.int/composition-of-the-court: protegido por un control de acceso automatizado (HTTP 403)"
   },
   "Composición oas-iachr": {
    "ok": true
@@ -50,12 +51,16 @@
   {
    "step": "HUDOC: sentencias del Tribunal Europeo relativas a España",
    "detail": "https://hudoc.echr.coe.int/app/query/results?query=contentsitename%3AECHR%20AND%20respondent%3AESP%20AND%20documentcollectionid2%3A%22JUDGMENTS%22%20AND%20languageisocode%3AENG&select=itemid,docname,appno,conclusion,kpdate,doctype,importance,ecli,respondent,article,violation,nonviolation,documentcollectionid2,judgementdate,languageisocode&sort=kpdate%20Descending&start=0&length=100: protegido por un control de acceso automatizado (HTTP 403)"
+  },
+  {
+   "step": "Composición coe-ecthr",
+   "detail": "https://www.echr.coe.int/composition-of-the-court: protegido por un control de acceso automatizado (HTTP 403)"
   }
  ],
  "unmatched_names": {},
  "fetches": {
   "total": 406,
-  "network": 0,
+  "network": 406,
   "changed": 0
  },
  "quote_errors": []

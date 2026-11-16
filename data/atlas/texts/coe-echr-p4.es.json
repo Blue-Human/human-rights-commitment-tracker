@@ -11,7 +11,7 @@
   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
   "eli": "https://www.boe.es/eli/es/ai/1999/04/05/(1)",
   "published": "1999-05-06",
-  "retrieved": "2026-11-09",
+  "retrieved": "2026-11-16",
   "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
   "method": "boe-consolidated"
  },

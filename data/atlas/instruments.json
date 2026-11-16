@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-16",
  "instruments": [
   {
    "id": "un-icerd",
@@ -16,8 +16,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a7164f3633322ea8d7586939764051ea1b2f8fac74655cbca773e5095e4a244e"
+     "retrieved": "2026-11-16",
+     "sha256": "6222edcaa1921d187134cb066947d473a06a5935a349383bc722d34709e05d67"
     }
    },
    "registration": "12 March 1969, No. 9464",
@@ -28,12 +28,12 @@
    "status": {
     "signatories": 88,
     "parties": 182,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a7164f3633322ea8d7586939764051ea1b2f8fac74655cbca773e5095e4a244e"
+     "retrieved": "2026-11-16",
+     "sha256": "6222edcaa1921d187134cb066947d473a06a5935a349383bc722d34709e05d67"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -69,8 +69,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a851d8c4fbbafcc089b233e1786682a8c82e127602d40a7375f467578e0a577c"
+     "retrieved": "2026-11-16",
+     "sha256": "f9ae77e86850c6b88f67ad0764bc90aa5f8657e660b1cbb19f4bc536533beccb"
     }
    },
    "registration": "3 January 1976, No. 14531 1",
@@ -81,12 +81,12 @@
    "status": {
     "signatories": 72,
     "parties": 174,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a851d8c4fbbafcc089b233e1786682a8c82e127602d40a7375f467578e0a577c"
+     "retrieved": "2026-11-16",
+     "sha256": "f9ae77e86850c6b88f67ad0764bc90aa5f8657e660b1cbb19f4bc536533beccb"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -201,8 +201,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "b7e51f6f5dcd1f08f022233d4435b682b5f13c81be82bc8ecf5797d34d2f9635"
+     "retrieved": "2026-11-16",
+     "sha256": "fafda6c6d766744818d8d8c2047debba76257abd10bdc418397892f9f05dc668"
     }
    },
    "registration": "5 May 2013, No. 14531",
@@ -213,12 +213,12 @@
    "status": {
     "signatories": 46,
     "parties": 31,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "b7e51f6f5dcd1f08f022233d4435b682b5f13c81be82bc8ecf5797d34d2f9635"
+     "retrieved": "2026-11-16",
+     "sha256": "fafda6c6d766744818d8d8c2047debba76257abd10bdc418397892f9f05dc668"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -330,8 +330,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "7bfc35f47d8f45da6b32ab7471b7e3d8528075cb6b9f42cad324f90a4ccb0cab"
+     "retrieved": "2026-11-16",
+     "sha256": "535da30919918d8c1641a31407540bc539692aa6deb15d26136041eb6a1da669"
     }
    },
    "registration": "23 March 1976, No. 14668",
@@ -342,12 +342,12 @@
    "status": {
     "signatories": 74,
     "parties": 175,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "7bfc35f47d8f45da6b32ab7471b7e3d8528075cb6b9f42cad324f90a4ccb0cab"
+     "retrieved": "2026-11-16",
+     "sha256": "535da30919918d8c1641a31407540bc539692aa6deb15d26136041eb6a1da669"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -463,8 +463,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-5&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "3292fd8d87b46b62d47b30eaa103ab32afe2456c8a5ddb893db61c80e25f0b8c"
+     "retrieved": "2026-11-16",
+     "sha256": "47efb2b4e6279fbd7d951df3a4db163c34164bd3942582abaf14d82d6948354b"
     }
    },
    "registration": "23 March 1976, No. 14668",
@@ -475,12 +475,12 @@
    "status": {
     "signatories": 36,
     "parties": 116,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-5&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "3292fd8d87b46b62d47b30eaa103ab32afe2456c8a5ddb893db61c80e25f0b8c"
+     "retrieved": "2026-11-16",
+     "sha256": "47efb2b4e6279fbd7d951df3a4db163c34164bd3942582abaf14d82d6948354b"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -587,8 +587,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-12&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "192f9df322b71d0633bf40b209e0711407a5ccbd38d3373b6c98150eaabd0640"
+     "retrieved": "2026-11-16",
+     "sha256": "40613889b1501c596e4da51b10bf544a066f0902c1ddb9194ec43d1e3c3b1929"
     }
    },
    "registration": "11 July 1991, No. 14668",
@@ -599,12 +599,12 @@
    "status": {
     "signatories": 40,
     "parties": 92,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-12&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "192f9df322b71d0633bf40b209e0711407a5ccbd38d3373b6c98150eaabd0640"
+     "retrieved": "2026-11-16",
+     "sha256": "40613889b1501c596e4da51b10bf544a066f0902c1ddb9194ec43d1e3c3b1929"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -717,8 +717,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "e12df8fd72678bc201ababf8e24b858345fb30fb4ee1f4fdb5e0017ded950e97"
+     "retrieved": "2026-11-16",
+     "sha256": "d3d3b720514727dbf826c7b33f9dbd8aa9dccbac2af0c2fa84d2b7805d07a13e"
     }
    },
    "registration": "3 September 1981, No. 20378",
@@ -729,12 +729,12 @@
    "status": {
     "signatories": 99,
     "parties": 189,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "e12df8fd72678bc201ababf8e24b858345fb30fb4ee1f4fdb5e0017ded950e97"
+     "retrieved": "2026-11-16",
+     "sha256": "d3d3b720514727dbf826c7b33f9dbd8aa9dccbac2af0c2fa84d2b7805d07a13e"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -850,8 +850,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-b&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "937964cdafea6c51b80fa45ab232a4ea75c9fb3cb2fb2009800b69cc2350138d"
+     "retrieved": "2026-11-16",
+     "sha256": "33b1a6098737e1a759b9719ceee627bf9092953c3bbb44f619d3033fa8d1c92f"
     }
    },
    "registration": "22 December 2000, No. 20378",
@@ -862,12 +862,12 @@
    "status": {
     "signatories": 80,
     "parties": 116,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-b&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "937964cdafea6c51b80fa45ab232a4ea75c9fb3cb2fb2009800b69cc2350138d"
+     "retrieved": "2026-11-16",
+     "sha256": "33b1a6098737e1a759b9719ceee627bf9092953c3bbb44f619d3033fa8d1c92f"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -979,8 +979,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "97d38d97203ea8135d90fbd29e7d7d55ca06e54bd33fac5658b068d1ff0ef29a"
+     "retrieved": "2026-11-16",
+     "sha256": "2e41aa080542bbe238fb31e5ca533f6353f483e5445283bceca2979cd97d4a2c"
     }
    },
    "registration": "26 June 1987, No. 24841",
@@ -991,12 +991,12 @@
    "status": {
     "signatories": 83,
     "parties": 176,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "97d38d97203ea8135d90fbd29e7d7d55ca06e54bd33fac5658b068d1ff0ef29a"
+     "retrieved": "2026-11-16",
+     "sha256": "2e41aa080542bbe238fb31e5ca533f6353f483e5445283bceca2979cd97d4a2c"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1107,8 +1107,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-b&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "bf904475761c1d8b3817d50a18e5f22ed49c1555e7b5f4b27a762d419d786d51"
+     "retrieved": "2026-11-16",
+     "sha256": "aff799346c7fa55f060eba512505bebf1996d736c904b48ba3dd462db67752b8"
     }
    },
    "registration": "22 June 2006, No. 24841",
@@ -1119,12 +1119,12 @@
    "status": {
     "signatories": 76,
     "parties": 96,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-b&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "bf904475761c1d8b3817d50a18e5f22ed49c1555e7b5f4b27a762d419d786d51"
+     "retrieved": "2026-11-16",
+     "sha256": "aff799346c7fa55f060eba512505bebf1996d736c904b48ba3dd462db67752b8"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1237,8 +1237,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "cb535d5bc97e7cebc2990d6f12a5cf841c9139404a8378e066c50e21584bcb43"
+     "retrieved": "2026-11-16",
+     "sha256": "27a48d4705afbbea48a062b0a839b685e5d7bb6ebbdb3ab56845f2c44db5d72b"
     }
    },
    "registration": "2 September 1990, No. 27531",
@@ -1249,12 +1249,12 @@
    "status": {
     "signatories": 140,
     "parties": 196,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "cb535d5bc97e7cebc2990d6f12a5cf841c9139404a8378e066c50e21584bcb43"
+     "retrieved": "2026-11-16",
+     "sha256": "27a48d4705afbbea48a062b0a839b685e5d7bb6ebbdb3ab56845f2c44db5d72b"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1372,8 +1372,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-b&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "6f8b83613d033c7bd61fa3b4d32b6680e6c97a0ee0d5a35c0f74cd93592369c4"
+     "retrieved": "2026-11-16",
+     "sha256": "ae78bf9dbbaa26fab652c611361b0b73cf892d4816779b4331c6f722f8d35ec4"
     }
    },
    "registration": "12 February 2002, No. 27531",
@@ -1384,12 +1384,12 @@
    "status": {
     "signatories": 130,
     "parties": 173,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-b&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "6f8b83613d033c7bd61fa3b4d32b6680e6c97a0ee0d5a35c0f74cd93592369c4"
+     "retrieved": "2026-11-16",
+     "sha256": "ae78bf9dbbaa26fab652c611361b0b73cf892d4816779b4331c6f722f8d35ec4"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1502,8 +1502,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-c&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "42fa602fe8b14bd8e3e42738874a6ab2de55f6aee292ac1d8db20f4df361c285"
+     "retrieved": "2026-11-16",
+     "sha256": "673c5324464ddb23513b87415c8d938f26be72e43679a0ab87aac4dc3b71fc77"
     }
    },
    "registration": "18 January 2002, No. 27531",
@@ -1514,12 +1514,12 @@
    "status": {
     "signatories": 122,
     "parties": 178,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-c&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "42fa602fe8b14bd8e3e42738874a6ab2de55f6aee292ac1d8db20f4df361c285"
+     "retrieved": "2026-11-16",
+     "sha256": "673c5324464ddb23513b87415c8d938f26be72e43679a0ab87aac4dc3b71fc77"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1632,8 +1632,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "27c896a5b8203275ba9f7899a8403931c02d7d1792536c21231ab123d2ad16ce"
+     "retrieved": "2026-11-16",
+     "sha256": "ece9e93403b9ea4cf6e57f92f39e3cbc93c2cc638fc06dfec0f40c08fca67da0"
     }
    },
    "registration": "14 April 2014, No. 27531",
@@ -1644,12 +1644,12 @@
    "status": {
     "signatories": 54,
     "parties": 54,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "27c896a5b8203275ba9f7899a8403931c02d7d1792536c21231ab123d2ad16ce"
+     "retrieved": "2026-11-16",
+     "sha256": "ece9e93403b9ea4cf6e57f92f39e3cbc93c2cc638fc06dfec0f40c08fca67da0"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1756,8 +1756,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-13&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "0c3f1df25bad95c1b2943379ba06838ab26ec906885988d3cb801a49d118af09"
+     "retrieved": "2026-11-16",
+     "sha256": "acf7093cf4e8801f81efd780497e237dafd473209ad07789fb2758dea22b23b9"
     }
    },
    "registration": "1 July 2003, No. 39481",
@@ -1768,12 +1768,12 @@
    "status": {
     "signatories": 40,
     "parties": 60,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-13&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "0c3f1df25bad95c1b2943379ba06838ab26ec906885988d3cb801a49d118af09"
+     "retrieved": "2026-11-16",
+     "sha256": "acf7093cf4e8801f81efd780497e237dafd473209ad07789fb2758dea22b23b9"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1807,8 +1807,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "5ebada8ecd5c40e3efae0d777cdaa71debd292d923cc316478249df9074bc5f1"
+     "retrieved": "2026-11-16",
+     "sha256": "4cda3c8492e7394681d004e6c25158d22cf23e82c1fca728e6c5270c4a1895d0"
     }
    },
    "registration": "3 May 2008, No. 44910",
@@ -1819,12 +1819,12 @@
    "status": {
     "signatories": 164,
     "parties": 194,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "5ebada8ecd5c40e3efae0d777cdaa71debd292d923cc316478249df9074bc5f1"
+     "retrieved": "2026-11-16",
+     "sha256": "4cda3c8492e7394681d004e6c25158d22cf23e82c1fca728e6c5270c4a1895d0"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -1939,8 +1939,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "2d8192c0b824e6d70bb504cb5880e56ee9bfc7ef38897d6aa17414ed5ae3a707"
+     "retrieved": "2026-11-16",
+     "sha256": "ff93be4e3d34d5659111dff72bfaf7d0f0eaa901a6064ffab1a7b7b44549864c"
     }
    },
    "registration": "3 May 2008, No. 44910",
@@ -1951,12 +1951,12 @@
    "status": {
     "signatories": 95,
     "parties": 110,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "2d8192c0b824e6d70bb504cb5880e56ee9bfc7ef38897d6aa17414ed5ae3a707"
+     "retrieved": "2026-11-16",
+     "sha256": "ff93be4e3d34d5659111dff72bfaf7d0f0eaa901a6064ffab1a7b7b44549864c"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2068,8 +2068,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-16&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "b5bc140638ab3dab3c7ee652cd4f1ea805116597d8cad5c68594172cdd8ef38f"
+     "retrieved": "2026-11-16",
+     "sha256": "ace41c0be9822cdfb5909fd0d9e5222c925e8ec9ccdc5a78009eb8bf47f67699"
     }
    },
    "registration": "23 December 2010, No. 48088",
@@ -2080,12 +2080,12 @@
    "status": {
     "signatories": 98,
     "parties": 78,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-16&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "b5bc140638ab3dab3c7ee652cd4f1ea805116597d8cad5c68594172cdd8ef38f"
+     "retrieved": "2026-11-16",
+     "sha256": "ace41c0be9822cdfb5909fd0d9e5222c925e8ec9ccdc5a78009eb8bf47f67699"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2328,8 +2328,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "017b43b09a295c99aa1d9c61d287c737466273611fae64b87b40bb44e0ce80a8"
+     "retrieved": "2026-11-16",
+     "sha256": "1fd2421353c24e57c43616c80b20cf8d2e508dbd4f43450b759fbe0f26eb8763"
     }
    },
    "registration": null,
@@ -2340,12 +2340,12 @@
    "status": {
     "signatories": null,
     "parties": 31,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "017b43b09a295c99aa1d9c61d287c737466273611fae64b87b40bb44e0ce80a8"
+     "retrieved": "2026-11-16",
+     "sha256": "1fd2421353c24e57c43616c80b20cf8d2e508dbd4f43450b759fbe0f26eb8763"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2374,8 +2374,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "1ed6258f8a8c7842a43f1e7a6f9fc4f3ebd351f02b924f4e18e40bd838a7e08a"
+     "retrieved": "2026-11-16",
+     "sha256": "b80e4cb6feb091aa456280b28923ac0e37e5f3fe8f184f520db0cc7038adef54"
     }
    },
    "registration": null,
@@ -2386,12 +2386,12 @@
    "status": {
     "signatories": null,
     "parties": 84,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "1ed6258f8a8c7842a43f1e7a6f9fc4f3ebd351f02b924f4e18e40bd838a7e08a"
+     "retrieved": "2026-11-16",
+     "sha256": "b80e4cb6feb091aa456280b28923ac0e37e5f3fe8f184f520db0cc7038adef54"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2420,8 +2420,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a6ff3903fa8c4cac8281345a179b6d56daf1072b0fc04c217528b48d74a7ddee"
+     "retrieved": "2026-11-16",
+     "sha256": "8ead2bb6d9c6b7f87c1d4278c6608948b795872ff4f647c3d19258333951ea0e"
     }
    },
    "registration": "18 November 2002, No. 27531",
@@ -2432,12 +2432,12 @@
    "status": {
     "signatories": null,
     "parties": 144,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a6ff3903fa8c4cac8281345a179b6d56daf1072b0fc04c217528b48d74a7ddee"
+     "retrieved": "2026-11-16",
+     "sha256": "8ead2bb6d9c6b7f87c1d4278c6608948b795872ff4f647c3d19258333951ea0e"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2478,8 +2478,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "9ff52e1f10d5071b899e6615d063dbcfc668894594c365ce793a6942112b4b34"
+     "retrieved": "2026-11-16",
+     "sha256": "c28b0dca307a51c41b7c79131cee06392735715d761ed5233fdfa01f399b3cb4"
     }
    },
    "registration": null,
@@ -2490,12 +2490,12 @@
    "status": {
     "signatories": null,
     "parties": 54,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2-a&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "9ff52e1f10d5071b899e6615d063dbcfc668894594c365ce793a6942112b4b34"
+     "retrieved": "2026-11-16",
+     "sha256": "c28b0dca307a51c41b7c79131cee06392735715d761ed5233fdfa01f399b3cb4"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2524,8 +2524,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-1&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "8eed640fcda242e17457b85a52a63969de7e2133a38dc252f9c4125fd2d3582e"
+     "retrieved": "2026-11-16",
+     "sha256": "d0452f3fc1289434e22dfc018d5143b4a86296b52628ae0a78615f50d5de874f"
     }
    },
    "registration": "12 January 1951, No. 1021",
@@ -2536,12 +2536,12 @@
    "status": {
     "signatories": 41,
     "parties": 154,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-1&chapter=4&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "8eed640fcda242e17457b85a52a63969de7e2133a38dc252f9c4125fd2d3582e"
+     "retrieved": "2026-11-16",
+     "sha256": "d0452f3fc1289434e22dfc018d5143b4a86296b52628ae0a78615f50d5de874f"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2574,8 +2574,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-2&chapter=5&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "91893b0cb460c2f125e3c59e245017be4456a59b6238faacc17198703a899aa4"
+     "retrieved": "2026-11-16",
+     "sha256": "ba8580e9de39b8be20a5ace83256e58e3be4c7da1e30e33742cbce88ef5a2d5b"
     }
    },
    "registration": "22 April 1954, No. 2545",
@@ -2586,12 +2586,12 @@
    "status": {
     "signatories": 19,
     "parties": 146,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-2&chapter=5&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "91893b0cb460c2f125e3c59e245017be4456a59b6238faacc17198703a899aa4"
+     "retrieved": "2026-11-16",
+     "sha256": "ba8580e9de39b8be20a5ace83256e58e3be4c7da1e30e33742cbce88ef5a2d5b"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -2697,8 +2697,8 @@
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-5&chapter=5&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a1d98561f3dfb07a888ae0be95d25490640d966d4d5ce0f0c16ce3f0a034eea8"
+     "retrieved": "2026-11-16",
+     "sha256": "29ec0d63cf4805f8e41de77c55763275a699d62ba3f7e34c362fb24728a3d5a5"
     }
    },
    "registration": "4 October 1967, No. 8791",
@@ -2709,12 +2709,12 @@
    "status": {
     "signatories": null,
     "parties": 147,
-    "as_of": "2026-11-09",
+    "as_of": "2026-11-16",
     "ref": {
      "source": "untc",
      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-5&chapter=5&clang=_en",
-     "retrieved": "2026-11-09",
-     "sha256": "a1d98561f3dfb07a888ae0be95d25490640d966d4d5ce0f0c16ce3f0a034eea8"
+     "retrieved": "2026-11-16",
+     "sha256": "29ec0d63cf4805f8e41de77c55763275a699d62ba3f7e34c362fb24728a3d5a5"
     }
    },
    "depositary": "Secretario General de las Naciones Unidas",
@@ -4915,7 +4915,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos_firmas.htm",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "48faf75a5c51cdf730f3c181e2eddb8c6379c20892ae92789bc873e7db1c5f94"
     }
    },
@@ -4927,7 +4927,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos_firmas.htm",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "48faf75a5c51cdf730f3c181e2eddb8c6379c20892ae92789bc873e7db1c5f94"
     },
     "counted": true
@@ -5010,8 +5010,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": [
     "oas-death-penalty",
@@ -5033,7 +5033,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-61.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "991a735b5d7b71cb77a9c0ad6cdd4314f91ac43209fa6fbd950af6f876d03fe8"
     }
    },
@@ -5045,7 +5045,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-61.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "991a735b5d7b71cb77a9c0ad6cdd4314f91ac43209fa6fbd950af6f876d03fe8"
     },
     "counted": true
@@ -5129,8 +5129,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5149,7 +5149,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-65.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9879a5a1672d9085893a4ca4bc184347186ec31f1b2400f82b511fe95dd5e8fd"
     }
    },
@@ -5161,7 +5161,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-65.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9879a5a1672d9085893a4ca4bc184347186ec31f1b2400f82b511fe95dd5e8fd"
     },
     "counted": true
@@ -5241,8 +5241,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5261,7 +5261,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-60.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0997680bc6090af3f86905f66c7d8a2a92c28a6f55da1d57f9109fe14004432e"
     }
    },
@@ -5273,7 +5273,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-60.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0997680bc6090af3f86905f66c7d8a2a92c28a6f55da1d57f9109fe14004432e"
     },
     "counted": true
@@ -5356,8 +5356,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5376,7 +5376,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-69_discriminacion_intolerancia_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "2294f65f0cb8b2c4e2cb82443a1cfb10c19cb59fda57f3424f929b459d1a1828"
     }
    },
@@ -5388,7 +5388,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-69_discriminacion_intolerancia_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "2294f65f0cb8b2c4e2cb82443a1cfb10c19cb59fda57f3424f929b459d1a1828"
     },
     "counted": true
@@ -5468,8 +5468,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5488,7 +5488,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-70_derechos_humanos_personas_mayores_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0d4a6743a28a1eda71b3c18ec9a1d487d0c375d327379cf6a45336adb7b572fb"
     }
    },
@@ -5500,7 +5500,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-70_derechos_humanos_personas_mayores_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "0d4a6743a28a1eda71b3c18ec9a1d487d0c375d327379cf6a45336adb7b572fb"
     },
     "counted": true
@@ -5580,8 +5580,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5600,7 +5600,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "d188f4d8c0334679fc1c7179f95733d14f3f3b3a7fbc90dda36c754bdbff380b"
     }
    },
@@ -5612,7 +5612,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "d188f4d8c0334679fc1c7179f95733d14f3f3b3a7fbc90dda36c754bdbff380b"
     },
     "counted": true
@@ -5692,8 +5692,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5712,7 +5712,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-51.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "8e6da4580c289a490dc951a67422773c404bff61e79815ce8f81452b36a14821"
     }
    },
@@ -5724,7 +5724,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-51.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "8e6da4580c289a490dc951a67422773c404bff61e79815ce8f81452b36a14821"
     },
     "counted": true
@@ -5807,8 +5807,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5827,7 +5827,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-53.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9f1296ef62af7c20d2c9f7c8cf6300a9b1a21d26618726e289d3d2e0b9ff001b"
     }
    },
@@ -5839,7 +5839,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-53.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "9f1296ef62af7c20d2c9f7c8cf6300a9b1a21d26618726e289d3d2e0b9ff001b"
     },
     "counted": true
@@ -5922,8 +5922,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -5942,7 +5942,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-52.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "33b2004add8651bb2b2dadecc9133177803388ae00ac5698c88126052609d010"
     }
    },
@@ -5954,7 +5954,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/juridico/spanish/firmas/a-52.html",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "33b2004add8651bb2b2dadecc9133177803388ae00ac5698c88126052609d010"
     },
     "counted": true
@@ -6038,8 +6038,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -6058,7 +6058,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-41_carta_OEA_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "c63d9809f822c82cde0e1f697a29d36d9e60d4162c7c45eac027e60db8c18dcf"
     }
    },
@@ -6070,7 +6070,7 @@
     "ref": {
      "source": "oas",
      "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-41_carta_OEA_firmas.asp",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "c63d9809f822c82cde0e1f697a29d36d9e60d4162c7c45eac027e60db8c18dcf"
     },
     "counted": true
@@ -6152,8 +6152,8 @@
    "title_es_ref": {
     "source": "oas",
     "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
-    "retrieved": "2026-11-09",
-    "sha256": "624e69225d77448719bdbf0bc8b7e9c4a1a071ca1933c3b3f7cb3d1828fd32d7"
+    "retrieved": "2026-11-16",
+    "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4"
    },
    "children": []
   },
@@ -6322,8 +6322,8 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/en/treaties/african-charter-human-and-peoples-rights",
-     "retrieved": "2026-11-09",
-     "sha256": "674b6b101ac4a02dde5ad4fcb408529703c02fcacddb4176f4cf0cf334e3272a"
+     "retrieved": "2026-11-16",
+     "sha256": "5b5de9d0f17fd35bf52cbc7c8e0ae385010760cde9f0383d925efe89a70dbd08"
     }
    },
    "depositary": "Comisión de la Unión Africana",
@@ -6334,7 +6334,7 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/sites/default/files/treaties/36390-sl-african_charter_on_human_and_peoples_rights_2.pdf",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "6ecf696a289a801bd4599cfe5f84afe0371eeb6fb7de78a334c67d9dfecdf2bd"
     },
     "counted": true
@@ -6444,8 +6444,8 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/en/treaties/african-charter-rights-and-welfare-child",
-     "retrieved": "2026-11-09",
-     "sha256": "3659ee8cc40644a8ce0bef8f276c8ff77f4f96d1e7a48a91d81aa7db4ee055e2"
+     "retrieved": "2026-11-16",
+     "sha256": "bd1f2b25d8db69fe441d361163287924ca226a9b08d3200b625d14e67959360e"
     }
    },
    "depositary": "Comisión de la Unión Africana",
@@ -6456,7 +6456,7 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/sites/default/files/treaties/36804-sl-AFRICAN_CHARTER_ON_THE_RIGHTS_AND_WELFARE_OF_THE_CHILD.pdf",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "addd68dccfa9cc87df67257f6d378d5a20ee9fe8241ab13d7b04ec70f86b3b40"
     },
     "counted": true
@@ -6496,8 +6496,8 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/en/treaties/protocol-african-charter-human-and-peoples-rights-establishment-african-court-human-and",
-     "retrieved": "2026-11-09",
-     "sha256": "1cd33d5721febab4834020893e032008e064fad1b54dd05a6a73efb4a1ee5e39"
+     "retrieved": "2026-11-16",
+     "sha256": "2ed96cd34022c87c6ed249fa89e3f5fb99722de7e38f939ed6f1ed6725454f4a"
     }
    },
    "depositary": "Comisión de la Unión Africana",
@@ -6508,7 +6508,7 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/sites/default/files/treaties/36393-sl-PROTOCOL_TO_THE_AFRICAN_CHARTER_ON_HUMAN_AND_PEOPLESRIGHTS_ON_THE_ESTABLISHMENT_OF_AN_AFRICAN_COURT_ON_HUMAN_AND_PEOPLES_RIGHTS_0.pdf",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "a46f7dda98dbf78f8ecba8506dfb24e6c83c345c0c12dc57bb7566473b11a7d8"
     },
     "counted": true
@@ -6545,8 +6545,8 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/en/treaties/protocol-african-charter-human-and-peoples-rights-rights-women-africa",
-     "retrieved": "2026-11-09",
-     "sha256": "c1b2aae1afd49c95375c5e8fd9c735a74a7e1623e8ffdb836ef172a4e5075aa2"
+     "retrieved": "2026-11-16",
+     "sha256": "d2f271d2cc9ea57d787c8b499766b4d1dc5d612c9a2183e4506c254608238b67"
     }
    },
    "depositary": "Comisión de la Unión Africana",
@@ -6557,7 +6557,7 @@
     "ref": {
      "source": "au",
      "url": "https://au.int/sites/default/files/treaties/37077-sl-PROTOCOL_TO_THE_AFRICAN_CHARTER_ON_HUMAN_AND_PEOPLES_RIGHTS_ON_THE_RIGHTS_OF_WOMEN_IN_AFRICA.pdf",
-     "retrieved": "2026-11-09",
+     "retrieved": "2026-11-16",
      "sha256": "130a1273d2e2aee91ca089689dac36b246d00038e5b1aecfe56a18e4b2769d43"
     },
     "counted": true

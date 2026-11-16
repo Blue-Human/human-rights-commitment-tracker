@@ -1,12 +1,12 @@
 {
  "instrument": "un-icerd-amend-8",
  "register": "untc",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-16",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2-a&chapter=4&clang=_en",
-  "retrieved": "2026-11-09",
-  "sha256": "9ff52e1f10d5071b899e6615d063dbcfc668894594c365ce793a6942112b4b34"
+  "retrieved": "2026-11-16",
+  "sha256": "c28b0dca307a51c41b7c79131cee06392735715d761ed5233fdfa01f399b3cb4"
  },
  "columns": [
   "Participant",
