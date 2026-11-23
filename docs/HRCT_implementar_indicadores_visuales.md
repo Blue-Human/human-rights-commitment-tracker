@@ -1,0 +1,1153 @@
+# BH-HRCT — Implementar indicadores visuales en cada recomendación
+
+## Instrucción al agente del repositorio
+
+Implementa esta funcionalidad en el repositorio actual. Inspecciona primero `AGENTS.md`, la estructura, las rutas de recomendaciones, los componentes UI, los tokens de diseño, la autenticación, las consultas a Supabase y las migraciones existentes. Después realiza los cambios de código, esquema, integración y validación que correspondan. No te limites a proponer una arquitectura ni entregues una maqueta desconectada de los datos.
+
+Este documento es autosuficiente: los anexos contienen el catálogo y las asignaciones convertidas del Excel `HRCT_Spain_UPR4_indicator_system.xlsx`. No necesitas adjuntar ni leer ese Excel. El documento de contexto del proyecto, si existe en el repo, sigue aplicando.
+
+### Objetivo
+
+En la ficha de cada recomendación, permitir entender visualmente qué indicadores ayudan a evaluarla, cómo evolucionan, qué meta documentada existe y de dónde provienen los datos. Un número aislado no satisface el requisito. Implementa gráficos reales, legibles y coherentes con la UI actual.
+
+Una recomendación admite cero, uno o varios indicadores. Un indicador es reutilizable entre recomendaciones; sus observaciones no se duplican al vincularlo. Los indicadores aportan evidencia, pero no deciden automáticamente el cumplimiento ni modifican el estado de implementación.
+
+### Alcance y procedencia
+
+Los anexos transcriben una propuesta metodológica del análisis anterior: 324 recomendaciones del EPU de España, numeradas 50.1–50.324; 98 indicadores canónicos; 428 vínculos; 253 `required`, 30 `recommended`, 41 `not_required`. Estos números sirven para validar la conversión del archivo, no sustituyen una validación metodológica.
+
+El archivo original NO contiene observaciones históricas, valores baseline, metas numéricas comprobadas ni fechas de revisión de las asignaciones. No inventes estos datos. Los títulos normalizados del anexo sirven como referencia y no deben sustituir el texto oficial almacenado. Las fuentes preferentes son candidatas para buscar mediciones; no equivalen a una fuente que ya respalde un valor.
+
+Implementa la funcionalidad completa aunque todavía falten mediciones. En ese caso muestra los indicadores asignados y estados vacíos explicativos. Mantén el catálogo y las vinculaciones como propuestas pendientes de revisión cuando no exista evidencia de aprobación editorial. Una asignación propuesta no debe presentarse públicamente como validada.
+
+## 1. Integración con nuestra interfaz
+
+Mantén el lenguaje institucional, minimalista, accesible y basado en evidencias de Blue Human. Reutiliza tipografía, escala de espaciado, colores, bordes, radios, sombras, tarjetas, botones, iconos, estados y patrones de navegación existentes. El repositorio es la referencia visual; no impongas una nueva estética ni sustituyas el diseño de la página.
+
+Añade una sección `Indicadores y evolución` dentro de la ficha actual, próxima a la evaluación y sus evidencias. Debe formar parte del expediente, no de un dashboard independiente. Respeta el idioma y sistema de traducción de la app. Conserva el resto del contenido y las rutas.
+
+- Cabecera: título, número de indicadores y selector `Últimos 5 años / Todo el histórico`.
+- Explicación breve: “Los indicadores aportan evidencia para la evaluación. Alcanzar una meta no determina por sí solo el cumplimiento de la recomendación”.
+- Tarjetas en una columna en móvil y hasta dos en escritorio, según el ancho disponible. Si son muchos, prioriza `primary` y ofrece expandir los restantes, sin ocultar la existencia de indicadores.
+- Diferencia `Principal`, `Apoyo` y `Contextual` mediante etiquetas discretas.
+- No añadas velocímetros, donuts decorativos, puntuaciones globales ni semáforos de cumplimiento calculados.
+- Color con texto y símbolos accesibles; evita rojo/verde como única señal.
+
+### Contenido de cada tarjeta
+
+1. Nombre y código canónico; tipo `structural / process / output / outcome` con etiqueta traducida.
+2. Rol y breve justificación de su relación con esta recomendación.
+3. Último valor publicado, unidad y periodo de referencia (no confundir con fecha de publicación).
+4. Gráfico histórico visible sin tener que abrir un modal. Incluye ejes, unidad y periodos legibles.
+5. Cambio entre puntos comparables dentro de la ventana visible, indicando los dos periodos; baseline documentada, si existe, se muestra separadamente.
+6. Meta y plazo únicamente cuando están documentados; si no existen, `Sin meta cuantitativa documentada`.
+7. Fuente del último punto y acceso a las fuentes de cada observación; fecha de actualización y advertencias de comparabilidad.
+8. Acceso `Ver datos y metodología` a tabla accesible, fórmula, definiciones, alcance territorial, población y fuentes.
+9. `Por qué este indicador` con el rationale específico de la relación; si solo existe una justificación general del expediente, identifícala como tal.
+
+## 2. Visualización según la medición
+
+| Medición | Visualización | Regla |
+| --- | --- | --- |
+| Número, porcentaje, tasa, índice | Línea temporal con puntos reales | Línea sin suavizado engañoso; conserva huecos y rupturas |
+| Presupuesto anual, recuento de actividad | Barras temporales cuando faciliten la lectura | Barras con origen cero; moneda y escala explícitas |
+| Booleano / acción verificable | Hitos temporales con etiquetas y evidencia | Distinguir Sí, No y Desconocido; nunca convertir desconocido en No |
+| Categoría / texto | Cronología de observaciones revisadas | No forzar porcentajes ni línea numérica |
+| Varias desagregaciones | Selector de población/territorio y serie correspondiente | No mezclar grupos ni agregar tasas sin denominadores |
+| Indicador compuesto | Subgráficos por componente | No mezclar unidades ni sumar componentes |
+
+Con un solo punto muestra el punto sobre el eje temporal y “Una observación disponible; no se puede calcular tendencia”. Sin puntos no dibujes un gráfico ficticio: presenta un estado vacío en su espacio. Con dos o más puntos comparables dibuja la serie. No extrapoles ni rellenes valores.
+
+Muestra tooltips accesibles con periodo, valor, unidad, grupo/territorio, fuente y estado de revisión. Ofrece tabla HTML como alternativa al gráfico, navegación por teclado y etiquetas para lectores de pantalla. Respeta contraste, zoom y `prefers-reduced-motion`.
+
+### Histórico y comparabilidad
+
+- Guarda todo el histórico disponible; muestra por defecto cinco años calendario terminando en el año actual. Si solo hay datos anteriores, informa de ello y ofrece `Todo el histórico` explícitamente.
+- No inventes una observación por año. Distingue año sin dato, dato no disponible y dato cero.
+- No una puntos separados por periodos esperados sin dato. En frecuencia irregular, usa las fechas reales.
+- No conectes segmentos con metodología incompatible. Identifica rupturas, cambio de cobertura, definición o fuente cuando afecte a comparabilidad.
+- Fecha de publicación, fecha de ingestión y periodo medido son campos distintos.
+- El cambio de fuente no implica por sí solo incompatibilidad: registra la evaluación de comparabilidad.
+- Las metas fuera de la ventana temporal siguen apareciendo en el texto; su marcador temporal solo aparece si corresponde al rango mostrado.
+
+### Metas y cambios
+
+Baseline, objetivo y plazo pertenecen a la relación recomendación–indicador (y, si corresponde, componente/población/territorio), no al catálogo global. Define operador de meta (`<=`, `>=`, `=`, rango), tipo (absoluta o relativa) y fuente justificativa. Sin meta comprobada, no calcules porcentaje de logro.
+
+Para porcentajes, muestra diferencia en puntos porcentuales; para otras medidas permite cambio absoluto y relativo. Si el valor inicial es cero, el cambio relativo es indefinido. No calcules cambios entre series incompatibles. Una variación numérica favorable no prueba causalidad.
+
+Usa `higher_is_better`, `lower_is_better`, `target_value` o `neutral` solo como orientación documentada. El valor `context` del anexo debe mapearse a `neutral`, conservando su significado contextual. En delitos registrados, denuncias o detección de víctimas evita concluir automáticamente que una subida es deterioro: puede reflejar más denuncia o detección. Etiqueta numéricamente la variación y explica el contexto.
+
+Si se alcanza una meta, muestra `Meta cuantitativa alcanzada` únicamente para la serie y periodo aplicables. No muestres `Recomendación cumplida` ni actualices su estado. Evita promedios ponderados o índices generales de cumplimiento.
+
+## 3. Datos en Supabase
+
+Adapta estas entidades al esquema real. Reutiliza tablas existentes equivalentes; no crees un modelo paralelo. Prepara migraciones aditivas, tipadas y con integridad referencial. No borres ni sobrescribas recomendaciones, evidencias o evaluaciones existentes.
+
+### Catálogo `indicators`
+
+Identidad estable, código único, nombre, descripción/definición, tipo, tema, metodología, unidad, frecuencia, orientación, fuentes preferentes, desagregaciones recomendadas, estado editorial, activo/archivado, timestamps. Las fuentes preferentes deben distinguirse de las citas de mediciones reales.
+
+Algunos códigos del anexo agrupan varias métricas: por ejemplo `EUR / FTE` no es una unidad única. Añade componentes de medición, mediante entidad `indicator_components` o equivalente, con código estable, etiqueta, unidad, tipo, frecuencia y definición propia. Cada observación corresponde a un componente inequívoco. Para métricas simples basta un componente por defecto. No desdobles silenciosamente los códigos canónicos ni alteres las 428 relaciones; documenta las normalizaciones y permite revisión de definiciones ambiguas antes de publicar datos.
+
+### Vinculación `recommendation_indicators`
+
+FK a recomendación e indicador; rol `primary / supporting / contextual`; rationale específico; estado editorial; referencia baseline y meta cuando estén documentadas; operador y tipo de meta; plazo; fuente de meta; scope de población/territorio/componente; autor/revisor y timestamps. Garantiza idempotencia de la vinculación según el scope que adoptes. No añadas pesos ni un score automático en esta entrega.
+
+Para recomendaciones usa `indicator_requirement = not_required / recommended / required / pending_review` y razón. No confundas cero vínculos con no necesitar indicadores. No sobreescribas una decisión editorial vigente con una propuesta importada.
+
+### Observaciones `indicator_values` o equivalente
+
+Indicador/componente, país, territorio y población; periodo inicial/final y frecuencia; valor tipado (numérico, booleano, texto/categoría), unidad compatible; fuente/cita verificable y evidencia relacionada si existe; fecha de publicación y recuperación; versión metodológica/serie comparable; notas de calidad; estado editorial; autor/revisor y revisión.
+
+Distingue ausencia de medición de cero. Valida el tipo de valor; no permitas varios campos de valor incompatibles. No mezcles país, territorio ni población al consultar. Las dimensiones deben usar una clave normalizada estable: el orden de propiedades no puede generar series duplicadas. Los índices y restricciones deben cubrir las consultas por indicador, componente, país, scope, periodo y estado.
+
+Permite conservar observaciones contradictorias de distintas fuentes. Define explícitamente cuál se considera vigente para una serie pública; no uses “última fila creada” como criterio científico. Conserva revisiones/correcciones con auditoría o versiones: no sobrescribas silenciosamente el histórico. Publica solo observaciones aprobadas y seleccionadas como vigentes; muestra revisiones o fuentes alternativas con contexto cuando proceda.
+
+### Seguridad y consultas
+
+Respeta la autorización existente. RLS o mecanismos equivalentes deben aplicar también a nuevas tablas, vistas y endpoints: lectura pública solo de contenido publicado; gestión y revisión solo con roles autorizados. La clave de servicio nunca va al navegador. No permitas que una vista o un endpoint filtre borradores accidentalmente.
+
+Consulta de forma agrupada los vínculos y series de la recomendación; evita una llamada por tarjeta o año. Usa caché/revalidación según el patrón actual e invalida tras publicar cambios. Carga el histórico completo solo cuando se solicite. Asegura orden temporal estable y selección de serie reproducible.
+
+## 4. Gestión y publicación
+
+Conecta la gestión al mecanismo administrativo real del repo (panel, Jira/Confluence o ingestión existente). No introduzcas una segunda vía de gestión sin necesidad. Si no existe ninguna, crea una interfaz mínima dentro del área protegida existente.
+
+Debe permitir buscar y reutilizar indicadores, vincular/desvincular, establecer aplicabilidad y rationale, editar metas documentadas, añadir/importar mediciones con fuente y scope, y revisar/publicar. Antes de crear un indicador ofrece búsqueda por código, nombre y definición para evitar duplicados. Desvincular una recomendación no elimina un indicador ni sus observaciones.
+
+Los conjuntos de indicadores (`Indicator Sets`) son opcionales y posteriores; no bloquean esta entrega. Tampoco incluye scraping automático de estadísticas ni generación de datos mediante IA.
+
+## 5. Conversión e importación de los anexos
+
+Los bloques JSON son datos de entrada. Los bloques usan `columns` y `rows`: cada fila es un array de valores en el orden de las columnas. Reconstruye los objetos con `dict(zip(columns, row))` o equivalente. Aplica `defaults` a todas las filas antes de los valores propios. Los campos declarados en `derived_fields` se recuperan del bloque indicado. Este formato reduce repeticiones sin perder datos. Extrae su contenido a archivos versionados del repo si facilita el trabajo; no dependas de regex sobre títulos ni de un Excel externo. Conserva los textos y reglas originales en metadatos de importación.
+
+- `recommendations`: aplicabilidad y reglas por recomendación; no recrear recomendaciones existentes.
+- `indicators`: catálogo canónico propuesto.
+- `links`: todas las asignaciones propuestas, sin inferir nuevas relaciones.
+- `methodology_sources`: referencias del análisis original; no son mediciones.
+
+Resuelve cada número contra la recomendación existente filtrando país España y mecanismo/ciclo correspondiente. El número solo no es una clave global. Excluye explícitamente TEST y otros ciclos/países. No crees registros faltantes con títulos normalizados ni actualices la posición oficial de España desde este anexo.
+
+Genera un importador idempotente con modo de validación sin escritura y reporte de inconsistencias. Valida antes de escribir: 324 números únicos, 98 códigos únicos, 428 pares únicos, todas las referencias resueltas, conteos de aplicabilidad y rol. Si falta una recomendación o hay colisión, reporta el problema y no adivines el vínculo. Una segunda ejecución no duplica datos ni reemplaza revisiones humanas. Registra origen y versión del seed.
+
+Las reglas `baseline_rule` y `target_rule` son instrucciones metodológicas, no valores. El corte “≤2025” del anexo proviene del análisis de este ciclo: consérvalo como propuesta, sin generalizarlo a otros ciclos. No deduzcas automáticamente una baseline a partir del primer dato disponible. Para publicar baseline real, identifica el dato comparable y documenta por qué se eligió.
+
+Si el repo carece de acceso a Supabase, entrega migraciones, seed, tipos y UI integrados con el acceso existente; describe el paso concreto pendiente. No simules que aplicaste migraciones o cargaste mediciones. No cambies de proyecto Supabase ni despliegues a producción por iniciativa propia.
+
+## 6. Estados de interfaz que deben funcionar
+
+| Situación | Respuesta |
+| --- | --- |
+| `not_required` sin vínculos | “Esta recomendación se verifica mediante acciones y evidencia documental”; acceso a evidencias |
+| `pending_review` o aplicabilidad desconocida | “La necesidad de indicadores está pendiente de revisión” |
+| `required`/`recommended` sin vínculos publicados | “Indicadores pendientes de definición o revisión”; no afirmar que no necesita medición |
+| Vínculo publicado sin observaciones | Tarjeta con definición, fuente preferente etiquetada y “Sin mediciones publicadas” |
+| Observaciones sin meta | Gráfico y variación comparable; “Sin meta cuantitativa documentada” |
+| Un punto | Punto temporal y aviso de tendencia no calculable |
+| Huecos o ruptura metodológica | Segmentos separados, avisos y tabla con ausencias visibles |
+| Datos antiguos | Periodo explícito, aviso según frecuencia y acceso a histórico |
+| Propuestas/borradores | Solo en gestión autorizada; nunca aparentar evidencia publicada |
+| Error/carga | Skeleton con dimensiones estables y error recuperable; no confundir error con ausencia |
+
+## 7. Criterios de aceptación y pruebas
+
+1. Abrir una recomendación con varios indicadores presenta tarjetas con gráficos y datos de Supabase, dentro del estilo actual.
+2. Dos recomendaciones con el mismo indicador y scope reutilizan la misma serie; editar/publicar una medición se refleja en ambas.
+3. Funcionan recomendaciones sin indicador necesario, pendientes, sin datos, con uno o varios puntos, metas, huecos y desagregaciones.
+4. El histórico permanece almacenado y el selector modifica solo la consulta/visualización.
+5. Se distinguen periodo de referencia, publicación, actualización, fuente y revisión.
+6. No se publica ningún número inventado; fixtures sintéticos solo en tests y previews aisladas, claramente etiquetados y fuera de producción.
+7. No cambia el estado de cumplimiento al variar una observación o alcanzar una meta.
+8. Importación validada e idempotente; no afecta a TEST ni otras recomendaciones.
+9. Público sin acceso a borradores; usuarios sin rol no pueden escribir/publicar.
+10. UI verificada en móvil/escritorio, teclado, tabla accesible, contraste y zoom.
+
+Ejecuta lint, typecheck, build y pruebas existentes pertinentes. Añade pruebas enfocadas a selección de series, porcentajes versus puntos porcentuales, baseline cero, rupturas/huecos, metas por scope, idempotencia y permisos. Verifica visualmente casos representativos con las herramientas del repo. No informes como ejecutados checks que no hayas podido ejecutar.
+
+Al finalizar, entrega un resumen de cambios y rutas, migraciones/seed preparados o aplicados, resultados de validación, pruebas ejecutadas y pendientes reales. El trabajo se considera terminado cuando la sección visual está integrada y conectada; disponer del catálogo sin mediciones debe dar una UI honesta y operativa.
+
+---
+
+# Anexos: datos convertidos del Excel
+
+Estos anexos son una propuesta de catálogo y asignación; no contienen observaciones ni certifican revisión editorial. Los valores `null` representan celdas vacías. Los títulos son normalizados. Conserva códigos y números como texto.
+
+## A. Catálogo canónico
+
+98 registros.
+
+```json
+{
+  "indicators": {
+    "record_count": 98,
+    "defaults": {
+      "history_policy": "Guardar histórico completo; UI muestra ≥5 años cuando existan"
+    },
+    "derived_fields": {},
+    "columns": [
+      "indicator_code",
+      "indicator_name",
+      "indicator_type",
+      "unit",
+      "direction",
+      "definition",
+      "preferred_source",
+      "frequency",
+      "recommended_disaggregation"
+    ]
+ ,
+    "rows": [
+      ["INST-001","Recursos del Defensor del Pueblo","process","EUR / FTE","higher_is_better","Presupuesto ejecutado y plantilla efectiva del Defensor del Pueblo.","Defensor del Pueblo","annual","Presupuesto; plantilla; CCAA cuando aplique"],
+      ["RAC-001","Delitos de odio registrados","outcome","tasa por 100.000","context","Número y tasa de hechos conocidos por delitos/incidentes de odio; interpretar junto con denuncia y persecución.","Ministerio del Interior / Fiscalía","annual","Motivación; sexo; edad; nacionalidad; territorio"],
+      ["RAC-002","Respuesta judicial a delitos de odio","outcome","%","higher_is_better","Proporción de procedimientos por delitos de odio que alcanzan acusación/sentencia, con cautela por diferencias de registro.","Fiscalía / CGPJ","annual","Motivación; territorio"],
+      ["RAC-003","Quejas por discriminación con reparación","outcome","%","higher_is_better","Proporción de quejas/casos de discriminación resueltos con medida correctora, sanción o reparación.","Consejo para la Eliminación de la Discriminación Racial o Étnica / organismos de igualdad","annual","Origen racial/étnico; sexo; discapacidad; religión"],
+      ["RAC-004","Perfilado racial en identificaciones policiales","outcome","tasa / %","lower_is_better","Brecha de identificaciones/controles por origen racial o étnico y quejas fundamentadas por perfilado.","Interior / Defensor del Pueblo / mecanismos de supervisión","annual","Origen; cuerpo policial; territorio"],
+      ["RAC-005","Brecha de acceso por origen o minoría","outcome","puntos porcentuales","lower_is_better","Brecha en empleo, educación o servicios públicos entre población minoritaria/migrante y total.","INE / ministerios sectoriales","annual","Origen; sexo; edad; territorio"],
+      ["EDU-006","Segregación escolar socioeconómica/étnica","outcome","índice","lower_is_better","Índice de segregación escolar por origen o nivel socioeconómico.","Ministerio de Educación / CCAA","annual","Origen; renta; territorio; red educativa"],
+      ["INST-002","Ejecución de planes/estrategias de DDHH","process","% hitos","higher_is_better","Porcentaje de medidas/hitos de un plan o estrategia completados en plazo y con evidencia verificable.","Ministerio competente / informes de seguimiento","annual","Eje; organismo responsable"],
+      ["DIG-001","Incidentes de discriminación/sesgo en sistemas de IA públicos","outcome","nº / tasa","lower_is_better","Incidentes documentados, auditorías adversas o reclamaciones por discriminación atribuible a sistemas de IA en uso público.","AEPD / organismos públicos / autoridad competente","annual","Sexo; origen; discapacidad; edad"],
+      ["INFO-001","Resiliencia frente a desinformación","outcome","% población","higher_is_better","Proporción de población con competencias verificadas de alfabetización mediática/digital y capacidad de identificación de contenidos manipulados.","INE / Comisión Europea / estudios públicos","biennial","Edad; sexo; educación"],
+      ["FORCE-001","Uso excesivo de la fuerza: quejas e investigaciones","outcome","nº / tasa","lower_is_better","Quejas fundamentadas, investigaciones y sanciones por uso excesivo de la fuerza o armas.","Interior / Fiscalía / Defensor del Pueblo","annual","Cuerpo; territorio; contexto"],
+      ["TORT-001","Denuncias de tortura o malos tratos investigadas","outcome","%","higher_is_better","Proporción de denuncias de tortura/malos tratos que reciben investigación independiente y efectiva.","Fiscalía / CGPJ / Defensor del Pueblo","annual","Lugar de custodia; cuerpo; resultado"],
+      ["MIG-010","Incidentes de devolución colectiva/no devolución","outcome","nº","lower_is_better","Casos documentados en los que existan indicios de devolución colectiva o vulneración del principio de no devolución.","Interior / Defensor del Pueblo / tribunales","annual","Frontera; nacionalidad; edad"],
+      ["DET-001","Personas sometidas a incomunicación/aislamiento","process","nº / días","lower_is_better","Número de personas y duración media/máxima bajo regímenes de incomunicación o aislamiento.","Interior / Instituciones Penitenciarias / CGPJ","annual","Sexo; edad; centro"],
+      ["PRIS-001","Tasa de ocupación penitenciaria","outcome","% capacidad","lower_is_better","Población penitenciaria sobre capacidad oficial operativa.","Instituciones Penitenciarias / SPACE Council of Europe","annual","Centro; sexo"],
+      ["GOV-001","Transparencia y acceso a información pública","outcome","%","higher_is_better","Solicitudes de acceso resueltas en plazo y proporción de resoluciones estimatorias/cumplidas.","Consejo de Transparencia / administraciones","annual","Administración; territorio"],
+      ["JUST-001","Duración y pendencia judicial","outcome","días / tasa","lower_is_better","Duración mediana de procedimientos y tasa de asuntos pendientes en jurisdicciones relevantes.","CGPJ","annual","Jurisdicción; territorio"],
+      ["JUST-002","Capacidad del sistema judicial","process","vacantes / 100.000","context","Dotación efectiva de jueces/fiscales/personal y vacantes, contextualizada con carga de trabajo.","CGPJ / Fiscalía","annual","Territorio; órgano"],
+      ["TJ-001","Víctimas de la dictadura localizadas, identificadas y restituidas","outcome","nº / %","higher_is_better","Progreso anual en localización, exhumación, identificación y restitución de víctimas.","Ministerio de Política Territorial y Memoria Democrática","annual","Territorio; fase"],
+      ["TJ-002","Medidas de reparación y reconocimiento ejecutadas","process","nº / %","higher_is_better","Medidas previstas en la Ley de Memoria Democrática ejecutadas y personas beneficiarias.","Ministerio competente","annual","Tipo de reparación; territorio"],
+      ["DIG-002","Violencia y explotación de menores en línea","outcome","tasa / nº","lower_is_better","Casos conocidos y prevalencia estimada de violencia, explotación o victimización digital de menores.","Interior / Fiscalía / estudios oficiales","annual","Edad; sexo; tipología"],
+      ["FRE-001","Sanciones por expresión/reunión bajo normativa de seguridad ciudadana","outcome","nº / tasa","lower_is_better","Sanciones administrativas relacionadas con ejercicio de reunión, protesta o expresión bajo normativa de seguridad ciudadana.","Interior / Portal de Transparencia","annual","Tipo infracción; territorio"],
+      ["FRE-002","Agresiones/amenazas contra periodistas, defensores o manifestantes","outcome","nº","lower_is_better","Incidentes verificados contra periodistas, defensores y participantes en reuniones pacíficas.","Interior / Fiscalía / Defensor del Pueblo","annual","Víctima; contexto; territorio"],
+      ["CHILD-001","Matrimonio infantil/forzado detectado","outcome","tasa / nº","lower_is_better","Casos detectados o denunciados de matrimonio infantil o forzado.","Interior / Fiscalía / Igualdad","annual","Edad; sexo; territorio"],
+      ["FAM-001","Cobertura de prestaciones y servicios de apoyo familiar","outcome","% población elegible","higher_is_better","Cobertura efectiva de prestaciones/servicios familiares entre población elegible.","Seguridad Social / INE / CCAA","annual","Renta; tipo hogar; territorio"],
+      ["TRAF-001","Víctimas de trata identificadas formalmente","output","nº / tasa","context","Víctimas identificadas por los mecanismos oficiales, con análisis conjunto de capacidad de detección.","Interior / Fiscalía / Delegación del Gobierno contra la Violencia de Género","annual","Sexo; edad; nacionalidad; finalidad"],
+      ["TRAF-002","Víctimas de trata que reciben protección y asistencia","outcome","%","higher_is_better","Porcentaje de víctimas identificadas con acceso efectivo a alojamiento, asistencia jurídica, sanitaria y social.","Ministerios competentes / CCAA","annual","Sexo; edad; nacionalidad"],
+      ["TRAF-003","Persecución penal de la trata","outcome","investigaciones / condenas","higher_is_better","Investigaciones, acusaciones y condenas por trata, interpretadas con prevalencia y detección.","Fiscalía / CGPJ / Interior","annual","Finalidad; víctima menor/adulta"],
+      ["TRAF-004","Detección temprana y derivación de trata","process","% / días","higher_is_better","Proporción de casos detectados en primera línea y tiempo medio hasta derivación a servicios especializados.","Interior / servicios de derivación","annual","Frontera; sexo; edad; nacionalidad"],
+      ["LAB-001","Tasa de desempleo juvenil","outcome","%","lower_is_better","Tasa de desempleo de 16-24/29 años según definición oficial.","INE EPA / Eurostat","quarterly","Sexo; edad; territorio"],
+      ["LAB-002","Brecha laboral de género","outcome","p.p. / %","lower_is_better","Brechas de empleo, desempleo y salario entre mujeres y hombres.","INE / Eurostat","annual","Edad; territorio; sector"],
+      ["LAB-003","Cobertura de programas de empleo/formación juvenil","output","% / nº","higher_is_better","Participación y finalización de programas de empleo/formación y transición a empleo.","SEPE / CCAA","annual","Sexo; edad; territorio"],
+      ["SOC-001","Cobertura de renta mínima/IMV","outcome","% elegibles","higher_is_better","Cobertura efectiva entre hogares/personas elegibles y tasa de non-take-up.","Seguridad Social / AIReF","annual","Tipo hogar; edad; territorio"],
+      ["SOC-002","Tiempo de acceso a prestaciones sociales","process","días","lower_is_better","Tiempo mediano de resolución y acceso efectivo a prestaciones clave.","Seguridad Social / CCAA","annual","Prestación; territorio"],
+      ["POV-001","Tasa AROPE/pobreza","outcome","%","lower_is_better","Población en riesgo de pobreza o exclusión social.","INE ECV / Eurostat","annual","Edad; sexo; hogar; territorio"],
+      ["POV-002","Pobreza infantil","outcome","% menores","lower_is_better","Menores en riesgo de pobreza o exclusión social.","INE ECV / Eurostat","annual","Edad; tipo hogar; territorio"],
+      ["INEQ-001","Desigualdad de ingresos","outcome","Gini / S80-S20","lower_is_better","Índices oficiales de desigualdad de renta.","INE ECV / Eurostat","annual","Territorio; tipo hogar"],
+      ["HOU-001","Parque de vivienda social/pública","output","% stock / nº","higher_is_better","Viviendas sociales/públicas disponibles y su peso en el parque residencial.","Ministerio de Vivienda / CCAA","annual","Territorio; régimen"],
+      ["HOU-002","Sobrecarga del coste de vivienda","outcome","% hogares","lower_is_better","Hogares que destinan más del umbral oficial al coste de vivienda.","INE / Eurostat","annual","Renta; edad; tenencia; territorio"],
+      ["HOU-003","Personas sin hogar","outcome","tasa / nº","lower_is_better","Personas sin hogar según operaciones estadísticas oficiales comparables.","INE / CCAA","biennial","Sexo; edad; nacionalidad"],
+      ["HOU-004","Desahucios/lanzamientos","outcome","tasa / nº","lower_is_better","Lanzamientos practicados y procedimientos vinculados a pérdida de vivienda habitual.","CGPJ","quarterly","Tipo procedimiento; territorio"],
+      ["HOU-005","Producción/entrega de vivienda asequible","output","nº","higher_is_better","Nuevas viviendas sociales/asequibles finalizadas o incorporadas al parque público.","Ministerio de Vivienda / CCAA","annual","Territorio; modalidad"],
+      ["SRH-001","Acceso efectivo a interrupción voluntaria del embarazo","outcome","cobertura / días","higher_is_better","Cobertura territorial y tiempos de acceso a IVE en el sistema público, sin barreras indebidas.","Ministerio de Sanidad / CCAA","annual","CCAA; edad"],
+      ["SRH-002","Cobertura de educación sexual integral","output","% centros/alumnado","higher_is_better","Centros o alumnado con currículo efectivo de educación sexual integral conforme a estándares definidos.","Educación / CCAA","annual","Nivel; territorio"],
+      ["HEA-001","Necesidad médica no atendida","outcome","% población","lower_is_better","Personas que declaran necesidad de atención no cubierta por coste, espera, distancia u otras barreras.","INE / Eurostat / Sanidad","annual","Renta; origen; discapacidad; territorio"],
+      ["HEA-002","Cobertura sanitaria efectiva de población vulnerable/migrante","outcome","%","higher_is_better","Acceso efectivo y regular a atención primaria y prestaciones esenciales por grupos vulnerables/migrantes.","Sanidad / CCAA / INE","annual","Situación administrativa; nacionalidad; territorio"],
+      ["MH-001","Acceso a salud mental infantojuvenil","outcome","días / profesionales por 100k","higher_is_better","Tiempo de espera y disponibilidad de profesionales/servicios de salud mental para menores.","Sanidad / CCAA","annual","Edad; sexo; territorio"],
+      ["ADD-001","Consumo problemático y acceso a tratamiento en jóvenes","outcome","% / tasa","lower_is_better","Prevalencia de consumos problemáticos y cobertura de tratamiento/previsión en población joven.","Plan Nacional sobre Drogas","biennial","Edad; sexo; sustancia"],
+      ["EDU-001","Abandono temprano de la educación-formación","outcome","%","lower_is_better","Población de 18-24 años que no continúa educación/formación según indicador oficial.","INE / Eurostat / Educación","annual","Sexo; origen; territorio"],
+      ["EDU-002","Brecha de acceso/rendimiento educativo","outcome","p.p.","lower_is_better","Brecha en escolarización, rendimiento, titulación o abandono de grupos desfavorecidos frente al total.","Educación / INE","annual","Origen; discapacidad; renta; sexo; territorio"],
+      ["EDU-003","Cobertura educativa rural","outcome","% / distancia","higher_is_better","Acceso efectivo a plazas, centros y servicios educativos en zonas rurales.","Educación / CCAA","annual","Ruralidad; nivel; territorio"],
+      ["EDU-004","Repetición de curso","outcome","% alumnado","lower_is_better","Proporción de alumnado repetidor por etapa.","Educación","annual","Origen; renta; sexo; territorio"],
+      ["EDU-005","Gasto público educativo inclusivo","input","EUR / % PIB","context","Gasto público educativo y partidas dirigidas a inclusión/equidad.","Educación / IGAE","annual","Programa; territorio"],
+      ["LANG-001","Acceso a enseñanza y uso de lenguas cooficiales/regionales","outcome","% alumnado/servicios","context","Disponibilidad y uso efectivo de enseñanza/servicios en lenguas regionales conforme al marco aplicable.","Educación / CCAA","annual","Lengua; territorio"],
+      ["CLIM-001","Emisiones de GEI","outcome","MtCO2e / índice","lower_is_better","Emisiones nacionales de gases de efecto invernadero y evolución respecto al año base/objetivo.","MITECO","annual","Sector"],
+      ["CLIM-002","Ejecución del Plan Nacional de Adaptación","process","% medidas","higher_is_better","Medidas de adaptación completadas/en curso con evidencia y financiación.","MITECO","annual","Sector; población vulnerable"],
+      ["CLIM-003","Financiación climática internacional","input","EUR / %","higher_is_better","Financiación climática pública internacional movilizada para países en desarrollo.","MITECO / AECID","annual","Mitigación/adaptación; región"],
+      ["DRR-001","Cobertura de sistemas de alerta temprana","outcome","% población/territorio","higher_is_better","Población y territorio cubiertos por sistemas multirriesgo de alerta temprana operativos.","Protección Civil / AEMET","annual","Riesgo; territorio"],
+      ["CLIM-004","Participación de niños y jóvenes en política ambiental","process","nº / % procesos","higher_is_better","Procesos de política ambiental/climática con participación estructurada de niños y jóvenes.","MITECO / órganos de participación","annual","Edad; territorio"],
+      ["DEV-001","Ayuda Oficial al Desarrollo","input","% RNB","higher_is_better","AOD neta como porcentaje de la renta nacional bruta y volumen total.","AECID / OCDE CAD","annual","Sector; país"],
+      ["COOP-001","Programas de cooperación técnica/académica ejecutados","output","nº / participantes","context","Programas y participantes en cooperación técnica, académica o Sur-Sur vinculados a la recomendación.","AECID / ministerios","annual","País; temática; sexo"],
+      ["GEN-001","Representación de mujeres en puestos de decisión","outcome","%","higher_is_better","Proporción de mujeres en puestos de liderazgo/decisión en sector público y privado.","INE / Instituto de las Mujeres","annual","Sector; nivel"],
+      ["RUR-001","Brecha socioeconómica de mujeres rurales","outcome","p.p. / %","lower_is_better","Brechas de empleo, ingresos, titularidad y acceso a ayudas entre mujeres rurales y población comparable.","MAPA / INE","annual","Edad; territorio"],
+      ["STEM-001","Participación de mujeres en STEM/FP tecnológica","outcome","%","higher_is_better","Proporción de mujeres entre matrícula/graduación en STEM y FP tecnológica.","Educación / Universidades / INE","annual","Nivel; disciplina"],
+      ["DIG-003","Brecha digital de género","outcome","p.p.","lower_is_better","Brecha entre mujeres y hombres en competencias digitales y uso avanzado de tecnologías.","INE","annual","Edad; educación; territorio"],
+      ["GBV-001","Violencia contra las mujeres: prevalencia/incidencia","outcome","% / tasa","lower_is_better","Prevalencia estimada y hechos denunciados de violencia contra mujeres, interpretados conjuntamente.","Igualdad / Interior / Macroencuesta","annual/biennial","Tipo violencia; edad; territorio"],
+      ["GBV-002","Feminicidios y asesinatos por violencia de género","outcome","tasa / nº","lower_is_better","Mujeres asesinadas por pareja/expareja y otras categorías oficiales de feminicidio cuando existan.","Delegación del Gobierno contra la Violencia de Género","annual","Relación; territorio"],
+      ["GBV-003","Protección y respuesta rápida a víctimas","outcome","días / %","higher_is_better","Tiempo de respuesta y cobertura de órdenes/medidas de protección y servicios urgentes.","CGPJ / Interior / Igualdad","quarterly","Territorio; nivel de riesgo"],
+      ["GBV-004","Persecución y resolución judicial de violencia de género/sexual","outcome","% / días","higher_is_better","Investigaciones, acusaciones, sentencias y duración procesal en delitos relevantes.","CGPJ / Fiscalía","annual","Tipo delito; territorio"],
+      ["GBV-005","Reincidencia/revictimización en violencia de género","outcome","%","lower_is_better","Casos con reincidencia o revictimización dentro de periodo definido.","Interior / VioGén / CGPJ","annual","Nivel de riesgo; territorio"],
+      ["GBV-006","Recursos especializados contra violencia de género","input","EUR / plazas / profesionales","higher_is_better","Dotación presupuestaria, plazas y profesionales de servicios especializados.","Igualdad / CCAA","annual","Servicio; territorio"],
+      ["GBV-007","Ciberviolencia contra mujeres y niñas","outcome","tasa / nº","lower_is_better","Casos y prevalencia de acoso, amenazas, explotación o violencia de género en línea.","Interior / Igualdad / estudios oficiales","annual","Edad; plataforma/tipología"],
+      ["TRAIN-001","Cobertura de formación obligatoria en DDHH","process","% personal objetivo","higher_is_better","Proporción del personal objetivo que completa formación acreditada y evaluada.","Ministerio/organismo competente","annual","Cuerpo; territorio; temática"],
+      ["FGM-001","Mutilación genital femenina: riesgo/casos y protección","outcome","nº / tasa","lower_is_better","Casos detectados y menores/mujeres en riesgo con medidas de protección activadas.","Sanidad / Igualdad / CCAA","annual","Edad; territorio"],
+      ["CHILD-002","Cobertura de prestación por hijo y protección infantil","outcome","% menores elegibles","higher_is_better","Cobertura de prestaciones monetarias y medidas de protección social de infancia.","Seguridad Social / CCAA","annual","Renta; hogar; territorio"],
+      ["CHILD-003","Violencia contra niños y adolescentes","outcome","tasa / %","lower_is_better","Casos registrados y prevalencia estimada de violencia contra menores.","Interior / Fiscalía / Observatorio de la Infancia","annual","Edad; sexo; tipo"],
+      ["UAM-001","Tiempo de identificación/derivación de menores no acompañados","process","días","lower_is_better","Tiempo desde detección hasta identificación, tutela y derivación a recurso adecuado.","CCAA / Fiscalía / Interior","annual","Territorio; edad"],
+      ["UAM-002","Reubicación efectiva de menores no acompañados","output","nº / días","higher_is_better","Menores reubicados y tiempo medio desde punto de llegada hasta recurso definitivo.","CCAA / Ministerio competente","annual","Origen; territorio"],
+      ["UAM-003","Evaluaciones de edad invasivas","outcome","% evaluaciones","lower_is_better","Proporción de procedimientos de determinación de edad que usan exámenes invasivos/no compatibles con protocolo.","Fiscalía / CCAA / Sanidad","annual","Territorio; técnica"],
+      ["OLDER-001","Cobertura de atención domiciliaria/comunitaria","outcome","% población elegible","higher_is_better","Personas mayores/dependientes con acceso efectivo a atención domiciliaria o comunitaria.","IMSERSO / CCAA","annual","Edad; dependencia; territorio"],
+      ["OLDER-002","Lista de espera de cuidados de larga duración","outcome","días / %","lower_is_better","Tiempo de espera y personas pendientes de prestación/servicio de dependencia.","IMSERSO / CCAA","annual","Grado; territorio"],
+      ["DIS-001","Brecha de empleo de personas con discapacidad","outcome","p.p.","lower_is_better","Diferencia en tasa de empleo/desempleo entre personas con y sin discapacidad.","INE / ODISMET","annual","Sexo; edad; territorio"],
+      ["DIS-002","Accesibilidad de servicios/entornos públicos","outcome","% conformidad","higher_is_better","Proporción de servicios, webs, edificios o viviendas públicas evaluadas que cumplen estándares de accesibilidad.","Administraciones / observatorios de accesibilidad","annual","Tipo servicio; territorio"],
+      ["DIS-003","Segregación educativa por discapacidad","outcome","% alumnado","lower_is_better","Proporción de alumnado con discapacidad escolarizado en modalidades/centros segregados frente a educación ordinaria inclusiva.","Educación / CCAA","annual","Tipo discapacidad; etapa; territorio"],
+      ["DIS-004","Acceso a rehabilitación","outcome","días / % cobertura","higher_is_better","Cobertura y tiempo de espera para programas de rehabilitación/habilitación.","Sanidad / CCAA","annual","Tipo; territorio"],
+      ["REL-001","Discriminación por religión o creencia","outcome","tasa / nº","lower_is_better","Incidentes, denuncias y casos de discriminación por religión o creencia.","Interior / Fiscalía / organismos de igualdad","annual","Religión; territorio"],
+      ["LGBT-001","Personal sanitario formado en diversidad sexual y de género","process","%","higher_is_better","Proporción de personal objetivo con formación acreditada en diversidad sexual y de género.","Sanidad / CCAA","annual","Profesión; territorio"],
+      ["LGBT-002","Brecha/discriminación laboral LGBTI","outcome","% / nº","lower_is_better","Indicadores de discriminación, desempleo o acoso laboral reportado por personas LGBTI.","Trabajo / organismos de igualdad / estudios oficiales","annual/biennial","Identidad/orientación; edad"],
+      ["MIG-001","Brecha de acceso sanitario de población migrante","outcome","p.p. / %","lower_is_better","Diferencia en necesidad médica no atendida y acceso a primaria respecto al total.","Sanidad / INE","annual","Situación administrativa; sexo; nacionalidad"],
+      ["MIG-002","Brecha educativa de niños migrantes","outcome","p.p.","lower_is_better","Brechas de escolarización, abandono y rendimiento de menores migrantes frente al total.","Educación / INE","annual","Origen; sexo; territorio"],
+      ["MIG-003","Acceso de migrantes a servicios sociales básicos","outcome","% / p.p.","higher_is_better","Cobertura efectiva de prestaciones/servicios básicos entre población migrante elegible.","Inclusión / CCAA / INE","annual","Situación administrativa; territorio"],
+      ["MIG-004","Condiciones en centros de estancia/internamiento","outcome","% estándares / incidencias","higher_is_better","Cumplimiento de estándares, ocupación e incidencias relevantes en centros para migrantes.","Interior / Defensor del Pueblo","annual","Centro; territorio"],
+      ["ASY-001","Tiempo de acceso al procedimiento de asilo","process","días","lower_is_better","Tiempo desde solicitud de cita/intención hasta formalización efectiva de la solicitud.","OAR / Interior","monthly/annual","Territorio; vía de acceso"],
+      ["ASY-002","Tiempo de resolución de solicitudes de asilo","outcome","días","lower_is_better","Duración mediana de procedimientos de protección internacional y expedientes pendientes.","OAR / Interior","monthly/annual","Nacionalidad; tipo"],
+      ["ASY-003","Cobertura del sistema de acogida","outcome","% / plazas","higher_is_better","Plazas disponibles, ocupación y proporción de solicitantes con acceso efectivo a acogida.","Ministerio de Inclusión","monthly/annual","Territorio; perfil"],
+      ["ASY-004","Garantías procesales en asilo","outcome","%","higher_is_better","Acceso efectivo a asistencia jurídica, interpretación e información en el procedimiento.","OAR / colegios de abogados / Defensor","annual","Territorio; nacionalidad"],
+      ["ASY-005","Cumplimiento del programa de reasentamiento","output","% cuota / nº","higher_is_better","Personas efectivamente reasentadas respecto de la cuota/compromiso anual.","Interior / Inclusión / ACNUR","annual","Nacionalidad; sexo; edad"],
+      ["CHMIG-001","Protección de menores en recursos de acogida migratoria","outcome","% estándares / incidencias","higher_is_better","Cumplimiento de estándares de protección infantil y acceso a tutela/servicios en zonas y recursos de acogida.","CCAA / Defensor del Pueblo / Inclusión","annual","Edad; territorio"]
+    ]
+  }
+}
+```
+
+## B. Aplicabilidad por recomendación
+
+324 registros.
+
+```json
+{
+  "recommendations": {
+    "record_count": 324,
+    "defaults": {
+      "historical_window": "≥5 años comparables; conservar histórico completo",
+      "baseline_rule": "Último dato comparable ≤2025, salvo baseline explícita",
+      "target_rule": "Objetivo explícito si existe; si no, tendencia/suficiencia sin umbral inventado"
+    },
+    "derived_fields": {
+      "indicator_count": "Count links for recommendation_number",
+      "indicator_codes": "Join link indicator_code values for recommendation_number with the original separator \"; \" (null if none)"
+    },
+    "columns": [
+      "recommendation_number",
+      "recommendation_title",
+      "acceptance_status",
+      "indicator_requirement",
+      "measurement_rationale"
+    ]
+ ,
+    "rows": [
+      ["50.1","Convención sobre los trabajadores migratorios: considerar su ratificación","noted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.2","Convención sobre los trabajadores migratorios: considerar la adhesión","noted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.3","Convención sobre los trabajadores migratorios: ratificación","noted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.4","Ratificación del Protocolo Facultativo del Pacto Internacional de Derechos Civiles y Políticos","accepted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.5","Ratificación de la Convención contra el Genocidio","accepted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.6","Tratado sobre la Prohibición de las Armas Nucleares","noted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.7","Tratado sobre las armas nucleares y participación como observador","noted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.8","Medidas coercitivas unilaterales","noted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.9","Asistencia técnica en derechos económicos, sociales y culturales","accepted","not_required","Acción concreta verificable principalmente mediante evidencia documental/normativa."],
+      ["50.10","Recursos para el Defensor del Pueblo","accepted","required","La suficiencia de medios requiere observar recursos efectivos y su evolución."],
+      ["50.11","Medios adecuados para el Observatorio del Racismo y la Xenofobia","accepted","recommended","Conviene medir capacidad/ejecución del mecanismo, además de acreditar su existencia."],
+      ["50.12","Observatorio del Feminicidio y datos sobre armas de fuego","accepted","recommended","El observatorio es verificable documentalmente; el indicador de feminicidios permite seguir el fenómeno que debe monitorizar."],
+      ["50.13","Estrategia nacional contra el racismo, la xenofobia y la intolerancia","accepted","recommended","Plan/estrategia: medir ejecución de medidas e hitos evita confundir adopción con implementación."],
+      ["50.14","Legislación sobre el uso de la fuerza y de las armas de fuego","accepted","recommended","La reforma normativa se complementa con resultados sobre uso excesivo de la fuerza."],
+      ["50.15","Resistencia de la población a la desinformación","accepted","required","La resiliencia es un resultado poblacional y requiere medición longitudinal."],
+      ["50.16","Diversidad en la inteligencia artificial","accepted","recommended","La diversidad/ausencia de sesgo en IA necesita auditorías y registro de incidentes."],
+      ["50.17","Marco Estratégico contra el racismo y la xenofobia","accepted","recommended","Plan/estrategia: medir ejecución de medidas e hitos evita confundir adopción con implementación."],
+      ["50.18","Plan nacional contra el racismo y la intolerancia","accepted","recommended","Plan/estrategia: medir ejecución de medidas e hitos evita confundir adopción con implementación."],
+      ["50.19","III Plan de Acción de Lucha contra los Delitos de Odio","accepted","recommended","Plan/estrategia: medir ejecución de medidas e hitos evita confundir adopción con implementación."],
+      ["50.20","Plan nacional de lucha contra el antisemitismo","accepted","recommended","Plan/estrategia: medir ejecución de medidas e hitos evita confundir adopción con implementación."],
+      ["50.21","II Plan Nacional de Derechos Humanos","accepted","recommended","Plan/estrategia: medir ejecución de medidas e hitos evita confundir adopción con implementación."],
+      ["50.22","Lucha contra el racismo","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.23","Combatir todas las formas de racismo","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.24","Combatir el discurso de odio y sensibilizar","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.25","Discurso de odio y amenazas en Internet","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.26","Poner fin al perfilado étnico por parte de los cuerpos de seguridad","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.27","Prohibir los perfiles raciales o étnicos en los controles de identidad","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.28","Poner fin a las prácticas de perfilado racial","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.29","Combatir el racismo y prohibir el perfilado racial","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.30","Medidas contra el perfilado racial","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.31","Discriminación, discurso de odio y perfilado racial","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.32","Combatir los delitos de odio dentro y fuera de Internet","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.33","Aplicar la legislación contra el racismo y la discriminación","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.34","Combatir el discurso de odio racista y xenófobo","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.35","Legislación integral contra la discriminación","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.36","Legislación específica contra la discriminación racial","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.37","Aplicar la ley contra el racismo y programas educativos","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.38","Combatir el racismo en los espacios digitales","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.39","Reforzar los mecanismos contra el racismo y el discurso de odio","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.40","Combatir la discriminación racial y el discurso de odio","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.41","Eliminar el racismo y campañas de concienciación","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.42","Combatir todas las formas de racismo, xenofobia e intolerancia","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.43","Racismo: legislación, rendición de cuentas y acceso a la justicia","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.44","Erradicar la discriminación y la intolerancia","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.45","Igualdad de las personas con discapacidad y afrodescendientes","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.46","Sistema público accesible de reparación frente a la discriminación","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.47","Igualdad de acceso al empleo, la educación y los servicios públicos","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.48","Discriminación estructural de romaníes y afrodescendientes","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.49","Impacto de las leyes de igualdad de género en el empleo","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.50","Aplicar la legislación antidiscriminatoria por identidad racial o religiosa","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.51","Revisión nacional y plan estratégico contra el racismo","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.52","Discriminación de mujeres romaníes, refugiadas y migrantes","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.53","Sensibilización y rendición de cuentas frente al racismo","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.54","Eliminar la segregación educativa socioeconómica y étnica","accepted","required","Recomendación de resultado o implementación sostenida: requiere observar discriminación, acceso y respuesta institucional."],
+      ["50.55","Armonizar el marco jurídico sobre la tortura con la Convención","noted","not_required","Cambio jurídico definido; la prueba principal es normativa. Puede contextualizarse con datos de aplicación, sin convertirlos en requisito."],
+      ["50.56","Modificar el artículo 174 del Código Penal sobre la tortura","noted","not_required","Cambio jurídico definido; la prueba principal es normativa. Puede contextualizarse con datos de aplicación, sin convertirlos en requisito."],
+      ["50.57","Revisar la definición de tortura del Código Penal","accepted","not_required","Cambio jurídico definido; la prueba principal es normativa. Puede contextualizarse con datos de aplicación, sin convertirlos en requisito."],
+      ["50.58","Armonizar plenamente la definición de tortura","noted","not_required","Cambio jurídico definido; la prueba principal es normativa. Puede contextualizarse con datos de aplicación, sin convertirlos en requisito."],
+      ["50.59","Imprescriptibilidad del delito de tortura","noted","not_required","Cambio jurídico definido; la prueba principal es normativa. Puede contextualizarse con datos de aplicación, sin convertirlos en requisito."],
+      ["50.60","Legislación sobre tortura y detención incomunicada","accepted","recommended","La reforma debe contrastarse con práctica de custodia y denuncias investigadas."],
+      ["50.61","Aplicación de la ley en casos de tortura y malos tratos","accepted","required","La aplicación efectiva exige seguimiento de denuncias e investigaciones."],
+      ["50.62","Principio de no devolución y fin de las devoluciones colectivas","accepted","required","El cumplimiento del principio de no devolución debe observarse en casos documentados."],
+      ["50.63","Eliminar el régimen de incomunicación y aislamiento","partially_accepted","required","El objeto es reducir/eliminar una práctica de detención medible."],
+      ["50.64","Investigar el uso excesivo de la fuerza por las fuerzas del orden","accepted","required","La investigación del uso excesivo de la fuerza requiere seguimiento de quejas, investigaciones y resultados."],
+      ["50.65","Abstenerse de aplicar medidas coercitivas unilaterales","accepted","not_required","Conducta estatal verificable caso a caso mediante decisiones y actos oficiales; no necesita serie KPI propia."],
+      ["50.66","Hacinamiento en las instituciones penitenciarias","accepted","required","El hacinamiento tiene una medida directa y comparable: ocupación sobre capacidad."],
+      ["50.67","Transparencia y rendición de cuentas de las instituciones públicas","accepted","required","La transparencia requiere resultados medibles de acceso a información y cumplimiento."],
+      ["50.68","Independencia judicial y nombramiento de jueces","noted","recommended","La independencia es primordialmente institucional; recursos/vacantes sirven como contexto, no como sustituto del análisis jurídico."],
+      ["50.69","Eficacia de la justicia y reforma de la Ley de Enjuiciamiento Criminal","accepted","required","La eficacia judicial exige medir duración y pendencia además de reformas normativas."],
+      ["50.70","Capacidades e independencia del poder judicial","accepted","required","Capacidad y eficacia del poder judicial requieren carga, duración y dotación."],
+      ["50.71","Justicia transicional para las víctimas de la dictadura","accepted","required","Verdad, justicia y reparación exigen resultados acumulativos verificables."],
+      ["50.72","Verdad, justicia y reparación conforme a la Ley de Memoria Democrática","accepted","required","Verdad, justicia y reparación exigen resultados acumulativos verificables."],
+      ["50.73","Difusión de los principios de la Ley de Memoria Democrática","accepted","recommended","La difusión se verifica por acciones; conviene relacionarla con ejecución de medidas de memoria."],
+      ["50.74","Inteligencia artificial ética y respetuosa de los derechos","accepted","recommended","La garantía de derechos en tecnología requiere auditorías e incidentes de discriminación."],
+      ["50.75","Nuevas tecnologías sin discriminación ni restricción de libertades","accepted","recommended","La garantía de derechos en tecnología requiere auditorías e incidentes de discriminación."],
+      ["50.76","Protección de los menores en línea","accepted","required","La protección en línea debe observar la evolución de victimización/incidentes, además de medidas adoptadas."],
+      ["50.77","Derechos digitales y protección frente a la violencia en línea","accepted","required","La protección en línea debe observar la evolución de victimización/incidentes, además de medidas adoptadas."],
+      ["50.78","Criminalización de opositores, defensores y manifestantes","noted","required","La situación de defensores/manifestantes requiere seguimiento de incidentes y actuaciones."],
+      ["50.79","Modificar la Ley Orgánica de Protección de la Seguridad Ciudadana","accepted","not_required","La recomendación pide una reforma/revisión normativa concreta; la evidencia principal es el texto legal y su adopción."],
+      ["50.80","Limitar el uso de la «ley mordaza» contra la libertad de expresión","accepted","required","Debe medirse el impacto real sobre expresión/reunión, no solo la norma."],
+      ["50.81","Revisar la Ley Orgánica 4/2015 de Seguridad Ciudadana","accepted","not_required","La recomendación pide una reforma/revisión normativa concreta; la evidencia principal es el texto legal y su adopción."],
+      ["50.82","Leyes que restringen la libertad de opinión y de expresión","noted","required","Debe medirse el impacto real sobre expresión/reunión, no solo la norma."],
+      ["50.83","Libertades de reunión, asociación y expresión","accepted","required","Debe medirse el impacto real sobre expresión/reunión, no solo la norma."],
+      ["50.84","Libertad de expresión y de reunión de los grupos minoritarios","accepted","required","Debe medirse el impacto real sobre expresión/reunión, no solo la norma."],
+      ["50.85","Políticas contra los delitos de odio y buenas prácticas","accepted","required","Los delitos/discurso de odio requieren tendencias de hechos y respuesta judicial."],
+      ["50.86","Discurso de odio y extremismo en línea con las plataformas","accepted","required","Los delitos/discurso de odio requieren tendencias de hechos y respuesta judicial."],
+      ["50.87","Programas de espionaje contra la sociedad civil","noted","not_required","La cuestión principal es legal, autorizativa y de rendición de cuentas sobre vigilancia; se evalúa con evidencia de casos y salvaguardias."],
+      ["50.88","Combatir el matrimonio infantil y forzado","accepted","required","La erradicación del matrimonio forzado/infantil exige observar casos detectados y tendencia."],
+      ["50.89","Eliminar las excepciones a la edad mínima para contraer matrimonio","partially_accepted","not_required","Eliminar excepciones a la edad mínima es una modificación jurídica verificable directamente."],
+      ["50.90","Prevenir y erradicar el matrimonio forzado","accepted","required","La erradicación del matrimonio forzado/infantil exige observar casos detectados y tendencia."],
+      ["50.91","Apoyo a la familia","accepted","required","El apoyo efectivo a familias e infancia exige cobertura de prestaciones y servicios."],
+      ["50.92","Políticas y planes de apoyo a la familia y la infancia","accepted","required","El apoyo efectivo a familias e infancia exige cobertura de prestaciones y servicios."],
+      ["50.93","Legislación exhaustiva y aplicable contra la trata de personas","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.94","Legislación integral contra la trata de personas","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.95","Acelerar la Ley Orgánica Integral contra la Trata y la Explotación","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.96","Ley contra la trata: identificación y acceso a la justicia","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.97","Avanzar en el proyecto de ley orgánica contra la trata","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.98","Finalizar el anteproyecto de ley orgánica contra la trata","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.99","Impulsar el proyecto de ley orgánica contra la trata","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.100","Prevención de la trata e identificación y asistencia a las víctimas","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.101","Plan nacional contra la trata y aprobación de la ley orgánica","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.102","Trata de mujeres migrantes","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.103","Ley contra la trata y protección de las mujeres migrantes","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.104","Prevención y protección frente a la trata","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.105","Identificación y atención de los niños víctimas de la trata","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.106","Enjuiciamiento de la trata y apoyo a las víctimas","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.107","Lucha contra la trata y aprobación de la ley integral","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.108","Trata y nueva estrategia contra la delincuencia organizada","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.109","Identificación temprana y apoyo especializado a las víctimas de trata","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.110","Detección de la trata en las fronteras y acceso a la justicia","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.111","Ley especial contra la trata y refuerzo de capacidades","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.112","Medidas legislativas para completar el marco contra la trata","accepted","not_required","El núcleo es aprobar/completar legislación; se verifica directamente con evidencia normativa."],
+      ["50.113","Plan de acción, ley y mecanismo nacional de derivación contra la trata","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.114","Aplicar la legislación sobre trata y aprobar la ley orgánica","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.115","Plan de acción nacional contra todas las formas de trata","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.116","Víctimas de trata solicitantes de protección internacional","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.117","Legislación sobre trata centrada en la protección y la prevención","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.118","Trata: identificación y protección con la sociedad civil","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.119","Trata con fines de trabajo forzoso","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.120","Detección de casos de trata de mujeres migrantes","accepted","required","La lucha contra la trata requiere resultados sobre identificación, protección y persecución."],
+      ["50.121","Empleo de los jóvenes y de las mujeres jóvenes","accepted","required","Empleo juvenil e igualdad laboral requieren tasas y brechas comparables."],
+      ["50.122","Empleo juvenil: programas de formación y apoyo","accepted","required","Empleo juvenil e igualdad laboral requieren tasas y brechas comparables."],
+      ["50.123","Desempleo juvenil, igualdad salarial y no discriminación","accepted","required","Empleo juvenil e igualdad laboral requieren tasas y brechas comparables."],
+      ["50.124","Igualdad de trato en el trabajo, la educación y la salud","accepted","required","La igualdad de trato debe expresarse como brechas de acceso y resultados."],
+      ["50.125","Políticas de seguridad social para grupos vulnerables","accepted","required","La protección social requiere cobertura efectiva y, cuando proceda, tiempos de acceso."],
+      ["50.126","Sistema eficaz de garantía de ingresos mínimos","accepted","required","La protección social requiere cobertura efectiva y, cuando proceda, tiempos de acceso."],
+      ["50.127","Reforma del mercado laboral y refuerzo de la seguridad social","accepted","required","La protección social requiere cobertura efectiva y, cuando proceda, tiempos de acceso."],
+      ["50.128","Protección social y desburocratización de la asistencia social","accepted","required","La protección social requiere cobertura efectiva y, cuando proceda, tiempos de acceso."],
+      ["50.129","Pobreza infantil: educación temprana gratuita y prestación por hijo","accepted","required","La recomendación vincula pobreza infantil con servicios/prestaciones; medir resultado y cobertura."],
+      ["50.130","Derechos económicos y sociales: empleo juvenil, vivienda y servicios","accepted","required","Empleo juvenil e igualdad laboral requieren tasas y brechas comparables."],
+      ["50.131","Vivienda adecuada para todos","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.132","Legislación, inversión en vivienda pública y hogares vulnerables","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.133","Plan estratégico de vivienda con financiación suficiente","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.134","Escasez de vivienda y asequibilidad","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.135","Aplicación efectiva de la Ley 12/2023 por el Derecho a la Vivienda","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.136","Vivienda asequible para las personas en situación de pobreza","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.137","Crisis de la vivienda y aumento del parque público","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.138","Construcción de viviendas sociales","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.139","Desarrollo y financiación de la vivienda social","accepted","required","La vivienda adecuada/asequible requiere medidas de oferta, coste y pérdida de vivienda."],
+      ["50.140","Apoyo a las personas en situación de pobreza: vivienda y atención médica","accepted","required","Es multisectorial: pobreza, vivienda y acceso sanitario."],
+      ["50.141","Políticas y presupuesto para el ODS 1: fin de la pobreza","accepted","required","El fin de la pobreza requiere tendencia poblacional; el presupuesto se usa como evidencia contextual."],
+      ["50.142","Prestación universal por hijo a cargo frente a la pobreza infantil","accepted","required","Debe observarse cobertura de la prestación y su relación con pobreza infantil."],
+      ["50.143","Pobreza y exclusión infantil","accepted","required","La pobreza/exclusión infantil es directamente medible en serie."],
+      ["50.144","Reducir las disparidades económicas y promover la integración social","accepted","required","Reducir disparidades económicas exige medidas de desigualdad y pobreza."],
+      ["50.145","Plena aplicación de la Ley Orgánica 1/2023 de salud sexual y reproductiva","accepted","recommended","La aplicación de la ley debe contrastarse con acceso territorial efectivo."],
+      ["50.146","Aplicar la Ley Orgánica 1/2023 en todas las regiones","accepted","recommended","La aplicación de la ley debe contrastarse con acceso territorial efectivo."],
+      ["50.147","Servicios universales de salud sexual y reproductiva","accepted","required","Universalidad exige medir cobertura y barreras de acceso."],
+      ["50.148","Estrategia nacional de salud sexual 2025-2030","accepted","recommended","Estrategia: seguimiento de hitos más resultado de acceso."],
+      ["50.149","Educación sobre salud sexual y reproductiva en las escuelas","accepted","required","La universalidad de educación sexual requiere cobertura efectiva en centros/alumnado."],
+      ["50.150","Despenalización total del aborto","noted","not_required","Despenalización es una modificación jurídica verificable directamente."],
+      ["50.151","Educación sexual integral universal","accepted","required","La universalidad de educación sexual requiere cobertura efectiva en centros/alumnado."],
+      ["50.152","Proyecto de ley de universalidad del Sistema Nacional de Salud","accepted","not_required","El núcleo es la aprobación del proyecto/ley de universalidad; se verifica normativamente."],
+      ["50.153","Cobertura sanitaria universal","accepted","required","Cobertura universal y acceso requieren observar necesidades no atendidas y brechas de grupos vulnerables."],
+      ["50.154","Acceso a los servicios sanitarios para todos","accepted","required","Cobertura universal y acceso requieren observar necesidades no atendidas y brechas de grupos vulnerables."],
+      ["50.155","Cobertura sanitaria de los grupos vulnerables","accepted","required","Cobertura universal y acceso requieren observar necesidades no atendidas y brechas de grupos vulnerables."],
+      ["50.156","Atención de salud de calidad y Plan de Acción de Salud Mental","accepted","required","Calidad y salud mental requieren acceso efectivo y capacidad del sistema."],
+      ["50.157","Salud mental de niños y adolescentes en atención primaria","accepted","required","Acceso infantojuvenil a salud mental debe medirse por espera y capacidad."],
+      ["50.158","Prevención de las adicciones entre los jóvenes","accepted","required","Prevención de adicciones requiere prevalencia y acceso a tratamiento/previsión."],
+      ["50.159","Salud, educación y servicios sociales para migrantes y refugiados","accepted","required","Acceso multisectorial de migrantes/refugiados: salud, educación y servicios sociales."],
+      ["50.160","Acceso a la educación en zonas rurales y grupos desfavorecidos","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.161","Políticas frente al fracaso y el abandono escolar","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.162","Acceso equitativo a la educación de los niños desfavorecidos","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.163","Infraestructuras educativas en las zonas rurales","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.164","Igualdad en la educación para minorías y personas vulnerables","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.165","Derecho a la educación: discapacidad, inmigrantes y solicitantes de asilo","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.166","Educación inclusiva, gratuita y de calidad","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.167","Derecho a la educación de todos los niños sin discriminación","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.168","Abandono escolar, repetición de curso y segregación escolar","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.169","Buenas prácticas presupuestarias en educación gratuita e inclusiva","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.170","Enseñanza y práctica de las lenguas regionales","accepted","required","El derecho a la educación debe medirse mediante acceso, abandono, brechas e inclusión."],
+      ["50.171","Estrategias de adaptación al cambio climático y mitigación","accepted","required","Adaptación y mitigación requieren ejecución del plan y evolución de emisiones."],
+      ["50.172","Políticas climáticas con perspectiva interseccional y movilidad humana","accepted","required","La perspectiva interseccional debe quedar reflejada en medidas de adaptación y desagregación."],
+      ["50.173","Plan Nacional de Adaptación al Cambio Climático 2021-2030","accepted","required","Adaptación y mitigación requieren ejecución del plan y evolución de emisiones."],
+      ["50.174","Ley integral sobre el cambio climático con enfoque de derechos humanos","accepted","not_required","La adopción de una ley integral es una acción jurídica verificable; su implementación se monitorizará mediante indicadores climáticos asociados."],
+      ["50.175","Financiación climática para los países en desarrollo","accepted","required","La financiación climática internacional es cuantificable anualmente."],
+      ["50.176","Reducción del riesgo de catástrofes y alerta temprana","accepted","required","La reducción del riesgo/alerta temprana exige cobertura operativa."],
+      ["50.177","Plan nacional de reducción de la huella de carbono","accepted","required","Reducción de huella y NDC se evalúan mediante emisiones y trayectoria respecto a objetivos."],
+      ["50.178","Contribuciones determinadas a nivel nacional y objetivo de 1,5 ºC","accepted","required","Reducción de huella y NDC se evalúan mediante emisiones y trayectoria respecto a objetivos."],
+      ["50.179","Participación de niños y jóvenes en las políticas medioambientales","accepted","required","La participación de niños/jóvenes debe medirse en procesos efectivos, no solo consultas puntuales."],
+      ["50.180","Derecho humano a un medio ambiente limpio, saludable y sostenible","accepted","required","El derecho ambiental se evalúa con resultados ambientales y adaptación; requiere además evidencia cualitativa."],
+      ["50.181","Derechos económicos, sociales y culturales y derecho al desarrollo","accepted","required","Derechos económicos/sociales y desarrollo requieren resultados agregados; el análisis deberá complementarse por sector."],
+      ["50.182","Medidas coercitivas unilaterales: agentes públicos y privados","noted","not_required","La conducta relativa a medidas coercitivas se verifica mediante actos y decisiones; no requiere KPI propio."],
+      ["50.183","Instrumento vinculante sobre empresas y derechos humanos","accepted","not_required","La posición/apoyo a un instrumento internacional vinculante se verifica documentalmente."],
+      ["50.184","Cooperación Sur-Sur y triangular en violencia de género","accepted","recommended","La cooperación Sur-Sur se sigue mejor mediante programas ejecutados y alcance."],
+      ["50.185","Cooperación internacional con los países en desarrollo","accepted","required","La cooperación internacional cuenta con un indicador estándar y comparable: AOD."],
+      ["50.186","Intercambios académicos y técnicos en Iberoamérica","accepted","recommended","Intercambios técnicos/académicos son outputs de cooperación cuantificables."],
+      ["50.187","Responsabilidades como tercer Estado y prevención del genocidio","accepted","not_required","Obligación/conducta jurídica como tercer Estado: requiere análisis de medidas concretas y no un KPI simplificado."],
+      ["50.188","Igualdad de género y no discriminación en todos los ámbitos","accepted","required","Igualdad transversal: brecha laboral y representación son indicadores reutilizables; deben complementarse con desagregaciones sectoriales."],
+      ["50.189","Enfoque interseccional en las políticas de igualdad de género","accepted","required","Igualdad transversal: brecha laboral y representación son indicadores reutilizables; deben complementarse con desagregaciones sectoriales."],
+      ["50.190","Igualdad de género en el liderazgo y la toma de decisiones","accepted","required","La representación en toma de decisiones es directamente medible."],
+      ["50.191","Representación igualitaria de las mujeres en los sectores público y privado","accepted","required","La representación en toma de decisiones es directamente medible."],
+      ["50.192","Derechos de las mujeres rurales y del sector agrícola","accepted","required","La igualdad de mujeres rurales requiere brechas de empleo, ingresos y acceso a ayudas."],
+      ["50.193","Igualdad de las mujeres rurales en el plan de la Política Agrícola Común","accepted","required","La igualdad de mujeres rurales requiere brechas de empleo, ingresos y acceso a ayudas."],
+      ["50.194","Igualdad en el trabajo y proyecto para las mujeres rurales de la PAC","partially_accepted","required","La igualdad de mujeres rurales requiere brechas de empleo, ingresos y acceso a ayudas."],
+      ["50.195","Estrategia de igualdad para las mujeres rurales en la PAC 2023-2027","accepted","required","La igualdad de mujeres rurales requiere brechas de empleo, ingresos y acceso a ayudas."],
+      ["50.196","Mujeres en ciencias, tecnología, ingeniería y matemáticas","accepted","required","Participación de mujeres en STEM/FP tecnológica es medible por matrícula y graduación."],
+      ["50.197","Mujeres en la formación profesional, la ciencia y la tecnología","accepted","required","Participación de mujeres en STEM/FP tecnológica es medible por matrícula y graduación."],
+      ["50.198","Formación en inteligencia artificial con igualdad de acceso para mujeres y niñas","accepted","required","Acceso de mujeres/niñas a formación en IA requiere participación y brecha digital."],
+      ["50.199","Alfabetización digital de las mujeres y las niñas","accepted","required","Alfabetización digital requiere medir la brecha de competencias."],
+      ["50.200","Coordinación en igualdad de género y aplicación de la CEDAW","accepted","recommended","La coordinación es primordialmente institucional; seguimiento por hitos/medidas implementadas."],
+      ["50.201","Coordinación entre ministerios y comunidades autónomas en igualdad de género","accepted","recommended","La coordinación es primordialmente institucional; seguimiento por hitos/medidas implementadas."],
+      ["50.202","Igualdad de género en nombramientos y ascensos del sector público","accepted","required","La representación en toma de decisiones es directamente medible."],
+      ["50.203","Participación de las mujeres en el ámbito de la educación","accepted","required","Participación educativa femenina requiere observar acceso y, según área, STEM."],
+      ["50.204","Igualdad de género en el empleo y discriminación laboral","accepted","required","Igualdad en empleo y discriminación se expresa en brechas laborales."],
+      ["50.205","Educación de mujeres y niñas romaníes, refugiadas y migrantes","accepted","required","Debe observarse la brecha educativa interseccional de mujeres romaníes, refugiadas y migrantes."],
+      ["50.206","Igualdad de género en el empleo y violencia contra la mujer","accepted","required","Recomendación dual: igualdad laboral y violencia."],
+      ["50.207","Violencia y discriminación contra la mujer y participación","accepted","required","Violencia/discriminación y participación requieren indicadores de victimización y representación."],
+      ["50.208","Violencia y discriminación contra las mujeres y las niñas","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.209","Recursos para aplicar la ley contra la violencia sexual","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.210","Nuevas medidas contra los delitos de violencia sexual","accepted","not_required","El núcleo es una reforma/definición jurídica concreta; se verifica normativamente y con evidencia de aplicación."],
+      ["50.211","Aplicación de las reformas jurídicas contra la violencia de género","accepted","recommended","La reforma legal se complementa con seguimiento de victimización y respuesta judicial."],
+      ["50.212","Evaluar y mejorar el marco jurídico contra la violencia de género","accepted","recommended","La reforma legal se complementa con seguimiento de victimización y respuesta judicial."],
+      ["50.213","Prevención de la violencia contra las mujeres","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.214","Violencia de género y doméstica: protección y acceso a la justicia","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.215","Diligencia debida en los casos de violencia doméstica","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.216","Violencia contra las mujeres: detección de riesgo y reincidencia","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.217","Consolidar las políticas de prevención de la violencia contra las mujeres","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.218","Prevenir las muertes de mujeres a manos de parejas y exparejas","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.219","Violencia de género: protección rápida, fiscalía y judicatura","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.220","Eliminar todas las formas de violencia contra la mujer","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.221","Medidas eficaces contra la violencia contra las mujeres y las niñas","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.222","Reducir las muertes de mujeres y niños por violencia de género","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.223","Coordinación entre las instituciones contra la violencia de género","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.224","Marco legal y operativo contra la violencia de género y la trata","accepted","recommended","La reforma legal se complementa con seguimiento de victimización y respuesta judicial."],
+      ["50.225","Ciberviolencia contra mujeres y niñas y sesgos sexistas en la IA","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.226","Leyes de protección de las víctimas de violencia de género","accepted","recommended","La reforma legal se complementa con seguimiento de victimización y respuesta judicial."],
+      ["50.227","Violencia de género, pobreza y efectos del cambio climático","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.228","Violencia de género: capacitación obligatoria y sensibilización","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.229","Acelerar la aplicación del marco legislativo contra la violencia de género","accepted","recommended","La reforma legal se complementa con seguimiento de victimización y respuesta judicial."],
+      ["50.230","Endurecer las penas por delitos de violencia de género","accepted","not_required","El núcleo es una reforma/definición jurídica concreta; se verifica normativamente y con evidencia de aplicación."],
+      ["50.231","Poner fin a la violencia de género y al feminicidio","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.232","Lagunas de la Ley Orgánica 1/2004 contra la violencia de género","accepted","not_required","El núcleo es una reforma/definición jurídica concreta; se verifica normativamente y con evidencia de aplicación."],
+      ["50.233","Recursos frente a la violencia contra las mujeres y la ciberviolencia","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.234","Reconocer el feminicidio como delito distinto","noted","not_required","El núcleo es una reforma/definición jurídica concreta; se verifica normativamente y con evidencia de aplicación."],
+      ["50.235","Prevenir el matrimonio forzado y la mutilación genital femenina","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.236","Combatir el matrimonio forzado y la mutilación genital femenina","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.237","Persecución judicial efectiva de la violencia de género","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.238","Prevención y protección inmediata de las víctimas de violencia de género","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.239","Aplicación rigurosa de las leyes contra la violencia de género","accepted","required","La reducción/protección efectiva frente a violencia de género exige resultados longitudinales."],
+      ["50.240","Rendición de cuentas del plan de la Garantía Infantil Europea","accepted","recommended","Rendición de cuentas del plan: hitos ejecutados y resultado en pobreza infantil."],
+      ["50.241","Protección social de la infancia y prestación universal por hijo","accepted","required","Protección social infantil requiere cobertura y resultado de pobreza."],
+      ["50.242","Protección de la niñez y reducción de la pobreza infantil","accepted","required","Reducir pobreza infantil exige serie longitudinal directa."],
+      ["50.243","Educación y sanidad para los niños migrantes","accepted","required","Acceso de niños migrantes a educación y sanidad requiere brechas sectoriales."],
+      ["50.244","Infraestructuras educativas para la población gitana","accepted","required","Infraestructura/acceso educativo de población gitana debe reflejar brecha y disponibilidad."],
+      ["50.245","Derechos del niño, educación inclusiva y niños vulnerables","accepted","required","Inclusión y protección de niños vulnerables exigen resultados educativos y de violencia/protección."],
+      ["50.246","Abandono escolar temprano de los niños en riesgo de pobreza","accepted","required","Debe observarse abandono temprano específicamente en menores/jóvenes en riesgo de pobreza."],
+      ["50.247","Acceso a la educación de los niños de grupos minoritarios","accepted","required","Acceso de minorías a educación se mide como brecha frente al total."],
+      ["50.248","Estrategia nacional de protección de la infancia en entornos digitales","accepted","recommended","La estrategia/ley se verifica documentalmente; cuando se implementa conviene seguir victimización digital."],
+      ["50.249","Violencia y explotación de niños y adolescentes en el entorno digital","accepted","required","Violencia/explotación digital de menores requiere serie de casos y prevalencia."],
+      ["50.250","Educación de calidad sin discriminación para todos los niños","accepted","required","Educación sin discriminación requiere brechas desagregadas de acceso y resultado."],
+      ["50.251","Acogida de niños migrantes no acompañados y evaluación de la edad","accepted","required","Acogida y evaluación de edad requieren tiempos de derivación y salvaguardias."],
+      ["50.252","Reubicación de menores no acompañados desde los puntos de llegada","accepted","required","Reubicación de menores es un output cuantificable y sensible al tiempo."],
+      ["50.253","Marco jurídico para la reubicación de niños no acompañados","accepted","not_required","El establecimiento del marco jurídico es una acción normativa verificable."],
+      ["50.254","Identificación temprana de niños migrantes no acompañados","accepted","required","Identificación temprana debe medirse por tiempo hasta identificación/tutela."],
+      ["50.255","Interés superior del niño en la determinación de la edad","accepted","required","La protección del interés superior en edad se controla con prácticas de evaluación compatibles."],
+      ["50.256","Formación de los funcionarios de fronteras sobre infancia","accepted","required","La formación de funcionarios es un proceso cuantificable por cobertura."],
+      ["50.257","Protección de niños y adolescentes frente a la violencia","accepted","required","Protección frente a violencia/vulnerabilidad necesita tendencias de victimización y medidas de protección."],
+      ["50.258","Derechos de los niños en situaciones vulnerables","accepted","required","Protección frente a violencia/vulnerabilidad necesita tendencias de victimización y medidas de protección."],
+      ["50.259","Finalizar la ley orgánica de protección de los menores en entornos digitales","accepted","not_required","La estrategia/ley se verifica documentalmente; cuando se implementa conviene seguir victimización digital."],
+      ["50.260","Seguir examinando la ley de protección de los menores en entornos digitales","accepted","not_required","La estrategia/ley se verifica documentalmente; cuando se implementa conviene seguir victimización digital."],
+      ["50.261","Formación sobre inteligencia artificial y riesgos para los menores","accepted","required","La formación sobre IA y riesgos para menores se mide por cobertura del personal objetivo."],
+      ["50.262","Atención y protección de los niños migrantes no acompañados","accepted","required","Atención de menores no acompañados requiere derivación temprana y calidad de protección."],
+      ["50.263","Evaluación de la edad sin exámenes genitales invasivos","accepted","required","El objetivo es reducir/eliminar exámenes invasivos, directamente medible."],
+      ["50.264","Atención domiciliaria, incluidas las personas mayores","accepted","required","Atención domiciliaria/comunitaria requiere cobertura y listas de espera."],
+      ["50.265","Modelo de atención comunitaria y a domicilio","accepted","required","Atención domiciliaria/comunitaria requiere cobertura y listas de espera."],
+      ["50.266","Atención y protección de las personas de edad","accepted","required","Atención domiciliaria/comunitaria requiere cobertura y listas de espera."],
+      ["50.267","Envejecimiento, cambio climático y derechos de grupos vulnerables","accepted","required","Intersección envejecimiento-clima: protección social y adaptación deben desagregarse por edad/vulnerabilidad."],
+      ["50.268","Políticas inclusivas para las personas con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.269","Plena inclusión de las personas con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.270","Trabajo, vivienda y educación de las personas con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.271","Acceso de las personas con discapacidad a la información y los servicios","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.272","Accesibilidad de los servicios públicos y la vivienda y educación inclusiva","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.273","Inclusión social y laboral de las personas con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.274","Programas de rehabilitación","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.275","Inclusión educativa del alumnado con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.276","Evitar la segregación de los estudiantes con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.277","Eliminar la segregación educativa del alumnado con discapacidad","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.278","Igualdad de las personas con discapacidad: accesibilidad, empleo e inclusión","accepted","required","La inclusión de personas con discapacidad exige medir brechas reales de empleo, accesibilidad y educación."],
+      ["50.279","Plan estratégico contra el racismo y formas conexas de intolerancia","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.280","Plan estratégico contra el racismo, la xenofobia y la intolerancia","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.281","Plan de acción estratégico contra el racismo y la incitación al odio","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.282","Adopción y aplicación de un plan estratégico contra el racismo","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.283","Ley general contra el racismo y la incitación al odio en los medios","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.284","Racismo, discriminación de minorías e incitación al odio en Internet","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.285","Discriminación racial y étnica y delitos de odio contra minorías","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.286","Medidas legislativas contra la discriminación y la islamofobia","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.287","Prohibición estricta de los controles de identidad por perfil racial","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.288","Controles de identidad por perfil racial y registros corporales","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.289","Persecución de los delitos de odio y reducción del perfilado racial","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.290","Formación de policías y jueces sobre delitos de odio","accepted","required","El bloque requiere seguimiento de discriminación, odio, perfilado y respuesta institucional."],
+      ["50.291","Derechos de las minorías religiosas","accepted","required","Los derechos de minorías religiosas requieren observar incidentes y discriminación."],
+      ["50.292","Diversidad lingüística y minorías lingüísticas","accepted","required","La diversidad lingüística requiere acceso/uso efectivo de lenguas minoritarias/regionales."],
+      ["50.293","Derechos de los grupos vulnerables","accepted","required","Recomendación amplia: usar brechas de acceso desagregadas y complementar con indicadores sectoriales."],
+      ["50.294","Formación del personal sanitario en diversidad sexual y de género","accepted","required","La capacitación sanitaria es cuantificable por cobertura del personal objetivo."],
+      ["50.295","Empleo inclusivo y diversidad sexual y de género","accepted","required","Empleo inclusivo requiere medir brechas y discriminación laboral."],
+      ["50.296","Discriminación contra los inmigrantes","accepted","required","Discriminación de inmigrantes debe observar brechas de acceso y protección social."],
+      ["50.297","Condiciones de los trabajadores migrantes y acceso a la sanidad","accepted","required","Condiciones laborales y acceso sanitario requieren brechas sectoriales; la inspección laboral es evidencia adicional."],
+      ["50.298","Acceso de los migrantes a una atención sanitaria adecuada","accepted","required","Acceso sanitario de migrantes requiere medir necesidades no atendidas/brecha."],
+      ["50.299","Trabajadores migrantes: educación y atención sanitaria","accepted","required","Derechos de trabajadores migrantes y familias en educación/salud requieren ambos accesos."],
+      ["50.300","Servicios de apoyo a los niños inmigrantes","accepted","required","Servicios de apoyo a niños inmigrantes requieren cobertura efectiva y calidad de protección."],
+      ["50.301","Plan Director de la Cooperación Española y derechos de los migrantes","accepted","recommended","El Plan Director se verifica por implementación; AOD/programas contextualizan el componente migratorio."],
+      ["50.302","Derechos de los migrantes y sus familiares","accepted","required","Derechos de migrantes y familiares deben observarse en brechas de acceso y servicios."],
+      ["50.303","Prohibir expulsiones con riesgo de desaparición forzada o tortura","accepted","required","La prohibición de expulsiones a riesgo se evalúa mediante casos y salvaguardias de no devolución."],
+      ["50.304","Derechos humanos en la reubicación de menores no acompañados","accepted","required","Reubicación con enfoque de derechos exige tiempo/alcance y condiciones de protección."],
+      ["50.305","Respeto de los derechos humanos de los migrantes","accepted","required","Protección de derechos de migrantes requiere indicadores de acceso y no discriminación."],
+      ["50.306","Medidas para proteger los derechos de los migrantes","accepted","required","Protección de derechos de migrantes requiere indicadores de acceso y no discriminación."],
+      ["50.307","Derechos de los migrantes y de las víctimas de la trata","accepted","required","Combina derechos de migrantes y protección de víctimas de trata."],
+      ["50.308","Protección y registro de los migrantes irregulares","accepted","required","Registro/protección de migrantes irregulares debe traducirse en acceso efectivo a servicios y salvaguardias."],
+      ["50.309","Condiciones de estancia en los centros para inmigrantes","accepted","required","Las condiciones de estancia se monitorizan mediante estándares, ocupación e incidencias."],
+      ["50.310","Recursos para migrantes, refugiados y solicitantes de asilo","accepted","required","Recursos para migrantes/refugiados requieren capacidad de acogida y acceso a servicios."],
+      ["50.311","Acceso de migrantes y refugiados a los servicios sociales básicos","accepted","required","Acceso a servicios sociales básicos es directamente medible por cobertura/brecha."],
+      ["50.312","Obligaciones internacionales sobre migrantes, asilo y menores no acompañados","accepted","required","Conformidad de política migratoria/asilo requiere acceso al procedimiento y respeto de no devolución."],
+      ["50.313","Derechos humanos en las políticas de migración y asilo","accepted","required","Conformidad de política migratoria/asilo requiere acceso al procedimiento y respeto de no devolución."],
+      ["50.314","Estigmatización de las personas inmigrantes y en situación de pobreza","noted","required","La estigmatización se refleja en incidentes de odio y brechas/discriminación, con evidencia cualitativa complementaria."],
+      ["50.315","Acceso rápido y seguro al procedimiento de asilo","accepted","required","El acceso real a protección internacional depende del tiempo y posibilidad efectiva de formalizar solicitud."],
+      ["50.316","Acceso a la protección internacional","accepted","required","El acceso real a protección internacional depende del tiempo y posibilidad efectiva de formalizar solicitud."],
+      ["50.317","Protección y asistencia a refugiados y solicitantes de asilo","accepted","required","Protección/asistencia requieren acogida y acceso a servicios."],
+      ["50.318","Discriminación y malos tratos contra inmigrantes y solicitantes de asilo","accepted","required","Discriminación/malos tratos requieren quejas resueltas y condiciones en recursos/centros."],
+      ["50.319","Trato digno y condiciones de acogida de migrantes y solicitantes de asilo","accepted","required","Dignidad y condiciones de acogida requieren capacidad y cumplimiento de estándares."],
+      ["50.320","Condiciones de los solicitantes de asilo","accepted","required","Dignidad y condiciones de acogida requieren capacidad y cumplimiento de estándares."],
+      ["50.321","Políticas de asilo y migración conformes al derecho internacional","accepted","required","Conformidad internacional exige acceso efectivo y respeto de no devolución."],
+      ["50.322","Garantías procesales para los solicitantes de asilo","accepted","required","Garantías procesales: acceso a asistencia/interpretación y duración del procedimiento."],
+      ["50.323","Reasentamiento de refugiados y aumento de la cuota anual","accepted","required","La cuota de reasentamiento tiene una medida directa de cumplimiento."],
+      ["50.324","Protección de los menores en las zonas de acogida de migrantes","accepted","required","La protección de menores en acogida exige cumplimiento de estándares e incidencias."]
+    ]
+  }
+}
+```
+
+## C. Relaciones recomendación–indicador
+
+428 registros.
+
+```json
+{
+  "links": {
+    "record_count": 428,
+    "defaults": {
+      "baseline_rule": "Usar el último dato comparable disponible anterior o igual a 2025; conservar al menos 5 años cuando existan.",
+      "target_rule": "No fijar objetivo genérico. Usar el objetivo explícito de la recomendación/plan/ley; si no existe, evaluar tendencia y suficiencia sin inventar umbral."
+    },
+    "derived_fields": {
+      "recommendation_title": "recommendations.recommendation_title, join by recommendation_number"
+    },
+    "columns": [
+      "recommendation_number",
+      "indicator_code",
+      "role",
+      "frequency"
+    ]
+ ,
+    "rows": [
+      ["50.10","INST-001","primary","annual"],
+      ["50.11","INST-002","primary","annual"],
+      ["50.12","GBV-002","primary","annual"],
+      ["50.13","INST-002","primary","annual"],
+      ["50.14","FORCE-001","primary","annual"],
+      ["50.15","INFO-001","primary","biennial"],
+      ["50.16","DIG-001","primary","annual"],
+      ["50.17","INST-002","primary","annual"],
+      ["50.18","INST-002","primary","annual"],
+      ["50.19","INST-002","primary","annual"],
+      ["50.20","INST-002","primary","annual"],
+      ["50.21","INST-002","primary","annual"],
+      ["50.22","RAC-003","primary","annual"],
+      ["50.23","RAC-003","primary","annual"],
+      ["50.24","RAC-001","primary","annual"],
+      ["50.24","RAC-002","supporting","annual"],
+      ["50.25","RAC-001","primary","annual"],
+      ["50.25","RAC-002","supporting","annual"],
+      ["50.26","RAC-004","primary","annual"],
+      ["50.27","RAC-004","primary","annual"],
+      ["50.28","RAC-004","primary","annual"],
+      ["50.29","RAC-004","primary","annual"],
+      ["50.30","RAC-004","primary","annual"],
+      ["50.31","RAC-004","primary","annual"],
+      ["50.31","RAC-001","supporting","annual"],
+      ["50.31","RAC-002","supporting","annual"],
+      ["50.32","RAC-001","primary","annual"],
+      ["50.32","RAC-002","supporting","annual"],
+      ["50.33","RAC-003","primary","annual"],
+      ["50.34","RAC-001","primary","annual"],
+      ["50.34","RAC-002","supporting","annual"],
+      ["50.35","RAC-003","primary","annual"],
+      ["50.36","RAC-003","primary","annual"],
+      ["50.37","RAC-003","primary","annual"],
+      ["50.38","RAC-003","primary","annual"],
+      ["50.39","RAC-001","primary","annual"],
+      ["50.39","RAC-002","supporting","annual"],
+      ["50.39","INST-002","supporting","annual"],
+      ["50.40","RAC-001","primary","annual"],
+      ["50.40","RAC-002","supporting","annual"],
+      ["50.41","INST-002","primary","annual"],
+      ["50.42","RAC-003","primary","annual"],
+      ["50.43","RAC-005","primary","annual"],
+      ["50.43","RAC-003","supporting","annual"],
+      ["50.44","RAC-003","primary","annual"],
+      ["50.45","RAC-005","primary","annual"],
+      ["50.46","RAC-003","primary","annual"],
+      ["50.47","RAC-005","primary","annual"],
+      ["50.48","RAC-005","primary","annual"],
+      ["50.49","RAC-003","primary","annual"],
+      ["50.50","RAC-003","primary","annual"],
+      ["50.51","INST-002","primary","annual"],
+      ["50.52","RAC-005","primary","annual"],
+      ["50.53","RAC-003","primary","annual"],
+      ["50.53","INST-002","supporting","annual"],
+      ["50.54","EDU-006","primary","annual"],
+      ["50.60","TORT-001","primary","annual"],
+      ["50.60","DET-001","supporting","annual"],
+      ["50.61","TORT-001","primary","annual"],
+      ["50.62","MIG-010","primary","annual"],
+      ["50.63","DET-001","primary","annual"],
+      ["50.64","FORCE-001","primary","annual"],
+      ["50.66","PRIS-001","primary","annual"],
+      ["50.67","GOV-001","primary","annual"],
+      ["50.68","JUST-002","primary","annual"],
+      ["50.69","JUST-001","primary","annual"],
+      ["50.70","JUST-001","primary","annual"],
+      ["50.70","JUST-002","supporting","annual"],
+      ["50.71","TJ-001","primary","annual"],
+      ["50.71","TJ-002","supporting","annual"],
+      ["50.72","TJ-001","primary","annual"],
+      ["50.72","TJ-002","supporting","annual"],
+      ["50.73","TJ-002","primary","annual"],
+      ["50.74","DIG-001","primary","annual"],
+      ["50.75","DIG-001","primary","annual"],
+      ["50.76","DIG-002","primary","annual"],
+      ["50.77","DIG-002","primary","annual"],
+      ["50.78","FRE-002","primary","annual"],
+      ["50.80","FRE-001","primary","annual"],
+      ["50.80","FRE-002","supporting","annual"],
+      ["50.82","FRE-001","primary","annual"],
+      ["50.82","FRE-002","supporting","annual"],
+      ["50.83","FRE-001","primary","annual"],
+      ["50.83","FRE-002","supporting","annual"],
+      ["50.84","FRE-001","primary","annual"],
+      ["50.84","FRE-002","supporting","annual"],
+      ["50.85","RAC-001","primary","annual"],
+      ["50.85","RAC-002","supporting","annual"],
+      ["50.86","RAC-001","primary","annual"],
+      ["50.86","RAC-002","supporting","annual"],
+      ["50.88","CHILD-001","primary","annual"],
+      ["50.90","CHILD-001","primary","annual"],
+      ["50.91","FAM-001","primary","annual"],
+      ["50.92","FAM-001","primary","annual"],
+      ["50.96","TRAF-001","primary","annual"],
+      ["50.96","TRAF-003","supporting","annual"],
+      ["50.100","TRAF-001","primary","annual"],
+      ["50.100","TRAF-002","supporting","annual"],
+      ["50.101","TRAF-001","primary","annual"],
+      ["50.102","TRAF-001","primary","annual"],
+      ["50.103","TRAF-001","primary","annual"],
+      ["50.103","TRAF-002","supporting","annual"],
+      ["50.104","TRAF-001","primary","annual"],
+      ["50.104","TRAF-002","supporting","annual"],
+      ["50.105","TRAF-001","primary","annual"],
+      ["50.105","TRAF-002","supporting","annual"],
+      ["50.106","TRAF-001","primary","annual"],
+      ["50.106","TRAF-002","supporting","annual"],
+      ["50.106","TRAF-003","supporting","annual"],
+      ["50.108","TRAF-001","primary","annual"],
+      ["50.108","TRAF-003","supporting","annual"],
+      ["50.109","TRAF-001","primary","annual"],
+      ["50.109","TRAF-002","supporting","annual"],
+      ["50.109","TRAF-004","supporting","annual"],
+      ["50.110","TRAF-001","primary","annual"],
+      ["50.110","TRAF-003","supporting","annual"],
+      ["50.110","TRAF-004","supporting","annual"],
+      ["50.113","TRAF-001","primary","annual"],
+      ["50.113","TRAF-002","supporting","annual"],
+      ["50.113","TRAF-004","supporting","annual"],
+      ["50.114","TRAF-001","primary","annual"],
+      ["50.115","TRAF-001","primary","annual"],
+      ["50.116","TRAF-001","primary","annual"],
+      ["50.116","TRAF-002","supporting","annual"],
+      ["50.117","TRAF-001","primary","annual"],
+      ["50.117","TRAF-002","supporting","annual"],
+      ["50.118","TRAF-001","primary","annual"],
+      ["50.118","TRAF-002","supporting","annual"],
+      ["50.119","TRAF-001","primary","annual"],
+      ["50.119","TRAF-003","supporting","annual"],
+      ["50.120","TRAF-001","primary","annual"],
+      ["50.120","TRAF-004","supporting","annual"],
+      ["50.121","LAB-001","primary","quarterly"],
+      ["50.121","LAB-002","supporting","annual"],
+      ["50.122","LAB-001","primary","quarterly"],
+      ["50.122","LAB-003","supporting","annual"],
+      ["50.123","LAB-001","primary","quarterly"],
+      ["50.123","LAB-002","supporting","annual"],
+      ["50.124","RAC-005","primary","annual"],
+      ["50.124","LAB-002","supporting","annual"],
+      ["50.125","SOC-001","primary","annual"],
+      ["50.126","SOC-001","primary","annual"],
+      ["50.126","SOC-002","supporting","annual"],
+      ["50.127","SOC-001","primary","annual"],
+      ["50.128","SOC-001","primary","annual"],
+      ["50.128","SOC-002","supporting","annual"],
+      ["50.129","POV-002","primary","annual"],
+      ["50.129","CHILD-002","supporting","annual"],
+      ["50.130","LAB-001","primary","quarterly"],
+      ["50.131","HOU-002","primary","annual"],
+      ["50.131","HOU-003","supporting","biennial"],
+      ["50.132","HOU-001","primary","annual"],
+      ["50.132","HOU-005","supporting","annual"],
+      ["50.133","HOU-001","primary","annual"],
+      ["50.133","HOU-005","supporting","annual"],
+      ["50.134","HOU-002","primary","annual"],
+      ["50.135","HOU-002","primary","annual"],
+      ["50.135","HOU-004","supporting","quarterly"],
+      ["50.136","HOU-002","primary","annual"],
+      ["50.136","HOU-003","supporting","biennial"],
+      ["50.137","HOU-001","primary","annual"],
+      ["50.137","HOU-005","supporting","annual"],
+      ["50.138","HOU-001","primary","annual"],
+      ["50.138","HOU-005","supporting","annual"],
+      ["50.139","HOU-001","primary","annual"],
+      ["50.139","HOU-005","supporting","annual"],
+      ["50.140","POV-001","primary","annual"],
+      ["50.140","HOU-002","supporting","annual"],
+      ["50.140","HEA-001","supporting","annual"],
+      ["50.141","POV-001","primary","annual"],
+      ["50.142","POV-002","primary","annual"],
+      ["50.142","CHILD-002","supporting","annual"],
+      ["50.143","POV-002","primary","annual"],
+      ["50.144","INEQ-001","primary","annual"],
+      ["50.144","POV-001","supporting","annual"],
+      ["50.145","SRH-001","primary","annual"],
+      ["50.146","SRH-001","primary","annual"],
+      ["50.147","SRH-001","primary","annual"],
+      ["50.148","INST-002","primary","annual"],
+      ["50.148","SRH-001","supporting","annual"],
+      ["50.149","SRH-002","primary","annual"],
+      ["50.151","SRH-002","primary","annual"],
+      ["50.153","HEA-001","primary","annual"],
+      ["50.153","HEA-002","supporting","annual"],
+      ["50.154","HEA-001","primary","annual"],
+      ["50.154","HEA-002","supporting","annual"],
+      ["50.155","HEA-001","primary","annual"],
+      ["50.155","HEA-002","supporting","annual"],
+      ["50.156","HEA-001","primary","annual"],
+      ["50.156","MH-001","supporting","annual"],
+      ["50.157","MH-001","primary","annual"],
+      ["50.158","ADD-001","primary","biennial"],
+      ["50.159","MIG-001","primary","annual"],
+      ["50.159","MIG-002","supporting","annual"],
+      ["50.159","MIG-003","supporting","annual"],
+      ["50.160","EDU-003","primary","annual"],
+      ["50.161","EDU-001","primary","annual"],
+      ["50.161","EDU-004","supporting","annual"],
+      ["50.162","EDU-002","primary","annual"],
+      ["50.163","EDU-003","primary","annual"],
+      ["50.164","EDU-002","primary","annual"],
+      ["50.165","EDU-002","primary","annual"],
+      ["50.166","EDU-002","primary","annual"],
+      ["50.167","EDU-002","primary","annual"],
+      ["50.168","EDU-001","primary","annual"],
+      ["50.168","EDU-004","supporting","annual"],
+      ["50.168","EDU-002","supporting","annual"],
+      ["50.168","EDU-006","supporting","annual"],
+      ["50.169","EDU-005","primary","annual"],
+      ["50.170","LANG-001","primary","annual"],
+      ["50.171","CLIM-002","primary","annual"],
+      ["50.171","CLIM-001","supporting","annual"],
+      ["50.172","CLIM-002","primary","annual"],
+      ["50.173","CLIM-002","primary","annual"],
+      ["50.173","CLIM-001","supporting","annual"],
+      ["50.175","CLIM-003","primary","annual"],
+      ["50.176","DRR-001","primary","annual"],
+      ["50.177","CLIM-001","primary","annual"],
+      ["50.178","CLIM-001","primary","annual"],
+      ["50.179","CLIM-004","primary","annual"],
+      ["50.180","CLIM-001","primary","annual"],
+      ["50.180","CLIM-002","supporting","annual"],
+      ["50.181","POV-001","primary","annual"],
+      ["50.181","INEQ-001","supporting","annual"],
+      ["50.184","COOP-001","primary","annual"],
+      ["50.185","DEV-001","primary","annual"],
+      ["50.186","COOP-001","primary","annual"],
+      ["50.188","LAB-002","primary","annual"],
+      ["50.188","GEN-001","supporting","annual"],
+      ["50.189","LAB-002","primary","annual"],
+      ["50.189","GEN-001","supporting","annual"],
+      ["50.190","GEN-001","primary","annual"],
+      ["50.191","GEN-001","primary","annual"],
+      ["50.192","RUR-001","primary","annual"],
+      ["50.193","RUR-001","primary","annual"],
+      ["50.194","RUR-001","primary","annual"],
+      ["50.195","RUR-001","primary","annual"],
+      ["50.196","STEM-001","primary","annual"],
+      ["50.197","STEM-001","primary","annual"],
+      ["50.198","STEM-001","primary","annual"],
+      ["50.198","DIG-003","supporting","annual"],
+      ["50.199","DIG-003","primary","annual"],
+      ["50.200","INST-002","primary","annual"],
+      ["50.201","INST-002","primary","annual"],
+      ["50.202","GEN-001","primary","annual"],
+      ["50.203","STEM-001","primary","annual"],
+      ["50.203","EDU-002","supporting","annual"],
+      ["50.204","LAB-002","primary","annual"],
+      ["50.205","EDU-002","primary","annual"],
+      ["50.205","RAC-005","supporting","annual"],
+      ["50.206","LAB-002","primary","annual"],
+      ["50.206","GBV-001","supporting","annual/biennial"],
+      ["50.207","GBV-001","primary","annual/biennial"],
+      ["50.207","GEN-001","supporting","annual"],
+      ["50.208","GBV-001","primary","annual/biennial"],
+      ["50.209","GBV-006","primary","annual"],
+      ["50.211","GBV-001","primary","annual/biennial"],
+      ["50.211","GBV-004","supporting","annual"],
+      ["50.212","GBV-001","primary","annual/biennial"],
+      ["50.212","GBV-004","supporting","annual"],
+      ["50.213","GBV-001","primary","annual/biennial"],
+      ["50.214","GBV-003","primary","quarterly"],
+      ["50.214","GBV-004","supporting","annual"],
+      ["50.215","GBV-003","primary","quarterly"],
+      ["50.215","GBV-004","supporting","annual"],
+      ["50.216","GBV-003","primary","quarterly"],
+      ["50.216","GBV-005","supporting","annual"],
+      ["50.217","GBV-001","primary","annual/biennial"],
+      ["50.218","GBV-002","primary","annual"],
+      ["50.219","GBV-003","primary","quarterly"],
+      ["50.219","GBV-004","supporting","annual"],
+      ["50.220","GBV-001","primary","annual/biennial"],
+      ["50.221","GBV-001","primary","annual/biennial"],
+      ["50.222","GBV-002","primary","annual"],
+      ["50.223","GBV-001","primary","annual/biennial"],
+      ["50.224","GBV-001","primary","annual/biennial"],
+      ["50.224","GBV-004","supporting","annual"],
+      ["50.225","GBV-007","primary","annual"],
+      ["50.225","DIG-001","supporting","annual"],
+      ["50.226","GBV-001","primary","annual/biennial"],
+      ["50.226","GBV-004","supporting","annual"],
+      ["50.227","GBV-001","primary","annual/biennial"],
+      ["50.228","TRAIN-001","primary","annual"],
+      ["50.229","GBV-001","primary","annual/biennial"],
+      ["50.229","GBV-004","supporting","annual"],
+      ["50.231","GBV-001","primary","annual/biennial"],
+      ["50.231","GBV-002","supporting","annual"],
+      ["50.233","GBV-006","primary","annual"],
+      ["50.235","GBV-001","primary","annual/biennial"],
+      ["50.235","CHILD-001","supporting","annual"],
+      ["50.235","FGM-001","supporting","annual"],
+      ["50.236","GBV-001","primary","annual/biennial"],
+      ["50.236","CHILD-001","supporting","annual"],
+      ["50.236","FGM-001","supporting","annual"],
+      ["50.237","GBV-004","primary","annual"],
+      ["50.238","GBV-003","primary","quarterly"],
+      ["50.239","GBV-004","primary","annual"],
+      ["50.240","INST-002","primary","annual"],
+      ["50.240","POV-002","supporting","annual"],
+      ["50.241","CHILD-002","primary","annual"],
+      ["50.241","POV-002","supporting","annual"],
+      ["50.242","POV-002","primary","annual"],
+      ["50.243","MIG-002","primary","annual"],
+      ["50.243","MIG-001","supporting","annual"],
+      ["50.244","EDU-002","primary","annual"],
+      ["50.244","EDU-003","supporting","annual"],
+      ["50.245","EDU-002","primary","annual"],
+      ["50.245","CHILD-003","supporting","annual"],
+      ["50.246","EDU-001","primary","annual"],
+      ["50.246","POV-002","supporting","annual"],
+      ["50.247","EDU-002","primary","annual"],
+      ["50.248","DIG-002","primary","annual"],
+      ["50.249","DIG-002","primary","annual"],
+      ["50.250","EDU-002","primary","annual"],
+      ["50.251","UAM-001","primary","annual"],
+      ["50.251","UAM-003","supporting","annual"],
+      ["50.252","UAM-002","primary","annual"],
+      ["50.254","UAM-001","primary","annual"],
+      ["50.255","UAM-003","primary","annual"],
+      ["50.256","TRAIN-001","primary","annual"],
+      ["50.257","CHILD-003","primary","annual"],
+      ["50.258","CHILD-003","primary","annual"],
+      ["50.261","TRAIN-001","primary","annual"],
+      ["50.262","UAM-001","primary","annual"],
+      ["50.262","CHMIG-001","supporting","annual"],
+      ["50.263","UAM-003","primary","annual"],
+      ["50.264","OLDER-001","primary","annual"],
+      ["50.264","OLDER-002","supporting","annual"],
+      ["50.265","OLDER-001","primary","annual"],
+      ["50.265","OLDER-002","supporting","annual"],
+      ["50.266","OLDER-001","primary","annual"],
+      ["50.266","OLDER-002","supporting","annual"],
+      ["50.267","OLDER-001","primary","annual"],
+      ["50.267","CLIM-002","supporting","annual"],
+      ["50.268","DIS-001","primary","annual"],
+      ["50.269","DIS-001","primary","annual"],
+      ["50.269","DIS-002","supporting","annual"],
+      ["50.270","DIS-001","primary","annual"],
+      ["50.270","DIS-002","supporting","annual"],
+      ["50.270","DIS-003","supporting","annual"],
+      ["50.271","DIS-002","primary","annual"],
+      ["50.272","DIS-002","primary","annual"],
+      ["50.272","DIS-003","supporting","annual"],
+      ["50.273","DIS-001","primary","annual"],
+      ["50.274","DIS-004","primary","annual"],
+      ["50.275","DIS-003","primary","annual"],
+      ["50.276","DIS-003","primary","annual"],
+      ["50.277","DIS-003","primary","annual"],
+      ["50.278","DIS-001","primary","annual"],
+      ["50.278","DIS-002","supporting","annual"],
+      ["50.278","DIS-003","supporting","annual"],
+      ["50.279","INST-002","primary","annual"],
+      ["50.279","RAC-001","supporting","annual"],
+      ["50.280","INST-002","primary","annual"],
+      ["50.280","RAC-001","supporting","annual"],
+      ["50.281","INST-002","primary","annual"],
+      ["50.281","RAC-001","supporting","annual"],
+      ["50.282","INST-002","primary","annual"],
+      ["50.282","RAC-001","supporting","annual"],
+      ["50.283","RAC-001","primary","annual"],
+      ["50.283","RAC-002","supporting","annual"],
+      ["50.284","RAC-001","primary","annual"],
+      ["50.284","RAC-002","supporting","annual"],
+      ["50.285","RAC-001","primary","annual"],
+      ["50.285","RAC-002","supporting","annual"],
+      ["50.286","RAC-001","primary","annual"],
+      ["50.286","RAC-002","supporting","annual"],
+      ["50.287","RAC-004","primary","annual"],
+      ["50.288","RAC-004","primary","annual"],
+      ["50.289","RAC-001","primary","annual"],
+      ["50.289","RAC-002","supporting","annual"],
+      ["50.289","RAC-004","supporting","annual"],
+      ["50.290","TRAIN-001","primary","annual"],
+      ["50.290","RAC-002","supporting","annual"],
+      ["50.291","REL-001","primary","annual"],
+      ["50.292","LANG-001","primary","annual"],
+      ["50.293","RAC-005","primary","annual"],
+      ["50.294","LGBT-001","primary","annual"],
+      ["50.295","LGBT-002","primary","annual/biennial"],
+      ["50.296","RAC-005","primary","annual"],
+      ["50.296","MIG-003","supporting","annual"],
+      ["50.297","MIG-001","primary","annual"],
+      ["50.297","RAC-005","supporting","annual"],
+      ["50.298","MIG-001","primary","annual"],
+      ["50.299","MIG-001","primary","annual"],
+      ["50.299","MIG-002","supporting","annual"],
+      ["50.300","MIG-003","primary","annual"],
+      ["50.300","CHMIG-001","supporting","annual"],
+      ["50.301","DEV-001","primary","annual"],
+      ["50.301","COOP-001","supporting","annual"],
+      ["50.302","RAC-005","primary","annual"],
+      ["50.302","MIG-003","supporting","annual"],
+      ["50.303","MIG-010","primary","annual"],
+      ["50.304","UAM-002","primary","annual"],
+      ["50.304","CHMIG-001","supporting","annual"],
+      ["50.305","RAC-005","primary","annual"],
+      ["50.305","MIG-003","supporting","annual"],
+      ["50.306","RAC-005","primary","annual"],
+      ["50.306","MIG-003","supporting","annual"],
+      ["50.307","MIG-003","primary","annual"],
+      ["50.307","TRAF-002","supporting","annual"],
+      ["50.308","MIG-003","primary","annual"],
+      ["50.309","MIG-004","primary","annual"],
+      ["50.310","ASY-003","primary","monthly/annual"],
+      ["50.310","MIG-003","supporting","annual"],
+      ["50.311","MIG-003","primary","annual"],
+      ["50.312","ASY-001","primary","monthly/annual"],
+      ["50.312","MIG-010","supporting","annual"],
+      ["50.313","ASY-001","primary","monthly/annual"],
+      ["50.313","MIG-010","supporting","annual"],
+      ["50.314","RAC-001","primary","annual"],
+      ["50.314","RAC-005","supporting","annual"],
+      ["50.315","ASY-001","primary","monthly/annual"],
+      ["50.316","ASY-001","primary","monthly/annual"],
+      ["50.317","ASY-003","primary","monthly/annual"],
+      ["50.317","MIG-003","supporting","annual"],
+      ["50.318","RAC-003","primary","annual"],
+      ["50.318","MIG-004","supporting","annual"],
+      ["50.319","ASY-003","primary","monthly/annual"],
+      ["50.319","MIG-004","supporting","annual"],
+      ["50.320","ASY-003","primary","monthly/annual"],
+      ["50.320","MIG-004","supporting","annual"],
+      ["50.321","ASY-001","primary","monthly/annual"],
+      ["50.321","MIG-010","supporting","annual"],
+      ["50.322","ASY-004","primary","annual"],
+      ["50.322","ASY-002","supporting","monthly/annual"],
+      ["50.323","ASY-005","primary","annual"],
+      ["50.324","CHMIG-001","primary","annual"]
+    ]
+  }
+}
+```
+
+## D. Fuentes y metodología
+
+17 registros.
+
+```json
+{
+  "methodology_sources": {
+    "record_count": 17,
+    "defaults": {},
+    "derived_fields": {},
+    "columns": [
+      "Tipo",
+      "Fuente",
+      "URL",
+      "Uso"
+    ]
+ ,
+    "rows": [
+      ["Fuente primaria EPU","A/HRC/60/8 — Report of the Working Group on the Universal Periodic Review: Spain","https://docs.un.org/en/A/HRC/60/8","Texto y numeración oficial de recomendaciones"],
+      ["Posición de España","A/HRC/60/8/Add.1","https://digitallibrary.un.org/record/4087088/files/A_HRC_60_8_Add.1-EN.pdf","Accepted / partially accepted / noted"],
+      ["Seguimiento EPU","UPR Info — Spain","https://upr-info.org/en/review/spain","Contexto del ciclo y seguimiento"],
+      ["Estadística general","Instituto Nacional de Estadística","https://www.ine.es/","Pobreza, empleo, brechas, hogares, salud, digital"],
+      ["Justicia","Consejo General del Poder Judicial","https://www.poderjudicial.es/","Duración judicial, lanzamientos, violencia, actividad judicial"],
+      ["Fiscalía","Fiscalía General del Estado","https://www.fiscal.es/","Delitos de odio, trata, violencia, menores"],
+      ["Seguridad","Ministerio del Interior","https://www.interior.gob.es/","Delitos de odio, seguridad, fronteras, estadísticas"],
+      ["DDHH/NPM","Defensor del Pueblo","https://www.defensordelpueblo.es/","Quejas, CIE/CETI, supervisión, MNP"],
+      ["Igualdad","Delegación del Gobierno contra la Violencia de Género","https://violenciagenero.igualdad.gob.es/","Violencia de género, feminicidios, recursos"],
+      ["Educación","Ministerio de Educación, Formación Profesional y Deportes","https://www.educacionfpydeportes.gob.es/","Abandono, repetición, inclusión, escolarización"],
+      ["Sanidad","Ministerio de Sanidad","https://www.sanidad.gob.es/","Cobertura sanitaria, salud mental, salud sexual"],
+      ["Vivienda","Ministerio de Vivienda y Agenda Urbana","https://www.mivau.gob.es/vivienda","Parque público, planes y vivienda"],
+      ["Clima","MITECO","https://www.miteco.gob.es/","Emisiones, adaptación, financiación climática"],
+      ["Cooperación","AECID","https://www.aecid.es/","AOD y cooperación"],
+      ["Migración","Ministerio de Inclusión, Seguridad Social y Migraciones","https://www.inclusion.gob.es/","Acogida y servicios a migrantes/refugiados"],
+      ["Asilo","Oficina de Asilo y Refugio / Interior","https://proteccion-asilo.interior.gob.es/","Solicitudes, resoluciones y protección internacional"],
+      ["Metodología","Regla Blue Human","—","Indicadores no sustituyen evidencia; no automatizar el status; mantener contradicciones y revisión humana."]
+    ]
+  }
+}
+```

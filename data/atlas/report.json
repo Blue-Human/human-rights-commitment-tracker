@@ -1,0 +1,56 @@
+{
+ "run_at": "2026-11-23T14:15:29+00:00",
+ "steps": {
+  "Países y nombres oficiales (M49)": {
+   "ok": true
+  },
+  "Naciones Unidas: registro del depositario (UNTC)": {
+   "ok": true
+  },
+  "ACNUDH: base de datos de órganos de tratados (entrada en vigor y procedimientos)": {
+   "ok": true
+  },
+  "OEA: textos y firmas y ratificaciones": {
+   "ok": true
+  },
+  "Unión Africana: tratados y listas de estado": {
+   "ok": true
+  },
+  "Textos (BOE, Naciones Unidas, OEA, Unión Africana)": {
+   "ok": true
+  },
+  "Observaciones y recomendaciones generales": {
+   "ok": true
+  },
+  "Decisiones de los órganos de tratados sobre España": {
+   "ok": true
+  },
+  "HUDOC: sentencias del Tribunal Europeo relativas a España": {
+   "ok": true
+  },
+  "Documento un-ga-60-251": {
+   "ok": true
+  },
+  "Composición coe-ecthr": {
+   "ok": true
+  },
+  "Composición oas-iachr": {
+   "ok": true
+  },
+  "Composición au-achpr-commission": {
+   "ok": true
+  },
+  "Corte Africana: declaraciones del artículo 34.6": {
+   "ok": true
+  }
+ },
+ "errors": [],
+ "unavailable": [],
+ "unmatched_names": {},
+ "fetches": {
+  "total": 406,
+  "network": 406,
+  "changed": 0
+ },
+ "quote_errors": []
+}

@@ -1,0 +1,11 @@
+{
+  "extraction": "Transcripción manual de tablas del PDF oficial contrastada con texto y captura de la página 9. Tasa nacional contrastada con la tabla de la página 11. No se dispone de captura binaria del PDF; el servidor bloquea su descarga directa.",
+  "printed_page": 11,
+  "observations": [
+    {
+      "year": 2025,
+      "value": 4.92,
+      "flags": ""
+    }
+  ]
+}

@@ -1,0 +1,3935 @@
+{
+ "instrument": "un-ced",
+ "register": "untc",
+ "as_of": "2026-11-23",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-16&chapter=4&clang=_en",
+  "retrieved": "2026-11-23",
+  "sha256": "02b2cb79d8593b6764c44695ad6a570ca5fd513033de5732c825a245a36fb8dc"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Accession(a), Ratification"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, accession or succession.)",
+   "entries": 12
+  },
+  {
+   "key": "Obj",
+   "title": "Objections",
+   "intro": "(Unless otherwise indicated, the objections were made upon ratification, accession or succession.)",
+   "entries": 8
+  },
+  {
+   "key": "DecUnderArticle",
+   "title": "Declarations recognizing the competence of the Committee under articles 31 and",
+   "intro": "(Unless otherwise indicated, the declarations were made upon ratification, accession or succession.)",
+   "entries": 32
+  }
+ ],
+ "notes": {
+  "1": "1With territorial exclusion in respect of the Faroe Islands and Greenland. (See C.N.25.2022.TREATIES-IV.16 of 14 January 2022.)",
+  "2": "2For the European part of the Netherlands and the Caribbean part of the Netherlands (the Islands of Bonaire, Sint Eustatius and Saba).\nSubsequently, on 21 December 2017, the Government of the Netherlands notified the Secretary-General that the Convention will apply to Aruba, with a declaration under articles 31 and 32. (See C.N.783.2017.TREATIES-IV.16 of 21 December 2017.)"
+ },
+ "participants": [
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-11-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Nov 2007"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "8 November 2007\nArticle 31\nIn accordance with Article 31 of …..[the International Convention for the Protection of All Persons from Enforced Disappearance], the Republic of Albania declares that it recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by Albanian State.\nArticle 32\nIn accordance with Article 32 of …..[the International Convention for the Protection of all Persons from Enforced Disappearance], the Republic of Albania declares that it recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2007-11-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=2&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8cda0c1a1602b87d2a51f863cd1dc240de41e107128ee55b6554bac62c39074b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-11-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DZA",
+   "name": "Algeria",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=3&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a33baac0242385ae6b00051c1bd394cefe0388bd220026b51d266412c53f7c2d"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": "2014-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=5&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "1d2a11180187e1421d3510091cd2ad7c543aa560423c2adf7c6b976c9f5b9607"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2014-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-12-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Dec 2007"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "11 June 2008\nArticle 31\nIn accordance with the provisions of article[s] 31, paragraph 1 ... of the International Convention for the Protection of All Persons from Enforced Disappearance, the Argentine Republic recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to the jurisdiction of the Argentine Republic claiming to be victims of a violation by the State of any of the provisions of the Convention ...\nArticle 32\nIn accordance with the provisions of ... article[s] 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, the Argentine Republic recognizes the competence of the Committee on Enforced Disappearances ... to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2007-12-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=7&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "823086ee7271f0b0d4231fdb6f1327a4cc9fade2b286d12e70123827e797bb2f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-12-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": "2007-04-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-01-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jan 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-02-24",
+    "denunciation": null,
+    "consent": "2011-01-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=8&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "0567969c6bd75c079d6c4b2a876d129b43fa9cfe947656e8e17e4d5e5cdd3ed2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-01-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-06-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Jun 2012"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 32:\nPursuant to Article 32 of the Convention, the Republic of Austria recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention.\nDeclaration under article 31:\nPursuant to Article 31 of the Convention, the Republic of Austria recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by Austria."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2012-07-07",
+    "denunciation": null,
+    "consent": "2012-06-07",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=10&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "1a61aa48b153818d66ed3c02202949238e7ea3d031d85d930d243e59502a3d23"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-06-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=11&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d19bfb2eb60f3f3a9ea741e46bcfa110d4f69cb741cc6b7f0ab77fb6fcd577d8"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-08-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Aug 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2024-09-29",
+    "denunciation": null,
+    "consent": "2024-08-30",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=14&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6824fb7e2a6af4d4cff5351c5d72dd14fb93454919c699961f67f780e9871bec"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-08-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-06-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Jun 2011"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "14 June 2021\nObjection to the reservation made by Oman to Article 33 of the Convention upon accession:\nThe Kingdom of Belgium has carefully examined the reservation made by the Sultanate of Oman on 12 June 2020 to Article 33 of the International Convention for the Protection of All Persons from Enforced Disappearance, done at New York on 20 December 2006 (hereinafter “the Convention”).\nThe Kingdom of Belgium notes that the reservation aims to exclude any visits by the Committee on Enforced Disappearances (hereinafter “the Committee”) pursuant to Article 33. However, visits which the Committee intends to make under Article 33 of the Convention are not subject to prior recognition of the competence of the Committee by the State concerned. Under Article 33, the Committee is competent to consider allegations, based on credible information, of serious violations of the Convention by a State Party. Paragraphs 2 and 4 specify that the Committee may only implement the measures provided for in paragraph 1 if it reaches agreement with the State Party concerned. While States Parties may request the postponement or cancellation of a visit, they cannot exclude as a matter of principle any visit by the Committee under Article 33.\nCommittee visits of the kind provided for in Article 33 are an integral part of the system established by the Convention and an essential element of its implementation. By not recognizing the competence which Article 33 confers on the Committee, the Sultanate of Oman is unduly limiting the Committee's competence, which is inherent in the Convention.\nThe Kingdom of Belgium therefore considers that this reservation is contrary to the object and purpose of the Convention. The Kingdom of Belgium wishes to recall that, under the terms of Article 19 of the Vienna Convention on the Law of Treaties, a State cannot formulate a reservation that is incompatible with the object and purpose of a treaty.\nConsequently, the Kingdom of Belgium objects to the above-mentioned reservation made by the Sultanate of Oman to the International Convention for the Protection of All Persons from Enforced Disappearance. This objection does not preclude the entry into force of the Convention as between Belgium and Oman."
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 32:\nThe Kingdom of Belgium declares, in accordance with article 32 of hte Convention, that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention.\nArticle 31:\nThe Kingdom of Belgium declares that in accordance with article 31 of the convention, [Belgium] recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by the Kingdom of Belgium."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2011-07-02",
+    "denunciation": null,
+    "consent": "2011-06-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=17&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9fffc84d567bd66d66366a1c3d38a6aa05a6380a1258fbc6f5d4752da319db55"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-06-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-08-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Aug 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-09-13",
+    "denunciation": null,
+    "consent": "2015-08-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=18&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "3acb8c3563b7ca4ba02b3115ba23e750fe9836c1d8bf8e2099a9db8fff6086eb"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-08-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "2010-03-19",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-11-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Nov 2017"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2017-12-02",
+    "denunciation": null,
+    "consent": "2017-11-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=19&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a99a99ffbdc8145d40813e9140a2d917cf52d8d176f9e758e8886a88268c2455"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-11-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Dec 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2008-12-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=21&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8f596ab1dcb5fd2753d0e538fbc5a6ecbef7387215e24f7e856ce4c08e1d8c84"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-12-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-03-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Mar 2012"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "13 December 2012\nArticle 32\n“Bosnia and Herzegovina hereby declares, in accordance with article 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York, December 20, 2006, that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention.”\n13 December 2012\nArticle 31\n“Bosnia and Herzegovina hereby declares that in accordance with article 31 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York, December 20, 2006, Bosnia and Herzegovina recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by Bosnia and Herzegovina.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2012-04-29",
+    "denunciation": null,
+    "consent": "2012-03-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=22&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "020316dd99b28df943a5e57f582d242b88e16ac25038c0ca358c53241307a213"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-03-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-11-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Nov 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-29",
+    "denunciation": null,
+    "consent": "2010-11-29",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=24&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "51bd87ca6d9403117f08686fd36d8b674dd7cacea655c36f805802032c6cdc6b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-11-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": "2008-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=26&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8854dc1fa24c3c8f653c022808c5ad8f7d64f01ef7820e0386d5a025e52342dc"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-12-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Dec 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-12-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=27&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "612d41b3b8aa39d95c1f03f4dfccc1a81c37b788aaf8127d027a186f278ba3e6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-12-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=28&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5a75fecfeb8470aafc28553a7edca25de5a5bccb13628a7f3b48898e26434791"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-12-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Dec 2022"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2023-01-19",
+    "denunciation": null,
+    "consent": "2022-12-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=32&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "85d892aee2913ae246f6b1abc84f462fe8308b47b3276a8251721a9cbd8ac044"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2022-12-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-06-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Jun 2013 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2013-07-27",
+    "denunciation": null,
+    "consent": "2013-06-27",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=29&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "cbed180960bcb22fbb1cb8ccd5558278bb3ff7a1ff5ade61fe8bb3d474c3e316"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-06-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CMR",
+   "name": "Cameroon",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=30&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "78bcf8f524820ce0c60a4bf34dad88804776f581f87f40edac0cb93b648e075f"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-10-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Oct 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2016-11-10",
+    "denunciation": null,
+    "consent": "2016-10-11",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=33&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8ebb171fe37fd4a98b55db8ae54ad4a55751761c371e6b9ac4713f82de1ef074"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-10-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TCD",
+   "name": "Chad",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=34&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "52925cff7a7495ecee03070d2372756a8cb7c7819c2e1775e33f1ba4c07acb49"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-12-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Dec 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 31\nThe Republic of Chile hereby declares, in accordance with article 31 of this Convention, that it recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by this State Party of provisions of this Convention.\nArticle 32\nThe Republic of Chile hereby declares, in accordance with article 32 of this Convention, that it recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-12-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=35&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f47745d616318335389174d605b8e6fdd94423a3361b7070fb150c4d54847e4d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-12-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "2007-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-07-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Jul 2012"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "7 September 2022\nDeclaration under article 31:\n… the Republic of Colombian declares that, in accordance with article 31 of the Convention, it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to the jurisdiction of the Republic of Colombia, claiming to be victims of a violation of any of the provisions of the Convention by the Republic of Colombia."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2012-08-10",
+    "denunciation": null,
+    "consent": "2012-07-11",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=37&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "86e1f5443a84f217edb7d9fe5ba5e621d9b11e0ed9d50f7f4efec4ffac47c230"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-07-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COM",
+   "name": "Comoros",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=38&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b686b45d19903cfcf23bdb22346045c74a073f7b3636094cd208b1c50a506e03"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "COG",
+   "name": "Congo",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=39&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9cd2f8c4b44af647133ee62ef682cee098e96b9880642d7c85b83e9df282e761"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-02-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 Feb 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-03-17",
+    "denunciation": null,
+    "consent": "2012-02-16",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=41&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "21849edfe6c23cc6853de0ed8fcc898694c9d6d6ac30da01ad985c89e2e45b7e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-02-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-06-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Jun 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2024-07-06",
+    "denunciation": null,
+    "consent": "2024-06-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=42&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "96f513581e0af6b388062c9dfc00f1c37325b61393b39e40c7e6367bf619ed62"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-06-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-01-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Jan 2022"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31:\n“The Republic of Croatia recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention.”\nDeclaration under article 32:\n“The Republic of Croatia recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2022-03-02",
+    "denunciation": null,
+    "consent": "2022-01-31",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=43&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "bd8d0a5aeca34b9e1adc41b305756794bd49175ee1da663b4417c215a503b6f7"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2022-01-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CUB",
+   "name": "Cuba",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-02-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Feb 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Republic of Cuba hereby declares, in accordance with article 42, paragraph 2, that it does not consider itself obliged to refer its disputes to the International Court of Justice, as provided for in paragraph 1 of the same article."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-02-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=44&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6b4146b71389c6ef8a041301e32954ff152f1d20ba04990f8d5556385b2a9e74"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-02-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=45&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b727ec1cca0b65b3bb0d9680902dcb8f8f57ae09a3042c716630fdf120fab432"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": "2016-07-19",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-02-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Feb 2017"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31\n… pursuant to Article 31 (1) of the International Convention for the Protection of All Persons from Enforced Disappearance, the Czech Republic declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by the Czech Republic of provisions of this Convention.\nDeclaration under article 32\n… pursuant to Article 32 of the of the International Convention for the Protection of All Persons from Enforced Disappearance, the Czech Republic declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2017-03-10",
+    "denunciation": null,
+    "consent": "2017-02-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=46&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e6b1cef8705b005b8ac5a4b21300181da06e9b08e965e5f715008e2c364bb746"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-02-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-01-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Jan 2022"
+   },
+   "notes": [
+    "1"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2022-02-12",
+    "denunciation": null,
+    "consent": "2022-01-13",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=49&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4c0fc2df23d60dca7e069c0c1daf67f489bb15d31ff05754c9f63a1d3ea95547"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2022-01-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-05-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 May 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2019-06-12",
+    "denunciation": null,
+    "consent": "2019-05-13",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=51&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7a47835305c91f625522895b3a89411c16207bf59d081bef8c4449ceea532cc2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2019-05-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "signature": "2018-09-26",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=52&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f37939745ad206bb5f07704065b8a6764bec491de24aa722f2a20ef870d76628"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2018-09-26",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2007-05-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-10-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Oct 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 31\nIn accordance with the provisions of article 31 (1) of the International Convention for the Protection of All Persons from Enforced Disappearance, the Republic of Ecuador recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of violations of provisions of this Convention by this State Party.\nArticle 32\nIn accordance with the provisions of article 32 of the Convention for the Protection of All Persons from Enforced Disappearance, the Republic of Ecuador recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-10-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=53&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "132cd07ed135fb3b7330bbccfe6bdb591586b435da7a1c6e3ad6cfe5ad2eb8af"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-10-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2026-01-13",
+    "type": "accession",
+    "code": "a",
+    "raw": "13 Jan 2026 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2026-02-12",
+    "denunciation": null,
+    "consent": "2026-01-13",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=58&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f428c2d7e645b2410700d7af4530acf3a98bcac0fc46047a16d9fb578dbdb71f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2026-01-13",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWZ",
+   "name": "Eswatini",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=167&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f1c14b1de30f24849fa90c9766229e1c1177f9b1bec57ec5129444529ad16cd2"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-09-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "FJI",
+   "name": "Fiji",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-08-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Aug 2019 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "“The Government of the Republic of Fiji declares that it does not consider itself bound by provisions of Article 42(1).”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2019-09-18",
+    "denunciation": null,
+    "consent": "2019-08-19",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=60&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b8ba820a6ed473cdacf8c7d5d5f67c02a1fec31389feeb38482c3c9434dd054f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2019-08-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-03-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Mar 2023"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "“Emphasizing the importance of prior verification of the conditions for adoption, in the best interests of the child, and thus having reservations about a separate procedure for annulling adoption but recognizing, however, the possibility of reviewing adoption in exceptional cases, the Republic of Finland considers that it is not bound by the provisions of Article 25, paragraph 4 of the Convention in respect of annulling the adoption of the children referred to in Article 25, paragraph 1, subparagraph (a) of the Convention.”"
+    },
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "With regard to the reservation to article 33 made by Oman upon accession:\n“… The Government of the Republic of Finland has carefully examined the reservation made by the Government of the Sultanate of Oman to Article 33 of the International Convention for the Protection of All Persons from Enforced Disappearance (hereinafter “the Convention”).\nThe Government of the Republic of Finland notes that the competence of the Committee on Enforced Disappearances under Article 33 of the Convention is not conditional upon general recognition by the State Party. The Government of the Republic of Finland considers that Committee visits provided for in Article 33 of the Convention form an essential part of the implementation of the Convention. A general exclusion of the Committee’s competence in case of suspicion of serious violation of the provisions of the Convention unduly restricts the Committee’s competence and casts doubts on the commitment of the Sultanate of Oman to the object and purpose of the Convention.\nThe Government of the Republic of Finland thus considers that the above-mentioned reservation is incompatible with the object and purpose of the Convention and is accordingly not permitted under Article 19 (c) of the Vienna Convention on the Law of Treaties.\nTherefore, the Government of the Republic of Finland objects to the reservation made by the Government of the Sultanate of Oman to Article 33 of the Convention. This objection shall not preclude the entry into force of the Convention between the Republic of Finland and the Sultanate of Oman. The Convention will thus become operative between the two states without the Sultanate of Oman benefitting from the aforementioned reservation.”"
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31 :\n“In accordance with Article 31, paragraph 1 of the Convention, the Republic of Finland declares that it recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by Finland of provisions of the Convention.”\nDeclaration under article 32 :\n“In accordance with Article 32 of the Convention, the Republic of Finland declares that it recognizes the competence of the Committee to receive and consider communications in which a State Party claims that Finland is not fulfilling its obligations under the Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2023-04-23",
+    "denunciation": null,
+    "consent": "2023-03-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=61&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01ce42f6a0368e3aa7644d8790e38a813b242a525334426165a1b0d6659d21ee"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2023-03-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Sep 2008"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "15 June 2021\nObjection to the reservation to Article 33 of the Convention made by Oman upon accession:\n... the Government of the French Republic has carefully examined the reservation made by the Sultanate of Oman upon its accession to the International Convention for the Protection of All Persons from Enforced Disappearance, expressed as follows: “the Government of the Sultanate of Oman does not recognize the competence of the Committee in cases of enforced disappearances provided in article 33 of the aforementioned Convention.”\nThe object and purpose of the Convention is to prevent enforced disappearances and to combat impunity for the crime of enforced disappearance. By virtue of article 26 of the Convention, a Committee on Enforced Disappearances, consisting of 10 experts elected by the States Parties, is established to implement the provisions of the Convention. The Committee is a core mechanism of the Convention.\nThe reservation made by the Sultanate of Oman thus relates to a core function of the Committee – indeed, one that is operational and practical in nature– in preventing and combatting impunity for the crime of enforced disappearance. Moreover, States Parties that are to be visited by the Committee retain the option of asking the Committee to postpone or cancel the visit. There are therefore no grounds for rejecting, by means of the reservation, a cooperation mechanism intended to fulfil the purposes of the Convention.\nThe Government of the French Republic recalls that, according to customary international law as codified in the Vienna Convention on the Law of Treaties of 23 May 1969, a reservation incompatible with the object and purpose of the Convention shall not be permitted.\nThe Government of the French Republic therefore objects to the reservation made by the Sultanate of Oman. The present objection does not, however, prevent the entry into force of the Convention between the French Republic and the Sultanate of Oman."
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "9 December 2008\nArticle 31\n... in accordance with the provisions of paragraph 1 of article 31, [France] recognizes the competence of the Committee on enforced disappearance to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by France.\nArticle 32\n... in accordance with article 32, [France] recognizes the competence of the Committee on enforced disappearance to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2008-09-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=62&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e4c4b3b35accb231a9ebad81c8ea772d69858d2be14fa24b9af2e887c16785ca"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-01-19",
+    "type": "ratification",
+    "code": null,
+    "raw": "19 Jan 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-02-19",
+    "denunciation": null,
+    "consent": "2011-01-19",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=63&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "49a148e99c5603d7cec48a9e81883bb386bd6e63f76b628cba88c57a558ce597"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-01-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GMB",
+   "name": "Gambia",
+   "signature": "2017-09-20",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-09-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Sep 2018"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2018-10-28",
+    "denunciation": null,
+    "consent": "2018-09-28",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=64&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e60e6a945c4ad9dd89eaded268a63cb1cc23de8a5cc6dd440244c5b0e7736938"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2018-09-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": "2007-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declarations",
+     "kind": "declaration",
+     "text": "“Article 16\nThe prohibition of return shall only apply if the person concerned faces a real risk of being subjected to enforced disappearance.\nRegarding Art. 17 (2) (f)\nUnder German law it is guaranteed that deprivation of liberty is only lawful if it has been ordered by a court or – in exceptional cases – subsequently authorized by a court. Article 104 para. 2 of the Basic Law (Grundgesetz) expressly provides: ‘Only a judge may rule upon the permissibility or continuation of any deprivation of liberty. If such a deprivation is not based on a judicial order, a judicial decision shall be obtained without delay’. Article 104 para. 3 of the Basic Law provides that a person who has been provisionally arrested on suspicion of having committed a criminal offence ‘shall be brought before a judge no later than the day following the arrest’.\nIn the event that a person is being held arbitrarily in contravention of Article 104 of the Basic Law, anyone can bring about a judicial decision leading to that person’s release by applying to the competent Local Court for his/her immediate release. If the person concerned has been detained beyond the time limit permissible under the Basic Law, the court has to order that person’s release pursuant to section 128 (2), first sentence, of the Code of Criminal Procedure (Strafprozessordnung, StPO).\nArticle 17 para. 3\nIn the case of an involuntary placement of sick persons by a custodian or a person having power of attorney, the information required under letters (a) to (h) is known to the court which authorizes the placement. The court can ascertain the information required under letters (a) to (h) at any time through the custodian or person having power of attorney; the information is then included in the\ncase-file. This information is also to be regarded as records within the meaning of article 17 para. 3.\nRegarding Article 18\nUnder German law, all persons with a legitimate interest are entitled to obtain information from the court files. The restrictions provided for in German law for the protection of the interests of the person concerned or for safeguarding the criminal proceedings are permissible pursuant to Article 20 para. 1 of the Convention.\nRegarding Article 24 para. 4\nIt is clarified that the envisaged provision on reparation and compensation does not abrogate the principle of state immunity.”"
+    },
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "13 January 2021\nWith regard to the reservation made by Oman upon accession:\nThe Government of the Federal Republic of Germany has carefully examined the reservation made by the Government of the Sultanate of Oman on June 12, 2020 to Article 33 of the International Convention of December 20, 2006 for the Protection of All Persons from Enforced Disappearance (hereinafter referred to as “the International Convention”).\n(i) It notes that undertakings by the Committee on Enforced Disappearances (hereinafter referred to as the “the Committee”) under Article 33 of the International Convention are not conditional upon a general recognition of the Committee’s competence by the State party. Rather, its competence under that provision is related to the elucidation of allegations of serious violations of the Convention, based on reliable information received by the Committee. Article 33, paragraphs 2 and 4, clarify that the Committee may carry out the measures referred to in paragraph 1 only if it reaches agreement with the State Party concerned on a case-by-case basis.\nThe Committee must also seek the consent of the State Party to take measures under Article 33, even if the State party has generally accepted the Committee’s competence under Articles 31 and 32. However, just as in the case of the conduct of measures under Article 34, the competence of the Committee under Article 33 cannot be excluded as a matter of principle.\n(ii) The reservation made by the Government of the Sultanate of Oman is inadmissible under article 19(c) of the Vienna Convention on the Law of Treaties because it is incompatible with the object and purpose of the treaty. The object and purpose of the International Convention is to give the Committee, in cases of suspicion, based on reliable information, of a serious violation of the International Convention, the competence, with the consent of the State party to request on a case-by-case basis one or more members of the Committee to undertake a visit and to report to the Committee on the visit, in order to enable the Committee to communicate observations and recommendations to the State party concerned on the basis of the information obtained. By not recognizing the competence of the Committee, which is inherent in the International Convention, the Government of the Sultanate of Oman is unduly restricting the Committee’s competence, which exists as a matter of principle under Article 33 of the International Convention.\n(iii) The Government of the Federal Republic of Germany objects to the reservation to Article 33 of the International Convention."
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 31\nIn accordance with Article 31 of the International Convention for the Protection of all Persons from Enforced Disappearance (CED) of 20 December 2006, the Federal Republic of Germany declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to the jurisdiction of the Federal Republic of Germany claiming to be victims of a violation of provisions of this Convention by the Federal Republic of Germany.\nArticle 32\nIn accordance with Article 32 of the International Convention for the Protection of all Persons from Enforced Disappearance (CED) of 20 December 2006, the Federal Republic of Germany declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that the Federal Republic of Germany is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=66&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "998dd10ec585ed6d161a2d991ec7bfa236afa04252f2fa996c94be818dd100cf"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=67&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "bdcf89fe1b6409737a564fd80b39d26e9d0b9bbd164fb9b7b23552d939785a3b"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GRC",
+   "name": "Greece",
+   "signature": "2008-10-01",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-07-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Jul 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-08-08",
+    "denunciation": null,
+    "consent": "2015-07-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=68&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6e0c59abacb43fd8b050eb92cb3a0579ec92aecbdf9bdc1099e80c527cb64279"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-07-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GRD",
+   "name": "Grenada",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=69&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "52cc937e8a482d7113c76f431dcabb4d10394d951c66b9323076c4e08d0ce24a"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=70&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "be0bef6b213477d9d91a109a574e95c283fd988fb228d4a10b88df149c09f2f0"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2013-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=72&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f4b90738b83a769fe8626f770c6131a1f848444faf5efeba5205c0145e71c258"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2013-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=74&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "958728c4e8a8d0b1949279e7275d71fb9e2df163a0b9127381309ab81427b432"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-04-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Apr 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2008-04-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=76&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "307979704851542c8a0146ee560a51f9226d79c7bef531667bbd25e1487f0b07"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-04-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": "2008-10-01",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=78&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01d1870d599a844ab1715b4148b87e07b12df42d9a2a52447ba690a2323e9190"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-10-01",
+    "type": null
+   }
+  },
+  {
+   "iso3": "IND",
+   "name": "India",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=79&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d8e3c9c6fe217b3bd6e78fd7323c7e6df08ebc5f7cde220ba431225e1bd562dc"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "IDN",
+   "name": "Indonesia",
+   "signature": "2010-09-27",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=80&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b97837e50b5d15354194a49f462efd167ba9591fe30732e955f79bf208c69c2c"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2010-09-27",
+    "type": null
+   }
+  },
+  {
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-11-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Nov 2010 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2010-11-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=82&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9fcd54e630f586765c069a34258a025e5e77c184f4e7bc8ba59640e236555db2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-11-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": "2007-03-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=83&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "425a99e8a51f02e2328185f179dc573113898b7084f1925468c6528776cdedb2"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-03-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "2007-07-03",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-10-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Oct 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-11-07",
+    "denunciation": null,
+    "consent": "2015-10-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=85&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "13d022566873e1edebc6b018f00cde5bb15e98449d0111294a34d0516ef369f9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-10-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "JPN",
+   "name": "Japan",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Jul 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 32\n“In accordance with Article 32 of the Convention, the Government of Japan declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-07-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=87&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01b776ad278f2f6344990fa774709a6a4a2bba4a756e7acc789fd769cf36c322"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-07-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-02-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Feb 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-02-27",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=89&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d3658c63db1e86fdad8acab0b1ebcbb2173ffbf03f6184b967d01d40402e6de7"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-02-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KEN",
+   "name": "Kenya",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=90&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f166c446f9981ded0384283bd6ea2c86b132940682615774b73b98f6f19b50e3"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LAO",
+   "name": "Lao People's Democratic Republic",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=94&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7c67751b74686d2d6518dbda151574f1a78600e08170888be1e77a3237228814"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-09-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LBN",
+   "name": "Lebanon",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=96&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4d5d276162f40a32fb171ab9e00ddcebd1722b34f9c454173e4e190684c66bda"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "signature": "2010-09-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-12-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Dec 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-01-05",
+    "denunciation": null,
+    "consent": "2013-12-06",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=97&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "aaa896bf0cdc92e266bc7674227b70613c726dcb0ba87f1e358ed8f87bd829bd"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-12-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": "2007-10-01",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=100&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "81a4abb2e7af40513231eb1405f4082b2fe9be0454f2cda3cb5df61f79f40450"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-10-01",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-08-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Aug 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "14 August 2013\nArticle 31\n“… in accordance with Article 31 of the Convention, the Seimas of the Republic of Lithuania declares that the Republic of Lithuania recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to the jurisdiction of the Republic of Lithuania claiming to be victims of a violation by the Republic of Lithuania of provisions of this Convention.”\nArticle 32\n“… in accordance with Article 32 of the Convention, the Seimas of the Republic of Lithuania declares that the Republic of Lithuania recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party to this Convention claims that the Republic of Lithuania is not fulfilling its obligations under this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2013-09-13",
+    "denunciation": null,
+    "consent": "2013-08-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=101&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f7ee119b10678446d93b83ddd08f9e54e29fa14c1bef794f03de2e454b3d01da"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-08-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-04-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Apr 2022"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "20 February 2023\nDeclaration under article 31:\nThe Grand Duchy of Luxembourg declares, in accordance with article 31 of the Convention, that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of persons subject to its jurisdiction claiming to be victims of a violation by the Grand Duchy of Luxembourg of the provisions of the Convention.\n20 February 2023\nDeclaration under article 32:\nThe Grand Duchy of Luxembourg declares, in accordance with article 32 of the Convention, that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2022-05-01",
+    "denunciation": null,
+    "consent": "2022-04-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=102&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59d9796ae403172dfa80335a32e14d464fec5b7d3b4a05a70f5ca24479d491aa"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2022-04-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=103&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "36352104b50b4cc8ae79cf7e591b0fb0d883e40d0361d4723adf8a93261ed78f"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MWI",
+   "name": "Malawi",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-07-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Jul 2017 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2017-08-13",
+    "denunciation": null,
+    "consent": "2017-07-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=104&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "cd5b09b33cb0930d5eb7a4f9097b89f8db50d82cc2e499347f9abfec78fea37f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-07-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-07-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Jul 2023"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2023-08-30",
+    "denunciation": null,
+    "consent": "2023-07-31",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=106&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "464225ed6828bed94b122f8dace5c20cd8c8b6c8d98b6253ee513e8480bac991"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2023-07-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Jul 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "2 February 2010\nDeclaration under articles 31 and 32:\nThe Government of the Republic of Mali declares that it recognizes the competence of the Committee on Enforced Disappearances to receive communications from individuals or any other State Party in accordance with the provisions of articles 31 and 32 of the International Convention for the Protection of All Persons against Enforced Disappearance, adopted on December 20, 2006."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-07-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=107&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2dc97640704aba6e77e339bd7b188ee4eac24c1fbad088b681a7d9288a34279c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-07-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-03-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Mar 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-04-26",
+    "denunciation": null,
+    "consent": "2015-03-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=108&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59a5d9b710aea6f2ae53edaf05f621f8f59e045acd8651f410a5f119f3958c97"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-03-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MRT",
+   "name": "Mauritania",
+   "signature": "2011-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-10-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Oct 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-11-02",
+    "denunciation": null,
+    "consent": "2012-10-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=110&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9c2056c5f3bed0d7a70874111338ab7a4cf7434abf8b3cd3325761aac0384c44"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-10-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-03-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Mar 2008"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "2 October 2020\nDeclaration under article 31:\nIn accordance with the provisions of article 31 (1) of the International Convention for the Protection of All Persons from Enforced Disappearance, the United Mexican States declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of the Convention by the United Mexican States."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2008-03-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=112&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6696dffc5d56c32c915047eb5bdeb16e07b6009b27f7c9549cad1343b5f062b4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-03-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=114&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "14f56b4c9d2bbad23c3ac05e53abf37314c861253e5deb8e9706b97cd772595d"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-02-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Feb 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-03-14",
+    "denunciation": null,
+    "consent": "2015-02-12",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=115&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a990bdd8ff8c4772de765c3a58a45ae0adbc9e7eaac34fddb5fda3e6549e8db0"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-02-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Sep 2011"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 31\n“In accordance with Article 31 of the International Convention for the Protection al All Persons from Enforced Disappearance, adopted in New York, December 20, 2006, the Government of Montenegro declares that Montenegro recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by Montenegro of provisions of this Convention.”\nArticle 32\n“In accordance with Article 32 of the International Convention for the Protection al All Persons from Enforced Disappearance, adopted in New York, 20 December 2006, the Government of Montenegro declares that Montenegro recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2011-10-20",
+    "denunciation": null,
+    "consent": "2011-09-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=116&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "072b6a18522cbddbd52a213aa3da361120a8c077a8a18a80328ade964d22794e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-09-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-05-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 May 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "Pursuant to 42 (2) of the Convention, the Kingdom of Morocco does not consider itself bound by the provisions of paragraph 1 of this article and declares that for any dispute between two or more States to be brought before the International Court of Justice, it is necessary to have, in each case, the agreement of all States parties to the dispute."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2013-06-13",
+    "denunciation": null,
+    "consent": "2013-05-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=117&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6bfd0b0cc2fea347b25c2afde2eda43af716a193044acb3b51c7c98545fd5fa8"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-05-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": "2008-12-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=118&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d8614c74dcdb366a3074e9187ae6b6b47494c8cf2f9bca6565b3ef2e7a551733"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-12-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": "2008-04-29",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-03-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Mar 2011"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "9 June 2021\nWith regard to the reservation made by Oman upon accession:\n“The Government of the Kingdom of the Netherlands has carefully examined the reservation made by the Government of the Sultanate of Oman upon accession to the International Convention for the Protection of All Persons from Enforced Disappearance on 12 June 2020, relating to article 33 thereof.\nThe competence of the Committee on Enforced Disappearances under article 33 – as opposed to its competence under articles 31 and 32 – is not conditional upon general recognition by individual State Parties. A visit under article 33 requires prior consultation with the State Party concerned and notification in writing (paragraphs 1-2); moreover, upon a substantiated request by the State Party, the Committee may decide to postpone or cancel its visit (paragraph 3). Therefore, article 33 only refers to visits and the involvement of the State Party concerned on a case-by-case basis. The competence of the Committee under article 33 cannot be excluded as a matter of principle.\nThe Government of the Kingdom of the Netherlands considers a general exclusion of the Committee’s competence under article 33 of the Convention, as conveyed in the reservation of the Sultanate of Oman, an unduly restriction of the Committee’s competence under the Convention. Such reservation unilaterally limits the scope of the Convention, contrary to its object and purpose of preventing enforced disappearances and combatting impunity for the crime of enforced disappearance, and the competence of the Committee under article 33 to verify reliable information on serious violations of the Convention to these ends.\nThe Government of the Kingdom of the Netherlands recalls that, according to customary international law as codified in article 19 (c) of the Vienna Convention on the Law of Treaties, reservations incompatible with the object and purpose of a Convention are not permissible.\nThe Government of the Kingdom of the Netherlands therefore objects to the reservation of the Sultanate of Oman relating to article 33 of the International Convention for the Protection of All Persons from Enforced Disappearance. This objection shall not preclude the entry into force of the Convention between the Kingdom of the Netherlands and the Sultanate of Oman.”"
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 32:\n“In accordance with Article 32 of the International Convention for the Protection of all Persons from Enforced Disappearance, the Kingdom of the Netherlands, for the European part of the Netherlands and the Caribbean part of the Netherlands (the islands of Bonaire, Sint Eustatius and Saba), declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention.”\nArticle 31:\n“In accordance with Article 31 of the International Convention for the Protection of all Persons from Enforced Disappearance, the Kingdom of the Netherlands, for the European part of the Netherlands and the Caribbean part of the Netherlands (the islands of Bonaire, Sint Eustatius and Saba), declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by the Kingdom of the Netherlands of provisions of this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2011-04-24",
+    "denunciation": null,
+    "consent": "2011-03-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=123&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "282fd364d7ec0769f8c7f5e3c9b8265080dc337186bd76c05725c55f4c336762"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-03-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NER",
+   "name": "Niger",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-07-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jul 2015"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-08-23",
+    "denunciation": null,
+    "consent": "2015-07-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=126&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "67b72c26cc8de2f05d8c60c2bf17065a41e6dc57f79262d91596edf0c3857071"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-07-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Jul 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-07-27",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=127&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "23959f19c4fbd329101404e3a0e2eebd12a6ef5be1bf6bb65e2fc5cf2d45fd63"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-07-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=173&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f99a66c083a08215b769f80e400abf6d69293ec6fcd69a5cfc79208aeeb83a53"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NOR",
+   "name": "Norway",
+   "signature": "2007-12-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-08-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Aug 2019"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Declaration and reservation concerning Article 17 (2) made upon ratification\n“The Kingdom of Norway declares its understanding that whether and to what extent the various provisions of the Convention apply in situations of armed conflict will depend on an interpretation of the provision in question in the light of international humanitarian law, having regard to general principles of interpretation that apply where several regimes of international law are relevant, such as the principle of harmonisation and the principle of lex specialis.\nTo the extent that Article 17 (2) of the Convention may be interpreted as requiring each State Party to establish ‘in its legislation’ conditions for and guarantees related to deprivation of liberty that apply in situations of armed conflict, the Kingdom of Norway reserves the right not to apply this provision in such situations. Deprivation of liberty during armed conflict is not currently regulated in formal Norwegian law. In Norway, the rules concerning deprivation of liberty during armed conflict are set out in the Norwegian Armed Forces’ Manual of the Law of Armed Conflict and in the rules adopted for each specific operation, including the rules of engagement.”\nDeclaration concerning Article 20 (1), in conjunction with Article 18 made upon ratification\n“The Kingdom of Norway declares its understanding that Article 20 (1) of the Convention, which permits restrictions on the right to information referred to in Article 18 on an exceptional basis, where ‘strictly necessary’ and ‘if the transmission of the information would adversely affect the privacy’ of the person deprived of liberty, allows for weight to be given to an assessment by the person concerned of whether these conditions are met.\nThis applies provided that the information, viewed objectively, is of a sensitive personal nature, that the person concerned is under the protection of the law and that the deprivation of liberty is subject to judicial control.\nThus, it is the understanding of the Kingdom of Norway that, depending on the circumstances, access to information may be denied if the person deprived of liberty does not consent to the disclosure of sensitive personal information on grounds of privacy.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2019-09-21",
+    "denunciation": null,
+    "consent": "2019-08-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=129&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "412cc7ab4bba4d93d78ac24a1483ff66fcd3d71adef769e044ebd8d1ca8a36f2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2019-08-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "OMN",
+   "name": "Oman",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2020-06-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Jun 2020 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservations",
+     "kind": "reservation",
+     "text": "Firstly, the Government of the Sultanate of Oman does not recognize the competence of the Committee in cases of enforced disappearances provided in article 33 of the aforementioned Convention.\nSecondly, the Government of the Sultanate of Oman does not consider itself bound by the provisions of article 42, paragraph 1 of the aforementioned Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2020-07-12",
+    "denunciation": null,
+    "consent": "2020-06-12",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=130&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c965b75d0078edcbc7096141a0f6fe9196da24c2872c62ddfb7200aace70a3fd"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2020-06-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PLW",
+   "name": "Palau",
+   "signature": "2011-09-20",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=132&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4c932f6f97d81c4a7a7792da75eede041c8a207ad24e82f3b227b8dc1c6e2195"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2011-09-20",
+    "type": null
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "2007-09-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-06-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jun 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-07-24",
+    "denunciation": null,
+    "consent": "2011-06-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=133&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5a3127bcd570b8136ea96d2f3ea2e0b2cea7a981b42cb592b65ee69847cdc658"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-06-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-08-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Aug 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2010-08-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=135&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59544af047553ff260f9811673bcbd7e171d3c1323db4b3ffc631160ef852e17"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-08-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Sep 2012 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "22 July 2016\nDeclaration under article 31:\nIn accordance with article 31 of the International Convention for the Protection of All Persons from Enforced Disappearances, the Republic of Peru declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction, claiming to be victims of a violation of the provisions of the Convention by the Republic of Peru."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2012-10-26",
+    "denunciation": null,
+    "consent": "2012-09-26",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=136&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d11dfcdd4801bd7b1ab9767ac294bd5d27172f4749a39eaad2e7f042b3aa7a24"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-09-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": "2013-06-25",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-12-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Dec 2024"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "30 December 2024\nReservation to Article 25, paragraph 4 made at the time of ratification\n“Emphasizing the importance of prior verification of the conditions for adoption, in the best interests of the child, and thus having reservations about a separate procedure for annulment of adoption, while recognizing the possibility of reviewing or dissolving adoption in exceptional cases, the Republic of Poland considers that it is not bound by the provisions of Article 25, paragraph 4 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York on 20 December 2006, in respect of the annulment of adoptions of children referred to in its Article 25, paragraph 1, subparagraph (a).”"
+    },
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "Objection to the reservation to Article 33 made by the Sultanate of Oman upon accession\n“With regard to the reservation to Article 33 made by the Sultanate of Oman upon accession:\nThe Government of the Republic Poland has carefully examined the reservation made by the Government of the Sultanate of Oman to Article 33 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York on 20 December 2006 (hereinafter “the Convention”).\nThe Government of the Republic Poland notes that the competence of the Committee on Enforced Disappearances (hereinafter “the Committee”) under Article 33 of the Convention is not\nconditional upon general recognition by a State Party. The Government of the Republic of Poland considers that Committee’s visits provided for in Article 33 of the Convention form an essential part of the implementation of the Convention. A general exclusion of the Committee’s competence in case of suspected serious violation of the provisions of the Convention unduly restricts the Committee’s competence and raises doubts on the commitment of the Sultanate of Oman to the object and purpose of the Convention.\nThe Government of the Republic of Poland thus considers that the above-mentioned reservation is incompatible with the object and purpose of the Convention and is accordingly not permitted under Article 19 (c) of the Vienna Convention on the Law of Treaties, done at Vienna on 23 May 1969.\nTherefore, the Government of the Republic of Poland objects to the reservation made by the Government of the Sultanate of Oman to Article 33 of the Convention. This objection shall not preclude the entry into force of the Convention between the Republic of Poland and the Sultanate of Oman. The Convention will thus become effective between the two States without the Sultanate of Oman benefitting from the aforementioned reservation.”."
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under Article 31, paragraph 1\n“In accordance with Article 31, paragraph 1 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York on 20 December 2006, the Republic of Poland declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications made from or on behalf of persons under its jurisdiction claiming to be victims of a violation by the Republic of Poland of provisions of this Convention.”\nDeclaration under Article 32\n“In accordance with Article 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York on 20 December 2006, the Republic of Poland declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party to the Convention claims that the Republic of Poland is not fulfilling its obligations under the Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2025-01-29",
+    "denunciation": null,
+    "consent": "2024-12-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=138&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d41bd747fe6d20972a8ab3ba2c433425cf4f52c87a0cccad73927b122cfb0c7b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-12-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-01-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Jan 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "14 June 2021\nObjection to the reservation made by Oman to Article 33 of the Convention upon accession:\n“The Government of the Portuguese Republic has examined the reservation made by the Government of the Sultanate of Oman on 12 June 2020 to Article 33 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York, on 20 December 2006 (henceforth referred to as “the Convention”).\nFirstly, the Government of the Portuguese Republic notes that a reservation through which a State Party generally excludes action by the Committee on Enforced Disappearances (henceforth referred to as “the Committee”) under Article 33 defies a systematic interpretation of the Convention.\nArticles 31 and 32 of the Convention provide for the cases where a State may declare to generally recognise the competence of the Committee for certain purposes. Conversely, possible action by the Committee under Article 33 of the Convention is not reliant on such a recognition of competence; on the contrary, it necessarily rests on a [case-by-case] assessment.\nArticle 33 establishes procedures for the Committee to – subject to certain conditions and with a view to provide observations and recommendations – conduct a visit to a State Party if it receives reliable information indicating that said State Party is seriously violating the provisions of the Convention. Such possible action by the Committee is subject to cumulative conditions under Article 33:\ni) The Committee must have received reliable information indicating that a State Party is seriously violating the provisions of the Convention;\nii) The Committee must consult the State Party concerned on that received information;\niii) Only then, having decided to do so, may the Committee request one or more of its members to undertake a visit and report back to it without delay (i.e., it is not mandatory for the Committee to conduct the visit);\niv) For that visit to take place, the State Party concerned needs to agree to it, having been prior[l]y notified by the Committee, in writing, of the intention to organize a visit, indicating the composition of the delegation and the purpose of the visit. The modalities of the visit are defined by the Committee and the State Party concerned.\nConsequently, even in the cases where a State Party has declared to accept the competence of the Committee in relation to Article 31 and/or Article 32 of the Convention, action by the Committee under Article 33 is still subject to those conditions, including the express consent by the State Party concerned.\nSecondly, the Government of the Portuguese Republic recalls that, according to customary international law codified under subparagraph c) of Article 19 of the Vienna Convention on the Law of Treaties, reservations that are incompatible with the object and purpose of the Convention shall not be permitted.\nPossible action by the Committee under Article 33 is an essential mechanism to the protection of persons from enforced disappearance, as an important monitoring procedure of the Convention.\nThe object and purpose of a treaty should be understood from a functional perspective, i.e., including not only the guiding principles and general objectives of the treaty, but also all the mechanisms and procedures established for the prosecution of said objectives.\nThe object and purpose of the Convention is the protection of all persons from enforced disappearances and the Convention provides mechanisms and procedures – including the possible action by the Committee under Article 33 – aimed at preventing and mitigating violations of the rights and freedoms protected under the Convention.\nThus, a reservation through which a State Party generally excludes action by the Committee under Article 33 as a matter of principle is incompatible with the object and purpose of the Convention.\nArticle 33 establishes a possible (non-mandatory) monitoring procedure by the Committee in cases of reliably alleged serious violations of the Convention. That monitoring procedure entails visits of one or more member of the Committee to the State Party concerned, visits that are authorized on a case-by-case basis. Should a visit take place, its outcome are observations and recommendations by the Committee.\nIn this regard, the Government of the Portuguese Republic considers that this reservation, insofar as seeks to generally exclude possible action by the Committee under Article 33 of the Convention, is inadmissible for being incompatible with the object and purpose of the Convention.\nHence, the Government of the Portuguese Republic objects to this reservation.\nNotwithstanding, this objection shall not preclude the entry into force of the Convention between the Portuguese Republic and the Sultanate of Oman.”"
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "27 January 2014\nArticle 31\n“The Portuguese Republic declares that it recognizes the competence of the Committee on Enforced Disappearances in accordance and for the purposes of Article 31, paragraph 1 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York, on the Twentieth of December of two thousand and six.”\n27 January 2014\nArticle 32\n“The Portuguese Republic declares that it recognizes the competence of the Committee on Enforced Disappearance[s] in accordance and for the purposes of Article 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, adopted in New York, on the Twentieth of December of two thousand and six.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2014-02-26",
+    "denunciation": null,
+    "consent": "2014-01-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=139&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d197be7896e16beff11179a6b4667090d75056771c463af4a6eedce4da1cdbd4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-01-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KOR",
+   "name": "Republic of Korea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2023-01-04",
+    "type": "accession",
+    "code": "a",
+    "raw": "4 Jan 2023 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31:\nIn accordance with Article 31 of the Convention, the Republic of Korea declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by the Republic of Korea.\nDeclaration under article 32 :\nIn accordance with Article 32 of the Convention, the Republic of Korea declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2023-02-03",
+    "denunciation": null,
+    "consent": "2023-01-04",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=141&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c620cba8c88e32ff18c9623bbc3b23a9edaf6a178e0a21f4fc33df209440e523"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2023-01-04",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=142&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6ab41b4a15b43fcb21c3012600c890666f064e83eb9525c6dfb99f86b0ce122e"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": "2008-12-03",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=143&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "fe404a631131062ab8366ac35492d3e57f6251659f9882798f37c348e065430e"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-12-03",
+    "type": null
+   }
+  },
+  {
+   "iso3": "WSM",
+   "name": "Samoa",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-11-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Nov 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-12-27",
+    "denunciation": null,
+    "consent": "2012-11-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=149&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "025a25a365074061bd75dd3aea03daa9510e163acc777b6c57b28dda7e640458"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-11-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Dec 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2008-12-11",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=153&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "ccb1db0cc7cf91b1f0e23f0697a174daa9bbeb9d3d5f476e68d760730c8581f4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-12-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-05-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 May 2011"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31 (1):\n“The Republic of Serbia recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by the Republic of Serbia of provisions of this Convention.”\nDeclaration under article 32:\n“The Republic of Serbia recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2011-06-18",
+    "denunciation": null,
+    "consent": "2011-05-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=154&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9dbb9f50b0b96e7c03b8c844dafcbfd231547d6140fcab502d2f742b36d5f9a9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-05-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-01-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Jan 2017 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2017-02-17",
+    "denunciation": null,
+    "consent": "2017-01-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=155&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "902078dd7327e503839c67a3a4cc7771fc3a99d0b33db6beeffcae04b493184a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-01-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=156&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6eb0c58d49f0aa446c1bb94d28f5f767512305832bd42d5ba690b9b947b39dae"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "2007-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-12-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Dec 2014"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 32\n“In accordance with Article 32 of the Convention, the Slovak Republic declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that the Slovak Republic is not fulfilling its obligations under this Convention.”\nDeclaration under article 31\n“In accordance with Article 31 of the Convention, the Slovak Republic declares that it recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to the jurisdiction of the Slovak Republic claiming to be victims of a violation of provisions of this Convention by the Slovak Republic.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2015-01-14",
+    "denunciation": null,
+    "consent": "2014-12-15",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=158&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "526a83d9b3192e00649ff9e22111cc15e40cbcc54864662c635effaa474d5847"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-12-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "2007-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-12-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Dec 2021"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31:\n“In accordance with Article 31 of the International Convention for the Protection of All Persons from Enforced Disappearance, Republic of Slovenia declares that it recognizes the competence of the Committee under the said Article to receive and consider communications from or on behalf of individuals subject to its jurisdiction, claiming to be victims of violations by Republic of Slovenia of provisions of this Convention.”\nDeclaration under article 32:\n“In accordance with Article 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, Republic of Slovenia declares that it recognizes the competence of the Committee under the said Article to receive and consider communications in which a State party claims that another State party is not fulfilling its obligations under this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2022-01-14",
+    "denunciation": null,
+    "consent": "2021-12-15",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=159&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5b7ec957bc58a3a6bd5cf168bc40e8bafd8e825d9a06791aa0277cb4ed08e494"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2021-12-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-05-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 May 2024 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2024-06-13",
+    "denunciation": null,
+    "consent": "2024-05-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=162&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6d534b8c5ffb401d8f278e3fe732bc597135306c7a999da680cb5e7abc580c67"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-05-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "2007-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "5 January 2011\nDeclarations under articles 31\nIn accordance with article 31 of the International Convention for the Protection of All Persons from Enforced Disappearance, the Kingdom of Spain declares that it recognizes the competence of the Committee to receive and consider communications from or on behalf of individuals subject to its jurisdiction, claiming to be victims of violations by Spain of provisions of this Convention.\nDeclarations under articles 32\nIn accordance with article 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, the Kingdom of Spain declares that it recognizes the competence of the Committee to receive and consider communications in which a State party claims that another State party is not fulfilling its obligations under this Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=163&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "72f7e8a3c443f5906732450085af356bf5c52422031b309471b51e9567b8e5b5"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LKA",
+   "name": "Sri Lanka",
+   "signature": "2015-12-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-05-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 May 2016"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 32\n“… the Government [of the Democratic Socialist Republic of Sri Lanka] wishes to declare as per Article 32 of the Convention that it recognizes the competence of the Committee to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under this Convention”."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2016-06-24",
+    "denunciation": null,
+    "consent": "2016-05-25",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=164&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c02309b00b85f7fc05108371580f778cb78ee3e0c46c5ed31b6320d9648d30e4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-05-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VCT",
+   "name": "St. Vincent and the Grenadines",
+   "signature": "2010-03-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=148&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "cf604671ac41812803462f9294bb80ef50a92578418c1577e5df5c3db8b7ca0c"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2010-03-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SDN",
+   "name": "Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-08-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 Aug 2021 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“… the Government of the Republic of the Sudan, in accordance with article (42) paragraph (2) doesn’t consider itself bound by the provisions of the article (42) paragraph (1) of this Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2021-09-09",
+    "denunciation": null,
+    "consent": "2021-08-10",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=165&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7367f3471a72edc2640e216cf5682cf8add1b5f5574235e4490869142bc4e072"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2021-08-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=168&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "ca0e395f2078394c53a0acc0ca3db8b47ea361bd8ae0efbbb25fd5978ea699bb"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": "2011-01-19",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-12-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Dec 2016"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "11 June 2021\nObjection to the reservation made by Oman to Article 33 of the Convention upon accession\nThe Swiss Federal Council has examined the first reservation made by the Sultanate of Oman upon its accession to the International Convention for the Protection of All Persons from Enforced Disappearance of 20 December 2006, expressed as follows: “Firstly, the Government of the Sultanate of Oman does not recognize the competence of the Committee in cases of enforced disappearances provided in article 33 of the aforementioned Convention.”\nThe Swiss Federal Council recalls that the competence of the Committee under article 33 of the Convention is a binding competence that does not require prior recognition by the States parties. The Swiss Federal Council considers that the reservation made by the Sultanate of Oman – which has the effect of generally ruling out any visit by the Committee to Oman in case of allegations of serious violations of the provisions of the Convention based on credible information – violates one of the essential elements of the Convention, which is necessary for its overall balance, in such a way as to compromise its rationale. Consequently, the reservation made by the Sultanate of Oman is incompatible with the object and purpose of the Convention.\nIt is in the common interest of States that instruments to which they have chosen to become parties are respected by all the parties, as to their object and purpose, and that States are prepared to comply with their treaty obligations.\nThe Swiss Federal Council therefore objects to the reservation made by the Sultanate of Oman. This objection does not prevent the entry into force of the Convention, in its entirety, between Switzerland and the Sultanate of Oman."
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Declaration under article 31\nIn accordance with article 31 of the Convention, Switzerland recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation of provisions of this Convention by Switzerland.\nDeclaration under article 32\nIn accordance with article 32 of the Convention, Switzerland recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2017-01-01",
+    "denunciation": null,
+    "consent": "2016-12-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=169&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "38a791af99849b22ac38b09b533a1563e03702bd49f67101a80c837c16204403"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-12-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "THA",
+   "name": "Thailand",
+   "signature": "2012-01-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2024-05-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 May 2024"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "“… the Kingdom of Thailand does not consider itself bound by paragraph 1 of Article 42 of the Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2024-06-13",
+    "denunciation": null,
+    "consent": "2024-05-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=172&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2e0db4efede4d608974da08fc9197a0fffcb9aa003b3fb0a39cb7ba9972d9895"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2024-05-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": "2010-10-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-07-21",
+    "type": "ratification",
+    "code": null,
+    "raw": "21 Jul 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-08-20",
+    "denunciation": null,
+    "consent": "2014-07-21",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=175&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7ae5563b5853430642b171616a612a771f0eed9f0d0bbecefaf2a1ba41c6564d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-07-21",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-06-29",
+    "type": "ratification",
+    "code": null,
+    "raw": "29 Jun 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-07-29",
+    "denunciation": null,
+    "consent": "2011-06-29",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=178&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "52d11909007e74d2ae954344e83e70635084b81a14c75f57e2ea5e5e062b8834"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-06-29",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "UGA",
+   "name": "Uganda",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=182&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "89cc5f128c9266a07b3f0ca5e62ca143f4971893564732384bac612cc12bc7e3"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-08-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Aug 2015 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration made upon accession",
+     "kind": "declaration",
+     "text": "“Regarding Articles 13 and 14 of the Convention, Ukraine empowers the Prosecutor General’s Office of Ukraine (concerning request during the pre-trial investigation) and Ministry of Justice of Ukraine (concerning request during the court proceedings or execution of judgments) to consider requests according to Articles 10-14 of Convention”.\n[…]\nRegarding Article 42 of the Convention, Ukraine does not consider itself bound by the provisions of paragraph 1 of Article 42 concerning additional procedures of settlement of disputes by arbitration or the International Court of Justice.”"
+    },
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "14 August 2015\nArticle 31\n“Regarding Article 31 of the Convention, Ukraine recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications from or on behalf of individuals subject to its jurisdiction claiming to be victims of violation of provisions of the Convention by Ukraine.”\n14 August 2015\nArticle 32\n“Regarding Article 32 of the Convention, Ukraine recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications in which a State Party claims that another State Party is not fulfilling its obligations under the Convention.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2015-09-13",
+    "denunciation": null,
+    "consent": "2015-08-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=183&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "96f7dd4f3393d51e9cc3db6ca0363909a583ca366ebe00c08a3e6ae2eec4e4e9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-08-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TZA",
+   "name": "United Republic of Tanzania",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=186&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d7c7c145f5885abb2f420e6f49950aacc95fa50ad3acaec4fca030c42036ef37"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-09-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-03-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Mar 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "DecUnderArticle",
+     "section_title": "Declarations recognizing the competence of the Committee under articles 31 and",
+     "notes": [],
+     "label": null,
+     "kind": "competence_declaration",
+     "text": "Article 31\nIn accordance with article 31, paragraph 1, of the International Convention for the Protection of All Persons from Enforced Disappearance, the Eastern Republic of Uruguay recognizes the competence of the Committee on Enforced Disappearances to receive and consider communications submitted by or on behalf of individuals subject to its jurisdiction claiming to be victims of a violation by that State of the provisions of that Convention.\nArticle 32\n… in accordance with article 32 of the International Convention for the Protection of All Persons from Enforced Disappearance, the Eastern Republic of Uruguay recognizes the competence of the Committee [on Enforced Disappearances] to receive and consider communications in which a State party claims that the Uruguayan State is not fulfilling its obligations under that Convention."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-12-23",
+    "denunciation": null,
+    "consent": "2009-03-04",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=188&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59b7311514d5edbea3f8e30eb01309f667774e7521bf778bf799057249261b9c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-03-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VUT",
+   "name": "Vanuatu",
+   "signature": "2007-02-06",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=190&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6efb59d6606f8ba500af93f1dd43aa7b6ca2ea0079a629d2cff3a9e81a13f450"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2007-02-06",
+    "type": null
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": "2008-10-21",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation made upon signature",
+     "kind": "reservation",
+     "text": "The Bolivarian Republic of Venezuela, in accordance with article 42, paragraph 2, of the International Convention for the Protection of All Persons from Enforced Disappearance, hereby formulates a specific reservation concerning the provisions of paragraph 1 of that article. Therefore, it does not consider itself to be obliged to resort to arbitration as a dispute settlement mechanism, nor does it recognize the compulsory jurisdiction of the International Court of Justice."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=191&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f30431e143b62cf45476ae95406a87caacdffe1a9a49444ed2d5426093bf9823"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-10-21",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": "2010-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-04-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Apr 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-05-04",
+    "denunciation": null,
+    "consent": "2011-04-04",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=194&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "80d7c4637d2c8645b3e35d39157d2f40ac9b22bee50425b832c82ba1e336fe50"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-04-04",
+    "type": "ratification"
+   }
+  }
+ ]
+}

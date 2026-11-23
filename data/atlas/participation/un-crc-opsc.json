@@ -1,0 +1,6084 @@
+{
+ "instrument": "un-crc-opsc",
+ "register": "untc",
+ "as_of": "2026-11-23",
+ "ref": {
+  "source": "untc",
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-c&chapter=4&clang=_en",
+  "retrieved": "2026-11-23",
+  "sha256": "2fbd4f8446a89f685b92de004e44cdc0cc9af5975b37ad54890f678527a86b96"
+ },
+ "columns": [
+  "Participant",
+  "Signature",
+  "Ratification, Accession(a), Succession(d)"
+ ],
+ "legend": "Códigos del depositario: a = adhesión, d = sucesión, A = aceptación, AA = aprobación, c = confirmación formal; sin código = ratificación (salvo que la cabecera indique otro tipo).",
+ "sections": [
+  {
+   "key": "Dec",
+   "title": "Declarations and Reservations",
+   "intro": "(Unless otherwise indicated, the declarations and reservations were made upon ratification, accession or succession.)",
+   "entries": 19
+  },
+  {
+   "key": "Obj",
+   "title": "Objections",
+   "intro": "(Unless otherwise indicated, the objections were made upon ratification, accession or succession.)",
+   "entries": 11
+  }
+ ],
+ "notes": {
+  "1": "1For the Kingdom of Belgium.",
+  "2": "2In its instrument of ratification, the Government of China informed the Secretary-General of the following:\nIn accordance with the Basic Law of the Hong Kong Special Administrative Region of the People's Republic of China and as suggested by the Government of the Hong Kong Special Administrative Region, the application of the Protocol to the Hong Kong Special Administrative Region of the People's Republic of China requires prior enactment of domestic legislation by the Hong Kong Special Administrative Region, and the Protocol shall not apply to the Hong Kong Special Administrative Region of the People's Republic of China until the Government of China notifies otherwise;\n2. In accordance with the Basic Law of the Macao Special Administrative Region of the People's Republic of China and as suggested by the Government of the Macao Special Administrative Region, the Protocol shall apply to the Macao Special Administrative Region of the People's Republic of China.",
+  "3": "3By a commmunication received on 10 October 2016, the Government of Denmark informed the Secretary-General that it had decided to withdraw the declaration, made upon ratification, regarding the territorial exclusion in respect of the Faroe Islands and Greenland.\nUpon ratification on 24 July 2003, Denmark had notified the Secretary-General of the following: \"With a territorial exclusion in regard to the Faroe Islands and Greenland.\"",
+  "4": "4See note 1 under \"Montenegro\" in the \"Historical Information\" section in the front matter of this volume.",
+  "5": "5For the Kingdom in Europe. On 17 October 2006: extension to Aruba.\nFollowing a modification of the internal constitutional relations within the Kingdom of the Netherlands (see note 2 under \"Netherlands\" in Historical Information), effective 10 October 2010, the Protocol applies to the Caribbean part of the Netherlands (Bonaire, Sint Eustatius and Saba). Subsequently, on 20 September 2022, the Government of the Netherlands notified the Secretary-General that the Optional Protocol will apply to Curaçao. (See C.N.284.2022.TREATIES-IV.11.c of 20 September 2022.)",
+  "6": "6Upon its ratification to the Convention, the Government of New Zealand notified the Secretary-General of the following:\n“… consistent with the constitutional status of Tokelau and taking into account the commitment of the Government of New Zealand to the development of self-government for Tokelau through an act of self-determination under the Charter of the United Nations, this ratification shall not extend to Tokelau unless and until a Declaration to this effect is lodged by the Government of New Zealand with the Depositary on the basis of appropriate consultation with that territory … ”",
+  "7": "7 On 29 April 2014, the Secretary-General received from the Government of the United Kingdom of Great Britain and Northern Ireland the following notification:\n“… the Government of the United Kingdom of Great Britain and Northern Ireland wishes the United Kingdom's Ratification of [the Optional Protocol] be extended to the territory of the Bailiwick of Jersey for whose international relations the United Kingdom is responsible.\nThe Government of the United Kingdom of Great Britain and Northern Ireland considers the extension of [the Optional Protocol] to the Bailiwick of Jersey to enter into force on the date of receipt of this notification by [the Secretary-General] for deposit …”",
+  "8": "8On 4 November 2020, the Secretary-General received the following notification from the United Kingdom of Great Britain and Northern Ireland:\n“… the Government of the United Kingdom of Great Britain and Northern Ireland hereby extends the application of the United Kingdom’s Ratification of the […] Optional Protocol to Guernsey and Alderney for whose international relations the United Kingdom is responsible.\nThe Government of the United Kingdom of Great Britain and Northern Ireland considers the extension of the […] Optional Protocol to Guernsey and Alderney to enter into force on the date of receipt of this notification…”",
+  "9": "9On 14 April 2023, the Secretary-General received the following notification from the United Kingdom of Great Britain and Northern Ireland:\n“… the Government of the United Kingdom of Great Britain and Northern Ireland hereby extends the application of the United Kingdom’s Ratification of the […] [Optional Protocol] to the Crown Dependency of the Isle of Man, a territory for the international relations of which the United Kingdom of Great Britain and Northern Ireland is responsible.\nThe Government of the United Kingdom of Great Britain and Northern Ireland considers the extension of the […] [Optional Protocol] to the Crown Dependency of the Isle of Man to take effect on the date of deposit of this notification…”",
+  "10": "10With regard to the reservation made by Qatar upon accession, the Secretary-General received the following communication on the date indicated hereinafter:\nIreland (6 January 2003):\n\"The Government of Ireland have examined the reservation to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography made by the Government of Qatar at the time of its accession to the Optional Protocol.\nThe Government of Ireland are of the view that this reservation refers in a general manner to Islamic law without precising its content and therefore leaves other states parties in doubt as to the real extent of the state of Qatar’s commitment to the Optional Protocol. It is in the common interest of States that treaties to which they have chosen to become parties are respected as to their object and purpose, by all parties, and that States are prepared to undertake any legislative changes necessary to comply with their obligations under the treaties.\nFor these reasons, the Government of Ireland object to this reservation made by the Government of Qatar.\nThis position, however, does not preclude the entry into force in its entirety of the Optional Protocol between Qatar and Ireland.\"\nFinland (10 March 2003):\n\"The Government of Finland has carefully examined the contents of the reservation made by the Government of Qatar to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography.\nThe Government of Finland notes that the reservation made by Qatar which consists of a general reference to religious law without specifying its contents does not clearly define the extent to which Qatar commits itself to the Protocol and therefore creates serious doubts as to its commitment to fulfil its obligations under the Protocol. Such a reservation is subject to the general principle of treaty interpretation according to which a party manot invoke the provisions of its domestic law as justification for a failure to perform its treaty obligations.\nThe Government of Finland also notes that the reservation of Qatar, being of too general a nature, raises doubts as to the full commitment of Qatar to the object and purpose of the Protocol, and wishes to recall that, according to the customary international law as codified in the Vienna Convention on the Law of the Treaties, a reservation incompatible with the object and purpose of the Convention shall not be permitted.\nThe Government of Finland therefore objects to the reservation made by the Government of Qatar to the Protocol.\"\nNetherlands (7 April 2003):\n\"The Government of the Kingdom of the Netherlands has examined the reservation made by the Government of Qatar at the time of its accession to the Optional Protocol to the Convention on the rights of the child on the sale of children, child prostitution and child pornography. The Government of the Kingdom of the Netherlands considers that the reservation concerning the national law of Qatar, which seeks to limit the responsibilities of the reserving State under the Protocol by invoking national law, may raise doubts as to the commitment of this State to the object and purpose of the Convention and, moreover, contribute to undermining the basis of international treaty law.\nThe Government of the Kingdom of the Netherlands recalls that, according to paragraph 2 of article 28 of the Convention, a reservation incompatible with the object and purpose of the Convention shall not be permitted.\nIt is in the common interest of States that treaties to which they have chosen to become party are respected, as to their object and purpose, by all parties and that States are prepared to undertake any legislative changes necessary to comply with their obligations under the treaties.\nThe Government of the Kingdom of the Netherlands therefore objects to the aforesaid reservation made by the Government of Qatarto the Optional Protocol to the Convention on the rights of the child on the sale of children, child prostitution and child pornography.\nThis objection shall not preclude the entry into force of the Convention between the Kingdom of the Netherlands and Qatar.\"",
+  "11": "11On 18 June 2008, the State of Qatar informed the Secretary-General that it had decided to withdraw the following reservation made upon accession:\n... subject to a general reservation regarding any provisions in the protocol that are in conflict with the Islamic Shariah.",
+  "12": "12On 26 March 2009, the Government of Vietnam informed the Secretary-General that it had decided to withdraw the following reservation made upon ratification of the Protocol:\n“... the Socialist Republic of Vietnam makes its reservation to article 5 (1), (2), (3), and (4) of the said Protocol.”"
+ },
+ "participants": [
+  {
+   "iso3": "AFG",
+   "name": "Afghanistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-09-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Sep 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-10-19",
+    "denunciation": null,
+    "consent": "2002-09-19",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=1&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "446968ccb6cec398bafee4d1d1933b902f93cf97c01af8b9c1d0e0ce6ece7f4b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-09-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ALB",
+   "name": "Albania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-02-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Feb 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-03-05",
+    "denunciation": null,
+    "consent": "2008-02-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=2&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8cda0c1a1602b87d2a51f863cd1dc240de41e107128ee55b6554bac62c39074b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-02-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DZA",
+   "name": "Algeria",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-12-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Dec 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-01-27",
+    "denunciation": null,
+    "consent": "2006-12-27",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=3&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a33baac0242385ae6b00051c1bd394cefe0388bd220026b51d266412c53f7c2d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-12-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "AND",
+   "name": "Andorra",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-04-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Apr 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-04-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=4&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "62f73ac38269e84957d1b483e8dd6ac2346b4c78d44a10f927d1fe096df84732"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-04-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AGO",
+   "name": "Angola",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-03-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Mar 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-04-24",
+    "denunciation": null,
+    "consent": "2005-03-24",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=5&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "1d2a11180187e1421d3510091cd2ad7c543aa560423c2adf7c6b976c9f5b9607"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-03-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ATG",
+   "name": "Antigua and Barbuda",
+   "signature": "2001-12-18",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-04-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Apr 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-05-30",
+    "denunciation": null,
+    "consent": "2002-04-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=6&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "ada36776337895e44104d89d60916468c49202e7395cc0aac85c85336abbf03a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-04-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARG",
+   "name": "Argentina",
+   "signature": "2002-04-01",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-09-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Sep 2003"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "With reference to article 2, the Argentine Republic would prefer a broader definition of sale of children, as set out in the Inter-American Convention on International Traffic in Minors which Argentina has ratified and which, in its article 2, expressly defines traffic as the abduction, removal or retention, or attempted abduction, removal or retention, of a minor for unlawful purposes or by unlawful means. Therefore, under article 41 of the Convention on the Rights of the Child, this meaning shall continue to apply. For the same reasons, the Argentine Republic believes that the sale of children should be criminalized in all cases and not only in those enumerated in article 3, paragraph 1 (a).\nConcerning article 3, the Argentine Republic further states that it has not signed international instruments on the international adoption of minors, has entered a reservation in respect of subparagraphs (b), (c), (d) and (e) of article 21 of the Convention on the Rights of the Child dealing with international adoption, and does not permit international adoption of children domiciled or resident in its jurisdiction.\nConcerning article 7, the Argentine Republic construes the term 'confiscation' (confiscación) to mean the seizure of goods and proceeds as part of a sentence or penalty (decomisar).*\n*Translator's note: The meaning of the Spanish term \"decomisar\" is not as broad as the English \"seizure\". \"Decomisar\" means \"seizure\" during the sentencing or penalty phase only. (Seizure as a preventive measure is rendered with \"incautación\".)"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2003-10-25",
+    "denunciation": null,
+    "consent": "2003-09-25",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=7&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "823086ee7271f0b0d4231fdb6f1327a4cc9fade2b286d12e70123827e797bb2f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-09-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARM",
+   "name": "Armenia",
+   "signature": "2003-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-06-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Jun 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-07-30",
+    "denunciation": null,
+    "consent": "2005-06-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=8&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "0567969c6bd75c079d6c4b2a876d129b43fa9cfe947656e8e17e4d5e5cdd3ed2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-06-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "signature": "2001-12-18",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-01-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Jan 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-02-08",
+    "denunciation": null,
+    "consent": "2007-01-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=9&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "1a9617563f180a202e8464c2897c8a3d931257eda4d54d88892be652115f55a9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-01-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AUT",
+   "name": "Austria",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-05-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 May 2004"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "4 Octobre 2002\nWith regard to the reservation made by Qatar upon accession:\n\"The Government of Austria has examined the reservation to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography made by the Government of Qatar at the time of its accession to the Optional Protocol.\nThe Government of Austria are of the view that since this reservation refers in a general manner to the Islamic law without precising its content it leaves other state parties in doubt as to the real extent of the state of Qatar's commitment to the Optional Protocol. It is in the common interest of States that treaties to which they have chosen to become parties are respected as to their object and purpose., by all parties, and that States are prepared to undertake any legislative change necessary to comply with their obligations under the treaties.\nFor these reasons, the Government of Austria objects to this reservation made by the Government of Qatar.\nThis position, however, does not preclude the entry into force in its entirety of the Optional Protocol between Qatar and Austria.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2004-06-06",
+    "denunciation": null,
+    "consent": "2004-05-06",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=10&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "1a61aa48b153818d66ed3c02202949238e7ea3d031d85d930d243e59502a3d23"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-05-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "AZE",
+   "name": "Azerbaijan",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-07-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Jul 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-08-03",
+    "denunciation": null,
+    "consent": "2002-07-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=11&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d19bfb2eb60f3f3a9ea741e46bcfa110d4f69cb741cc6b7f0ab77fb6fcd577d8"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-07-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BHS",
+   "name": "Bahamas (The)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-09-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Sep 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-10-28",
+    "denunciation": null,
+    "consent": "2015-09-28",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=12&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "3157afb42903ec162eba052d682dbb8db648b169050936ae8d40ffddaa13f551"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-09-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BHR",
+   "name": "Bahrain",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Sep 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-10-21",
+    "denunciation": null,
+    "consent": "2004-09-21",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=13&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5b215937cc263c5a52dd44eec17ad8c3ac17b11fc59b72e844b49ca4a10875f9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-09-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2000-09-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Sep 2000"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2000-10-06",
+    "denunciation": null,
+    "consent": "2000-09-06",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=14&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6824fb7e2a6af4d4cff5351c5d72dd14fb93454919c699961f67f780e9871bec"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2000-09-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLR",
+   "name": "Belarus",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-01-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Jan 2002 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Republic of Belarus, pursuant to article 3 of the Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict, declares that voluntary recruitment of citizens into the armed forces of the Republic of Belarus shall occur upon the attainment by them of 18 years of age.\nAdmission to a military academy, to which citizens aged 17 years or over, including those who attain 17 years of age during the year in which they are admitted to such an academy, are entitled, in accordance with article 43 of the Act of the Republic of Belarus of 5 November 1992 on Military Obligations and Military Service, shall constitute an exception to the above. Such admission shall not be forced or coerced.\nThe legislation of the Republic of Belarus guarantees that entry into military service as a cadet at a military academy:\nShall be voluntary;\nShall occur with the informed consent of the person's parents or legal guardians;\nShall occur on condition that such persons are fully informed of the duties involved in military service;\nShall be permitted on condition that such persons provide reliable proof of age prior to acceptance into military service."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2002-02-23",
+    "denunciation": null,
+    "consent": "2002-01-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=16&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f10aa73811a87497777d3162c3f83079a7ea5c358f15f3108de31f4b6b6c09f1"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-01-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BEL",
+   "name": "Belgium",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-03-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Mar 2006"
+   },
+   "notes": [
+    "1"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "1"
+     ],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Upon signature:"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "1"
+     ],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "This signature is equally binding on the French community, the Flemish community and the German-speaking community.\nUpon ratification:"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [
+      "1"
+     ],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The expression 'child pornography' is understood to mean the visual representation of a child participating in real or simulated sexual activities or the visual representation of the sexual parts of a child, when the dominant characteristic is a description for sexual purposes."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2006-04-17",
+    "denunciation": null,
+    "consent": "2006-03-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=17&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9fffc84d567bd66d66366a1c3d38a6aa05a6380a1258fbc6f5d4752da319db55"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-03-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BLZ",
+   "name": "Belize",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-12-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Dec 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-01-01",
+    "denunciation": null,
+    "consent": "2003-12-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=18&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "3acb8c3563b7ca4ba02b3115ba23e750fe9836c1d8bf8e2099a9db8fff6086eb"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-12-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BEN",
+   "name": "Benin",
+   "signature": "2001-02-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-01-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Jan 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-02-28",
+    "denunciation": null,
+    "consent": "2005-01-31",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=19&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a99a99ffbdc8145d40813e9140a2d917cf52d8d176f9e758e8886a88268c2455"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-01-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BTN",
+   "name": "Bhutan",
+   "signature": "2005-09-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-10-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Oct 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-11-25",
+    "denunciation": null,
+    "consent": "2009-10-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=20&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "fd777922decf12518781a23231765e4579f8ee99321fe140cf2f5ac2fa73b274"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-10-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BOL",
+   "name": "Bolivia (Plurinational State of)",
+   "signature": "2001-11-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-06-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Jun 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-07-03",
+    "denunciation": null,
+    "consent": "2003-06-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=21&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8f596ab1dcb5fd2753d0e538fbc5a6ecbef7387215e24f7e856ce4c08e1d8c84"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-06-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BIH",
+   "name": "Bosnia and Herzegovina",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-09-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Sep 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-10-04",
+    "denunciation": null,
+    "consent": "2002-09-04",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=22&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "020316dd99b28df943a5e57f582d242b88e16ac25038c0ca358c53241307a213"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-09-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BWA",
+   "name": "Botswana",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-09-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Sep 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-10-24",
+    "denunciation": null,
+    "consent": "2003-09-24",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=23&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e4680dfe36657a93e3e8ab36cb05c69044c84896d00319889c64dc3e0fc8a955"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-09-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BRA",
+   "name": "Brazil",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-01-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Jan 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-02-27",
+    "denunciation": null,
+    "consent": "2004-01-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=24&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "51bd87ca6d9403117f08686fd36d8b674dd7cacea655c36f805802032c6cdc6b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-01-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BRN",
+   "name": "Brunei Darussalam",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-11-21",
+    "type": "accession",
+    "code": "a",
+    "raw": "21 Nov 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-12-21",
+    "denunciation": null,
+    "consent": "2006-11-21",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=25&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a66fa33fc3d634fd15c228074ae361d5191926c33f7b406f08814702e37cf5e3"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-11-21",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "BGR",
+   "name": "Bulgaria",
+   "signature": "2001-06-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-02-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Feb 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-03-12",
+    "denunciation": null,
+    "consent": "2002-02-12",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=26&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8854dc1fa24c3c8f653c022808c5ad8f7d64f01ef7820e0386d5a025e52342dc"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-02-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BFA",
+   "name": "Burkina Faso",
+   "signature": "2001-11-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-03-31",
+    "type": "ratification",
+    "code": null,
+    "raw": "31 Mar 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-04-30",
+    "denunciation": null,
+    "consent": "2006-03-31",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=27&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "612d41b3b8aa39d95c1f03f4dfccc1a81c37b788aaf8127d027a186f278ba3e6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-03-31",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "BDI",
+   "name": "Burundi",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-11-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Nov 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-12-06",
+    "denunciation": null,
+    "consent": "2007-11-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=28&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5a75fecfeb8470aafc28553a7edca25de5a5bccb13628a7f3b48898e26434791"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-11-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CPV",
+   "name": "Cabo Verde",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-10",
+    "type": "accession",
+    "code": "a",
+    "raw": "10 May 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-10",
+    "denunciation": null,
+    "consent": "2002-05-10",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=32&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "85d892aee2913ae246f6b1abc84f462fe8308b47b3276a8251721a9cbd8ac044"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-10",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KHM",
+   "name": "Cambodia",
+   "signature": "2000-06-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-30",
+    "denunciation": null,
+    "consent": "2002-05-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=29&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "cbed180960bcb22fbb1cb8ccd5558278bb3ff7a1ff5ade61fe8bb3d474c3e316"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CMR",
+   "name": "Cameroon",
+   "signature": "2001-10-05",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=30&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "78bcf8f524820ce0c60a4bf34dad88804776f581f87f40edac0cb93b648e075f"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2001-10-05",
+    "type": null
+   }
+  },
+  {
+   "iso3": "CAN",
+   "name": "Canada",
+   "signature": "2001-11-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-09-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Sep 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-10-14",
+    "denunciation": null,
+    "consent": "2005-09-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=31&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a8ff98405caf1e8f7665c4cac64d68e837699df019a7cbeafb9e02615c789d36"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-09-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CAF",
+   "name": "Central African Republic",
+   "signature": "2010-09-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-10-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Oct 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2013-01-24",
+    "denunciation": null,
+    "consent": "2012-10-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=33&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8ebb171fe37fd4a98b55db8ae54ad4a55751761c371e6b9ac4713f82de1ef074"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-10-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TCD",
+   "name": "Chad",
+   "signature": "2002-05-03",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Aug 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-09-28",
+    "denunciation": null,
+    "consent": "2002-08-28",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=34&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "52925cff7a7495ecee03070d2372756a8cb7c7819c2e1775e33f1ba4c07acb49"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-08-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHL",
+   "name": "Chile",
+   "signature": "2000-06-28",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-02-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Feb 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-03-06",
+    "denunciation": null,
+    "consent": "2003-02-06",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=35&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f47745d616318335389174d605b8e6fdd94423a3361b7070fb150c4d54847e4d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-02-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHN",
+   "name": "China",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-12-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Dec 2002"
+   },
+   "notes": [
+    "2"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-01-03",
+    "denunciation": null,
+    "consent": "2002-12-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=36&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "ca5457a9d172f84cbfc7aa6dd1bd081166fb80884a86d998e4368b710f843b00"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-12-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COL",
+   "name": "Colombia",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-11-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Nov 2003"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "Concerning article 7 of the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography, Colombia declares that, in accordance with its domestic legal system, it construes the penalty of \"confiscation\" (confiscación) only as seizure or forfeiture during the penalty phase."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2003-12-11",
+    "denunciation": null,
+    "consent": "2003-11-11",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=37&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "86e1f5443a84f217edb7d9fe5ba5e621d9b11e0ed9d50f7f4efec4ffac47c230"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-11-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COM",
+   "name": "Comoros",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-02-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Feb 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-03-23",
+    "denunciation": null,
+    "consent": "2007-02-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=38&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b686b45d19903cfcf23bdb22346045c74a073f7b3636094cd208b1c50a506e03"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-02-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "COG",
+   "name": "Congo",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-10-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Oct 2009 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-11-26",
+    "denunciation": null,
+    "consent": "2009-10-27",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=39&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9cd2f8c4b44af647133ee62ef682cee098e96b9880642d7c85b83e9df282e761"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-10-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "CRI",
+   "name": "Costa Rica",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-04-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Apr 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-05-09",
+    "denunciation": null,
+    "consent": "2002-04-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=41&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "21849edfe6c23cc6853de0ed8fcc898694c9d6d6ac30da01ad985c89e2e45b7e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-04-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CIV",
+   "name": "Côte d'Ivoire",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-19",
+    "type": "accession",
+    "code": "a",
+    "raw": "19 Sep 2011 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-10-19",
+    "denunciation": null,
+    "consent": "2011-09-19",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=42&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "96f513581e0af6b388062c9dfc00f1c37325b61393b39e40c7e6367bf619ed62"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-09-19",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HRV",
+   "name": "Croatia",
+   "signature": "2002-05-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-13",
+    "denunciation": null,
+    "consent": "2002-05-13",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=43&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "bd8d0a5aeca34b9e1adc41b305756794bd49175ee1da663b4417c215a503b6f7"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CUB",
+   "name": "Cuba",
+   "signature": "2000-10-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-09-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Sep 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-09-25",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=44&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6b4146b71389c6ef8a041301e32954ff152f1d20ba04990f8d5556385b2a9e74"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-09-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CYP",
+   "name": "Cyprus",
+   "signature": "2001-02-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-04-06",
+    "type": "ratification",
+    "code": null,
+    "raw": "6 Apr 2006"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "12 August 2003*\nWith regard to the declaration made by Turkey upon ratification:\n\"...The Government of the Republic of Cyprus has examined the declaration made by the Government of the Republic of Turkey upon ratifying the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography on 19 August 2002, in respect of the implementation of the provisions of the Convention only to the States Parties which it recognizes and with which it has diplomatic relations.\nIn the view of the Government of the Republic of Cyprus, this declaration amounts to a reservation. This reservation creates uncertainty as to the States Parties in respect of which Turkey is undertaking the obligations in the Convention and raises doubt as to the commitment of Turkey to the object and purpose of the said Optional Protocol. The Government of the Republic of Cyprus therefore objects to the reservation made by the Government of the Republic of Turkey to the Optional Protocol to the Convention of the Rights of the Child on the sale of children, child prostitution and child pornography.\nThis reservation or the objection to it shall not preclude the entry into force of the Convention between the Republic of Cyprus and the Republic of Turkey.\"\n* With regard to this objection, the Government of Cyprus, upon ratification of the Optional Protocol, on 6 April 2006, stated the following:\n“ The Government of the Republic of Cyprus wishes to reiterate its objection of 12th August 2003, with regard to the declaration made by Turkey upon ratification.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2006-05-06",
+    "denunciation": null,
+    "consent": "2006-04-06",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=45&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b727ec1cca0b65b3bb0d9680902dcb8f8f57ae09a3042c716630fdf120fab432"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-04-06",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CZE",
+   "name": "Czech Republic",
+   "signature": "2005-01-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-08-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Aug 2013"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "26 August 2013\nWith regard to the reservation made by Oman upon accession:\n“The Government of the Czech Republic has examined the reservation to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography (hereinafter as the ‘Optional Protocol’) made by the Government of the Sultanate of Oman upon accession to the Optional Protocol.\nSince in the reservation the Sultanate of Oman announces that the scope of application of the provisions of the Optional Protocol will be limited by Islamic law, by the legislation in force in the Sultanate, and by the material resources available, the Government of the Czech Republic believes that he reservation raises doubts about the extent to which the Sultanate of Oman undertakes to honour its obligations arising from the Optional Protocol.\nThe Government of the Czech Republic believes that this reservation is incompatible with the object and purpose of the Optional Protocol. The Government of the Czech Republic points out that customary international law codified in the Vienna Convention on the Law of Treaties (Vienna, 23 May 1969), in particular in its Article 19, does not be permit such reservations.\nThe Government of the Czech Republic therefore objects to the aforesaid reservation to the Optional Protocol made by the Sultanate of Oman.\nThis objection does not preclude the entry into force of the Optional Protocol between the Czech Republic and the Sultanate of Oman, without the Sultanate of Oman benefiting from its reservation.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2013-11-26",
+    "denunciation": null,
+    "consent": "2013-08-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=46&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e6b1cef8705b005b8ac5a4b21300181da06e9b08e965e5f715008e2c364bb746"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-08-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "signature": "2014-09-09",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-11-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Nov 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-12-10",
+    "denunciation": null,
+    "consent": "2014-11-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=47&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "667f1d094b7890f12aa2ede0b6c7dc820c897d011976e84f630a542412512f34"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-11-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "COD",
+   "name": "Democratic Republic of the Congo",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-11-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Nov 2001 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-11-11",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=48&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "40a00bd90291d2415eeb02ce4f26ec1e38920c662310bef008ebd7315817c7c0"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-11-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DNK",
+   "name": "Denmark",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-07-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jul 2003"
+   },
+   "notes": [
+    "3"
+   ],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\"In connection with the deposit of Denmark's instrument of ratification of the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography Denmark declares that she interprets the words \"any representation\"in article 2 (c), of the Protocol to mean \"any visual representation\". Denmark further declares that the possession of pornographic visual representation of a person, who has completed his or her fifteenth year and who has consented to the said possession, shall not be considered covered by the binding provisions of the Protocol.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2003-08-24",
+    "denunciation": null,
+    "consent": "2003-07-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=49&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4c0fc2df23d60dca7e069c0c1daf67f489bb15d31ff05754c9f63a1d3ea95547"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-07-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DJI",
+   "name": "Djibouti",
+   "signature": "2006-06-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-04-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Apr 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-05-27",
+    "denunciation": null,
+    "consent": "2011-04-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=50&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "316e3267f146110b172a087d6b974e6b331c67c9593a701d17f70dcb95fd7b82"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-04-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "DMA",
+   "name": "Dominica",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-09-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Sep 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-10-20",
+    "denunciation": null,
+    "consent": "2002-09-20",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=51&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7a47835305c91f625522895b3a89411c16207bf59d081bef8c4449ceea532cc2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-09-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DOM",
+   "name": "Dominican Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-12-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Dec 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-01-06",
+    "denunciation": null,
+    "consent": "2006-12-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=52&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f37939745ad206bb5f07704065b8a6764bec491de24aa722f2a20ef870d76628"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-12-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ECU",
+   "name": "Ecuador",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-01-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Jan 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-02-29",
+    "denunciation": null,
+    "consent": "2004-01-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=53&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "132cd07ed135fb3b7330bbccfe6bdb591586b435da7a1c6e3ad6cfe5ad2eb8af"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-01-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "EGY",
+   "name": "Egypt",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-07-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Jul 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-08-12",
+    "denunciation": null,
+    "consent": "2002-07-12",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=54&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e1f2d6c0dd4d35034413527379463927ad4f94ad0b4fc15fcb42802347645705"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-07-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SLV",
+   "name": "El Salvador",
+   "signature": "2002-09-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-05-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 May 2004"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Government of the Republic of El Salvador recognizes the extradition of nationals on the basis of the second and third clauses of article 28 of the Constitution, which stipulate that \"Extradition will be regulated under international treaties; in cases involving Salvadorans, extradition will proceed only if the treaty in question expressly allows it and the treaty has been approved by the respective legislatures of the signatory countries. In any case, the terms of the treaty must include the principle of reciprocity and give Salvadorans all the guarantees with respect to trials and penalties that this Constitution provides. The accused will be extradited if the offence was committed in the territory of the requesting country, unless the offence is international in scope, and in no case for political offences, even though common criminal offences may have occurred as a result.\"."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2004-06-17",
+    "denunciation": null,
+    "consent": "2004-05-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=55&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "78d188d9c40d87a3b983fb791e09a1077fa19b2a8951513b2b24524365c50c51"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-05-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GNQ",
+   "name": "Equatorial Guinea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-02-07",
+    "type": "accession",
+    "code": "a",
+    "raw": "7 Feb 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-05-07",
+    "denunciation": null,
+    "consent": "2003-02-07",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=56&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e95de98373412373daad95190a03f5cf3a4a2d81a064d12dc4a1e25f5b8a6081"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-02-07",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ERI",
+   "name": "Eritrea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-02-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Feb 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-03-16",
+    "denunciation": null,
+    "consent": "2005-02-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=57&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c7311c96ebe8f263dc94b049b7d7464f0e5a97d1ea3f27b782f9c42211511661"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-02-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "EST",
+   "name": "Estonia",
+   "signature": "2003-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-08-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Aug 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-09-03",
+    "denunciation": null,
+    "consent": "2004-08-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=58&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f428c2d7e645b2410700d7af4530acf3a98bcac0fc46047a16d9fb578dbdb71f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-08-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SWZ",
+   "name": "Eswatini",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Sep 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-12-24",
+    "denunciation": null,
+    "consent": "2012-09-24",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=167&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f1c14b1de30f24849fa90c9766229e1c1177f9b1bec57ec5129444529ad16cd2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-09-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ETH",
+   "name": "Ethiopia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-03-25",
+    "type": "accession",
+    "code": "a",
+    "raw": "25 Mar 2014 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-04-25",
+    "denunciation": null,
+    "consent": "2014-03-25",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=59&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f11da3e63ce309f9651cc864f0c67cab75d102b5c52436ad7dce41b48953bcaf"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-03-25",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "FJI",
+   "name": "Fiji",
+   "signature": "2005-09-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2021-03-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Mar 2021"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2021-04-09",
+    "denunciation": null,
+    "consent": "2021-03-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=60&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b8ba820a6ed473cdacf8c7d5d5f67c02a1fec31389feeb38482c3c9434dd054f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2021-03-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FIN",
+   "name": "Finland",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-06-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Jun 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-09-01",
+    "denunciation": null,
+    "consent": "2012-06-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=61&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01ce42f6a0368e3aa7644d8790e38a813b242a525334426165a1b0d6659d21ee"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-06-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FRA",
+   "name": "France",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-02-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Feb 2003"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "18 June 2002\nWith regard to the reservation made by Qatar upon accession:\nThe Government of the French Republic has examined the reservation entered by the Government of Qatar upon acceding to the Optional Protocol of 25 May 2000 to the Convention on the Rights of the Child, concerning the sale of children, child prostitution and child pornography. While indicating that it was acceding to the Protocol and voicing, in a general manner, reservations with respect to provisions of the Protocol that it regards as violating Islamic Shariah rules, the Government of Qatar has entered a reservation of a general, indeterminate nature that leaves other States parties unable to establish which provisions of the Convention the reservation currently concerns and which provisions are likely to be concerned in the future. The Government of the French Republic believes that the reservation could deprive the provisions of the Convention of any effect and is entering an objection thereto.\n18 November 2005\nWith regard to the reservations made by Oman upon accession:\n“The Government of the French Republic has examined the reservation entered by the Government of the Sultanate of Oman upon acceding, on 17 September 2004, to the Optional Protocol to the Convention on the Rights of the Child, concerning the sale of children, child prostitution and child pornography by which the Sultanate extends to the Protocol the reservations it entered with respect to the Convention. While indicating that it was acceding to the Protocol and voicing, in a general manner, reservations with respect to provisions of the Protocol that it regards as violating Islamic sharia rules, the Sultanate of Oman has entered a reservation of a general, indeterminate nature that leaves other States parties unable to establish which provisions of the Convention the reservation currently concerns and which provisions are likely to be concerned in the future. Theovernment of the French Republic believes that the reservation could deprive the provisions of the Convention of any effect and is entering an objection thereto. This objection shall not prevent the entry into force of the Convention between France and the Sultanate of Oman.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2003-03-05",
+    "denunciation": null,
+    "consent": "2003-02-05",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=62&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e4c4b3b35accb231a9ebad81c8ea772d69858d2be14fa24b9af2e887c16785ca"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-02-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GAB",
+   "name": "Gabon",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-10-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Oct 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-11-01",
+    "denunciation": null,
+    "consent": "2007-10-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=63&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "49a148e99c5603d7cec48a9e81883bb386bd6e63f76b628cba88c57a558ce597"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-10-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GMB",
+   "name": "Gambia",
+   "signature": "2000-12-21",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-04-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Apr 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-05-08",
+    "denunciation": null,
+    "consent": "2010-04-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=64&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "e60e6a945c4ad9dd89eaded268a63cb1cc23de8a5cc6dd440244c5b0e7736938"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-04-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GEO",
+   "name": "Georgia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-06-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Jun 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-07-28",
+    "denunciation": null,
+    "consent": "2005-06-28",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=65&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "48102520fade5308a710f34520dc24f2b9ebfcf35e4b51beb056195330e81396"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-06-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "DEU",
+   "name": "Germany",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-07-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Jul 2009"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "21 March 2002\nWith regard to the reservation made by Qatar upon accession:\n\"The Government of the Federal Republic of Germany has examined the reservation to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography made by the Government of Qatar at the time of its accession to the Optional Protocol. The Government of the Federal Republic of Germany is of the view that the reservation with regard to the compatibility of the rules of the Optional Protocol with the precepts of Islamic Shariah raises doubts as to the commitment of Qatar to fulfil its obligations under the Optional Protocol. The Government of the Federal Republic of Germany considers this reservation to be incompatible with the object and purpose of the Optional Protocol. Therefore the Government of the Federal Republic of Germany objects to the aforesaid reservation made by the Government of Qatar to the Optional Protocol.\n1 March 2017\nWith regard to the reservation made by the United Arab Emirates upon accession:\n“The Government of the Federal Republic of Germany has examined the reservation made by the United Arab Emirates upon its [accession to] the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography of 25 May 2000 with respect to Article 3 (5) thereof.\nThe Government of the Federal Republic of Germany considers that the reservation to Article 3 (5) is incompatible with the object and purpose of the Convention. The Government of the Federal Republic of Germany therefore objects to this reservation.\nThis objection shall not preclude the entry into force of the Convention between the Federal Republic of Germany and the United Arab Emirates.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2009-08-14",
+    "denunciation": null,
+    "consent": "2009-07-15",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=66&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "998dd10ec585ed6d161a2d991ec7bfa236afa04252f2fa996c94be818dd100cf"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-07-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GHA",
+   "name": "Ghana",
+   "signature": "2003-09-24",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=67&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "bdcf89fe1b6409737a564fd80b39d26e9d0b9bbd164fb9b7b23552d939785a3b"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2003-09-24",
+    "type": null
+   }
+  },
+  {
+   "iso3": "GRC",
+   "name": "Greece",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-02-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Feb 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-03-22",
+    "denunciation": null,
+    "consent": "2008-02-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=68&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6e0c59abacb43fd8b050eb92cb3a0579ec92aecbdf9bdc1099e80c527cb64279"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-02-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GRD",
+   "name": "Grenada",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-02-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Feb 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-05-06",
+    "denunciation": null,
+    "consent": "2012-02-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=69&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "52cc937e8a482d7113c76f431dcabb4d10394d951c66b9323076c4e08d0ce24a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-02-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GTM",
+   "name": "Guatemala",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-09",
+    "denunciation": null,
+    "consent": "2002-05-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=70&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "be0bef6b213477d9d91a109a574e95c283fd988fb228d4a10b88df149c09f2f0"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GIN",
+   "name": "Guinea",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-11-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Nov 2011 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-02-16",
+    "denunciation": null,
+    "consent": "2011-11-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=71&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7e91b3533791f675af2c0c39922256421ecff43030aa90aa9bf0e61ec76f830d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-11-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GNB",
+   "name": "Guinea-Bissau",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-11-01",
+    "type": "ratification",
+    "code": null,
+    "raw": "1 Nov 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-12-01",
+    "denunciation": null,
+    "consent": "2010-11-01",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=72&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f4b90738b83a769fe8626f770c6131a1f848444faf5efeba5205c0145e71c258"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-11-01",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "GUY",
+   "name": "Guyana",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-07-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Jul 2010 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-08-30",
+    "denunciation": null,
+    "consent": "2010-07-30",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=73&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4df72708e9ac761d57522937376d740bd6150ac773419c4e7fcc0df0afcf96d6"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-07-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HTI",
+   "name": "Haiti",
+   "signature": "2002-08-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2014-09-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Sep 2014"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-10-09",
+    "denunciation": null,
+    "consent": "2014-09-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=74&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "958728c4e8a8d0b1949279e7275d71fb9e2df163a0b9127381309ab81427b432"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2014-09-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VAT",
+   "name": "Holy See",
+   "signature": "2000-10-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-10-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Oct 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-10-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=75&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "1a01b187c47ec19479d7c4757fc907b6071922c4a5add4a29296474215630045"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-10-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "HND",
+   "name": "Honduras",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-08",
+    "type": "accession",
+    "code": "a",
+    "raw": "8 May 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-08",
+    "denunciation": null,
+    "consent": "2002-05-08",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=76&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "307979704851542c8a0146ee560a51f9226d79c7bef531667bbd25e1487f0b07"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-08",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "HUN",
+   "name": "Hungary",
+   "signature": "2002-03-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-02-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Feb 2010"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "With regard to the reservation made by Oman upon accession:\n“The Government of the Republic of Hungary has examined the reservations made by the Sultanate of Oman on 17 September 2004 to the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography. The Government of the Republic of Hungary notes that the Sultanate of Oman does not consider itself bound by the provisions of the Optional Protocol that do not accord with the Islamic law or the legislation in force in the Sultanate, and also notes that the Sultanate of Oman intends to apply the Optional Protocol within the limits imposed by the material resources available.\nThe Government of the Republic of Hungary is of the view that the Sultanate of Oman has made reservations of a general nature which do not define clearly to what extent it considers itself bound by the provisions of the Optional Protocol. The Government of the Republic of Hungary notes that according to Article 19 of the Vienna Convention on the Law of Treaties reservations that are incompatible with the object and purpose of the treaty shall not be permitted.\nThe Government of the Republic of Hungary therefore objects to the above-mentioned reservations. The objection shall not preclude the entry into force of the Optional Protocol between the Republic of Hungary and the Sultanate of Oman. The Optional Protocol enters into force in its entirety between the Republic of Hungary and the Sultanate of Oman, without the Sultanate of Oman benefiting from its reservations.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2010-03-24",
+    "denunciation": null,
+    "consent": "2010-02-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=77&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4aae2ef38f7ede3640105a50360377d0a4a0329b2cd2f21ccc3453f1acfb5cf1"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-02-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ISL",
+   "name": "Iceland",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-07-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Jul 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-07-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=78&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01d1870d599a844ab1715b4148b87e07b12df42d9a2a52447ba690a2323e9190"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-07-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IND",
+   "name": "India",
+   "signature": "2004-11-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-08-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 Aug 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-09-16",
+    "denunciation": null,
+    "consent": "2005-08-16",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=79&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d8e3c9c6fe217b3bd6e78fd7323c7e6df08ebc5f7cde220ba431225e1bd562dc"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-08-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IDN",
+   "name": "Indonesia",
+   "signature": "2001-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2001-12-24",
+    "denunciation": null,
+    "consent": "2012-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=80&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b97837e50b5d15354194a49f462efd167ba9591fe30732e955f79bf208c69c2c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "IRN",
+   "name": "Iran (Islamic Republic of)",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-09-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Sep 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-10-26",
+    "denunciation": null,
+    "consent": "2007-09-26",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=81&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "3a91a22ce9ca0c8e25bceb44e2269a0f55d0271688b8327388cfe52f1dda4aec"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-09-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "IRQ",
+   "name": "Iraq",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-06-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Jun 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-09-24",
+    "denunciation": null,
+    "consent": "2008-06-24",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=82&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9fcd54e630f586765c069a34258a025e5e77c184f4e7bc8ba59640e236555db2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-06-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "IRL",
+   "name": "Ireland",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=83&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "425a99e8a51f02e2328185f179dc573113898b7084f1925468c6528776cdedb2"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2000-09-07",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ISR",
+   "name": "Israel",
+   "signature": "2001-11-14",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-07-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Jul 2008"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "30 September 2003\nWith regard to the declaration made by the Syrian Arab Republic upon accession:\n\"The Government of the State of Israel has noted that the instrument of accession of the Syrian Arab Republic to the above mentioned Protocol contains a declaration with respect to the State of Israel.\nThe Government of the State of Israel is of the view that the declaration which is political in its nature, is incompatible with the purposes and objectives of this Protocol.\nThe Government of the State of Israel therefore objects to the aforesaid declaration made by the Syrian Arab Republic to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography.\"\nOn 23 July 2008, upon its ratification to the Protocol, the Government of the State of Israel reiterated his objection to the declaration made by the Syrian Arab Republic upon accession. The text of the objection made by the State of Israel upon ratification reads as follows:\n“The Government of the State of Israel has noted that the instrument of accession of the Syrian Arab Republic of the above-mentioned Protocol which appears in the Depositary Notification Ref: C.N.679.2003.TREATIES-15 of 2 July 2003, contains a declaration with respect to the State of Israel.\nThe Government of the State of Israel considers that such declaration, which is explicitly of a political nature, is incompatible with the purposes and objectives of the Protocol.\nThe Government of the State of Israel therefore objects to the aforesaid declaration made by the Syrian Arab Republic.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2008-10-23",
+    "denunciation": null,
+    "consent": "2008-07-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=84&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4f454be45a0160025bf9a1631c7d9673a1ba3ee5b867e9136f4c92976caa6a4d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-07-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ITA",
+   "name": "Italy",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-09",
+    "denunciation": null,
+    "consent": "2002-05-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=85&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "13d022566873e1edebc6b018f00cde5bb15e98449d0111294a34d0516ef369f9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "JAM",
+   "name": "Jamaica",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-08-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Aug 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-09-25",
+    "denunciation": null,
+    "consent": "2011-08-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=86&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a6ff52a5525280947b97f6642729a271deacdd394473998ac41a0ebb61e9f8ac"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-08-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "JPN",
+   "name": "Japan",
+   "signature": "2002-05-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-01-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Jan 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-02-24",
+    "denunciation": null,
+    "consent": "2005-01-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=87&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01b776ad278f2f6344990fa774709a6a4a2bba4a756e7acc789fd769cf36c322"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-01-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "JOR",
+   "name": "Jordan",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-12-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Dec 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-01-04",
+    "denunciation": null,
+    "consent": "2006-12-04",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=88&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7688551e1cad1daee845626e16ca8cfcd595db378d05ed26bb190e063e93aa05"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-12-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-08-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Aug 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-08-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=89&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d3658c63db1e86fdad8acab0b1ebcbb2173ffbf03f6184b967d01d40402e6de7"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-08-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "KEN",
+   "name": "Kenya",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=90&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f166c446f9981ded0384283bd6ea2c86b132940682615774b73b98f6f19b50e3"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2000-09-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "KIR",
+   "name": "Kiribati",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2015-09-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Sep 2015 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2015-10-16",
+    "denunciation": null,
+    "consent": "2015-09-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=91&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8fc7f3f8a3037b0904b6bbe3fe0da8d3716b4edbf0896c3dc4d6d2f4174a3774"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2015-09-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KWT",
+   "name": "Kuwait",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-08-26",
+    "type": "accession",
+    "code": "a",
+    "raw": "26 Aug 2004 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": ".....with a reservation in respect of paragraph 5 of article 3 of the second protocol."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2004-09-26",
+    "denunciation": null,
+    "consent": "2004-08-26",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=92&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c034ed8102bcedc4dd2739c8551c9811188957a46fc941cc004ae6811d02ad5d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-08-26",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KGZ",
+   "name": "Kyrgyzstan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-02-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Feb 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-03-12",
+    "denunciation": null,
+    "consent": "2003-02-12",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=93&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "aa16f9c2030c591916ecb03aff98da8a4cad45925bbeb7fa6b23025e74863015"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-02-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LAO",
+   "name": "Lao People's Democratic Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-20",
+    "type": "accession",
+    "code": "a",
+    "raw": "20 Sep 2006 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"The Lao People's Democratic Republic [...] does not consider itself bound by Article 5 (2) of the said Optional Protocol.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2006-10-20",
+    "denunciation": null,
+    "consent": "2006-09-20",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=94&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7c67751b74686d2d6518dbda151574f1a78600e08170888be1e77a3237228814"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-09-20",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LVA",
+   "name": "Latvia",
+   "signature": "2002-02-01",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-02-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Feb 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-03-22",
+    "denunciation": null,
+    "consent": "2006-02-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=95&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "773306b01e641f42ab60b002bfb130079d1f336818d200337b15192ddbadfd23"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-02-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LBN",
+   "name": "Lebanon",
+   "signature": "2001-10-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-11-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Nov 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-12-08",
+    "denunciation": null,
+    "consent": "2004-11-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=96&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "4d5d276162f40a32fb171ab9e00ddcebd1722b34f9c454173e4e190684c66bda"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-11-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LSO",
+   "name": "Lesotho",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-10-24",
+    "denunciation": null,
+    "consent": "2003-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=97&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "aaa896bf0cdc92e266bc7674227b70613c726dcb0ba87f1e358ed8f87bd829bd"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LBR",
+   "name": "Liberia",
+   "signature": "2004-09-22",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=98&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5be5f9d20224dc590794623eef20dec6c5931b97c5b3d5d5ab9565a44036d330"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2004-09-22",
+    "type": null
+   }
+  },
+  {
+   "iso3": "LBY",
+   "name": "Libya",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-06-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Jun 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-07-18",
+    "denunciation": null,
+    "consent": "2004-06-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=99&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "01b62c1143789cd068d80a5192660821fe78c1a65c87f6e8a1fb17e14062de62"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-06-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LIE",
+   "name": "Liechtenstein",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-01-30",
+    "type": "ratification",
+    "code": null,
+    "raw": "30 Jan 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2013-01-30",
+    "denunciation": null,
+    "consent": "2013-01-30",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=100&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "81a4abb2e7af40513231eb1405f4082b2fe9be0454f2cda3cb5df61f79f40450"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-01-30",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LTU",
+   "name": "Lithuania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-08-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Aug 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-09-05",
+    "denunciation": null,
+    "consent": "2004-08-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=101&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f7ee119b10678446d93b83ddd08f9e54e29fa14c1bef794f03de2e454b3d01da"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-08-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "LUX",
+   "name": "Luxembourg",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Sep 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-10-02",
+    "denunciation": null,
+    "consent": "2011-09-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=102&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59d9796ae403172dfa80335a32e14d464fec5b7d3b4a05a70f5ca24479d491aa"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-09-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDG",
+   "name": "Madagascar",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Sep 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-10-22",
+    "denunciation": null,
+    "consent": "2004-09-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=103&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "36352104b50b4cc8ae79cf7e591b0fb0d883e40d0361d4723adf8a93261ed78f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-09-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MWI",
+   "name": "Malawi",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-10-07",
+    "type": "ratification",
+    "code": null,
+    "raw": "7 Oct 2009"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-11-06",
+    "denunciation": null,
+    "consent": "2009-10-07",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=104&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "cd5b09b33cb0930d5eb7a4f9097b89f8db50d82cc2e499347f9abfec78fea37f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-10-07",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MYS",
+   "name": "Malaysia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-04-12",
+    "type": "accession",
+    "code": "a",
+    "raw": "12 Apr 2012 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "“1. The Government of Malaysia declares that the words ‘any representation’ in article 2 paragraph (c), shall be interpreted to mean ‘any visual representation’.\n2. The Government of Malaysia understands that article 3 paragraph (1)(a)(ii) of the said Optional Protocol is applicable only to States Parties to the Convention on Protection of Children and Co-operation in Respect of Intercountry Adoption, done at the Hague on 29 May 1993.”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2012-07-12",
+    "denunciation": null,
+    "consent": "2012-04-12",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=105&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "0d650ebba4df882265a0a3a7c0a702b7e8950ffd55e88d5698a16c822d461696"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-04-12",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MDV",
+   "name": "Maldives",
+   "signature": "2002-05-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-10",
+    "denunciation": null,
+    "consent": "2002-05-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=106&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "464225ed6828bed94b122f8dace5c20cd8c8b6c8d98b6253ee513e8480bac991"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MLI",
+   "name": "Mali",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 May 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-16",
+    "denunciation": null,
+    "consent": "2002-05-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=107&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2dc97640704aba6e77e339bd7b188ee4eac24c1fbad088b681a7d9288a34279c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MLT",
+   "name": "Malta",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-09-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 Sep 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-10-28",
+    "denunciation": null,
+    "consent": "2010-09-28",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=108&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59a5d9b710aea6f2ae53edaf05f621f8f59e045acd8651f410a5f119f3958c97"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-09-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MHL",
+   "name": "Marshall Islands",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2019-01-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Jan 2019 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2019-02-28",
+    "denunciation": null,
+    "consent": "2019-01-29",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=109&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "932f04f3ebfff9b28cb1332ddc65f4fef22bde22576a1a423eb81d4613ddf0eb"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2019-01-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MRT",
+   "name": "Mauritania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-04-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Apr 2007 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-05-23",
+    "denunciation": null,
+    "consent": "2007-04-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=110&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9c2056c5f3bed0d7a70874111338ab7a4cf7434abf8b3cd3325761aac0384c44"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-04-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "signature": "2001-11-11",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-06-14",
+    "type": "ratification",
+    "code": null,
+    "raw": "14 Jun 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-07-14",
+    "denunciation": null,
+    "consent": "2011-06-14",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=111&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "43ff67c77e9a7a2034d26225dfde803be71bed80e1d200778b1ef1f335142945"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-06-14",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MEX",
+   "name": "Mexico",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-15",
+    "type": "ratification",
+    "code": null,
+    "raw": "15 Mar 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-04-15",
+    "denunciation": null,
+    "consent": "2002-03-15",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=112&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6696dffc5d56c32c915047eb5bdeb16e07b6009b27f7c9549cad1343b5f062b4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-03-15",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "FSM",
+   "name": "Micronesia (Federated States of)",
+   "signature": "2002-05-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-04-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Apr 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-07-23",
+    "denunciation": null,
+    "consent": "2012-04-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=113&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "237d365cfcb1e5067b925a5311dc02e928221472d51a5e7c8e9ef0eacdfb746d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-04-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MCO",
+   "name": "Monaco",
+   "signature": "2000-06-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2008"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2008-10-25",
+    "denunciation": null,
+    "consent": "2008-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=114&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "14f56b4c9d2bbad23c3ac05e53abf37314c861253e5deb8e9706b97cd772595d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNG",
+   "name": "Mongolia",
+   "signature": "2001-11-12",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-06-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Jun 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-07-27",
+    "denunciation": null,
+    "consent": "2003-06-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=115&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "a990bdd8ff8c4772de765c3a58a45ae0adbc9e7eaac34fddb5fda3e6549e8db0"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-06-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MNE",
+   "name": "Montenegro",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-10-23",
+    "type": "succession",
+    "code": "d",
+    "raw": "23 Oct 2006 d"
+   },
+   "notes": [
+    "4"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-11-23",
+    "denunciation": null,
+    "consent": "2006-10-23",
+    "consent_code": "d",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=116&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "072b6a18522cbddbd52a213aa3da361120a8c077a8a18a80328ade964d22794e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-10-23",
+    "type": "succession"
+   }
+  },
+  {
+   "iso3": "MAR",
+   "name": "Morocco",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-10-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Oct 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-10-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=117&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6bfd0b0cc2fea347b25c2afde2eda43af716a193044acb3b51c7c98545fd5fa8"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-10-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MOZ",
+   "name": "Mozambique",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-03-06",
+    "type": "accession",
+    "code": "a",
+    "raw": "6 Mar 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-04-06",
+    "denunciation": null,
+    "consent": "2003-03-06",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=118&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d8614c74dcdb366a3074e9187ae6b6b47494c8cf2f9bca6565b3ef2e7a551733"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-03-06",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "MMR",
+   "name": "Myanmar",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-01-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Jan 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-02-15",
+    "denunciation": null,
+    "consent": "2012-01-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=119&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "547ac662f3a87cd8ee86646a60bff6a21a82da23958d1edba6b15a2a1203a834"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-01-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NAM",
+   "name": "Namibia",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-04-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 Apr 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-05-16",
+    "denunciation": null,
+    "consent": "2002-04-16",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=120&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2615a1aa5cbb70a75990d5b902a394ebd0248cfafb353701014f22a41cca2329"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-04-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NRU",
+   "name": "Naoero",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=121&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "bcb060eccfd98bd0d7ebfc59e885fccd48fd707e57dd14efae7e095aa9c0f01a"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2000-09-08",
+    "type": null
+   }
+  },
+  {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-01-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Jan 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-02-20",
+    "denunciation": null,
+    "consent": "2006-01-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=122&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "3374ad0ff59f62769620777a81a2201bcbe21863ab36d0e2a96e489d924ffe64"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-01-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NLD",
+   "name": "Netherlands (Kingdom of the)",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-08-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Aug 2005"
+   },
+   "notes": [
+    "5"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-09-23",
+    "denunciation": null,
+    "consent": "2005-08-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=123&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "282fd364d7ec0769f8c7f5e3c9b8265080dc337186bd76c05725c55f4c336762"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-08-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Sep 2011"
+   },
+   "notes": [
+    "6"
+   ],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-10-20",
+    "denunciation": null,
+    "consent": "2011-09-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=124&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d3dc2ca339a6b4f8513d54522af03c46b5951606300ab45197fcdd0e67534c7a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-09-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NIC",
+   "name": "Nicaragua",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-12-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Dec 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-01-02",
+    "denunciation": null,
+    "consent": "2004-12-02",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=125&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "db97db297f6a5d85b70bbc6335fd07847bcfb96d502d93d3cc62d40782d74d48"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-12-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "NER",
+   "name": "Niger",
+   "signature": "2002-03-27",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-10-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Oct 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-11-26",
+    "denunciation": null,
+    "consent": "2004-10-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=126&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "67b72c26cc8de2f05d8c60c2bf17065a41e6dc57f79262d91596edf0c3857071"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-10-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-09-27",
+    "type": "ratification",
+    "code": null,
+    "raw": "27 Sep 2010"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-10-27",
+    "denunciation": null,
+    "consent": "2010-09-27",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=127&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "23959f19c4fbd329101404e3a0e2eebd12a6ef5be1bf6bb65e2fc5cf2d45fd63"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-09-27",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MKD",
+   "name": "North Macedonia",
+   "signature": "2001-07-17",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-10-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Oct 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-11-17",
+    "denunciation": null,
+    "consent": "2003-10-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=173&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f99a66c083a08215b769f80e400abf6d69293ec6fcd69a5cfc79208aeeb83a53"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-10-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "NOR",
+   "name": "Norway",
+   "signature": "2000-06-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-10-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Oct 2001"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "30 December 2002\nWith regard to the reservation made by Qatar upon accession:\n\"The Government of Norway has examined the content of the reservation made by the Government of Qatar upon accession to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography.\nThe reservation purports to give Islamic Shariah preference over the provisions of the Optional Protocol and does not clearly define to what extent Qatar has accepted the obligations of the latter. The Government of Norway therefore objects to the reservation, as it is contrary to the object and purpose of the Optional Protocol and thus impermissible according to well-established principles of international law.\nThis objection does not preclude the entry into force in its entirety of the Optional Protocol between the Kingdom of Norway and Qatar. The Optional Protocol thus becomes operative between Norway and Qatar without Qatar benefiting from the reservation.\"\n19 January 2006\nWith regard to the reservation made by Oman upon accession:\n\"The Permanent Mission of Norway to the United Nations presents its compliments to the Secretary-General of the United Nations and has the honour to convey that Norway has examined the second and third reservations made by the Government of the Sultanate of Oman on 17 September 2004 on accession to the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography (New York, 25 May 2000) which concern Islamic and domestic law and limits imposed by the material resources available.\nThe Government of Norway is of the view that these general reservations raise doubts as to the full commitment of the Sultanate of Oman to the object and purpose of the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography and would like to recall that according to customary international law as codified in the Vienna Convention on the Law of Treaties, a reservation incompatible with the object and purpose of the Convention shall not be permitted.\nThe Government of Norway therefore objects to the aforesaid reservations made by the Government of the Sultanate of Oman to the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography. This objection does not preclude the entry into force in its entirety, of the Convention between the Kingdom of Norway and the Sultanate of Oman, without the latter benefiting from these reservations.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-10-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=129&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "412cc7ab4bba4d93d78ac24a1483ff66fcd3d71adef769e044ebd8d1ca8a36f2"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-10-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "OMN",
+   "name": "Oman",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-17",
+    "type": "accession",
+    "code": "a",
+    "raw": "17 Sep 2004 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "..... subject to the Sultanate's reservations to the Convention on the Rights of the Child."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2004-10-17",
+    "denunciation": null,
+    "consent": "2004-09-17",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=130&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c965b75d0078edcbc7096141a0f6fe9196da24c2872c62ddfb7200aace70a3fd"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-09-17",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PAK",
+   "name": "Pakistan",
+   "signature": "2001-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-07-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Jul 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-08-05",
+    "denunciation": null,
+    "consent": "2011-07-05",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=131&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "daa269040d9532880ee709f071b53f3e50c34e8df276126106c743284d110662"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-07-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PAN",
+   "name": "Panama",
+   "signature": "2000-10-31",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-02-09",
+    "type": "ratification",
+    "code": null,
+    "raw": "9 Feb 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-02-09",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=133&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5a3127bcd570b8136ea96d2f3ea2e0b2cea7a981b42cb592b65ee69847cdc658"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-02-09",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRY",
+   "name": "Paraguay",
+   "signature": "2000-09-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-08-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Aug 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-09-18",
+    "denunciation": null,
+    "consent": "2003-08-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=135&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59544af047553ff260f9811673bcbd7e171d3c1323db4b3ffc631160ef852e17"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-08-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PER",
+   "name": "Peru",
+   "signature": "2000-11-01",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-08",
+    "denunciation": null,
+    "consent": "2002-05-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=136&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d11dfcdd4801bd7b1ab9767ac294bd5d27172f4749a39eaad2e7f042b3aa7a24"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PHL",
+   "name": "Philippines",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-28",
+    "type": "ratification",
+    "code": null,
+    "raw": "28 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-28",
+    "denunciation": null,
+    "consent": "2002-05-28",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=137&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7a3649ef27ffe285f2c27858dd8ba0ca3f01869729bd379da58cba7d6e750a96"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-28",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "POL",
+   "name": "Poland",
+   "signature": "2002-02-13",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-02-04",
+    "type": "ratification",
+    "code": null,
+    "raw": "4 Feb 2005"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-03-04",
+    "denunciation": null,
+    "consent": "2005-02-04",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=138&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d41bd747fe6d20972a8ab3ba2c433425cf4f52c87a0cccad73927b122cfb0c7b"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-02-04",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "PRT",
+   "name": "Portugal",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-05-16",
+    "type": "ratification",
+    "code": null,
+    "raw": "16 May 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-06-16",
+    "denunciation": null,
+    "consent": "2003-05-16",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=139&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d197be7896e16beff11179a6b4667090d75056771c463af4a6eedce4da1cdbd4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-05-16",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "QAT",
+   "name": "Qatar",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-12-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Dec 2001 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-14",
+    "denunciation": null,
+    "consent": "2001-12-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=140&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7dde39d2255949bc6c18fb52c53cfd38a502e50cf97d59c02aa83f39db9c44e3"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-12-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "KOR",
+   "name": "Republic of Korea",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2004"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "The Government of the Republic of Korea understands that Article 3(1)(a)(ii) of the aforementioned Protocol is applicable only to States Parties to the Convention on Protection of Children and Co-operation in Respect of Intercountry Adoption, done at The Hague on 29 May 1993."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2004-10-24",
+    "denunciation": null,
+    "consent": "2004-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=141&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c620cba8c88e32ff18c9623bbc3b23a9edaf6a178e0a21f4fc33df209440e523"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "MDA",
+   "name": "Republic of Moldova",
+   "signature": "2002-02-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-04-12",
+    "type": "ratification",
+    "code": null,
+    "raw": "12 Apr 2007"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\"Until the full re-establishment of the territorial integrity of the Republic of Moldova, the provisions of the convention shall be applied only on the territory controlled effectively by the authorities of the Republic of Moldova.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2007-05-12",
+    "denunciation": null,
+    "consent": "2007-04-12",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=142&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6ab41b4a15b43fcb21c3012600c890666f064e83eb9525c6dfb99f86b0ce122e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-04-12",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ROU",
+   "name": "Romania",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-10-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Oct 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-10-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=143&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "fe404a631131062ab8366ac35492d3e57f6251659f9882798f37c348e065430e"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-10-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "RUS",
+   "name": "Russian Federation",
+   "signature": "2012-09-26",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-09-24",
+    "type": "ratification",
+    "code": null,
+    "raw": "24 Sep 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2013-12-24",
+    "denunciation": null,
+    "consent": "2013-09-24",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=144&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "85f55b1c98b7883c3e808eac183c564cb4a4210c456940cc34d6b50518c0ce3d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-09-24",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "RWA",
+   "name": "Rwanda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-03-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Mar 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-04-14",
+    "denunciation": null,
+    "consent": "2002-03-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=145&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7d3c4bed6c375f50e503f8b4af6ee14f5d041f1cbe57efe58ee684aedee624bf"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-03-14",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "WSM",
+   "name": "Samoa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-04-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Apr 2016 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2016-05-29",
+    "denunciation": null,
+    "consent": "2016-04-29",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=149&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "025a25a365074061bd75dd3aea03daa9510e163acc777b6c57b28dda7e640458"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-04-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SMR",
+   "name": "San Marino",
+   "signature": "2000-06-05",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2011-09-26",
+    "type": "ratification",
+    "code": null,
+    "raw": "26 Sep 2011"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2011-10-26",
+    "denunciation": null,
+    "consent": "2011-09-26",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=150&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "bb48fc7630eed5126fe019ffb939bb1fd85f5f0b5286a62906dfea4821111d7d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2011-09-26",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SAU",
+   "name": "Saudi Arabia",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2010-08-18",
+    "type": "accession",
+    "code": "a",
+    "raw": "18 Aug 2010 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2010-09-18",
+    "denunciation": null,
+    "consent": "2010-08-18",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=152&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7b573aad994206d9b071759fa6d87395fb48183db4624d1d1a41077bd38cf910"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2010-08-18",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SEN",
+   "name": "Senegal",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-11-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 Nov 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-12-05",
+    "denunciation": null,
+    "consent": "2003-11-05",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=153&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "ccb1db0cc7cf91b1f0e23f0697a174daa9bbeb9d3d5f476e68d760730c8581f4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-11-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SRB",
+   "name": "Serbia",
+   "signature": "2001-10-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-10-10",
+    "type": "ratification",
+    "code": null,
+    "raw": "10 Oct 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-11-10",
+    "denunciation": null,
+    "consent": "2002-10-10",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=154&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9dbb9f50b0b96e7c03b8c844dafcbfd231547d6140fcab502d2f742b36d5f9a9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-10-10",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SYC",
+   "name": "Seychelles",
+   "signature": "2001-01-23",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-12-11",
+    "type": "ratification",
+    "code": null,
+    "raw": "11 Dec 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-03-11",
+    "denunciation": null,
+    "consent": "2012-12-11",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=155&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "902078dd7327e503839c67a3a4cc7771fc3a99d0b33db6beeffcae04b493184a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-12-11",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLE",
+   "name": "Sierra Leone",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-09-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 Sep 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-09-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=156&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6eb0c58d49f0aa446c1bb94d28f5f767512305832bd42d5ba690b9b947b39dae"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-09-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SGP",
+   "name": "Singapore",
+   "signature": "2025-11-25",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=157&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d9f11d7f236e3abaea044bae4f573c404b1a428b25fac5457ce9d9d6423df8c9"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2025-11-25",
+    "type": null
+   }
+  },
+  {
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "signature": "2001-11-30",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-06-25",
+    "type": "ratification",
+    "code": null,
+    "raw": "25 Jun 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-06-25",
+    "denunciation": null,
+    "consent": "2004-06-25",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=158&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "526a83d9b3192e00649ff9e22111cc15e40cbcc54864662c635effaa474d5847"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-06-25",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-09-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Sep 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-10-23",
+    "denunciation": null,
+    "consent": "2004-09-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=159&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "5b7ec957bc58a3a6bd5cf168bc40e8bafd8e825d9a06791aa0277cb4ed08e494"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-09-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SLB",
+   "name": "Solomon Islands",
+   "signature": "2009-09-24",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2022-05-05",
+    "type": "ratification",
+    "code": null,
+    "raw": "5 May 2022"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=160&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "489e99f7b86c088f9f6924e05bc2a3db8591b50e3075ac4d9886872972545052"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2022-05-05",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-06-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Jun 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-07-30",
+    "denunciation": null,
+    "consent": "2003-06-30",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=162&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6d534b8c5ffb401d8f278e3fe732bc597135306c7a999da680cb5e7abc580c67"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-06-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SSD",
+   "name": "South Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2018-09-27",
+    "type": "accession",
+    "code": "a",
+    "raw": "27 Sep 2018 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2018-10-27",
+    "denunciation": null,
+    "consent": "2018-09-27",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=215&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "977bd2309d74f061492fcfdc9fad07b0832465a9f50d9b0562215cfadee1f2e1"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2018-09-27",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ESP",
+   "name": "Spain",
+   "signature": "2000-09-06",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-12-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 Dec 2001"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "10 September 2002\nWith regard to the reservation made by Qatar upon accession:\nThe Government of the Kingdom of Spain has examined the reservation made by the Government of the State of Qatar on 14 December 2001 to the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography, concerning any provisions in the protocol that are in conflict with the Islamic Shariah.\nThe Government of the Kingdom of Spain considers that this reservation, which refers in a general way to Islamic law without specifying its content, creates doubts among the other States parties about the extent to which the State of Qatar commits itself to comply with the Optional Protocol.\nThe Government of the Kingdom of Spain is of the view that the reservation by the Government of the State of Qatar is incompatible with the object and purpose of the said Optional Protocol, since it refers to the Protocol as a whole and could seriously restrict or even exclude its application on a basis as ill-defined as the general reference to the Islamic Shariah.\nTherefore, the Government of the Kingdom of Spain objects to the above-mentioned reservation by the Government of the State of Qatar to the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography.\nThis objection shall not preclude the entry into force of the said Optional Protocol between the Kingdom of Spain and the State of Qatar."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-12-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=163&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "72f7e8a3c443f5906732450085af356bf5c52422031b309471b51e9567b8e5b5"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-12-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LKA",
+   "name": "Sri Lanka",
+   "signature": "2002-05-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-22",
+    "type": "ratification",
+    "code": null,
+    "raw": "22 Sep 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-10-22",
+    "denunciation": null,
+    "consent": "2006-09-22",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=164&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "c02309b00b85f7fc05108371580f778cb78ee3e0c46c5ed31b6320d9648d30e4"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-09-22",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "LCA",
+   "name": "St. Lucia",
+   "signature": "2011-09-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2013-10-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 Oct 2013"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2014-01-08",
+    "denunciation": null,
+    "consent": "2013-10-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=147&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "8412bee6f7dfacb580ffb3ac656847d64ed1f794a547cd0b471d6b61c948b509"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2013-10-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VCT",
+   "name": "St. Vincent and the Grenadines",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-09-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Sep 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-10-15",
+    "denunciation": null,
+    "consent": "2005-09-15",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=148&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "cf604671ac41812803462f9294bb80ef50a92578418c1577e5df5c3db8b7ca0c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-09-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "PSE",
+   "name": "State of Palestine",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2017-12-29",
+    "type": "accession",
+    "code": "a",
+    "raw": "29 Dec 2017 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2018-01-29",
+    "denunciation": null,
+    "consent": "2017-12-29",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=217&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d4418382b99aa0fa82b9cf0d20aaf78162b3ba3235451e3a33bb67677717753c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2017-12-29",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SDN",
+   "name": "Sudan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-11-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Nov 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-12-02",
+    "denunciation": null,
+    "consent": "2004-11-02",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=165&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7367f3471a72edc2640e216cf5682cf8add1b5f5574235e4490869142bc4e072"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-11-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "SUR",
+   "name": "Suriname",
+   "signature": "2002-05-10",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-05-18",
+    "type": "ratification",
+    "code": null,
+    "raw": "18 May 2012"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-08-18",
+    "denunciation": null,
+    "consent": "2012-05-18",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=166&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "51035d6489b4d3da3c7143fbc5e13c3c0cf8e7cd8c70aba47c145331c46e9476"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-05-18",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SWE",
+   "name": "Sweden",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-01-19",
+    "type": "ratification",
+    "code": null,
+    "raw": "19 Jan 2007"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": null,
+     "kind": "unlabelled",
+     "text": "Upon signature:"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "“Reference is made to earlier statements submitted by the EU in connection with the Working group’s ad-referendum adoption of the Optional Protocol on 4 February 2000 and the national statement submitted by Sweden at the same occasion as well as the Swedish statement submitted in connection with the adoption of the Protocol by the General Assembly on 25 May 2000. Furthermore Sweden interprets the words ‘any representation’ in article 2 c) as ‘visual representation’ ”.\nUpon ratification:"
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\".....Sweden interprets the word \"any representation\"in article 2 c) of the Protocol as \"visual representation\"."
+    },
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "27 November 2002\nWith regard to the reservation made by Qatar upon accession:\n\"The Government of Sweden has examined the reservation made by Qatar upon acceding to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography.\nThe Government of Sweden notes that the Protocol is being made subject to a general reservation of unlimited scope referring to the contents of Islamic sharia.\nThe Government of Sweden is of the view that this reservation which does not clearly specify the provisions of the Convention to which it applies, and the extent of the derogation therefrom, raises serious doubts as to the commitment of Qatar to the object and purpose of the Protocol. The Government of Sweden would like to recall that, according to customary international law as codified in the Vienna Convention on the Law of Treaties, a reservation incompatible with the object and purpose of a treaty shall not be permitted.\nIt is in the common interest of States that treaties to which they have chosen to become parties are respected as to their object and purpose, by all parties, and that States are prepared to undertake any legislative changes necessary to comply with their obligations under the treaties.\nThe Government of Sweden therefore objects to the aforesaid reservation made by the Government of Qatar to the Optional Protocol to the Convention on the Rights of the Child on the sale of Children, Child Prostitution and Child Pornography.\nThis objection shall not preclude the entry into force of the Convention between Qatar and Sweden. The Convention enters into force in its entirety between the two States, without Qatar benefiting from its reservation.\"\n11 July 2003\nWith regard to the declaration made by Turkey upon ratification:\n\"The Government of Sweden has examined the declaration made by Turkey upon ratifying the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography.\nThe declaration states that Turkey will implement the provisions of the Optional Protocol only to the States Parties which it recognises and with which it has diplomatic relations. This statement in fact amounts, in the view of the Government of Sweden, to a reservation. The reservation makes it unclear to what extent Turkey considers itself bound by the obligations of the Optional Protocol. In absence of further clarification, therefore, the reservation raises doubt as to the commitment of Turkey to the object and purpose of the Optional Protocol.\nThe Government of Sweden would like to recall that, according to customary international law as codified in the Vienna Convention of the Law of Treaties, a reservation incompatible with the object and purpose of a treaty shall not be permitted. It is in the common interest of States that treaties to which they have chosen to become parties are respected as to their object and purpose, by all parties, and that States are prepared to undertake any legislative changes necessary to comply with their obligations under the treaties.\nThe Government of Sweden therefore objects to the aforesaid reservation made by Turkey to the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography.\nThis objection does not preclude the entry into force of the Optional Protocol between Turkey and Sweden. The Optional Protocol enters into force in its entirety between the two States, without Turkey benefiting from its reservation.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2007-02-19",
+    "denunciation": null,
+    "consent": "2007-01-19",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=168&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "ca0e395f2078394c53a0acc0ca3db8b47ea361bd8ae0efbbb25fd5978ea699bb"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-01-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-09-19",
+    "type": "ratification",
+    "code": null,
+    "raw": "19 Sep 2006"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-10-19",
+    "denunciation": null,
+    "consent": "2006-09-19",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=169&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "38a791af99849b22ac38b09b533a1563e03702bd49f67101a80c837c16204403"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-09-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "SYR",
+   "name": "Syrian Arab Republic",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-05-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 May 2003 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "\"A reservation is entered to the provisions set forth in article 3, paragraph 5, and article 3, paragraph 1 (a) (ii) of the Optional Protocol on the sale of children, child prostitution and child pornography, which relate to adoption."
+    },
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "Ratification of the two Optional Protocols by the Syrian Arab Republic shall not in any event imply recognition of Israel and shall not lead to entry into any dealings with Israel in the matters governed by the provisions of the Protocols.\""
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2003-06-15",
+    "denunciation": null,
+    "consent": "2003-05-15",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=170&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "3cae303e3f7d8e48aa1ec429c2fd9191c5742580d0e1dc2b4f9b58062bebf8f5"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-05-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TJK",
+   "name": "Tajikistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-05",
+    "type": "accession",
+    "code": "a",
+    "raw": "5 Aug 2002 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-09-05",
+    "denunciation": null,
+    "consent": "2002-08-05",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=171&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d77a6db1f159561deb3962ed11ae536b6069a03a7dc54f6ed18ed859a0464342"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-08-05",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "THA",
+   "name": "Thailand",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2006-01-11",
+    "type": "accession",
+    "code": "a",
+    "raw": "11 Jan 2006 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2006-02-11",
+    "denunciation": null,
+    "consent": "2006-01-11",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=172&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2e0db4efede4d608974da08fc9197a0fffcb9aa003b3fb0a39cb7ba9972d9895"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2006-01-11",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TLS",
+   "name": "Timor-Leste",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-04-16",
+    "type": "accession",
+    "code": "a",
+    "raw": "16 Apr 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-05-16",
+    "denunciation": null,
+    "consent": "2003-04-16",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=174&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "395a25f0cfcf9c1ec60ad861271749738e76843680211970063e483791e90dfc"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-04-16",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "signature": "2001-11-15",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-07-02",
+    "type": "ratification",
+    "code": null,
+    "raw": "2 Jul 2004"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2004-08-02",
+    "denunciation": null,
+    "consent": "2004-07-02",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=175&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7ae5563b5853430642b171616a612a771f0eed9f0d0bbecefaf2a1ba41c6564d"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-07-02",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TUN",
+   "name": "Tunisia",
+   "signature": "2002-04-22",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-09-13",
+    "type": "ratification",
+    "code": null,
+    "raw": "13 Sep 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-10-13",
+    "denunciation": null,
+    "consent": "2002-09-13",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=178&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "52d11909007e74d2ae954344e83e70635084b81a14c75f57e2ea5e5e062b8834"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-09-13",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TUR",
+   "name": "Türkiye",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-08-19",
+    "type": "ratification",
+    "code": null,
+    "raw": "19 Aug 2002"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Declaration",
+     "kind": "declaration",
+     "text": "\"The Republic of Turkey declares that it will implement the provisions of the existing Optional Protocol only to the States Parties which it recognizes and with which it has diplomatic relations\"."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2002-09-19",
+    "denunciation": null,
+    "consent": "2002-08-19",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=179&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "9b1a469750b29efe000331e0d70c904677a03f934137bd17a5cb0dc927315a23"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-08-19",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TKM",
+   "name": "Turkmenistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2005-03-28",
+    "type": "accession",
+    "code": "a",
+    "raw": "28 Mar 2005 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-04-28",
+    "denunciation": null,
+    "consent": "2005-03-28",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=180&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6a30f467b7b4fc81b9f097bb93cf71f623cebc843a534ddc4ff83c344143c66c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2005-03-28",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UGA",
+   "name": "Uganda",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-11-30",
+    "type": "accession",
+    "code": "a",
+    "raw": "30 Nov 2001 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-11-30",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=182&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "89cc5f128c9266a07b3f0ca5e62ca143f4971893564732384bac612cc12bc7e3"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-11-30",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "UKR",
+   "name": "Ukraine",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-07-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Jul 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-08-03",
+    "denunciation": null,
+    "consent": "2003-07-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=183&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "96f7dd4f3393d51e9cc3db6ca0363909a583ca366ebe00c08a3e6ae2eec4e4e9"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-07-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2016-03-02",
+    "type": "accession",
+    "code": "a",
+    "raw": "2 Mar 2016 a"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "… with a reservation regarding article 3, paragraph 5."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2016-04-02",
+    "denunciation": null,
+    "consent": "2016-03-02",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=184&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "49e4e8fb571a284eaad36d8baa5bbed548afee51732c0706e004c086dd2a1d0f"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2016-03-02",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "GBR",
+   "name": "United Kingdom of Great Britain and Northern Ireland",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2009-02-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Feb 2009"
+   },
+   "notes": [
+    "7, 8, 9"
+   ],
+   "statements": [
+    {
+     "section": "Obj",
+     "section_title": "Objections",
+     "notes": [],
+     "label": null,
+     "kind": "objection",
+     "text": "1 March 2017\nWith regard to the reservation made by teh United Arab Emirates upon accession:\n“The Permanent Mission of United Kingdom of Great Britain and Northern Ireland… wishes to lodge an objection to a reservation made by the United Arab Emirates upon accession to the Optional Protocol to the Convention on the Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography. The reservation is as follows:\nReservation\n“… with a reservation regarding article 3, paragraph 5.”\nArticle 3\n5. States Parties shall take all appropriate legal and administrative measures to ensure that all persons involved in the adoption of a child act in conformity with applicable international legal instruments.\nThe UK Government notes that there is no specific detail provided in the reservation and as such it does not clearly define for the other States Parties to the Convention the extent to which the reserving State has accepted the obligations of the Convention. The UK Government therefore objects to the aforesaid reservation.\n[…]”"
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2009-03-22",
+    "denunciation": null,
+    "consent": "2009-02-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=185&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2b2682875747e265a84729398bad15d095c6b7d72f581c345af3445d2c182147"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2009-02-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "TZA",
+   "name": "United Republic of Tanzania",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-04-24",
+    "type": "accession",
+    "code": "a",
+    "raw": "24 Apr 2003 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-05-24",
+    "denunciation": null,
+    "consent": "2003-04-24",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=186&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "d7c7c145f5885abb2f420e6f49950aacc95fa50ad3acaec4fca030c42036ef37"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-04-24",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "USA",
+   "name": "United States of America",
+   "signature": "2000-07-05",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-12-23",
+    "type": "ratification",
+    "code": null,
+    "raw": "23 Dec 2002"
+   },
+   "notes": [],
+   "statements": [
+    {
+     "section": "Dec",
+     "section_title": "Declarations and Reservations",
+     "notes": [],
+     "label": "Reservation",
+     "kind": "reservation",
+     "text": "“ To the extent that the domestic law of the United States does not provide for jurisdiction over an offense described in Article 3 (1) of the Protocol if the offense is committed on board a ship or aircraft registered in the United States, the obligation with respect to jurisdiction over that offense shall not apply to the United States until such time as the United States may notify the Secretary-General of the United Nations that United States domestic law is in full conformity with the requirements of Article 4 (1) of the Protocol.\nThe Senate's advice and consent is subject to the following understandings:\n(1) NO ASSUMPTION OF OBLIGATIONS UNDER THE CONVENTION ON THE RIGHTS OF THE CHILD.-The United States understands that the United States assumes no obligations under the Convention on the Rights of the Child by becoming a party to the Protocol.\n(2) THE TERM \"CHILD PORNOGRAPHY”. -The United States understands that the term \"sale of children\" as defined in Article 2(a) of the Protocol, is intended to cover any transaction in which remuneration or other consideration is given and received under circumstances in which a person who does not have a lawful right to custody of the child thereby obtains de facto control over the child.\n(3) THE TERM “CHILD PORNOGRAPHY\".-The United States understands the term \"child pornography\", as defined in Article 2(c) of the Protocol, to mean the visual representation of a child engaged in real or simulated sexual activities or of the genitalia of a child where the dominant characteristic is depiction for a sexual purpose.\n(4) THE TERM \"TRANSFER OF ORGANS FOR PROFIT\".-The United States understands that- (A) the term \"transfer of organs for profit”, as used in Article 3(1)(a)(i) of the Protocol, does not cover any situation in which a child donates an organ pursuant to lawful consent; and\n(B) the term \"profit\", as used in Article 3(1)(a)(i) of the Protocol, does not include the lawful paymeasonable amount associated with the transfer of organs, including any payment for the expense of travel, housing, lost wages, or medical costs.\n(5) THE TERMS \"APPLICABLE INTERNATIONAL LEGAL INSTRUMENTS\" AND \"IMPROPERLY INDUCING CONSENT”.-\n(A) UNDERSTANDING OF \"APPLICABLE INTERNATIONAL LEGAL INSTRUMENTS”.-The United States understands that the term “applicable international legal instruments\" in Articles 3 (1) (a) (ii) and 3 (5) of the Protocol refers to the Convention on Protection of Children and Co-operation in Respect of Intercountry Adoption done at The Hague on May 29, 1993 (in this paragraph referred to as \"The Hague Convention”).\n(B) NO OBLIGATION TO TAKE CERTAIN ACTION.-The United States is not a party to The Hague Convention, but expects to become a party. Accordingly, until such time as the United States becomes a party to The Hague Convention, it understands that it is not obligated to criminalize conduct proscribed by Article 3(1)(a)(ii) of the Protocol or to take all appropriate legal and administrative measures required by Article 3(5) of the Protocol.\n(C) UNDERSTANDING Of' \"IMPROPERLY INDUCING CONSENT\".-The United States understands that the term “Improperly inducing consent” in Article 3(1)(a)(ii) of the Protocol means knowingly and willfully inducing consent by offering or giving compensation for the relinquishment of parental rights.\n(6) IMPLEMENTATION OF THE PROTOCOL 1N THE FEDERAL SYSTEM OF THE UNITED STATES.-The United States understands that the Protocol shall be implemented by the Federal Government to the extent that it exercises jurisdiction over the matters covered therein, and otherwise by the State and local governments. To the extent that State and local governments exercise jurisdiction over such matters, the Federal Government shall as necessary, take appropriate measures to ensure the fulfillment of the Protocol."
+    }
+   ],
+   "ohchr": {
+    "entry_into_force": "2003-01-23",
+    "denunciation": null,
+    "consent": "2002-12-23",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=187&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "2081bea790b089c1625601e56ad61e1c547f85708d1f8a6472499d23799aab3a"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-12-23",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "URY",
+   "name": "Uruguay",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2003-07-03",
+    "type": "ratification",
+    "code": null,
+    "raw": "3 Jul 2003"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2003-08-03",
+    "denunciation": null,
+    "consent": "2003-07-03",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=188&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "59b7311514d5edbea3f8e30eb01309f667774e7521bf778bf799057249261b9c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2003-07-03",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "UZB",
+   "name": "Uzbekistan",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2008-12-23",
+    "type": "accession",
+    "code": "a",
+    "raw": "23 Dec 2008 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2009-01-22",
+    "denunciation": null,
+    "consent": "2008-12-23",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=189&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "53ab84d043b1c5e72b59a5fcc2bce6cac6dde03330fb07f514957b03a7b45a49"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2008-12-23",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "VUT",
+   "name": "Vanuatu",
+   "signature": "2005-09-16",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2007-05-17",
+    "type": "ratification",
+    "code": null,
+    "raw": "17 May 2007"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2007-06-17",
+    "denunciation": null,
+    "consent": "2007-05-17",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=190&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "6efb59d6606f8ba500af93f1dd43aa7b6ca2ea0079a629d2cff3a9e81a13f450"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2007-05-17",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VEN",
+   "name": "Venezuela (Bolivarian Republic of)",
+   "signature": "2000-09-07",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2002-05-08",
+    "type": "ratification",
+    "code": null,
+    "raw": "8 May 2002"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-06-08",
+    "denunciation": null,
+    "consent": "2002-05-08",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=191&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "f30431e143b62cf45476ae95406a87caacdffe1a9a49444ed2d5426093bf9823"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2002-05-08",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "VNM",
+   "name": "Viet Nam",
+   "signature": "2000-09-08",
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2001-12-20",
+    "type": "ratification",
+    "code": null,
+    "raw": "20 Dec 2001"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2002-01-18",
+    "denunciation": null,
+    "consent": "2001-12-20",
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=192&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "7e141dd12414625f5e9aefda0c607a5b1abe8f305af711de6f2ce9d290947f5c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2001-12-20",
+    "type": "ratification"
+   }
+  },
+  {
+   "iso3": "YEM",
+   "name": "Yemen",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2004-12-15",
+    "type": "accession",
+    "code": "a",
+    "raw": "15 Dec 2004 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2005-01-15",
+    "denunciation": null,
+    "consent": "2004-12-15",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=193&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b049662ff1285d427f35cba1e54b85b2908c9b7d990ce8034d09d59099588c8c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2004-12-15",
+    "type": "accession"
+   }
+  },
+  {
+   "iso3": "ZMB",
+   "name": "Zambia",
+   "signature": "2008-09-29",
+   "signature_bracketed": null,
+   "consent": null,
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": null,
+    "denunciation": null,
+    "consent": null,
+    "consent_code": null,
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=194&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "80d7c4637d2c8645b3e35d39157d2f40ac9b22bee50425b832c82ba1e336fe50"
+    }
+   },
+   "status": {
+    "code": "signature",
+    "date": "2008-09-29",
+    "type": null
+   }
+  },
+  {
+   "iso3": "ZWE",
+   "name": "Zimbabwe",
+   "signature": null,
+   "signature_bracketed": null,
+   "consent": {
+    "date": "2012-02-14",
+    "type": "accession",
+    "code": "a",
+    "raw": "14 Feb 2012 a"
+   },
+   "notes": [],
+   "statements": [],
+   "ohchr": {
+    "entry_into_force": "2012-05-14",
+    "denunciation": null,
+    "consent": "2012-02-14",
+    "consent_code": "a",
+    "ref": {
+     "source": "tbinternet",
+     "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=195&Lang=SP",
+     "retrieved": "2026-11-23",
+     "sha256": "b995063344179ab61b9daab099b9b6da51a31a470e3623f1307f00798bb4399c"
+    }
+   },
+   "status": {
+    "code": "consent",
+    "date": "2012-02-14",
+    "type": "accession"
+   }
+  }
+ ]
+}

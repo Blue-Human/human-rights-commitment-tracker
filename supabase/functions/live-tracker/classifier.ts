@@ -24,7 +24,7 @@ Categories:
 Rules:
 - When unsure, choose noise. A false positive on a public human-rights record is worse than a missed item.
 - relevance is 0 to 1: how directly the title concerns this specific recommendation, not the general topic.
-- note is one short neutral sentence in English explaining the choice. Do not add facts that are not in the title or excerpt.
+- note is one short neutral sentence in Spanish (Spain) explaining the choice; it is shown to Spanish readers. Do not add facts that are not in the title or excerpt.
 - Return exactly one result per candidate, using the candidate's index.`;
 
 const SCHEMA = {

@@ -1,0 +1,2487 @@
+[
+ {
+  "url": "https://achpr.au.int/en/charter/african-charter-human-and-peoples-rights",
+  "adapter": "achpr",
+  "sha256": "17a9b40d0a083738ff716d84e9c6d351444d31666e3712fad247aeaa783e5068",
+  "bytes": 214442,
+  "fetched_at": "2026-11-23T14:22:48+00:00"
+ },
+ {
+  "url": "https://au.int/en/treaties/african-charter-human-and-peoples-rights",
+  "adapter": "au",
+  "sha256": "7a8373941ef2334229b1af40656aa615b7ab2ba86cdbb17d5df3565bd6f9103d",
+  "bytes": 96118,
+  "fetched_at": "2026-11-23T14:20:30+00:00"
+ },
+ {
+  "url": "https://au.int/en/treaties/african-charter-rights-and-welfare-child",
+  "adapter": "au",
+  "sha256": "3ba5b90f4f8bd87f59c09dd0b25c461c192f608f7a02ed7498567ec875fd9ade",
+  "bytes": 120427,
+  "fetched_at": "2026-11-23T14:20:34+00:00"
+ },
+ {
+  "url": "https://au.int/en/treaties/protocol-african-charter-human-and-peoples-rights-establishment-african-court-human-and",
+  "adapter": "au",
+  "sha256": "eb0032bd4a6b99aa137f13076bd1e37d93f89ec79378b1bfd7cee0f88d11cfb4",
+  "bytes": 98285,
+  "fetched_at": "2026-11-23T14:20:32+00:00"
+ },
+ {
+  "url": "https://au.int/en/treaties/protocol-african-charter-human-and-peoples-rights-rights-women-africa",
+  "adapter": "au",
+  "sha256": "2086d93c5d2417013d67c04539a89335e2f93d24911b4c03def5fcca25694cc9",
+  "bytes": 119112,
+  "fetched_at": "2026-11-23T14:20:33+00:00"
+ },
+ {
+  "url": "https://au.int/sites/default/files/treaties/36390-sl-african_charter_on_human_and_peoples_rights_2.pdf",
+  "adapter": "au",
+  "sha256": "6ecf696a289a801bd4599cfe5f84afe0371eeb6fb7de78a334c67d9dfecdf2bd",
+  "bytes": 12848,
+  "fetched_at": "2026-11-23T14:20:35+00:00"
+ },
+ {
+  "url": "https://au.int/sites/default/files/treaties/36393-sl-PROTOCOL_TO_THE_AFRICAN_CHARTER_ON_HUMAN_AND_PEOPLESRIGHTS_ON_THE_ESTABLISHMENT_OF_AN_AFRICAN_COURT_ON_HUMAN_AND_PEOPLES_RIGHTS_0.pdf",
+  "adapter": "au",
+  "sha256": "a46f7dda98dbf78f8ecba8506dfb24e6c83c345c0c12dc57bb7566473b11a7d8",
+  "bytes": 15377,
+  "fetched_at": "2026-11-23T14:20:36+00:00"
+ },
+ {
+  "url": "https://au.int/sites/default/files/treaties/36804-sl-AFRICAN_CHARTER_ON_THE_RIGHTS_AND_WELFARE_OF_THE_CHILD.pdf",
+  "adapter": "au",
+  "sha256": "addd68dccfa9cc87df67257f6d378d5a20ee9fe8241ab13d7b04ec70f86b3b40",
+  "bytes": 13518,
+  "fetched_at": "2026-11-23T14:20:38+00:00"
+ },
+ {
+  "url": "https://au.int/sites/default/files/treaties/37077-sl-PROTOCOL_TO_THE_AFRICAN_CHARTER_ON_HUMAN_AND_PEOPLES_RIGHTS_ON_THE_RIGHTS_OF_WOMEN_IN_AFRICA.pdf",
+  "adapter": "au",
+  "sha256": "130a1273d2e2aee91ca089689dac36b246d00038e5b1aecfe56a18e4b2769d43",
+  "bytes": 17696,
+  "fetched_at": "2026-11-23T14:20:37+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/metadatos",
+  "adapter": "boe",
+  "sha256": "ae89192b39350340e5eef5d3d851f850fa60cf60ee007027b9bba83a346552c4",
+  "bytes": 1385,
+  "fetched_at": "2026-11-23T14:20:50+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/texto",
+  "adapter": "boe",
+  "sha256": "20bee5332be8803c223f26551257fd4e1fbe2bbfd4b5d5574c45dd226a2c05a7",
+  "bytes": 67983,
+  "fetched_at": "2026-11-23T14:20:49+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10733/texto/indice",
+  "adapter": "boe",
+  "sha256": "ed26c3e789da3d32d44cb3b641fa5c50796d9f504b619900687a6d6595f048c0",
+  "bytes": 16293,
+  "fetched_at": "2026-11-23T14:20:48+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10734/metadatos",
+  "adapter": "boe",
+  "sha256": "4196abc4114e268698110a748fab102d6fa9f27a7ef7f6d6d3414f982bee2746",
+  "bytes": 1399,
+  "fetched_at": "2026-11-23T14:20:41+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10734/texto",
+  "adapter": "boe",
+  "sha256": "939103b9939ad55e4a28fad6e0ae7a45205e13994e86556ca15848cb91724500",
+  "bytes": 39438,
+  "fetched_at": "2026-11-23T14:20:40+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1977-10734/texto/indice",
+  "adapter": "boe",
+  "sha256": "a2c30c1745e39e804cc8d5b8ecbae5d568a66230b0f6c71c14276e4fef394710",
+  "bytes": 10479,
+  "fetched_at": "2026-11-23T14:20:39+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/metadatos",
+  "adapter": "boe",
+  "sha256": "289a477b558089cb718c56c52f83494b0f8ebff0b4641a2631a2f699769895ce",
+  "bytes": 1466,
+  "fetched_at": "2026-11-23T14:21:36+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/texto",
+  "adapter": "boe",
+  "sha256": "db35630310c324620a8b195a74c906e2f77c08e2a69c60a4f17406d650cb231f",
+  "bytes": 95120,
+  "fetched_at": "2026-11-23T14:21:35+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1978-26331/texto/indice",
+  "adapter": "boe",
+  "sha256": "28962e23128d4cc9404893154007ec0166441eb0a024662fdb620646d87c7fb7",
+  "bytes": 17983,
+  "fetched_at": "2026-11-23T14:21:33+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/metadatos",
+  "adapter": "boe",
+  "sha256": "bcbc7f8353118ae2d8a4ef0b8013146fab6f405692090ac23b98629ce4bba4ab",
+  "bytes": 1359,
+  "fetched_at": "2026-11-23T14:22:20+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/texto",
+  "adapter": "boe",
+  "sha256": "67f323c49cda3662bcd00d51222a884ad8b63bb77fa35d5953e1913778b3bb5e",
+  "bytes": 75814,
+  "fetched_at": "2026-11-23T14:22:19+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/texto/indice",
+  "adapter": "boe",
+  "sha256": "ef2c1387251823483b75bd7f5264044a60f8a785f76fb51dc69992849f4aaa7e",
+  "bytes": 12743,
+  "fetched_at": "2026-11-23T14:22:17+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1984-6749/metadatos",
+  "adapter": "boe",
+  "sha256": "fdf3673e66014432436768ba6569982d5a5fef1f04cfd0e8a2ab9cd8cacb2006",
+  "bytes": 1440,
+  "fetched_at": "2026-11-23T14:21:00+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1984-6749/texto",
+  "adapter": "boe",
+  "sha256": "f2eb1dec6ee6019301e8f14249517bd426616340f6a9a54d37bdef3aecc05272",
+  "bytes": 47328,
+  "fetched_at": "2026-11-23T14:20:59+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1984-6749/texto/indice",
+  "adapter": "boe",
+  "sha256": "4c557e5f439a5d73723e7fdb5acbc66760b355ef71d86f66ae02f2cb25651f9e",
+  "bytes": 10168,
+  "fetched_at": "2026-11-23T14:20:57+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1985-5259/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:20:52+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1987-25053/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:31+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1989-15618/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:22:29+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1990-31312/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:09+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1991-17792/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:20:55+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1998-1369/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:22:32+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/metadatos",
+  "adapter": "boe",
+  "sha256": "39393db8e78fc80e95f273ac36a419ab26b15375e4e3c1b3b28174a3426888ad",
+  "bytes": 1672,
+  "fetched_at": "2026-11-23T14:21:45+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto",
+  "adapter": "boe",
+  "sha256": "f2201a0e47d24c5a5dcf7a396b3faf1af7c7e0ee3a8c44bd4db935b8928b6d16",
+  "bytes": 161064,
+  "fetched_at": "2026-11-23T14:21:44+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1999-10148/texto/indice",
+  "adapter": "boe",
+  "sha256": "2200fa5aa55141402414e7d6199e928946a2673da9aed91219d6457b8893a514",
+  "bytes": 19592,
+  "fetched_at": "2026-11-23T14:21:42+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2001-15664/metadatos",
+  "adapter": "boe",
+  "sha256": "ab33e33346464bbbd912d4b9b9109e56d14be2522d47a3884bdcee1166f00ced",
+  "bytes": 1439,
+  "fetched_at": "2026-11-23T14:21:04+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2001-15664/texto",
+  "adapter": "boe",
+  "sha256": "e00f56063a1dccd20e73dadefa804359e08efae250b3a9c4b992eb146e438f80",
+  "bytes": 22092,
+  "fetched_at": "2026-11-23T14:21:03+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2001-15664/texto/indice",
+  "adapter": "boe",
+  "sha256": "c5151e6fba4153ae24c5c0984f566f365ba429f9ef780f65d65f197f6cecf412",
+  "bytes": 6257,
+  "fetched_at": "2026-11-23T14:21:02+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2002-1858/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:14+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2002-7293/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:12+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2006-11128/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:06+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2008-6963/metadatos",
+  "adapter": "boe",
+  "sha256": "918079f0b0e4fbc51a30c0e0bdd11e0cf26b08c18d1aa121482c2a9b989cc348",
+  "bytes": 1380,
+  "fetched_at": "2026-11-23T14:21:23+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2008-6963/texto",
+  "adapter": "boe",
+  "sha256": "8e240e5af566e523bd47c11217228b9c70e5207f206f3432b9ee3b1ff5f43d01",
+  "bytes": 98017,
+  "fetched_at": "2026-11-23T14:21:22+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2008-6963/texto/indice",
+  "adapter": "boe",
+  "sha256": "43a7586f7f0aada4639feafb1633af66637c346e62b143ccff2b5dcba911e524",
+  "bytes": 14140,
+  "fetched_at": "2026-11-23T14:21:20+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2008-6996/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:25+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-14405/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:22:34+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-17392/metadatos",
+  "adapter": "boe",
+  "sha256": "33c960bb510e4e7b60a987cb73035b9515fa4b887a68b7239c0c89b338113092",
+  "bytes": 1428,
+  "fetched_at": "2026-11-23T14:22:40+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-17392/texto",
+  "adapter": "boe",
+  "sha256": "186751aee3e95eb6efb31b19544a2176031e766e298fa765d5510bb1b5fb5fc1",
+  "bytes": 85452,
+  "fetched_at": "2026-11-23T14:22:39+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-17392/texto/indice",
+  "adapter": "boe",
+  "sha256": "94e596fa0d2efd9b6691c14beee826680c1328004f07140df82a1ae40767cdaf",
+  "bytes": 17474,
+  "fetched_at": "2026-11-23T14:22:37+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-3164/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:28+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-2081/metadatos",
+  "adapter": "boe",
+  "sha256": "9b99c8f9ea6532351b820786246a75ca774f197cc610087702f1c4ab96f993ae",
+  "bytes": 1407,
+  "fetched_at": "2026-11-23T14:20:46+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-2081/texto",
+  "adapter": "boe",
+  "sha256": "1861389dfa70ad55698338e8d98d7908d2cfc2d660467cd497b93ba6a14520f8",
+  "bytes": 32464,
+  "fetched_at": "2026-11-23T14:20:45+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-2081/texto/indice",
+  "adapter": "boe",
+  "sha256": "11def3535126b4984f82199afad67b24cac6b9e65ff51dd51825418eeacfb80e",
+  "bytes": 6329,
+  "fetched_at": "2026-11-23T14:20:43+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-5947/metadatos",
+  "adapter": "boe",
+  "sha256": "3b481404082057b1a2d844479b7ee2cb1cc30b164a46326100730701b2ab11db",
+  "bytes": 1431,
+  "fetched_at": "2026-11-23T14:22:45+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-5947/texto",
+  "adapter": "boe",
+  "sha256": "79fbb8b649f113f4c8dc9e25bf6f9ba818dd24ae34dd9e72ab4f0498eb420e71",
+  "bytes": 118317,
+  "fetched_at": "2026-11-23T14:22:44+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-5947/texto/indice",
+  "adapter": "boe",
+  "sha256": "96b3ed9dcd379e333a3869cb155ac23c2ff680d0603bb234afc88bd932b4c6a0",
+  "bytes": 25152,
+  "fetched_at": "2026-11-23T14:22:42+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-966/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:21:17+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2021-10683/texto/indice",
+  "adapter": "boe",
+  "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+  "bytes": 170,
+  "fetched_at": "2026-11-23T14:22:26+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2021-9719/metadatos",
+  "adapter": "boe",
+  "sha256": "34b8dcc4f5058e2a1ab2c636454e0ae9da52393acdd0a5287672f38fb9043a5e",
+  "bytes": 1340,
+  "fetched_at": "2026-11-23T14:22:25+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2021-9719/texto",
+  "adapter": "boe",
+  "sha256": "4ac776f652331b8419655bfec8ad59ab4a489b88c678a3b1adb3c70a502c7645",
+  "bytes": 99926,
+  "fetched_at": "2026-11-23T14:22:23+00:00"
+ },
+ {
+  "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2021-9719/texto/indice",
+  "adapter": "boe",
+  "sha256": "64d1cd8df8be9d02fda42429fe5200a403f3eac142cc60a61b6659a26b7b835c",
+  "bytes": 14835,
+  "fetched_at": "2026-11-23T14:22:22+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1969-170",
+  "adapter": "boe",
+  "sha256": "2146fd1cd0592b1b887f4494e28c13875b9f0eb9f224c3c683e8502ee88c6651",
+  "bytes": 10669,
+  "fetched_at": "2026-11-23T14:23:38+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1978-26331",
+  "adapter": "boe",
+  "sha256": "bc56b5cb0a46f2c72e6728f03ed2714afce33423171150b740e5c43416fcf0bb",
+  "bytes": 199815,
+  "fetched_at": "2026-11-23T14:23:39+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1979-24010",
+  "adapter": "boe",
+  "sha256": "a07d7188cc2fdfd1d2f5e223a4126c90ba0e09ac82fa444956f99cee5cd9a7a2",
+  "bytes": 101067,
+  "fetched_at": "2026-11-23T14:23:43+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1985-5259",
+  "adapter": "boe",
+  "sha256": "5e850847e55449c09d50eef93dacffe366390c63057b645bef419d3eddfcc33a",
+  "bytes": 33757,
+  "fetched_at": "2026-11-23T14:20:53+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1985-6019",
+  "adapter": "boe",
+  "sha256": "254659e876dd65fee55e2504347319716d897f46c04a9b3879c2abf59809ff02",
+  "bytes": 15470,
+  "fetched_at": "2026-11-23T14:23:50+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1987-25053",
+  "adapter": "boe",
+  "sha256": "96de916b74e124285e3d115ca1de2cc064065b17a41a1b3cc1628a8d01f4e711",
+  "bytes": 79676,
+  "fetched_at": "2026-11-23T14:21:32+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1989-15618",
+  "adapter": "boe",
+  "sha256": "afd15f0e0bec8ee1f94a6d9524ebdf3a9f45f29f9704ebab2e14413fb7ce5d9c",
+  "bytes": 36509,
+  "fetched_at": "2026-11-23T14:22:30+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1990-31312",
+  "adapter": "boe",
+  "sha256": "8c116ab7e65c4ba5372a5d989607027596977f1546248e38f431be31f1cc49a5",
+  "bytes": 114024,
+  "fetched_at": "2026-11-23T14:21:10+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1991-17792",
+  "adapter": "boe",
+  "sha256": "bffe0be0248c91bc41333781f7960805925c8c1d9c35d6c5789b4f495801d762",
+  "bytes": 32191,
+  "fetched_at": "2026-11-23T14:20:56+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1991-723",
+  "adapter": "boe",
+  "sha256": "db58d30ea7e79c4b1fb3d1c384097da9d94be2ff4ed5fdfdaa68c485037ef91c",
+  "bytes": 26749,
+  "fetched_at": "2026-11-23T14:23:47+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1998-1369",
+  "adapter": "boe",
+  "sha256": "8d0297d9c6201fa84e4bf3b86d478598abf6d28332b5d71312e12a210037f252",
+  "bytes": 40748,
+  "fetched_at": "2026-11-23T14:22:33+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2000-15123",
+  "adapter": "boe",
+  "sha256": "c15b9cfcf6edfe7af3c63b537a57badebaad5f4b7cdd91468b42aee31a81d2ea",
+  "bytes": 25878,
+  "fetched_at": "2026-11-23T14:23:36+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2002-1858",
+  "adapter": "boe",
+  "sha256": "99c1ce9b9bf57c43e375560264c7d63b8317222e48a7070742c58ea658cb6d19",
+  "bytes": 64239,
+  "fetched_at": "2026-11-23T14:21:16+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2002-7293",
+  "adapter": "boe",
+  "sha256": "2ff668ce8aee7dea377d8f3fc25c7ea2205307347158acfee771736ae89cc350",
+  "bytes": 42070,
+  "fetched_at": "2026-11-23T14:21:13+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2006-11128",
+  "adapter": "boe",
+  "sha256": "b178286ba55e71d92a74d6bfa0b5941be1b98f3084dcba7f8e415996ef04bc11",
+  "bytes": 71000,
+  "fetched_at": "2026-11-23T14:21:07+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-4891",
+  "adapter": "boe",
+  "sha256": "2ad57ee0b34a9f880aaac25898f98f70e98333f4102806e38f93f54e7cfa2eb7",
+  "bytes": 58606,
+  "fetched_at": "2026-11-23T14:23:53+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-6996",
+  "adapter": "boe",
+  "sha256": "521e2cd60900f1dec5473494d31c8ecf6a47b17c04516638c3f4a6e7053916cb",
+  "bytes": 32185,
+  "fetched_at": "2026-11-23T14:21:26+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2009-14405",
+  "adapter": "boe",
+  "sha256": "063e8c785bdd8cb009c3295aaa25ec7cb286237a32aa822756648a04f4e55687",
+  "bytes": 96077,
+  "fetched_at": "2026-11-23T14:22:36+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2009-16302",
+  "adapter": "boe",
+  "sha256": "b53f71cc5931f89407267a0bae76dd2b016226f519b9a1da9b20a0eac50b5851",
+  "bytes": 35704,
+  "fetched_at": "2026-11-23T14:23:49+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2009-16399",
+  "adapter": "boe",
+  "sha256": "27d9c250015fdba8b9149b26b90b5ca5b70e35f29faba3560165f00831414c8b",
+  "bytes": 38361,
+  "fetched_at": "2026-11-23T14:23:52+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-5208",
+  "adapter": "boe",
+  "sha256": "f5a648d86a3b05510840a9e80be53d77c7c7fd53ff07ce3c99bd2307edae8500",
+  "bytes": 42674,
+  "fetched_at": "2026-11-23T14:23:55+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-3164",
+  "adapter": "boe",
+  "sha256": "687506e9e68b0192699b49cf6346d302a7d4495493a5360bda53158a2a8fed8f",
+  "bytes": 94421,
+  "fetched_at": "2026-11-23T14:21:29+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-966",
+  "adapter": "boe",
+  "sha256": "a7bd3199ee925136b53c5a59be241bac12b469beece35647b84f603690ec17f6",
+  "bytes": 50341,
+  "fetched_at": "2026-11-23T14:21:19+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-10683",
+  "adapter": "boe",
+  "sha256": "51ba4e0c3f78732414badc2b8e9b5fff5c14c57f8b7442743488c4959ab63b41",
+  "bytes": 20749,
+  "fetched_at": "2026-11-23T14:22:27+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-17976",
+  "adapter": "boe",
+  "sha256": "efdaf2e6031d1e90e90e5c5127f57bcdeaeda55094d3d491a133553fe2c1707d",
+  "bytes": 16435,
+  "fetched_at": "2026-11-23T14:23:44+00:00"
+ },
+ {
+  "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-18339",
+  "adapter": "boe",
+  "sha256": "27f64dfacc85ff9f02e8a83b04118b0a55491c634ed669b1071e3adf29d1d4de",
+  "bytes": 54708,
+  "fetched_at": "2026-11-23T14:23:56+00:00"
+ },
+ {
+  "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+  "adapter": "m49",
+  "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+  "bytes": 1721575,
+  "fetched_at": "2026-11-23T14:15:29+00:00"
+ },
+ {
+  "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos.htm",
+  "adapter": "oas",
+  "sha256": "c751cf8a8386134e25e07950db1e2fcb97f2b68b0bf94ad5f7b487d0cd52a190",
+  "bytes": 129373,
+  "fetched_at": "2026-11-23T14:22:50+00:00"
+ },
+ {
+  "url": "http://www.oas.org/dil/esp/tratados_B-32_Convencion_Americana_sobre_Derechos_Humanos_firmas.htm",
+  "adapter": "oas",
+  "sha256": "48faf75a5c51cdf730f3c181e2eddb8c6379c20892ae92789bc873e7db1c5f94",
+  "bytes": 130323,
+  "fetched_at": "2026-11-23T14:20:18+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-41_carta_OEA.asp",
+  "adapter": "oas",
+  "sha256": "3f5be06d5227f68287865b2b06a0ccb51a385e24abfd1080f18c95386997c1ca",
+  "bytes": 161421,
+  "fetched_at": "2026-11-23T14:23:12+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-41_carta_OEA_firmas.asp",
+  "adapter": "oas",
+  "sha256": "c63d9809f822c82cde0e1f697a29d36d9e60d4162c7c45eac027e60db8c18dcf",
+  "bytes": 65030,
+  "fetched_at": "2026-11-23T14:20:30+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo.asp",
+  "adapter": "oas",
+  "sha256": "2e31a4e57612e6ffb1601e6a98cbcf36ce9ec4d40665124b21c974e876536f1f",
+  "bytes": 72170,
+  "fetched_at": "2026-11-23T14:23:05+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-68_racismo_firmas.asp",
+  "adapter": "oas",
+  "sha256": "d188f4d8c0334679fc1c7179f95733d14f3f3b3a7fbc90dda36c754bdbff380b",
+  "bytes": 63609,
+  "fetched_at": "2026-11-23T14:20:27+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-69_discriminacion_intolerancia.asp",
+  "adapter": "oas",
+  "sha256": "6109f1b8394c36c18ad8d6bc51f0fe95ad84af406a0e6aef3c7d1d5ca1d4661d",
+  "bytes": 76910,
+  "fetched_at": "2026-11-23T14:23:07+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-69_discriminacion_intolerancia_firmas.asp",
+  "adapter": "oas",
+  "sha256": "2294f65f0cb8b2c4e2cb82443a1cfb10c19cb59fda57f3424f929b459d1a1828",
+  "bytes": 61100,
+  "fetched_at": "2026-11-23T14:20:28+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-70_derechos_humanos_personas_mayores.asp",
+  "adapter": "oas",
+  "sha256": "331659b581b328396973673719f78d6416271dbbec04d15dfe075d2df684a92a",
+  "bytes": 119504,
+  "fetched_at": "2026-11-23T14:23:10+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_A-70_derechos_humanos_personas_mayores_firmas.asp",
+  "adapter": "oas",
+  "sha256": "0d4a6743a28a1eda71b3c18ec9a1d487d0c375d327379cf6a45336adb7b572fb",
+  "bytes": 70337,
+  "fetched_at": "2026-11-23T14:20:29+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_firmas_materia.asp",
+  "adapter": "oas",
+  "sha256": "37815600b72426d306c1f045aa139c95641fbdcc2b13b144f3b9d46863a68292",
+  "bytes": 103103,
+  "fetched_at": "2026-11-23T14:20:16+00:00"
+ },
+ {
+  "url": "http://www.oas.org/es/sla/ddi/tratados_multilaterales_interamericanos_texto_materia.asp",
+  "adapter": "oas",
+  "sha256": "86f1c60468b7d912258db51545866a61015b4cd93cbb82417c4bb1ffc9ae88d5",
+  "bytes": 104933,
+  "fetched_at": "2026-11-23T14:20:15+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-51.html",
+  "adapter": "oas",
+  "sha256": "8e6da4580c289a490dc951a67422773c404bff61e79815ce8f81452b36a14821",
+  "bytes": 33831,
+  "fetched_at": "2026-11-23T14:20:22+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-52.html",
+  "adapter": "oas",
+  "sha256": "33b2004add8651bb2b2dadecc9133177803388ae00ac5698c88126052609d010",
+  "bytes": 16896,
+  "fetched_at": "2026-11-23T14:20:19+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-53.html",
+  "adapter": "oas",
+  "sha256": "9f1296ef62af7c20d2c9f7c8cf6300a9b1a21d26618726e289d3d2e0b9ff001b",
+  "bytes": 31918,
+  "fetched_at": "2026-11-23T14:20:21+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-60.html",
+  "adapter": "oas",
+  "sha256": "0997680bc6090af3f86905f66c7d8a2a92c28a6f55da1d57f9109fe14004432e",
+  "bytes": 15425,
+  "fetched_at": "2026-11-23T14:20:23+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-61.html",
+  "adapter": "oas",
+  "sha256": "991a735b5d7b71cb77a9c0ad6cdd4314f91ac43209fa6fbd950af6f876d03fe8",
+  "bytes": 16128,
+  "fetched_at": "2026-11-23T14:20:24+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/a-65.html",
+  "adapter": "oas",
+  "sha256": "9879a5a1672d9085893a4ca4bc184347186ec31f1b2400f82b511fe95dd5e8fd",
+  "bytes": 8323,
+  "fetched_at": "2026-11-23T14:20:26+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/firmas/b-32.html",
+  "adapter": "oas",
+  "sha256": "952a4982a0eace3e2e9b9ac1fd321fe65541a0e0ca66dd87e2ca5e5531a8bf25",
+  "bytes": 291,
+  "fetched_at": "2026-11-23T14:20:17+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-51.html",
+  "adapter": "oas",
+  "sha256": "5ddc34323d964bd9c0995026dd7f3a9f35277da0ac1d9f647f2f9109a1070b6f",
+  "bytes": 27189,
+  "fetched_at": "2026-11-23T14:22:56+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-52.html",
+  "adapter": "oas",
+  "sha256": "c13e8a230fa51818f649aa17bb898696c2f79a4ea0e5939faf98df354aa542af",
+  "bytes": 63362,
+  "fetched_at": "2026-11-23T14:22:52+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-53.html",
+  "adapter": "oas",
+  "sha256": "e2c29c0a9bbb906e7b1a9928fab8731b533d3b91a278e7d0ef4b96f71baad01c",
+  "bytes": 13408,
+  "fetched_at": "2026-11-23T14:22:54+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-60.html",
+  "adapter": "oas",
+  "sha256": "58d7d04d094a383393cced550c2a914315f84dff8339a732f3094ae89b465636",
+  "bytes": 38487,
+  "fetched_at": "2026-11-23T14:22:59+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-61.html",
+  "adapter": "oas",
+  "sha256": "5ce866d66651d65a435628690d8f8ce7202b23b7272c70a18f2a8fce53b4c384",
+  "bytes": 37102,
+  "fetched_at": "2026-11-23T14:23:01+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/a-65.html",
+  "adapter": "oas",
+  "sha256": "c47b5dbf916f988d8dbf842343d2e07aee365c8fc8a7eda46a46392b99f5f05d",
+  "bytes": 30872,
+  "fetched_at": "2026-11-23T14:23:03+00:00"
+ },
+ {
+  "url": "http://www.oas.org/juridico/spanish/tratados/b-32.html",
+  "adapter": "oas",
+  "sha256": "a4c854d7f59553c763f9f7460ae5e3041af8b78094879e1483ce6d7c11b0005d",
+  "bytes": 258,
+  "fetched_at": "2026-11-23T14:22:49+00:00"
+ },
+ {
+  "url": "https://www.oas.org/es/cidh/mandato/Basicos/declaracion.asp",
+  "adapter": "oas",
+  "sha256": "f7d98d8e633b7365b24ce6e91c2ea75a0a27396d0b7c7782ed9d44a9d400b815",
+  "bytes": 88139,
+  "fetched_at": "2026-11-23T14:22:48+00:00"
+ },
+ {
+  "url": "https://www.oas.org/es/cidh/mandato/Basicos/estatutoCIDH.asp",
+  "adapter": "oas",
+  "sha256": "a6e14db2365f6f1dd714d7a404b478a2d6b8e9f2eac78b935b47516c8beb176a",
+  "bytes": 55040,
+  "fetched_at": "2026-11-23T14:23:28+00:00"
+ },
+ {
+  "url": "https://www.oas.org/es/cidh/mandato/Basicos/reglamentoCIDH.asp",
+  "adapter": "oas",
+  "sha256": "117d5ff6d019c83247ec24dc13b282aed8eb24b89290a27c05bee036206f04dc",
+  "bytes": 142011,
+  "fetched_at": "2026-11-23T14:23:26+00:00"
+ },
+ {
+  "url": "https://www.oas.org/es/cidh/mandato/documentos_basicos.asp",
+  "adapter": "oas",
+  "sha256": "54eec4420b137163960946ab41ee20a057a5f63685f96fd80f558009da4741a4",
+  "bytes": 45198,
+  "fetched_at": "2026-11-23T14:23:57+00:00"
+ },
+ {
+  "url": "https://indicators.ohchr.org/webapi/dashboarddata/GetRatifications",
+  "adapter": "ohchr-dashboard",
+  "sha256": "7bd5324e2ce06d7cefa4d6721ead7dc1fc28f74aeb03effd438d85f3b1695357",
+  "bytes": 21072,
+  "fetched_at": "2026-11-23T14:15:31+00:00"
+ },
+ {
+  "url": "https://achpr.au.int/sites/default/files/files/2021-04/rulesofprocedure2020eng1.pdf",
+  "adapter": "pdf",
+  "sha256": "fe8988fa34785772a4efe166500690195405f1ed867ef1b55d0b8a91cf08e1fc",
+  "bytes": 872336,
+  "fetched_at": "2026-11-23T14:23:28+00:00"
+ },
+ {
+  "url": "https://www.african-court.org/afchpr/wp-content/uploads/2021/04/Rules-Final-Revised-adopted-Rules-eng-April-2021.pdf",
+  "adapter": "pdf",
+  "sha256": "fdc3a6c90e7926528336f6a7f5fd8997b37fa6b280fdeee1567d1e5066af12fe",
+  "bytes": 1061592,
+  "fetched_at": "2026-11-23T14:23:34+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=1&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "446968ccb6cec398bafee4d1d1933b902f93cf97c01af8b9c1d0e0ce6ece7f4b",
+  "bytes": 134288,
+  "fetched_at": "2026-11-23T14:16:04+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=10&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "1a61aa48b153818d66ed3c02202949238e7ea3d031d85d930d243e59502a3d23",
+  "bytes": 134862,
+  "fetched_at": "2026-11-23T14:16:18+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=100&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "81a4abb2e7af40513231eb1405f4082b2fe9be0454f2cda3cb5df61f79f40450",
+  "bytes": 135411,
+  "fetched_at": "2026-11-23T14:18:16+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=101&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f7ee119b10678446d93b83ddd08f9e54e29fa14c1bef794f03de2e454b3d01da",
+  "bytes": 134913,
+  "fetched_at": "2026-11-23T14:18:17+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=102&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "59d9796ae403172dfa80335a32e14d464fec5b7d3b4a05a70f5ca24479d491aa",
+  "bytes": 135506,
+  "fetched_at": "2026-11-23T14:18:18+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=103&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "36352104b50b4cc8ae79cf7e591b0fb0d883e40d0361d4723adf8a93261ed78f",
+  "bytes": 135101,
+  "fetched_at": "2026-11-23T14:18:21+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=104&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "cd5b09b33cb0930d5eb7a4f9097b89f8db50d82cc2e499347f9abfec78fea37f",
+  "bytes": 134058,
+  "fetched_at": "2026-11-23T14:18:23+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=105&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "0d650ebba4df882265a0a3a7c0a702b7e8950ffd55e88d5698a16c822d461696",
+  "bytes": 133035,
+  "fetched_at": "2026-11-23T14:18:22+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=106&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "464225ed6828bed94b122f8dace5c20cd8c8b6c8d98b6253ee513e8480bac991",
+  "bytes": 134577,
+  "fetched_at": "2026-11-23T14:18:24+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=107&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "2dc97640704aba6e77e339bd7b188ee4eac24c1fbad088b681a7d9288a34279c",
+  "bytes": 134415,
+  "fetched_at": "2026-11-23T14:18:26+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=108&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "59a5d9b710aea6f2ae53edaf05f621f8f59e045acd8651f410a5f119f3958c97",
+  "bytes": 134436,
+  "fetched_at": "2026-11-23T14:18:27+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=109&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "932f04f3ebfff9b28cb1332ddc65f4fef22bde22576a1a423eb81d4613ddf0eb",
+  "bytes": 134720,
+  "fetched_at": "2026-11-23T14:17:55+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=11&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d19bfb2eb60f3f3a9ea741e46bcfa110d4f69cb741cc6b7f0ab77fb6fcd577d8",
+  "bytes": 135100,
+  "fetched_at": "2026-11-23T14:16:19+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=110&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "9c2056c5f3bed0d7a70874111338ab7a4cf7434abf8b3cd3325761aac0384c44",
+  "bytes": 134758,
+  "fetched_at": "2026-11-23T14:18:30+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=111&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "43ff67c77e9a7a2034d26225dfde803be71bed80e1d200778b1ef1f335142945",
+  "bytes": 134220,
+  "fetched_at": "2026-11-23T14:18:29+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=112&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6696dffc5d56c32c915047eb5bdeb16e07b6009b27f7c9549cad1343b5f062b4",
+  "bytes": 135136,
+  "fetched_at": "2026-11-23T14:18:32+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=113&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "237d365cfcb1e5067b925a5311dc02e928221472d51a5e7c8e9ef0eacdfb746d",
+  "bytes": 136971,
+  "fetched_at": "2026-11-23T14:18:33+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=114&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "14f56b4c9d2bbad23c3ac05e53abf37314c861253e5deb8e9706b97cd772595d",
+  "bytes": 134369,
+  "fetched_at": "2026-11-23T14:18:35+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=115&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a990bdd8ff8c4772de765c3a58a45ae0adbc9e7eaac34fddb5fda3e6549e8db0",
+  "bytes": 135010,
+  "fetched_at": "2026-11-23T14:18:36+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=116&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "072b6a18522cbddbd52a213aa3da361120a8c077a8a18a80328ade964d22794e",
+  "bytes": 135282,
+  "fetched_at": "2026-11-23T14:18:37+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=117&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6bfd0b0cc2fea347b25c2afde2eda43af716a193044acb3b51c7c98545fd5fa8",
+  "bytes": 135149,
+  "fetched_at": "2026-11-23T14:18:28+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=118&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d8614c74dcdb366a3074e9187ae6b6b47494c8cf2f9bca6565b3ef2e7a551733",
+  "bytes": 134772,
+  "fetched_at": "2026-11-23T14:18:39+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=119&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "547ac662f3a87cd8ee86646a60bff6a21a82da23958d1edba6b15a2a1203a834",
+  "bytes": 133217,
+  "fetched_at": "2026-11-23T14:18:40+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=12&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3157afb42903ec162eba052d682dbb8db648b169050936ae8d40ffddaa13f551",
+  "bytes": 133653,
+  "fetched_at": "2026-11-23T14:16:20+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=120&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "2615a1aa5cbb70a75990d5b902a394ebd0248cfafb353701014f22a41cca2329",
+  "bytes": 134194,
+  "fetched_at": "2026-11-23T14:18:41+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=121&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "bcb060eccfd98bd0d7ebfc59e885fccd48fd707e57dd14efae7e095aa9c0f01a",
+  "bytes": 135191,
+  "fetched_at": "2026-11-23T14:19:15+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=122&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3374ad0ff59f62769620777a81a2201bcbe21863ab36d0e2a96e489d924ffe64",
+  "bytes": 133933,
+  "fetched_at": "2026-11-23T14:18:42+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=123&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "282fd364d7ec0769f8c7f5e3c9b8265080dc337186bd76c05725c55f4c336762",
+  "bytes": 135808,
+  "fetched_at": "2026-11-23T14:18:55+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=124&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d3dc2ca339a6b4f8513d54522af03c46b5951606300ab45197fcdd0e67534c7a",
+  "bytes": 135653,
+  "fetched_at": "2026-11-23T14:18:52+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=125&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "db97db297f6a5d85b70bbc6335fd07847bcfb96d502d93d3cc62d40782d74d48",
+  "bytes": 134793,
+  "fetched_at": "2026-11-23T14:18:44+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=126&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "67b72c26cc8de2f05d8c60c2bf17065a41e6dc57f79262d91596edf0c3857071",
+  "bytes": 134527,
+  "fetched_at": "2026-11-23T14:18:45+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=127&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "23959f19c4fbd329101404e3a0e2eebd12a6ef5be1bf6bb65e2fc5cf2d45fd63",
+  "bytes": 134630,
+  "fetched_at": "2026-11-23T14:18:46+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=128&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "10adf267353ee43838ce6111818a2c7990ac52f2a57913cd1172e6a0dab0e7ac",
+  "bytes": 131910,
+  "fetched_at": "2026-11-23T14:18:47+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=129&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "412cc7ab4bba4d93d78ac24a1483ff66fcd3d71adef769e044ebd8d1ca8a36f2",
+  "bytes": 134869,
+  "fetched_at": "2026-11-23T14:18:49+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=13&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "5b215937cc263c5a52dd44eec17ad8c3ac17b11fc59b72e844b49ca4a10875f9",
+  "bytes": 133563,
+  "fetched_at": "2026-11-23T14:16:22+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=130&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "c965b75d0078edcbc7096141a0f6fe9196da24c2872c62ddfb7200aace70a3fd",
+  "bytes": 133553,
+  "fetched_at": "2026-11-23T14:18:54+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=131&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "daa269040d9532880ee709f071b53f3e50c34e8df276126106c743284d110662",
+  "bytes": 134296,
+  "fetched_at": "2026-11-23T14:18:56+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=132&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4c932f6f97d81c4a7a7792da75eede041c8a207ad24e82f3b227b8dc1c6e2195",
+  "bytes": 132658,
+  "fetched_at": "2026-11-23T14:18:57+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=133&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "5a3127bcd570b8136ea96d2f3ea2e0b2cea7a981b42cb592b65ee69847cdc658",
+  "bytes": 134939,
+  "fetched_at": "2026-11-23T14:18:58+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=134&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3ccef8efa9ab63c6fcd03b6c99eb7ad769794c5bfe912d911c396cfc8bce4221",
+  "bytes": 134867,
+  "fetched_at": "2026-11-23T14:19:00+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=135&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "59544af047553ff260f9811673bcbd7e171d3c1323db4b3ffc631160ef852e17",
+  "bytes": 135183,
+  "fetched_at": "2026-11-23T14:19:02+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=136&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d11dfcdd4801bd7b1ab9767ac294bd5d27172f4749a39eaad2e7f042b3aa7a24",
+  "bytes": 134734,
+  "fetched_at": "2026-11-23T14:19:03+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=137&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7a3649ef27ffe285f2c27858dd8ba0ca3f01869729bd379da58cba7d6e750a96",
+  "bytes": 134931,
+  "fetched_at": "2026-11-23T14:17:26+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=138&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d41bd747fe6d20972a8ab3ba2c433425cf4f52c87a0cccad73927b122cfb0c7b",
+  "bytes": 134797,
+  "fetched_at": "2026-11-23T14:19:04+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=139&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d197be7896e16beff11179a6b4667090d75056771c463af4a6eedce4da1cdbd4",
+  "bytes": 135302,
+  "fetched_at": "2026-11-23T14:19:06+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=14&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6824fb7e2a6af4d4cff5351c5d72dd14fb93454919c699961f67f780e9871bec",
+  "bytes": 134813,
+  "fetched_at": "2026-11-23T14:16:23+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=140&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7dde39d2255949bc6c18fb52c53cfd38a502e50cf97d59c02aa83f39db9c44e3",
+  "bytes": 133486,
+  "fetched_at": "2026-11-23T14:19:07+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=141&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "c620cba8c88e32ff18c9623bbc3b23a9edaf6a178e0a21f4fc33df209440e523",
+  "bytes": 136227,
+  "fetched_at": "2026-11-23T14:19:13+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=142&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6ab41b4a15b43fcb21c3012600c890666f064e83eb9525c6dfb99f86b0ce122e",
+  "bytes": 136493,
+  "fetched_at": "2026-11-23T14:19:14+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=143&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "fe404a631131062ab8366ac35492d3e57f6251659f9882798f37c348e065430e",
+  "bytes": 134520,
+  "fetched_at": "2026-11-23T14:19:24+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=144&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "85f55b1c98b7883c3e808eac183c564cb4a4210c456940cc34d6b50518c0ce3d",
+  "bytes": 136299,
+  "fetched_at": "2026-11-23T14:17:24+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=145&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7d3c4bed6c375f50e503f8b4af6ee14f5d041f1cbe57efe58ee684aedee624bf",
+  "bytes": 134253,
+  "fetched_at": "2026-11-23T14:19:25+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=146&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "fdf57825dcd6d6795086051345fe9d3b0e38e041e7c885b63d613189c0a19993",
+  "bytes": 135105,
+  "fetched_at": "2026-11-23T14:19:26+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=147&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "8412bee6f7dfacb580ffb3ac656847d64ed1f794a547cd0b471d6b61c948b509",
+  "bytes": 134376,
+  "fetched_at": "2026-11-23T14:19:31+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=148&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "cf604671ac41812803462f9294bb80ef50a92578418c1577e5df5c3db8b7ca0c",
+  "bytes": 137181,
+  "fetched_at": "2026-11-23T14:19:30+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=149&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "025a25a365074061bd75dd3aea03daa9510e163acc777b6c57b28dda7e640458",
+  "bytes": 133444,
+  "fetched_at": "2026-11-23T14:19:27+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=15&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4547af8290c8744d73fdc879a440c9fe135ca468340b08111be80ef9b6cd6fd7",
+  "bytes": 133301,
+  "fetched_at": "2026-11-23T14:16:25+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=150&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "bb48fc7630eed5126fe019ffb939bb1fd85f5f0b5286a62906dfea4821111d7d",
+  "bytes": 134974,
+  "fetched_at": "2026-11-23T14:19:29+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=151&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6ff6e7bb118fa38fef2e434cab43906eadaf81716515ba26ce7067fbc6e82bed",
+  "bytes": 136410,
+  "fetched_at": "2026-11-23T14:19:34+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=152&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7b573aad994206d9b071759fa6d87395fb48183db4624d1d1a41077bd38cf910",
+  "bytes": 134530,
+  "fetched_at": "2026-11-23T14:16:12+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=153&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "ccb1db0cc7cf91b1f0e23f0697a174daa9bbeb9d3d5f476e68d760730c8581f4",
+  "bytes": 134841,
+  "fetched_at": "2026-11-23T14:19:35+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=154&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "9dbb9f50b0b96e7c03b8c844dafcbfd231547d6140fcab502d2f742b36d5f9a9",
+  "bytes": 134792,
+  "fetched_at": "2026-11-23T14:19:36+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=155&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "902078dd7327e503839c67a3a4cc7771fc3a99d0b33db6beeffcae04b493184a",
+  "bytes": 134973,
+  "fetched_at": "2026-11-23T14:19:38+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=156&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6eb0c58d49f0aa446c1bb94d28f5f767512305832bd42d5ba690b9b947b39dae",
+  "bytes": 134843,
+  "fetched_at": "2026-11-23T14:19:39+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=157&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d9f11d7f236e3abaea044bae4f573c404b1a428b25fac5457ce9d9d6423df8c9",
+  "bytes": 133286,
+  "fetched_at": "2026-11-23T14:19:40+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=158&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "526a83d9b3192e00649ff9e22111cc15e40cbcc54864662c635effaa474d5847",
+  "bytes": 135381,
+  "fetched_at": "2026-11-23T14:17:14+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=159&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "5b7ec957bc58a3a6bd5cf168bc40e8bafd8e825d9a06791aa0277cb4ed08e494",
+  "bytes": 135101,
+  "fetched_at": "2026-11-23T14:17:15+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=16&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f10aa73811a87497777d3162c3f83079a7ea5c358f15f3108de31f4b6b6c09f1",
+  "bytes": 134060,
+  "fetched_at": "2026-11-23T14:16:26+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=160&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "489e99f7b86c088f9f6924e05bc2a3db8591b50e3075ac4d9886872972545052",
+  "bytes": 134407,
+  "fetched_at": "2026-11-23T14:17:56+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=161&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "45f5091eb3ac2f2ecf1d580f488d845e0747ca7b08ff72fb99f79effe83e19f9",
+  "bytes": 133396,
+  "fetched_at": "2026-11-23T14:19:41+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=162&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6d534b8c5ffb401d8f278e3fe732bc597135306c7a999da680cb5e7abc580c67",
+  "bytes": 135219,
+  "fetched_at": "2026-11-23T14:19:44+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=163&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "72f7e8a3c443f5906732450085af356bf5c52422031b309471b51e9567b8e5b5",
+  "bytes": 135108,
+  "fetched_at": "2026-11-23T14:17:16+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=164&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "c02309b00b85f7fc05108371580f778cb78ee3e0c46c5ed31b6320d9648d30e4",
+  "bytes": 134875,
+  "fetched_at": "2026-11-23T14:19:42+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=165&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7367f3471a72edc2640e216cf5682cf8add1b5f5574235e4490869142bc4e072",
+  "bytes": 133843,
+  "fetched_at": "2026-11-23T14:19:45+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=166&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "51035d6489b4d3da3c7143fbc5e13c3c0cf8e7cd8c70aba47c145331c46e9476",
+  "bytes": 134003,
+  "fetched_at": "2026-11-23T14:19:50+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=167&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f1c14b1de30f24849fa90c9766229e1c1177f9b1bec57ec5129444529ad16cd2",
+  "bytes": 134026,
+  "fetched_at": "2026-11-23T14:17:21+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=168&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "ca0e395f2078394c53a0acc0ca3db8b47ea361bd8ae0efbbb25fd5978ea699bb",
+  "bytes": 134581,
+  "fetched_at": "2026-11-23T14:19:47+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=169&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "38a791af99849b22ac38b09b533a1563e03702bd49f67101a80c837c16204403",
+  "bytes": 134406,
+  "fetched_at": "2026-11-23T14:19:48+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=17&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "9fffc84d567bd66d66366a1c3d38a6aa05a6380a1258fbc6f5d4752da319db55",
+  "bytes": 135045,
+  "fetched_at": "2026-11-23T14:16:27+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=170&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3cae303e3f7d8e48aa1ec429c2fd9191c5742580d0e1dc2b4f9b58062bebf8f5",
+  "bytes": 136388,
+  "fetched_at": "2026-11-23T14:19:09+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=171&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d77a6db1f159561deb3962ed11ae536b6069a03a7dc54f6ed18ed859a0464342",
+  "bytes": 134492,
+  "fetched_at": "2026-11-23T14:19:52+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=172&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "2e0db4efede4d608974da08fc9197a0fffcb9aa003b3fb0a39cb7ba9972d9895",
+  "bytes": 134437,
+  "fetched_at": "2026-11-23T14:19:51+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=173&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f99a66c083a08215b769f80e400abf6d69293ec6fcd69a5cfc79208aeeb83a53",
+  "bytes": 136234,
+  "fetched_at": "2026-11-23T14:18:20+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=174&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "395a25f0cfcf9c1ec60ad861271749738e76843680211970063e483791e90dfc",
+  "bytes": 134771,
+  "fetched_at": "2026-11-23T14:19:53+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=175&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7ae5563b5853430642b171616a612a771f0eed9f0d0bbecefaf2a1ba41c6564d",
+  "bytes": 134439,
+  "fetched_at": "2026-11-23T14:19:54+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=176&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "ddd19191a136286dab6c24d3372d339f9a04d4169dd6fc5cd4eb523552f3acb4",
+  "bytes": 132413,
+  "fetched_at": "2026-11-23T14:19:55+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=177&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "41e8a1c8b6821c14185b352ade43d6b267f735fbccbb946ca2e86bdaac82428d",
+  "bytes": 134783,
+  "fetched_at": "2026-11-23T14:19:57+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=178&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "52d11909007e74d2ae954344e83e70635084b81a14c75f57e2ea5e5e062b8834",
+  "bytes": 134602,
+  "fetched_at": "2026-11-23T14:19:58+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=179&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "9b1a469750b29efe000331e0d70c904677a03f934137bd17a5cb0dc927315a23",
+  "bytes": 134972,
+  "fetched_at": "2026-11-23T14:19:59+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=18&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3acb8c3563b7ca4ba02b3115ba23e750fe9836c1d8bf8e2099a9db8fff6086eb",
+  "bytes": 134240,
+  "fetched_at": "2026-11-23T14:16:29+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=180&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6a30f467b7b4fc81b9f097bb93cf71f623cebc843a534ddc4ff83c344143c66c",
+  "bytes": 134948,
+  "fetched_at": "2026-11-23T14:20:00+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=181&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3ffb9707795594ddde195249a7b51a08e50b76a98bc15ff73ecf40d0d5ad8fed",
+  "bytes": 132727,
+  "fetched_at": "2026-11-23T14:20:01+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=182&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "89cc5f128c9266a07b3f0ca5e62ca143f4971893564732384bac612cc12bc7e3",
+  "bytes": 133973,
+  "fetched_at": "2026-11-23T14:20:04+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=183&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "96f7dd4f3393d51e9cc3db6ca0363909a583ca366ebe00c08a3e6ae2eec4e4e9",
+  "bytes": 135036,
+  "fetched_at": "2026-11-23T14:20:02+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=184&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "49e4e8fb571a284eaad36d8baa5bbed548afee51732c0706e004c086dd2a1d0f",
+  "bytes": 135476,
+  "fetched_at": "2026-11-23T14:17:11+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=185&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "2b2682875747e265a84729398bad15d095c6b7d72f581c345af3445d2c182147",
+  "bytes": 140679,
+  "fetched_at": "2026-11-23T14:19:08+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=186&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d7c7c145f5885abb2f420e6f49950aacc95fa50ad3acaec4fca030c42036ef37",
+  "bytes": 137083,
+  "fetched_at": "2026-11-23T14:19:22+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=187&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "2081bea790b089c1625601e56ad61e1c547f85708d1f8a6472499d23799aab3a",
+  "bytes": 136381,
+  "fetched_at": "2026-11-23T14:17:18+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=188&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "59b7311514d5edbea3f8e30eb01309f667774e7521bf778bf799057249261b9c",
+  "bytes": 135350,
+  "fetched_at": "2026-11-23T14:20:06+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=189&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "53ab84d043b1c5e72b59a5fcc2bce6cac6dde03330fb07f514957b03a7b45a49",
+  "bytes": 134507,
+  "fetched_at": "2026-11-23T14:20:07+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=19&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a99a99ffbdc8145d40813e9140a2d917cf52d8d176f9e758e8886a88268c2455",
+  "bytes": 134434,
+  "fetched_at": "2026-11-23T14:16:30+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=190&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6efb59d6606f8ba500af93f1dd43aa7b6ca2ea0079a629d2cff3a9e81a13f450",
+  "bytes": 133661,
+  "fetched_at": "2026-11-23T14:20:08+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=191&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f30431e143b62cf45476ae95406a87caacdffe1a9a49444ed2d5426093bf9823",
+  "bytes": 139194,
+  "fetched_at": "2026-11-23T14:20:10+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=192&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7e141dd12414625f5e9aefda0c607a5b1abe8f305af711de6f2ce9d290947f5c",
+  "bytes": 134030,
+  "fetched_at": "2026-11-23T14:20:11+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=193&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "b049662ff1285d427f35cba1e54b85b2908c9b7d990ce8034d09d59099588c8c",
+  "bytes": 133535,
+  "fetched_at": "2026-11-23T14:20:12+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=194&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "80d7c4637d2c8645b3e35d39157d2f40ac9b22bee50425b832c82ba1e336fe50",
+  "bytes": 133961,
+  "fetched_at": "2026-11-23T14:20:13+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=195&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "b995063344179ab61b9daab099b9b6da51a31a470e3623f1307f00798bb4399c",
+  "bytes": 133892,
+  "fetched_at": "2026-11-23T14:20:14+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=199&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a89a26ee8a7b6f9c422aa759e3d5e1537dfdaa22dd6903a34b6c9a4c7c311738",
+  "bytes": 108847,
+  "fetched_at": "2026-11-23T14:18:34+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=2&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "8cda0c1a1602b87d2a51f863cd1dc240de41e107128ee55b6554bac62c39074b",
+  "bytes": 134489,
+  "fetched_at": "2026-11-23T14:16:05+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=20&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "fd777922decf12518781a23231765e4579f8ee99321fe140cf2f5ac2fa73b274",
+  "bytes": 133062,
+  "fetched_at": "2026-11-23T14:16:31+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=21&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "8f596ab1dcb5fd2753d0e538fbc5a6ecbef7387215e24f7e856ce4c08e1d8c84",
+  "bytes": 138411,
+  "fetched_at": "2026-11-23T14:16:32+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=215&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "977bd2309d74f061492fcfdc9fad07b0832465a9f50d9b0562215cfadee1f2e1",
+  "bytes": 138642,
+  "fetched_at": "2026-11-23T14:19:46+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=216&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "84cbc363d16d10eb51631d19e8ab1e44834eef743bfd3924c9b075d74d2d896e",
+  "bytes": 84487,
+  "fetched_at": "2026-11-23T14:19:20+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=217&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d4418382b99aa0fa82b9cf0d20aaf78162b3ba3235451e3a33bb67677717753c",
+  "bytes": 115923,
+  "fetched_at": "2026-11-23T14:17:17+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=218&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "362bb0e1c0f273822cf9604ff9d30310ae87e7eba0fc53d5185087ab88c095a1",
+  "bytes": 85900,
+  "fetched_at": "2026-11-23T14:20:05+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=22&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "020316dd99b28df943a5e57f582d242b88e16ac25038c0ca358c53241307a213",
+  "bytes": 136772,
+  "fetched_at": "2026-11-23T14:16:34+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=23&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "e4680dfe36657a93e3e8ab36cb05c69044c84896d00319889c64dc3e0fc8a955",
+  "bytes": 133718,
+  "fetched_at": "2026-11-23T14:16:35+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=24&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "51bd87ca6d9403117f08686fd36d8b674dd7cacea655c36f805802032c6cdc6b",
+  "bytes": 134623,
+  "fetched_at": "2026-11-23T14:16:37+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=25&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a66fa33fc3d634fd15c228074ae361d5191926c33f7b406f08814702e37cf5e3",
+  "bytes": 134414,
+  "fetched_at": "2026-11-23T14:16:38+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=26&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "8854dc1fa24c3c8f653c022808c5ad8f7d64f01ef7820e0386d5a025e52342dc",
+  "bytes": 134645,
+  "fetched_at": "2026-11-23T14:16:40+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=27&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "612d41b3b8aa39d95c1f03f4dfccc1a81c37b788aaf8127d027a186f278ba3e6",
+  "bytes": 135332,
+  "fetched_at": "2026-11-23T14:16:41+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=28&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "5a75fecfeb8470aafc28553a7edca25de5a5bccb13628a7f3b48898e26434791",
+  "bytes": 134038,
+  "fetched_at": "2026-11-23T14:16:42+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=29&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "cbed180960bcb22fbb1cb8ccd5558278bb3ff7a1ff5ade61fe8bb3d474c3e316",
+  "bytes": 134346,
+  "fetched_at": "2026-11-23T14:16:45+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=3&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a33baac0242385ae6b00051c1bd394cefe0388bd220026b51d266412c53f7c2d",
+  "bytes": 133931,
+  "fetched_at": "2026-11-23T14:16:13+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=30&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "78bcf8f524820ce0c60a4bf34dad88804776f581f87f40edac0cb93b648e075f",
+  "bytes": 134053,
+  "fetched_at": "2026-11-23T14:16:46+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=31&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a8ff98405caf1e8f7665c4cac64d68e837699df019a7cbeafb9e02615c789d36",
+  "bytes": 134165,
+  "fetched_at": "2026-11-23T14:16:47+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=32&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "85d892aee2913ae246f6b1abc84f462fe8308b47b3276a8251721a9cbd8ac044",
+  "bytes": 135028,
+  "fetched_at": "2026-11-23T14:16:44+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=33&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "8ebb171fe37fd4a98b55db8ae54ad4a55751761c371e6b9ac4713f82de1ef074",
+  "bytes": 136849,
+  "fetched_at": "2026-11-23T14:19:10+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=34&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "52925cff7a7495ecee03070d2372756a8cb7c7819c2e1775e33f1ba4c07acb49",
+  "bytes": 133591,
+  "fetched_at": "2026-11-23T14:16:49+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=35&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f47745d616318335389174d605b8e6fdd94423a3361b7070fb150c4d54847e4d",
+  "bytes": 134818,
+  "fetched_at": "2026-11-23T14:16:50+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=36&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "ca5457a9d172f84cbfc7aa6dd1bd081166fb80884a86d998e4368b710f843b00",
+  "bytes": 133361,
+  "fetched_at": "2026-11-23T14:16:51+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=37&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "86e1f5443a84f217edb7d9fe5ba5e621d9b11e0ed9d50f7f4efec4ffac47c230",
+  "bytes": 134930,
+  "fetched_at": "2026-11-23T14:16:55+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=38&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "b686b45d19903cfcf23bdb22346045c74a073f7b3636094cd208b1c50a506e03",
+  "bytes": 133369,
+  "fetched_at": "2026-11-23T14:16:56+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=39&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "9cd2f8c4b44af647133ee62ef682cee098e96b9880642d7c85b83e9df282e761",
+  "bytes": 133820,
+  "fetched_at": "2026-11-23T14:16:57+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=4&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "62f73ac38269e84957d1b483e8dd6ac2346b4c78d44a10f927d1fe096df84732",
+  "bytes": 134262,
+  "fetched_at": "2026-11-23T14:16:08+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=40&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "ce3f04c538550965c6ba656b9e1f251852dddd32975b923a55a12bb5ba551e8f",
+  "bytes": 133157,
+  "fetched_at": "2026-11-23T14:17:54+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=41&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "21849edfe6c23cc6853de0ed8fcc898694c9d6d6ac30da01ad985c89e2e45b7e",
+  "bytes": 135402,
+  "fetched_at": "2026-11-23T14:16:59+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=42&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "96f513581e0af6b388062c9dfc00f1c37325b61393b39e40c7e6367bf619ed62",
+  "bytes": 139459,
+  "fetched_at": "2026-11-23T14:17:00+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=43&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "bd8d0a5aeca34b9e1adc41b305756794bd49175ee1da663b4417c215a503b6f7",
+  "bytes": 134631,
+  "fetched_at": "2026-11-23T14:17:01+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=44&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6b4146b71389c6ef8a041301e32954ff152f1d20ba04990f8d5556385b2a9e74",
+  "bytes": 133376,
+  "fetched_at": "2026-11-23T14:17:02+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=45&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "b727ec1cca0b65b3bb0d9680902dcb8f8f57ae09a3042c716630fdf120fab432",
+  "bytes": 134423,
+  "fetched_at": "2026-11-23T14:16:54+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=46&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "e6b1cef8705b005b8ac5a4b21300181da06e9b08e965e5f715008e2c364bb746",
+  "bytes": 135973,
+  "fetched_at": "2026-11-23T14:19:12+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=47&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "667f1d094b7890f12aa2ede0b6c7dc820c897d011976e84f630a542412512f34",
+  "bytes": 138039,
+  "fetched_at": "2026-11-23T14:19:21+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=48&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "40a00bd90291d2415eeb02ce4f26ec1e38920c662310bef008ebd7315817c7c0",
+  "bytes": 137817,
+  "fetched_at": "2026-11-23T14:19:16+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=49&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4c0fc2df23d60dca7e069c0c1daf67f489bb15d31ff05754c9f63a1d3ea95547",
+  "bytes": 135253,
+  "fetched_at": "2026-11-23T14:17:04+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=5&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "1d2a11180187e1421d3510091cd2ad7c543aa560423c2adf7c6b976c9f5b9607",
+  "bytes": 133841,
+  "fetched_at": "2026-11-23T14:16:09+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=50&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "316e3267f146110b172a087d6b974e6b331c67c9593a701d17f70dcb95fd7b82",
+  "bytes": 134114,
+  "fetched_at": "2026-11-23T14:17:05+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=51&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7a47835305c91f625522895b3a89411c16207bf59d081bef8c4449ceea532cc2",
+  "bytes": 134025,
+  "fetched_at": "2026-11-23T14:17:06+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=52&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f37939745ad206bb5f07704065b8a6764bec491de24aa722f2a20ef870d76628",
+  "bytes": 136227,
+  "fetched_at": "2026-11-23T14:19:19+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=53&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "132cd07ed135fb3b7330bbccfe6bdb591586b435da7a1c6e3ad6cfe5ad2eb8af",
+  "bytes": 135135,
+  "fetched_at": "2026-11-23T14:17:07+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=54&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "e1f2d6c0dd4d35034413527379463927ad4f94ad0b4fc15fcb42802347645705",
+  "bytes": 133752,
+  "fetched_at": "2026-11-23T14:17:09+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=55&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "78d188d9c40d87a3b983fb791e09a1077fa19b2a8951513b2b24524365c50c51",
+  "bytes": 135129,
+  "fetched_at": "2026-11-23T14:17:10+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=56&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "e95de98373412373daad95190a03f5cf3a4a2d81a064d12dc4a1e25f5b8a6081",
+  "bytes": 135000,
+  "fetched_at": "2026-11-23T14:17:40+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=57&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "c7311c96ebe8f263dc94b049b7d7464f0e5a97d1ea3f27b782f9c42211511661",
+  "bytes": 133562,
+  "fetched_at": "2026-11-23T14:17:12+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=58&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f428c2d7e645b2410700d7af4530acf3a98bcac0fc46047a16d9fb578dbdb71f",
+  "bytes": 134470,
+  "fetched_at": "2026-11-23T14:17:20+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=59&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f11da3e63ce309f9651cc864f0c67cab75d102b5c52436ad7dce41b48953bcaf",
+  "bytes": 133786,
+  "fetched_at": "2026-11-23T14:17:22+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=6&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "ada36776337895e44104d89d60916468c49202e7395cc0aac85c85336abbf03a",
+  "bytes": 134914,
+  "fetched_at": "2026-11-23T14:16:10+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=60&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "b8ba820a6ed473cdacf8c7d5d5f67c02a1fec31389feeb38482c3c9434dd054f",
+  "bytes": 133555,
+  "fetched_at": "2026-11-23T14:17:25+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=61&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "01ce42f6a0368e3aa7644d8790e38a813b242a525334426165a1b0d6659d21ee",
+  "bytes": 135213,
+  "fetched_at": "2026-11-23T14:17:27+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=62&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "e4c4b3b35accb231a9ebad81c8ea772d69858d2be14fa24b9af2e887c16785ca",
+  "bytes": 134848,
+  "fetched_at": "2026-11-23T14:17:29+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=63&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "49a148e99c5603d7cec48a9e81883bb386bd6e63f76b628cba88c57a558ce597",
+  "bytes": 134582,
+  "fetched_at": "2026-11-23T14:17:30+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=64&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "e60e6a945c4ad9dd89eaded268a63cb1cc23de8a5cc6dd440244c5b0e7736938",
+  "bytes": 134254,
+  "fetched_at": "2026-11-23T14:17:31+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=65&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "48102520fade5308a710f34520dc24f2b9ebfcf35e4b51beb056195330e81396",
+  "bytes": 134247,
+  "fetched_at": "2026-11-23T14:17:32+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=66&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "998dd10ec585ed6d161a2d991ec7bfa236afa04252f2fa996c94be818dd100cf",
+  "bytes": 135113,
+  "fetched_at": "2026-11-23T14:16:06+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=67&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "bdcf89fe1b6409737a564fd80b39d26e9d0b9bbd164fb9b7b23552d939785a3b",
+  "bytes": 134109,
+  "fetched_at": "2026-11-23T14:17:34+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=68&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "6e0c59abacb43fd8b050eb92cb3a0579ec92aecbdf9bdc1099e80c527cb64279",
+  "bytes": 134519,
+  "fetched_at": "2026-11-23T14:17:36+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=69&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "52cc937e8a482d7113c76f431dcabb4d10394d951c66b9323076c4e08d0ce24a",
+  "bytes": 133710,
+  "fetched_at": "2026-11-23T14:17:35+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=7&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "823086ee7271f0b0d4231fdb6f1327a4cc9fade2b286d12e70123827e797bb2f",
+  "bytes": 135357,
+  "fetched_at": "2026-11-23T14:16:14+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=70&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "be0bef6b213477d9d91a109a574e95c283fd988fb228d4a10b88df149c09f2f0",
+  "bytes": 134785,
+  "fetched_at": "2026-11-23T14:17:37+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=71&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7e91b3533791f675af2c0c39922256421ecff43030aa90aa9bf0e61ec76f830d",
+  "bytes": 133933,
+  "fetched_at": "2026-11-23T14:17:38+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=72&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f4b90738b83a769fe8626f770c6131a1f848444faf5efeba5205c0145e71c258",
+  "bytes": 135375,
+  "fetched_at": "2026-11-23T14:17:41+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=73&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4df72708e9ac761d57522937376d740bd6150ac773419c4e7fcc0df0afcf96d6",
+  "bytes": 133869,
+  "fetched_at": "2026-11-23T14:17:42+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=74&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "958728c4e8a8d0b1949279e7275d71fb9e2df163a0b9127381309ab81427b432",
+  "bytes": 133424,
+  "fetched_at": "2026-11-23T14:17:43+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=75&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "1a01b187c47ec19479d7c4757fc907b6071922c4a5add4a29296474215630045",
+  "bytes": 133489,
+  "fetched_at": "2026-11-23T14:19:32+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=76&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "307979704851542c8a0146ee560a51f9226d79c7bef531667bbd25e1487f0b07",
+  "bytes": 134903,
+  "fetched_at": "2026-11-23T14:17:44+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=77&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4aae2ef38f7ede3640105a50360377d0a4a0329b2cd2f21ccc3453f1acfb5cf1",
+  "bytes": 134619,
+  "fetched_at": "2026-11-23T14:17:46+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=78&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "01d1870d599a844ab1715b4148b87e07b12df42d9a2a52447ba690a2323e9190",
+  "bytes": 134701,
+  "fetched_at": "2026-11-23T14:17:53+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=79&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d8e3c9c6fe217b3bd6e78fd7323c7e6df08ebc5f7cde220ba431225e1bd562dc",
+  "bytes": 133285,
+  "fetched_at": "2026-11-23T14:17:47+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=8&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "0567969c6bd75c079d6c4b2a876d129b43fa9cfe947656e8e17e4d5e5cdd3ed2",
+  "bytes": 134440,
+  "fetched_at": "2026-11-23T14:16:15+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=80&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "b97837e50b5d15354194a49f462efd167ba9591fe30732e955f79bf208c69c2c",
+  "bytes": 134282,
+  "fetched_at": "2026-11-23T14:17:48+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=81&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "3a91a22ce9ca0c8e25bceb44e2269a0f55d0271688b8327388cfe52f1dda4aec",
+  "bytes": 136925,
+  "fetched_at": "2026-11-23T14:17:49+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=82&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "9fcd54e630f586765c069a34258a025e5e77c184f4e7bc8ba59640e236555db2",
+  "bytes": 133430,
+  "fetched_at": "2026-11-23T14:17:50+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=83&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "425a99e8a51f02e2328185f179dc573113898b7084f1925468c6528776cdedb2",
+  "bytes": 134276,
+  "fetched_at": "2026-11-23T14:17:51+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=84&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4f454be45a0160025bf9a1631c7d9673a1ba3ee5b867e9136f4c92976caa6a4d",
+  "bytes": 133696,
+  "fetched_at": "2026-11-23T14:17:58+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=85&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "13d022566873e1edebc6b018f00cde5bb15e98449d0111294a34d0516ef369f9",
+  "bytes": 134805,
+  "fetched_at": "2026-11-23T14:17:59+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=86&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "a6ff52a5525280947b97f6642729a271deacdd394473998ac41a0ebb61e9f8ac",
+  "bytes": 133808,
+  "fetched_at": "2026-11-23T14:18:00+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=87&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "01b776ad278f2f6344990fa774709a6a4a2bba4a756e7acc789fd769cf36c322",
+  "bytes": 133904,
+  "fetched_at": "2026-11-23T14:18:01+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=88&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7688551e1cad1daee845626e16ca8cfcd595db378d05ed26bb190e063e93aa05",
+  "bytes": 133926,
+  "fetched_at": "2026-11-23T14:18:02+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=89&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "d3658c63db1e86fdad8acab0b1ebcbb2173ffbf03f6184b967d01d40402e6de7",
+  "bytes": 135136,
+  "fetched_at": "2026-11-23T14:18:04+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=9&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "1a9617563f180a202e8464c2897c8a3d931257eda4d54d88892be652115f55a9",
+  "bytes": 134660,
+  "fetched_at": "2026-11-23T14:16:17+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=90&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "f166c446f9981ded0384283bd6ea2c86b132940682615774b73b98f6f19b50e3",
+  "bytes": 133269,
+  "fetched_at": "2026-11-23T14:18:05+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=91&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "8fc7f3f8a3037b0904b6bbe3fe0da8d3716b4edbf0896c3dc4d6d2f4174a3774",
+  "bytes": 133196,
+  "fetched_at": "2026-11-23T14:18:07+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=92&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "c034ed8102bcedc4dd2739c8551c9811188957a46fc941cc004ae6811d02ad5d",
+  "bytes": 133416,
+  "fetched_at": "2026-11-23T14:18:08+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=93&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "aa16f9c2030c591916ecb03aff98da8a4cad45925bbeb7fa6b23025e74863015",
+  "bytes": 134777,
+  "fetched_at": "2026-11-23T14:18:06+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=94&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "7c67751b74686d2d6518dbda151574f1a78600e08170888be1e77a3237228814",
+  "bytes": 137931,
+  "fetched_at": "2026-11-23T14:19:18+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=95&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "773306b01e641f42ab60b002bfb130079d1f336818d200337b15192ddbadfd23",
+  "bytes": 134086,
+  "fetched_at": "2026-11-23T14:18:11+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=96&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "4d5d276162f40a32fb171ab9e00ddcebd1722b34f9c454173e4e190684c66bda",
+  "bytes": 133724,
+  "fetched_at": "2026-11-23T14:18:13+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=97&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "aaa896bf0cdc92e266bc7674227b70613c726dcb0ba87f1e358ed8f87bd829bd",
+  "bytes": 134276,
+  "fetched_at": "2026-11-23T14:18:10+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=98&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "5be5f9d20224dc590794623eef20dec6c5931b97c5b3d5d5ab9565a44036d330",
+  "bytes": 133802,
+  "fetched_at": "2026-11-23T14:18:14+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?CountryID=99&Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "01b62c1143789cd068d80a5192660821fe78c1a65c87f6e8a1fb17e14062de62",
+  "bytes": 133563,
+  "fetched_at": "2026-11-23T14:18:15+00:00"
+ },
+ {
+  "url": "https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/Treaty.aspx?Lang=SP",
+  "adapter": "tbinternet",
+  "sha256": "1a52ecb01e698b78e6d32824f5ddd45e872fcee8f30290cc93e84629de1986a3",
+  "bytes": 26979,
+  "fetched_at": "2026-11-23T14:16:02+00:00"
+ },
+ {
+  "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+  "adapter": "un.org",
+  "sha256": "57fe9a7ec78cb814dba5b4a7ee1b03dd4ec5f2fd9fae10867aa4913acdea4526",
+  "bytes": 105813,
+  "fetched_at": "2026-11-23T14:22:46+00:00"
+ },
+ {
+  "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights",
+  "adapter": "un.org",
+  "sha256": "0958d4009382a086ad78edd0a90128dbb81ac9b36260568674f73626356a8520",
+  "bytes": 106040,
+  "fetched_at": "2026-11-23T14:22:45+00:00"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=CCPR/C/3/Rev.12&l=es&t=pdf",
+  "adapter": "undocs",
+  "sha256": "e8a44bd0f68371be7d5728ca2042570269a564864a47e9de4b94d14e02a68521",
+  "bytes": 242550,
+  "fetched_at": "2026-11-23T14:23:14+00:00"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=CED/C/1/Rev.3&l=es&t=pdf",
+  "adapter": "undocs",
+  "sha256": "b233239aeda004e49feee6a0f48e02d26ea9f61df6ebf30b48789f1586a17f75",
+  "bytes": 355544,
+  "fetched_at": "2026-11-23T14:23:25+00:00"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=CEDAW/C/1&l=es&t=pdf",
+  "adapter": "undocs",
+  "sha256": "89a450341b31ae2054e5933091c6b77797e8c6cfd5f03e15bdfb24b3fbfcf8cc",
+  "bytes": 311704,
+  "fetched_at": "2026-11-23T14:23:16+00:00"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=CRC/C/158&l=es&t=pdf",
+  "adapter": "undocs",
+  "sha256": "2e696094efa6955cce1ee91dbf6b57f92bf4d1f0586e78ebf47f963f366c8e1d",
+  "bytes": 154160,
+  "fetched_at": "2026-11-23T14:23:23+00:00"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=CRPD/C/1/Rev.1&l=es&t=pdf",
+  "adapter": "undocs",
+  "sha256": "a13ae8496cf41a18cb4be9ec8375e849922974bc4e9ef7d5e303b04b8b5b8d4b",
+  "bytes": 316386,
+  "fetched_at": "2026-11-23T14:23:21+00:00"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=E/C.12/5&l=es&t=pdf",
+  "adapter": "undocs",
+  "sha256": "01648a34cdac94bff7ea0042f8408d83b1f282d9c70fda5d2fdfcdd110c975ef",
+  "bytes": 204316,
+  "fetched_at": "2026-11-23T14:23:19+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/Treaties.aspx?id=4&subid=A&clang=_en",
+  "adapter": "untc",
+  "sha256": "f5090eb5282105490334d50546f69f7afd4ccccc1efa81555e95f680221a9601",
+  "bytes": 136118,
+  "fetched_at": "2026-11-23T14:15:33+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/Treaties.aspx?id=5&subid=A&clang=_en",
+  "adapter": "untc",
+  "sha256": "afe7da0455e4820c940d29a316ed264f89153a9f3b6abcc4ef362912a57d3e52",
+  "bytes": 78398,
+  "fetched_at": "2026-11-23T14:15:34+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-1&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "1b32180b9321821bcf9fdd6e1257c33144f5a5eb21aa1c92332b34954f8fab9f",
+  "bytes": 352397,
+  "fetched_at": "2026-11-23T14:15:59+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "41a54543b94387d9bb69330cd31bb13825e1d3f713831a1fb28f61175442a548",
+  "bytes": 761088,
+  "fetched_at": "2026-11-23T14:15:46+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-a&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "bed6364a5cd35289f27f623d5398735597f894e4465c946d9075f9febec96c32",
+  "bytes": 134006,
+  "fetched_at": "2026-11-23T14:15:58+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-b&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "409c18c1c47ac1b08ecd6f055584428483f6fa034684ed725325f2d7b1d58638",
+  "bytes": 859125,
+  "fetched_at": "2026-11-23T14:15:47+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-c&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "2fbd4f8446a89f685b92de004e44cdc0cc9af5975b37ad54890f678527a86b96",
+  "bytes": 301193,
+  "fetched_at": "2026-11-23T14:15:48+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-11-d&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "756727a9b63099a711c231b4607bdb44dd17cd60a36b67a47e69a1e8dae553c7",
+  "bytes": 159618,
+  "fetched_at": "2026-11-23T14:15:50+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-12&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "3e31561334014c2b410a283d51d217d9e9626766acc003c43033ad28d66930b0",
+  "bytes": 249737,
+  "fetched_at": "2026-11-23T14:15:41+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-13&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "a5ab34014c1d7942e6b7b1f39c46331006824a416aeeb1c31b5e054e1cde4584",
+  "bytes": 183546,
+  "fetched_at": "2026-11-23T14:15:51+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "d1f3b935443a2dafee3160ad9665ddccd1f4fcac9f5104b56c3f49b7000b2cab",
+  "bytes": 753571,
+  "fetched_at": "2026-11-23T14:15:52+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-15-a&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "57943c718841fd843fe1a699465d2f8cd9229e158292ea3aae53ffeb6f439aa6",
+  "bytes": 175707,
+  "fetched_at": "2026-11-23T14:15:53+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-16&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "02b2cb79d8593b6764c44695ad6a570ca5fd513033de5732c825a245a36fb8dc",
+  "bytes": 325641,
+  "fetched_at": "2026-11-23T14:15:54+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "941bd71e02a8c50e525de95b47a60269d1084e299bfa8600eb2e18f7060ba0f7",
+  "bytes": 693178,
+  "fetched_at": "2026-11-23T14:15:35+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-2-a&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "b0a75bcc86af2808edabdb745b77713c7e762a60eaf598d60416ff067c03b39f",
+  "bytes": 112194,
+  "fetched_at": "2026-11-23T14:15:55+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "1cee684bb8e427f62f0badf9236f009f3013f50713e1b822e37356c8d556baed",
+  "bytes": 688342,
+  "fetched_at": "2026-11-23T14:15:36+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3-a&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "38974f408ab3e939c4f66faaebc4400ca867d2fbd095653e068953d096249527",
+  "bytes": 138609,
+  "fetched_at": "2026-11-23T14:15:37+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "59bb661f65e065a85636bc58a385cc9f9c92ac31dd79388d59cf6562e85758bf",
+  "bytes": 3302191,
+  "fetched_at": "2026-11-23T14:15:38+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-5&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "6e942bce7d4cb54ceb1b3d37338d57a384f93f159631924c7416e8cbd84ae39c",
+  "bytes": 286464,
+  "fetched_at": "2026-11-23T14:15:39+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "6eb605a966c47ab6903fd3a668da912c6027420bb0fb7d63826505fd27383f3e",
+  "bytes": 1557052,
+  "fetched_at": "2026-11-23T14:15:42+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-a&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "1c3120f495f870ad3519ac8ab4cdf160ff62de2924b5f6f99cc60b089bf4f865",
+  "bytes": 129701,
+  "fetched_at": "2026-11-23T14:15:56+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-b&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "1e403bddd436a9f1eaaece88cb3b2a3ee58431d7aedae0a307ec5576139e6345",
+  "bytes": 165981,
+  "fetched_at": "2026-11-23T14:15:43+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "96e8346165c35ec637477726348b6f5e53aac4cd9a8fc76cb2e9cbb30ddf3bb0",
+  "bytes": 982834,
+  "fetched_at": "2026-11-23T14:15:44+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-a&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "b40730e1191b4838b99ab1696d78cb4edecce44eb7dde743ecd2fbf828790ca6",
+  "bytes": 109565,
+  "fetched_at": "2026-11-23T14:15:57+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-b&chapter=4&clang=_en",
+  "adapter": "untc",
+  "sha256": "77b50f40c229dae6eb73600efd64d56de01dab0478ea60573075a8342198e842",
+  "bytes": 171201,
+  "fetched_at": "2026-11-23T14:15:45+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-2&chapter=5&clang=_en",
+  "adapter": "untc",
+  "sha256": "5d7e7acabb751f1d27b8ed3b8f8e2218f521b9abd8b417a7e983105e2de095c8",
+  "bytes": 483578,
+  "fetched_at": "2026-11-23T14:16:00+00:00"
+ },
+ {
+  "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-5&chapter=5&clang=_en",
+  "adapter": "untc",
+  "sha256": "1f9c997bd79cde2a18db11ea695dc1df77eb910d3e11c974f68645e9fc1f0b54",
+  "bytes": 230029,
+  "fetched_at": "2026-11-23T14:16:02+00:00"
+ }
+]

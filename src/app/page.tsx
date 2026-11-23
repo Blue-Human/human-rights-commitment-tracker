@@ -1,105 +1,100 @@
 import Link from "next/link";
-import { Box, Button, Container, Divider, Stack, Typography } from "@mui/material";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import { CommitmentExplorer } from "@/components/CommitmentExplorer";
-import { MonitoringList } from "@/components/MonitoringList";
+import { DimensionFilterProvider } from "@/components/DimensionFilter";
+import { EpuResults } from "@/components/EpuResults";
+import { HumanSecurityImpact } from "@/components/HumanSecurityImpact";
+import { MonitoringCard } from "@/components/MonitoringCard";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { formatDate, getAllHumanSecurityDimensions, getCommitments, getMonitoringStatus, getRecentMonitoringItems, groupByUrl } from "@/lib/hrct";
+import { dimensionNames, formatDate, getAllHumanSecurityDimensions, getAllSdgLinks, getCommitments, getDimensionDescriptions, getMonitoringStatus, getRecentMonitoringItems, groupByUrl, summarizeDimensions, type DimensionCode } from "@/lib/hrct";
+import { crossWithGoals, sdgGoal, summarizeSdgs } from "@/lib/sdg";
 
 export default async function Home() {
-  const [commitments, monitoring, dimensions, trackerStatus] = await Promise.all([
+  const [commitments, monitoring, dimensions, trackerStatus, descriptions, sdgLinks] = await Promise.all([
     getCommitments(),
     getRecentMonitoringItems(),
     getAllHumanSecurityDimensions(),
     getMonitoringStatus(),
+    getDimensionDescriptions(),
+    getAllSdgLinks(),
   ]);
-  const assessed = commitments.filter((x) => x.assessment_status && !["not_assessed", "unable_to_assess"].includes(x.assessment_status)).length;
-  const accepted = commitments.filter((x) => x.acceptance_status === "accepted").length;
-  const numbers = Object.fromEntries(commitments.map((c) => [c.public_id, c.recommendation_number || c.public_id]));
+  const response = (status: string) => commitments.filter((x) => x.acceptance_status === status).length;
+  const accepted = response("accepted"), partiallyAccepted = response("partially_accepted"), noted = response("noted");
   const developments = groupByUrl(monitoring);
   const lastScan = formatDate(trackerStatus?.last_successful_run_at);
   const monitoringCounts: Record<string, number> = {};
   for (const item of monitoring) monitoringCounts[item.public_id] = (monitoringCounts[item.public_id] || 0) + 1;
-  const dimensionsById: Record<string, string[]> = {};
+  const dimensionsById: Record<string, DimensionCode[]> = {};
   for (const d of dimensions) (dimensionsById[d.public_id] ??= []).push(d.code);
+  const unclassified = commitments.filter((c) => !dimensionsById[c.public_id]).length;
+
+  // The two classifications of the catalogue, and the recommendations they have in common.
+  const publicIds = commitments.map((c) => c.public_id);
+  const sdgs = sdgLinks && summarizeSdgs(publicIds, sdgLinks);
+  const crossed = crossWithGoals(publicIds, dimensionsById, sdgLinks || []);
+  const crossing = crossed.pairs.length > 0 ? {
+    dimensions: crossed.keys.map(({ key, total }) => ({ code: key, name: dimensionNames[key], total })),
+    goals: crossed.goals.map(({ goal, total }) => ({ number: goal, name: sdgGoal(goal)!.name, color: sdgGoal(goal)!.color, total })),
+    pairs: crossed.pairs.map(({ key, goal, count }) => ({ code: key, goal, count })),
+    both: crossed.both,
+  } : null;
 
   return (
     <>
       <SiteHeader />
-      <Box component="main">
-        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
-          <Typography variant="overline" color="secondary.main">Spain · Universal Periodic Review · Fourth cycle</Typography>
-          <Typography variant="h1" color="primary.main" sx={{ fontSize: { xs: "2.35rem", md: "3.45rem" }, mt: 1.2, maxWidth: 900 }}>
-            Human Rights Commitment Tracker
-          </Typography>
-          <Typography sx={{ mt: 2.25, maxWidth: 820, fontSize: { xs: "1rem", md: "1.08rem" }, lineHeight: 1.75, color: "text.secondary" }}>
-            Public monitoring of international human-rights recommendations and their implementation in Spain. Each record preserves the authoritative United Nations recommendation separately from Blue Human&apos;s independent assessment.
-          </Typography>
+      <DimensionFilterProvider>
+        <Box component="main">
+          <EpuResults
+            total={commitments.length} accepted={accepted} partiallyAccepted={partiallyAccepted} noted={noted}
+            classified={dimensions.length > 0 ? commitments.length - unclassified : 0}
+            sdg={sdgs ? { linked: sdgs.linked, goals: sdgs.goals.filter((g) => g.public_ids.length).length, targets: sdgs.goals.reduce((sum, g) => sum + Object.keys(g.byTarget).length, 0) } : null}
+            crossing={crossing}
+          />
 
-          <Divider sx={{ my: { xs: 4, md: 5 } }} />
+          {dimensions.length > 0 && (
+            <Container id="seguridad-humana" component="section" aria-labelledby="human-security-heading" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, scrollMarginTop: { xs: 58, md: 72 } }}>
+              <Box sx={{ mb: 2 }}>
+                <Typography variant="overline" color="text.secondary">Seguridad humana</Typography>
+                <Typography id="human-security-heading" variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>A qué seguridad afectan las recomendaciones</Typography>
+              </Box>
+              <HumanSecurityImpact dimensions={summarizeDimensions(commitments, dimensions, descriptions, monitoringCounts)} total={commitments.length} noted={noted} unclassified={unclassified} />
+            </Container>
+          )}
 
-          <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 3, md: 0 }} divider={<Divider orientation="vertical" flexItem sx={{ display: { xs: "none", md: "block" } }} />}>
-            {[
-              [commitments.length, "Published recommendations"],
-              [accepted, "Accepted by Spain"],
-              [assessed, "Implementation assessments completed"],
-              [developments.length, "Live monitoring items"],
-            ].map(([value, label]) => (
-              <Box key={String(label)} sx={{ flex: 1, px: { md: 3 }, "&:first-of-type": { pl: 0 }, "&:last-of-type": { pr: 0 } }}>
-                <Typography sx={{ fontSize: "1.85rem", fontWeight: 500, color: "primary.main", lineHeight: 1 }}>{value}</Typography>
-                <Typography variant="body2" color="text.secondary" sx={{ mt: .8 }}>{label}</Typography>
-              </Box>
-            ))}
-          </Stack>
-        </Container>
-
-        <Box sx={{ bgcolor: "#f7f8f9", borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>
-          <Container maxWidth="lg" sx={{ py: 3 }}>
-            <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 6 }}>
-              <Box sx={{ minWidth: 220 }}>
-                <Typography variant="overline" color="text.secondary">Current scope</Typography>
-                <Typography color="primary.main" sx={{ mt: .4 }}>Spain</Typography>
-              </Box>
-              <Box sx={{ minWidth: 280 }}>
-                <Typography variant="overline" color="text.secondary">Mechanism</Typography>
-                <Typography color="primary.main" sx={{ mt: .4 }}>Universal Periodic Review</Typography>
-              </Box>
-              <Box>
-                <Typography variant="overline" color="text.secondary">Authoritative source</Typography>
-                <Typography color="primary.main" sx={{ mt: .4 }}>A/HRC/60/8 · Human Rights Council</Typography>
-              </Box>
-            </Stack>
-          </Container>
-        </Box>
-
-        <Container maxWidth="lg" sx={{ pt: { xs: 5, md: 7 } }}>
-          <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" alignItems={{ md: "flex-end" }} spacing={2} sx={{ mb: 3 }}>
-            <Box>
-              <Typography variant="overline" color="text.secondary">Live monitoring</Typography>
-              <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Latest developments</Typography>
+          <Container id="recomendaciones" maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, borderTop: "1px solid", borderColor: "divider", scrollMarginTop: { xs: 58, md: 72 } }}>
+            <Box sx={{ mb: 3.5 }}>
+              <Typography variant="overline" color="text.secondary">Registro público</Typography>
+              <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Recomendaciones y valoraciones</Typography>
               <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
-                Public sources are scanned continuously for each recommendation. Items below are monitoring context or candidates for review. They are not Blue Human findings and do not change an assessment.
+                Las recomendaciones marcadas como «Valoración pendiente» forman parte del catálogo público, pero todavía no cuentan con una conclusión sobre su cumplimiento. Las que Blue Human sigue como prioritarias aparecen destacadas al principio de la lista.
               </Typography>
             </Box>
-            <Typography variant="caption" color="text.secondary" sx={{ flexShrink: 0 }}>
-              {lastScan ? `Last source scan ${lastScan}` : `${commitments.length} recommendations monitored`}
-            </Typography>
-          </Stack>
-          <MonitoringList items={developments.slice(0, 4)} numbers={numbers} empty="The live tracker has not yet published any items." />
-          <Button component={Link} href="/monitoring" sx={{ mt: 1.5, px: 0 }}>View all live monitoring</Button>
-        </Container>
+            <CommitmentExplorer commitments={commitments} dimensionsById={dimensionsById} monitoringCounts={monitoringCounts} />
+          </Container>
 
-        <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 } }}>
-          <Box sx={{ mb: 3.5 }}>
-            <Typography variant="overline" color="text.secondary">Public register</Typography>
-            <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Recommendations and assessments</Typography>
-            <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
-              Recommendations marked “Assessment pending” are included in the pilot dataset but do not yet carry an implementation finding.
-            </Typography>
-          </Box>
-          <CommitmentExplorer commitments={commitments} dimensionsById={dimensionsById} monitoringCounts={monitoringCounts} />
-        </Container>
-      </Box>
+          <Container maxWidth="lg" sx={{ py: { xs: 5, md: 7 }, borderTop: '1px solid', borderColor: 'divider' }}>
+            <Stack direction={{ xs: "column", md: "row" }} justifyContent="space-between" alignItems={{ md: "flex-end" }} spacing={2} sx={{ mb: 3 }}>
+              <Box>
+                <Typography variant="overline" color="text.secondary">Seguimiento de la actualidad</Typography>
+                <Typography variant="h2" color="primary.main" sx={{ fontSize: { xs: "1.8rem", md: "2.25rem" }, mt: .5 }}>Últimas novedades</Typography>
+                <Typography color="text.secondary" sx={{ maxWidth: 820, mt: 1.25, lineHeight: 1.7 }}>
+                  Se consultan periódicamente fuentes públicas para cada recomendación. Lo que aparece a continuación es contexto de seguimiento o material pendiente de revisión. No son conclusiones de Blue Human y no modifican ninguna valoración.
+                </Typography>
+              </Box>
+              <Typography variant="caption" color="text.secondary" sx={{ flexShrink: 0 }}>
+                {lastScan ? `Última consulta de fuentes: ${lastScan}` : `${commitments.length} recomendaciones en seguimiento`}
+              </Typography>
+            </Stack>
+            <Box sx={{ display: "grid", gridTemplateColumns: { xs: "minmax(0,1fr)", sm: "repeat(2,minmax(0,1fr))", md: "repeat(3,minmax(0,1fr))" }, gap: { xs: 1.5, md: 2.5 } }}>
+              {developments.slice(0, 3).map((item) => <MonitoringCard key={item.slug} item={item} />)}
+            </Box>
+            {!developments.length && <Typography variant="body2" color="text.secondary" sx={{ py: 2.75, borderTop: "1px solid", borderBottom: "1px solid", borderColor: "divider" }}>Todavía no se ha publicado ninguna novedad.</Typography>}
+            <Button component={Link} href="/monitoring" endIcon={<ArrowForwardRoundedIcon />} sx={{ mt: 2, px: 0 }}>Ver todas las novedades</Button>
+          </Container>
+        </Box>
+      </DimensionFilterProvider>
 
       <SiteFooter />
     </>

@@ -1,19 +1,9 @@
 "use client";
 
 import { Box, Typography } from "@mui/material";
+import { labelOf, statusLabels } from "@/lib/hrct";
 
 type Props = { status?: string | null };
-
-const labels: Record<string, string> = {
-  not_assessed: "Assessment pending",
-  implemented: "Implemented",
-  substantially_implemented: "Substantial progress",
-  in_progress: "In progress",
-  limited_progress: "Limited progress",
-  not_implemented: "No implementation",
-  unable_to_assess: "Insufficient evidence",
-  regressed: "Regressed",
-};
 
 const tones: Record<string, string> = {
   not_assessed: "#6c7882",
@@ -33,7 +23,7 @@ export function StatusChip({ status }: Props) {
     <Box sx={{ display: "inline-flex", alignItems: "center", gap: .75 }}>
       <Box sx={{ width: 7, height: 7, borderRadius: "50%", bgcolor: color, flexShrink: 0 }} />
       <Typography variant="caption" sx={{ color, fontWeight: 600 }}>
-        {labels[key] || key.replaceAll("_", " ")}
+        {labelOf(statusLabels, key)}
       </Typography>
     </Box>
   );
