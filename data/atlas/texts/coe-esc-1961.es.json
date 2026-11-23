@@ -11,7 +11,7 @@
   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1980-13567/texto",
   "eli": "https://www.boe.es/eli/es/ai/1961/10/18/(1)",
   "published": "1980-06-26",
-  "retrieved": "2026-11-16",
+  "retrieved": "2026-11-23",
   "sha256": "67f323c49cda3662bcd00d51222a884ad8b63bb77fa35d5953e1913778b3bb5e",
   "method": "boe-consolidated"
  },

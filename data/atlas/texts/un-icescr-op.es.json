@@ -11,7 +11,7 @@
   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-2081/texto",
   "eli": "https://www.boe.es/eli/es/ai/2008/12/10/(1)",
   "published": "2013-02-25",
-  "retrieved": "2026-11-16",
+  "retrieved": "2026-11-23",
   "sha256": "1861389dfa70ad55698338e8d98d7908d2cfc2d660467cd497b93ba6a14520f8",
   "method": "boe-consolidated"
  },

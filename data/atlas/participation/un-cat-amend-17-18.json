@@ -1,12 +1,12 @@
 {
  "instrument": "un-cat-amend-17-18",
  "register": "untc",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-23",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9-a&chapter=4&clang=_en",
-  "retrieved": "2026-11-16",
-  "sha256": "1fd2421353c24e57c43616c80b20cf8d2e508dbd4f43450b759fbe0f26eb8763"
+  "retrieved": "2026-11-23",
+  "sha256": "b40730e1191b4838b99ab1696d78cb4edecce44eb7dde743ecd2fbf828790ca6"
  },
  "columns": [
   "Participant",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-23",
  "note": "Estado de cada procedimiento por país según los registros oficiales; «check» significa que el dato debe comprobarse en la fuente.",
  "oas_article_62": {
   "BRA": {
@@ -162,8 +162,8 @@
   "ref": {
    "source": "au",
    "url": "https://www.african-court.org/afchpr/declarations-2/",
-   "retrieved": "2026-11-16",
-   "sha256": "53695d6269a1f550a02d54ba4a7975c902f76edd6259906264570fe8cb23e555"
+   "retrieved": "2026-11-23",
+   "sha256": "42483d8c51e2f5df4a399f224a78cc0cb3d3623d1e239dbf2bc47320de607156"
   }
  },
  "procedures": {

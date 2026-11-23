@@ -1,12 +1,12 @@
 {
  "instrument": "un-cedaw-op",
  "register": "untc",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-23",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-8-b&chapter=4&clang=_en",
-  "retrieved": "2026-11-16",
-  "sha256": "33b1a6098737e1a759b9719ceee627bf9092953c3bbb44f619d3033fa8d1c92f"
+  "retrieved": "2026-11-23",
+  "sha256": "1e403bddd436a9f1eaaece88cb3b2a3ee58431d7aedae0a307ec5576139e6345"
  },
  "columns": [
   "Participant",

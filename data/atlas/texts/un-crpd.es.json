@@ -11,7 +11,7 @@
   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2008-6963/texto",
   "eli": "https://www.boe.es/eli/es/ai/2006/12/13/(1)",
   "published": "2008-04-21",
-  "retrieved": "2026-11-16",
+  "retrieved": "2026-11-23",
   "sha256": "8e240e5af566e523bd47c11217228b9c70e5207f206f3432b9ee3b1ff5f43d01",
   "method": "boe-consolidated"
  },

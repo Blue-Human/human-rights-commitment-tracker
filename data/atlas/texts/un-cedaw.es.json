@@ -11,7 +11,7 @@
   "data_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-1984-6749/texto",
   "eli": "https://www.boe.es/eli/es/ai/1979/12/18/(1)",
   "published": "1984-03-21",
-  "retrieved": "2026-11-16",
+  "retrieved": "2026-11-23",
   "sha256": "f2eb1dec6ee6019301e8f14249517bd426616340f6a9a54d37bdef3aecc05272",
   "method": "boe-consolidated"
  },

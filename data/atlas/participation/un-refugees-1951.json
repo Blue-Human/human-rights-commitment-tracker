@@ -1,12 +1,12 @@
 {
  "instrument": "un-refugees-1951",
  "register": "untc",
- "as_of": "2026-11-16",
+ "as_of": "2026-11-23",
  "ref": {
   "source": "untc",
   "url": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=V-2&chapter=5&clang=_en",
-  "retrieved": "2026-11-16",
-  "sha256": "ba8580e9de39b8be20a5ace83256e58e3be4c7da1e30e33742cbce88ef5a2d5b"
+  "retrieved": "2026-11-23",
+  "sha256": "5d7e7acabb751f1d27b8ed3b8f8e2218f521b9abd8b417a7e983105e2de095c8"
  },
  "columns": [
   "Participant",
